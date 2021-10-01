@@ -17,7 +17,7 @@ function create_cd_div() {
     <div class="spell-cd-item">+</div>
     <input class="spell-cd-item spell-cd-bottom-border spell-cd-extra" maxlength="2" type="text" spellcheck="false" value="0" name="spell-cd-extra">
   </div>
-  `
+  `;
 }
 
 function create_dialog(circle) {
@@ -31,5 +31,5 @@ function create_dialog(circle) {
       </fieldset>
     </form>
   </div>
-  `
+  `;
 }
