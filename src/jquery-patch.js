@@ -2,7 +2,7 @@
 
 // https://stackoverflow.com/a/49023264
 function add_on_create_event() {
-  const observers = [];
+  let observers = [];
   $.event.special.create = {
 
     setup: function setup() {
@@ -37,8 +37,27 @@ function add_on_create_event() {
     }
   };
 
+  /*
+  To improve in memory usage and to prevent memory leaks, Firefox disallows add-ons to
+  keep strong references to DOM objects after their parent document has been destroyed.
+  A dead object, is holding a strong (keep alive) reference to a DOM element that persists
+  even after it was destroyed in the DOM.
+  More info here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Dead_object
+  */
+  function removeDeadObjectsReferences() {
+    observers = observers.filter(function (element) {
+      try {
+        return element[0].location != null;
+      }
+      catch (e) {
+        return false;
+      }
+    });
+  }
+
   function getObserverData(element) {
     const $el = $(element);
+    removeDeadObjectsReferences();
     return $.grep(observers, function (item) {
       return $el.is(item[0]);
     })[0];
