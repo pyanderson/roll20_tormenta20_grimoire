@@ -1,2 +1,9 @@
 *.zip
+*.xpi
+*.crx
+*.pem
+src/manifest.json
+# editors
 *.swp
+*.sublime-project
+*.sublime-workspace

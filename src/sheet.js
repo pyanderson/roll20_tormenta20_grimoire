@@ -30,9 +30,9 @@ class CharacterSheet {
   render_buttons() {
     const sheet = this;
     sheet.spells_div.on('click', 'button.repcontrol_add', function () {
-      sheet.render_dialogs();
+      sheet.render_dialogs(); // render dialogs to new spells.
     });
-    sheet.render_dialogs();
+    sheet.render_dialogs(); // render dialogs to speels that already exists.
   }
 
   render_dialogs() {
