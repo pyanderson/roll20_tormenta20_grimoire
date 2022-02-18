@@ -23,7 +23,7 @@
     {
       "resources": [
         "data/*",
-        "index.css"
+        "sheet.css",
       ],
       "matches": [
         "<all_urls>"

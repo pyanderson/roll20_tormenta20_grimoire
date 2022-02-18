@@ -21,7 +21,7 @@
   ],
   "web_accessible_resources": [
     "data/*",
-    "index.css"
+    "sheet.css",
   ],
   "icons": {
     "16": "images/16.png",

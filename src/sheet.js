@@ -192,7 +192,7 @@ class CharacterSheet {
   }
 
   add_css() {
-    const index_css_url = chrome.runtime.getURL('index.css');
-    this.iframe.find('head').append($('<link>', {'href': index_css_url, 'rel': 'stylesheet', 'text': 'text/css'}));
+    const css_url = chrome.runtime.getURL('sheet.css');
+    this.iframe.find('head').append($('<link>', {'href': css_url, 'rel': 'stylesheet', 'text': 'text/css'}));
   }
 }
