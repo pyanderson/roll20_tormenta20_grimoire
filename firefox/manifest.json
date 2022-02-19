@@ -8,6 +8,9 @@
       "matches": [
         "https://app.roll20.net/editor*"
       ],
+      "css": [
+        "tormenta20_book.css"
+      ],
       "js": [
         "third-party/jquery-3.6.0.min.js",
         "third-party/jquery-ui-1.12.1.min.js",
@@ -22,6 +25,7 @@
   "web_accessible_resources": [
     "data/*",
     "sheet.css",
+    "tormenta20_book.js"
   ],
   "icons": {
     "16": "images/16.png",
