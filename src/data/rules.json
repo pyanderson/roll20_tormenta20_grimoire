@@ -1,0 +1,13 @@
+[
+  {
+    "type": "folder",
+    "name": "Condições",
+    "items": [
+      {
+        "type": "item",
+        "name": "Abalado",
+        "description": "O personagem sofre –2 em testes de perícia. Se ficar abalado novamente, em vez disso fica apavorado. Condição de medo."
+      }
+    ]
+  }
+]
