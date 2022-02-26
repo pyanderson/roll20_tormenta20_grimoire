@@ -56,4 +56,9 @@ ul, #tormenta20_book_content {
 
 .dd-item.tormenta20-book-row {
   display: flex;
+  margin-left: 9px;
+}
+
+.tormenta20-book-icon {
+  width: 21px;
 }

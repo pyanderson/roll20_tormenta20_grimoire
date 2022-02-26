@@ -26,6 +26,7 @@
     {
       "resources": [
         "data/*",
+        "images/32.png",
         "sheet.css",
         "tormenta20_book.js"
       ],

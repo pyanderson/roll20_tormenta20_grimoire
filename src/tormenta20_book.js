@@ -1,13 +1,25 @@
 'use strict'
 
+function dummy_slugify(s){
+  return s.toLowerCase().replace(/[^\w ]+/g, '').replace(/ +/g, '-');
+}
 
-function render_modal_info(name, description) {
-  const dummy_slug = name.toLowerCase().replace(/[^\w ]+/g, '').replace(/ +/g, '-');
+function render_paragraphs(content, lines) {
+  if (lines.length == 0) return content;
+  return render_paragraphs(content + `<p>${lines[0]}</p>`, lines.slice(1))
+}
+
+function render_description(description) {
+  return render_paragraphs('', description.split('\n\n'));
+}
+
+function render_modal_info(parent, name, description) {
+  const suffix_id = `${dummy_slugify(parent)}-${dummy_slugify(name)}`;
   const modal = `
-    <div id="tormenta20-info-${dummy_slug}" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable ui-resizable" style="outline: currentcolor none 0px; z-index: 10517; position: fixed; height: 390px; width: 552px; top: 121px; left: 540px; display: block;" tabindex="-1" role="dialog" aria-labelledby="ui-id-${dummy_slug}">
+    <div id="tormenta20-info-${suffix_id}" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable ui-resizable" style="outline: currentcolor none 0px; z-index: 10517; position: fixed; height: 390px; width: 552px; top: 121px; left: 540px; display: block;" tabindex="-1" role="dialog" aria-labelledby="ui-id-${suffix_id}">
       <div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix">
-        <span id="ui-id-${dummy_slug}" class="ui-dialog-title">${name}</span>
-        <a href="#" class="ui-dialog-titlebar-close ui-corner-all" role="button" id="tormenta20-close-buuton-${dummy_slug}"><span class="ui-icon ui-icon-closethick">close</span></a>
+        <span id="ui-id-${suffix_id}" class="ui-dialog-title">${name}</span>
+        <a href="#" class="ui-dialog-titlebar-close ui-corner-all" role="button" id="tormenta20-close-button-${suffix_id}"><span class="ui-icon ui-icon-closethick">close</span></a>
       </div>
       <div class="ui-resizable-handle ui-resizable-n" style="z-index: 1000;"></div>
       <div class="ui-resizable-handle ui-resizable-e" style="z-index: 1000;"></div>
@@ -17,12 +29,12 @@ function render_modal_info(name, description) {
       <div class="ui-resizable-handle ui-resizable-sw" style="z-index: 1000;"></div>
       <div class="ui-resizable-handle ui-resizable-ne" style="z-index: 1000;"></div>
       <div class="ui-resizable-handle ui-resizable-nw" style="z-index: 1000;"></div>
-      <div id="tormenta20-info-content-${dummy_slug}" class="dialog ui-dialog-content ui-widget-content" style="display: block; width: auto; min-height: 0px; height: 303px;" scrolltop="0" scrollleft="0">
+      <div id="tormenta20-info-content-${suffix_id}" class="dialog ui-dialog-content ui-widget-content" style="display: block; width: auto; min-height: 0px; height: 303px;" scrolltop="0" scrollleft="0">
         <div class="dialog largedialog handoutviewer" style="display: block;">
            <div style="padding: 10px;">
               <div class="row-fluid">
                  <div class="span12">
-                    <div class="content note-editor notes">${description}</div>
+                    <div class="content note-editor notes">${render_description(description)}</div>
                     <div class="clear"></div>
                  </div>
               </div>
@@ -32,9 +44,9 @@ function render_modal_info(name, description) {
     </div>
     `;
   $('body').append(modal);
-  $(`#tormenta20-info-${dummy_slug}`).draggable({handle: 'div.ui-dialog-titlebar'});
-  $(`#tormenta20-close-buuton-${dummy_slug}`).on('click', function() {
-    $(`#tormenta20-info-${dummy_slug}`).remove();
+  $(`#tormenta20-info-${suffix_id}`).draggable({handle: 'div.ui-dialog-titlebar'});
+  $(`#tormenta20-close-button-${suffix_id}`).on('click', function() {
+    $(`#tormenta20-info-${suffix_id}`).remove();
   });
 }
 
@@ -59,47 +71,58 @@ function active_tree_view() {
 
   $('[name="tormenta20-modal-info-button"]').on('click', function() {
     const div = $(this);
-    render_modal_info(div.attr('item-name'), div.attr('item-description')); 
+    render_modal_info(div.attr('item-parent'), div.attr('item-name'), div.attr('item-description')); 
   });
 }
 
-function render_book_item(item) {
+function render_book_item(parent, item) {
   return `
   <li class="tormenta20-book-row journalitem dd-item">
     <div class="tormenta20-book-chat-icon" name="tormenta20-chat-info-button" item-name="${item.name}" item-description="${item.description}">
       <a class="pictos">q</a>
     </div>
-    <div class="tormenta20-book-item-name dd-content" name="tormenta20-modal-info-button" item-name="${item.name}" item-description="${item.description}">
+    <div class="tormenta20-book-item-name dd-content" name="tormenta20-modal-info-button" item-parent="${parent}" item-name="${item.name}" item-description="${item.description}">
       ${item.name}
     </div>
   </li>`;
 }
 
-function render_book_folder(folder) {
-  let content = `
+function render_book_items(parent, content, items) {
+  if (items.length == 0) return content;
+  return render_book_items(parent, content + render_book_element(parent, items[0]), items.slice(1));
+}
+
+function render_book_folder(parent, folder) {
+  return `
     <li class="dd-item dd-folder">
       <span class="tormenta20-book-folder dd-content">${folder.name}</span>
       <ul class="tormenta20-book-nested-folder">
+        ${render_book_items(`${parent}-${folder.name}`, '', folder.items)}
+      </ul>
+    </li>
   `;
-  for (let i = 0; i < folder.items.length; i++)
-    content += render_book_element(folder.items[i]);
-  return content + `</ul></li>`;
 }
 
-function render_book_element(element) {
+function render_book_element(parent, element) {
   if (element.type == 'folder')
-    return render_book_folder(element);
-  return render_book_item(element);
+    return render_book_folder(parent, element);
+  return render_book_item(parent, element);
+}
+
+function render_book_elements(parent, content, elements) {
+  if (elements.length == 0) return content;
+  return render_book_elements(parent, content + render_book_element(parent, elements[0]), elements.slice(1));
 }
 
 function render_book_content(rules) {
-  let content = `<ul id="tormenta20_book_content" class="dd-list dd folderroot">`;
-  for (let i = 0; i < rules.length; i++)
-    content += render_book_element(rules[i]);
-  return content + `</ul>`;
+  return `
+    <ul id="tormenta20_book_content" class="dd-list dd folderroot">
+      ${render_book_elements('', '', rules)}
+    </ul>
+  `;
 }
 
-function render_book_tab(rules, retry=20) { // wait the tab for 20 seconds then give up
+function render_book_tab(book, retry=20) { // wait the tab for 20 seconds then give up
   if (retry <= 0) return;
   const rightsidebar = $('#rightsidebar');
   const settings_tab = rightsidebar.find('[aria-controls="vm_settings_categories"][role="tab"]')
@@ -112,7 +135,7 @@ function render_book_tab(rules, retry=20) { // wait the tab for 20 seconds then 
   }
 
   const book_tab = settings_tab.clone(true);
-  const book_content = journal_content.clone(true).html(render_book_content(rules));
+  const book_content = journal_content.clone(true).html(render_book_content(book.rules));
 
   // set tab attrs
   book_tab
@@ -122,7 +145,7 @@ function render_book_tab(rules, retry=20) { // wait the tab for 20 seconds then 
   book_tab.find('a')
     .attr('id', 'ui-id-tormenta20')
     .attr('href', '#tormenta20_book')
-    .html('u');
+    .html($('<img>', {'src': book.icon, 'class': 'tormenta20-book-icon'}));
 
   // set content attrs
   book_content
