@@ -4,7 +4,7 @@
 
 [Firefox Extension](https://addons.mozilla.org/pt-BR/firefox/addon/roll20-grim%C3%B3rio-do-tormenta20/)
 
-Todo o conteúdo do arquivo [src/data/spells.json](src/data/spells.json) está sob a licença [OPEN GAME LICENSE](OPEN_GAME_LICENSE).
+Todo o conteúdo das pasta [src/data/](src/data/) está sob a licença [OPEN GAME LICENSE](OPEN_GAME_LICENSE).
 
 Icons from [freepik](https://www.freepik.com).
 
