@@ -1,7 +1,7 @@
 {
   "name": "Roll20: Grimório do Tormenta20",
   "description": "Escolha magias diretamente na sua ficha!",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "manifest_version": 3,
   "content_scripts": [
     {
@@ -40,8 +40,5 @@
     "32": "images/32.png",
     "48": "images/48.png",
     "128": "images/128.png"
-  },
-  "permissions": [
-    "activeTab"
-  ]
+  }
 }

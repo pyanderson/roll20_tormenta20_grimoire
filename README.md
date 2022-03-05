@@ -25,6 +25,7 @@ Vou tentar manter aqui o que já foi feito e o que pretendo fazer.
 - [x] Regras de combate _[v0.0.4]_
 - [x] Regras de condições _[v0.0.4]_
 - [x] Regras de perícias _[v0.0.4]_
+- [x] Remover permissões desnecessárias _[v0.0.5]_
 - [ ] Poderes gerais (Menu)
 - [ ] Poderes gerais (Ficha)
 - [ ] Poderes de classes (Menu)
