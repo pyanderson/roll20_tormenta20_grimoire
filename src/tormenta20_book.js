@@ -159,11 +159,40 @@ function render_book_tab(book, retry=20) { // wait the tab for 20 seconds then g
   active_tree_view();
 }
 
+function fix_right_sidebar() {
+  // the rightsidebar is not responsive, so we need to increase the min width
+  // to not break the right sidebar after adding a new menu item
+  const items_count = $('#rightsidebar').find('li[role="tab"]').length + 1
+  const min_width = Math.max(300, items_count * 39);
+
+  $('#rightsidebar').resizable({
+    handles: 'w',
+    alsoResize: '#textchat-input, #rightsidebar .tabmenu',
+    minWidth: min_width,
+    start() {
+      $('#editor-wrapper, #canvas-overlay').addClass('noshow');
+    },
+    resize() {},
+    stop() {
+      $('#editor-wrapper, #canvas-overlay').removeClass('noshow');
+      $(window).trigger('resize');
+      $('#rightsidebar')
+        .css('left', '')
+        .css('height', '100%');
+    },
+  });
+
+  $('#rightsidebar').width(min_width);
+  $('#rightsidebar .tabmenu').width(min_width - 5);
+  $(window).trigger('resize');
+};
+
 $(document).ready(function () {
   window.addEventListener("message", function(event) {
     if (event.source != window)
       return;
     if (event.data.type && (event.data.type == "FROM_CONTENT")) {
+      fix_right_sidebar();
       render_book_tab(JSON.parse(event.data.text));
     }
   }, false)
