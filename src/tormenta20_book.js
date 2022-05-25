@@ -163,7 +163,7 @@ function fix_right_sidebar() {
   // the rightsidebar is not responsive, so we need to increase the min width
   // to not break the right sidebar after adding a new menu item
   const items_count = $('#rightsidebar').find('li[role="tab"]').length + 1
-  const min_width = Math.max(300, items_count * 39);
+  const min_width = Math.max(305, (items_count * 40) + 5);
 
   $('#rightsidebar').resizable({
     handles: 'w',
@@ -184,6 +184,7 @@ function fix_right_sidebar() {
 
   $('#rightsidebar').width(min_width);
   $('#rightsidebar .tabmenu').width(min_width - 5);
+  $('#rightsidebar .tabmenu').height(36);
   $(window).trigger('resize');
 };
 
