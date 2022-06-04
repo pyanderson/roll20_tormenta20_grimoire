@@ -19,13 +19,14 @@
         "sheet.js",
         "index.js"
       ],
-      "run_at": "document_end"
+      "run_at": "document_start"
     }
   ],
   "web_accessible_resources": [
     "data/*",
     "images/32.png",
     "sheet.css",
+    "bootstrap.js",
     "tormenta20_book.js"
   ],
   "icons": {

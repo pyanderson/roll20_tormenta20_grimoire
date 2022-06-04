@@ -10,6 +10,8 @@ function load_script(path) {
   (document.head || document.documentElement).appendChild(s);
 }
 
+load_script('bootstrap.js');
+
 $(document).ready(function () {
   $(window).on('message', function (e) {
     const data = e.originalEvent.data;
