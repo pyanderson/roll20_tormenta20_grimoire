@@ -7,9 +7,11 @@ T20.modules.push({
     const div = $iframe.find('.sheet-powers-and-abilities')
     const click = function () {
       const button = $(this)
-      console.log(this, button)
       T20.utils.showSelectDialog(button, 'Poderes e Abilidades', T20.books.powers, selected => {
-        T20.api.addAbility(characterId, selected)
+        if (button.attr('rel') === 'abilities')
+          T20.api.addAbility(characterId, selected)
+        else
+          T20.api.addPower(characterId, selected)
       })
     }
     div.find('.repcontrol_add:eq(0)')

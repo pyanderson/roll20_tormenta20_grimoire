@@ -1,22 +1,27 @@
 'use strict'
 
-
 T20.api = {
+  getRowId: () => window.generateUUID().replace(/_/g, 'Z'),
   getCharacter (characterId) {
     return T20.d20.Campaign.characters.get(characterId)
   },
+  addAttribs (characterId, attrGroup, data) {
+    const char = this.getCharacter(characterId)
+    const rowId = this.getRowId()
+    Object.entries(data).forEach(([attrKey, attrValue]) => {
+      char.attribs.create({ name: `${attrGroup}_${rowId}_${attrKey}`, current: attrValue })
+    })
+  },
   addAbility (characterId, power) {
-    const char = T20.api.getCharacter(characterId)
-    const getName = id => `repeating_abilities_${id}_nameability`
-    const getDesc = id => `repeating_abilities_${id}_abilitydescription`
-    const ability = char.attribs.create({ current: power.name })
-    ability.save({ name: getName(ability.id) })
-    char.attribs.create({ name: getDesc(ability.id), current: power.description })
-    console.log({ power, attribs: char.attribs })
+    this.addAttribs(characterId, 'repeating_abilities', {
+      nameability: power.name,
+      abilitydescription: power.description,
+    })
+  },
+  addPower (characterId, power) {
+    this.addAttribs(characterId, 'repeating_powers', {
+      namepower: power.name,
+      powerdescription: power.description,
+    })
   }
 }
-
-// function add_power_to_character (id, power) {
-//   "repeating_powers_-N3gUbZkjFQQEf96oNhZ_namepower"
-//   "repeating_powers_-N3gUbZkjFQQEf96oNhZ_powerdescription"
-// }
