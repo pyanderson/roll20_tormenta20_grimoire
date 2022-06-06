@@ -23,11 +23,12 @@
     }
   ],
   "web_accessible_resources": [
-    "data/*",
     "images/32.png",
     "sheet.css",
+    "tormenta20_book.js",
     "bootstrap.js",
-    "tormenta20_book.js"
+    "modules/*",
+    "data/*"
   ],
   "icons": {
     "16": "images/16.png",

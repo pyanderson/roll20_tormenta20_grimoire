@@ -32,3 +32,13 @@ input.spell-cd-extra {
 input.spell-cd-total {
   width: 30px;
 }
+
+.charsheet .sheet-main .repcontrol>.btn.repcontrol_add {
+  display: inline-block!important;
+}
+
+.charsheet .sheet-main .repcontrol>.btn.repcontrol_more {
+  color: white;
+  font-size: 10px;
+  margin-left: -5px!important;
+}

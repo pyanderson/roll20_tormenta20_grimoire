@@ -25,11 +25,12 @@
   "web_accessible_resources": [
     {
       "resources": [
-        "data/*",
         "images/32.png",
         "sheet.css",
+        "tormenta20_book.js",
         "bootstrap.js",
-        "tormenta20_book.js"
+        "modules/*",
+        "data/*"
       ],
       "matches": [
         "<all_urls>"
