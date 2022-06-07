@@ -10,6 +10,7 @@ T20.api = {
     const rowId = this.getRowId()
     Object.entries(data).forEach(([attrKey, attrValue]) => {
       char.attribs.create({ name: `${attrGroup}_${rowId}_${attrKey}`, current: attrValue })
+      setTimeout(() => blurSheetJustCreatedElement(characterId, attrGroup, rowId, attrKey), 200)
     })
   },
   addAbility (characterId, power) {
@@ -23,5 +24,48 @@ T20.api = {
       namepower: power.name,
       powerdescription: power.description,
     })
+  },
+  addEquipment (characterId, equipment) {
+    if (equipment.type !== 'arma' || equipment.weight) {
+      this.addAttribs(characterId, 'repeating_equipment', {
+        equipquantity: equipment.amount,
+        equipname: equipment.name,
+        equipweight: equipment.weight
+      })
+    }
+    if (equipment.type === 'arma') {
+      this.addWeapon(characterId, equipment)
+    }
+  },
+  addWeapon (characterId, weapon) {
+    const data = {
+      nomeataque: weapon.name,
+      bonusataque: weapon.rollBonus,
+      danoataque: weapon.damageDice,
+      danoextraataque: weapon.damageBonus,
+      margemcriticoataque: weapon.criticalRange,
+      multiplicadorcriticoataque: weapon.criticalMultiplier,
+      ataquedescricao: '',
+      ataquepericia: { pon: '@{pontariatotal}', lut: '@{lutatotal}' }[weapon.rollSkill] || '@{lutatotal}',
+      ataquetipodedano: weapon.subtype,
+      ataquealcance: { short: 'Curto', medium: 'Médio' }[weapon.range] || '',
+      modatributodano: weapon.damageAttribute === 'for' ? '@{for_mod}' : '0',
+    }
+    if (weapon.damageDiceTwoHands) {
+      this.addAttribs(characterId, 'repeating_attacks', {
+        ...data, nomeataque: `${weapon.name} (uma mão)`
+      })
+      this.addAttribs(characterId, 'repeating_attacks', {
+        ...data, nomeataque: `${weapon.name} (duas mãos)`, danoataque: weapon.damageDiceTwoHands
+      })
+    } else {
+      this.addAttribs(characterId, 'repeating_attacks', data)
+    }
   }
+}
+
+function blurSheetJustCreatedElement (characterId, attrGroup, rowId, attrKey) {
+  $(`iframe[name="iframe_${characterId}"]`).contents()
+    .find(`[data-groupname="${attrGroup}"] [data-reprowid="${rowId}"] [name="attr_${attrKey}"]`)[0]
+    .dispatchEvent(new CustomEvent('blur'))
 }

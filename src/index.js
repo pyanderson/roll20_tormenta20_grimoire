@@ -22,9 +22,12 @@ $(document).ready(function () {
 
   load_script('modules/_api.js')
   load_script('modules/_utils.js')
+  load_script('modules/attacks-and-equipments.js')
   load_script('modules/powers-and-abilities.js')
 
+  load_book('data/equipments.json')
   load_book('data/powers.json')
+  load_book('data/rules.json')
   load_book('data/spells.json')
 
   $(window).on('message', function (e) {
