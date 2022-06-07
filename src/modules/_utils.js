@@ -23,8 +23,10 @@ T20.utils = {
     })
     form.on('submit', e => {
       e.preventDefault()
-      callback && callback(options[input.val()])
-      dialog.dialog('close')
+      if (options[input.val()]) {
+        callback && callback(options[input.val()])
+        dialog.dialog('close')
+      }
     })
     input.on('keydown', e => {
       if (e.keyCode === 13) setTimeout(() => { form.submit() }, 200)
