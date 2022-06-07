@@ -16,7 +16,6 @@
         "third-party/jquery-ui-1.12.1.min.js",
         "jquery-patch.js",
         "render.js",
-        "sheet.js",
         "index.js"
       ],
       "run_at": "document_start"
