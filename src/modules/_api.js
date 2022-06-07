@@ -5,6 +5,25 @@ T20.api = {
   getCharacter (characterId) {
     return T20.d20.Campaign.characters.get(characterId)
   },
+  updateSheetValues (characterId) {
+    this.getCharacter(characterId).view.updateSheetValues('all')
+  },
+  bootstrapFromHtml (html) {
+    const $el = $(html)
+    $el.find('*[name^="attr_"]').each(function () {
+      const $thisel = $(this)
+      const _attrname = $thisel.attr('name').substring(5).toLowerCase()
+      if ($thisel.prop('disabled')) {
+        T20.d20.journal.customSheets.availableAttributes[_attrname] = this.attributes.value.nodeValue || ''
+        T20.d20.journal.updateSheetDeps(_attrname, T20.d20.journal.customSheets.availableAttributes[_attrname])
+        $thisel.attr('data-formula', this.attributes.value.nodeValue)
+        T20.d20.journal.customSheets.reservedAttributes[_attrname] = true
+      } else {
+        T20.d20.journal.customSheets.availableAttributes[_attrname] = $thisel.val() || ''
+      }
+    })
+    return $el
+  },
   addAttribs (characterId, attrGroup, data) {
     const char = this.getCharacter(characterId)
     const rowId = this.getRowId()
@@ -23,6 +42,19 @@ T20.api = {
     this.addAttribs(characterId, 'repeating_powers', {
       namepower: power.name,
       powerdescription: power.description,
+    })
+  },
+  addSpell (characterId, spell) {
+    this.addAttribs(characterId, 'repeating_spells' + spell.circle, {
+      namespell: spell.name,
+      spelltipo: spell.type,
+      spellcd: spell.resistance && '[[ @{magia_cd} ]]',
+      spellexecucao: spell.action,
+      spellalcance: spell.range,
+      spellduracao: spell.time,
+      spellalvoarea: spell.area || spell.target,
+      spellresistencia: spell.resistance,
+      spelldescription: spell.description,
     })
   },
   addEquipment (characterId, equipment) {
