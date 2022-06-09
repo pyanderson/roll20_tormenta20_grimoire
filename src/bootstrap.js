@@ -17,7 +17,8 @@ setInterceptor('d20ext', val => {
 
 setInterceptor('d20', val => {
   console.log('T20 - D20 API FULLY INITIALIZED')
-  return T20.d20 = { ...val, environment: 'production' }
+  val.environment = 'production'
+  return T20.d20 = val
 })
 
 bootstrap_t20()
