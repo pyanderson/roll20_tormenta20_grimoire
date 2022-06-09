@@ -93,6 +93,23 @@ T20.api = {
     } else {
       this.addAttribs(characterId, 'repeating_attacks', data)
     }
+  },
+  deleteAllTokenActions (characterId) {
+    const char = this.getCharacter(characterId)
+    ;[...char.abilities.models].forEach(ability => {
+      if (!ability.attributes.action.startsWith('   ')) return
+      T20.d20.Campaign.players.each(player => {
+        player.removeFromMacroBar(ability.id)
+      })
+      ability.destroy()
+    })
+  },
+  addTokenAction (characterId, name, actionEl) {
+    const char = this.getCharacter(characterId)
+    const action = '   ' + char.expandReferencesInRoll(actionEl.val(), actionEl)
+    const newabil = char.abilities.create({ name, action, istokenaction: true })
+    char.view.$iframe.find('.abilities .body').append(newabil.view.$el)
+    newabil.view.rebindEvents(char)
   }
 }
 

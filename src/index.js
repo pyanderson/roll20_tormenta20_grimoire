@@ -31,6 +31,7 @@ $(document).ready(function () {
   load_script('modules/_api.js')
   load_script('modules/_utils.js')
   load_script('modules/attacks-and-equipments.js')
+  load_script('modules/macros.js')
   load_script('modules/powers-and-abilities.js')
   load_script('modules/spells.js')
 
