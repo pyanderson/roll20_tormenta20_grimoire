@@ -8,36 +8,50 @@ const T20 = {
   modules: []
 }
 
-console.log('Bootstraping T20...')
+console.log('T20 - Bootstraping T20...')
 
-function load_d20_api_as_developer () {
-  if (!window.d20ext) {
-    return setTimeout(load_d20_api_as_developer, 10)
-  }
-  window.d20ext.environment = 'development'
+setInterceptor('d20ext', val => {
   console.log('T20 - D20 API ENV SET TO DEVELOPMENT')
-  load_d20_to_t20()
-}
+  return { ...val, environment: 'development' }
+})
 
-function load_d20_to_t20 () {
-  if (!window.d20) {
-    return setTimeout(load_d20_to_t20, 10)
-  }
-  T20.d20 = window.d20
+setInterceptor('d20', val => {
   console.log('T20 - D20 API FULLY INITIALIZED')
-  bootstrap_t20()
+  return T20.d20 = { ...val, environment: 'production' }
+})
+
+bootstrap_t20()
+
+//
+// implementations below...
+//
+
+function setInterceptor (prop, callback) {
+  Object.defineProperty(window, prop, {
+    enumerable: true,
+    configurable: true,
+    set: newValue => {
+      delete window[prop]
+      const intercept = callback && callback(newValue)
+      window[prop] = intercept || newValue
+    }
+  })
 }
 
 function bootstrap_t20 () {
 
-  $(document).ready(() => {
+  if (!window.$ || !T20.d20) {
+    return setTimeout(bootstrap_t20, 10)
+  }
+
+  window.$(document).ready(() => {
 
     T20.modules.forEach(({ onLoad }) => {
       setTimeout(() => onLoad($('body')), 500)
       console.log('T20 - MODULES READY!')
     })
 
-    $(window).on('message', ({ originalEvent: { data } }) => {
+    window.$(window).on('message', ({ originalEvent: { data } }) => {
 
       if (data.type === 't20-book-loaded') {
         T20.books[data.book] = data.json
@@ -52,5 +66,3 @@ function bootstrap_t20 () {
     })
   })
 }
-
-load_d20_api_as_developer()
