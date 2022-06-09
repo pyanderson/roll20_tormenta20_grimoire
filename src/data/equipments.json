@@ -982,7 +982,7 @@
     "range": "",
     "rollSkill": "lut",
     "rollBonus": "0",
-    "damageDice": "1d10/1d12",
+    "damageDice": "1d10",
     "damageDiceTwoHands": "1d12",
     "damageBonus": "0",
     "damageAttribute": "for",
