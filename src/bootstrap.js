@@ -45,25 +45,24 @@ function bootstrap_t20 () {
     return setTimeout(bootstrap_t20, 10)
   }
 
-  window.$(document).ready(() => {
+  window.$(window).on('message', ({ originalEvent: { data } }) => {
+    
+    if (data.type === 't20-scripts-loaded') {
+      setTimeout(() => T20.modules.forEach(({ name, onLoad }) => {
+        onLoad(window.$('body'))
+        console.log(`T20 - ${name} loaded...`)
+      }), 1000)
+    }
 
-    T20.modules.forEach(({ onLoad }) => {
-      setTimeout(() => onLoad($('body')), 500)
-      console.log('T20 - MODULES READY!')
-    })
+    if (data.type === 't20-book-loaded') {
+      T20.books[data.book] = data.json
+    }
 
-    window.$(window).on('message', ({ originalEvent: { data } }) => {
-
-      if (data.type === 't20-book-loaded') {
-        T20.books[data.book] = data.json
-      }
-
-      if (data.type === 'loaded') {
-        const characterId = data.characterId
-        const iframe = $(`iframe[name="iframe_${characterId}"]`).contents()
-        T20.modules.forEach(({ onSheet }) => onSheet(iframe, characterId))
-        console.log('T20 - SHEET READY!')
-      }
-    })
+    if (data.type === 'loaded') {
+      const characterId = data.characterId
+      const iframe = $(`iframe[name="iframe_${characterId}"]`).contents()
+      T20.modules.forEach(({ onSheet }) => onSheet(iframe, characterId))
+      console.log('T20 - SHEET READY!')
+    }
   })
 }

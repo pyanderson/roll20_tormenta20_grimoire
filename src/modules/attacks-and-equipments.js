@@ -14,7 +14,7 @@ T20.modules.push({
           if (equip.type !== 'arma') delete options[key]
         })
       }
-      T20.utils.showSelectDialog(button, title, options, selected => {
+      T20.utils.showSelectDialog(title, options, selected => {
         T20.api.addEquipment(characterId, selected)
       })
     }

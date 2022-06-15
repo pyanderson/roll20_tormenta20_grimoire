@@ -5,8 +5,23 @@ T20.api = {
   getCharacter (characterId) {
     return T20.d20.Campaign.characters.get(characterId)
   },
-  updateSheetValues (characterId) {
-    this.getCharacter(characterId).view.updateSheetValues('all')
+  addCharacter (name, folder, attribs, skills) {
+    const newChar = T20.d20.Campaign.characters.create({ name })
+    T20.d20.journal.addItemToFolderStructure(newChar.id, T20.api.getFolderId(folder))
+    if (attribs) this.setAttribs(newChar.id, attribs)
+    newChar.view.showDialog()
+    setTimeout(() => {
+      if (skills) this.syncSkills(newChar.id, skills)
+      newChar.view.reRender()
+    }, 500)
+    return newChar.id
+  },
+  getFolderId (folderName) {
+    const folders = JSON.parse(T20.d20.Campaign.attributes.journalfolder)
+    const find = folders.find(folder => folder.n === folderName)
+    if (find) return find.id
+    T20.d20.journal.addFolderToFolderStructure(folderName)
+    return this.getFolderId(folderName)
   },
   bootstrapFromHtml (html) {
     const $el = $(html)
@@ -24,12 +39,29 @@ T20.api = {
     })
     return $el
   },
+  setAttribs (characterId, attribs) {
+    const char = this.getCharacter(characterId)
+    Object.entries(attribs).forEach(([name, current]) => {
+      const find = char.attribs.models.find(attr => attr.name === name)
+      if (find) find.save({ name, current })
+      else char.attribs.create({ name, current })
+    })
+  },
+  syncSkills (characterId, skills) {
+    const char = this.getCharacter(characterId)
+    const attribs = {}
+    Object.entries(skills).forEach(([name, current]) => {
+      const total = char.view.$el.find('iframe').contents().find(`[name=attr_${name}total]`).val()
+      attribs[`${name}outros`] = current - total
+    })
+    this.setAttribs(characterId, attribs)
+  },
   addAttribs (characterId, attrGroup, data) {
     const char = this.getCharacter(characterId)
     const rowId = this.getRowId()
-    Object.entries(data).forEach(([attrKey, attrValue]) => {
-      char.attribs.create({ name: `${attrGroup}_${rowId}_${attrKey}`, current: attrValue })
-      setTimeout(() => blurSheetJustCreatedElement(characterId, attrGroup, rowId, attrKey), 200)
+    Object.entries(data).forEach(([attrKey, current]) => {
+      char.attribs.create({ name: `${attrGroup}_${rowId}_${attrKey}`, current })
+      setTimeout(() => blurSheetJustCreatedGroupElement(characterId, attrGroup, rowId, attrKey), 200)
     })
   },
   addAbility (characterId, power) {
@@ -113,7 +145,13 @@ T20.api = {
   }
 }
 
-function blurSheetJustCreatedElement (characterId, attrGroup, rowId, attrKey) {
+function blurSheetJustCreatedElement (characterId, attrKey) {
+  $(`iframe[name="iframe_${characterId}"]`).contents()
+    .find(`[name="attr_${attrKey}"]`)[0]
+    .dispatchEvent(new CustomEvent('blur'))
+}
+
+function blurSheetJustCreatedGroupElement (characterId, attrGroup, rowId, attrKey) {
   $(`iframe[name="iframe_${characterId}"]`).contents()
     .find(`[data-groupname="${attrGroup}"] [data-reprowid="${rowId}"] [name="attr_${attrKey}"]`)[0]
     .dispatchEvent(new CustomEvent('blur'))

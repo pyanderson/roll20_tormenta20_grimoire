@@ -34,6 +34,7 @@ $(document).ready(function () {
   load_script('modules/macros.js')
   load_script('modules/powers-and-abilities.js')
   load_script('modules/spells.js')
+  load_script('modules/threats.js')
 
   load_script('sheet.css')
 
@@ -41,6 +42,8 @@ $(document).ready(function () {
   load_book('data/powers.json')
   load_book('data/rules.json')
   load_book('data/spells.json')
+
+  window.postMessage({ type: 't20-scripts-loaded' }, '*')
 
   // load tormenta20 book rules
   load_script('tormenta20_book.js')

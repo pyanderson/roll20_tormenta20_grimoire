@@ -26,7 +26,7 @@ T20.modules.push({
     const click = function () {
       const button = $(this)
       const circle = button.attr('rel')
-      T20.utils.showSelectDialog(button, `Magias de ${circle}º círculo`, T20.books.spells[circle], selected => {
+      T20.utils.showSelectDialog(`Magias de ${circle}º círculo`, T20.books.spells[circle], selected => {
         T20.api.addSpell(characterId, selected)
       })
     }
