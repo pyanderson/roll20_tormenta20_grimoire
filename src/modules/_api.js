@@ -47,12 +47,14 @@ T20.api = {
       else char.attribs.create({ name, current })
     })
   },
-  syncSkills (characterId, skills) {
+  getAttrib (characterId, attrib) {
     const char = this.getCharacter(characterId)
+    return char.view.$el.find('iframe').contents().find(`[name=attr_${attrib}]`).val()
+  },
+  syncSkills (characterId, skills) {
     const attribs = {}
     Object.entries(skills).forEach(([name, current]) => {
-      const total = char.view.$el.find('iframe').contents().find(`[name=attr_${name}total]`).val()
-      attribs[`${name}outros`] = current - total
+      attribs[`${name}outros`] = current - this.getAttrib(characterId, name + 'total')
     })
     this.setAttribs(characterId, attribs)
   },
@@ -136,9 +138,9 @@ T20.api = {
       ability.destroy()
     })
   },
-  addTokenAction (characterId, name, actionEl) {
+  addTokenAction (characterId, name, actionEl, macro) {
     const char = this.getCharacter(characterId)
-    const action = '   ' + char.expandReferencesInRoll(actionEl.val(), actionEl)
+    const action = '   ' + char.expandReferencesInRoll(macro || actionEl.val(), actionEl)
     const newabil = char.abilities.create({ name, action, istokenaction: true })
     char.view.$iframe.find('.abilities .body').append(newabil.view.$el)
     newabil.view.rebindEvents(char)

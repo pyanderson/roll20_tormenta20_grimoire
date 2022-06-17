@@ -16,9 +16,8 @@ T20.modules.push({
           For 25, Des 12, Con 23, Int 6, Sab 12, Car 9
           Perícias: Percepção +11, Oficio (lenhador) +8, Acrobacia +17.
           Tesouro 1d4 doses de veneno de Wyvern jovem (CD para extrair 19, T$ 350 cada dose).`,
-        attacks: `Mordida: +17 (2d6+7)
-          Mordida critica +17: (2d6+7, 19/x3)
-          Ferrão +17 (1d6+7 mais veneno)`,
+        attacks: `Corpo a Corpo Garras +11 (1d6+4, 19) e Sopro quente +11 (1d6+4, 19)
+          À Distância Bola de fogo +11 (1d12, 19)`,
         abilities: `Agarrar aprimorado (livre): Se o wyvern acerta um ataque de mordida, pode fazer a manobra agarrar (bônus +19).
           Veneno: uma criatura que sofra dano do ferrão do wyvern deve fazer um teste de Fortitude (CD 22). Se falhar, sofre 1d12 pontos de dano de veneno por rodada durante 1d6 rodadas.`,
       }
@@ -42,6 +41,8 @@ T20.modules.push({
       })
       T20.utils.showDialog('Adicionar ameaça', $(html), values => {
         const lines = values.info.split(/\r?\n/)
+        const attacks = values.attacks.split(/\r?\n/)
+        const abilities = values.abilities
         const skills = [
           'acrobacia', 'adestramento', 'atletismo', 'atuacao', 'cavalaria', 'conhecimento', 'cura',
           'diplomacia', 'enganacai', 'fortitude', 'furtividade', 'guerra', 'iniciativa', 'intimidacao',
@@ -73,7 +74,6 @@ T20.modules.push({
         skills.forEach(skill => {
           if (data[skill]) skillsToSync[skill] = data[skill]
         })
-        console.log({ data, skillsToSync, test: data.oficioDesc })
         const characterId = T20.api.addCharacter(data.name, 'Ameaças', {
           for: data.for, des: data.des, con: data.con, int: data.int, sab: data.sab, car: data.car,
           vida: data.vida, vidatotal: data.vida, mana: data.mana, manatotal: data.mana,
@@ -81,6 +81,12 @@ T20.modules.push({
           proficiencias: data.desl + `\n\n` + data.more1 + `\n` + data.more2 + `\n\n` + data.tesouro,
           oficionome: data.oficioDesc,
         }, skillsToSync)
+        attacks.forEach(attack => {
+          T20.api.addAttribs(characterId, 'repeating_attacks', {
+            nomeataque: attack, ataquepericia: '0'
+          })
+        })
+        if (abilities.trim()) T20.api.setAttribs(characterId, { playername: '---', charnotes: abilities })
       }, { width: '650px' })
     }
     const btn = $('<button class="btn" style="margin-right:8px;"><span class="pictos">&</span> Ameaça</button>')
