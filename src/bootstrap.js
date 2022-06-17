@@ -5,7 +5,7 @@ const T20 = {
   api: null,
   utils: null,
   books: [],
-  modules: []
+  modules: {}
 }
 
 console.log('T20 - Bootstraping T20...')
@@ -46,11 +46,11 @@ function bootstrap_t20 () {
   }
 
   window.$(window).on('message', ({ originalEvent: { data } }) => {
-    
+
     if (data.type === 't20-scripts-loaded') {
-      setTimeout(() => T20.modules.forEach(({ name, onLoad }) => {
+      setTimeout(() => Object.entries(T20.modules).forEach(([key, { onLoad }]) => {
         onLoad(window.$('body'))
-        console.log(`T20 - ${name} loaded...`)
+        console.log(`T20 - ${key} loaded...`)
       }), 1000)
     }
 

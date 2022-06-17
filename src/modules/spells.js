@@ -1,7 +1,6 @@
 'use strict'
 
-T20.modules.push({
-  name: 'spells',
+T20.modules.spells = {
   onLoad: $body => {},
   onSheet: ($iframe, characterId) => {
 
@@ -37,4 +36,4 @@ T20.modules.push({
         .after($(`<button rel="${circle}" class="btn repcontrol_more">...</button>`).click(click))
     })
   }
-})
+}

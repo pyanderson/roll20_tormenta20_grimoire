@@ -1,7 +1,6 @@
 'use strict'
 
-T20.modules.push({
-  name: 'macros',
+T20.modules.macros = {
   onLoad: $body => {},
   onSheet: ($iframe, characterId) => {
     const click = function () {
@@ -43,4 +42,4 @@ T20.modules.push({
     $iframe.find('.addabil')
       .after($('<button class="btn" style="float:right;margin-right:8px;">Sincronizar</button>').click(click))
   }
-})
+}

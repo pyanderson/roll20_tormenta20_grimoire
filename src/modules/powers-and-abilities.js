@@ -1,7 +1,6 @@
 'use strict'
 
-T20.modules.push({
-  name: 'powers-and-abilities',
+T20.modules.powers = {
   onLoad: $body => {},
   onSheet: ($iframe, characterId) => {
     const div = $iframe.find('.sheet-powers-and-abilities')
@@ -19,4 +18,4 @@ T20.modules.push({
     div.find('.repcontrol_add:eq(1)')
       .after($('<button rel="powers" class="btn repcontrol_more">...</button>').click(click))
   }
-})
+}

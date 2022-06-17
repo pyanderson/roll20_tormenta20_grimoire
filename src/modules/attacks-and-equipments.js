@@ -1,7 +1,6 @@
 'use strict'
 
-T20.modules.push({
-  name: 'attacks-and-equipments',
+T20.modules.attacks = {
   onLoad: $body => {},
   onSheet: ($iframe, characterId) => {
     const click = function () {
@@ -23,4 +22,4 @@ T20.modules.push({
     $iframe.find('.sheet-equipment-container').find('.repcontrol_add')
       .after($('<button rel="equipment" class="btn repcontrol_more">...</button>').click(click))
   }
-})
+}

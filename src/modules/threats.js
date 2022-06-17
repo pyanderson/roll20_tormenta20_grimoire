@@ -1,7 +1,6 @@
 'use strict'
 
-T20.modules.push({
-  name: 'threats',
+T20.modules.threats = {
   onLoad: $body => {
     const trimLines = str => str.split(/\r?\n/).map(line => line.trim()).join(`\n`)
     const click = () => {
@@ -97,4 +96,4 @@ T20.modules.push({
     $('.tabmenu [title=Journal] a').click()
   },
   onSheet: ($iframe, characterId) => {}
-})
+}
