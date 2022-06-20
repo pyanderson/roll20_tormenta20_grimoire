@@ -3,6 +3,7 @@
 T20.api = {
   getRowId: () => window.generateUUID().replace(/_/g, 'Z'),
   getCharacter (characterId) {
+    T20.d20.Campaign.characters.fetch()
     return T20.d20.Campaign.characters.get(characterId)
   },
   addCharacter (name, folder, attribs, skills) {
@@ -154,7 +155,7 @@ function blurSheetJustCreatedElement (characterId, attrKey) {
 }
 
 function blurSheetJustCreatedGroupElement (characterId, attrGroup, rowId, attrKey) {
-  $(`iframe[name="iframe_${characterId}"]`).contents()
+  const el = $(`iframe[name="iframe_${characterId}"]`).contents()
     .find(`[data-groupname="${attrGroup}"] [data-reprowid="${rowId}"] [name="attr_${attrKey}"]`)[0]
-    .dispatchEvent(new CustomEvent('blur'))
+  if (el) el.dispatchEvent(new CustomEvent('blur'))
 }

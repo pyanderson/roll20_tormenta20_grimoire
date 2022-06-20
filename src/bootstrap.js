@@ -61,7 +61,7 @@ function bootstrap_t20 () {
     if (data.type === 'loaded') {
       const characterId = data.characterId
       const iframe = $(`iframe[name="iframe_${characterId}"]`).contents()
-      T20.modules.forEach(({ onSheet }) => onSheet(iframe, characterId))
+      Object.values(T20.modules).forEach(module => module.onSheet(iframe, characterId))
       console.log('T20 - SHEET READY!')
     }
   })
