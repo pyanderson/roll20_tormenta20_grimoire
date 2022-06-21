@@ -11,6 +11,9 @@ T20.api = {
   },
   openSheet (char) {
     $(`.character[data-itemid=${char.id || char}]`).click()
+    setTimeout(() => {
+      $(`[data-characterid=${char.id || char}]`).closest('.ui-dialog').find('.ui-dialog-titlebar').dblclick()
+    }, 400)
   },
   closeSheet (char) {
     $(`[data-characterid=${char.id || char}]`).closest('.ui-dialog').find('.ui-dialog-titlebar-close').click()
