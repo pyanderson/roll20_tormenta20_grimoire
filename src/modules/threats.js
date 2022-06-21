@@ -35,7 +35,7 @@ T20.modules.threats = {
       html.find('.add-sample').click(() => Object.keys(samples).forEach(key => {
         html.find(`[name=${key}]`).val(trimLines(samples[key]))
       }))
-      T20.utils.showDialog('Adicionar ameaça', $(html), values => {
+      T20.utils.showDialog('Adicionar ameaça', $(html), async values => {
         const lines = values.info.split(/\r?\n/)
         const attacks = values.attacks.split(/\r?\n/)
         const abilities = values.abilities
@@ -70,7 +70,7 @@ T20.modules.threats = {
         skills.forEach(skill => {
           if (data[skill]) skillsToSync[skill] = data[skill]
         })
-        const characterId = T20.api.addCharacter(data.name, 'Ameaças', {
+        const characterId = await T20.api.addCharacter(data.name, 'Ameaças', {
           for: data.for, des: data.des, con: data.con, int: data.int, sab: data.sab, car: data.car,
           vida: data.vida, vidatotal: data.vida, mana: data.mana, manatotal: data.mana,
           charnivel: data.level, trace: data.type + ` / ` + data.size,
@@ -83,14 +83,9 @@ T20.modules.threats = {
           })
         })
         if (abilities.trim()) T20.api.setAttribs(characterId, { playername: '---', charnotes: abilities })
-        setTimeout(() => {
-          T20.api.syncSkills(characterId, { defesa: data.defesa })
-          T20.modules.macros.syncTokenActions(characterId)
-          T20.api.refreshSheet(characterId)
-        }, 3000)
-        setTimeout(() => {
-          T20.api.closeSheet(characterId)
-        }, 4000)
+        await T20.api.syncSkills(characterId, { defesa: data.defesa })
+        await T20.modules.macros.syncTokenActions(characterId)
+        await T20.api.closeSheet(characterId)
       }, { width: '650px' })
     }
     const btn = $('<button class="btn" style="margin-right:8px;"><span class="pictos">&</span> Ameaça</button>')

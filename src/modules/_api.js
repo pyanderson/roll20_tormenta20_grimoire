@@ -9,27 +9,36 @@ T20.api = {
   getIframe (char) {
     return $(`[data-characterid=${char.id || char}] iframe`).contents()
   },
-  openSheet (char) {
-    $(`.character[data-itemid=${char.id || char}]`).click()
-    setTimeout(() => {
-      $(`[data-characterid=${char.id || char}]`).closest('.ui-dialog').find('.ui-dialog-titlebar').dblclick()
-    }, 400)
+  async openSheet (char) {
+    const charMenu = () => $(`.character[data-itemid=${char.id || char}]`)
+    const charTitle = () => $(`[data-characterid=${char.id || char}]`).closest('.ui-dialog').find('.ui-dialog-titlebar')
+    const charSheet = () => this.getIframe(char).find('[data-tab=charsheet]')
+    await checkTimeout(() => charMenu().length)
+    charMenu().click()
+    await checkTimeout(() => charTitle().length)
+    await sleep(50)
+    charTitle().dblclick()
+    await checkTimeout(() => charSheet().length)
+    await sleep(50)
+    charSheet().click()
+    await sleep(500)
   },
-  closeSheet (char) {
-    $(`[data-characterid=${char.id || char}]`).closest('.ui-dialog').find('.ui-dialog-titlebar-close').click()
+  async closeSheet (char) {
+    const close = () => $(`[data-characterid=${char.id || char}]`).closest('.ui-dialog').find('.ui-dialog-titlebar-close')
+    await checkTimeout(() => close().length)
+    close().click()
+    await sleep(500)
   },
-  refreshSheet (char) {
-    this.closeSheet(char)
-    this.openSheet(char)
-    setTimeout(() => this.getIframe(char).find('[data-tab=charsheet]').click(), 500)
+  async refreshSheet (char) {
+    await this.closeSheet(char)
+    await this.openSheet(char)
   },
-  addCharacter (name, folder, attribs, skills) {
+  async addCharacter (name, folder, attribs, skills) {
     const newChar = T20.d20.Campaign.characters.create({ name })
     T20.d20.journal.addItemToFolderStructure(newChar.id, T20.api.getFolderId(folder))
     if (attribs) this.setAttribs(newChar.id, attribs)
-    setTimeout(() => this.openSheet(newChar), 500)
-    setTimeout(() => skills && this.syncSkills(newChar, skills), 1500)
-    setTimeout(() => this.refreshSheet(newChar), 2000)
+    await this.openSheet(newChar)
+    skills && await this.syncSkills(newChar, skills)
     return newChar.id
   },
   getFolderId (folderName) {
@@ -63,17 +72,22 @@ T20.api = {
       else char.attribs.create({ name, current })
     })
   },
-  getAttrib (characterId, attrib) {
-    return this.getIframe(characterId).find(`[name=attr_${attrib}]`).val()
-  },
-  syncSkills (characterId, skills) {
-    const attribs = {}
-    Object.entries(skills).forEach(([name, current]) => {
-      current = parseInt(current)
-      const total = parseInt(this.getAttrib(characterId, name + 'total'))
-      attribs[`${name}outros`] = current - total
+  async getAttrib (characterId, attrib) {
+    const input = () => this.getIframe(characterId).find(`[name=attr_${attrib}]`)
+    await checkTimeout(() => {
+      return input().length && !input().val().startsWith('@')
     })
+    return input().val()
+  },
+  async syncSkills (characterId, skills) {
+    const attribs = {}
+    for (const name in skills) {
+      const current = parseInt(skills[name])
+      const total = parseInt(await this.getAttrib(characterId, name + 'total'))
+      attribs[`${name}outros`] = current - total
+    }
     this.setAttribs(characterId, attribs)
+    await this.refreshSheet(characterId)
   },
   addAttribs (characterId, attrGroup, data) {
     const char = this.getCharacter(characterId)

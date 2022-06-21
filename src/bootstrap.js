@@ -21,11 +21,28 @@ setInterceptor('d20', val => {
   return T20.d20 = val
 })
 
-bootstrap_t20()
+checkTimeout(() => window.$ && T20.d20, bootstrap_t20)
 
 //
 // implementations below...
 //
+
+function sleep (ms) {
+  return new Promise(resolve => setTimeout(resolve, ms))
+}
+
+function checkTimeout (checkFunction, callbackFunction, resolve) {
+  if (checkFunction()) {
+    callbackFunction && callbackFunction()
+    return resolve && resolve()
+  }
+  if (resolve) {
+    return setTimeout(() => checkTimeout(checkFunction, callbackFunction, resolve), 10)
+  }
+  return new Promise(resolve => {
+    return setTimeout(() => checkTimeout(checkFunction, callbackFunction, resolve), 10)
+  })
+}
 
 function setInterceptor (prop, callback) {
   Object.defineProperty(window, prop, {
@@ -41,15 +58,11 @@ function setInterceptor (prop, callback) {
 
 function bootstrap_t20 () {
 
-  if (!window.$ || !T20.d20) {
-    return setTimeout(bootstrap_t20, 10)
-  }
-
-  window.$(window).on('message', ({ originalEvent: { data } }) => {
+  $(window).on('message', ({ originalEvent: { data } }) => {
 
     if (data.type === 't20-scripts-loaded') {
       setTimeout(() => Object.entries(T20.modules).forEach(([key, { onLoad }]) => {
-        onLoad(window.$('body'))
+        onLoad($('body'))
         console.log(`T20 - ${key} loaded...`)
       }), 1000)
     }

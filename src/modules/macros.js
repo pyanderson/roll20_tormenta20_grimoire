@@ -1,9 +1,9 @@
 'use strict'
 
 T20.modules.macros = {
-  syncTokenActions (characterId) {
+  async syncTokenActions (characterId) {
     const $iframe = T20.api.getIframe(characterId)
-    const isThreatSheet = T20.api.getAttrib(characterId, 'playername') === '---'
+    const isThreatSheet = await T20.api.getAttrib(characterId, 'playername') === '---'
     const threatAttackMacro = `
         &{template:t20-attack}
         {{character=@{character_name}}}
