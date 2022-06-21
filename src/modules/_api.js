@@ -6,15 +6,27 @@ T20.api = {
     T20.d20.Campaign.characters.fetch()
     return T20.d20.Campaign.characters.get(characterId)
   },
+  getIframe (char) {
+    return $(`[data-characterid=${char.id || char}] iframe`).contents()
+  },
+  openSheet (char) {
+    $(`.character[data-itemid=${char.id || char}]`).click()
+  },
+  closeSheet (char) {
+    $(`[data-characterid=${char.id || char}]`).closest('.ui-dialog').find('.ui-dialog-titlebar-close').click()
+  },
+  refreshSheet (char) {
+    this.closeSheet(char)
+    this.openSheet(char)
+    setTimeout(() => this.getIframe(char).find('[data-tab=charsheet]').click(), 500)
+  },
   addCharacter (name, folder, attribs, skills) {
     const newChar = T20.d20.Campaign.characters.create({ name })
     T20.d20.journal.addItemToFolderStructure(newChar.id, T20.api.getFolderId(folder))
     if (attribs) this.setAttribs(newChar.id, attribs)
-    newChar.view.showDialog()
-    setTimeout(() => {
-      if (skills) this.syncSkills(newChar.id, skills)
-      newChar.view.reRender()
-    }, 500)
+    setTimeout(() => this.openSheet(newChar), 500)
+    setTimeout(() => skills && this.syncSkills(newChar, skills), 1500)
+    setTimeout(() => this.refreshSheet(newChar), 2000)
     return newChar.id
   },
   getFolderId (folderName) {
@@ -49,13 +61,14 @@ T20.api = {
     })
   },
   getAttrib (characterId, attrib) {
-    const char = this.getCharacter(characterId)
-    return char.view.$el.find('iframe').contents().find(`[name=attr_${attrib}]`).val()
+    return this.getIframe(characterId).find(`[name=attr_${attrib}]`).val()
   },
   syncSkills (characterId, skills) {
     const attribs = {}
     Object.entries(skills).forEach(([name, current]) => {
-      attribs[`${name}outros`] = current - this.getAttrib(characterId, name + 'total')
+      current = parseInt(current)
+      const total = parseInt(this.getAttrib(characterId, name + 'total'))
+      attribs[`${name}outros`] = current - total
     })
     this.setAttribs(characterId, attribs)
   },
@@ -64,7 +77,7 @@ T20.api = {
     const rowId = this.getRowId()
     Object.entries(data).forEach(([attrKey, current]) => {
       char.attribs.create({ name: `${attrGroup}_${rowId}_${attrKey}`, current })
-      setTimeout(() => blurSheetJustCreatedGroupElement(characterId, attrGroup, rowId, attrKey), 200)
+      setTimeout(() => this.blurSheetJustCreatedGroupElement(characterId, attrGroup, rowId, attrKey), 200)
     })
   },
   addAbility (characterId, power) {
@@ -131,6 +144,7 @@ T20.api = {
   },
   deleteAllTokenActions (characterId) {
     const char = this.getCharacter(characterId)
+    char.abilities.fetch()
     ;[...char.abilities.models].forEach(ability => {
       if (!ability.attributes.action.startsWith('   ')) return
       T20.d20.Campaign.players.each(player => {
@@ -143,19 +157,12 @@ T20.api = {
     const char = this.getCharacter(characterId)
     const action = '   ' + char.expandReferencesInRoll(macro || actionEl.val(), actionEl)
     const newabil = char.abilities.create({ name, action, istokenaction: true })
-    char.view.$iframe.find('.abilities .body').append(newabil.view.$el)
+    this.getIframe(char).find('.abilities .body').append(newabil.view.$el)
     newabil.view.rebindEvents(char)
+  },
+  blurSheetJustCreatedGroupElement (characterId, attrGroup, rowId, attrKey) {
+    const el = this.getIframe(characterId)
+      .find(`[data-groupname="${attrGroup}"] [data-reprowid="${rowId}"] [name="attr_${attrKey}"]`)[0]
+    if (el) el.dispatchEvent(new CustomEvent('blur'))
   }
-}
-
-function blurSheetJustCreatedElement (characterId, attrKey) {
-  $(`iframe[name="iframe_${characterId}"]`).contents()
-    .find(`[name="attr_${attrKey}"]`)[0]
-    .dispatchEvent(new CustomEvent('blur'))
-}
-
-function blurSheetJustCreatedGroupElement (characterId, attrGroup, rowId, attrKey) {
-  const el = $(`iframe[name="iframe_${characterId}"]`).contents()
-    .find(`[data-groupname="${attrGroup}"] [data-reprowid="${rowId}"] [name="attr_${attrKey}"]`)[0]
-  if (el) el.dispatchEvent(new CustomEvent('blur'))
 }

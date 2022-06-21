@@ -86,6 +86,7 @@ T20.modules.threats = {
           })
         })
         if (abilities.trim()) T20.api.setAttribs(characterId, { playername: '---', charnotes: abilities })
+        setTimeout(() => T20.modules.macros.syncTokenActions(characterId), 3000)
       }, { width: '650px' })
     }
     const btn = $('<button class="btn" style="margin-right:8px;"><span class="pictos">&</span> Ameaça</button>')

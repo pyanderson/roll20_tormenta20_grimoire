@@ -1,8 +1,8 @@
 'use strict'
 
 T20.modules.macros = {
-  syncTokenActions ($iframe, characterId) {
-    T20.api.deleteAllTokenActions(characterId)
+  syncTokenActions (characterId) {
+    const $iframe = T20.api.getIframe(characterId)
     const isThreatSheet = T20.api.getAttrib(characterId, 'playername') === '---'
     const threatAttackMacro = `
         &{template:t20-attack}
@@ -32,6 +32,7 @@ T20.modules.macros = {
         actions.push({ el, name })
       })
     })
+    T20.api.deleteAllTokenActions(characterId)
     actions.forEach(({ el, name, macro }, i) => {
       const orderSpacing = ' '.repeat(actions.length - i)
       T20.api.addTokenAction(characterId, `${orderSpacing} ${name}`, el, macro)
@@ -40,7 +41,7 @@ T20.modules.macros = {
   onLoad ($body) {},
   onSheet ($iframe, characterId) {
     const button = $('<button class="btn" style="float:right;margin-right:8px;">Sincronizar</button>')
-      .click(() => this.syncTokenActions($iframe, characterId))
+      .click(() => this.syncTokenActions(characterId))
     $iframe.find('.addabil').after(button)
   }
 }
