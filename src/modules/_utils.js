@@ -7,21 +7,27 @@ T20.utils = {
       .append('<input type="submit" tabindex="-1" style="position:absolute; top:-1000px">')
     dialog.dialog({
       autoOpen: true,
-      buttons: {
+      buttons: callback ? {
         Confirmar: () => form.submit(),
         Cancelar: () => dialog.dialog('close')
+      } : {
+        Ok: () => dialog.dialog('close')
       },
       close: () => dialog.remove(),
       ...extraOptions
     })
-    form.on('submit', e => {
+    form.on('submit', async e => {
       e.preventDefault()
       const formValues = {}
       form.find(':input').each(function () {
         const name = $(this).attr('name')
         if (name) formValues[name] = $(this).val()
       })
-      callback && callback(formValues)
+      try {
+        callback && await callback(formValues)
+      } catch (err) {
+        return err.message && alert(err.message)
+      }
       dialog.dialog('close')
     })
     setTimeout(() => {

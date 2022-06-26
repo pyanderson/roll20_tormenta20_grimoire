@@ -61,8 +61,8 @@ function bootstrap_t20 () {
   $(window).on('message', ({ originalEvent: { data } }) => {
 
     if (data.type === 't20-scripts-loaded') {
-      setTimeout(() => Object.entries(T20.modules).forEach(([key, { onLoad }]) => {
-        onLoad($('body'))
+      setTimeout(() => Object.entries(T20.modules).forEach(([key, module]) => {
+        module.onLoad($('body'))
         console.log(`T20 - ${key} loaded...`)
       }), 1000)
     }
