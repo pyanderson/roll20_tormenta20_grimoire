@@ -2,7 +2,7 @@
 
 T20.utils = {
   showDialog (title, inputsEl, callback, extraOptions = {}) {
-    const dialog = $(`<div title="${title}"><form>`)
+    const dialog = $(`<div class="${extraOptions.class || ''}" title="${title}"><form>`)
     const form = dialog.find('form').append(inputsEl)
       .append('<input type="submit" tabindex="-1" style="position:absolute; top:-1000px">')
     dialog.dialog({
@@ -16,6 +16,17 @@ T20.utils = {
       close: () => dialog.remove(),
       ...extraOptions
     })
+    const modal = dialog.closest('.ui-dialog')
+    const titleBar = modal.find('.ui-dialog-titlebar')
+    const content = modal.find('.ui-dialog-content')
+    if (extraOptions.padding) {
+      content.css({ padding: extraOptions.padding })
+    }
+    if (!title) {
+      titleBar.css({ padding: 0, border: 0 })
+      titleBar.find('.ui-dialog-titlebar-close').css({ top: 10, right: 0, zIndex: 10 })
+      titleBar.find('.ui-dialog-title').remove()
+    }
     form.on('submit', async e => {
       e.preventDefault()
       const formValues = {}
@@ -33,6 +44,7 @@ T20.utils = {
     setTimeout(() => {
       form.find(':input:eq(0)').focus()
     }, 1500)
+    return modal
   },
   showSelectDialog (title, options, callback) {
     const input = $('<input type="text" name="value" value="" placeholder="Digite para buscar...">')
