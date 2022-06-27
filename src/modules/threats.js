@@ -40,7 +40,8 @@ T20.modules.threats = {
       /^(?<equip>equip.*)$/i,
       /^(?<tesouro>tesouro.*)$/i,
     ])
-    const data = { name: lines.shift() }
+    const nameNd = lines.shift().split('ND')
+    const data = { name: nameNd[0], nd: 'ND' + (nameNd[1] || ' ?') }
     const attacks = []
     const rest = lines.filter(line => {
       const find = tests.filter(regex => {
@@ -72,13 +73,14 @@ T20.modules.threats = {
       int: data.int || 0, sab: data.sab || 0, car: data.car || 0,
       vida: data.vida || 0, vidatotal: data.vida || 0,
       mana: data.mana || 0, manatotal: data.mana || 0,
-      charnivel: data.level || 1,
+      charnivel: data.level || 1, tlevel: data.nd,
       trace: (data.type || '') + (data.type && data.size && ` / `) + (data.size || ''),
       proficiencias: '',
     }
     if (data.desl) attribs.proficiencias += data.desl
     if (data.more1) attribs.proficiencias += `\n` + data.more1
     if (data.more2) attribs.proficiencias += `\n` + data.more2
+    if (data.equip) attribs.proficiencias += `\n\n` + data.equip
     if (data.tesouro) attribs.proficiencias += `\n\n` + data.tesouro
     if (data.oficioDesc) attribs.oficionome = data.oficioDesc
     attribs.proficiencias = attribs.proficiencias.trim()

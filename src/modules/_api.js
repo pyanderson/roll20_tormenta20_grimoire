@@ -42,7 +42,7 @@ T20.api = {
     return newChar.id
   },
   getFolderId (folderName) {
-    const folders = JSON.parse(T20.d20.Campaign.attributes.journalfolder)
+    const folders = JSON.parse(T20.d20.Campaign.attributes.journalfolder || '[]')
     const find = folders.find(folder => folder.n === folderName)
     if (find) return find.id
     T20.d20.journal.addFolderToFolderStructure(folderName)

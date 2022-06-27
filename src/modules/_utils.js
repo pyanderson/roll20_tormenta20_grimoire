@@ -37,6 +37,7 @@ T20.utils = {
       try {
         callback && await callback(formValues)
       } catch (err) {
+        console.error(err)
         return err.message && alert(err.message)
       }
       dialog.dialog('close')
