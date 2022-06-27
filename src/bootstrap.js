@@ -37,10 +37,10 @@ function checkTimeout (checkFunction, callbackFunction, resolve) {
     return resolve && resolve()
   }
   if (resolve) {
-    return setTimeout(() => checkTimeout(checkFunction, callbackFunction, resolve), 10)
+    return setTimeout(() => checkTimeout(checkFunction, callbackFunction, resolve), 50)
   }
   return new Promise(resolve => {
-    return setTimeout(() => checkTimeout(checkFunction, callbackFunction, resolve), 10)
+    return setTimeout(() => checkTimeout(checkFunction, callbackFunction, resolve), 50)
   })
 }
 

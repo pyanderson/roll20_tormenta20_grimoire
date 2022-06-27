@@ -37,6 +37,7 @@ $(document).ready(function () {
   load_script('modules/spells.js')
   load_script('modules/threats.js')
   load_script('modules/tokens.js')
+  load_script('modules/tracker.js')
 
   load_script('sheet.css')
 
