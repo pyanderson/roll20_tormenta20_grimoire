@@ -1,7 +1,7 @@
 'use strict'
 
 T20.modules.meet = {
-  getBaseLink: () => `https://meet.jit.si/${campaign_id}`,
+  getBaseLink () { return `https://meet.jit.si/${campaign_id}` },
   click () {
     $('.t20-meet-dialog').each(function () {
       $(this).dialog('destroy')
@@ -13,7 +13,7 @@ T20.modules.meet = {
       width: 300, buttons: null, padding: '0', class: 't20-meet-dialog'
     })
     iframe.contents()
-    dialog.css({ top: '', bottom: 0, left: 0, zIndex: 200000 })
+    dialog.css({ top: '', bottom: 0, left: 0, zIndex: 100000 })
   },
   async onLoad ($body) {
     await checkTimeout(() => $('#player_displayname').val() && $('#helpsite').length)
@@ -22,7 +22,7 @@ T20.modules.meet = {
         <i class="fa fa-video"></i>
         <div class="submenu"><ul><li class="copy-link"><i class="fa fa-link"></i> Copy link </li></ul></div>
       </li>
-    `).click(this.click)
+    `).click(() => this.click())
     $('#helpsite').after(entry)
     entry.find('.copy-link').click(() => {
       navigator.clipboard.writeText(this.getBaseLink())
