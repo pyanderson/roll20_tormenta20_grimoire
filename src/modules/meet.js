@@ -8,7 +8,7 @@ T20.modules.meet = {
     }).remove()
     const player = $('#player_displayname').val()
     const meetLink = this.getBaseLink() + `#config.prejoinPageEnabled=false&userInfo.displayName="${player}"`
-    const iframe = $(`<iframe frameBorder="0" src="${meetLink}" allow="camera *;microphone *" style="height: 300px; width: 100%;">`)
+    const iframe = $(`<iframe frameBorder="0" src='${meetLink}' allow="camera *;microphone *" style="height: 300px; width: 100%;">`)
     const dialog = T20.utils.showDialog('', iframe, null, {
       width: 300, buttons: null, padding: '0', class: 't20-meet-dialog'
     })
