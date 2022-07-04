@@ -23,8 +23,8 @@ T20.utils = {
       content.css({ padding: extraOptions.padding })
     }
     if (!title) {
-      titleBar.css({ padding: 0, border: 0 })
-      titleBar.find('.ui-dialog-titlebar-close').css({ top: 10, right: 0, zIndex: 10 })
+      titleBar.css({ padding: 8 })
+      titleBar.find('.ui-dialog-titlebar-close').css({ top: 7, right: 0, zIndex: 10 })
       titleBar.find('.ui-dialog-title').remove()
     }
     form.on('submit', async e => {
