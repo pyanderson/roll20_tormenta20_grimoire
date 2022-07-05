@@ -29,6 +29,8 @@ T20.modules.meet = {
       </li>
     `)
     $('#helpsite').after(entry)
+    $('.dark-mode-switch').css('top', 380)
+
     entry.find('.fa-video, .toggle').click(() => this.click())
     entry.find('.copy-link').click(() => {
       navigator.clipboard.writeText(this.getBaseLink())
