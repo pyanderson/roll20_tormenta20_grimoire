@@ -31,6 +31,7 @@ $(document).ready(function () {
   load_script('modules/_api.js')
   load_script('modules/_utils.js')
   load_script('modules/attacks-and-equipments.js')
+  load_script('modules/handouts.js')
   load_script('modules/macros.js')
   load_script('modules/meet.js')
   load_script('modules/powers-and-abilities.js')
@@ -55,13 +56,7 @@ $(document).ready(function () {
     .then((response) => response.json())
     .then((rules) => {
       const book = { 'rules': rules, 'icon': chrome.runtime.getURL('images/32.png') }
-      window.postMessage(
-        {
-          type: 'FROM_CONTENT',
-          text: JSON.stringify(book)
-        },
-        '*'
-      )
+      window.postMessage({ type: 'FROM_CONTENT', text: JSON.stringify(book) }, '*')
     })
 
   $(window).on('message', ({ originalEvent: { data } }) => {

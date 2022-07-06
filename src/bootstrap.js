@@ -21,7 +21,32 @@ setInterceptor('d20', val => {
   return T20.d20 = val
 })
 
-checkTimeout(() => window.$ && T20.d20, bootstrap_t20)
+window.addEventListener('message', ({ data }) => {
+
+  if (data.type === 't20-scripts-loaded') {
+    setTimeout(() => {
+      Object.entries(T20.modules).forEach(([key, module]) => {
+        module.onLoad($('body'))
+        console.log(`T20 - ${key} loaded...`)
+      })
+    }, 500)
+  }
+
+  if (data.type === 't20-book-loaded') {
+    T20.books[data.book] = data.json
+  }
+
+  if (data.type === 'loaded') {
+    const characterId = data.characterId
+    const iframe = $(`iframe[name="iframe_${characterId}"]`).contents()
+    console.log(T20.modules)
+    Object.values(T20.modules).forEach(async (module) => {
+      await checkTimeout(() => iframe.find('#dialog-window').length)
+      module.onSheet(iframe, characterId)
+    })
+    console.log('T20 - SHEET READY!')
+  }
+})
 
 //
 // implementations below...
@@ -52,30 +77,6 @@ function setInterceptor (prop, callback) {
       delete window[prop]
       const intercept = callback && callback(newValue)
       window[prop] = intercept || newValue
-    }
-  })
-}
-
-function bootstrap_t20 () {
-
-  $(window).on('message', ({ originalEvent: { data } }) => {
-
-    if (data.type === 't20-scripts-loaded') {
-      setTimeout(() => Object.entries(T20.modules).forEach(([key, module]) => {
-        module.onLoad($('body'))
-        console.log(`T20 - ${key} loaded...`)
-      }), 1000)
-    }
-
-    if (data.type === 't20-book-loaded') {
-      T20.books[data.book] = data.json
-    }
-
-    if (data.type === 'loaded') {
-      const characterId = data.characterId
-      const iframe = $(`iframe[name="iframe_${characterId}"]`).contents()
-      Object.values(T20.modules).forEach(module => module.onSheet(iframe, characterId))
-      console.log('T20 - SHEET READY!')
     }
   })
 }

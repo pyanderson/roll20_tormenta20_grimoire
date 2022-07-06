@@ -1,10 +1,15 @@
 'use strict'
 
 T20.api = {
-  getRowId: () => window.generateUUID().replace(/_/g, 'Z'),
+  isGM: () => window.is_gm,
+  getUuid: () => window.generateUUID().replace(/_/g, 'Z'),
   getCharacter (characterId) {
     T20.d20.Campaign.characters.fetch()
     return T20.d20.Campaign.characters.get(characterId)
+  },
+  getHandout (handoutId) {
+    T20.d20.Campaign.handouts.fetch()
+    return T20.d20.Campaign.handouts.get(handoutId)
   },
   getIframe (char) {
     return $(`[data-characterid=${char.id || char}] iframe`).contents()
@@ -91,7 +96,7 @@ T20.api = {
   },
   addAttribs (characterId, attrGroup, data) {
     const char = this.getCharacter(characterId)
-    const rowId = this.getRowId()
+    const rowId = this.getUuid()
     Object.entries(data).forEach(([attrKey, current]) => {
       char.attribs.create({ name: `${attrGroup}_${rowId}_${attrKey}`, current })
       setTimeout(() => this.blurSheetJustCreatedGroupElement(characterId, attrGroup, rowId, attrKey), 200)

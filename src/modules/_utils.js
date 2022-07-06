@@ -1,6 +1,18 @@
 'use strict'
 
 T20.utils = {
+  closeContextMenu () {
+    T20.d20.token_editor.closeContextMenu()
+  },
+  getCurrentPage () {
+    return T20.d20.Campaign.activePage()
+  },
+  getCurrentLayer () {
+    return window.currentEditingLayer
+  },
+  getCanvasMousePos () {
+    return [...T20.d20.engine.mousePos]
+  },
   showDialog (title, inputsEl, callback, extraOptions = {}) {
     const dialog = $(`<div class="${extraOptions.class || ''}" title="${title}"><form>`)
     const form = dialog.find('form').append(inputsEl)
