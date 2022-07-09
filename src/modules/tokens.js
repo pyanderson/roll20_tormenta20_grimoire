@@ -45,16 +45,19 @@ T20.modules.tokens = {
       if (!url) return
       const token = T20.d20.token_editor.currentRadialTarget.model
       const char = token.character
-      console.log({ token, char })
       token.save({ imgsrc: url })
-      char.save({
-        avatar: url,
-        defaulttoken: new Date().getTime()
-      })
-      char.updateBlobs({
-        defaulttoken: JSON.stringify(token)
-      })
+
+      const toDelete = ['id', 'z_index', 'type', 'top', 'left', 'statusmarkers', 'statusdead', 'sides',
+        'pageid', 'page_id', 'locked', 'layer', 'lastmove', 'isdrawing', 'groupwidth', 'gmnotes',
+        'currentSide', 'cardid', 'adv_fow_view_distance', 'anim_autoplay', 'anim_loop', 'anim_paused_at']
+
+      const rawToken = JSON.parse(JSON.stringify(token))
+      toDelete.forEach(key => delete rawToken[key])
+
+      char.save({ avatar: url, defaulttoken: new Date().getTime() })
+      char.updateBlobs({ defaulttoken: JSON.stringify(rawToken) })
     }
+
     const button1 = $(`<div class="button button-6 open action" data-action-type="">
         <div class="inner"><span class="pictos">b</span></div></div>`).click(syncTokenBars)
 

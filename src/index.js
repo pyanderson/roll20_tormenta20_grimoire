@@ -47,7 +47,7 @@ $(document).ready(function () {
   load_book('data/rules.json')
   load_book('data/spells.json')
 
-  window.postMessage({ type: 't20-scripts-loaded' }, '*')
+  setTimeout(() => window.postMessage({ type: 't20-scripts-loaded' }, '*'), 100)
 
   // load tormenta20 book rules
   load_script('tormenta20_book.js')

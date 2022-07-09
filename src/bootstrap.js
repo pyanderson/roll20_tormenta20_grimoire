@@ -21,15 +21,14 @@ setInterceptor('d20', val => {
   return T20.d20 = val
 })
 
-window.addEventListener('message', ({ data }) => {
+window.addEventListener('message', async ({ data }) => {
 
   if (data.type === 't20-scripts-loaded') {
-    setTimeout(() => {
-      Object.entries(T20.modules).forEach(([key, module]) => {
-        module.onLoad($('body'))
-        console.log(`T20 - ${key} loaded...`)
-      })
-    }, 500)
+    await checkTimeout(() => $('#editor').length)
+    Object.entries(T20.modules).forEach(([key, module]) => {
+      module.onLoad($('body'))
+      console.log(`T20 - ${key} onLoad()...`)
+    })
   }
 
   if (data.type === 't20-book-loaded') {
@@ -39,12 +38,11 @@ window.addEventListener('message', ({ data }) => {
   if (data.type === 'loaded') {
     const characterId = data.characterId
     const iframe = $(`iframe[name="iframe_${characterId}"]`).contents()
-    console.log(T20.modules)
-    Object.values(T20.modules).forEach(async (module) => {
-      await checkTimeout(() => iframe.find('#dialog-window').length)
+    Object.entries(T20.modules).map(async ([key, module]) => {
+      await checkTimeout(() => iframe.find('.sheet-logo-tormenta').length)
       module.onSheet(iframe, characterId)
+      console.log(`T20 - ${key} onSheet()...`)
     })
-    console.log('T20 - SHEET READY!')
   }
 })
 
