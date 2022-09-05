@@ -5,10 +5,12 @@ class CharacterSheet {
   character_id = null;
   character_data = null;
   spells_div = null;
+  powers_div = null;
   spells = null;
+  powers = null;
 
   constructor(iframe, character_id) {
-    this.load_spells();
+    this.load_data();
     this.iframe = iframe;
     this.character_id = character_id;
     this.character_data = this.read_character_data();
@@ -20,38 +22,39 @@ class CharacterSheet {
       const div = $(this);
       if (div.attr('class') == 'sheet-left-container') {
         sheet.spells_div = div.find('div.sheet-spells');
-        sheet.render_buttons();
+        sheet.powers_div = div.find('div.sheet-powers-and-abilities');
+        sheet.render_spells_buttons();
+        sheet.render_powers_buttons();
         sheet.render_cd();
       }
     })
     sheet.add_css();
   }
 
-  render_buttons() {
+  render_spells_buttons() {
     const sheet = this;
     sheet.spells_div.on('click', 'button.repcontrol_add', function () {
-      sheet.render_dialogs(); // render dialogs to new spells.
+      sheet.render_spells_dialogs_buttons(); // render dialogs to new spells.
     });
-    sheet.render_dialogs(); // render dialogs to speels that already exists.
+    sheet.render_spells_dialogs_buttons(); // render dialogs to speels that already exists.
   }
 
-  render_dialogs() {
-    for (const div_container of this.spells_div.find('div.repcontainer')) {
+  render_spells_dialogs_buttons() {
+    const sheet = this;
+    for (const div_container of sheet.spells_div.find('div.repcontainer')) {
       const container = $(div_container);
       const circle = container.attr('data-groupname').slice(-1);
       for (const div of $(container).find('div.sheet-extra')) {
-        this.render_spell_sheet($(div), circle);
+        sheet.render_spell_sheet($(div), circle);
       }
     }
   }
 
   render_spell_sheet(spell_sheet, circle) {
     const sheet = this;
-    if (spell_sheet.find('button').length > 0) {
-      return
-    }
-    spell_sheet.prepend('<button class="sheet-singleline" name="choose-spell">Escolher Magia</button>')
-    spell_sheet.prepend(create_dialog(circle));
+    if (spell_sheet.find('button').length > 0) return;  // if the button already exists, ignore
+    spell_sheet.prepend('<button class="sheet-singleline" name="choose-spell">Escolher Magia</button>');
+    spell_sheet.prepend(create_spell_dialog(circle));
     const button = spell_sheet.find('button[name="choose-spell"]');
     const form = spell_sheet.find('form[name="spell-form"]');
     const input = form.find('input[name="spell-name"]');
@@ -68,7 +71,7 @@ class CharacterSheet {
       }
     });
     form.on('submit', function () {
-      sheet.fill_sheet(spell_sheet, sheet.spells[circle][input.val()]);
+      sheet.fill_pell_sheet(spell_sheet, sheet.spells[circle][input.val()]);
       dialog.dialog('close');
       return false;
     });
@@ -99,10 +102,8 @@ class CharacterSheet {
     });
   }
 
-  fill_sheet(sheet, spell) {
-    if (spell === undefined) {
-      return
-    }
+  fill_spell_sheet(sheet, spell) {
+    if (spell === undefined) return;
     sheet.parent().find('input[name="attr_namespell"]').focus().val(spell['nome']);
     sheet.find('input[name="attr_spelltipo"]').focus().val(spell['tipo']);
     sheet.find('input[name="attr_spellexecucao"]').focus().val(spell['execução']);
@@ -116,6 +117,91 @@ class CharacterSheet {
     } else {
       sheet.find('input[name="attr_spellcd"]').focus().val('');
     }
+  }
+
+  render_powers_buttons() {
+    const sheet = this;
+    sheet.powers_div.on('click', 'button.repcontrol_add', function () {
+      sheet.render_powers_dialogs_buttons(); // render dialogs to new powers.
+    });
+    sheet.render_powers_dialogs_buttons(); // render dialogs to powers that already exists.
+  }
+
+  render_powers_dialogs_buttons() {
+    const sheet = this;
+    for (const div_container of sheet.powers_div.find('div.repcontainer')) {
+      for (const div of $(div_container).find('div.sheet-extra')) {
+        sheet.render_power_sheet($(div));
+      }
+    }
+  }
+
+  render_power_sheet(power_sheet) {
+    const sheet = this;
+    if (power_sheet.find('button[name="choose-power"]').length > 0) return;  // if the button already exists, ignore
+    power_sheet.prepend('<button class="sheet-singleline" name="choose-power">Escolher Poder</button>');
+    power_sheet.prepend(create_power_dialog());
+    power_sheet.css('flex-direction', 'column');
+    const button = power_sheet.find('button[name="choose-power"]');
+    const form = power_sheet.find('form[name="power-form"]');
+    const select = form.find('select[name="power-type"]');
+    const input = form.find('input[name="power-name"]');
+    const dialog = power_sheet.find('div[name="power-dialog"]').dialog({
+      autoOpen: false,
+      closeText: '',
+      buttons: {
+        Confirmar: function () {form.submit();},
+        Cancelar: function () {dialog.dialog('close');}
+      },
+      close: function () {
+        form[0].reset();
+        input.autocomplete('destroy');
+      }
+    });
+    form.on('submit', function () {
+      sheet.fill_power_sheet(power_sheet, sheet.powers[select.val()][input.val()]);
+      dialog.dialog('close');
+      return false;
+    });
+    input.on('keydown', function (e) {
+      if (e.keyCode === 13) {
+        form.submit();
+        return false;
+      }
+    })
+    $.widget('ui.autocomplete', $.ui.autocomplete, {
+      _renderItem: function (ul, item) {
+        return $('<li>')
+          .attr('value', item.value)
+          .attr('class', 'select-option-item')
+          .attr('style', 'list-style-type:none;')
+          .append(item.label)
+          .appendTo(ul);
+      },
+      _resizeMenu: function () {
+        const width = parseInt(input.css('width').split('px')[0]) + 10;
+        this.menu.element.outerWidth(`${width}px`);
+      }
+    });
+    button.click(function () {
+      select.empty();
+      for (const option of Object.keys(sheet.powers).sort()) {
+        select.append($('<option>', { value: option, text : option }));
+      }
+      input.autocomplete({source: Object.keys(sheet.powers[select.val()])});
+      select.change(function () {
+        input.autocomplete({source: Object.keys(sheet.powers[select.val()])});
+        input.val('');
+      })
+      dialog.dialog('open');
+      dialog.dialog('widget').position({my: 'center', at: 'center', of: button});
+    });
+  }
+
+  fill_power_sheet (sheet, power) {
+    if (power === undefined) return;
+    sheet.parent().find('input[name="attr_nameability"]').focus().val(power['nome']);
+    sheet.find('textarea[name="attr_abilitydescription"]').focus().val(power['descrição']);
   }
 
   render_cd() {
@@ -183,12 +269,17 @@ class CharacterSheet {
     localStorage.setItem(`grimoire_${this.character_id}`, JSON.stringify(this.character_data));
   }
 
-  load_spells() {
+  load_data() {
     const sheet = this;
-    const url = chrome.runtime.getURL('data/spells.json');
-    fetch(url)
+    const spells_url = chrome.runtime.getURL('data/spells.json');
+    const powers_url = chrome.runtime.getURL('data/powers.json');
+
+    fetch(spells_url)
       .then((response) => response.json())
       .then((json) => sheet.spells = json);
+    fetch(powers_url)
+      .then((response) => response.json())
+      .then((json) => sheet.powers = json);
   }
 
   add_css() {
