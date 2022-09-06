@@ -242,7 +242,7 @@
           {
             "type": "item",
             "name": "Atravessar um Espaço Ocupado",
-            "description": "Você pode se mover livremente através de um espaço (ou um quadrado) ocupado por um aliado. No entanto, não pode atravessar um quadrado ocupado por um inimigo, a menos que ele esteja indefeso ou seja pelo menos três categorias de tamanho maior ou menor que você. Você também pode atravessar um espaço ocupado por um inimigo usando a perícia Acrobacia ou a manobra atropelar."
+            "description": "Você pode se mover livremente através de um espaço (ou um quadrado) ocupado por um aliado. No entanto, não pode atravessar um quadrado ocupado por um inimigo, a menos que ele esteja indefeso ou seja pelo menos três categorias de tamanho maior ou menor que você. Um inimigo caído conta como uma categoria de tamanho menor para esse efeito. Você também pode atravessar um espaço ocupado por um inimigo usando a perícia Acrobacia ou a manobra atropelar."
           },
           {
             "type": "item",
@@ -321,7 +321,7 @@
       {
         "type": "item",
         "name": "Apavorado",
-        "description": "O personagem sofre –5 em testes de perícia e deve fugir da fonte do medo da maneira mais eficiente possível. Se não puder, poderá agir, mas não poderá se aproximar voluntariamente da fonte do medo. Condição de medo."
+        "description": "O personagem sofre –5 em testes de perícia e deve fugir da fonte do medo da maneira mais eficiente possível (mas pode parar de fazê-lo assim que a perder de vista ou se afastar mais do que alcance médio). Se não puder, poderá agir, mas não poderá se aproximar voluntariamente da fonte do medo. Condição de medo."
       },
       {
         "type": "item",
@@ -336,12 +336,12 @@
       {
         "type": "item",
         "name": "Cego",
-        "description": "O personagem fica desprevenido e lento, não pode fazer testes de Percepção para observar e sofre –5 em testes de perícias baseadas em Força ou Destreza. Todos os alvos de seus ataques recebem camuflagem total. Condição de sentidos."
+        "description": "O personagem fica desprevenido e lento, não pode fazer testes de Percepção para observar e sofre –5 em testes de perícias baseadas em Força ou Destreza. Você é considerado cego enquanto estiver em uma área de escuridão total, a menos que algo lhe permita perceber no escuro. Todos os alvos de seus ataques recebem camuflagem total. Condição de sentidos."
       },
       {
         "type": "item",
         "name": "Confuso",
-        "description": "O personagem comporta-se de modo aleatório. Role 1d6 no início de seus turnos: 1) Movimenta-se em uma direção escolhida por uma rolagem de 1d8; 2-3) Não pode fazer ações, exceto reações, e fica balbuciando incoerentemente; 4-5) Usa a arma que estiver empunhando para atacar a criatura mais próxima, ou a si mesmo se estiver sozinho (nesse caso, apenas role o dano); 6) A condição termina e pode agir normalmente. Condição mental."
+        "description": "O personagem comporta-se de modo aleatório. Role 1d6 no início de seus turnos: 1) Movimenta-se em uma direção escolhida por uma rolagem de 1d8; 2-3) Não pode fazer ações e fica balbuciando incoerentemente; 4-5) Usa a arma que estiver empunhando para atacar a criatura mais próxima, ou a si mesmo se estiver sozinho (nesse caso, apenas role o dano); 6) A condição termina e pode agir normalmente. Condição mental."
       },
       {
         "type": "item",
@@ -351,7 +351,7 @@
       {
         "type": "item",
         "name": "Desprevenido",
-        "description": "Despreparado para reagir. O personagem sofre –5 na Defesa e em Reflexos. Você fica desprevenido contra inimigos que não possa ver."
+        "description": "Despreparado para reagir. O personagem sofre –5 na Defesa e em Reflexos. Você fica desprevenido contra inimigos que não possa perceber."
       },
       {
         "type": "item",
@@ -376,7 +376,7 @@
       {
         "type": "item",
         "name": "Envenenado",
-        "description": "O efeito desta condição varia de acordo com o veneno. Pode ser outra condição (por exemplo, fraco ou enjoado) ou dano recorrente (por exemplo, 1d12 pontos de dano por rodada). A descrição do veneno determina a duração dele (caso nada seja dito, a condição dura pela cena)."
+        "description": "O efeito desta condição varia de acordo com o veneno. Pode ser outra condição (por exemplo, fraco ou enjoado) ou dano recorrente (por exemplo, 1d12 pontos de dano por rodada). A descrição do veneno determina a duração dele (caso nada seja dito, a condição dura pela cena). Dano recorrente de condições envenenado sempre se acumula (mesmo se as condições ou fontes que as causam forem iguais)."
       },
       {
         "type": "item",
@@ -416,7 +416,7 @@
       {
         "type": "item",
         "name": "Inconsciente",
-        "description": "O personagem fica indefeso e não pode fazer ações, incluindo reações. Balançar uma criatura para acordá-la gasta uma ação padrão."
+        "description": "O personagem fica indefeso e não pode fazer ações, incluindo reações. Entretanto, uma criatura inconsciente ainda pode fazer testes que sejam naturalmente feitos quando se está inconsciente (como testes de Constituição para estabilizar sangramento ou testes de Fortitude contra doenças). Balançar uma criatura para acordá-la gasta uma ação padrão."
       },
       {
         "type": "item",

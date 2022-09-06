@@ -90,7 +90,7 @@
     },
     "Faro": {
       "nome": "Faro",
-      "descrição": "Você tem olfato apurado. Você não fica desprevenido e sofre apenas camuflagem (em vez de camuflagem total) contra inimigos em alcance curto que não possa ver.\n"
+      "descrição": "Você tem olfato apurado. Contra inimigos que não possa ver, a criatura não fica desprevenida e camuflagem total lhe causa apenas 20% de chance de falha em alcance curto.\n"
     },
     "Medo de Altura": {
       "nome": "Medo de Altura",
@@ -154,7 +154,11 @@
     },
     "Lógica Gnômica": {
       "nome": "Lógica Gnômica",
-      "descrição": "Quando faz um teste de atributo ou perícia, você pode gastar 2 PM para substituir o modificador de atributo utilizado por Inteligência. Por exemplo, ao fazer um teste de Atletismo você pode gastar 2 PM para usar seu modificador de Inteligência em vez do modificador de Força.\n"
+      "descrição": "ESTA HABILIDADE FOI REMOVIDA NA ERRATA. Quando faz um teste de atributo ou perícia, você pode gastar 2 PM para substituir o modificador de atributo utilizado por Inteligência. Por exemplo, ao fazer um teste de Atletismo você pode gastar 2 PM para usar seu modificador de Inteligência em vez do modificador de Força.\n"
+    },
+    "Engenhosidade": {
+      "nome": "Engenhosidade",
+      "descrição": "Quando faz um teste de perícia, você pode gastar 2 PM para receber um bônus igual ao seu modificador de Inteligência no teste. Você não pode usar esta habilidade em testes de ataque. Caso receba esta habilidade novamente, seu custo é reduzido em –1 PM.\n"
     },
     "Ossos Frágeis": {
       "nome": "Ossos Frágeis",
@@ -390,7 +394,7 @@
     },
     "Animais Totêmicos": {
       "nome": "Animais Totêmicos",
-      "descrição": "A seguir está uma lista de animais venerados por tribos bárbaras de Arton.\n• Coruja. A sábia coruja guia seus discípulos. Você pode lançar Orientação.\n• Corvo. Um seguidor do corvo enxerga além do véu. Você pode lançar Visão Mística.\n• Falcão. Sempre atento, o falcão permite que você lance Detectar Ameaças.\n• Grifo. O mais veloz dos animais, o grifo permite que você lance Primor Atlético.\n• Lobo. O lobo é feroz e letal. Você pode lançar Concentração de Combate.\n• Raposa. A sagaz raposa nunca está onde se espera. Você pode lançar Imagem Espelhada.\n• Tartaruga. A tartaruga protege os seus. Você pode lançar Armadura Arcana.\n• Urso. O vigoroso urso permite que você lance Vitalidade Fantasma.\n"
+      "descrição": "A seguir está uma lista de animais venerados por tribos bárbaras de Arton.\n• Coruja. A sábia coruja guia seus discípulos. Você pode lançar Orientação.\n• Corvo. Um seguidor do corvo enxerga além do véu. Você pode lançar Visão Mística.\n• Falcão. Sempre atento, o falcão permite que você lance Detectar Ameaças.\n• Grifo. O mais veloz dos animais, o grifo permite que você lance Primor Atlético.\n• Lobo. O lobo é feroz e letal. Você pode lançar Concentração de Combate.\n• Raposa. A sagaz raposa nunca está onde se espera. Você pode lançar Imagem Espelhada.\n• Tartaruga. A tartaruga protege os seus. Você pode lançar Armadura Arcana.\n• Urso. O vigoroso urso permite que você lance Vitalidade Fantasma e pode usar seus aprimoramentos como se tivesse acesso aos mesmos círculos de magia que um druida de seu nível teria.\n"
     },
     "Alma de Bronze": {
       "nome": "Alma de Bronze",
@@ -568,11 +572,11 @@
     },
     "Paródia": {
       "nome": "Paródia",
-      "descrição": "Uma vez por rodada, quando vê alguém lançando uma magia em alcance médio, você pode pagar 1 PM e fazer um teste de Atuação (CD 15 + custo em PM da magia). Se passar, até o final de seu próximo turno você pode lançar essa magia. Este poder é uma habilidade mágica.\n"
+      "descrição": "Uma vez por rodada, quando vê alguém lançando uma magia em alcance médio, você pode gastar uma reação e 1 PM e fazer um teste de Atuação (CD 15 + custo em PM da magia). Se passar, até o final de seu próximo turno você pode lançar essa magia. Este poder é uma habilidade mágica.\n"
     },
     "Prestidigitação": {
       "nome": "Prestidigitação",
-      "descrição": "Quando faz uma ação padrão qualquer, você pode aproveitar seus gestos para lançar uma magia de ilusão. Faça um teste de Atuação (CD 15 + custo em PM da magia). Se passar, você lança a magia como uma ação livre. Outros personagens só percebem que você lançou uma magia se passarem num teste de Misticismo (CD 20). Se falhar, a magia não funciona, mas você gasta os PM mesmo assim.\n"
+      "descrição": "Quando faz uma ação padrão qualquer, você pode aproveitar seus gestos para lançar uma magia. Faça um teste de Atuação (CD 15 + custo em PM da magia). Se passar, você lança a magia como uma ação livre. Outros personagens só percebem que você lançou uma magia se passarem num teste de Misticismo (CD 20). Se falhar, a magia não funciona, mas você gasta os PM mesmo assim. Pré-requisito: 6º nível de bardo\n"
     },
     "Eclético": {
       "nome": "Eclético",
@@ -646,7 +650,7 @@
     },
     "Flagelo dos Mares": {
       "nome": "Flagelo dos Mares",
-      "descrição": "Você aprende e pode lançar Amedrontar (atributo-chave Carisma). Esta não é uma habilidade mágica e provém de sua capacidade de incutir medo em seus inimigos. Pré-requisito: treinado em Intimidação.\n"
+      "descrição": "Você aprende e pode lançar Amedrontar (atributo-chave Carisma) e pode usar seus aprimoramentos como se tivesse acesso aos mesmos círculos de magia que um bardo de seu nível teria. Esta não é uma habilidade mágica e provém de sua capacidade de incutir medo em seus inimigos. Pré-requisito: treinado em Intimidação.\n"
     },
     "Folião": {
       "nome": "Folião",
@@ -670,7 +674,7 @@
     },
     "Ripostar": {
       "nome": "Ripostar",
-      "descrição": "Quando usa a habilidade aparar e evita o ataque, você pode gastar 1 PM. Se fizer isso, pode fazer um ataque corpo a corpo imediato contra o inimigo que o atacou (se ele estiver em alcance). Pré-requisito: Aparar, 12º nível de bucaneiro.\n"
+      "descrição": "Quando usa a habilidade aparar e evita o ataque, você pode gastar uma reação e 1 PM. Se fizer isso, pode fazer um ataque corpo a corpo imediato contra o inimigo que o atacou (se ele estiver em alcance). Pré-requisito: Aparar, 12º nível de bucaneiro.\n"
     },
     "Touché": {
       "nome": "Touché",
@@ -804,7 +808,7 @@
     },
     "Mestre Caçador": {
       "nome": "Mestre Caçador",
-      "descrição": "No 20º nível, você pode usar a habilidade Marca da Presa como uma ação livre. Além disso, quando usa a habilidade, pode gastar +5 PM para aumentar sua margem de ameaça contra a criatura em +2. Se você reduz uma criatura contra a qual usou Marca da Presa a 0 pontos de vida, recupera 5 PM.\n"
+      "descrição": "No 20º nível, você pode usar a habilidade Marca da Presa como uma ação livre. Além disso, quando usa a habilidade, pode pagar +5 PM para aumentar sua margem de ameaça contra a criatura em +2. Se você reduz uma criatura contra a qual usou Marca da Presa a 0 pontos de vida, recupera 5 PM.\n"
     }
   },
   "Cavaleiro": {
@@ -886,7 +890,7 @@
     },
     "Postura de Combate: Provocação Petulante": {
       "nome": "Postura de Combate: Provocação Petulante",
-      "descrição": "Enquanto esta postura estiver ativa, inimigos que atacarem um aliado seu em alcance curto devem fazer um teste de Vontade (CD Car). Se falharem, devem atacá-lo (ou gastar a ação para se mover em sua direção, caso não consiga atacá-lo de onde estiver).\n"
+      "descrição": "Enquanto essa postura estiver ativa, todos os inimigos que iniciarem seus turnos em alcance curto devem fazer um teste de Vontade (CD Car). Se falharem, qualquer ação hostil que realizarem deve ter você como alvo (mas suas outras ações não têm esta restrição). Ações hostis incluem ataques e quaisquer outras ações que causem dano e/ou condições negativas.\n"
     },
     "Postura de Combate: Torre Inabalável": {
       "nome": "Postura de Combate: Torre Inabalável",
@@ -1042,7 +1046,7 @@
     },
     "Aspecto do Outono": {
       "nome": "Aspecto do Outono",
-      "descrição": "Você aprende uma magia de necromancia, arcana ou divina, de qualquer círculo que possa lançar. Você pode gastar 1 PM para impor uma penalidade de –2 nos testes de resistência de todos os inimigos em alcance médio até o início do seu próximo turno. Durante o outono, suas magias de druida custam −1 PM.\n"
+      "descrição": "Você aprende uma magia de necromancia, arcana ou divina, de qualquer círculo que possa lançar (e pode lançá-la mesmo se necromancia não for uma de suas escolas). Você pode gastar 1 PM para impor uma penalidade de –2 nos testes de resistência de todos os inimigos em alcance médio até o início do seu próximo turno. Durante o outono, suas magias de druida custam −1 PM.\n"
     },
     "Aspecto da Primavera": {
       "nome": "Aspecto da Primavera",
@@ -1204,11 +1208,11 @@
     },
     "Golpe Pessoal": {
       "nome": "Golpe Pessoal",
-      "descrição": "Você pode gastar uma ação padrão e uma quantidade de PM para fazer um ataque usando seu Golpe Pessoal, uma técnica única, com efeitos determinados por você. Você constrói o seu Golpe Pessoal escolhendo efeitos da lista a seguir. Cada efeito possui um custo; a soma deles será o custo do Golpe Pessoal (mínimo 1 PM e máximo igual ao seu nível). O Golpe Pessoal só pode ser usado com um tipo de arma específico (por exemplo, apenas espadas longas). Quando sobe de nível, você pode reconstruir seu Golpe Pessoal e alterar a arma que ele usa. Você pode escolher este poder outras vezes para golpes diferentes. Pré-requisito: 5º nível de guerreiro.\n"
+      "descrição": "Quando faz um ataque, você pode desferir seu Golpe Pessoal, uma manobra única, com efeitos determinados por você. Você constrói o seu Golpe Pessoal escolhendo efeitos da lista a seguir. Cada efeito possui um custo; a soma deles será o custo do Golpe Pessoal (mínimo 1 PM e máximo igual ao seu nível). O Golpe Pessoal só pode ser usado com um tipo de arma específico (por exemplo, apenas espadas longas). Quando sobe de nível, você pode reconstruir seu Golpe Pessoal e alterar a arma que ele usa. Você pode escolher este poder outras vezes para golpes diferentes. Você não pode gastar mais pontos de mana em golpes pessoais em uma mesma rodada do que seu limite de PM para este poder. Pré-requisito: 5º nível de guerreiro.\n"
     },
     "Efeitos do Golpe Pessoal": {
       "nome": "Efeitos do Golpe Pessoal",
-      "descrição": "À Distância (+1 PM). Aumenta o alcance em um passo (de corpo a corpo para curto, médio e longo). Outras características não mudam (um ataque corpo a corpo com alcance curto continua usando Luta e modificador de Força no dano).\nAmplo (+3 PM). Seu ataque atinge todas as criaturas em alcance curto (incluindo aliados, mas não você mesmo). Faça um único teste de ataque e compare com a Defesa de cada criatura.\nAtordoante (+2 PM). Uma criatura que sofra dano do ataque fica atordoada por uma rodada (Fortitude CD For anula).\nBrutal (+1 PM). Aumenta o dano em mais um dado do mesmo tipo.\nConjurador (Custo da Magia + 1 PM). Escolha uma magia de 1º ou 2º círculos que tenha como alvo uma criatura ou que afete uma área. Se acertar seu golpe, você lança a magia como uma ação livre, tendo como alvo a criatura atingida ou como centro de sua área o ponto atingido pelo ataque (atributo-chave é um mental a sua escolha).\nDestruidor (+2 PM). Aumenta o multiplicador de crítico em +1.\nElemental (+2 PM). Causa +2d6 pontos de dano de ácido, eletricidade, fogo ou frio. Você pode escolher este efeito várias vezes, aumentando o dano em +2d6 e o custo em +2 PM a cada vez.\nImpactante (+1 PM). Empurra o alvo 1,5m para cada 5 pontos de dano causado (arredondado para baixo). Por exemplo, um ataque que cause 22 pontos de dano empurra o alvo 6m.\nLetal (+2 PM). Aumenta a margem de ameaça em +2. Você pode escolher este efeito duas vezes para aumentar a margem de ameaça em +5.\nPenetrante (+1 PM). Ignora 5 pontos de resistência a dano. Você pode escolher este efeito duas vezes, para ignorar 10 pontos de RD.\nPreciso (+1 PM). Quando faz o teste de ataque, você rola dois dados e usa o melhor resultado.\nQualquer Arma (+1 PM). Você pode usar seu Golpe Pessoal com qualquer tipo de arma.\nTeleguiado (+1 PM). Ignora penalidades por camuflagem ou cobertura (mas não cobertura total).\nLento (–1 PM). Seu ataque exige uma ação completa para ser usado.\nPerto da Morte (–2 PM). Seu ataque só pode ser usado se você estiver com um quarto de seus pontos de vida ou menos.\nSacrifício (–2 PM). Você perde PV igual à metade do dano causado pelo seu ataque.\n"
+      "descrição": "À Distância (+1 PM). Aumenta o alcance em um passo (de corpo a corpo para curto, médio e longo). Outras características não mudam (um ataque corpo a corpo com alcance curto continua usando Luta e modificador de Força no dano).\nAmplo (+3 PM). Seu ataque atinge todas as criaturas em alcance curto (incluindo aliados, mas não você mesmo). Faça um único teste de ataque e compare com a Defesa de cada criatura.\nAtordoante (+2 PM). Uma criatura que sofra dano do ataque fica atordoada por uma rodada (Fortitude CD For anula). Se passar no teste de Fortitude, a criatura não poderá mais ser atordoada por este Golpe Pessoal até o fim da cena.\nBrutal (+1 PM). Aumenta o dano em mais um dado do mesmo tipo.\nConjurador (Custo da Magia + 1 PM). Escolha uma magia de 1º ou 2º círculos que tenha como alvo uma criatura ou que afete uma área. Se acertar seu golpe, você lança a magia como uma ação livre, tendo como alvo a criatura atingida ou como centro de sua área o ponto atingido pelo ataque (atributo-chave é um mental a sua escolha).\nDestruidor (+2 PM). Aumenta o multiplicador de crítico em +1.\nElemental (+2 PM). Causa +2d6 pontos de dano de ácido, eletricidade, fogo ou frio. Você pode escolher este efeito várias vezes, aumentando o dano em +2d6 e o custo em +2 PM a cada vez.\nImpactante (+1 PM). Empurra o alvo 1,5m para cada 5 pontos de dano causado (arredondado para baixo). Por exemplo, um ataque que cause 22 pontos de dano empurra o alvo 6m.\nLetal (+2 PM). Aumenta a margem de ameaça em +2. Você pode escolher este efeito duas vezes para aumentar a margem de ameaça em +5.\nPenetrante (+1 PM). Ignora 5 pontos de resistência a dano. Você pode escolher este efeito duas vezes, para ignorar 10 pontos de RD.\nPreciso (+1 PM). Quando faz o teste de ataque, você rola dois dados e usa o melhor resultado.\nQualquer Arma (+1 PM). Você pode usar seu Golpe Pessoal com qualquer tipo de arma.\nTeleguiado (+1 PM). Ignora penalidades por camuflagem ou cobertura (mas não cobertura total).\nLento (–1 PM). Seu ataque exige uma ação completa para ser usado.\nPerto da Morte (–2 PM). Seu ataque só pode ser usado se você estiver com um quarto de seus pontos de vida ou menos.\nSacrifício (–2 PM). Você perde PV igual à metade do dano causado pelo seu ataque.\n"
     },
     "Ímpeto": {
       "nome": "Ímpeto",
@@ -1258,7 +1262,7 @@
     },
     "Especialista": {
       "nome": "Especialista",
-      "descrição": "Escolha um número de perícias treinadas igual ao seu bônus de Inteligência (mínimo 1). Ao fazer um teste de uma dessas perícias, você pode gastar 1 PM para dobrar seu bônus de treinamento. Você não pode usar esta habilidade em testes de ataque.\n"
+      "descrição": "Escolha um número de perícias treinadas igual ao seu bônus de Inteligência (mínimo 1), exceto bônus temporários. Ao fazer um teste de uma dessas perícias, você pode gastar 1 PM para dobrar seu bônus de treinamento. Você não pode usar esta habilidade em testes de ataque.\n"
     },
     "Evasão": {
       "nome": "Evasão",
@@ -1298,11 +1302,11 @@
     },
     "Mão na Boca": {
       "nome": "Mão na Boca",
-      "descrição": "Você recebe +2 em testes de agarrar. Quando faz um ataque furtivo contra uma criatura desprevenida, você pode fazer um teste de agarrar como uma ação livre. Se agarrar a criatura, ela não poderá falar enquanto estiver agarrada. Pré-requisito: treinado em Luta.\n"
+      "descrição": "Você recebe +2 em testes de agarrar. Quando acerta um ataque furtivo contra uma criatura desprevenida, você pode fazer um teste de agarrar como uma ação livre. Se agarrar a criatura, ela não poderá falar enquanto estiver agarrada. Pré-requisito: treinado em Luta.\n"
     },
     "Mãos Rápidas": {
       "nome": "Mãos Rápidas",
-      "descrição": "Ao fazer um teste de Ladinagem para abrir fechaduras, ocultar item, punga ou sabotar, você pode pagar 1 PM para fazê-lo como uma ação livre. Pré-requisito: Des 15, treinado em Ladinagem.\n"
+      "descrição": "Uma vez por rodada, ao fazer um teste de Ladinagem para abrir fechaduras, ocultar item, punga ou sabotar, você pode pagar 1 PM para fazê-lo como uma ação livre. Pré-requisito: Des 15, treinado em Ladinagem.\n"
     },
     "Mente Criminosa": {
       "nome": "Mente Criminosa",
@@ -1314,7 +1318,7 @@
     },
     "Rolamento Defensivo": {
       "nome": "Rolamento Defensivo",
-      "descrição": "Sempre que sofre dano, você pode gastar 2 PM para reduzir esse dano à metade. Após usar este poder, você fica caído. Pré-requisito: treinado em Reflexos.\n"
+      "descrição": "Sempre que sofre dano, você pode gastar uma reação e 2 PM para reduzir esse dano à metade. Após usar este poder, você fica caído. Pré-requisito: treinado em Reflexos.\n"
     },
     "Roubo de Mana": {
       "nome": "Roubo de Mana",
@@ -1400,7 +1404,7 @@
     },
     "Confiança dos Ringues": {
       "nome": "Confiança dos Ringues",
-      "descrição": "Quando um oponente erra um ataque corpo a corpo contra você, você recebe 1 PM temporário. PM temporários desaparecem no final da cena. Pré-requisito: 10º nível de lutador.\n"
+      "descrição": "Quando um inimigo erra um ataque corpo a corpo contra você, você recebe 1 PM temporário. PM temporários desaparecem no final da cena. Pré-requisito: 10º nível de lutador.\n"
     },
     "Convencido": {
       "nome": "Convencido",
@@ -1562,7 +1566,7 @@
     },
     "Presença Aristocrática": {
       "nome": "Presença Aristocrática",
-      "descrição": "Sempre que uma criatura inteligente (Int 3 ou mais) tentar machucá-lo (causar dano com um ataque, magia ou habilidade) você pode gastar 2 PM. Se fizer isso, a criatura deve fazer um teste de Vontade (CD Car). Se falhar, não conseguirá machucá-lo e perderá a ação. Você só pode usar esta habilidade uma vez por cena contra cada criatura.\n"
+      "descrição": "Sempre que uma criatura inteligente (Int 3 ou mais) tentar machucá-lo (causar dano com um ataque, magia ou habilidade) você pode gastar uma reação e 2 PM. Se fizer isso, a criatura deve fazer um teste de Vontade (CD Car). Se falhar, não conseguirá machucá-lo e perderá a ação. Você só pode usar esta habilidade uma vez por cena contra cada criatura.\n"
     },
     "Presença Majestosa": {
       "nome": "Presença Majestosa",
@@ -1716,7 +1720,7 @@
     },
     "Égide Sagrada": {
       "nome": "Égide Sagrada",
-      "descrição": "Você pode gastar uma ação de movimento e 2 PM para recobrir de energia seu escudo ou símbolo sagrado. Até o fim da cena, você e todos os aliados adjacentes recebem um bônus na Defesa igual ao seu bônus de Carisma. A partir do 11º nível, você pode gastar 5 PM para receber o mesmo bônus num teste de resistência contra uma magia recém lançada contra você. Se você passar no teste de resistência e a magia tiver você como único alvo, ela é revertida de volta ao conjurador (que se torna o novo alvo da magia; todas as demais características da magia, incluindo CD do teste de resistência, se mantêm).\n"
+      "descrição": "Você pode gastar uma ação de movimento e 2 PM para recobrir de energia seu escudo ou símbolo sagrado. Até o fim da cena, você e todos os aliados adjacentes recebem um bônus na Defesa igual ao seu bônus de Carisma. A partir do 11º nível, você pode gastar 5 PM para rolar novamente um teste de resistência contra uma magia recém lançada contra você. Se você passar no teste de resistência e a magia tiver você como único alvo, ela é revertida de volta ao conjurador (que se torna o novo alvo da magia; todas as demais características da magia, incluindo CD do teste de resistência, se mantêm).\n"
     },
     "Montaria Sagrada": {
       "nome": "Montaria Sagrada",
@@ -1728,7 +1732,7 @@
     },
     "Vingador Sagrado": {
       "nome": "Vingador Sagrado",
-      "descrição": "No 20º nível, você pode gastar uma ação completa e 10 PM para se cobrir de energia divina, assumindo a forma de um vingador sagrado até o fim da cena. Nesta forma, você recebe deslocamento de voo 18m, resistência a dano 20 e soma seu modificador de Carisma em seus testes de ataque e rolagens de dano corpo a corpo.\n"
+      "descrição": "No 20º nível, você pode gastar uma ação completa e 10 PM para se cobrir de energia divina, assumindo a forma de um vingador sagrado até o fim da cena. Nesta forma, você recebe deslocamento de voo 18m e resistência a dano 20. Além disso, o custo de seu Golpe Divino é reduzido à metade e o dado de dano fornecido por ele aumenta em um passo.\n"
     }
   },
   "Acólito": {
@@ -2080,7 +2084,7 @@
     },
     "Trespassar": {
       "nome": "Trespassar",
-      "descrição": "Quando você faz um ataque corpo a corpo e reduz os pontos de vida do alvo para 0 ou menos, pode gastar 1 PM para fazer um ataque adicional contra outra criatura dentro do seu alcance. O ataque adicional usa os mesmos valores de ataque e dano, mas os dados devem ser rolados novamente. Pré-requisito: Ataque Poderoso.\n"
+      "descrição": "Quando você faz um ataque corpo a corpo e reduz os pontos de vida do alvo para 0 ou menos, pode gastar 1 PM para fazer um ataque adicional contra outra criatura dentro do seu alcance. Pré-requisito: Ataque Poderoso.\n"
     },
     "Vitalidade": {
       "nome": "Vitalidade",
@@ -2196,7 +2200,7 @@
     },
     "Preparar Poção": {
       "nome": "Preparar Poção",
-      "descrição": "Você pode usar a perícia Ofício (alquimia) para fabricar poções com magias que conheça de 1º e 2º círculos. Veja a página 121 para a regra de fabricar itens e a página 327 para a regra de poções. Pré--requisitos: Habilidade de classe Magias, treinado em Ofício (alquimia).\n"
+      "descrição": "Você pode usar a perícia Ofício (alquimia) para fabricar poções com magias que conheça de 1º e 2º círculos. Veja a página 121 para a regra de fabricar itens e as páginas 319 e 327 para a regra de poções. Pré--requisitos: Habilidade de classe Magias, treinado em Ofício (alquimia).\n"
     }
   },
   "Poderes Concedidos": {
@@ -2334,7 +2338,7 @@
     },
     "Kiai Divino - Lin-wu": {
       "nome": "Kiai Divino - Lin-wu",
-      "descrição": "Quando faz um ataque corpo a corpo, você pode pagar 2 PM. Se acertar o ataque, causa dano máximo.\n"
+      "descrição": "Quando faz um ataque corpo a corpo, você pode pagar 3 PM. Se acertar o ataque, causa dano máximo.\n"
     },
     "Liberdade Divina - Valkaria": {
       "nome": "Liberdade Divina - Valkaria",
@@ -2410,7 +2414,7 @@
     },
     "Tropas Duyshidakk - Thwor": {
       "nome": "Tropas Duyshidakk - Thwor",
-      "descrição": "Você pode gastar uma ação completa e 2 PM para invocar 1d4+1 goblinoides em espaços desocupados em alcance curto. Você pode usar uma ação de movimento para fazer os goblinoides andarem (eles têm deslocamento 9m) ou uma ação padrão para fazê-los causar dano a criaturas adjacentes (1d6+1 pontos de dano de corte cada). Os goblinoides têm For 14, Des 14, 1 PV, não têm valor de Defesa ou testes de resistência e falham automaticamente em qualquer teste oposto. Eles desaparecem quando morrem ou no fim da cena. Os goblinoides não agem sem receber uma ordem. Usos criativos para criaturas invocadas fora de combate ficam a critério do mestre.\n"
+      "descrição": "Você pode gastar uma ação completa e 2 PM para invocar 1d4+1 goblinoides em espaços desocupados em alcance curto. Você pode usar uma ação de movimento para fazer os goblinoides andarem (eles têm deslocamento 9m) ou uma ação padrão para fazê-los causar dano a criaturas adjacentes (1d6+1 pontos de dano de corte cada). Os goblinoides têm For 12, Des 14, 1 PV, não têm valor de Defesa ou testes de resistência e falham automaticamente em qualquer teste oposto. Eles desaparecem quando morrem ou no fim da cena. Os goblinoides não agem sem receber uma ordem. Usos criativos para criaturas invocadas fora de combate ficam a critério do mestre.\n"
     },
     "Urro Divino - Megalokk": {
       "nome": "Urro Divino - Megalokk",
