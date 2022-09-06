@@ -326,7 +326,7 @@
       {
         "type": "item",
         "name": "Atordoado",
-        "description": "O personagem fica desprevenido e não pode fazer ações. Condição mental."
+        "description": "O personagem fica desprevenido e não pode fazer ações. Um personagem só pode ficar atordoado pelo mesmo efeito uma vez por cena. Condição mental."
       },
       {
         "type": "item",
@@ -416,7 +416,7 @@
       {
         "type": "item",
         "name": "Inconsciente",
-        "description": "O personagem fica indefeso e não pode fazer ações. Balançar uma criatura para acordá-la gasta uma ação padrão."
+        "description": "O personagem fica indefeso e não pode fazer ações, incluindo reações. Balançar uma criatura para acordá-la gasta uma ação padrão."
       },
       {
         "type": "item",
@@ -441,7 +441,7 @@
       {
         "type": "item",
         "name": "Pasmo",
-        "description": "O personagem não pode fazer ações, exceto reações. Condição mental."
+        "description": "O personagem não pode fazer ações. Condição mental."
       },
       {
         "type": "item",

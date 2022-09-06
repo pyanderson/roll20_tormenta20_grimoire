@@ -25,7 +25,10 @@ function create_spell_dialog(circle) {
   <div name="spell-dialog" title="${circle}º Círculo">
     <form name="spell-form">
       <fieldset>
-        <input type="text" name="spell-name" value="">
+        <label>
+          <b>Nome</b><br>
+          <input type="text" name="spell-name" value="">
+        </label>
         <!-- Allow form submission with keyboard without duplicating the dialog button -->
         <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
       </fieldset>
@@ -36,13 +39,9 @@ function create_spell_dialog(circle) {
 
 function create_power_dialog() {
   return `
-  <div name="power-dialog" title="Escolha um Poder">
+  <div name="power-dialog" title="Habilidade ou Poder">
     <form name="power-form">
       <fieldset>
-        <label>
-          <b>Tipo</b><br>
-          <select name="power-type"></select>
-        </label>
         <label>
           <b>Nome</b><br>
           <input type="text" name="power-name" value="">

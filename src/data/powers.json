@@ -1,4 +1,262 @@
 {
+  "Humano": {
+    "Versátil": {
+      "nome": "Versátil",
+      "descrição": "Você se torna treinado em duas perícias a sua escolha (não precisam ser da sua classe). Você pode trocar uma dessas perícias por um poder geral a sua escolha.\n"
+    }
+  },
+  "Anão": {
+    "Conhecimento das Rochas": {
+      "nome": "Conhecimento das Rochas",
+      "descrição": "Você recebe visão no escuro e +2 em testes de Percepção e Sobrevivência realizados no subterrâneo.\n"
+    },
+    "Devagar e Sempre": {
+      "nome": "Devagar e Sempre",
+      "descrição": "Seu deslocamento é 6m (em vez de 9m). Porém, seu deslocamento não é reduzido por uso de armadura ou excesso de carga.\n"
+    },
+    "Duro como Pedra": {
+      "nome": "Duro como Pedra",
+      "descrição": "Você recebe +3 pontos de vida no 1º nível e +1 por nível seguinte.\n"
+    },
+    "Tradição de Heredrimm": {
+      "nome": "Tradição de Heredrimm",
+      "descrição": "Você é perito nas armas tradicionais anãs, seja por ter treinado com elas, seja por usá-las como ferramentas de ofício. Para você, todos os machados, martelos, marretas e picaretas são armas simples. Você recebe +2 em ataques com essas armas.\n"
+    }
+  },
+  "Dahllan": {
+    "Amiga das Plantas": {
+      "nome": "Amiga das Plantas",
+      "descrição": "Você pode lançar a magia Controlar Plantas (atributo-chave Sabedoria). Caso aprenda novamente essa magia, seu custo diminui em –1 PM.\n"
+    },
+    "Armadura de Allihanna": {
+      "nome": "Armadura de Allihanna",
+      "descrição": "Você pode gastar uma ação de movimento e 1 PM para transformar sua pele em casca de árvore, recebendo +2 na Defesa até o fim da cena.\n"
+    },
+    "Empatia Selvagem": {
+      "nome": "Empatia Selvagem",
+      "descrição": "Você pode se comunicar com animais por meio de linguagem corporal e vocalizações. Você pode usar Adestramento para mudar atitude e pedir favores de animais (veja Diplomacia, na página 117). Caso receba esta habilidade novamente, recebe +2 em Adestramento.\n"
+    }
+  },
+  "Elfo": {
+    "Graça de Glórienn": {
+      "nome": "Graça de Glórienn",
+      "descrição": "Seu deslocamento é 12m (em vez de 9m).\n"
+    },
+    "Herança Feérica": {
+      "nome": "Herança Feérica",
+      "descrição": "Você recebe +1 ponto de mana por nível.\n"
+    },
+    "Sentidos Élficos": {
+      "nome": "Sentidos Élficos",
+      "descrição": "Você recebe visão na penumbra e +2 em Misticismo e Percepção.\n"
+    }
+  },
+  "Goblin": {
+    "Engenhoso": {
+      "nome": "Engenhoso",
+      "descrição": "Você não sofre penalidades em testes de perícia por não usar kits. Se usar o kit, recebe +2 no teste de perícia.\n"
+    },
+    "Espelunqueiro": {
+      "nome": "Espelunqueiro",
+      "descrição": "Você recebe visão no escuro e deslocamento de escalada igual ao seu deslocamento terrestre\n"
+    },
+    "Peste Esguia": {
+      "nome": "Peste Esguia",
+      "descrição": "Seu tamanho é Pequeno (veja a página 106), mas seu deslocamento se mantém 9m. Apesar de pequenos, goblins são rápidos.\n"
+    },
+    "Rato das Ruas": {
+      "nome": "Rato das Ruas",
+      "descrição": "Você recebe +2 em Fortitude e sua recuperação de PV e PM nunca é inferior ao seu nível.\n"
+    }
+  },
+  "Lefou": {
+    "Cria da Tormenta": {
+      "nome": "Cria da Tormenta",
+      "descrição": "Você é uma criatura do tipo monstro e recebe +5 em testes de resistência contra efeitos causados por lefeu e pela Tormenta.\n"
+    },
+    "Deformidade": {
+      "nome": "Deformidade",
+      "descrição": "Todo lefou possui defeitos físicos que, embora desagradáveis, conferem certas vantagens. Você recebe +2 em duas perícias a sua escolha. Cada um desses bônus conta como um poder da Tormenta. Você pode trocar um desses bônus por um poder da Tormenta a sua escolha. Esta habilidade não causa perda de Carisma.\n"
+    }
+  },
+  "Minotauro": {
+    "Chifres": {
+      "nome": "Chifres",
+      "descrição": "Você possui uma arma natural de chifres (dano 1d6, crítico x2, perfuração). Quando usa a ação atacar, pode gastar 1 PM para fazer um ataque corpo a corpo extra com os chifres.\n"
+    },
+    "Couro Rígido": {
+      "nome": "Couro Rígido",
+      "descrição": "Sua pele é dura como a de um touro. Você recebe +1 na Defesa.\n"
+    },
+    "Faro": {
+      "nome": "Faro",
+      "descrição": "Você tem olfato apurado. Você não fica desprevenido e sofre apenas camuflagem (em vez de camuflagem total) contra inimigos em alcance curto que não possa ver.\n"
+    },
+    "Medo de Altura": {
+      "nome": "Medo de Altura",
+      "descrição": "Se estiver adjacente a uma queda de 3m ou mais de altura (como um buraco ou penhasco), você fica abalado.\n"
+    }
+  },
+  "Qareen": {
+    "Desejos": {
+      "nome": "Desejos",
+      "descrição": "Se lançar uma magia que alguém tenha pedido desde seu último turno, o custo da magia diminui em –1 PM. Fazer um desejo ao qareen é uma ação livre.\n"
+    },
+    "Resistência Elemental": {
+      "nome": "Resistência Elemental",
+      "descrição":"Conforme sua ascendência, você recebe resistência 10 a um tipo de dano. Escolha uma: frio (qareen da água), eletricidade (do ar), fogo (do fogo), ácido (da terra), luz (da luz) ou trevas (qareen das trevas).\n"
+    },
+    "Tatuagem Mística": {
+      "nome": "Tatuagem Mística",
+      "descrição": "Você pode lançar uma magia de 1º círculo a sua escolha (atributo-chave Carisma). Caso aprenda novamente essa magia, seu custo diminui em –1 PM.\n"
+    }
+  },
+  "Golem": {
+    "Canalizar Reparos": {
+      "nome": "Canalizar Reparos",
+      "descrição": "Como uma ação completa, você pode gastar pontos de mana para recuperar pontos de vida, à taxa de 5 PV por PM.\n"
+    },
+    "Chassi": {
+      "nome": "Chassi",
+      "descrição": "Seu corpo artificial é resistente, mas rígido. Você recebe +2 na Defesa, mas possui penalidade de armadura –2 e seu deslocamento é 6m. Porém, seu deslocamento não é reduzido por uso de armadura ou excesso de carga. Você leva um dia para vestir ou remover uma armadura (pois precisa acoplar as peças dela a seu chassi).\n"
+    },
+    "Criatura Artificial": {
+      "nome": "Criatura Artificial",
+      "descrição": "Você é uma criatura do tipo construto. Recebe visão no escuro e imunidade a doenças, fadiga, sangramento, sono e venenos. Além disso, não precisa respirar, alimentar-se ou dormir. Por fim, não recupera pontos de vida por descanso e não se beneficia de habilidades de cura e itens da categoria Alimentação (comidas, poções etc.). Você precisa ficar inerte por oito horas por dia para recarregar sua fonte de energia. Se fizer isso, recupera PM por descanso em condições normais (golens não são afetados por condições boas ou ruins de descanso).\n"
+    },
+    "Espírito Elemental": {
+      "nome": "Espírito Elemental",
+      "descrição": "Escolha entre água (frio), ar (eletricidade), fogo (fogo) e terra (ácido). Você é imune a dano causado por essa energia. Se fosse sofrer dano mágico dessa energia, em vez disso cura PV em quantidade igual à metade do dano. Por exemplo, se um golem com espírito elemental do fogo é atingido por uma Bola de Fogo que causa 30 pontos de dano, em vez de sofrer esse dano, ele recupera 15 PV\n"
+    },
+    "Sem Origem": {
+      "nome": "Sem Origem",
+      "descrição": "Como uma criatura artificial, você já foi construído “pronto”. Não teve uma infância — portanto, não tem direito a escolher uma origem e receber benefícios por ela.\n"
+    }
+  },
+  "Hynne": {
+    "Arremessador": {
+      "nome": "Arremessador",
+      "descrição": "Quando faz um ataque à distância com uma funda ou uma arma de arremesso, seu dano aumenta em um passo.\n"
+    },
+    "Pequeno e Rechonchudo": {
+      "nome": "Pequeno e Rechonchudo",
+      "descrição": "Seu tamanho é Pequeno (veja a página 106) e seu deslocamento é 6m. Você recebe +2 em Enganação e usa o modificador de Destreza para Atletismo (em vez de Força).\n"
+    },
+    "Sorte Salvadora": {
+      "nome": "Sorte Salvadora",
+      "descrição": "Quando faz um teste de resistência, você pode gastar 1 PM para rolar este teste novamente.\n"
+    }
+  },
+  "Kliren": {
+    "Híbrido": {
+      "nome": "Híbrido",
+      "descrição": "Sua natureza multifacetada fez com que você aprendesse conhecimentos variados. Você se torna treinado em uma perícia a sua escolha (não precisa ser da sua classe).\n"
+    },
+    "Lógica Gnômica": {
+      "nome": "Lógica Gnômica",
+      "descrição": "Quando faz um teste de atributo ou perícia, você pode gastar 2 PM para substituir o modificador de atributo utilizado por Inteligência. Por exemplo, ao fazer um teste de Atletismo você pode gastar 2 PM para usar seu modificador de Inteligência em vez do modificador de Força.\n"
+    },
+    "Ossos Frágeis": {
+      "nome": "Ossos Frágeis",
+      "descrição": "Você sofre 1 ponto de dano adicional por dado de dano de impacto. Por exemplo, se for atingido por uma clava (dano 1d6), sofre 1d6+1 pontos de dano. Se cair de 3m de altura (dano 2d6), sofre 2d6+2 pontos de dano.\n"
+    },
+    "Vanguardista": {
+      "nome": "Vanguardista",
+      "descrição": "Você recebe proficiência em armas de fogo e +2 em testes de Ofício (um qualquer, a sua escolha).\n"
+    }
+  },
+  "Medusa": {
+    "Cria de Megalokk": {
+      "nome": "Cria de Megalokk",
+      "descrição": "Você é uma criatura do tipo monstro e recebe visão no escuro.\n"
+    },
+    "Natureza Venenosa": {
+      "nome": "Natureza Venenosa",
+      "descrição": "Você recebe resistência a veneno 5 e pode gastar uma ação de movimento e 1 PM para envenenar uma arma que esteja empunhando. A arma causa +1d12 pontos de dano de veneno. O veneno dura até você acertar um ataque ou até o fim da cena (o que acontecer primeiro).\n"
+    },
+    "Olhar Atordoante": {
+      "nome": "Olhar Atordoante",
+      "descrição": "Você pode gastar uma ação de movimento e 1 PM para forçar uma criatura em alcance curto a fazer um teste de Fortitude (CD Car). Se a criatura falhar, fica atordoada por 1 rodada. Se passar, fica imune a esta habilidade por um dia.\n"
+    }
+  },
+  "Osteon": {
+    "Armadura Óssea": {
+      "nome": "Armadura Óssea",
+      "descrição": "Você recebe resistência a corte, frio e perfuração 5.\n"
+    },
+    "Memória Póstuma": {
+      "nome": "Memória Póstuma",
+      "descrição": "Você se torna treinado em uma perícia (não precisa ser da sua classe) ou recebe um poder geral a sua escolha. Como alternativa, você pode ser um osteon de outra raça humanoide que não humano. Neste caso, você ganha uma habilidade dessa raça a sua escolha. Se a raça era de tamanho diferente de Médio, você também possui sua categoria de tamanho.\n"
+    },
+    "Natureza Esquelética": {
+      "nome": "Natureza Esquelética",
+      "descrição": "Você é uma criatura do tipo morto-vivo. Recebe visão no escuro e imunidade a doenças, fadiga, sangramento, sono e venenos. Além disso, não precisa respirar, alimentar-se ou dormir. Por fim, habilidades mágicas de cura causam dano a você e você não se beneficia de itens da categoria Alimentação (comidas, poções etc.), mas dano de trevas recupera seus PV.\n"
+    },
+    "Preço da Não Vida": {
+      "nome": "Preço da Não Vida",
+      "descrição": "Você precisa passar oito horas sob a luz de estrelas ou no subterrâneo. Se fizer isso, recupera PV e PM por descanso em condições normais (osteon não são afetados por condições boas ou ruins de descanso). Caso contrário, sofre os efeitos de fome.\n"
+    }
+  },
+  "Sereia/Tritão": {
+    "Canção dos Mares": {
+      "nome": "Canção dos Mares",
+      "descrição": "Você pode lançar duas das magias a seguir: Amedrontar, Comando, Despedaçar, Enfeitiçar, Hipnotismo ou Sono (atributo-chave Carisma). Caso aprenda novamente uma dessas magias, seu custo diminui em –1 PM.\n"
+    },
+    "Mestre do Tridente": {
+      "nome": "Mestre do Tridente",
+      "descrição": "Para você, o tridente é uma arma simples. Além disso, você recebe +2 em rolagens de dano com azagaias, lanças e tridentes.\n"
+    },
+    "Transformação Anfíbia": {
+      "nome": "Transformação Anfíbia",
+      "descrição": "Você pode respirar debaixo d’água e possui uma cauda que fornece deslocamento de natação 12m. Quando fora d’água, sua cauda desaparece e dá lugar a pernas (deslocamento 9m). Se permanecer mais de um dia sem contato com água, você não recupera PM com descanso até voltar para a água (ou, pelo menos, tomar um bom banho!).\n"
+    }
+  },
+  "Sílfide": {
+    "Asas de Borboleta": {
+      "nome": "Asas de Borboleta",
+      "descrição": "Seu tamanho é Minúsculo. Você pode pairar a 1,5m do chão com deslocamento 9m. Isso permite que você ignore terreno difícil e o torna imune a dano por queda (a menos que esteja inconsciente). Você pode gastar 1 PM por rodada para voar com deslocamento de 12m.\n"
+    },
+    "Espírito da Natureza": {
+      "nome": "Espírito da Natureza",
+      "descrição": "Você é uma criatura do tipo espírito, recebe visão na penumbra e pode falar com animais livremente.\n"
+    },
+    "Magia das Fadas": {
+      "nome": "Magia das Fadas",
+      "descrição": "Você pode lançar duas das magias a seguir (todas atributo-chave Carisma): Criar Ilusão, Enfeitiçar, Luz (como uma magia arcana) e Sono. Caso aprenda novamente uma dessas magias, seu custo diminui em –1 PM.\n"
+    }
+  },
+  "Suraggel": {
+    "Herança Divina": {
+      "nome": "Herança Divina",
+      "descrição": "Você é uma criatura do tipo espírito e recebe visão no escuro.\n"
+    },
+    "Luz Sagrada (Aggelus)": {
+      "nome": "Luz Sagrada (Aggelus)",
+      "descrição": "Você recebe +2 em Diplomacia e Intuição. Além disso, pode lançar Luz (como uma magia divina; atributo-chave Carisma). Caso aprenda novamente essa magia, o custo para lançá-la diminui em –1 PM.\n"
+    },
+    "Sombras Profanas (Sulfure)": {
+      "nome": "Sombras Profanas (Sulfure)",
+      "descrição": "Você recebe +2 em Enganação e Furtividade. Além disso, pode lançar Escuridão (como uma magia divina; atributochave Inteligência). Caso aprenda novamente essa magia, o custo para lançá-la diminui em –1 PM.\n"
+    }
+  },
+  "Trog": {
+    "Mau Cheiro": {
+      "nome": "Mau Cheiro",
+      "descrição": "Você pode gastar uma ação padrão e 2 PM para expelir um gás fétido. Todas as criaturas (exceto trogs) em alcance curto devem passar em um teste de Fortitude contra veneno (CD Con) ou ficarão enjoadas durante 1d6 rodadas. Uma criatura que passe no teste de resistência fica imune a esta habilidade por um dia.\n"
+    },
+    "Mordida": {
+      "nome": "Mordida",
+      "descrição": "Você possui uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Quando usa a ação atacar, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida.\n"
+    },
+    "Reptiliano": {
+      "nome": "Reptiliano",
+      "descrição": "Você é uma criatura do tipo monstro e recebe visão no escuro, +1 na Defesa e, se estiver sem armadura ou roupas pesadas, +5 em Furtividade.\n"
+    },
+    "Sangue Frio": {
+      "nome": "Sangue Frio",
+      "descrição": "Você sofre 1 ponto de dano adicional por dado de dano de frio.\n"
+    }
+  },
   "Arcanista": {
     "Caminho do Arcanista - Bruxo": {
       "nome": "Caminho do Arcanista - Bruxo",
@@ -102,7 +360,7 @@
     },
     "Tinta do Mago": {
       "nome": "Tinta do Mago",
-      "descrição": "Você pode criar pergaminhos, como se tivesse o poder Escrever Pergaminho. Se tiver ambos, seu custo para criar pergaminhos é reduzido à metade. Pré-requisitos: Mago, treinado em Conhecimento.\n"
+      "descrição": "Você pode criar pergaminhos, como se tivesse o poder Escrever Pergaminho. Se tiver ambos, seu custo para criar pergaminhos é reduzido à metade. Pré-requisitos: Mago, treinado em Ofício (escriba).\n"
     },
     "Alta Arcana": {
       "nome": "Alta Arcana",
@@ -208,7 +466,7 @@
     },
     "Totem Espiritual": {
       "nome": "Totem Espiritual",
-      "descrição": "Você soma seu bônus de Sabedoria no seu total de pontos de mana. Escolha um animal totêmico (veja o quadro). Você pode lançar uma magia definida pelo animal escolhido (atributo-chave Sabedoria). Pré-requisitos: Sab 13, 4º nível de bárbaro.\n"
+      "descrição": "Você soma seu bônus de Sabedoria no seu total de pontos de mana. Escolha um animal totêmico (veja o quadro). Você pode lançar uma magia definida pelo animal escolhido (atributo-chave Sabedoria) e pode lançá-la mesmo em fúria. Além disso, este poder é uma habilidade mágica. Pré-requisitos: Sab 13, 4º nível de bárbaro.\n"
     },
     "Vigor Primal": {
       "nome": "Vigor Primal",
@@ -278,7 +536,7 @@
     },
     "Golpe Mágico": {
       "nome": "Golpe Mágico",
-      "descrição": "Enquanto estiver sob efeito de Inspiração, sempre que você acertar um ataque corpo a corpo em um inimigo, recebe 2 PM temporários. Você pode ganhar um máximo de PM temporários por cena igual ao seu nível. PM temporários desaparecem no final da cena. Pré-requisito: Esgrima Mágica.\n"
+      "descrição": "Enquanto estiver sob efeito de Inspiração, sempre que você acertar um ataque corpo a corpo em um inimigo, recebe 2 PM temporários cumulativos. Você pode ganhar um máximo de PM temporários por cena igual ao seu nível. PM temporários desaparecem no final da cena. Pré-requisito: Esgrima Mágica.\n"
     },
     "Inspiração Marcial": {
       "nome": "Inspiração Marcial",
@@ -310,7 +568,7 @@
     },
     "Paródia": {
       "nome": "Paródia",
-      "descrição": "Uma vez por rodada, quando vê alguém lançando uma magia em alcance médio, você pode pagar 1 PM e fazer um teste de Atuação (CD 15 + custo em PM da magia). Se passar, até o final de seu próximo turno você pode lançar essa magia.\n"
+      "descrição": "Uma vez por rodada, quando vê alguém lançando uma magia em alcance médio, você pode pagar 1 PM e fazer um teste de Atuação (CD 15 + custo em PM da magia). Se passar, até o final de seu próximo turno você pode lançar essa magia. Este poder é uma habilidade mágica.\n"
     },
     "Prestidigitação": {
       "nome": "Prestidigitação",
@@ -336,7 +594,7 @@
     },
     "Evasão": {
       "nome": "Evasão",
-      "descrição": "A partir do 2º nível, quando sofre um ataque que permite um teste de Reflexos para reduzir o dano à metade, você não sofre dano algum se passar. Você ainda sofre dano normal se falhar no teste de Reflexos. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel.\n"
+      "descrição": "A partir do 2º nível, quando sofre um efeito que permite um teste de Reflexos para reduzir o dano à metade, você não sofre dano algum se passar. Você ainda sofre dano normal se falhar no teste de Reflexos. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel.\n"
     },
     "Abusar dos Fracos": {
       "nome": "Abusar dos Fracos",
@@ -348,7 +606,7 @@
     },
     "Aparar": {
       "nome": "Aparar",
-      "descrição": "Uma vez por rodada, quando é atingido por um ataque corpo a corpo, você pode gastar 1 PM para apará-lo. Faça um teste de ataque. Se o resultado do seu teste for maior que o do oponente, você evita o ataque. Você só pode usar este poder se estiver usando uma arma leve ou ágil. Pré-requisito: Esgrimista.\n"
+      "descrição": "Uma vez por rodada, quando é atingido por um ataque corpo a corpo, você pode gastar uma reação e 1 PM para apará-lo. Faça um teste de ataque. Se o resultado do seu teste for maior que o do oponente, você evita o ataque. Você só pode usar este poder se estiver usando uma arma leve ou ágil. Pré-requisito: Esgrimista.\n"
     },
     "Apostador": {
       "nome": "Apostador",
@@ -428,7 +686,7 @@
     },
     "Evasão Aprimorada": {
       "nome": "Evasão Aprimorada",
-      "descrição": "A partir do 10º nível, quando sofre um ataque que permite um teste de Reflexos para reduzir o dano à metade, você não sofre dano algum se passar e sofre apenas metade do dano se falhar. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel.\n"
+      "descrição": "A partir do 10º nível, quando sofre um efeito que permite um teste de Reflexos para reduzir o dano à metade, você não sofre dano algum se passar e sofre apenas metade do dano se falhar. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel.\n"
     },
     "Sorte de Nimb": {
       "nome": "Sorte de Nimb",
@@ -494,7 +752,7 @@
     },
     "Elo com a Natureza": {
       "nome": "Elo com a Natureza",
-      "descrição": "Você soma seu bônus de Sabedoria em seu total de pontos de mana e aprende e pode lançar Caminhos da Natureza (atributo-chave Sabedoria). Pré-requisito: Sab 13, 3º nível de caçador.\n"
+      "descrição": "Você soma seu bônus de Sabedoria em seu total de pontos de mana e aprende e pode lançar Caminhos da Natureza (atributo-chave Sabedoria). Pré-requisito: Sab 13, 3º nível de caçador. Este poder é uma habilidade mágica.\n"
     },
     "Emboscar": {
       "nome": "Emboscar",
@@ -620,15 +878,15 @@
     },
     "Postura de Combate: Foco de Batalha": {
       "nome": "Postura de Combate: Foco de Batalha",
-      "descrição": "Sempre que um inimigo atacá-lo, você recebe 1 PM temporário. Pontos de mana temporários desaparecem no final da cena.\n"
+      "descrição": "Sempre que um inimigo atacá-lo, você recebe 1 PM temporário cumulativo. Pontos de mana temporários desaparecem no final da cena.\n"
     },
     "Postura de Combate: Muralha Intransponível": {
       "nome": "Postura de Combate: Muralha Intransponível",
-      "descrição": "Para assumir esta postura você precisa estar empunhando um escudo. Você recebe +1 na Defesa e em Reflexos. Além disso, quando sofre um ataque que permite um teste de Reflexos para reduzir o dano à metade, não sofre nenhum dano se passar. Para cada 2 PM adicionais que gastar quando assumir a postura, aumenta esse bônus em +1. Por fim, enquanto mantiver esta postura, seu deslocamento é reduzido para 3m.\n"
+      "descrição": "Para assumir esta postura você precisa estar empunhando um escudo. Você recebe +1 na Defesa e em Reflexos. Além disso, quando sofre um efeito que permite um teste de Reflexos para reduzir o dano à metade, não sofre nenhum dano se passar. Para cada 2 PM adicionais que gastar quando assumir a postura, aumenta esse bônus em +1. Por fim, enquanto mantiver esta postura, seu deslocamento é reduzido para 3m.\n"
     },
     "Postura de Combate: Provocação Petulante": {
       "nome": "Postura de Combate: Provocação Petulante",
-      "descrição": "Enquanto esta postura estiver ativa, todos os inimigos que iniciarem seus turnos dentro de seu alcance curto devem fazer um teste de Vontade (CD Car). Se falharem, devem atacar você nessa rodada.\n"
+      "descrição": "Enquanto esta postura estiver ativa, inimigos que atacarem um aliado seu em alcance curto devem fazer um teste de Vontade (CD Car). Se falharem, devem atacá-lo (ou gastar a ação para se mover em sua direção, caso não consiga atacá-lo de onde estiver).\n"
     },
     "Postura de Combate: Torre Inabalável": {
       "nome": "Postura de Combate: Torre Inabalável",
@@ -946,7 +1204,7 @@
     },
     "Golpe Pessoal": {
       "nome": "Golpe Pessoal",
-      "descrição": "Quando faz um ataque, você pode desferir seu Golpe Pessoal, uma manobra única, com efeitos determinados por você. Você constrói o seu Golpe Pessoal escolhendo efeitos da lista a seguir. Cada efeito possui um custo; a soma deles será o custo do Golpe Pessoal (mínimo 1 PM e máximo igual ao seu nível). O Golpe Pessoal só pode ser usado com um tipo de arma específico (por exemplo, apenas espadas longas). Quando sobe de nível, você pode reconstruir seu Golpe Pessoal e alterar a arma que ele usa. Você pode escolher este poder outras vezes para golpes diferentes. Pré-requisito: 5º nível de guerreiro.\n"
+      "descrição": "Você pode gastar uma ação padrão e uma quantidade de PM para fazer um ataque usando seu Golpe Pessoal, uma técnica única, com efeitos determinados por você. Você constrói o seu Golpe Pessoal escolhendo efeitos da lista a seguir. Cada efeito possui um custo; a soma deles será o custo do Golpe Pessoal (mínimo 1 PM e máximo igual ao seu nível). O Golpe Pessoal só pode ser usado com um tipo de arma específico (por exemplo, apenas espadas longas). Quando sobe de nível, você pode reconstruir seu Golpe Pessoal e alterar a arma que ele usa. Você pode escolher este poder outras vezes para golpes diferentes. Pré-requisito: 5º nível de guerreiro.\n"
     },
     "Efeitos do Golpe Pessoal": {
       "nome": "Efeitos do Golpe Pessoal",
@@ -982,7 +1240,7 @@
     },
     "Durão": {
       "nome": "Durão",
-      "descrição": "A partir do 3ª nível, sua rijeza muscular permite que você absorva ferimentos. Sempre que sofre dano, você pode gastar 2 PM para reduzir esse dano à metade.\n"
+      "descrição": "A partir do 3ª nível, sua rijeza muscular permite que você absorva ferimentos. Sempre que sofre dano, você pode gastar uma reação e 2 PM para reduzir esse dano à metade.\n"
     },
     "Ataque Extra": {
       "nome": "Ataque Extra",
@@ -1004,7 +1262,7 @@
     },
     "Evasão": {
       "nome": "Evasão",
-      "descrição": "A partir do 2º nível, quando sofre um ataque que permite um teste de Reflexos para reduzir o dano à metade, você não sofre dano algum se passar. Você ainda sofre dano normal se falhar no teste de Reflexos. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel.\n"
+      "descrição": "A partir do 2º nível, quando sofre um efeito que permite um teste de Reflexos para reduzir o dano à metade, você não sofre dano algum se passar. Você ainda sofre dano normal se falhar no teste de Reflexos. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel.\n"
     },
     "Assassinar": {
       "nome": "Assassinar",
@@ -1096,7 +1354,7 @@
     },
     "Evasão Aprimorada": {
       "nome": "Evasão Aprimorada",
-      "descrição": "No 10º nível, quando sofre um ataque que permite um teste de Reflexos para reduzir o dano à metade, você não sofre dano algum se passar e sofre apenas metade do dano se falhar. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel.\n"
+      "descrição": "No 10º nível, quando sofre um efeito que permite um teste de Reflexos para reduzir o dano à metade, você não sofre dano algum se passar e sofre apenas metade do dano se falhar. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel.\n"
     },
     "A Pessoa Certa o Trabalho": {
       "nome": "A Pessoa Certa para o Trabalho",
@@ -1272,7 +1530,7 @@
     },
     "Inspirar Confiança": {
       "nome": "Inspirar Confiança",
-      "descrição": "Sua presença faz as pessoas darem o melhor de si. Você pode gastar 2 PM para fazer um aliado em alcance curto rolar novamente um teste recém realizado.\n"
+      "descrição": "Sua presença faz as pessoas darem o melhor de si. Você pode gastar uma reação e 2 PM para fazer um aliado em alcance curto rolar novamente um teste recém realizado.\n"
     },
     "Inspirar Glória": {
       "nome": "Inspirar Glória",
@@ -1350,7 +1608,7 @@
     },
     "Arma Sagrada": {
       "nome": "Arma Sagrada",
-      "descrição": "Se estiver empunhando a arma preferida de seu deus, o dado de dano que você rola por Golpe Divino aumenta para d12. Pré-requisito: devoto de uma divindade (exceto Lena e Marah).\n"
+      "descrição": "Quando usa Golpe Divino para atacar com a arma preferida de sua divindade, o dado de dano que você rola por Golpe Divino aumenta para d12. Pré-requisito: devoto de uma divindade (exceto Lena e Marah).\n"
     },
     "Aumento de Atributo": {
       "nome": "Aumento de Atributo",
@@ -1471,6 +1729,216 @@
     "Vingador Sagrado": {
       "nome": "Vingador Sagrado",
       "descrição": "No 20º nível, você pode gastar uma ação completa e 10 PM para se cobrir de energia divina, assumindo a forma de um vingador sagrado até o fim da cena. Nesta forma, você recebe deslocamento de voo 18m, resistência a dano 20 e soma seu modificador de Carisma em seus testes de ataque e rolagens de dano corpo a corpo.\n"
+    }
+  },
+  "Acólito": {
+    "Membro da Igreja": {
+      "nome": "Membro da Igreja",
+      "descrição": "Você consegue hospedagem e informação em qualquer templo de sua divindade, para você e seus aliados.\n"
+    }
+  },
+  "Amigo dos Animais": {
+    "Amigo Especial": {
+      "nome": "Amigo Especial",
+      "descrição": "Você recebe +5 em testes de Adestramento com animais comuns. Além disso, possui um animal de estimação que o auxilia e o acompanha em suas aventuras. Em termos de jogo, é um aliado que fornece +2 em uma perícia a sua escolha (exceto Luta ou Pontaria e aprovada pelo mestre) e não conta em seu limite de aliados.\n"
+    }
+  },
+  "Amnésico": {
+    "Lembranças Graduais": {
+      "nome": "Lembranças Graduais",
+      "descrição": "Durante suas aventuras, em determinados momentos a critério do mestre, você pode fazer um teste de Sabedoria (CD 10) para reconhecer pessoas, criaturas ou lugares que tenha encontrado antes de perder a memória.\n"
+    }
+  },
+  "Aristocrata": {
+    "Sangue Azul": {
+      "nome": "Sangue Azul",
+      "descrição": "Você tem alguma influência política, suficiente para ser tratado com mais leniência pela guarda, conseguir uma audiência com o nobre local etc.\n"
+    }
+  },
+  "Artesão": {
+    "Frutos do Trabalho": {
+      "nome": "Frutos do Trabalho",
+      "descrição": "Quando passa em um teste de Ofício para sustento, você recebe o dobro do dinheiro.\n"
+    }
+  },
+  "Artista": {
+    "Dom artístico": {
+      "nome": "Dom artístico",
+      "descrição": "Quando usa a perícia Atuação para fazer uma apresentação e passa no teste, você ganha o dobro de tibares.\n"
+    }
+  },
+  "Assistente de Laboratório": {
+    "Esse Cheiro...": {
+      "nome": "Esse Cheiro...",
+      "descrição": "Você recebe +2 em Fortitude e passa automaticamente em testes de Ofício (alquimia) para identificar itens alquímicos.\n"
+    }
+  },
+  "Batedor": {
+    "À Prova de Tudo": {
+      "nome": "À Prova de Tudo",
+      "descrição": "Você não sofre penalidade em deslocamento e Sobrevivência por clima ruim e por terreno difícil natural.\n"
+    }
+  },
+  "Capanga": {
+    "Confissão": {
+      "nome": "Confissão",
+      "descrição": "Você pode usar Intimidação para obter informação sem custo (veja Investigação).\n"
+    }
+  },
+  "Charlatão": {
+    "Alpinista Social": {
+      "nome": "Alpinista Social",
+      "descrição": "Você pode substituir testes de Diplomacia por testes de Enganação.\n"
+    }
+  },
+  "Circense": {
+    "Truque de Mágica": {
+      "nome": "Truque de Mágica",
+      "descrição": "Você pode lançar Explosão de Chamas, Hipnotismo e Transmutar Objetos, mas apenas com o aprimoramento Truque. Esta não é uma habilidade mágica — os efeitos provêm de truques e prestidigitação.\n"
+    }
+  },
+  "Criminoso": {
+    "Punguista": {
+      "nome": "Punguista",
+      "descrição": "Você pode fazer testes de Ladinagem para sustento, como a perícia Ofício.\n"
+    }
+  },
+  "Curandeiro": {
+    "Médico de Campo": {
+      "nome": "Médico de Campo",
+      "descrição": "Quando você faz primeiros socorros em um personagem com 0 ou menos PV, ele recupera 1d6 PV\n"
+    }
+  },
+  "Eremita": {
+    "Busca Interior": {
+      "nome": "Busca Interior",
+      "descrição": "Quando você e seus companheiros estão diante de um mistério, incapazes de prosseguir, você pode gastar 1 PM para meditar sozinho durante algum tempo e receber uma dica do mestre.\n"
+    }
+  },
+  "Escravo": {
+    "Desejo de Liberdade": {
+      "nome": "Desejo de Liberdade",
+      "descrição": "Ninguém voltará a torná-lo um escravo! Você recebe +5 em testes contra efeitos que possam aprisioná-lo, como a manobra agarrar ou a magia Imobilizar.\n"
+    }
+  },
+  "Estudioso": {
+    "Palpite Fundamentado": {
+      "nome": "Palpite Fundamentado",
+      "descrição": "Você pode gastar 2 PM para substituir um teste de qualquer perícia originalmente baseada em Inteligência ou Sabedoria por um teste de Conhecimento.\n"
+    }
+  },
+  "Fazendeiro": {
+    "Água no Feijão": {
+      "nome": "Água no Feijão",
+      "descrição": "Você gasta apenas metade da matéria-prima para testes de Ofício (culinária).\n"
+    }
+  },
+  "Forasteiro": {
+    "Cultura Exótica": {
+      "nome": "Cultura Exótica",
+      "descrição": "Por sua diferente visão de mundo, você encontra soluções inesperadas. Você pode gastar 1 PM para fazer um teste de perícia somente treinada, mesmo sem ser treinado na perícia.\n"
+    }
+  },
+  "Gladiador": {
+    "Pão e Circo": {
+      "nome": "Pão e Circo",
+      "descrição": "Por seu treino em combates de exibição, você sabe “bater sem machucar”. Pode escolher causar dano não letal sem sofrer a penalidade de –5.\n"
+    }
+  },
+  "Guarda": {
+    "Detetive": {
+      "nome": "Detetive",
+      "descrição": "Você pode substituir testes de Percepção e Intuição por testes de Investigação.\n"
+    }
+  },
+  "Herdeiro": {
+    "Herança": {
+      "nome": "Herança",
+      "descrição": "Você herdou um item de preço de até T$ 1.000. Você pode escolher este poder duas vezes, para um item de até T$ 2.000.\n"
+    }
+  },
+  "Herói Camponês": {
+    "Amigo dos Plebeus": {
+      "nome": "Amigo dos Plebeus",
+      "descrição": "Você consegue hospedagem gratuita, para você e seus aliados, em famílias ou comunidades plebeias.\n"
+    }
+  },
+  "Marujo": {
+    "Passagem de Navio": {
+      "nome": "Passagem de Navio",
+      "descrição": "Você consegue transporte marítimo para você e seus companheiros, sem custos, desde que todos paguem com trabalho (passar em pelo menos um teste de perícia adequado durante a viagem).\n"
+    }
+  },
+  "Mateiro": {
+    "Vendedor de Carcaças": {
+      "nome": "Vendedor de Carcaças",
+      "descrição": "Você pode fazer testes de Sobrevivência para sustento, como a perícia Ofício.\n"
+    }
+  },
+  "Membro de Guilda": {
+    "Rede de Contatos": {
+      "nome": "Rede de Contatos",
+      "descrição": "Graças à influência de sua guilda, você pode usar Diplomacia para obter informação sem custo (veja Investigação).\n"
+    }
+  },
+  "Mercador": {
+    "Negociação": {
+      "nome": "Negociação",
+      "descrição": "Você pode vender itens 10% mais caro (não cumulativo com barganha).\n"
+    }
+  },
+  "Minerador": {
+    "Escavador": {
+      "nome": "Escavador",
+      "descrição": "Você se torna proficiente em picareta e não sofre penalidade em deslocamento por terreno difícil em masmorras e subterrâneos.\n"
+    }
+  },
+  "Nômade": {
+    "Mochileiro": {
+      "nome": "Mochileiro",
+      "descrição": "Você não sofre a penalidade de armadura e a redução de deslocamento por transportar carga pesada.\n"
+    }
+  },
+  "Pivete": {
+    "Quebra-galho": {
+      "nome": "Quebra-galho",
+      "descrição": "Em cidades ou metrópoles, você pode comprar qualquer item não superior ou mágico por metade do preço normal. Esses itens não podem ser vendidos (são velhos, sujos, furtados...).\n"
+    }
+  },
+  "Refugiado": {
+    "Estoico": {
+      "nome": "Estoico",
+      "descrição": "Sua recuperação de pontos de vida e pontos de mana com descanso aumenta em uma categoria: normal em condições ruins, confortável em condições normais e assim por diante. Veja as regras de recuperação na página 106.\n"
+    }
+  },
+  "Seguidor": {
+    "Antigo Mestre": {
+      "nome": "Antigo Mestre",
+      "descrição": "Você ainda mantém contato com o herói que costumava servir. A critério do mestre, em uma emergência, você pode receber alguma ajuda — ou então uma bela bronca por esperar que heróis poderosos resolvam o seu problema!\n"
+    }
+  },
+  "Selvagem": {
+    "Vida Rústica": {
+      "nome": "Vida Rústica",
+      "descrição": "Você come coisas que fariam um avestruz vomitar e também consegue descansar nos lugares mais desconfortáveis (mesmo dormindo ao relento, sua recuperação de PV e PM nunca é inferior a seu próprio nível).\n"
+    }
+  },
+  "Soldado": {
+    "Influência Militar": {
+      "nome": "Influência Militar",
+      "descrição": "Você fez amigos nas forças armadas. Onde houver acampamentos ou bases militares, você pode conseguir hospedagem e informações para você e seus aliados.\n"
+    }
+  },
+  "Taverneiro": {
+    "Gororoba": {
+      "nome": "Gororoba",
+      "descrição": "Você prepara comidas em uma categoria de tempo menor (uma hora para comidas de até T$ 10, um dia para comidas de até T$ 100 etc.). Você ainda pode sofrer uma penalidade de –5 no teste de Ofício para diminuir o tempo em mais uma categoria (uma hora baixa para dez minutos).\n"
+    }
+  },
+  "Trabalhador": {
+    "Esforçado": {
+      "nome": "Esforçado",
+      "descrição": "Você não teme trabalho duro, nem prazos apertados. Você recebe um bônus de +2 em todos os testes de perícias estendidos.\n"
     }
   },
   "Poderes de Combate": {
