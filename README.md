@@ -1,6 +1,6 @@
 # Grimório do Tormenta20 para o Roll20
 
-Escolha magias diretamente na sua ficha!
+Escolha magias, habilidade e poderes diretamente na sua ficha!
 
 Consulte regras de combate, condições e perícias direto no Roll20!
 
@@ -17,7 +17,6 @@ Todo o conteúdo das pasta [src/data/](src/data/) está sob a licença [OPEN GAM
 Icons from [freepik](https://www.freepik.com).
 
 ## Roadmap
-Vou tentar manter aqui o que já foi feito e o que pretendo fazer.
 
 - [x] Magias direto na ficha _[v0.0.2]_
 - [x] Compatibilidade com Firefox _[v0.0.3]_
@@ -26,16 +25,29 @@ Vou tentar manter aqui o que já foi feito e o que pretendo fazer.
 - [x] Regras de condições _[v0.0.4]_
 - [x] Regras de perícias _[v0.0.4]_
 - [x] Remover permissões desnecessárias _[v0.0.5]_
-- [ ] Poderes gerais (Menu)
-- [ ] Poderes gerais (Ficha)
+- [x] Poderes de classes (Ficha) _[v0.0.8]_
+- [x] Poderes de origens (Ficha) _[v0.0.8]_
+- [x] Poderes gerais (Ficha) _[v0.0.8]_
 - [ ] Poderes de classes (Menu)
-- [ ] Poderes de classes (Ficha)
-- [ ] Armas
-- [ ] Armaduras
+- [ ] Poderes de origens (Menu)
+- [ ] Poderes gerais (Menu)
+- [ ] Equipamento
 - [ ] Bestiário?
 - [ ] ??????
 
-_Use as [issues](https://github.com/pyanderson/roll20_tormenta20_grimoire/issues) para comentários e sugestões._
+## FAQ
+### Qual versão do livro está sendo usada?
+Versão 1.1 junto com as erratas 1.0, 1.1 e 1.2.
+
+### Como posso contribuir?
+Sugestões e feedbacks sempre são bem vindos, você pode usar as [issues](https://github.com/pyanderson/roll20_tormenta20_grimoire/issues) para isso.
+
+Se você já possui alguma experiência com git e github e quer ajudar a manter o conteúdo atualizado pode abrir um Pull Request atualizando alguma magia, habilidade, poder, etc.
+
+### Como funciona o Roadmap? Existe algum prazo?
+Conforme as ideias surgem ou recebo sugestões, elas são adicionadas no Roadmap, então não necessariamente ele será executado na ordem que aparece, mas as ideias e sugestões da comunidade influenciam bastante na ordem que as coisas serão feitas.
+
+Como esse é um projeto que estou mantendo no meu tempo livre não é possível determinar prazos.
 
 ## Notas do Desenvolvedor
 - O firefox ainda não tem suporte para a versão 3 do manifest, por isso é necessário ter as duas versões disponíveis.
