@@ -8,6 +8,7 @@ class CharacterSheet {
   powers_div = null;
   spells = null;
   powers = null;
+  powers_options = [];
 
   constructor(iframe, character_id) {
     this.load_data();
@@ -139,12 +140,11 @@ class CharacterSheet {
   render_power_sheet(power_sheet) {
     const sheet = this;
     if (power_sheet.find('button[name="choose-power"]').length > 0) return;  // if the button already exists, ignore
-    power_sheet.prepend('<button class="sheet-singleline" name="choose-power">Escolher Poder</button>');
+    power_sheet.prepend('<button class="sheet-singleline" name="choose-power">Escolher</button>');
     power_sheet.prepend(create_power_dialog());
-    power_sheet.css('flex-direction', 'column');
+    power_sheet.css('flex-direction', 'column').css('gap', '8px');
     const button = power_sheet.find('button[name="choose-power"]');
     const form = power_sheet.find('form[name="power-form"]');
-    const select = form.find('select[name="power-type"]');
     const input = form.find('input[name="power-name"]');
     const dialog = power_sheet.find('div[name="power-dialog"]').dialog({
       autoOpen: false,
@@ -159,7 +159,9 @@ class CharacterSheet {
       }
     });
     form.on('submit', function () {
-      sheet.fill_power_sheet(power_sheet, sheet.powers[select.val()][input.val()]);
+      const items = input.val().split(" - ");
+      if (items.length <= 1) return false;
+      sheet.fill_power_sheet(power_sheet, sheet.powers[items[0]][items[1]]);
       dialog.dialog('close');
       return false;
     });
@@ -172,7 +174,7 @@ class CharacterSheet {
     $.widget('ui.autocomplete', $.ui.autocomplete, {
       _renderItem: function (ul, item) {
         return $('<li>')
-          .attr('value', item.value)
+          .attr('value', item.label)
           .attr('class', 'select-option-item')
           .attr('style', 'list-style-type:none;')
           .append(item.label)
@@ -184,15 +186,7 @@ class CharacterSheet {
       }
     });
     button.click(function () {
-      select.empty();
-      for (const option of Object.keys(sheet.powers).sort()) {
-        select.append($('<option>', { value: option, text : option }));
-      }
-      input.autocomplete({source: Object.keys(sheet.powers[select.val()])});
-      select.change(function () {
-        input.autocomplete({source: Object.keys(sheet.powers[select.val()])});
-        input.val('');
-      })
+      input.autocomplete({ source: sheet.powers_options });
       dialog.dialog('open');
       dialog.dialog('widget').position({my: 'center', at: 'center', of: button});
     });
@@ -269,6 +263,15 @@ class CharacterSheet {
     localStorage.setItem(`grimoire_${this.character_id}`, JSON.stringify(this.character_data));
   }
 
+  parse_powers () {
+    const sheet = this;
+    for (const type of Object.keys(sheet.powers)) {
+      for (const name of Object.keys(sheet.powers[type])) {
+        sheet.powers_options.push(`${type} - ${name}`);
+      }
+    }
+  }
+
   load_data() {
     const sheet = this;
     const spells_url = chrome.runtime.getURL('data/spells.json');
@@ -279,7 +282,8 @@ class CharacterSheet {
       .then((json) => sheet.spells = json);
     fetch(powers_url)
       .then((response) => response.json())
-      .then((json) => sheet.powers = json);
+      .then((json) => sheet.powers = json)
+      .then(() => sheet.parse_powers());
   }
 
   add_css() {
