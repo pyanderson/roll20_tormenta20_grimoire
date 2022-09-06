@@ -91,7 +91,7 @@
               {
                 "type": "item",
                 "name": "Agarrar",
-                "description": "Você usa uma mão para segurar uma criatura (por seu braço, sua roupa etc.). Uma criatura agarrada fica desprevenida e imóvel, sofre –2 nos testes de ataque e só pode atacar com armas leves. Ela pode se soltar com uma ação padrão, vencendo um teste de manobra oposto. Enquanto agarra uma criatura, você fica com uma mão ocupada e move-se metade do deslocamento normal (mas arrastando a criatura que estiver agarrando). Você pode soltá-la com uma ação livre. Você pode atacar uma criatura agarrada com sua mão livre. Se preferir, pode substituir um ataque por um teste de manobra contra a criatura. Se vencer, causa dano de impacto igual a um ataque desarmado. Isso significa que você está esmagando ou sufocando o inimigo.\n\nVocê só pode agarrar com um ataque desarmado. Um personagem fazendo um ataque à distância contra um alvo envolvido na manobra agarrar tem 50% de chance de mirar no alvo errado!\n"
+                "description": "Você usa uma mão para segurar uma criatura (por seu braço, sua roupa etc.). Uma criatura agarrada fica desprevenida e imóvel, sofre –2 nos testes de ataque e só pode atacar com armas leves. Ela pode se soltar com uma ação padrão, vencendo um teste de manobra oposto. Enquanto agarra uma criatura, você fica com uma mão ocupada e move-se metade do deslocamento normal (mas arrastando a criatura que estiver agarrando). Você pode soltá-la com uma ação livre. Você pode atacar uma criatura agarrada com sua mão livre. Se preferir, pode substituir um ataque por um teste de manobra contra a criatura. Se vencer, causa dano de impacto igual a um ataque desarmado ou arma natural (que fica ocupada enquanto agarra). Isso significa que você está esmagando ou sufocando o inimigo.\n\nVocê só pode agarrar com um ataque desarmado. Um personagem fazendo um ataque à distância contra um alvo envolvido na manobra agarrar tem 50% de chance de mirar no alvo errado!\n"
               },
               {
                 "type": "item",
@@ -228,7 +228,7 @@
       {
         "type": "item",
         "name": "Dano Não Letal",
-        "description": "Dano não letal se soma ao dano letal para determinar quando você cai inconsciente, mas não conta para determinar quando você morre. Se você tem dano letal e não letal e é curado, cura primeiro o dano não letal.\n\nQuase todo dano causado em condições normais (armas, armadilhas, magias...) é letal. Você pode usar uma arma para causar dano não letal (batendo com as partes não afiadas da arma, controlando a força dos golpes ou evitando pontos vitais), mas sofre uma penalidade de –5 no teste de ataque.\n\nAtaques desarmados e certas armas específicas causam dano não letal. Você pode usar esses ataques e armas para causar dano letal, mas sofre a mesma penalidade de –5 no teste de ataque.\n"
+        "description": "Dano não letal se soma ao dano letal para determinar quando você cai inconsciente, mas não conta para determinar quando você morre e começa a sangrar. Se você tem dano letal e não letal e é curado, cura primeiro o dano não letal.\n\nQuase todo dano causado em condições normais (armas, armadilhas, magias...) é letal. Você pode usar uma arma para causar dano não letal (batendo com as partes não afiadas da arma, controlando a força dos golpes ou evitando pontos vitais), mas sofre uma penalidade de –5 no teste de ataque.\n\nAtaques desarmados e certas armas específicas causam dano não letal. Você pode usar esses ataques e armas para causar dano letal, mas sofre a mesma penalidade de –5 no teste de ataque.\n"
       },
       {
         "type": "folder",
@@ -288,7 +288,7 @@
           {
             "type": "item",
             "name": "Flanquear",
-            "description": "Quando você luta corpo a corpo contra um oponente e um aliado faz o mesmo no lado oposto — ou seja, o inimigo está entre vocês — vocês estão flanqueando o alvo. Ambos recebem +2 em seus testes de ataque contra o alvo flanqueado. Não se pode flanquear à distância."
+            "description": "Quando você luta corpo a corpo contra um oponente e um aliado faz o mesmo no lado oposto — ou seja, o inimigo está entre vocês — vocês estão flanqueando o alvo. Ambos recebem +2 em seus testes de ataque contra o alvo flanqueado. Não se pode flanquear à distância ou com ataques desarmados, a menos que o personagem possua as habilidades Briga ou Estilo Desarmado."
           }
         ]
       },
@@ -321,7 +321,7 @@
       {
         "type": "item",
         "name": "Apavorado",
-        "description": "O personagem sofre –5 em testes de perícia e deve fugir da fonte do medo da maneira mais eficiente possível (mas pode parar de fazê-lo assim que a perder de vista ou se afastar mais do que alcance médio). Se não puder, poderá agir, mas não poderá se aproximar voluntariamente da fonte do medo. Condição de medo."
+        "description": "“O personagem sofre –5 em testes de perícia e não pode se aproximar voluntariamente da fonte do medo\n"
       },
       {
         "type": "item",
@@ -647,7 +647,7 @@
           {
             "type": "item",
             "name": "Cura - Descrição",
-            "description": "Sab\n\nVocê sabe tratar ferimentos, doenças e venenos.\n\nEsta perícia exige um kit de medicamentos. Sem ele, você sofre –5 no teste. Você pode usar a perícia Cura em si mesmo, mas sofre –5 no teste.\n"
+            "description": "Sab\n\nVocê sabe tratar ferimentos, doenças e venenos.\n\nEsta perícia exige um kit de medicamentos. Sem ele, você sofre –5 no teste. Você pode usar a perícia Cura em si mesmo, mas sofre –5 no teste. Esta perícia, assim como habilidades que exigem testes dela, não tem efeito em construtos.\n"
           },
           {
             "type": "item",
@@ -776,7 +776,7 @@
           {
             "type": "item",
             "name": "Esconder-se",
-            "description": "Faça um teste de Furtividade oposto pelos testes de Percepção de qualquer um que possa notá-lo. Criaturas que falharem não conseguem percebê-lo (você tem camuflagem total contra elas).\n\nEsconder-se é uma ação livre, mas você precisa terminar seu turno com cobertura ou camuflagem — escuridão, folhagens, outras pessoas com as quais consiga se misturar etc. Você pode se mover à metade de seu deslocamento sem penalidades ou ao seu deslocamento normal sofrendo –5 no teste (se estiver se escondendo em uma multidão, pode se mover ao deslocamento dela sem sofrer penalidade). Se atacar, lançar uma magia ou fizer outra ação chamativa, sofre uma penalidade de –20 (e, se já estava escondido, deve refazer o teste com esta penalidade).\n"
+            "description": "Faça um teste de Furtividade oposto pelos testes de Percepção de qualquer um que possa notá-lo. Criaturas que falharem não conseguem percebê-lo (você tem camuflagem total contra elas).\n\nEsconder-se é uma ação livre, mas você precisa terminar seu turno com cobertura ou camuflagem — escuridão, folhagens, outras pessoas com as quais consiga se misturar etc. Você pode se mover à metade de seu deslocamento sem penalidades ou ao seu deslocamento normal sofrendo –5 no teste (se estiver se escondendo em uma multidão, pode se mover ao deslocamento dela sem sofrer penalidade). Se atacar, lançar uma magia ou fizer outra ação chamativa, sofre uma penalidade de –20 pelo restante da rodada (e, se já estava escondido, deve refazer o teste com esta penalidade).\n"
           },
           {
             "type": "item",
@@ -960,7 +960,7 @@
           {
             "type": "item",
             "name": "Detectar Magia (CD 15)",
-            "description": "Como uma ação completa, você detecta a presença e intensidade de auras mágicas (magias ativas e itens mágicos) em alcance curto. A intensidade de uma aura mágica depende do círculo da magia ou categoria do item mágico. Magias de 1º e 2º círculos e itens mágicos menores geram uma aura tênue, magias de 3º e 4º círculos e itens mágicos médios geram uma aura moderada e magias de 5º círculo e itens mágicos maiores geram uma aura poderosa. Magias lançadas por um deus maior e artefatos geram uma aura avassaladora. Caso a aura mágica esteja atrás de uma barreira física, você sofre uma penalidade em seu teste (–5 para madeira ou pedra, –10 para ferro ou chumbo)."
+            "description": "Como uma ação completa, você detecta a presença e intensidade (mas não a localização) de auras mágicas (magias ativas e itens mágicos) em alcance curto. A intensidade de uma aura mágica depende do círculo da magia ou categoria do item mágico. Magias de 1º e 2º círculos e itens mágicos menores geram uma aura tênue, magias de 3º e 4º círculos e itens mágicos médios geram uma aura moderada e magias de 5º círculo e itens mágicos maiores geram uma aura poderosa. Magias lançadas por um deus maior e artefatos geram uma aura avassaladora. Caso a aura mágica esteja atrás de uma barreira física, você sofre uma penalidade em seu teste (–5 para madeira ou pedra, –10 para ferro ou chumbo)."
           },
           {
             "type": "item",

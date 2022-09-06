@@ -82,7 +82,7 @@
   "Minotauro": {
     "Chifres": {
       "nome": "Chifres",
-      "descrição": "Você possui uma arma natural de chifres (dano 1d6, crítico x2, perfuração). Quando usa a ação atacar, pode gastar 1 PM para fazer um ataque corpo a corpo extra com os chifres.\n"
+      "descrição": "Você possui uma arma natural de chifres (dano 1d6, crítico x2, perfuração). Uma vez por rodada quando usa a ação atacar, pode gastar 1 PM para fazer um ataque corpo a corpo extra com os chifres.\n"
     },
     "Couro Rígido": {
       "nome": "Couro Rígido",
@@ -140,7 +140,7 @@
     },
     "Pequeno e Rechonchudo": {
       "nome": "Pequeno e Rechonchudo",
-      "descrição": "Seu tamanho é Pequeno (veja a página 106) e seu deslocamento é 6m. Você recebe +2 em Enganação e usa o modificador de Destreza para Atletismo (em vez de Força).\n"
+      "descrição": "Seu tamanho é Pequeno (veja a página 106) e seu deslocamento é 6m. Você recebe +2 em Enganação e pode usar o modificador de Destreza para Atletismo (em vez de Força).\n"
     },
     "Sorte Salvadora": {
       "nome": "Sorte Salvadora",
@@ -154,7 +154,7 @@
     },
     "Lógica Gnômica": {
       "nome": "Lógica Gnômica",
-      "descrição": "ESTA HABILIDADE FOI REMOVIDA NA ERRATA. Quando faz um teste de atributo ou perícia, você pode gastar 2 PM para substituir o modificador de atributo utilizado por Inteligência. Por exemplo, ao fazer um teste de Atletismo você pode gastar 2 PM para usar seu modificador de Inteligência em vez do modificador de Força.\n"
+      "descrição": "ESTA HABILIDADE FOI REMOVIDA NA ERRATA 1.1. Quando faz um teste de atributo ou perícia, você pode gastar 2 PM para substituir o modificador de atributo utilizado por Inteligência. Por exemplo, ao fazer um teste de Atletismo você pode gastar 2 PM para usar seu modificador de Inteligência em vez do modificador de Força.\n"
     },
     "Engenhosidade": {
       "nome": "Engenhosidade",
@@ -176,7 +176,7 @@
     },
     "Natureza Venenosa": {
       "nome": "Natureza Venenosa",
-      "descrição": "Você recebe resistência a veneno 5 e pode gastar uma ação de movimento e 1 PM para envenenar uma arma que esteja empunhando. A arma causa +1d12 pontos de dano de veneno. O veneno dura até você acertar um ataque ou até o fim da cena (o que acontecer primeiro).\n"
+      "descrição": "Você recebe resistência a veneno 5 e pode gastar uma ação de movimento e 1 PM para envenenar uma arma que esteja usando. A arma causa +1d12 pontos de dano de veneno. O veneno dura até você acertar um ataque ou até o fim da cena (o que acontecer primeiro).\n"
     },
     "Olhar Atordoante": {
       "nome": "Olhar Atordoante",
@@ -250,7 +250,7 @@
     },
     "Mordida": {
       "nome": "Mordida",
-      "descrição": "Você possui uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Quando usa a ação atacar, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida.\n"
+      "descrição": "Você possui uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Uma vez pro rodada quando usa a ação atacar, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida.\n"
     },
     "Reptiliano": {
       "nome": "Reptiliano",
@@ -390,7 +390,7 @@
   "Bárbaro": {
     "Fúria": {
       "nome": "Fúria",
-      "descrição": "Você pode gastar 2 PM para invocar uma fúria selvagem, tornando-se temível em combate. Você recebe +2 em testes de ataque e rolagens de dano corpo a corpo, mas não pode fazer nenhuma ação que exija calma e concentração (como usar a perícia Furtividade ou lançar magias). A cada cinco níveis, pode gastar +2 PM para aumentar os bônus em +1.\nA Fúria termina se, ao fim da rodada, você não tiver atacado nem sido alvo de um efeito (ataque, habilidade, magia...) hostil.\n"
+      "descrição": "Você pode gastar 2 PM para invocar uma fúria selvagem, tornando-se temível em combate. Você recebe +2 em testes de ataque e rolagens de dano corpo a corpo, mas não pode fazer nenhuma ação que exija calma e concentração (como usar a perícia Furtividade ou lançar magias). A cada cinco níveis, pode gastar +1 PM para aumentar os bônus em +1.\nA Fúria termina se, ao fim da rodada, você não tiver atacado nem sido alvo de um efeito (ataque, habilidade, magia...) hostil.\n"
     },
     "Animais Totêmicos": {
       "nome": "Animais Totêmicos",
@@ -430,7 +430,7 @@
     },
     "Frenesi": {
       "nome": "Frenesi",
-      "descrição": "Se estiver em fúria e usar a ação atacar para fazer um ataque corpo a corpo, você pode gastar 2 PM para fazer um ataque adicional.\n"
+      "descrição": "Se estiver em fúria e usar a ação atacar para fazer um ataque corpo a corpo, você pode gastar 2 PM para fazer um ataque adicional uma vez por rodada.\n"
     },
     "Fúria da Savana": {
       "nome": "Fúria da Savana",
@@ -528,7 +528,7 @@
     },
     "Fascinar": {
       "nome": "Fascinar",
-      "descrição": "Você pode gastar uma ação padrão e 1 PM para fascinar uma criatura a sua escolha em alcance curto. Faça um teste de Atuação oposto pelo teste de Vontade da criatura. Se você passar, ela fica fascinada enquanto você se concentrar (uma ação padrão por rodada). Se a criatura passar, fica imune a este efeito por um dia.\n"
+      "descrição": "Você pode gastar uma ação padrão e 1 PM para fascinar uma criatura a sua escolha em alcance curto. Faça um teste de Atuação oposto pelo teste de Vontade da criatura. Se você passar, ela fica fascinada enquanto você se concentrar (uma ação padrão por rodada). Um alvo hostil ou envolvido em combate recebe +5 no teste de resistência e tem direito a um novo teste por rodada, sempre que você se concentrar. Se a criatura passar, fica imune a este efeito por um dia.\n"
     },
     "Fascinar em Massa": {
       "nome": "Fascinar em Massa",
@@ -572,7 +572,7 @@
     },
     "Paródia": {
       "nome": "Paródia",
-      "descrição": "Uma vez por rodada, quando vê alguém lançando uma magia em alcance médio, você pode gastar uma reação e 1 PM e fazer um teste de Atuação (CD 15 + custo em PM da magia). Se passar, até o final de seu próximo turno você pode lançar essa magia. Este poder é uma habilidade mágica.\n"
+      "descrição": "Uma vez por rodada, quando vê outra criatura lançando uma magia em alcance médio, você pode gastar uma reação e 1 PM e fazer um teste de Atuação (CD 15 + custo em PM da magia). Se passar, até o final de seu próximo turno você pode lançar essa magia. Este poder é uma habilidade mágica.\n"
     },
     "Prestidigitação": {
       "nome": "Prestidigitação",
@@ -610,7 +610,7 @@
     },
     "Aparar": {
       "nome": "Aparar",
-      "descrição": "Uma vez por rodada, quando é atingido por um ataque corpo a corpo, você pode gastar uma reação e 1 PM para apará-lo. Faça um teste de ataque. Se o resultado do seu teste for maior que o do oponente, você evita o ataque. Você só pode usar este poder se estiver usando uma arma leve ou ágil. Pré-requisito: Esgrimista.\n"
+      "descrição": "Uma vez por rodada, quando é atingido por um ataque corpo a corpo, você pode gastar uma reação e 1 PM para apará-lo. Faça um teste de ataque com um bônus igual ao seu nível. Se o resultado do seu teste for maior que o do oponente, você evita o ataque. Você só pode usar este poder se estiver usando uma arma leve ou ágil. Pré-requisito: Esgrimista.\n"
     },
     "Apostador": {
       "nome": "Apostador",
@@ -670,7 +670,7 @@
     },
     "Presença Paralisante": {
       "nome": "Presença Paralisante",
-      "descrição": "Você soma seu bônus de Carisma em Iniciativa. Pré-requisito: Car 13.\n"
+      "descrição": "Você soma seu bônus de Carisma em Iniciativa e na margem de ameaça de seus ataques, na primeira rodada de um combate, contra oponentes cuja ordem na iniciativa seja inferior a sua. Pré-requisito: Car 13.\n"
     },
     "Ripostar": {
       "nome": "Ripostar",
@@ -708,7 +708,7 @@
     },
     "Ambidestria": {
       "nome": "Ambidestria",
-      "descrição": "Se estiver usando duas armas (e pelo menos uma delas for leve) e fizer a ação atacar, você pode fazer dois ataques, um com cada arma. Se fizer isso, sofre –2 em todos os testes de ataque até o seu próximo turno. Pré-requisito: Des 15.\n"
+      "descrição": "Se estiver empunhando duas armas (e pelo menos uma delas for leve) e fizer a ação atacar, você pode fazer dois ataques, um com cada arma. Se fizer isso, sofre –2 em todos os testes de ataque até o seu próximo turno. Pré-requisito: Des 15.\n"
     },
     "Armadilhas": {
       "nome": "Armadilhas",
@@ -716,7 +716,7 @@
     },
     "Armadilha: Arataca": {
       "nome": "Armadilha: Arataca",
-      "descrição": "A vítima sofre 2d6 pontos de dano de perfuração e fica agarrada. Uma criatura agarrada pode escapar com uma ação padrão e um teste de Acrobacia ou Atletismo (CD Sab).\n"
+      "descrição": "A vítima sofre 2d6 pontos de dano de perfuração e fica agarrada. Uma criatura agarrada pode escapar com uma ação padrão e um teste de Força ou Acrobacia (CD Sab).\n"
     },
     "Armadilha: Espinhos": {
       "nome": "Armadilha: Espinhos",
@@ -728,7 +728,7 @@
     },
     "Armadilha: Rede": {
       "nome": "Armadilha: Rede",
-      "descrição": "Todas as criaturas na área devem fazer um teste de Reflexos (CD Sab) para não ficarem enredadas. Uma vítima pode se libertar com uma ação padrão e um teste de Acrobacia ou Atletismo (CD 25). Além disso, a área ocupada pela rede é considerada terreno difícil.\n"
+      "descrição": "Ao contrário de outras armadilhas, nesta você escolhe quantas criaturas precisam estar na área para ativá-la. Todas as criaturas na área devem fazer um teste de Reflexos (CD Sab) para não ficarem enredadas. Uma vítima pode se libertar com uma ação padrão e um teste de Força ou Acrobacia (CD 25). Além disso, a área ocupada pela rede é considerada terreno difícil.\n"
     },
     "Arqueiro": {
       "nome": "Arqueiro",
@@ -748,7 +748,7 @@
     },
     "Chuva de Lâminas": {
       "nome": "Chuva de Lâminas",
-      "descrição": "Quando usa Ambidestria, você pode pagar 2 PM para fazer um ataque adicional com sua arma primária. Pré-requisito: Des 19, Ambidestria, 12º nível de caçador.\n"
+      "descrição": "Quando usa Ambidestria, você pode pagar 2 PM para fazer um ataque adicional com sua arma primária uma vez por rodada. Pré-requisito: Des 19, Ambidestria, 12º nível de caçador.\n"
     },
     "Companheiro Animal": {
       "nome": "Companheiro Animal",
@@ -818,11 +818,11 @@
     },
     "Baluarte": {
       "nome": "Baluarte",
-      "descrição": "Você pode gastar 1 PM para receber +2 na Defesa e nos testes de resistência até o início do seu próximo turno. A cada quatro níveis, pode gastar +1 PM para aumentar o bônus em +2.\nA partir do 7º nível, quando usa esta habilidade, você pode gastar 2 PM adicionais para fornecer o mesmo bônus a todos os aliados adjacentes. Por exemplo, pode gastar 4 PM ao todo para receber +4 na Defesa e nos testes de resistência e fornecer este mesmo bônus aos outros. A partir do 15º nível, você pode gastar 5 PM adicionais para fornecer o mesmo bônus a todos os aliados em alcance curto.\n"
+      "descrição": "Quando sofre um ataque ou faz um teste de resistência, você pode gastar uma reação e 1 PM para receber +2 na Defesa e nos testes de resistência até o início do seu próximo turno. A cada quatro níveis, pode gastar +1 PM para aumentar o bônus em +2.\nA partir do 7º nível, quando usa esta habilidade, você pode gastar 2 PM adicionais para fornecer o mesmo bônus a todos os aliados adjacentes. Por exemplo, pode gastar 4 PM ao todo para receber +4 na Defesa e nos testes de resistência e fornecer este mesmo bônus aos outros. A partir do 15º nível, você pode gastar 5 PM adicionais para fornecer o mesmo bônus a todos os aliados em alcance curto.\n"
     },
     "Duelo": {
       "nome": "Duelo",
-      "descrição": "A partir do 2º nível, você pode gastar 2 PM para escolher um inimigo em alcance curto e receber +1 em testes de ataque e rolagens de dano contra ele até o fim da cena. Se atacar outro inimigo, o bônus termina. Para cada 2 PM extras que você gastar, o bônus aumenta em +1.\n"
+      "descrição": "A partir do 2º nível, você pode gastar 1 PM para escolher um oponente em alcance curto e receber +2 em testes de ataque e rolagens de dano contra ele até o fim da cena. Se atacar outro oponente, o bônus termina. A cada cinco níveis, você pode gastar +1 PM para aumentar o bônus em +1.\n"
     },
     "Posturas de Combate": {
       "nome": "Posturas de Combate",
@@ -882,7 +882,7 @@
     },
     "Postura de Combate: Foco de Batalha": {
       "nome": "Postura de Combate: Foco de Batalha",
-      "descrição": "Sempre que um inimigo atacá-lo, você recebe 1 PM temporário cumulativo. Pontos de mana temporários desaparecem no final da cena.\n"
+      "descrição": "Sempre que um inimigo atacá-lo, você recebe 1 PM temporário cumulativo. Você pode ganhar um máximo de PM temporários por cena igual ao seu nível. Pontos de mana temporários desaparecem no final da cena.\n"
     },
     "Postura de Combate: Muralha Intransponível": {
       "nome": "Postura de Combate: Muralha Intransponível",
@@ -944,7 +944,7 @@
     },
     "Abençoar Arma": {
       "nome": "Abençoar Arma",
-      "descrição": "Você se torna proficiente na arma preferida de sua divindade. Se estiver empunhando essa arma, pode gastar uma ação de movimento e 3 PM para infundi-la com poder divino. Até o final da cena, a arma emite luz dourada ou púrpura (como uma tocha) e você pode usar seu modificador de Sabedoria em testes de ataque e rolagens de dano com ela (em vez do modificador padrão). Além disso, o dano da arma aumenta em um passo e ela é considerada mágica para propósitos de resistência a dano.\n"
+      "descrição": "Você se torna proficiente na arma preferida de sua divindade. Se estiver empunhando essa arma, pode gastar uma ação de movimento e 3 PM para infundi-la com poder divino. Até o final da cena, a arma emite luz dourada ou púrpura (como uma tocha) não cumulativo com efeitos que somam o modificador deste atributo e você pode usar seu modificador de Sabedoria em testes de ataque e rolagens de dano com ela (em vez do modificador padrão). Além disso, o dano da arma aumenta em um passo e ela é considerada mágica para propósitos de resistência a dano.\n"
     },
     "Aumento de Atributo": {
       "nome": "Aumento de Atributo",
@@ -960,7 +960,7 @@
     },
     "Missas": {
       "nome": "Missas",
-      "descrição": "Alguns poderes do clérigo são Missas. Esses poderes compartilham as seguintes regras.\n• Rezar uma Missa exige uma hora e o gasto de materiais especiais (como velas, incensos, água benta...) no valor de T$ 25.\n• Uma Missa afeta um número máximo de pessoas igual a 1 + seu bônus de Sabedoria. Todas as pessoas precisam estar presentes durante toda a Missa.\n• Os efeitos de uma Missa duram um dia. Uma mesma criatura só pode receber os benefícios de uma Missa por vez.\n"
+      "descrição": "Alguns poderes do clérigo são Missas. Esses poderes compartilham as seguintes regras.\n• Rezar uma Missa exige uma hora e o gasto de materiais especiais (como velas, incensos, água benta...) no valor de T$ 25. Um mesmo celebrante pode aplicar mais de um poder de Missa na mesma celebração. Cada poder adicional aumenta o custo da Missa em T$25\n• Uma Missa afeta um número máximo de pessoas igual a 1 + seu bônus de Sabedoria. Todas as pessoas precisam estar presentes durante toda a Missa.\n• Os efeitos de uma Missa duram um dia. Uma mesma criatura só pode receber os benefícios da mesma Missa uma vez por dia.\n"
     },
     "Canalizar Amplo": {
       "nome": "Canalizar Amplo",
@@ -1008,7 +1008,7 @@
     },
     "Missa: Superar as Limitações": {
       "nome": "Missa: Superar as Limitações",
-      "descrição": "Você encoraja os ouvintes a superar suas próprias habilidades. Cada participante recebe +1d6 num único teste a sua escolha.\n"
+      "descrição": "Você encoraja os ouvintes a superar suas próprias habilidades e pode usá-lo mesmo após rolar o dado. Cada participante recebe +1d6 num único teste a sua escolha.\n"
     },
     "Prece de Combate": {
       "nome": "Prece de Combate",
@@ -1176,7 +1176,7 @@
     },
     "Ataque Reflexo": {
       "nome": "Ataque Reflexo",
-      "descrição": "Se um alvo em alcance de seus ataques corpo a corpo ficar desprevenido ou se mover voluntariamente para fora do seu alcance, você pode gastar 1 PM para fazer um ataque corpo a corpo contra esse alvo como uma reação. Pré-requisito: Des 13.\n"
+      "descrição": "Se um alvo em alcance de seus ataques corpo a corpo ficar desprevenido ou se mover voluntariamente para fora do seu alcance, você pode gastar 1 PM para fazer um ataque corpo a corpo contra esse alvo como uma reação. Apenas uma vez por alvo a cada rodada”. Pré-requisito: Des 13.\n"
     },
     "Bater e Correr": {
       "nome": "Bater e Correr",
@@ -1208,11 +1208,11 @@
     },
     "Golpe Pessoal": {
       "nome": "Golpe Pessoal",
-      "descrição": "Quando faz um ataque, você pode desferir seu Golpe Pessoal, uma manobra única, com efeitos determinados por você. Você constrói o seu Golpe Pessoal escolhendo efeitos da lista a seguir. Cada efeito possui um custo; a soma deles será o custo do Golpe Pessoal (mínimo 1 PM e máximo igual ao seu nível). O Golpe Pessoal só pode ser usado com um tipo de arma específico (por exemplo, apenas espadas longas). Quando sobe de nível, você pode reconstruir seu Golpe Pessoal e alterar a arma que ele usa. Você pode escolher este poder outras vezes para golpes diferentes. Você não pode gastar mais pontos de mana em golpes pessoais em uma mesma rodada do que seu limite de PM para este poder. Pré-requisito: 5º nível de guerreiro.\n"
+      "descrição": "Quando faz um ataque, você pode desferir seu Golpe Pessoal, uma manobra única, com efeitos determinados por você. Você constrói o seu Golpe Pessoal escolhendo efeitos da lista a seguir. Cada efeito possui um custo (cumulativo mesmo no caso de reduções); a soma deles será o custo do Golpe Pessoal (mínimo 1 PM e máximo igual ao seu nível). O Golpe Pessoal só pode ser usado com um tipo de arma específico (por exemplo, apenas espadas longas). Quando sobe de nível, você pode reconstruir seu Golpe Pessoal e alterar a arma que ele usa. Você pode escolher este poder outras vezes para golpes diferentes. Você não pode gastar mais pontos de mana em golpes pessoais em uma mesma rodada do que seu limite de PM para este poder. Pré-requisito: 5º nível de guerreiro.\n"
     },
     "Efeitos do Golpe Pessoal": {
       "nome": "Efeitos do Golpe Pessoal",
-      "descrição": "À Distância (+1 PM). Aumenta o alcance em um passo (de corpo a corpo para curto, médio e longo). Outras características não mudam (um ataque corpo a corpo com alcance curto continua usando Luta e modificador de Força no dano).\nAmplo (+3 PM). Seu ataque atinge todas as criaturas em alcance curto (incluindo aliados, mas não você mesmo). Faça um único teste de ataque e compare com a Defesa de cada criatura.\nAtordoante (+2 PM). Uma criatura que sofra dano do ataque fica atordoada por uma rodada (Fortitude CD For anula). Se passar no teste de Fortitude, a criatura não poderá mais ser atordoada por este Golpe Pessoal até o fim da cena.\nBrutal (+1 PM). Aumenta o dano em mais um dado do mesmo tipo.\nConjurador (Custo da Magia + 1 PM). Escolha uma magia de 1º ou 2º círculos que tenha como alvo uma criatura ou que afete uma área. Se acertar seu golpe, você lança a magia como uma ação livre, tendo como alvo a criatura atingida ou como centro de sua área o ponto atingido pelo ataque (atributo-chave é um mental a sua escolha).\nDestruidor (+2 PM). Aumenta o multiplicador de crítico em +1.\nElemental (+2 PM). Causa +2d6 pontos de dano de ácido, eletricidade, fogo ou frio. Você pode escolher este efeito várias vezes, aumentando o dano em +2d6 e o custo em +2 PM a cada vez.\nImpactante (+1 PM). Empurra o alvo 1,5m para cada 5 pontos de dano causado (arredondado para baixo). Por exemplo, um ataque que cause 22 pontos de dano empurra o alvo 6m.\nLetal (+2 PM). Aumenta a margem de ameaça em +2. Você pode escolher este efeito duas vezes para aumentar a margem de ameaça em +5.\nPenetrante (+1 PM). Ignora 5 pontos de resistência a dano. Você pode escolher este efeito duas vezes, para ignorar 10 pontos de RD.\nPreciso (+1 PM). Quando faz o teste de ataque, você rola dois dados e usa o melhor resultado.\nQualquer Arma (+1 PM). Você pode usar seu Golpe Pessoal com qualquer tipo de arma.\nTeleguiado (+1 PM). Ignora penalidades por camuflagem ou cobertura (mas não cobertura total).\nLento (–1 PM). Seu ataque exige uma ação completa para ser usado.\nPerto da Morte (–2 PM). Seu ataque só pode ser usado se você estiver com um quarto de seus pontos de vida ou menos.\nSacrifício (–2 PM). Você perde PV igual à metade do dano causado pelo seu ataque.\n"
+      "descrição": "À Distância (+1 PM). Aumenta o alcance em um passo (de corpo a corpo para curto, médio e longo). Outras características não mudam (um ataque corpo a corpo com alcance curto continua usando Luta e modificador de Força no dano).\nAmplo (+3 PM). Seu ataque atinge todas as criaturas em alcance curto (incluindo aliados, mas não você mesmo). Faça um único teste de ataque e compare com a Defesa de cada criatura.\nAtordoante (+2 PM). Uma criatura que sofra dano do ataque fica atordoada por uma rodada (Fortitude CD For anula). Se passar no teste de Fortitude, a criatura não poderá mais ser atordoada por este Golpe Pessoal até o fim da cena.\nBrutal (+1 PM). Aumenta o dano em mais um dado do mesmo tipo.\nConjurador (Custo da Magia + 1 PM). Escolha uma magia de 1º ou 2º círculos que tenha como alvo uma criatura ou que afete uma área. Se acertar seu golpe, você lança a magia como uma ação livre, tendo como alvo a criatura atingida ou como centro de sua área o ponto atingido pelo ataque (atributo-chave é um mental a sua escolha). Considere que a mão da arma está livre para lançar esta magia.\nDestruidor (+2 PM). Aumenta o multiplicador de crítico em +1.\nElemental (+2 PM). Causa +2d6 pontos de dano de ácido, eletricidade, fogo ou frio. Você pode escolher este efeito várias vezes, aumentando o dano em +2d6 e o custo em +2 PM a cada vez.\nImpactante (+1 PM). Empurra o alvo 1,5m para cada 5 pontos de dano causado (arredondado para baixo). Por exemplo, um ataque que cause 22 pontos de dano empurra o alvo 6m.\nLetal (+2 PM). Aumenta a margem de ameaça em +2. Você pode escolher este efeito duas vezes para aumentar a margem de ameaça em +5.\nPenetrante (+1 PM). Ignora 5 pontos de resistência a dano. Você pode escolher este efeito duas vezes, para ignorar 10 pontos de RD.\nPreciso (+1 PM). Quando faz o teste de ataque, você rola dois dados e usa o melhor resultado.\nQualquer Arma (+1 PM). Você pode usar seu Golpe Pessoal com qualquer tipo de arma.\nTeleguiado (+1 PM). Ignora penalidades por camuflagem ou cobertura (mas não cobertura total).\nLento (–2 PM). Seu ataque exige uma ação completa para ser usado.\nPerto da Morte (–2 PM). Seu ataque só pode ser usado se você estiver com um quarto de seus pontos de vida ou menos.\nSacrifício (–2 PM). Você perde PV igual à metade do dano causado pelo seu ataque.\n"
     },
     "Ímpeto": {
       "nome": "Ímpeto",
@@ -1248,7 +1248,7 @@
     },
     "Ataque Extra": {
       "nome": "Ataque Extra",
-      "descrição": "A partir do 6º nível, quando usa a ação atacar, você pode gastar 2 PM para realizar um ataque adicional com a mesma arma.\n"
+      "descrição": "A partir do 6º nível, quando usa a ação atacar, você pode gastar 2 PM para realizar um ataque adicional uma vez por rodada.\n"
     },
     "Campeão": {
       "nome": "Campeão",
@@ -1380,7 +1380,7 @@
     },
     "Arma Improvisada": {
       "nome": "Arma Improvisada",
-      "descrição": "Ao usar armas improvisadas, você usa as estatísticas de seu ataque desarmado — bônus de ataque, margem de ameaça etc. — mas seu dano aumenta em um passo. Você pode gastar uma ação de movimento para procurar uma pedra, cadeira, garrafa ou qualquer coisa que possa usar como arma. Faça um teste de Percepção (CD 20). Se você passar, encontra uma arma improvisada. Armas improvisadas são frágeis; se você errar um ataque e o resultado do d20 for um número ímpar, a arma quebra.\n"
+      "descrição": "Para você, atacar com armas improvisadas conta como fazer um ataque desarmado, mas seu dano aumenta em um passo. Você pode gastar uma ação de movimento para procurar uma pedra, cadeira, garrafa ou qualquer coisa que possa usar como arma. Faça um teste de Percepção (CD 20). Se você passar, encontra uma arma improvisada. Armas improvisadas são frágeis; se você errar um ataque e o resultado do d20 for um número ímpar, a arma quebra.\n"
     },
     "Até Acertar": {
       "nome": "Até Acertar",
@@ -1562,7 +1562,7 @@
     },
     "Palavras Afiadas": {
       "nome": "Palavras Afiadas",
-      "descrição": "Você pode gastar uma ação padrão e 1 PM para submeter a sua vontade uma criatura inteligente (Int 3 ou mais) em alcance curto. Faça um teste de Diplomacia ou Intimidação (a sua escolha) oposto ao teste de Vontade da criatura. Se vencer, você causa 2d6 pontos de dano mental não letal à criatura. Se perder, causa metade deste dano. Para cada PM extra que você gastar quando ativar o poder, o dano aumenta em +1d6. Caso a criatura seja reduzida a 0 ou menos PV, rende-se (caso você tenha usado Diplomacia) ou fica apavorada (caso tenha usado Intimidação), em vez de cair inconsciente.\n"
+      "descrição": "Você pode gastar uma ação padrão e 1 PM para submeter a sua vontade uma criatura inteligente (Int 3 ou mais) em alcance curto. Faça um teste de Diplomacia ou Intimidação (a sua escolha) oposto ao teste de Vontade da criatura. Se vencer, você causa 2d6 pontos de dano mental não letal à criatura. Se perder, causa metade deste dano. Para cada PM extra que você gastar quando ativar o poder, o dano aumenta em +1d6. Caso a criatura seja reduzida a 0 ou menos PV, rende-se (caso você tenha usado Diplomacia) ou fica apavorada e foge de você da maneira mais eficiente possível (caso tenha usado Intimidação), em vez de cair inconsciente.\n"
     },
     "Presença Aristocrática": {
       "nome": "Presença Aristocrática",
@@ -1656,7 +1656,7 @@
     },
     "Julgamento Divino: Coragem": {
       "nome": "Julgamento Divino: Coragem",
-      "descrição": "Você pode gastar 2 PM para inspirar coragem em uma criatura em alcance curto, incluindo você mesmo. A criatura fica imune a efeitos de medo e recebe +2 em testes de ataque contra alvos de ND maior que o nível dela.\n"
+      "descrição": "Você pode gastar 2 PM para inspirar coragem em uma criatura em alcance curto, incluindo você mesmo. A criatura fica imune a efeitos de medo e recebe +2 em testes de ataque contra o inimigo com o maior ND na cena.\n"
     },
     "Julgamento Divino: Iluminação": {
       "nome": "Julgamento Divino: Iluminação",
@@ -1732,7 +1732,7 @@
     },
     "Vingador Sagrado": {
       "nome": "Vingador Sagrado",
-      "descrição": "No 20º nível, você pode gastar uma ação completa e 10 PM para se cobrir de energia divina, assumindo a forma de um vingador sagrado até o fim da cena. Nesta forma, você recebe deslocamento de voo 18m e resistência a dano 20. Além disso, o custo de seu Golpe Divino é reduzido à metade e o dado de dano fornecido por ele aumenta em um passo.\n"
+      "descrição": "No 20º nível, você pode gastar uma ação completa e 10 PM para se cobrir de energia divina, assumindo a forma de um vingador sagrado até o fim da cena. Nesta forma, você recebe deslocamento de voo 18m e resistência a dano 20. Nesta forma, você recebe deslocamento de voo 18m e resistência a dano 20. Além disso, o custo de seu Golpe Divino é reduzido à metade.\n"
     }
   },
   "Acólito": {
@@ -1952,7 +1952,7 @@
     },
     "Arma Secundária grande": {
       "nome": "Arma Secundária grande",
-      "descrição": "Você pode usar duas armas de uma mão com o poder Estilo de Duas Armas. Pré-requisito: Estilo de Duas Armas.\n"
+      "descrição": "Você pode empunhar duas armas de uma mão com o poder Estilo de Duas Armas. Pré-requisito: Estilo de Duas Armas.\n"
     },
     "Arremesso Potente": {
       "nome": "Arremesso Potente",
@@ -1968,7 +1968,7 @@
     },
     "Ataque Preciso": {
       "nome": "Ataque Preciso",
-      "descrição": "Se estiver usando uma arma corpo a corpo em uma das mãos e nada na outra, você recebe +2 na margem de ameaça e +1 no multiplicador de crítico. Pré-requisito: Estilo de Uma Arma.\n"
+      "descrição": "Se estiver empunhando uma arma corpo a corpo em uma das mãos e nada na outra, você recebe +2 na margem de ameaça e +1 no multiplicador de crítico. Pré-requisito: Estilo de Uma Arma.\n"
     },
     "Bloqueio com Escudo": {
       "nome": "Bloqueio com Escudo",
@@ -1996,7 +1996,7 @@
     },
     "Disparo Rápido": {
       "nome": "Disparo Rápido",
-      "descrição": "Se estiver usando uma arma de ataque à distância e gastar uma ação completa para atacar, você pode fazer um ataque adicional com ela (se puder recarregá- -la como ação livre). Se fizer isso, sofre –2 em todos os testes de ataque até o seu próximo turno. Pré-requisito: Des 13, Estilo de Disparo ou Estilo de Arremesso.\n"
+      "descrição": "Se estiver usando uma arma de disparo e gastar uma ação completa para atacar, você pode fazer um ataque adicional com ela (se puder recarregá- -la como ação livre). Se fizer isso, sofre –2 em todos os testes de ataque até o seu próximo turno. Pré-requisito: Des 13, Estilo de Disparo.\n"
     },
     "Empunhadura Poderosa": {
       "nome": "Empunhadura Poderosa",
@@ -2024,7 +2024,7 @@
     },
     "Estilo de Duas Armas": {
       "nome": "Estilo de Duas Armas",
-      "descrição": "Se estiver usando duas armas (e pelo menos uma delas for leve) e fizer a ação atacar, você pode fazer dois ataques, um com cada arma. Se fizer isso, sofre –2 em todos os testes de ataque até o seu próximo turno. Se você possuir Ambidestria, não sofre essa penalidade. Pré-requisito: Des 15, treinado em Luta.\n"
+      "descrição": "Se estiver empunhando duas armas (e pelo menos uma delas for leve) e fizer a ação atacar, você pode fazer dois ataques, um com cada arma. Se fizer isso, sofre –2 em todos os testes de ataque até o seu próximo turno. Se você possuir Ambidestria, não sofre essa penalidade. Pré-requisito: Des 15, treinado em Luta.\n"
     },
     "Estilo de Duas Mãos": {
       "nome": "Estilo de Duas Mãos",
@@ -2266,7 +2266,7 @@
     },
     "Cura Gentil - Lena": {
       "nome": "Cura Gentil - Lena",
-      "descrição": "Você adiciona seu bônus de Carisma (mínimo +1) aos PV restaurados por suas magias de cura.\n"
+      "descrição": "Você adiciona seu bônus de Carisma (mínimo +1) aos PV restaurados por suas habilidades mágicas de cura.\n"
     },
     "Curandeira Perfeita - Lena": {
       "nome": "Curandeira Perfeita - Lena",
@@ -2370,7 +2370,7 @@
     },
     "Percepção Temporal - Aharadak": {
       "nome": "Percepção Temporal - Aharadak",
-      "descrição": "Você pode gastar 3 PM para adicionar seu bônus de Sabedoria (mínimo +1, limitado por seu nível) a seus ataques, Defesa e testes de Reflexos até o fim da cena.\n"
+      "descrição": "Você pode gastar 3 PM para adicionar seu bônus de Sabedoria (mínimo +1, limitado por seu nível não cumulativo com efeitos que somam o modificador deste atributo) a seus ataques, Defesa e testes de Reflexos até o fim da cena.\n"
     },
     "Poder Oculto - Nimb": {
       "nome": "Poder Oculto - Nimb",
@@ -2468,7 +2468,7 @@
     },
     "Dentes Afiados": {
       "nome": "Dentes Afiados",
-      "descrição": "Você recebe uma arma natural de mordida (dano 1d4, crítico x2, corte). Quando usa a ação atacar, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida.\n"
+      "descrição": "Você recebe uma arma natural de mordida (dano 1d4, crítico x2, corte). Uma vez por rodada quando usa a ação atacar, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida.\n"
     },
     "Empunhadura Rubra": {
       "nome": "Empunhadura Rubra",
@@ -2480,7 +2480,7 @@
     },
     "Membros extras": {
       "nome": "Membros extras",
-      "descrição": "Você possui um par de patas insetoides que saem de suas costas, ombros ou flancos. Quando usa a ação atacar, pode gastar 2 PM para fazer um ataque corpo a corpo extra com cada um (dano 1d4, crítico x2, corte). Se possuir Ambidestria ou Estilo de Duas Armas, pode empunhar armas leves em suas patas insetoides (mas ainda precisa pagar 2 PM para atacar com elas e sofre a penalidade de –2 em todos os ataques). Pré-requisitos: quatro outros poderes da Tormenta.\n"
+      "descrição": "Você possui duas armas naturais de patas insetoides que saem de suas costas, ombros ou flancos. Uma vez por rodada quando usa a ação atacar, pode gastar 2 PM para fazer um ataque corpo a corpo extra com cada um (dano 1d4, crítico x2, corte). Se possuir Ambidestria ou Estilo de Duas Armas, pode empunhar armas leves em suas patas insetoides (mas ainda precisa pagar 2 PM para atacar com elas e sofre a penalidade de –2 em todos os ataques). Pré-requisitos: quatro outros poderes da Tormenta.\n"
     },
     "Olhos Vermelhos": {
       "nome": "Olhos Vermelhos",
