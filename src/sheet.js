@@ -72,7 +72,7 @@ class CharacterSheet {
       }
     });
     form.on('submit', function () {
-      sheet.fill_pell_sheet(spell_sheet, sheet.spells[circle][input.val()]);
+      sheet.fill_spell_sheet(spell_sheet, sheet.spells[circle][input.val()]);
       dialog.dialog('close');
       return false;
     });
