@@ -5,7 +5,7 @@ function dummy_slugify(s){
 }
 
 function render_paragraphs(content, lines) {
-  if (lines.length == 0) return content;
+  if (lines.length === 0) return content;
   return render_paragraphs(content + `<p>${lines[0]}</p>`, lines.slice(1))
 }
 
@@ -54,6 +54,29 @@ function render_info_template(name, description) {
   return `&{template:t20-info}{{infoname=${name}}}{{description=${description}}}`;
 }
 
+function render_table (table) {
+  const header = table.header.reduce((acc, value) => acc + `<td align="center">${value}</td>`, '');
+  const body = table.rows.reduce((acc, row) => acc + `<tr>${row.reduce((acc1, value) => acc1 + `<td align="center">${value}</td>`, '')}</tr>`, '');
+  return `
+  <table class="userscript-table userscript-table-bordered tormenta20-modal-table">
+    <thead>
+      <tr>
+        ${header}
+      </tr>
+    </thead>
+    <tbody>
+      ${body}
+    </tbody>
+  </table>
+  `;
+}
+
+function modal_description (item) {
+  if (item.type === 'item')
+    return item.description;
+  return render_table(item.table);
+}
+
 function active_tree_view() {
   const toggler = document.getElementsByClassName('tormenta20-book-folder');
   for (let i = 0; i < toggler.length; i++) {
@@ -65,23 +88,25 @@ function active_tree_view() {
 
   $('[name="tormenta20-chat-info-button"]').on('click', function() {
     const div = $(this);
-    $('#textchat-input .ui-autocomplete-input').val(render_info_template(div.attr('item-name'), div.attr('item-description')));
+    const item = JSON.parse(div.attr('item'));
+    $('#textchat-input .ui-autocomplete-input').val(render_info_template(item.name, item.description));
     $('#textchat-input .btn').click();
   });
 
   $('[name="tormenta20-modal-info-button"]').on('click', function() {
     const div = $(this);
-    render_modal_info(div.attr('item-parent'), div.attr('item-name'), div.attr('item-description')); 
+    const item = JSON.parse(div.attr('item'));
+    render_modal_info(div.attr('item-parent'), item.name, modal_description(item)); 
   });
 }
 
 function render_book_item(parent, item) {
   return `
   <li class="tormenta20-book-row journalitem dd-item">
-    <div class="tormenta20-book-chat-icon" name="tormenta20-chat-info-button" item-name="${item.name}" item-description="${item.description}">
+    <div class="tormenta20-book-chat-icon" name="tormenta20-chat-info-button" item='${JSON.stringify(item)}'>
       <a class="pictos">q</a>
     </div>
-    <div class="tormenta20-book-item-name dd-content" name="tormenta20-modal-info-button" item-parent="${parent}" item-name="${item.name}" item-description="${item.description}">
+    <div class="tormenta20-book-item-name dd-content" name="tormenta20-modal-info-button" item-parent="${parent}" item='${JSON.stringify(item)}'>
       ${item.name}
     </div>
   </li>`;
