@@ -56,7 +56,8 @@ function render_info_template(name, description) {
 
 function render_table (table) {
   const header = table.header.reduce((acc, value) => acc + `<td align="center">${value}</td>`, '');
-  const body = table.rows.reduce((acc, row) => acc + `<tr>${row.reduce((acc1, value) => acc1 + `<td align="center">${value}</td>`, '')}</tr>`, '');
+  const calcspan = (row) => row.length < table.header.length ? table.header.length : 1;
+  const body = table.rows.reduce((acc, row) => acc + `<tr>${row.reduce((acc1, value) => acc1 + `<td align="center" colspan="${calcspan(row)}">${value}</td>`, '')}</tr>`, '');
   return `
   <table class="userscript-table userscript-table-bordered tormenta20-modal-table">
     <thead>

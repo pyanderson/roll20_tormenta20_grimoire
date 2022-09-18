@@ -1245,6 +1245,166 @@
                 ["2d6", "2d8", "2d10", "3d10", "4d10", "4d12"]
               ]
             }
+          },
+          {
+            "type": "table",
+            "name": "Armas Simples",
+            "description": "Tabela 3-3: Armas",
+            "table": {
+              "header": ["Nome", "Preço", "Dano", "Crítico", "Alcance", "Peso", "Tipo"],
+              "rows": [
+                ["<b>Corpo a Corpo — Leves</b>"],
+                ["Adaga", "T$ 2", "1d4", "19", "Curto", "0,5kg", "Perfuração"],
+                ["Ataque desarmado", "—", "1d3", "x2", "—", "—", "Impacto"],
+                ["Espada curta", "T$ 10", "1d6", "19", "—", "1kg", "Perfuração"],
+                ["Foice", "T$ 4", "1d6", "x3", "—", "1kg", "Corte"],
+                ["Manopla", "T$ 5", "—", "—", "—", "1kg", "Impacto"],
+                ["<b>Corpo a Corpo — Uma Mão</b>"],
+                ["Clava", "—", "1d6", "x2", "—", "1,5kg", "Impacto"],
+                ["Lança", "T$ 2", "1d6", "x2", "Curto", "1,5kg", "Perfuração"],
+                ["Maça", "T$ 12", "1d8", "x2", "—", "6kg", "Impacto"],
+                ["<b>Corpo a Corpo — Duas Mãos</b>"],
+                ["Bordão", "—", "1d6/1d6", "x2", "—", "2kg", "Impacto"],
+                ["Pique", "T$ 2", "1d8", "x2", "—", "5kg", "Perfuração"],
+                ["Tacape", "—", "1d10", "x2", "—", "4kg", "Impacto"],
+                ["<b>Ataque à Distância</b>"],
+                ["Arco curto", "T$ 30", "1d6", "x3", "Médio", "1kg", "Perfuração"],
+                ["Flechas (20)", "T$ 1", "—", "—", "—", "1,5kg", "—"],
+                ["Besta leve", "T$ 35", "1d8", "19", "Médio", "3kg", "Perfuração"],
+                ["Virotes (20)", "T$ 2", "—", "—", "—", "1kg", "—"],
+                ["Azagaia", "T$ 1", "1d6", "x2", "Médio", "1kg", "Perfuração"],
+                ["Funda", "—", "1d4", "x2", "Médio", "250", "Impacto"],
+                ["Balas (20)", "T$ 0,5", "—", "—", "—", "2kg", "—"]
+              ]
+            }
+          },
+          {
+            "type": "table",
+            "name": "Armas Marciais",
+            "description": "Tabela 3-3: Armas",
+            "table": {
+              "header": ["Nome", "Preço", "Dano", "Crítico", "Alcance", "Peso", "Tipo"],
+              "rows": [
+                ["<b>Corpo a Corpo — Leves</b>"],
+                ["Escudo leve", "T$ 5", "1d4", "x2", "—", "3kg", "Impacto"],
+                ["Machadinha", "T$ 6", "1d6", "x3", "Curto", "2kg", "Corte"],
+                ["<b>Corpo a Corpo — Uma Mão</b>"],
+                ["Cimitarra", "T$ 15", "1d6", "18", "—", "2kg", "Corte"],
+                ["Escudo pesado", "T$ 15", "1d6", "x2", "—", "7kg", "Impacto"],
+                ["Espada longa", "T$ 15", "1d8", "19", "—", "2kg", "Corte"],
+                ["Florete", "T$ 20", "1d6", "18", "—", "1kg", "Perfuração"],
+                ["Machado de batalha", "T$ 10", "1d8", "x3", "—", "3kg", "Corte"],
+                ["Mangual", "T$ 8", "1d8", "x2", "—", "2,5kg", "Impacto"],
+                ["Martelo de guerra", "T$ 12", "1d8", "x3", "—", "2,5kg", "Impacto"],
+                ["Picareta", "T$ 8", "1d6", "x4", "—", "3kg", "Perfuração"],
+                ["Tridente", "T$ 15", "1d8", "x2", "—", "2kg", "Perfuração"],
+                ["<b>Corpo a Corpo — Duas Mãos</b>"],
+                ["Alabarda", "T$ 10", "1d10", "x3", "—", "6kg", "Corte/perfuração"],
+                ["Alfange", "T$ 75", "2d4", "18", "—", "4kg", "Corte"],
+                ["Gadanho", "T$ 18", "2d4", "x4", "—", "5kg", "Corte"],
+                ["Lança montada", "T$ 10", "1d8", "x3", "—", "5kg", "Perfuração"],
+                ["Machado de guerra", "T$ 20", "1d12", "x3", "—", "6kg", "Corte"],
+                ["Montante", "T$ 50", "2d6", "19", "—", "4kg", "Corte"],
+                ["<b>Ataque à Distância</b>"],
+                ["Arco longo", "T$ 100", "1d8", "x3", "Médio", "1,5kg", "Perfuração"],
+                ["Flechas (20)", "T$ 1", "—", "—", "—", "1,5kg", "—"],
+                ["Besta pesada", "T$ 50", "1d12", "19", "Médio", "4kg", "Perfuração"],
+                ["Virotes (20)", "T$ 2", "—", "—", "—", "1kg", "—"]
+              ]
+            }
+          },
+          {
+            "type": "table",
+            "name": "Armas Exóticas",
+            "description": "Tabela 3-3: Armas",
+            "table": {
+              "header": ["Nome", "Preço", "Dano", "Crítico", "Alcance", "Peso", "Tipo"],
+              "rows": [
+                ["<b>Corpo a Corpo — Uma Mão</b>"],
+                ["Chicote", "T$ 2", "1d3", "x2", "—", "1kg", "Corte"],
+                ["Espada bastarda", "T$ 35", "1d10/1d12", "19", "—", "3kg", "Corte"],
+                ["Katana", "T$ 100", "1d8/1d10", "19", "—", "2,5kg", "Corte"],
+                ["Machado anão", "T$ 30", "1d10", "x3", "—", "4kg", "Corte"],
+                ["<b>Corpo a Corpo — Duas Mãos</b>"],
+                ["Corrente de espinhos", "T$ 25", "2d4/2d4", "19", "—", "5kg", "Corte"],
+                ["Machado táurico", "T$ 50", "2d8", "x3", "—", "12kg", "Corte"],
+                ["<b>Ataque à Distância</b>"],
+                ["Rede", "T$ 20", "—", "—", "Curto", "3kg", "—"]
+              ]
+            }
+          },
+          {
+            "type": "table",
+            "name": "Armas de Fogo",
+            "description": "Tabela 3-3: Armas",
+            "table": {
+              "header": ["Nome", "Preço", "Dano", "Crítico", "Alcance", "Peso", "Tipo"],
+              "rows": [
+                ["<b>Ataque à Distância</b>"],
+                ["Mosquete", "T$ 500", "2d8", "19/x3", "Médio", "4kg", "Perfuração"],
+                ["Pistola", "T$ 250", "2d6", "19/x3", "Curto", "1kg", "Perfuração"],
+                ["Munição (20)", "T$ 20", "—", "—", "—", "0,5kg", "—"]
+              ]
+            }
+          },
+          {
+            "type": "table",
+            "name": "Armaduras & Escudos",
+            "description": "Tabela 3-4: Armaduras & Escudos",
+            "table": {
+              "header": ["Nome", "Preço", "Bônus na Defesa", "Penalidade de Armadura ", "Peso"],
+              "rows": [
+                ["<b>Armaduras Leves</b>"],
+                ["Armadura acolchoada", "T$ 5", "+1", "0", "5kg"],
+                ["Armadura de couro", "T$ 20", "+2", "0", "7kg"],
+                ["Couro batido", "T$ 35", "+3", "–1", "10kg"],
+                ["Gibão de peles", "T$ 25", "+4", "–3", "12kg"],
+                ["Couraça", "T$ 500", "+5", "–4", "15kg"],
+                ["<b>Armaduras Pesadas</b>"],
+                ["Brunea", "T$ 50", "+5", "–2", "15kg"],
+                ["Cota de malha", "T$ 150", "+6", "–2", "20kg"],
+                ["Loriga segmentada", "T$ 250", "+7", "–3", "17kg"],
+                ["Meia armadura", "T$ 600", "+8", "–4", "22kg"],
+                ["Armadura completa", "T$ 3.000", "+10", "–5", "25kg"],
+                ["<b>Escudos"],
+                ["Escudo leve", "T$ 5", "+1", "–1", "3kg"],
+                ["Escudo pesado", "T$ 15", "+2", "–2", "7kg"]
+              ]
+            }
+          },
+          {
+            "type": "table",
+            "name": "Itens Gerais",
+            "description": "Tabela 3-5: Itens & Serviços",
+            "table": {
+              "header": ["Item", "Preço", "Peso"],
+              "rows": [
+                ["Água benta", "T$ 10", "0,5kg"],
+                ["Algemas", "T$ 15", "1kg"],
+                ["Algibeira", "T$ 1", "250g"],
+                ["Barraca", "T$ 10", "10kg"],
+                ["Corda (10m)", "T$ 1", "5kg"],
+                ["Espelho de metal", "T$ 10", "250g"],
+                ["Instrumento musical", "T$ 50", "1,5kg"],
+                ["Kit de ofício", "T$ 30", "4kg"],
+                ["Kit de disfarces", "T$ 50", "4kg"],
+                ["Kit de ladrão", "T$ 30", "0,5kg"],
+                ["Kit de medicamentos", "T$ 50", "2kg"],
+                ["Lampião", "T$ 7", "1kg"],
+                ["Mochila", "T$ 2", "1kg"],
+                ["Odre", "T$ 1", "2kg"],
+                ["Pé de cabra", "T$ 2", "2,5kg"],
+                ["Pederneira", "T$ 1", "—"],
+                ["Pena", "T$ 0,1", "—"],
+                ["Pergaminho (folha)", "T$ 0,1", "—"],
+                ["Ração de viagem (por dia)", "T$ 0,5", "0,5kg"],
+                ["Saco de dormir", "T$ 1", "2,5kg"],
+                ["Saco de lona", "T$ 0,1", "250g"],
+                ["Tinta (frasco)", "T$ 8", "—"],
+                ["Tocha", "T$ 0,1", "0,5kg"],
+                ["Vara de madeira (3m)", "T$ 0,2", "4kg"]
+              ]
+            }
           }
         ]
       },
