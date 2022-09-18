@@ -1255,10 +1255,8 @@
               "rows": [
                 ["<b>Corpo a Corpo — Leves</b>"],
                 ["Adaga", "T$ 2", "1d4", "19", "Curto", "0,5kg", "Perfuração"],
-                ["Ataque desarmado", "—", "1d3", "x2", "—", "—", "Impacto"],
                 ["Espada curta", "T$ 10", "1d6", "19", "—", "1kg", "Perfuração"],
                 ["Foice", "T$ 4", "1d6", "x3", "—", "1kg", "Corte"],
-                ["Manopla", "T$ 5", "—", "—", "—", "1kg", "Impacto"],
                 ["<b>Corpo a Corpo — Uma Mão</b>"],
                 ["Clava", "—", "1d6", "x2", "—", "1,5kg", "Impacto"],
                 ["Lança", "T$ 2", "1d6", "x2", "Curto", "1,5kg", "Perfuração"],
@@ -1286,11 +1284,9 @@
               "header": ["Nome", "Preço", "Dano", "Crítico", "Alcance", "Peso", "Tipo"],
               "rows": [
                 ["<b>Corpo a Corpo — Leves</b>"],
-                ["Escudo leve", "T$ 5", "1d4", "x2", "—", "3kg", "Impacto"],
                 ["Machadinha", "T$ 6", "1d6", "x3", "Curto", "2kg", "Corte"],
                 ["<b>Corpo a Corpo — Uma Mão</b>"],
                 ["Cimitarra", "T$ 15", "1d6", "18", "—", "2kg", "Corte"],
-                ["Escudo pesado", "T$ 15", "1d6", "x2", "—", "7kg", "Impacto"],
                 ["Espada longa", "T$ 15", "1d8", "19", "—", "2kg", "Corte"],
                 ["Florete", "T$ 20", "1d6", "18", "—", "1kg", "Perfuração"],
                 ["Machado de batalha", "T$ 10", "1d8", "x3", "—", "3kg", "Corte"],
@@ -1391,6 +1387,7 @@
                 ["Kit de ladrão", "T$ 30", "0,5kg"],
                 ["Kit de medicamentos", "T$ 50", "2kg"],
                 ["Lampião", "T$ 7", "1kg"],
+                ["Manopla", "T$ 5", "1kg"],
                 ["Mochila", "T$ 2", "1kg"],
                 ["Odre", "T$ 1", "2kg"],
                 ["Pé de cabra", "T$ 2", "2,5kg"],
@@ -1452,7 +1449,7 @@
                 ["Pônei", "T$ 5", "—"],
                 ["Pônei de guerra", "T$ 30", "—"],
                 ["Sela", "T$ 20", "—"],
-                ["Trobo", "T$ 10", "—"]
+                ["Trobo", "T$ 60", "—"]
               ]
             }
           },
@@ -1578,7 +1575,7 @@
             "table": {
               "header": ["Item", "AçoRubi", "Adamante", "Gelo Eterno", "Madeira Tollon", "Matéria Vermelha", "Mitral"],
               "rows": [
-                ["Arma", "+ T$ 2.000", "+ T$ 1.500", "+ T$ 1.000", "+ T$ 500", "+ T$ 1.000", "+ T$ 1.000"],
+                ["Arma", "+ T$ 2.000", "+ T$ 1.500", "+ T$ 1.000", "+ T$ 1000", "+ T$ 1.000", "+ T$ 1.000"],
                 ["Armadura leve", "+T$ 1.000", "+ T$ 1.500", "+ T$ 500", "—", "+ T$ 1.500", "+ T$ 1.000"],
                 ["Armadura pesada", "+ T$ 2.000", "+ T$ 7.000", "+ T$ 1.000", "—", "+ T$ 7.000", "+ T$ 4.000"],
                 ["Escudo", "+ T$ 1.000", "+ T$ 1.500", "+ T$ 500", "+ T$ 1.000", "+ T$ 1.500", "+ T$ 1.000"]
@@ -1635,6 +1632,11 @@
             "type": "item",
             "name": "Armas Improvisadas",
             "description": "Atacar com um objeto que não tenha sido feito para lutar (cadeiras, garrafas quebradas...) provoca penalidade de –2 no teste de ataque. Via de regra, armas improvisadas causam 1d6 pontos de dano, com crítico x2, mas esses valores podem mudar de acordo com o mestre. O tipo de dano é determinado pelo mestre (impacto para cadeira, corte para garrafa quebrada...)."
+          },
+          {
+            "type": "item",
+            "name": "Ataques Desarmados e Armas Naturais",
+            "description": "Armas naturais representam partes específicas do corpo de uma criatura que podem ser usadas para desferir ataques, como chifres, garras ou uma poderosa mordida. Armas naturais são consideradas armas leves corpo a corpo, mas não são afetadas por efeitos que afetem especificamente objetos (uma arma natural não pode ser desarmada ou quebrada, por exemplo) ou que afetem armas que precisam ser empunhadas. A quantidade e tipo de dano de cada arma natural é apresentada em sua descrição. Um ataque desarmado é um soco, chute ou qualquer outro golpe que use seu próprio corpo.\n\nUm ataque desarmado é considerado uma arma leve corpo a corpo que causa dano de impacto não letal (1d3 pontos de dano para criaturas Pequenas e Médias) e, assim como armas naturais, não é afetado por efeitos que mencionem especificamente objetos ou armas empunhadas. Uma criatura só possui um único ataque desarmado (mas pode escolher qual parte do corpo utiliza cada vez que o desfere).\n"
           }
         ]
       },
@@ -1705,11 +1707,6 @@
           },
           {
             "type": "item",
-            "name": "Ataque Desarmado",
-            "description": "Você pode atacar com um soco, chute ou qualquer outro golpe que use seu próprio corpo como se fosse uma arma corpo a corpo. Um ataque desarmado causa dano não letal."
-          },
-          {
-            "type": "item",
             "name": "Azagaia",
             "description": "Uma lança leve e flexível, própria para arremesso. Pode ser usada como arma corpo a corpo, mas você sofre uma penalidade de –5 no teste de ataque."
           },
@@ -1752,11 +1749,6 @@
             "type": "item",
             "name": "Corrente de Espinhos",
             "description": "Esta arma pode ser usada para atacar inimigos a até 4,5m e pode se enroscar nas mãos, pernas ou armas de seus adversários. A corrente de espinhos é uma arma ágil, dupla e versátil, fornecendo +2 em testes para derrubar ou desarmar."
-          },
-          {
-            "type": "item",
-            "name": "Escudo Leve ou Pesado",
-            "description": "Você pode usar um escudo como uma arma marcial, mas perde seu bônus na Defesa até o próximo turno."
           },
           {
             "type": "item",
@@ -1847,11 +1839,6 @@
             "type": "item",
             "name": "Mangual",
             "description": "Uma haste metálica ligada a uma corrente com uma esfera de aço na ponta, que pode se enroscar na arma do adversário. O mangual é uma arma versátil, fornecendo +2 em testes para desarmar."
-          },
-          {
-            "type": "item",
-            "name": "Manopla",
-            "description": "Luva metálica que permite socos mais perigosos — o dano de seus ataques desarmados torna-se letal. Manoplas superiores e mágicas aplicam os efeitos de suas modificações e encantos em ataques desarmados. Uma manopla não pode ser desarmada."
           },
           {
             "type": "item",
@@ -1959,6 +1946,11 @@
             "type": "item",
             "name": "Escudos",
             "description": "Existem escudos leves e pesados. Um personagem proficiente em escudo sabe usar ambos. Colocar ou tirar um escudo de qualquer tipo é uma ação de movimento.\n\nUm personagem vestindo uma armadura ou escudo que não saiba usar aplica a penalidade da armadura (veja adiante) em testes de todas as perícias baseadas em Força e Destreza.\n"
+          },
+          {
+            "type": "item",
+            "name": "Ataque com Escudo",
+            "description": "Caso possua proficiência em armas marciais, você pode usar um escudo para atacar, mas perde seu bônus na Defesa até seu próximo turno se fizer isso. Escudos leves causam 1d4 pontos de dano de impacto e escudos pesados causam 1d6 pontos de dano de impacto, ambos com crítico 20/x2. Embora possam ser usados para atacar, escudos não contam como armas para nenhum propósito.\n"
           }
         ]
       },
@@ -2117,6 +2109,11 @@
             "type": "item",
             "name": "Lampião",
             "description": "Um cilindro com uma alça e duas portinholas. Uma chama alimentada por óleo é acesa dentro do cilindro e uma das portinholas aberta deixa a luz sair. A luz do lampião atinge 9m. Uma carga de óleo dura 6 horas e custa T$ 0,1."
+          },
+          {
+            "type": "item",
+            "name": "Manopla",
+            "description": "Luva metálica que permite socos mais perigosos — o dano de seus ataques desarmados torna-se letal. Uma manopla conta como uma arma para receber modificações e encantos para usá-los em seus ataques desarmados.\n"
           },
           {
             "type": "item",
@@ -2331,7 +2328,7 @@
           {
             "type": "item",
             "name": "Trobo",
-            "description": "Estas enormes aves, também chamadas de pássaros-touros, são parecidas com avestruzes com chifres, couro e cascos de búfalo. Não têm asas. Possuem poucas penas, que servem apenas como ornamentação. Muito dóceis, trobos são usados em áreas rurais como animais de carga e tração."
+            "description": "Estas enormes aves, também chamadas de pássaros-touros, são parecidas com avestruzes com chifres, couro e cascos de búfalo. Não têm asas. Possuem poucas penas, que servem apenas como ornamentação. Muito dóceis, trobos são usados em áreas rurais como animais de carga e tração mas também podem ser usados como montarias."
           }
         ]
       },
@@ -2449,7 +2446,7 @@
           {
             "type": "item",
             "name": "Harmonizada",
-            "description": "A arma foi banhada em óleos alquímicos que a deixaram sintonizada com a aura de seu usuário. Escolha uma habilidade ativada ao se fazer um ataque. Esta habilidade tem seu custo em PM reduzido em –1 se utilizada com esta arma."
+            "description": "A arma foi banhada em óleos alquímicos que a deixaram sintonizada com a aura de seu usuário. Escolha uma habilidade ativada ao se fazer um ataque ou usar a ação atacar. Esta habilidade tem seu custo em PM reduzido em –1 se utilizada com esta arma."
           },
           {
             "type": "item",
@@ -2530,7 +2527,7 @@
           {
             "type": "item",
             "name": "Madeira Tollon",
-            "description": "As terras de Tollon produzem um tipo de madeira negra, dura como o ferro das melhores forjas e dotada de propriedades mágicas. Armas de madeira — arcos, bordões, clavas, lanças e tacapes — e escudos leves podem ser feitos com madeira Tollon. Armas de madeira Tollon contam como armas mágicas para vencer resistência a dano. Além disso, habilidades ativadas ao se fazer um ataque têm seu custo em PM reduzido em –1. Escudos de madeira Tollon fornecem +2 em testes de resistência contra magia."
+            "description": "As terras de Tollon produzem um tipo de madeira negra, dura como o ferro das melhores forjas e dotada de propriedades mágicas. Armas de madeira — arcos, bordões, clavas, lanças e tacapes — e escudos leves podem ser feitos com madeira Tollon. Armas de madeira Tollon contam como armas mágicas para vencer resistência a dano. Além disso, habilidades ativadas ao se fazer um ataque ou usar a ação atacar têm seu custo em PM reduzido em –1. Escudos de madeira Tollon fornecem +2 em testes de resistência contra magia."
           },
           {
             "type": "item",
