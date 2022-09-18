@@ -1405,6 +1405,185 @@
                 ["Vara de madeira (3m)", "T$ 0,2", "4kg"]
               ]
             }
+          },
+          {
+            "type": "table",
+            "name": "Alquimia",
+            "description": "Tabela 3-5: Itens & Serviços",
+            "table": {
+              "header": ["Item", "Preço", "Peso"],
+              "rows": [
+                ["Ácido", "T$ 10", "0,5kg"],
+                ["Bálsamo restaurador", "T$ 10", "0,5kg"],
+                ["Bomba", "T$ 50", "0,5kg"],
+                ["Essência de mana", "T$ 50", "0,1kg"],
+                ["Fogo alquímico", "T$ 10", "0,5kg"]
+              ]
+            }
+          },
+          {
+            "type": "table",
+            "name": "Alimentação",
+            "description": "Tabela 3-5: Itens & Serviços",
+            "table": {
+              "header": ["Item", "Preço", "Peso"],
+              "rows": [
+                ["Batata valkariana", "T$ 2", "0,5kg"],
+                ["Bebida comum", "T$ 0,1", "0,5kg"],
+                ["Gorad quente", "T$ 18", "0,5kg"],
+                ["Macarrão de Yuvalin", "T$ 6", "0,5kg"],
+                ["Prato do aventureiro", "T$ 1", "0,5kg"],
+                ["Refeição comum", "T$ 0,3", "0,5kg"],
+                ["Sopa de peixe", "T$ 1", "0,5kg"]
+              ]
+            }
+          },
+          {
+            "type": "table",
+            "name": "Animais",
+            "description": "Tabela 3-5: Itens & Serviços",
+            "table": {
+              "header": ["Item", "Preço", "Peso"],
+              "rows": [
+                ["Cão de guarda", "T$ 50", "—"],
+                ["Cavalo", "T$ 75", "—"],
+                ["Cavalo de guerra", "T$ 400", "—"],
+                ["Estábulo (por dia)", "T$ 0,1", "—"],
+                ["Pônei", "T$ 5", "—"],
+                ["Pônei de guerra", "T$ 30", "—"],
+                ["Sela", "T$ 20", "—"],
+                ["Trobo", "T$ 10", "—"]
+              ]
+            }
+          },
+          {
+            "type": "table",
+            "name": "Veículos",
+            "description": "Tabela 3-5: Itens & Serviços",
+            "table": {
+              "header": ["Item", "Preço", "Peso"],
+              "rows": [
+                ["Balão goblin", "T$ 200", "—"],
+                ["Carroça", "$ 30", "—"],
+                ["Carruagem", "T$ 100", "—"],
+                ["Canoa", "T$ 50", "—"],
+                ["Veleiro", "T$ 10.000", "—"]
+              ]
+            }
+          },
+          {
+            "type": "table",
+            "name": "Vestuário",
+            "description": "Tabela 3-5: Itens & Serviços",
+            "table": {
+              "header": ["Item", "Preço", "Peso"],
+              "rows": [
+                ["Traje camuflado", "T$ 20", "2kg"],
+                ["Traje da corte", "T$ 50", "2kg"],
+                ["Traje de plebeu", "T$ 0,5", "1kg"],
+                ["Traje de viajante", "T$ 5", "2kg"]
+              ]
+            }
+          },
+          {
+            "type": "table",
+            "name": "Hospedagem",
+            "description": "Tabela 3-5: Itens & Serviços",
+            "table": {
+              "header": ["Item", "Preço", "Peso"],
+              "rows": [
+                ["<b>Estadia (por noite)</b>"],
+                ["comum", "T$ 0,5", "—"],
+                ["confortável", "T$ 4", "—"],
+                ["luxuosa", "T$ 20", "—"]
+              ]
+            }
+          },
+          {
+            "type": "table",
+            "name": "Serviços",
+            "description": "Tabela 3-5: Itens & Serviços",
+            "table": {
+              "header": ["Item", "Preço", "Peso"],
+              "rows": [
+                ["<b>Condução</b>"],
+                ["terrestre", "T$ 1 por km", "—"],
+                ["marítima", "T$ 0,1 por km", "—"],
+                ["aérea", "T$ 10 por km", "—"],
+                ["<b>Serviços</b>"],
+                ["Mensageiro", "T$ 2 por km", "—"],
+                ["<b>Magia</b>"],
+                ["1º círculo", "T$ 10", "—"],
+                ["2º círculo", "T$ 90", "—"],
+                ["3º círculo", "T$ 360", "—"]
+              ]
+            }
+          },
+          {
+            "type": "table",
+            "name": "Custo de Modificações",
+            "description": "Tabela 3-6: Custo de Modificações",
+            "table": {
+              "header": ["Número de Modificações", "Aumento no Custo", "Aumento na CD"],
+              "rows": [
+                ["1", "+ T$ 100", "+5"],
+                ["2", "+ T$ 1.000", "+5"],
+                ["3", "+ T$ 3.000", "+10"],
+                ["4", "+ T$ 6.000", "+10"],
+                ["5", "+ T$ 10.000", "+15"],
+                ["6", "+ T$ 30.000", "+20"]
+              ]
+            }
+          },
+          {
+            "type": "table",
+            "name": "Modificações",
+            "description": "Tabela 3-7: Modificações",
+            "table": {
+              "header": ["Modificação", "Efeito"],
+              "rows": [
+                ["<b>Modificações para armas</b>"],
+                ["Certeira", "+1 nos testes de ataque"],
+                ["Pungente", "+2 nos testes de ataque"],
+                ["Cruel", "+1 nas rolagens de dano"],
+                ["Atroz", "+2 nas rolagens de dano"],
+                ["Equilibrada", "+2 em testes de manobras"],
+                ["Precisa", "+1 na margem de ameaça"],
+                ["Maciça", "+1 no multiplicador de crítico"],
+                ["Mira telescópica", "Aumenta alcance da arma"],
+                ["Injeção alquímica", "Gera efeito de item alquímico"],
+                ["Harmonizada", "Custo de habilidades de ataque diminui em –1 PM"],
+                ["<b>Modificações para armaduras e escudos</b>"],
+                ["Ajustada", "–1 na penalidade de armadura"],
+                ["Sob medida", "–2 na penalidade de armadura"],
+                ["Reforçada", "+1 na Defesa, +1 na penalidade de armadura"],
+                ["Selada", "+1 nos testes de resistência"],
+                ["Delicada", "Aplica 1 ponto de Des na Defesa"],
+                ["Polida", "+2 na Defesa na primeira rodada"],
+                ["Espinhosa (armadura)", "Causa dano com agarrar"],
+                ["Espinhoso (escudo)", "Aumenta dano do escudo"],
+                ["<b>Outras modificações</b>"],
+                ["Aprimorado", "+2 em testes de perícia"],
+                ["Banhado a ouro", "+2 em Diplomacia"],
+                ["Cravejado de gemas", "+2 em Enganação"],
+                ["Macabro", "+2 em Intimidação, –2 em Diplomacia"],
+                ["Material especial", "Varia"]
+              ]
+            }
+          },
+          {
+            "type": "table",
+            "name": "Custo Adicional de Materiais Especiais",
+            "description": "Tabela 3-8: Custo Adicional de Materiais Especiais",
+            "table": {
+              "header": ["Item", "AçoRubi", "Adamante", "Gelo Eterno", "Madeira Tollon", "Matéria Vermelha", "Mitral"],
+              "rows": [
+                ["Arma", "+ T$ 2.000", "+ T$ 1.500", "+ T$ 1.000", "+ T$ 500", "+ T$ 1.000", "+ T$ 1.000"],
+                ["Armadura leve", "+T$ 1.000", "+ T$ 1.500", "+ T$ 500", "—", "+ T$ 1.500", "+ T$ 1.000"],
+                ["Armadura pesada", "+ T$ 2.000", "+ T$ 7.000", "+ T$ 1.000", "—", "+ T$ 7.000", "+ T$ 4.000"],
+                ["Escudo", "+ T$ 1.000", "+ T$ 1.500", "+ T$ 500", "+ T$ 1.000", "+ T$ 1.500", "+ T$ 1.000"]
+              ]
+            }
           }
         ]
       },
@@ -2205,6 +2384,163 @@
             "type": "item",
             "name": "Magias",
             "description": "Este é o preço para lançar uma magia em uma situação comum. Ou seja, você vai até o conjurador e lançar a magia não oferece risco para ele. Se você pedir ao conjurador para acompanhá-lo numa aventura, por exemplo, a resposta padrão será “não, obrigado”."
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "Modificações",
+        "items": [
+          {
+            "type": "item",
+            "name": "Ajustada",
+            "description": "Feito com extremo cuidado e peças medidas com precisão, o item tem a sua penalidade de armadura diminuída em 1."
+          },
+          {
+            "type": "item",
+            "name": "Aprimorado",
+            "description": "Um item com esta modificação é construído de forma cuidadosa e com os melhores materiais. Fornece +2 em testes de uma perícia apropriada. Por exemplo, um kit de medicamentos aprimorado fornece +2 em testes de Cura, enquanto uma sela aprimorada fornece +2 em testes de Cavalgar. Esta modificação não pode ser aplicada a Luta e Pontaria (mas veja a modificação Certeira)."
+          },
+          {
+            "type": "item",
+            "name": "Atroz",
+            "description": "A arma é um amontoado de pontas, ganchos e protuberâncias. É difícil empunhá-la sem se machucar, mas ela fornece +2 nas rolagens de dano. Pré-requisito: Cruel."
+          },
+          {
+            "type": "item",
+            "name": "Banhado a Ouro",
+            "description": "Uma modificação favorita de nobres pomposos ou aventureiros que acabaram de enriquecer. Um item banhado a ouro concede um bônus de +2 em testes de Diplomacia. O mestre pode mudar o bônus para uma penalidade de –2, caso você esteja interagindo com pessoas que desprezam tal ostentação. Além disso, pode atrair a cobiça de ladrões."
+          },
+          {
+            "type": "item",
+            "name": "Certeira",
+            "description": "Forjada para ser mais precisa e balanceada, a arma fornece um bônus de +1 nos testes de ataque."
+          },
+          {
+            "type": "item",
+            "name": "Cravejado de Gemas",
+            "description": "É fácil ser persuadido por alguém opulento e orgulhoso o bastante para ostentar um item cravejado de gemas. Concede um bônus de +2 em testes de Enganação. Assim como um item banhado a ouro, um item cravejado de gemas pode atrair a cobiça de ladrões."
+          },
+          {
+            "type": "item",
+            "name": "Cruel",
+            "description": "Rebarbas, espinhos e até mesmo lâminas adicionais podem compor uma arma cruel. Ela fornece um bônus de +1 nas rolagens de dano."
+          },
+          {
+            "type": "item",
+            "name": "Delicada",
+            "description": "Apenas os materiais mais leves foram usados nesta armadura. As placas têm a espessura mínima necessária para oferecer a proteção que devem. Esta modificação só pode ser aplicada a armaduras pesadas e permite que o personagem aplique 1 ponto de seu bônus de Destreza (caso tenha) na Defesa. Uma armadura não pode ser delicada e reforçada."
+          },
+          {
+            "type": "item",
+            "name": "Equilibrada",
+            "description": "Uma arma equilibrada é forjada com o balanço perfeito, o que facilita movimentos complexos. Ela fornece um bônus de +2 em testes de manobras (desarmar, quebrar etc.)."
+          },
+          {
+            "type": "item",
+            "name": "Espinhosa (Armadura)",
+            "description": "Uma armadura coberta de espinhos é uma visão impressionante — principalmente se os espinhos estiverem banhados com o sangue dos inimigos! Se o usuário agarrar ou for agarrado por uma criatura, causa dano de perfuração nesta criatura igual ao seu bônus de Força. O dano é causado quando a manobra é feita e no início de cada turno do personagem, enquanto ela for mantida."
+          },
+          {
+            "type": "item",
+            "name": "Espinhoso (Escudo)",
+            "description": "Esta modificação aumenta o dano de um ataque com escudo em um passo."
+          },
+          {
+            "type": "item",
+            "name": "Harmonizada",
+            "description": "A arma foi banhada em óleos alquímicos que a deixaram sintonizada com a aura de seu usuário. Escolha uma habilidade ativada ao se fazer um ataque. Esta habilidade tem seu custo em PM reduzido em –1 se utilizada com esta arma."
+          },
+          {
+            "type": "item",
+            "name": "Injeção Alquímica",
+            "description": "Um minúsculo frasco de cerâmica ou vidro é inserido ao longo da arma, junto com um mecanismo injetor ativado por impacto. Um ataque que acerte causa seu dano normal e libera uma carga de ácido, fogo alquímico ou água benta, que atinge o alvo automaticamente. A modificação tem espaço para 2 cargas. Recarregá-la exige uma ação completa e o gasto dos itens alquímicos que você quiser inserir. Carregar uma arma com 2 cargas de ácido, por exemplo, custa T$ 20."
+          },
+          {
+            "type": "item",
+            "name": "Macabro",
+            "description": "Um item macabro é pintado com sangue seco, esculpido na forma de uma caveira ou decorado com pedaços de orelhas, dedos e olhos. Essa aparência assustadora fornece um bônus de +2 em testes de Intimidação, mas impõe uma penalidade de –2 em testes de Diplomacia."
+          },
+          {
+            "type": "item",
+            "name": "Maciça",
+            "description": "A arma é feita com material denso, fazendo com que seus golpes tenham impacto terrível. O multiplicador de crítico da arma aumenta em 1 ponto. Uma arma não pode ser maciça e precisa."
+          },
+          {
+            "type": "item",
+            "name": "Material Especial",
+            "description": "A arma, armadura ou escudo é feito ou banhado (não ambos) com um material especial. Veja a seção a seguir para a descrição dos materiais especiais. Cada um fornece um benefício específico, cumulativo com outros benefícios de modificações, mas possui um custo adicional que deve ser pago além do custo da modificação. Fabricar um item de material especial é uma modificação porque materiais especiais exigem um trabalho mais complexo do que materiais comuns."
+          },
+          {
+            "type": "item",
+            "name": "Mira Telescópica",
+            "description": "Aumenta o alcance da arma em uma categoria (de curto para médio, de médio para longo) e o alcance da habilidade Ataque Furtivo para médio. Esta modificação só pode ser aplicada em armas de disparo (exceto fundas)."
+          },
+          {
+            "type": "item",
+            "name": "Polida",
+            "description": "Uma armadura ou escudo com esta modificação foi feito com metais reluzentes. Além de ser bonita, a luz refletida ofusca inimigos. Em ambientes iluminados, o item tem seu bônus de Defesa aumentado em +2, mas apenas na primeira rodada de combate — após isso, os inimigos se acostumam ao reflexo."
+          },
+          {
+            "type": "item",
+            "name": "Precisa",
+            "description": "Cuidado especial foi tomado ao temperar o aço desta arma, para que seu fio se mantenha sempre como uma navalha. A margem de ameaça aumenta em 1 ponto. Uma arma não pode ser precisa e maciça."
+          },
+          {
+            "type": "item",
+            "name": "Pungente",
+            "description": "Temperada diversas vezes para adquirir o fio perfeito — ou o equilíbrio perfeito, no caso de uma arma sem fio —, a arma fornece um bônus de +2 nos testes de ataque. Pré-requisito: Certeira."
+          },
+          {
+            "type": "item",
+            "name": "Reforçada",
+            "description": "Placas adicionais, uma camada extra de cota de malha ou acolchoamento, proteção dobrada nas juntas e áreas vulneráveis... O bônus na Defesa e a penalidade de armadura de uma armadura ou escudo com esta modificação aumentam em +1. Uma armadura não pode ser reforçada e delicada."
+          },
+          {
+            "type": "item",
+            "name": "Selada",
+            "description": "A armadura foi forjada de forma a proteger todo o corpo do usuário, sem deixar espaço para nem mesmo um alfinete! Esta modificação fornece um bônus de +1 em testes de resistência, mas só pode ser aplicado em armaduras pesadas."
+          },
+          {
+            "type": "item",
+            "name": "Sob Medida",
+            "description": "Embora muitas armaduras sejam feitas especificamente para um usuário, esta passou por um período extenso de ajustes e refinamento, adequando-se com perfeição ao seu corpo. Reduz a penalidade por armadura em 2, mas apenas para o usuário específico (para outros, comporta-se como um item ajustado). Pré-requisito: Ajustada."
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "Materiais Especiais",
+        "items": [
+          {
+            "type": "item",
+            "name": "Aço-Rubi",
+            "description": "Este metal tem a aparência de vidro avermelhado, mas é duro como aço. Armas de aço-rubi ignoram resistência a dano. Armaduras e escudos fornecem uma chance cumulativa de ignorar o dano extra de acertos críticos e ataques furtivos, de acordo com seu tipo: armaduras leves e escudos, 25% (1 em 1d4); armaduras pesadas, 50% (qualquer valor par em qualquer dado)."
+          },
+          {
+            "type": "item",
+            "name": "Adamante",
+            "description": "Encontrado apenas em meteoritos (e por isso também chamado de “ferro-meteórico”), o adamante é um metal escuro, fosco e mais denso que o aço. Armas de adamante aumentam seu dano em um passo. Armaduras e escudos fornecem resistência a dano, de acordo com seu tipo: armaduras leves e escudos, RD 2; armaduras pesadas, RD 5."
+          },
+          {
+            "type": "item",
+            "name": "Gelo eterno",
+            "description": "As gélidas Montanhas Uivantes produzem gelo que nunca derrete. Expedições de aventureiros exploram essa região glacial perigosa à caça deste material fantástico. Armas de gelo eterno causam +2 pontos de dano por frio, enquanto armaduras e escudos fornecem resistência a fogo: armaduras leves e escudos, resistência 5; armaduras pesadas, resistência 10."
+          },
+          {
+            "type": "item",
+            "name": "Madeira Tollon",
+            "description": "As terras de Tollon produzem um tipo de madeira negra, dura como o ferro das melhores forjas e dotada de propriedades mágicas. Armas de madeira — arcos, bordões, clavas, lanças e tacapes — e escudos leves podem ser feitos com madeira Tollon. Armas de madeira Tollon contam como armas mágicas para vencer resistência a dano. Além disso, habilidades ativadas ao se fazer um ataque têm seu custo em PM reduzido em –1. Escudos de madeira Tollon fornecem +2 em testes de resistência contra magia."
+          },
+          {
+            "type": "item",
+            "name": "Matéria Vermelha",
+            "description": "Qualquer material de origem lefeu — desde suas garras e carapaças, até minérios e partes de estruturas encontradas em áreas de Tormenta — apresenta propriedades parecidas, sendo conhecido como “matéria vermelha”.\n\nUma arma de matéria vermelha é hostil ao toque de seres naturais. Por isso, causa +1d6 de dano contra quaisquer criaturas, exceto lefeu. Infelizmente, sempre que o usuário acerta um ataque corpo a corpo, ele próprio sofre 1 ponto de dano pela arma (lefou não sofrem este dano colateral).\n\nPor sua aparência “borrada”, armaduras de matéria vermelha distorcem a percepção do atacante, impondo chance de falha cumulativa para cada ataque: 10% para escudos e armaduras leves, 25% para armaduras pesadas. Lefeu ignoram este efeito.\n\nEstes itens assustadores impõem ao usuário penalidade de –2 em perícias baseadas em Carisma (exceto Intimidação).\n"
+          },
+          {
+            "type": "item",
+            "name": "Mitral",
+            "description": "Metal muito raro, o mitral é prateado e brilhante, tendo metade do peso do aço. Armas de mitral aumentam sua margem de ameaça em 1. Por exemplo, uma espada longa de mitral tem margem de ameaça 18-20. Armaduras e escudos de mitral têm sua penalidade de armadura diminuída em 2. Armaduras pesadas de mitral permitem que seu usuário aplique até dois pontos de seu bônus de Destreza na Defesa."
           }
         ]
       }
