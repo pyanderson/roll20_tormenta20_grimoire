@@ -28,10 +28,11 @@ Icons from [freepik](https://www.freepik.com).
 - [x] Poderes de classes (Ficha) _[v0.0.8]_
 - [x] Poderes de origens (Ficha) _[v0.0.8]_
 - [x] Poderes gerais (Ficha) _[v0.0.8]_
+- [x] Equipamento (Menu) _[v0.0.10]_
 - [ ] Poderes de classes (Menu)
 - [ ] Poderes de origens (Menu)
 - [ ] Poderes gerais (Menu)
-- [ ] Equipamento
+- [ ] Equipamento (Ficha)
 - [ ] Bestiário?
 - [ ] ??????
 
