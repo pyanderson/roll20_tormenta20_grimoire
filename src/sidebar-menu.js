@@ -1,19 +1,19 @@
-'use strict'
+'use strict';
 
-function dummy_slugify(s){
+function dummy_slugify (s) {
   return s.toLowerCase().replace(/[^\w ]+/g, '').replace(/ +/g, '-');
 }
 
-function render_paragraphs(content, lines) {
+function render_paragraphs (content, lines) {
   if (lines.length === 0) return content;
-  return render_paragraphs(content + `<p>${lines[0]}</p>`, lines.slice(1))
+  return render_paragraphs(content + `<p>${lines[0]}</p>`, lines.slice(1));
 }
 
-function render_description(description) {
+function render_description (description) {
   return render_paragraphs('', description.split('\n\n'));
 }
 
-function render_modal_info(parent, name, description) {
+function render_modal_info (parent, name, description) {
   const suffix_id = `${dummy_slugify(parent)}-${dummy_slugify(name)}`;
   const modal = `
     <div id="tormenta20-info-${suffix_id}" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable ui-resizable" style="outline: currentcolor none 0px; z-index: 10517; position: fixed; height: 390px; width: 552px; top: 121px; left: 540px; display: block;" tabindex="-1" role="dialog" aria-labelledby="ui-id-${suffix_id}">
@@ -44,13 +44,13 @@ function render_modal_info(parent, name, description) {
     </div>
     `;
   $('body').append(modal);
-  $(`#tormenta20-info-${suffix_id}`).draggable({handle: 'div.ui-dialog-titlebar'});
-  $(`#tormenta20-close-button-${suffix_id}`).on('click', function() {
+  $(`#tormenta20-info-${suffix_id}`).draggable({ handle: 'div.ui-dialog-titlebar' });
+  $(`#tormenta20-close-button-${suffix_id}`).on('click', function () {
     $(`#tormenta20-info-${suffix_id}`).remove();
   });
 }
 
-function render_info_template(name, description) {
+function render_info_template (name, description) {
   return `&{template:t20-info}{{infoname=${name}}}{{description=${description}}}`;
 }
 
@@ -73,35 +73,34 @@ function render_table (table) {
 }
 
 function modal_description (item) {
-  if (item.type === 'item')
-    return item.description;
+  if (item.type === 'item') { return item.description; }
   return render_table(item.table);
 }
 
-function active_tree_view() {
+function active_tree_view () {
   const toggler = document.getElementsByClassName('tormenta20-book-folder');
   for (let i = 0; i < toggler.length; i++) {
-    toggler[i].addEventListener('click', function() {
+    toggler[i].addEventListener('click', function () {
       this.parentElement.querySelector('.tormenta20-book-nested-folder').classList.toggle('tormenta20-book-active-folder');
       this.classList.toggle('tormenta20-book-folder-open');
     });
   }
 
-  $('[name="tormenta20-chat-info-button"]').on('click', function() {
+  $('[name="tormenta20-chat-info-button"]').on('click', function () {
     const div = $(this);
     const item = JSON.parse(div.attr('item'));
     $('#textchat-input .ui-autocomplete-input').val(render_info_template(item.name, item.description));
     $('#textchat-input .btn').click();
   });
 
-  $('[name="tormenta20-modal-info-button"]').on('click', function() {
+  $('[name="tormenta20-modal-info-button"]').on('click', function () {
     const div = $(this);
     const item = JSON.parse(div.attr('item'));
-    render_modal_info(div.attr('item-parent'), item.name, modal_description(item)); 
+    render_modal_info(div.attr('item-parent'), item.name, modal_description(item));
   });
 }
 
-function render_book_item(parent, item) {
+function render_book_item (parent, item) {
   return `
   <li class="tormenta20-book-row journalitem dd-item">
     <div class="tormenta20-book-chat-icon" name="tormenta20-chat-info-button" item='${JSON.stringify(item)}'>
@@ -113,12 +112,12 @@ function render_book_item(parent, item) {
   </li>`;
 }
 
-function render_book_items(parent, content, items) {
+function render_book_items (parent, content, items) {
   if (items.length == 0) return content;
   return render_book_items(parent, content + render_book_element(parent, items[0]), items.slice(1));
 }
 
-function render_book_folder(parent, folder) {
+function render_book_folder (parent, folder) {
   return `
     <li class="dd-item dd-folder">
       <span class="tormenta20-book-folder dd-content">${folder.name}</span>
@@ -129,18 +128,17 @@ function render_book_folder(parent, folder) {
   `;
 }
 
-function render_book_element(parent, element) {
-  if (element.type == 'folder')
-    return render_book_folder(parent, element);
+function render_book_element (parent, element) {
+  if (element.type == 'folder') { return render_book_folder(parent, element); }
   return render_book_item(parent, element);
 }
 
-function render_book_elements(parent, content, elements) {
+function render_book_elements (parent, content, elements) {
   if (elements.length == 0) return content;
   return render_book_elements(parent, content + render_book_element(parent, elements[0]), elements.slice(1));
 }
 
-function render_book_content(rules) {
+function render_book_content (rules) {
   return `
     <ul id="tormenta20_book_content" class="dd-list dd folderroot">
       ${render_book_elements('', '', rules)}
@@ -148,16 +146,16 @@ function render_book_content(rules) {
   `;
 }
 
-function render_book_tab(book, retry=20) { // wait the tab for 20 seconds then give up
+function render_book_tab (book, retry = 20) { // wait the tab for 20 seconds then give up
   if (retry <= 0) return;
   const rightsidebar = $('#rightsidebar');
-  const settings_tab = rightsidebar.find('[aria-controls="vm_settings_categories"][role="tab"]')
+  const settings_tab = rightsidebar.find('[aria-controls="vm_settings_categories"][role="tab"]');
   const journal_content = rightsidebar.find('#journal');
   rightsidebar.find('[aria-controls="tormenta20_book"][role="tab"]').remove();
-  rightsidebar.find("#tormenta20_book").remove();
+  rightsidebar.find('#tormenta20_book').remove();
 
-  if(settings_tab.length == 0) {
-    return setTimeout(() => {render_book_tab(retry-1)}, 1000); // wait one second and try again
+  if (settings_tab.length == 0) {
+    return setTimeout(() => { render_book_tab(retry - 1); }, 1000); // wait one second and try again
   }
 
   const book_tab = settings_tab.clone(true);
@@ -171,7 +169,7 @@ function render_book_tab(book, retry=20) { // wait the tab for 20 seconds then g
   book_tab.find('a')
     .attr('id', 'ui-id-tormenta20')
     .attr('href', '#tormenta20_book')
-    .html($('<img>', {'src': book.icon, 'class': 'tormenta20-book-icon'}));
+    .html($('<img>', { src: book.icon, class: 'tormenta20-book-icon' }));
 
   // set content attrs
   book_content
@@ -185,42 +183,41 @@ function render_book_tab(book, retry=20) { // wait the tab for 20 seconds then g
   active_tree_view();
 }
 
-function fix_right_sidebar() {
+function fix_right_sidebar () {
   // the rightsidebar is not responsive, so we need to increase the min width
   // to not break the right sidebar after adding a new menu item
-  const items_count = $('#rightsidebar').find('li[role="tab"]').length + 1
+  const items_count = $('#rightsidebar').find('li[role="tab"]').length + 1;
   const min_width = Math.max(305, (items_count * 40) + 5);
 
   $('#rightsidebar').resizable({
     handles: 'w',
     alsoResize: '#textchat-input, #rightsidebar .tabmenu',
     minWidth: min_width,
-    start() {
+    start () {
       $('#editor-wrapper, #canvas-overlay').addClass('noshow');
     },
-    resize() {},
-    stop() {
+    resize () {},
+    stop () {
       $('#editor-wrapper, #canvas-overlay').removeClass('noshow');
       $(window).trigger('resize');
       $('#rightsidebar')
         .css('left', '')
         .css('height', '100%');
-    },
+    }
   });
 
   $('#rightsidebar').width(min_width);
   $('#rightsidebar .tabmenu').width(min_width - 5);
   $('#rightsidebar .tabmenu').height(36);
   $(window).trigger('resize');
-};
+}
 
 $(document).ready(function () {
-  window.addEventListener("message", function(event) {
-    if (event.source != window)
-      return;
-    if (event.data.type && (event.data.type == "FROM_CONTENT")) {
+  window.addEventListener('message', function (event) {
+    if (event.source !== window) { return; }
+    if (event.data.type && (event.data.type === 'FROM_CONTENT')) {
       fix_right_sidebar();
       render_book_tab(JSON.parse(event.data.text));
     }
-  }, false)
-})
+  }, false);
+});

@@ -9,15 +9,12 @@
         "https://app.roll20.net/editor*"
       ],
       "css": [
-        "tormenta20_book.css"
+        "css/tormenta20_book.css"
       ],
       "js": [
         "third-party/jquery-3.6.0.min.js",
         "third-party/jquery-ui-1.12.1.min.js",
-        "jquery-patch.js",
-        "render.js",
-        "sheet.js",
-        "index.js"
+        "dist/main.js"
       ],
       "run_at": "document_end"
     }
@@ -27,8 +24,8 @@
       "resources": [
         "data/*",
         "images/32.png",
-        "sheet.css",
-        "tormenta20_book.js"
+        "css/sheet.css",
+        "sidebar-menu.js"
       ],
       "matches": [
         "<all_urls>"

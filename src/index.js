@@ -1,10 +1,10 @@
-'use strict'
+import { loadSheetEnhancement } from './character-sheet';
 
-function load_script(path) {
+function loadScript (path) {
   const s = document.createElement('script');
   s.src = chrome.runtime.getURL(path);
-  s.type='text/javascript'
-  s.onload = function() {
+  s.type = 'text/javascript';
+  s.onload = function () {
     this.remove();
   };
   (document.head || document.documentElement).appendChild(s);
@@ -13,26 +13,24 @@ function load_script(path) {
 $(document).ready(function () {
   $(window).on('message', function (e) {
     const data = e.originalEvent.data;
-    if (data.type === 'loaded') {  // render the speels only wheen a character sheet is opened
-      const iframe = $(`iframe[name="iframe_${data.characterId}"]`);
-      const character_sheet = new CharacterSheet(iframe.contents(), data.characterId);
-      character_sheet.render();
+    if (data.type === 'loaded') { // only add the improvements when a character sheet is opened
+      loadSheetEnhancement(data.characterId);
     }
   });
 
   // load tormenta20 book rules
-  load_script('tormenta20_book.js');
+  loadScript('sidebar-menu.js');
 
   fetch(chrome.runtime.getURL('data/rules.json'))
     .then((response) => response.json())
     .then((rules) => {
-      const book = {'rules': rules, 'icon': chrome.runtime.getURL('images/32.png')}
+      const book = { rules, icon: chrome.runtime.getURL('images/32.png') };
       window.postMessage(
         {
-          type: "FROM_CONTENT",
+          type: 'FROM_CONTENT',
           text: JSON.stringify(book)
         },
-        "*"
-      )
+        '*'
+      );
     });
-})
+});
