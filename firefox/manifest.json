@@ -9,7 +9,7 @@
         "https://app.roll20.net/editor*"
       ],
       "css": [
-        "css/tormenta20_book.css"
+        "css/sidebar-menu.css"
       ],
       "js": [
         "third-party/jquery-3.6.0.min.js",
@@ -20,9 +20,9 @@
     }
   ],
   "web_accessible_resources": [
+    "css/*",
     "data/*",
     "images/32.png",
-    "css/sheet.css",
     "sidebar-menu.js"
   ],
   "icons": {
