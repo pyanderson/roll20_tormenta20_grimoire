@@ -1,6 +1,3 @@
-import { generateCDRow, generateSpellDialog } from './element-factory';
-import { addEventObserver, createElement, pathQuerySelector, trigger } from './helpers';
-
 /*
   * Returns the data configuration of the character saved in the local storage.
   *
@@ -44,7 +41,7 @@ function hasCSS (iframe, cssURL) {
   *
   * @param {HTMLDocument} iframe - The character sheet iframe document.
   * */
-export function calcCD (iframe) {
+function calcCD (iframe) {
   const spellsContainer = pathQuerySelector(iframe, ['div.sheet-left-container', 'div.sheet-spells']);
   const level = parseInt(iframe.querySelector('input[name="attr_charnivel"]').value) || 0;
   const attribute = spellsContainer.querySelector('select[name="spell-cd-attr"]').value;
@@ -125,7 +122,7 @@ function renderSpellButton (iframe, container, circle, data) {
   * @param {HTMLDocument} iframe - The character sheet iframe document.
   * @param {object} data - The Tormenta20 data.
   * */
-export function renderSpellsButtons (iframe, data) {
+function renderSpellsButtons (iframe, data) {
   const spellsContainer = pathQuerySelector(iframe, ['div.sheet-left-container', 'div.sheet-spells']);
   for (const parentContainer of spellsContainer.querySelectorAll('div.repcontainer')) {
     const circle = parentContainer.getAttribute('data-groupname').slice(-1);
@@ -141,7 +138,7 @@ export function renderSpellsButtons (iframe, data) {
   * @param {HTMLDocument} iframe - The character sheet iframe document.
   * @param {string} characterId - The character ID in the Roll20 game.
   * */
-export function init (iframe, characterId, data) {
+function init (iframe, characterId, data) {
   const spellsContainer = pathQuerySelector(iframe, ['div.sheet-left-container', 'div.sheet-spells']);
   if (!spellsContainer) return; // Spells container not rendered yet
   if (spellsContainer.querySelector('div[name="spell-cd"]')) return; // CD row already added
@@ -183,7 +180,7 @@ export function init (iframe, characterId, data) {
   *
   * @param {HTMLDocument} iframe - The character sheet iframe document.
   * */
-export function loadSheetExtraCSS (iframe) {
+function loadSheetExtraCSS (iframe) {
   const cssURL = chrome.runtime.getURL('css/sheet.css');
   if (hasCSS(iframe, cssURL)) return;
   iframe.head.appendChild(createElement('link', { rel: 'stylesheet', href: cssURL }));

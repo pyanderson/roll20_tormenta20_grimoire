@@ -14,7 +14,12 @@
       "js": [
         "third-party/jquery-3.7.1.min.js",
         "third-party/jquery-ui-1.12.1.min.js",
-        "dist/main.js"
+        "helpers.js",
+        "element-factory.js",
+        "powers.js",
+        "spells.js",
+        "character-sheet.js.",
+        "index.js"
       ],
       "run_at": "document_end"
     }

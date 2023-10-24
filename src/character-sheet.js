@@ -1,13 +1,9 @@
-import { pathQuerySelector } from './helpers';
-import { renderPowersButtons } from './powers';
-import { calcCD, init, loadSheetExtraCSS, renderSpellsButtons } from './spells';
-
 /*
   * Load the sheet improvements.
   *
   * @param {string} characterId - The character ID in the Roll20 game.
   * */
-export function loadSheetEnhancement (characterId) {
+function loadSheetEnhancement (characterId) {
   // Fetch the Tormenta20 data
   const data = { spells: {}, powers: {}, powersOptions: [] };
   const spellsURL = chrome.runtime.getURL('data/spells.json');

@@ -1,11 +1,9 @@
-import { createElement } from './helpers';
-
 /*
   * Generate the the CD row element.
   *
   * @returns {HTMLDivElement}
   * */
-export function generateCDRow () {
+function generateCDRow () {
   const content = `
   <span class="spell-cd-item">CD</span>
     <input class="spell-cd-item spell-cd-total" style="margin-right: 5px; border: 2px solid black;" disabled="" value="" maxlength="2" name="spell-cd-total">
@@ -31,7 +29,7 @@ export function generateCDRow () {
   * @param {string[]} options - All available spell names for the circle.
   * @returns {HTMLDivElement}
   * */
-export function generateSpellDialog (circle, options) {
+function generateSpellDialog (circle, options) {
   const content = `
   <form name="spell-form">
     <fieldset>
@@ -56,7 +54,7 @@ export function generateSpellDialog (circle, options) {
   * @param {string[]} options - All available powers names.
   * @returns {HTMLDivElement}
   * */
-export function generatePowerDialog (options) {
+function generatePowerDialog (options) {
   const content = `
   <form name="power-form">
     <fieldset>

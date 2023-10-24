@@ -8,7 +8,7 @@
   * @param {object} options - A object that accepts the following attributes.
   * @param {string} [options.selector]
   * */
-export function addEventObserver (el, eventName, eventHandler, options = {}) {
+function addEventObserver (el, eventName, eventHandler, options = {}) {
   const handlers = [];
   if (options.selector) {
     const elements = el.querySelectorAll(options.selector);
@@ -47,7 +47,7 @@ export function addEventObserver (el, eventName, eventHandler, options = {}) {
   * @param {string|Event} eventType - The event type.
   * @returns {HTMLElement}
   * */
-export function trigger (el, eventType) {
+function trigger (el, eventType) {
   if (typeof eventType === 'string' && typeof el[eventType] === 'function') {
     el[eventType]();
     return el;
@@ -64,7 +64,7 @@ export function trigger (el, eventType) {
   * @param {object} [attributes={}] - A object with the attributes to be assigned to the new element.
   * @returns {HTMLElement}
   * */
-export function createElement (tagName, attributes = {}) {
+function createElement (tagName, attributes = {}) {
   const newElement = document.createElement(tagName);
   const { class: _class, name, ...other } = attributes;
   Object.entries({ class: _class, name }).forEach(function ([key, value]) { if (key && value) newElement.setAttribute(key, value); });
@@ -80,7 +80,7 @@ export function createElement (tagName, attributes = {}) {
   * @returns {HTMLElement|null}
   * */
 
-export function pathQuerySelector (root, path) {
+function pathQuerySelector (root, path) {
   if (!root) return null;
   if (path.length === 0) return root;
   return pathQuerySelector(root.querySelector(path[0]), path.slice(1));

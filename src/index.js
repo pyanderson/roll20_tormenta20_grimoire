@@ -1,5 +1,3 @@
-import { loadSheetEnhancement } from './character-sheet';
-
 function loadScript (path) {
   const s = document.createElement('script');
   s.src = chrome.runtime.getURL(path);

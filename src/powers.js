@@ -1,6 +1,3 @@
-import { generatePowerDialog } from './element-factory';
-import { addEventObserver, createElement, pathQuerySelector, trigger } from './helpers';
-
 /*
   * Fill the a power container with the power data.
   *
@@ -64,7 +61,7 @@ function renderPowerButton (container, data) {
   * @param {HTMLDocument} iframe - The character sheet iframe document.
   * @param {object} data - The Tormenta20 data.
   * */
-export function renderPowersButtons (iframe, data) {
+function renderPowersButtons (iframe, data) {
   const powersContainer = pathQuerySelector(iframe, ['div.sheet-left-container', 'div.sheet-powers-and-abilities']);
   for (const parentContainer of powersContainer.querySelectorAll('div.repcontainer')) {
     for (const container of parentContainer.querySelectorAll('div.sheet-extra')) {

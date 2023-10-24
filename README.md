@@ -82,8 +82,6 @@ Como esse é um projeto que estou mantendo no meu tempo livre não é possível 
 
 ## Desenvolvendo
 
-### Configurando o ambiente
-
 O firefox não tem suporte para a versão 3 do manifest, por isso é necessário ter as duas versões disponíveis.
 
 Copie para a pasta `src/` o manifest do navegador que você irá testar as mudanças:
@@ -91,18 +89,3 @@ Copie para a pasta `src/` o manifest do navegador que você irá testar as mudan
 ```bash
 cp chrome/manifest.json src/manifest.json
 ```
-
-Instale as dependências de desenvolvimento:
-
-```bash
-npm i
-```
-
-Inicie o webpack:
-
-```bash
-npm run watch
-```
-
-Pronto agora você já pode carregar a extensão local no seu navegador, o webpack manterá o bundle sempre atualizado, mas dependendo de como você estiver utilizando a extensão no seu navegador você pode precisar recarregar a extensão para ver as mudanças refletidas.
-
