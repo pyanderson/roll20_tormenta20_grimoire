@@ -5,8 +5,8 @@ Escolha magias, habilidade e poderes diretamente na sua ficha!
 Consulte regras de combate, condições e perícias direto no Roll20!
 
 Extensão para o Roll20 que auxilia na sua campanha de Tormenta20.
-É adicionada a opção de escolher uma magia direto do grimório do Tormenta20, sem necessidade de ficar copiando/escrevendo do livro. Também adiciona o cálculo automático de CD.
-Um menu extra é adicionado na página pra consulta de regras de combate, condições e perícias.
+É adicionada a opção de escolher uma magia ou poder, sem necessidade de ficar copiando/escrevendo do livro. Também adiciona o cálculo automático de CD.
+Um menu Lateral extra é adicionado na página pra consulta de regras de combate, condições e perícias.
 
 - [Chrome](https://chrome.google.com/webstore/detail/roll20-grim%C3%B3rio-do-tormen/lplnbanhibpehlmiiakcacambjleeeng)
 
@@ -28,27 +28,53 @@ Icons from [freepik](https://www.freepik.com).
 - [x] Poderes de classes (Ficha) _[v0.0.8]_
 - [x] Poderes de origens (Ficha) _[v0.0.8]_
 - [x] Poderes gerais (Ficha) _[v0.0.8]_
-- [x] Equipamento (Menu) _[v0.0.10]_
-- [ ] Poderes de classes (Menu)
-- [ ] Poderes de origens (Menu)
-- [ ] Poderes gerais (Menu)
+- [x] Equipamento (Menu Lateral) _[v0.0.10]_
+- [ ] Jogo do Ano
+- [ ] Poderes de classes (Menu Lateral)
+- [ ] Poderes de origens (Menu Lateral)
+- [ ] Poderes gerais (Menu Lateral)
 - [ ] Equipamento (Ficha)
+- [ ] Busca (Menu Lateral)
 - [ ] Bestiário?
 - [ ] ??????
 
+## Roadmap Atualização para o Jogo Do Ano
+
+- [ ] Poderes e Habilidades de classes
+- [ ] Origens
+- [ ] Perícias
+- [ ] Poderes de Combate
+- [ ] Poderes de Destino
+- [ ] Poderes de Magia
+- [x] Poderes Concedidos
+- [ ] Poderes da Tormenta
+- [x] Magias
+- [ ] Equipamento - Armas
+- [ ] Equipamento - Armaduras & Escudos
+- [ ] Equipamento - Itens Gerais
+- [ ] Itens Superiores
+- [ ] Combate
+- [ ] Condições
+
 ## FAQ
+
 ### Qual versão do livro está sendo usada?
-Versão 1.1 junto com as erratas 1.0, 1.1 e 1.2.
+
+No momento está sendo feita a atualização para a versão Jogo do Ano, mais precisamente a 3ª edição lançada.
 
 ### Como posso contribuir?
+
 Sugestões e feedbacks sempre são bem vindos, você pode usar as [issues](https://github.com/pyanderson/roll20_tormenta20_grimoire/issues) para isso.
 
 Se você já possui alguma experiência com git e github e quer ajudar a manter o conteúdo atualizado pode abrir um Pull Request atualizando alguma magia, habilidade, poder, etc.
 
 ### Como funciona o Roadmap? Existe algum prazo?
+
 Conforme as ideias surgem ou recebo sugestões, elas são adicionadas no Roadmap, então não necessariamente ele será executado na ordem que aparece, mas as ideias e sugestões da comunidade influenciam bastante na ordem que as coisas serão feitas.
 
 Como esse é um projeto que estou mantendo no meu tempo livre não é possível determinar prazos.
 
 ## Notas do Desenvolvedor
+
 - O firefox ainda não tem suporte para a versão 3 do manifest, por isso é necessário ter as duas versões disponíveis.
+
