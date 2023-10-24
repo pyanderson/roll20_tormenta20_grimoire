@@ -68,9 +68,9 @@ Visite a página da loja de extensões do seu navegador:
   - [x] Arcanista
   - [x] Bárbaro
   - [x] Bardo
-  - [ ] Bucaneiro
-  - [ ] Caçador
-  - [ ] Cavaleiro
+  - [x] Bucaneiro
+  - [x] Caçador
+  - [x] Cavaleiro
   - [ ] Clérigo
   - [ ] Druida
   - [ ] Guerreiro
