@@ -26,11 +26,11 @@ Visite a página da loja de extensões do seu navegador:
 
 - [x] Magias direto na ficha _[v0.0.2]_
 - [x] Compatibilidade com Firefox _[v0.0.3]_
-- [x] Menu de regras _[v0.0.4]_
-- [x] Regras de combate _[v0.0.4]_
-- [x] Regras de condições _[v0.0.4]_
-- [x] Regras de perícias _[v0.0.4]_
-- [x] Remover permissões desnecessárias _[v0.0.5]_
+- [x] Menu lateral de regras _[v0.0.4]_
+- [x] Combate _[v0.0.4]_
+- [x] Condições _[v0.0.4]_
+- [x] Perícias _[v0.0.4]_
+- [x] Remoção de permissões desnecessárias _[v0.0.5]_
 - [x] Poderes de classes (Ficha) _[v0.0.8]_
 - [x] Poderes de origens (Ficha) _[v0.0.8]_
 - [x] Poderes gerais (Ficha) _[v0.0.8]_
@@ -40,7 +40,7 @@ Visite a página da loja de extensões do seu navegador:
 - [ ] Poderes de origens (Menu Lateral)
 - [ ] Poderes gerais (Menu Lateral)
 - [ ] Equipamento (Ficha)
-- [ ] Busca (Menu Lateral)
+- [ ] Busca
 - [ ] Bestiário?
 - [ ] ??????
 
@@ -60,7 +60,7 @@ Visite a página da loja de extensões do seu navegador:
 - [ ] Equipamento - Itens Gerais
 - [ ] Itens Superiores
 - [ ] Combate
-- [ ] Condições
+- [x] Condições
 
 ## FAQ
 

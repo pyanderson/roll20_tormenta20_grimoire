@@ -306,167 +306,137 @@
       {
         "type": "item",
         "name": "Abalado",
-        "description": "O personagem sofre –2 em testes de perícia. Se ficar abalado novamente, em vez disso fica apavorado. Condição de medo."
+        "description": " O personagem sofre –2 em testes de perícia. Se ficar abalado novamente, em vez disso fica apavorado. Medo."
       },
       {
         "type": "item",
         "name": "Agarrado",
-        "description": "O personagem fica desprevenido e imóvel, sofre –2 em testes de ataque e só pode atacar com armas leves. Um personagem fazendo um ataque à distância contra um alvo envolvido na manobra agarrar tem 50% de chance de acertar o alvo errado. Condição de paralisia."
+        "description": " O personagem fica desprevenido e imóvel, sofre –2 em testes de ataque e só pode atacar com armas leves. Ataques à distância contra um alvo envolvido em uma manobra agarrar têm 50% de chance de acertar o alvo errado. Movimento."
       },
       {
         "type": "item",
         "name": "Alquebrado",
-        "description": "O custo em pontos de mana das habilidades e magias do personagem aumenta em +1. Condição mental."
+        "description": " O custo em pontos de mana das habilidades do personagem aumenta em +1. Mental."
       },
       {
         "type": "item",
         "name": "Apavorado",
-        "description": "“O personagem sofre –5 em testes de perícia e não pode se aproximar voluntariamente da fonte do medo\n"
+        "description": " O personagem sofre –5 em testes de perícia e não pode se aproximar voluntariamente da fonte do medo. Medo."
       },
       {
         "type": "item",
         "name": "Atordoado",
-        "description": "O personagem fica desprevenido e não pode fazer ações. Um personagem só pode ficar atordoado pelo mesmo efeito uma vez por cena. Condição mental."
+        "description": " O personagem fica desprevenido e não pode fazer ações. Mental."
       },
       {
         "type": "item",
         "name": "Caído",
-        "description": "Deitado no chão. O personagem sofre –5 em ataques corpo a corpo e seu deslocamento é reduzido a 1,5m. Além disso, sofre –5 de Defesa contra ataques corpo a corpo, mas recebe +5 de Defesa contra ataques à distância."
+        "description": " O personagem sofre –5 em ataques corpo a corpo e seu deslocamento é reduzido a 1,5m. Além disso, sofre –5 na Defesa contra ataques corpo a corpo e recebe +5 na Defesa contra ataques à distância (cumulativos com outras condições)."
       },
       {
         "type": "item",
         "name": "Cego",
-        "description": "O personagem fica desprevenido e lento, não pode fazer testes de Percepção para observar e sofre –5 em testes de perícias baseadas em Força ou Destreza. Você é considerado cego enquanto estiver em uma área de escuridão total, a menos que algo lhe permita perceber no escuro. Todos os alvos de seus ataques recebem camuflagem total. Condição de sentidos."
+        "description": " O personagem fica desprevenido e lento, não pode fazer testes de Percepção para observar e sofre –5 em testes de perícias baseadas em Força ou"
+      },
+      {
+        "type": "item",
+        "name": "Destreza",
+        "description": " Todos os alvos de seus ataques recebem camuflagem total. Você é considerado cego enquanto estiver em uma área de escuridão total, a menos que algo lhe permita perceber no escuro. Sentidos."
       },
       {
         "type": "item",
         "name": "Confuso",
-        "description": "O personagem comporta-se de modo aleatório. Role 1d6 no início de seus turnos: 1) Movimenta-se em uma direção escolhida por uma rolagem de 1d8; 2-3) Não pode fazer ações e fica balbuciando incoerentemente; 4-5) Usa a arma que estiver empunhando para atacar a criatura mais próxima, ou a si mesmo se estiver sozinho (nesse caso, apenas role o dano); 6) A condição termina e pode agir normalmente. Condição mental."
+        "description": " O personagem comporta-se de modo aleatório. Role 1d6 no início de seus turnos: 1) Movimenta-se em uma direção escolhida por uma rolagem de 1d8; 2-3) Não pode fazer ações, e fica balbuciando incoerentemente; 4-5) Usa a arma que estiver empunhando para atacar a criatura mais próxima, ou a si mesmo se estiver sozinho (nesse caso, apenas role o dano); 6) A condição termina e pode agir normalmente. Mental."
       },
       {
         "type": "item",
         "name": "Debilitado",
-        "description": "O personagem sofre –5 em testes de atributos físicos (Força, Destreza e Constituição) e de perícias baseadas nesses atributos. Se o personagem ficar debilitado novamente, em vez disso fica inconsciente."
+        "description": " O personagem sofre –5 em testes de Força, Destreza e Constituição e de perícias baseadas nesses atributos. Se o personagem ficar debilitado novamente, em vez disso fica inconsciente."
       },
       {
         "type": "item",
         "name": "Desprevenido",
-        "description": "Despreparado para reagir. O personagem sofre –5 na Defesa e em Reflexos. Você fica desprevenido contra inimigos que não possa perceber."
-      },
-      {
-        "type": "item",
-        "name": "Doente",
-        "description": "Sob efeito de uma doença."
+        "description": " O personagem sofre –5 na Defesa e em Reflexos. Você fica desprevenido contra inimigos que não possa perceber. Doente. Sob efeito de uma doença. Metabolismo."
       },
       {
         "type": "item",
         "name": "Em Chamas",
-        "description": "O personagem está pegando fogo. No início de seus turnos, sofre 1d6 pontos de dano de fogo. O personagem pode gastar uma ação padrão para apagar o fogo com as mãos. Imersão em água também apaga as chamas."
+        "description": " O personagem está pegando fogo. No início de seus turnos, sofre 1d6 pontos de dano de fogo. O personagem pode gastar uma ação padrão para apagar o fogo com as mãos. Imersão em água também apaga as chamas. Enfeitiçado. O personagem se torna prestativo em relação à fonte da condição. Ele não fica sob controle da fonte, mas percebe suas palavras e ações da maneira mais favorável possível. A fonte da condição recebe +10 em testes de Diplomacia com o personagem. Mental."
       },
       {
         "type": "item",
         "name": "Enjoado",
-        "description": "O personagem só pode realizar uma ação padrão ou de movimento (não ambas) por rodada. Ele pode gastar uma ação padrão para fazer uma investida, mas pode avançar no máximo seu deslocamento (e não o dobro)."
-      },
-      {
-        "type": "item",
-        "name": "Enredado",
-        "description": "O personagem fica lento, vulnerável e sofre –2 em testes de ataque. Condição de paralisia."
+        "description": " O personagem só pode realizar uma ação padrão ou de movimento (não ambas) por rodada. Ele pode gastar uma ação padrão para fazer uma investida, mas pode avançar no máximo seu deslocamento (e não o dobro). Metabolismo. Enredado. O personagem fica lento, vulnerável e sofre –2 em testes de ataque. Movimento."
       },
       {
         "type": "item",
         "name": "Envenenado",
-        "description": "O efeito desta condição varia de acordo com o veneno. Pode ser outra condição (por exemplo, fraco ou enjoado) ou dano recorrente (por exemplo, 1d12 pontos de dano por rodada). A descrição do veneno determina a duração dele (caso nada seja dito, a condição dura pela cena). Dano recorrente de condições envenenado sempre se acumula (mesmo se as condições ou fontes que as causam forem iguais)."
-      },
-      {
-        "type": "item",
-        "name": "Esmorecido",
-        "description": "O personagem sofre –5 em testes de atributos mentais (Inteligência, Sabedoria e Carisma) e de perícias baseadas nesses atributos. Condição mental."
-      },
-      {
-        "type": "item",
-        "name": "Exausto",
-        "description": "O personagem fica debilitado, lento e vulnerável. Se ficar exausto novamente, em vez disso fica inconsciente. Condição de fadiga."
+        "description": " O efeito desta condição varia de acordo com o veneno. Pode ser perda de vida recorrente ou outra condição (como fraco ou enjoado). Perda de vida recorrente por venenos é cumulativa. Veneno. Esmorecido. O personagem sofre –5 em testes de Inteligência, Sabedoria e Carisma e de perícias baseadas nesses atributos. Mental. Exausto. O personagem fica debilitado, lento e vulnerável. Se ficar exausto novamente, em vez disso fica inconsciente. Cansaço."
       },
       {
         "type": "item",
         "name": "Fascinado",
-        "description": "Com a atenção presa em alguma coisa. O personagem sofre –5 em Percepção e não pode fazer ações, exceto observar aquilo que o fascinou. Qualquer ação hostil contra o personagem anula esta condição. Balançar uma criatura fascinada para tirá-la desse estado gasta uma ação padrão. Condição mental."
+        "description": " Com a atenção presa em alguma coisa. O personagem sofre –5 em Percepção e não pode fazer ações, exceto observar aquilo que o fascinou. Esta condição é anulada por ações hostis contra o personagem ou se o que o fascinou não estiver mais visível. Balançar uma criatura fascinada para tirá-la desse estado gasta uma ação padrão. Mental."
       },
       {
         "type": "item",
         "name": "Fatigado",
-        "description": "O personagem fica fraco e vulnerável. Se o personagem ficar fatigado novamente, em vez disso fica exausto. Condição de fadiga."
+        "description": " O personagem fica fraco e vulnerável. Se ficar fatigado novamente, em vez disso fica exausto. Cansaço."
       },
       {
         "type": "item",
         "name": "Fraco",
-        "description": "O personagem sofre –2 em testes de atributos físicos (Força, Destreza e Constituição) e de perícias baseadas nesses atributos. Se ficar fraco novamente, em vez disso fica debilitado."
+        "description": " O personagem sofre –2 em testes de Força, Destreza e Constituição e de perícias baseadas nesses atributos. Se ficar fraco novamente, em vez disso fica debilitado."
       },
       {
         "type": "item",
         "name": "Frustrado",
-        "description": "O personagem sofre –2 em testes de atributos mentais (Inteligência, Sabedoria e Carisma) e de perícias baseadas nesses atributos. Se ficar frustrado novamente, em vez disso fica esmorecido. Condição mental."
-      },
-      {
-        "type": "item",
-        "name": "Imóvel",
-        "description": "Todas as formas de deslocamento do personagem são reduzidas a 0m. Condição de paralisia."
+        "description": " O personagem sofre –2 em testes de Inteligência, Sabedoria e Carisma e de perícias baseadas nesses atributos. Se ficar frustrado novamente, em vez disso fica esmorecido. Mental. Imóvel. Todas as formas de deslocamento do personagem são reduzidas a 0m. Movimento."
       },
       {
         "type": "item",
         "name": "Inconsciente",
-        "description": "O personagem fica indefeso e não pode fazer ações, incluindo reações. Entretanto, uma criatura inconsciente ainda pode fazer testes que sejam naturalmente feitos quando se está inconsciente (como testes de Constituição para estabilizar sangramento ou testes de Fortitude contra doenças). Balançar uma criatura para acordá-la gasta uma ação padrão."
+        "description": " O personagem fica indefeso e não pode fazer ações, incluindo reações (mas ainda pode fazer testes que sejam naturalmente feitos quando se está inconsciente, como testes de Constituição para estabilizar sangramento). Balançar uma criatura para acordá-la gasta uma ação padrão."
       },
       {
         "type": "item",
         "name": "Indefeso",
-        "description": "O personagem é considerado desprevenido, mas sofre –10 na Defesa, falha automaticamente em testes de Reflexos e pode sofrer golpes de misericórdia."
+        "description": " O personagem fica desprevenido, mas sofre –10 na Defesa, falha automaticamente em testes de Reflexos e pode sofrer golpes de misericórdia. Lento. Todas as formas de deslocamento do personagem são reduzidas à metade (arredonde para"
       },
       {
         "type": "item",
-        "name": "Lento",
-        "description": "Todas as formas de deslocamento do personagem são reduzidas à metade (arredonde para baixo para o primeiro incremento de 1,5m) e ele não pode correr ou fazer investidas. Condição de paralisia."
+        "name": "baixo para o primeiro incremento de 1,5m) e ele não pode correr ou fazer investidas",
+        "description": " Movimento."
       },
       {
         "type": "item",
         "name": "Ofuscado",
-        "description": "O personagem sofre –2 em testes de ataque e de Percepção. Condição de sentidos."
+        "description": " O personagem sofre –2 em testes de ataque e de Percepção. Sentidos."
       },
       {
         "type": "item",
         "name": "Paralisado",
-        "description": "O personagem fica imóvel e indefeso e só pode realizar ações puramente mentais. Condição de paralisia."
-      },
-      {
-        "type": "item",
-        "name": "Pasmo",
-        "description": "O personagem não pode fazer ações. Condição mental."
+        "description": " Fica imóvel e indefeso e só pode realizar ações puramente mentais. Movimento. Pasmo. Não pode fazer ações. Mental."
       },
       {
         "type": "item",
         "name": "Petrificado",
-        "description": "O personagem fica inconsciente e recebe resistência a dano 8."
+        "description": " O personagem fica inconsciente e recebe redução de dano 8. Metamorfose."
       },
       {
         "type": "item",
         "name": "Sangrando",
-        "description": "Com um ferimento aberto. No início de seus turnos, o personagem deve fazer um teste de Constituição (CD 15). Se passar, estabiliza e remove essa condição. Se falhar, sofre 1d6 pontos de dano e continua sangrando."
+        "description": " No início de seu turno, o personagem deve fazer um teste de Constituição (CD 15). Se falhar, perde 1d6 pontos de vida e continua sangrando. Se passar, remove essa condição. Metabolismo. Sobrecarregado. O personagem sofre penalidade de armadura –5 e seu deslocamento é reduzido –3m. Movimento."
       },
       {
         "type": "item",
         "name": "Surdo",
-        "description": "O personagem não pode fazer testes de Percepção para ouvir e sofre –5 em testes de Iniciativa. Além disso, é considerado em condição ruim para lançar magias. Condição de sentidos."
-      },
-      {
-        "type": "item",
-        "name": "Surpreendido",
-        "description": "Não ciente de seus inimigos. O personagem fica desprevenido e não pode fazer ações, exceto reações."
+        "description": " O personagem não pode fazer testes de Percepção para ouvir e sofre –5 em testes de Iniciativa. Além disso, é considerado em condição ruim para lançar magias. Sentidos. Surpreendido. O personagem fica desprevenido e não pode fazer ações."
       },
       {
         "type": "item",
         "name": "Vulnerável",
-        "description": "O personagem sofre –2 na Defesa."
+        "description": " O personagem sofre –2 na Defesa."
       }
     ]
   },
@@ -538,7 +508,7 @@
             "type": "item",
             "name": "Manejar Animal (CD 15)",
             "description": "Você faz um animal realizar uma tarefa para a qual foi treinado (como “atacar”, “sentar”, “vigiar”...). Isso permite usar Adestramento como Pilotagem para veículos com tração animal. Este uso gasta uma ação de movimento."
-          }          
+          }
         ]
       },
       {
@@ -761,7 +731,7 @@
             "type": "item",
             "name": "Resistência",
             "description": "Você usa Fortitude para resistir a efeitos que afetam sua saúde ou vitalidade, como venenos e doenças. A CD é determinada pelo efeito."
-          } 
+          }
         ]
       },
       {
@@ -1213,18 +1183,73 @@
             "name": "Dinheiro Inicial",
             "description": "Tabela 3-1: Dinheiro Inicial",
             "table": {
-              "header": ["Nível", "Dinheiro Inicial (T$)", "Nível", "Dinheiro Inicial (T$)"],
+              "header": [
+                "Nível",
+                "Dinheiro Inicial (T$)",
+                "Nível",
+                "Dinheiro Inicial (T$)"
+              ],
               "rows": [
-                ["1º", "4d6", "11º", "19.000"],
-                ["2º", "300", "12º", "27.000"],
-                ["3º", "600", "13º", "36.000"],
-                ["4º", "1.000", "14º", "49.000"],
-                ["5º", "2.000", "15º", "66.000"],
-                ["6º", "3.000", "16º", "88.000"],
-                ["7º", "5.000", "17º", "110.000"],
-                ["8º", "7.000", "18º", "150.000"],
-                ["9º", "10.000", "19º", "200.000"],
-                ["10º", "13.000", "20º", "260.000"]
+                [
+                  "1º",
+                  "4d6",
+                  "11º",
+                  "19.000"
+                ],
+                [
+                  "2º",
+                  "300",
+                  "12º",
+                  "27.000"
+                ],
+                [
+                  "3º",
+                  "600",
+                  "13º",
+                  "36.000"
+                ],
+                [
+                  "4º",
+                  "1.000",
+                  "14º",
+                  "49.000"
+                ],
+                [
+                  "5º",
+                  "2.000",
+                  "15º",
+                  "66.000"
+                ],
+                [
+                  "6º",
+                  "3.000",
+                  "16º",
+                  "88.000"
+                ],
+                [
+                  "7º",
+                  "5.000",
+                  "17º",
+                  "110.000"
+                ],
+                [
+                  "8º",
+                  "7.000",
+                  "18º",
+                  "150.000"
+                ],
+                [
+                  "9º",
+                  "10.000",
+                  "19º",
+                  "200.000"
+                ],
+                [
+                  "10º",
+                  "13.000",
+                  "20º",
+                  "260.000"
+                ]
               ]
             }
           },
@@ -1233,16 +1258,79 @@
             "name": "Dano de Armas",
             "description": "Tabela 3-2: Dano de Armas",
             "table": {
-              "header": ["–2 Passos", "–1 Passo", "Normal", "+1 Passo", "+2 Passos", "+3 Passos"],
+              "header": [
+                "–2 Passos",
+                "–1 Passo",
+                "Normal",
+                "+1 Passo",
+                "+2 Passos",
+                "+3 Passos"
+              ],
               "rows": [
-                ["1", "1d2", "1d3", "1d4", "1d6", "1d8"],
-                ["1d2", "1d3", "1d4", "1d6", "1d8", "1d10"],
-                ["1d3", "1d4", "1d6", "1d8", "1d10", "1d12"],
-                ["1d4", "1d6", "1d8 ou 2d4", "1d10", "1d12", "3d6"],
-                ["1d6", "1d8", "1d10", "1d12", "3d6", "4d6"],
-                ["1d8", "1d10", "1d12, 2d6 ou 3d4", "3d6", "4d6", "4d8"],
-                ["1d10", "2d6", "2d8", "3d8", "4d8", "4d10"],
-                ["2d6", "2d8", "2d10", "3d10", "4d10", "4d12"]
+                [
+                  "1",
+                  "1d2",
+                  "1d3",
+                  "1d4",
+                  "1d6",
+                  "1d8"
+                ],
+                [
+                  "1d2",
+                  "1d3",
+                  "1d4",
+                  "1d6",
+                  "1d8",
+                  "1d10"
+                ],
+                [
+                  "1d3",
+                  "1d4",
+                  "1d6",
+                  "1d8",
+                  "1d10",
+                  "1d12"
+                ],
+                [
+                  "1d4",
+                  "1d6",
+                  "1d8 ou 2d4",
+                  "1d10",
+                  "1d12",
+                  "3d6"
+                ],
+                [
+                  "1d6",
+                  "1d8",
+                  "1d10",
+                  "1d12",
+                  "3d6",
+                  "4d6"
+                ],
+                [
+                  "1d8",
+                  "1d10",
+                  "1d12, 2d6 ou 3d4",
+                  "3d6",
+                  "4d6",
+                  "4d8"
+                ],
+                [
+                  "1d10",
+                  "2d6",
+                  "2d8",
+                  "3d8",
+                  "4d8",
+                  "4d10"
+                ],
+                [
+                  "2d6",
+                  "2d8",
+                  "2d10",
+                  "3d10",
+                  "4d10",
+                  "4d12"
+                ]
               ]
             }
           },
@@ -1251,28 +1339,172 @@
             "name": "Armas Simples",
             "description": "Tabela 3-3: Armas",
             "table": {
-              "header": ["Nome", "Preço", "Dano", "Crítico", "Alcance", "Peso", "Tipo"],
+              "header": [
+                "Nome",
+                "Preço",
+                "Dano",
+                "Crítico",
+                "Alcance",
+                "Peso",
+                "Tipo"
+              ],
               "rows": [
-                ["<b>Corpo a Corpo — Leves</b>"],
-                ["Adaga", "T$ 2", "1d4", "19", "Curto", "0,5kg", "Perfuração"],
-                ["Espada curta", "T$ 10", "1d6", "19", "—", "1kg", "Perfuração"],
-                ["Foice", "T$ 4", "1d6", "x3", "—", "1kg", "Corte"],
-                ["<b>Corpo a Corpo — Uma Mão</b>"],
-                ["Clava", "—", "1d6", "x2", "—", "1,5kg", "Impacto"],
-                ["Lança", "T$ 2", "1d6", "x2", "Curto", "1,5kg", "Perfuração"],
-                ["Maça", "T$ 12", "1d8", "x2", "—", "6kg", "Impacto"],
-                ["<b>Corpo a Corpo — Duas Mãos</b>"],
-                ["Bordão", "—", "1d6/1d6", "x2", "—", "2kg", "Impacto"],
-                ["Pique", "T$ 2", "1d8", "x2", "—", "5kg", "Perfuração"],
-                ["Tacape", "—", "1d10", "x2", "—", "4kg", "Impacto"],
-                ["<b>Ataque à Distância</b>"],
-                ["Arco curto", "T$ 30", "1d6", "x3", "Médio", "1kg", "Perfuração"],
-                ["Flechas (20)", "T$ 1", "—", "—", "—", "1,5kg", "—"],
-                ["Besta leve", "T$ 35", "1d8", "19", "Médio", "3kg", "Perfuração"],
-                ["Virotes (20)", "T$ 2", "—", "—", "—", "1kg", "—"],
-                ["Azagaia", "T$ 1", "1d6", "x2", "Médio", "1kg", "Perfuração"],
-                ["Funda", "—", "1d4", "x2", "Médio", "250", "Impacto"],
-                ["Balas (20)", "T$ 0,5", "—", "—", "—", "2kg", "—"]
+                [
+                  "<b>Corpo a Corpo — Leves</b>"
+                ],
+                [
+                  "Adaga",
+                  "T$ 2",
+                  "1d4",
+                  "19",
+                  "Curto",
+                  "0,5kg",
+                  "Perfuração"
+                ],
+                [
+                  "Espada curta",
+                  "T$ 10",
+                  "1d6",
+                  "19",
+                  "—",
+                  "1kg",
+                  "Perfuração"
+                ],
+                [
+                  "Foice",
+                  "T$ 4",
+                  "1d6",
+                  "x3",
+                  "—",
+                  "1kg",
+                  "Corte"
+                ],
+                [
+                  "<b>Corpo a Corpo — Uma Mão</b>"
+                ],
+                [
+                  "Clava",
+                  "—",
+                  "1d6",
+                  "x2",
+                  "—",
+                  "1,5kg",
+                  "Impacto"
+                ],
+                [
+                  "Lança",
+                  "T$ 2",
+                  "1d6",
+                  "x2",
+                  "Curto",
+                  "1,5kg",
+                  "Perfuração"
+                ],
+                [
+                  "Maça",
+                  "T$ 12",
+                  "1d8",
+                  "x2",
+                  "—",
+                  "6kg",
+                  "Impacto"
+                ],
+                [
+                  "<b>Corpo a Corpo — Duas Mãos</b>"
+                ],
+                [
+                  "Bordão",
+                  "—",
+                  "1d6/1d6",
+                  "x2",
+                  "—",
+                  "2kg",
+                  "Impacto"
+                ],
+                [
+                  "Pique",
+                  "T$ 2",
+                  "1d8",
+                  "x2",
+                  "—",
+                  "5kg",
+                  "Perfuração"
+                ],
+                [
+                  "Tacape",
+                  "—",
+                  "1d10",
+                  "x2",
+                  "—",
+                  "4kg",
+                  "Impacto"
+                ],
+                [
+                  "<b>Ataque à Distância</b>"
+                ],
+                [
+                  "Arco curto",
+                  "T$ 30",
+                  "1d6",
+                  "x3",
+                  "Médio",
+                  "1kg",
+                  "Perfuração"
+                ],
+                [
+                  "Flechas (20)",
+                  "T$ 1",
+                  "—",
+                  "—",
+                  "—",
+                  "1,5kg",
+                  "—"
+                ],
+                [
+                  "Besta leve",
+                  "T$ 35",
+                  "1d8",
+                  "19",
+                  "Médio",
+                  "3kg",
+                  "Perfuração"
+                ],
+                [
+                  "Virotes (20)",
+                  "T$ 2",
+                  "—",
+                  "—",
+                  "—",
+                  "1kg",
+                  "—"
+                ],
+                [
+                  "Azagaia",
+                  "T$ 1",
+                  "1d6",
+                  "x2",
+                  "Médio",
+                  "1kg",
+                  "Perfuração"
+                ],
+                [
+                  "Funda",
+                  "—",
+                  "1d4",
+                  "x2",
+                  "Médio",
+                  "250",
+                  "Impacto"
+                ],
+                [
+                  "Balas (20)",
+                  "T$ 0,5",
+                  "—",
+                  "—",
+                  "—",
+                  "2kg",
+                  "—"
+                ]
               ]
             }
           },
@@ -1281,31 +1513,199 @@
             "name": "Armas Marciais",
             "description": "Tabela 3-3: Armas",
             "table": {
-              "header": ["Nome", "Preço", "Dano", "Crítico", "Alcance", "Peso", "Tipo"],
+              "header": [
+                "Nome",
+                "Preço",
+                "Dano",
+                "Crítico",
+                "Alcance",
+                "Peso",
+                "Tipo"
+              ],
               "rows": [
-                ["<b>Corpo a Corpo — Leves</b>"],
-                ["Machadinha", "T$ 6", "1d6", "x3", "Curto", "2kg", "Corte"],
-                ["<b>Corpo a Corpo — Uma Mão</b>"],
-                ["Cimitarra", "T$ 15", "1d6", "18", "—", "2kg", "Corte"],
-                ["Espada longa", "T$ 15", "1d8", "19", "—", "2kg", "Corte"],
-                ["Florete", "T$ 20", "1d6", "18", "—", "1kg", "Perfuração"],
-                ["Machado de batalha", "T$ 10", "1d8", "x3", "—", "3kg", "Corte"],
-                ["Mangual", "T$ 8", "1d8", "x2", "—", "2,5kg", "Impacto"],
-                ["Martelo de guerra", "T$ 12", "1d8", "x3", "—", "2,5kg", "Impacto"],
-                ["Picareta", "T$ 8", "1d6", "x4", "—", "3kg", "Perfuração"],
-                ["Tridente", "T$ 15", "1d8", "x2", "—", "2kg", "Perfuração"],
-                ["<b>Corpo a Corpo — Duas Mãos</b>"],
-                ["Alabarda", "T$ 10", "1d10", "x3", "—", "6kg", "Corte/perfuração"],
-                ["Alfange", "T$ 75", "2d4", "18", "—", "4kg", "Corte"],
-                ["Gadanho", "T$ 18", "2d4", "x4", "—", "5kg", "Corte"],
-                ["Lança montada", "T$ 10", "1d8", "x3", "—", "5kg", "Perfuração"],
-                ["Machado de guerra", "T$ 20", "1d12", "x3", "—", "6kg", "Corte"],
-                ["Montante", "T$ 50", "2d6", "19", "—", "4kg", "Corte"],
-                ["<b>Ataque à Distância</b>"],
-                ["Arco longo", "T$ 100", "1d8", "x3", "Médio", "1,5kg", "Perfuração"],
-                ["Flechas (20)", "T$ 1", "—", "—", "—", "1,5kg", "—"],
-                ["Besta pesada", "T$ 50", "1d12", "19", "Médio", "4kg", "Perfuração"],
-                ["Virotes (20)", "T$ 2", "—", "—", "—", "1kg", "—"]
+                [
+                  "<b>Corpo a Corpo — Leves</b>"
+                ],
+                [
+                  "Machadinha",
+                  "T$ 6",
+                  "1d6",
+                  "x3",
+                  "Curto",
+                  "2kg",
+                  "Corte"
+                ],
+                [
+                  "<b>Corpo a Corpo — Uma Mão</b>"
+                ],
+                [
+                  "Cimitarra",
+                  "T$ 15",
+                  "1d6",
+                  "18",
+                  "—",
+                  "2kg",
+                  "Corte"
+                ],
+                [
+                  "Espada longa",
+                  "T$ 15",
+                  "1d8",
+                  "19",
+                  "—",
+                  "2kg",
+                  "Corte"
+                ],
+                [
+                  "Florete",
+                  "T$ 20",
+                  "1d6",
+                  "18",
+                  "—",
+                  "1kg",
+                  "Perfuração"
+                ],
+                [
+                  "Machado de batalha",
+                  "T$ 10",
+                  "1d8",
+                  "x3",
+                  "—",
+                  "3kg",
+                  "Corte"
+                ],
+                [
+                  "Mangual",
+                  "T$ 8",
+                  "1d8",
+                  "x2",
+                  "—",
+                  "2,5kg",
+                  "Impacto"
+                ],
+                [
+                  "Martelo de guerra",
+                  "T$ 12",
+                  "1d8",
+                  "x3",
+                  "—",
+                  "2,5kg",
+                  "Impacto"
+                ],
+                [
+                  "Picareta",
+                  "T$ 8",
+                  "1d6",
+                  "x4",
+                  "—",
+                  "3kg",
+                  "Perfuração"
+                ],
+                [
+                  "Tridente",
+                  "T$ 15",
+                  "1d8",
+                  "x2",
+                  "—",
+                  "2kg",
+                  "Perfuração"
+                ],
+                [
+                  "<b>Corpo a Corpo — Duas Mãos</b>"
+                ],
+                [
+                  "Alabarda",
+                  "T$ 10",
+                  "1d10",
+                  "x3",
+                  "—",
+                  "6kg",
+                  "Corte/perfuração"
+                ],
+                [
+                  "Alfange",
+                  "T$ 75",
+                  "2d4",
+                  "18",
+                  "—",
+                  "4kg",
+                  "Corte"
+                ],
+                [
+                  "Gadanho",
+                  "T$ 18",
+                  "2d4",
+                  "x4",
+                  "—",
+                  "5kg",
+                  "Corte"
+                ],
+                [
+                  "Lança montada",
+                  "T$ 10",
+                  "1d8",
+                  "x3",
+                  "—",
+                  "5kg",
+                  "Perfuração"
+                ],
+                [
+                  "Machado de guerra",
+                  "T$ 20",
+                  "1d12",
+                  "x3",
+                  "—",
+                  "6kg",
+                  "Corte"
+                ],
+                [
+                  "Montante",
+                  "T$ 50",
+                  "2d6",
+                  "19",
+                  "—",
+                  "4kg",
+                  "Corte"
+                ],
+                [
+                  "<b>Ataque à Distância</b>"
+                ],
+                [
+                  "Arco longo",
+                  "T$ 100",
+                  "1d8",
+                  "x3",
+                  "Médio",
+                  "1,5kg",
+                  "Perfuração"
+                ],
+                [
+                  "Flechas (20)",
+                  "T$ 1",
+                  "—",
+                  "—",
+                  "—",
+                  "1,5kg",
+                  "—"
+                ],
+                [
+                  "Besta pesada",
+                  "T$ 50",
+                  "1d12",
+                  "19",
+                  "Médio",
+                  "4kg",
+                  "Perfuração"
+                ],
+                [
+                  "Virotes (20)",
+                  "T$ 2",
+                  "—",
+                  "—",
+                  "—",
+                  "1kg",
+                  "—"
+                ]
               ]
             }
           },
@@ -1314,18 +1714,88 @@
             "name": "Armas Exóticas",
             "description": "Tabela 3-3: Armas",
             "table": {
-              "header": ["Nome", "Preço", "Dano", "Crítico", "Alcance", "Peso", "Tipo"],
+              "header": [
+                "Nome",
+                "Preço",
+                "Dano",
+                "Crítico",
+                "Alcance",
+                "Peso",
+                "Tipo"
+              ],
               "rows": [
-                ["<b>Corpo a Corpo — Uma Mão</b>"],
-                ["Chicote", "T$ 2", "1d3", "x2", "—", "1kg", "Corte"],
-                ["Espada bastarda", "T$ 35", "1d10/1d12", "19", "—", "3kg", "Corte"],
-                ["Katana", "T$ 100", "1d8/1d10", "19", "—", "2,5kg", "Corte"],
-                ["Machado anão", "T$ 30", "1d10", "x3", "—", "4kg", "Corte"],
-                ["<b>Corpo a Corpo — Duas Mãos</b>"],
-                ["Corrente de espinhos", "T$ 25", "2d4/2d4", "19", "—", "5kg", "Corte"],
-                ["Machado táurico", "T$ 50", "2d8", "x3", "—", "12kg", "Corte"],
-                ["<b>Ataque à Distância</b>"],
-                ["Rede", "T$ 20", "—", "—", "Curto", "3kg", "—"]
+                [
+                  "<b>Corpo a Corpo — Uma Mão</b>"
+                ],
+                [
+                  "Chicote",
+                  "T$ 2",
+                  "1d3",
+                  "x2",
+                  "—",
+                  "1kg",
+                  "Corte"
+                ],
+                [
+                  "Espada bastarda",
+                  "T$ 35",
+                  "1d10/1d12",
+                  "19",
+                  "—",
+                  "3kg",
+                  "Corte"
+                ],
+                [
+                  "Katana",
+                  "T$ 100",
+                  "1d8/1d10",
+                  "19",
+                  "—",
+                  "2,5kg",
+                  "Corte"
+                ],
+                [
+                  "Machado anão",
+                  "T$ 30",
+                  "1d10",
+                  "x3",
+                  "—",
+                  "4kg",
+                  "Corte"
+                ],
+                [
+                  "<b>Corpo a Corpo — Duas Mãos</b>"
+                ],
+                [
+                  "Corrente de espinhos",
+                  "T$ 25",
+                  "2d4/2d4",
+                  "19",
+                  "—",
+                  "5kg",
+                  "Corte"
+                ],
+                [
+                  "Machado táurico",
+                  "T$ 50",
+                  "2d8",
+                  "x3",
+                  "—",
+                  "12kg",
+                  "Corte"
+                ],
+                [
+                  "<b>Ataque à Distância</b>"
+                ],
+                [
+                  "Rede",
+                  "T$ 20",
+                  "—",
+                  "—",
+                  "Curto",
+                  "3kg",
+                  "—"
+                ]
               ]
             }
           },
@@ -1334,12 +1804,46 @@
             "name": "Armas de Fogo",
             "description": "Tabela 3-3: Armas",
             "table": {
-              "header": ["Nome", "Preço", "Dano", "Crítico", "Alcance", "Peso", "Tipo"],
+              "header": [
+                "Nome",
+                "Preço",
+                "Dano",
+                "Crítico",
+                "Alcance",
+                "Peso",
+                "Tipo"
+              ],
               "rows": [
-                ["<b>Ataque à Distância</b>"],
-                ["Mosquete", "T$ 500", "2d8", "19/x3", "Médio", "4kg", "Perfuração"],
-                ["Pistola", "T$ 250", "2d6", "19/x3", "Curto", "1kg", "Perfuração"],
-                ["Munição (20)", "T$ 20", "—", "—", "—", "0,5kg", "—"]
+                [
+                  "<b>Ataque à Distância</b>"
+                ],
+                [
+                  "Mosquete",
+                  "T$ 500",
+                  "2d8",
+                  "19/x3",
+                  "Médio",
+                  "4kg",
+                  "Perfuração"
+                ],
+                [
+                  "Pistola",
+                  "T$ 250",
+                  "2d6",
+                  "19/x3",
+                  "Curto",
+                  "1kg",
+                  "Perfuração"
+                ],
+                [
+                  "Munição (20)",
+                  "T$ 20",
+                  "—",
+                  "—",
+                  "—",
+                  "0,5kg",
+                  "—"
+                ]
               ]
             }
           },
@@ -1348,23 +1852,107 @@
             "name": "Armaduras & Escudos",
             "description": "Tabela 3-4: Armaduras & Escudos",
             "table": {
-              "header": ["Nome", "Preço", "Bônus na Defesa", "Penalidade de Armadura ", "Peso"],
+              "header": [
+                "Nome",
+                "Preço",
+                "Bônus na Defesa",
+                "Penalidade de Armadura ",
+                "Peso"
+              ],
               "rows": [
-                ["<b>Armaduras Leves</b>"],
-                ["Armadura acolchoada", "T$ 5", "+1", "0", "5kg"],
-                ["Armadura de couro", "T$ 20", "+2", "0", "7kg"],
-                ["Couro batido", "T$ 35", "+3", "–1", "10kg"],
-                ["Gibão de peles", "T$ 25", "+4", "–3", "12kg"],
-                ["Couraça", "T$ 500", "+5", "–4", "15kg"],
-                ["<b>Armaduras Pesadas</b>"],
-                ["Brunea", "T$ 50", "+5", "–2", "15kg"],
-                ["Cota de malha", "T$ 150", "+6", "–2", "20kg"],
-                ["Loriga segmentada", "T$ 250", "+7", "–3", "17kg"],
-                ["Meia armadura", "T$ 600", "+8", "–4", "22kg"],
-                ["Armadura completa", "T$ 3.000", "+10", "–5", "25kg"],
-                ["<b>Escudos"],
-                ["Escudo leve", "T$ 5", "+1", "–1", "3kg"],
-                ["Escudo pesado", "T$ 15", "+2", "–2", "7kg"]
+                [
+                  "<b>Armaduras Leves</b>"
+                ],
+                [
+                  "Armadura acolchoada",
+                  "T$ 5",
+                  "+1",
+                  "0",
+                  "5kg"
+                ],
+                [
+                  "Armadura de couro",
+                  "T$ 20",
+                  "+2",
+                  "0",
+                  "7kg"
+                ],
+                [
+                  "Couro batido",
+                  "T$ 35",
+                  "+3",
+                  "–1",
+                  "10kg"
+                ],
+                [
+                  "Gibão de peles",
+                  "T$ 25",
+                  "+4",
+                  "–3",
+                  "12kg"
+                ],
+                [
+                  "Couraça",
+                  "T$ 500",
+                  "+5",
+                  "–4",
+                  "15kg"
+                ],
+                [
+                  "<b>Armaduras Pesadas</b>"
+                ],
+                [
+                  "Brunea",
+                  "T$ 50",
+                  "+5",
+                  "–2",
+                  "15kg"
+                ],
+                [
+                  "Cota de malha",
+                  "T$ 150",
+                  "+6",
+                  "–2",
+                  "20kg"
+                ],
+                [
+                  "Loriga segmentada",
+                  "T$ 250",
+                  "+7",
+                  "–3",
+                  "17kg"
+                ],
+                [
+                  "Meia armadura",
+                  "T$ 600",
+                  "+8",
+                  "–4",
+                  "22kg"
+                ],
+                [
+                  "Armadura completa",
+                  "T$ 3.000",
+                  "+10",
+                  "–5",
+                  "25kg"
+                ],
+                [
+                  "<b>Escudos"
+                ],
+                [
+                  "Escudo leve",
+                  "T$ 5",
+                  "+1",
+                  "–1",
+                  "3kg"
+                ],
+                [
+                  "Escudo pesado",
+                  "T$ 15",
+                  "+2",
+                  "–2",
+                  "7kg"
+                ]
               ]
             }
           },
@@ -1373,33 +1961,137 @@
             "name": "Itens Gerais",
             "description": "Tabela 3-5: Itens & Serviços",
             "table": {
-              "header": ["Item", "Preço", "Peso"],
+              "header": [
+                "Item",
+                "Preço",
+                "Peso"
+              ],
               "rows": [
-                ["Água benta", "T$ 10", "0,5kg"],
-                ["Algemas", "T$ 15", "1kg"],
-                ["Algibeira", "T$ 1", "250g"],
-                ["Barraca", "T$ 10", "10kg"],
-                ["Corda (10m)", "T$ 1", "5kg"],
-                ["Espelho de metal", "T$ 10", "250g"],
-                ["Instrumento musical", "T$ 50", "1,5kg"],
-                ["Kit de ofício", "T$ 30", "4kg"],
-                ["Kit de disfarces", "T$ 50", "4kg"],
-                ["Kit de ladrão", "T$ 30", "0,5kg"],
-                ["Kit de medicamentos", "T$ 50", "2kg"],
-                ["Lampião", "T$ 7", "1kg"],
-                ["Manopla", "T$ 5", "1kg"],
-                ["Mochila", "T$ 2", "1kg"],
-                ["Odre", "T$ 1", "2kg"],
-                ["Pé de cabra", "T$ 2", "2,5kg"],
-                ["Pederneira", "T$ 1", "—"],
-                ["Pena", "T$ 0,1", "—"],
-                ["Pergaminho (folha)", "T$ 0,1", "—"],
-                ["Ração de viagem (por dia)", "T$ 0,5", "0,5kg"],
-                ["Saco de dormir", "T$ 1", "2,5kg"],
-                ["Saco de lona", "T$ 0,1", "250g"],
-                ["Tinta (frasco)", "T$ 8", "—"],
-                ["Tocha", "T$ 0,1", "0,5kg"],
-                ["Vara de madeira (3m)", "T$ 0,2", "4kg"]
+                [
+                  "Água benta",
+                  "T$ 10",
+                  "0,5kg"
+                ],
+                [
+                  "Algemas",
+                  "T$ 15",
+                  "1kg"
+                ],
+                [
+                  "Algibeira",
+                  "T$ 1",
+                  "250g"
+                ],
+                [
+                  "Barraca",
+                  "T$ 10",
+                  "10kg"
+                ],
+                [
+                  "Corda (10m)",
+                  "T$ 1",
+                  "5kg"
+                ],
+                [
+                  "Espelho de metal",
+                  "T$ 10",
+                  "250g"
+                ],
+                [
+                  "Instrumento musical",
+                  "T$ 50",
+                  "1,5kg"
+                ],
+                [
+                  "Kit de ofício",
+                  "T$ 30",
+                  "4kg"
+                ],
+                [
+                  "Kit de disfarces",
+                  "T$ 50",
+                  "4kg"
+                ],
+                [
+                  "Kit de ladrão",
+                  "T$ 30",
+                  "0,5kg"
+                ],
+                [
+                  "Kit de medicamentos",
+                  "T$ 50",
+                  "2kg"
+                ],
+                [
+                  "Lampião",
+                  "T$ 7",
+                  "1kg"
+                ],
+                [
+                  "Manopla",
+                  "T$ 5",
+                  "1kg"
+                ],
+                [
+                  "Mochila",
+                  "T$ 2",
+                  "1kg"
+                ],
+                [
+                  "Odre",
+                  "T$ 1",
+                  "2kg"
+                ],
+                [
+                  "Pé de cabra",
+                  "T$ 2",
+                  "2,5kg"
+                ],
+                [
+                  "Pederneira",
+                  "T$ 1",
+                  "—"
+                ],
+                [
+                  "Pena",
+                  "T$ 0,1",
+                  "—"
+                ],
+                [
+                  "Pergaminho (folha)",
+                  "T$ 0,1",
+                  "—"
+                ],
+                [
+                  "Ração de viagem (por dia)",
+                  "T$ 0,5",
+                  "0,5kg"
+                ],
+                [
+                  "Saco de dormir",
+                  "T$ 1",
+                  "2,5kg"
+                ],
+                [
+                  "Saco de lona",
+                  "T$ 0,1",
+                  "250g"
+                ],
+                [
+                  "Tinta (frasco)",
+                  "T$ 8",
+                  "—"
+                ],
+                [
+                  "Tocha",
+                  "T$ 0,1",
+                  "0,5kg"
+                ],
+                [
+                  "Vara de madeira (3m)",
+                  "T$ 0,2",
+                  "4kg"
+                ]
               ]
             }
           },
@@ -1408,13 +2100,37 @@
             "name": "Alquimia",
             "description": "Tabela 3-5: Itens & Serviços",
             "table": {
-              "header": ["Item", "Preço", "Peso"],
+              "header": [
+                "Item",
+                "Preço",
+                "Peso"
+              ],
               "rows": [
-                ["Ácido", "T$ 10", "0,5kg"],
-                ["Bálsamo restaurador", "T$ 10", "0,5kg"],
-                ["Bomba", "T$ 50", "0,5kg"],
-                ["Essência de mana", "T$ 50", "0,1kg"],
-                ["Fogo alquímico", "T$ 10", "0,5kg"]
+                [
+                  "Ácido",
+                  "T$ 10",
+                  "0,5kg"
+                ],
+                [
+                  "Bálsamo restaurador",
+                  "T$ 10",
+                  "0,5kg"
+                ],
+                [
+                  "Bomba",
+                  "T$ 50",
+                  "0,5kg"
+                ],
+                [
+                  "Essência de mana",
+                  "T$ 50",
+                  "0,1kg"
+                ],
+                [
+                  "Fogo alquímico",
+                  "T$ 10",
+                  "0,5kg"
+                ]
               ]
             }
           },
@@ -1423,15 +2139,47 @@
             "name": "Alimentação",
             "description": "Tabela 3-5: Itens & Serviços",
             "table": {
-              "header": ["Item", "Preço", "Peso"],
+              "header": [
+                "Item",
+                "Preço",
+                "Peso"
+              ],
               "rows": [
-                ["Batata valkariana", "T$ 2", "0,5kg"],
-                ["Bebida comum", "T$ 0,1", "0,5kg"],
-                ["Gorad quente", "T$ 18", "0,5kg"],
-                ["Macarrão de Yuvalin", "T$ 6", "0,5kg"],
-                ["Prato do aventureiro", "T$ 1", "0,5kg"],
-                ["Refeição comum", "T$ 0,3", "0,5kg"],
-                ["Sopa de peixe", "T$ 1", "0,5kg"]
+                [
+                  "Batata valkariana",
+                  "T$ 2",
+                  "0,5kg"
+                ],
+                [
+                  "Bebida comum",
+                  "T$ 0,1",
+                  "0,5kg"
+                ],
+                [
+                  "Gorad quente",
+                  "T$ 18",
+                  "0,5kg"
+                ],
+                [
+                  "Macarrão de Yuvalin",
+                  "T$ 6",
+                  "0,5kg"
+                ],
+                [
+                  "Prato do aventureiro",
+                  "T$ 1",
+                  "0,5kg"
+                ],
+                [
+                  "Refeição comum",
+                  "T$ 0,3",
+                  "0,5kg"
+                ],
+                [
+                  "Sopa de peixe",
+                  "T$ 1",
+                  "0,5kg"
+                ]
               ]
             }
           },
@@ -1440,16 +2188,52 @@
             "name": "Animais",
             "description": "Tabela 3-5: Itens & Serviços",
             "table": {
-              "header": ["Item", "Preço", "Peso"],
+              "header": [
+                "Item",
+                "Preço",
+                "Peso"
+              ],
               "rows": [
-                ["Cão de guarda", "T$ 50", "—"],
-                ["Cavalo", "T$ 75", "—"],
-                ["Cavalo de guerra", "T$ 400", "—"],
-                ["Estábulo (por dia)", "T$ 0,1", "—"],
-                ["Pônei", "T$ 5", "—"],
-                ["Pônei de guerra", "T$ 30", "—"],
-                ["Sela", "T$ 20", "—"],
-                ["Trobo", "T$ 60", "—"]
+                [
+                  "Cão de guarda",
+                  "T$ 50",
+                  "—"
+                ],
+                [
+                  "Cavalo",
+                  "T$ 75",
+                  "—"
+                ],
+                [
+                  "Cavalo de guerra",
+                  "T$ 400",
+                  "—"
+                ],
+                [
+                  "Estábulo (por dia)",
+                  "T$ 0,1",
+                  "—"
+                ],
+                [
+                  "Pônei",
+                  "T$ 5",
+                  "—"
+                ],
+                [
+                  "Pônei de guerra",
+                  "T$ 30",
+                  "—"
+                ],
+                [
+                  "Sela",
+                  "T$ 20",
+                  "—"
+                ],
+                [
+                  "Trobo",
+                  "T$ 60",
+                  "—"
+                ]
               ]
             }
           },
@@ -1458,13 +2242,37 @@
             "name": "Veículos",
             "description": "Tabela 3-5: Itens & Serviços",
             "table": {
-              "header": ["Item", "Preço", "Peso"],
+              "header": [
+                "Item",
+                "Preço",
+                "Peso"
+              ],
               "rows": [
-                ["Balão goblin", "T$ 200", "—"],
-                ["Carroça", "$ 30", "—"],
-                ["Carruagem", "T$ 100", "—"],
-                ["Canoa", "T$ 50", "—"],
-                ["Veleiro", "T$ 10.000", "—"]
+                [
+                  "Balão goblin",
+                  "T$ 200",
+                  "—"
+                ],
+                [
+                  "Carroça",
+                  "$ 30",
+                  "—"
+                ],
+                [
+                  "Carruagem",
+                  "T$ 100",
+                  "—"
+                ],
+                [
+                  "Canoa",
+                  "T$ 50",
+                  "—"
+                ],
+                [
+                  "Veleiro",
+                  "T$ 10.000",
+                  "—"
+                ]
               ]
             }
           },
@@ -1473,12 +2281,32 @@
             "name": "Vestuário",
             "description": "Tabela 3-5: Itens & Serviços",
             "table": {
-              "header": ["Item", "Preço", "Peso"],
+              "header": [
+                "Item",
+                "Preço",
+                "Peso"
+              ],
               "rows": [
-                ["Traje camuflado", "T$ 20", "2kg"],
-                ["Traje da corte", "T$ 50", "2kg"],
-                ["Traje de plebeu", "T$ 0,5", "1kg"],
-                ["Traje de viajante", "T$ 5", "2kg"]
+                [
+                  "Traje camuflado",
+                  "T$ 20",
+                  "2kg"
+                ],
+                [
+                  "Traje da corte",
+                  "T$ 50",
+                  "2kg"
+                ],
+                [
+                  "Traje de plebeu",
+                  "T$ 0,5",
+                  "1kg"
+                ],
+                [
+                  "Traje de viajante",
+                  "T$ 5",
+                  "2kg"
+                ]
               ]
             }
           },
@@ -1487,12 +2315,30 @@
             "name": "Hospedagem",
             "description": "Tabela 3-5: Itens & Serviços",
             "table": {
-              "header": ["Item", "Preço", "Peso"],
+              "header": [
+                "Item",
+                "Preço",
+                "Peso"
+              ],
               "rows": [
-                ["<b>Estadia (por noite)</b>"],
-                ["comum", "T$ 0,5", "—"],
-                ["confortável", "T$ 4", "—"],
-                ["luxuosa", "T$ 20", "—"]
+                [
+                  "<b>Estadia (por noite)</b>"
+                ],
+                [
+                  "comum",
+                  "T$ 0,5",
+                  "—"
+                ],
+                [
+                  "confortável",
+                  "T$ 4",
+                  "—"
+                ],
+                [
+                  "luxuosa",
+                  "T$ 20",
+                  "—"
+                ]
               ]
             }
           },
@@ -1501,18 +2347,56 @@
             "name": "Serviços",
             "description": "Tabela 3-5: Itens & Serviços",
             "table": {
-              "header": ["Item", "Preço", "Peso"],
+              "header": [
+                "Item",
+                "Preço",
+                "Peso"
+              ],
               "rows": [
-                ["<b>Condução</b>"],
-                ["terrestre", "T$ 1 por km", "—"],
-                ["marítima", "T$ 0,1 por km", "—"],
-                ["aérea", "T$ 10 por km", "—"],
-                ["<b>Serviços</b>"],
-                ["Mensageiro", "T$ 2 por km", "—"],
-                ["<b>Magia</b>"],
-                ["1º círculo", "T$ 10", "—"],
-                ["2º círculo", "T$ 90", "—"],
-                ["3º círculo", "T$ 360", "—"]
+                [
+                  "<b>Condução</b>"
+                ],
+                [
+                  "terrestre",
+                  "T$ 1 por km",
+                  "—"
+                ],
+                [
+                  "marítima",
+                  "T$ 0,1 por km",
+                  "—"
+                ],
+                [
+                  "aérea",
+                  "T$ 10 por km",
+                  "—"
+                ],
+                [
+                  "<b>Serviços</b>"
+                ],
+                [
+                  "Mensageiro",
+                  "T$ 2 por km",
+                  "—"
+                ],
+                [
+                  "<b>Magia</b>"
+                ],
+                [
+                  "1º círculo",
+                  "T$ 10",
+                  "—"
+                ],
+                [
+                  "2º círculo",
+                  "T$ 90",
+                  "—"
+                ],
+                [
+                  "3º círculo",
+                  "T$ 360",
+                  "—"
+                ]
               ]
             }
           },
@@ -1521,14 +2405,42 @@
             "name": "Custo de Modificações",
             "description": "Tabela 3-6: Custo de Modificações",
             "table": {
-              "header": ["Número de Modificações", "Aumento no Custo", "Aumento na CD"],
+              "header": [
+                "Número de Modificações",
+                "Aumento no Custo",
+                "Aumento na CD"
+              ],
               "rows": [
-                ["1", "+ T$ 100", "+5"],
-                ["2", "+ T$ 1.000", "+5"],
-                ["3", "+ T$ 3.000", "+10"],
-                ["4", "+ T$ 6.000", "+10"],
-                ["5", "+ T$ 10.000", "+15"],
-                ["6", "+ T$ 30.000", "+20"]
+                [
+                  "1",
+                  "+ T$ 100",
+                  "+5"
+                ],
+                [
+                  "2",
+                  "+ T$ 1.000",
+                  "+5"
+                ],
+                [
+                  "3",
+                  "+ T$ 3.000",
+                  "+10"
+                ],
+                [
+                  "4",
+                  "+ T$ 6.000",
+                  "+10"
+                ],
+                [
+                  "5",
+                  "+ T$ 10.000",
+                  "+15"
+                ],
+                [
+                  "6",
+                  "+ T$ 30.000",
+                  "+20"
+                ]
               ]
             }
           },
@@ -1537,34 +2449,112 @@
             "name": "Modificações",
             "description": "Tabela 3-7: Modificações",
             "table": {
-              "header": ["Modificação", "Efeito"],
+              "header": [
+                "Modificação",
+                "Efeito"
+              ],
               "rows": [
-                ["<b>Modificações para armas</b>"],
-                ["Certeira", "+1 nos testes de ataque"],
-                ["Pungente", "+2 nos testes de ataque"],
-                ["Cruel", "+1 nas rolagens de dano"],
-                ["Atroz", "+2 nas rolagens de dano"],
-                ["Equilibrada", "+2 em testes de manobras"],
-                ["Precisa", "+1 na margem de ameaça"],
-                ["Maciça", "+1 no multiplicador de crítico"],
-                ["Mira telescópica", "Aumenta alcance da arma"],
-                ["Injeção alquímica", "Gera efeito de item alquímico"],
-                ["Harmonizada", "Custo de habilidades de ataque diminui em –1 PM"],
-                ["<b>Modificações para armaduras e escudos</b>"],
-                ["Ajustada", "–1 na penalidade de armadura"],
-                ["Sob medida", "–2 na penalidade de armadura"],
-                ["Reforçada", "+1 na Defesa, +1 na penalidade de armadura"],
-                ["Selada", "+1 nos testes de resistência"],
-                ["Delicada", "Aplica 1 ponto de Des na Defesa"],
-                ["Polida", "+2 na Defesa na primeira rodada"],
-                ["Espinhosa (armadura)", "Causa dano com agarrar"],
-                ["Espinhoso (escudo)", "Aumenta dano do escudo"],
-                ["<b>Outras modificações</b>"],
-                ["Aprimorado", "+2 em testes de perícia"],
-                ["Banhado a ouro", "+2 em Diplomacia"],
-                ["Cravejado de gemas", "+2 em Enganação"],
-                ["Macabro", "+2 em Intimidação, –2 em Diplomacia"],
-                ["Material especial", "Varia"]
+                [
+                  "<b>Modificações para armas</b>"
+                ],
+                [
+                  "Certeira",
+                  "+1 nos testes de ataque"
+                ],
+                [
+                  "Pungente",
+                  "+2 nos testes de ataque"
+                ],
+                [
+                  "Cruel",
+                  "+1 nas rolagens de dano"
+                ],
+                [
+                  "Atroz",
+                  "+2 nas rolagens de dano"
+                ],
+                [
+                  "Equilibrada",
+                  "+2 em testes de manobras"
+                ],
+                [
+                  "Precisa",
+                  "+1 na margem de ameaça"
+                ],
+                [
+                  "Maciça",
+                  "+1 no multiplicador de crítico"
+                ],
+                [
+                  "Mira telescópica",
+                  "Aumenta alcance da arma"
+                ],
+                [
+                  "Injeção alquímica",
+                  "Gera efeito de item alquímico"
+                ],
+                [
+                  "Harmonizada",
+                  "Custo de habilidades de ataque diminui em –1 PM"
+                ],
+                [
+                  "<b>Modificações para armaduras e escudos</b>"
+                ],
+                [
+                  "Ajustada",
+                  "–1 na penalidade de armadura"
+                ],
+                [
+                  "Sob medida",
+                  "–2 na penalidade de armadura"
+                ],
+                [
+                  "Reforçada",
+                  "+1 na Defesa, +1 na penalidade de armadura"
+                ],
+                [
+                  "Selada",
+                  "+1 nos testes de resistência"
+                ],
+                [
+                  "Delicada",
+                  "Aplica 1 ponto de Des na Defesa"
+                ],
+                [
+                  "Polida",
+                  "+2 na Defesa na primeira rodada"
+                ],
+                [
+                  "Espinhosa (armadura)",
+                  "Causa dano com agarrar"
+                ],
+                [
+                  "Espinhoso (escudo)",
+                  "Aumenta dano do escudo"
+                ],
+                [
+                  "<b>Outras modificações</b>"
+                ],
+                [
+                  "Aprimorado",
+                  "+2 em testes de perícia"
+                ],
+                [
+                  "Banhado a ouro",
+                  "+2 em Diplomacia"
+                ],
+                [
+                  "Cravejado de gemas",
+                  "+2 em Enganação"
+                ],
+                [
+                  "Macabro",
+                  "+2 em Intimidação, –2 em Diplomacia"
+                ],
+                [
+                  "Material especial",
+                  "Varia"
+                ]
               ]
             }
           },
@@ -1573,12 +2563,52 @@
             "name": "Custo Adicional de Materiais Especiais",
             "description": "Tabela 3-8: Custo Adicional de Materiais Especiais",
             "table": {
-              "header": ["Item", "AçoRubi", "Adamante", "Gelo Eterno", "Madeira Tollon", "Matéria Vermelha", "Mitral"],
+              "header": [
+                "Item",
+                "AçoRubi",
+                "Adamante",
+                "Gelo Eterno",
+                "Madeira Tollon",
+                "Matéria Vermelha",
+                "Mitral"
+              ],
               "rows": [
-                ["Arma", "+ T$ 2.000", "+ T$ 1.500", "+ T$ 1.000", "+ T$ 1000", "+ T$ 1.000", "+ T$ 1.000"],
-                ["Armadura leve", "+T$ 1.000", "+ T$ 1.500", "+ T$ 500", "—", "+ T$ 1.500", "+ T$ 1.000"],
-                ["Armadura pesada", "+ T$ 2.000", "+ T$ 7.000", "+ T$ 1.000", "—", "+ T$ 7.000", "+ T$ 4.000"],
-                ["Escudo", "+ T$ 1.000", "+ T$ 1.500", "+ T$ 500", "+ T$ 1.000", "+ T$ 1.500", "+ T$ 1.000"]
+                [
+                  "Arma",
+                  "+ T$ 2.000",
+                  "+ T$ 1.500",
+                  "+ T$ 1.000",
+                  "+ T$ 1000",
+                  "+ T$ 1.000",
+                  "+ T$ 1.000"
+                ],
+                [
+                  "Armadura leve",
+                  "+T$ 1.000",
+                  "+ T$ 1.500",
+                  "+ T$ 500",
+                  "—",
+                  "+ T$ 1.500",
+                  "+ T$ 1.000"
+                ],
+                [
+                  "Armadura pesada",
+                  "+ T$ 2.000",
+                  "+ T$ 7.000",
+                  "+ T$ 1.000",
+                  "—",
+                  "+ T$ 7.000",
+                  "+ T$ 4.000"
+                ],
+                [
+                  "Escudo",
+                  "+ T$ 1.000",
+                  "+ T$ 1.500",
+                  "+ T$ 500",
+                  "+ T$ 1.000",
+                  "+ T$ 1.500",
+                  "+ T$ 1.000"
+                ]
               ]
             }
           }
