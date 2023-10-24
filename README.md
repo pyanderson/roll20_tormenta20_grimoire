@@ -49,7 +49,7 @@ Visite a página da loja de extensões do seu navegador:
 - [ ] Poderes e Habilidades de classes
 - [ ] Origens
 - [ ] Perícias
-- [ ] Poderes de Combate
+- [x] Poderes de Combate
 - [ ] Poderes de Destino
 - [x] Poderes de Magia
 - [x] Poderes Concedidos
