@@ -50,7 +50,7 @@ Visite a página da loja de extensões do seu navegador:
 - [ ] Origens
 - [ ] Perícias
 - [x] Poderes de Combate
-- [ ] Poderes de Destino
+- [x] Poderes de Destino
 - [x] Poderes de Magia
 - [x] Poderes Concedidos
 - [x] Poderes da Tormenta
