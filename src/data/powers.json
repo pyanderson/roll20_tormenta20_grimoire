@@ -1712,7 +1712,7 @@
     },
     "Aura Sagrada": {
       "name": "Aura Sagrada",
-      "No 3º nível, você pode gastar 1 PM para gerar uma aura com 9m de raio a partir de você e duração sustentada. A aura emite uma luz dourada e agradável. Além disso, você e os aliados dentro da aura somam seu Carisma nos testes de resistência.\n"
+      "description": "No 3º nível, você pode gastar 1 PM para gerar uma aura com 9m de raio a partir de você e duração sustentada. A aura emite uma luz dourada e agradável. Além disso, você e os aliados dentro da aura somam seu Carisma nos testes de resistência.\n"
     },
     "Bênção da Justiça": {
       "name": "Bênção da Justiça",
