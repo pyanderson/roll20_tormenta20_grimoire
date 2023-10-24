@@ -66,8 +66,8 @@ Visite a página da loja de extensões do seu navegador:
   - [ ] Trog
 - [ ] Poderes e Habilidades de classes
   - [x] Arcanista
-  - [ ] Bárbaro
-  - [ ] Bardo
+  - [x] Bárbaro
+  - [x] Bardo
   - [ ] Bucaneiro
   - [ ] Caçador
   - [ ] Cavaleiro
