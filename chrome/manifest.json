@@ -18,7 +18,7 @@
         "element-factory.js",
         "powers.js",
         "spells.js",
-        "character-sheet.js.",
+        "character-sheet.js",
         "index.js"
       ],
       "run_at": "document_end"
