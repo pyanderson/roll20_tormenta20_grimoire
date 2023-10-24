@@ -5,8 +5,23 @@
     "items": [
       {
         "type": "item",
-        "name": "Passo-a-passo",
-        "description": "O combate acontece em uma série de rodadas. Uma rodada é o tempo necessário para que todos os personagens no combate tenham seu turno. Um turno é o tempo que cada personagem tem para agir.\n\nUm combate obedece aos seguintes passos.\n\nPasso 1. Cada personagem faz um teste de Iniciativa.\n\nPasso 2. O mestre diz quais personagens estão cientes de seus inimigos. Aqueles que não percebem a presença de inimigos começam o combate surpreendidos. Um personagem surpreendido fica desprevenido e não age na primeira rodada.\n\nPasso 3. Todos os personagens têm seu turno na ordem da Iniciativa (exceto aqueles surpreendidos, que não agem na primeira rodada).\n\nPasso 4. Quando todos os personagens tiverem seu turno, a rodada termina. Uma outra rodada se inicia, com todos os personagens agindo novamente, na mesma ordem. Mesmo aqueles que estavam surpreendidos agora podem agir.\n"
+        "name": "Teste de Ataque",
+        "description": "Este é um tipo específico de teste de perícia, para acertar um alvo com um ataque. Normalmente é um teste de Luta, para um ataque corpo a corpo, ou de Pontaria, para um ataque à distância. A dificuldade do teste é a Defesa do alvo. Se o resultado é igual ou maior que a Defesa do alvo, você acerta e causa dano (veja Dano, a seguir). Um teste de ataque pode sofrer modificadores por habilidades, arma e condições."
+      },
+      {
+        "type": "item",
+        "name": "Dano",
+        "description": "Quando você acerta um ataque, causa dano. Esse dano reduz os pontos de vida do inimigo (veja Ferimentos & Morte, a seguir). Você rola dados para descobrir quanto dano causou. O tipo de dado depende da arma ou ataque utilizado — por exemplo, 1d4 para uma adaga ou 1d8 para uma espada longa. O dano de cada arma é descrito no Capítulo 3: Equipamento. Para ataques corpo a corpo ou com armas de arremesso, você soma sua Força na rolagem de dano. Dano com Arma Corpo a Corpo ou de Arremesso = Dano da Arma + Força do Atacante Dano com Arma de Disparo = Dano da Arma Assim, um personagem com Força 3 usando uma espada longa causa 1d8+3 pontos de dano (1d8 da espada longa mais 3 da Força)."
+      },
+      {
+        "type": "item",
+        "name": "Tipos de Dano",
+        "description": "Cada arma ou efeito que causa dano possui um tipo, conforme a lista a seguir. Por si só, o tipo de dano não possui efeito em regras. Contudo, indica a relação do dano com outros efeitos. Por exemplo, uma criatura com redução de corte 5 reduz todo dano de corte que sofre em 5.\n\n• Ácido. Certos monstros e perigos naturais, além de itens alquímicos, causam dano deste tipo. Ácido é ligado ao elemento terra.\n\n• Corte. Armas afiadas, como espadas, machados e as garras de um monstro, causam dano de corte.\n\n• Eletricidade. Algumas magias e perigos naturais, como um relâmpago, causam dano deste tipo. Eletricidade é ligada ao elemento ar.\n\n• Essência. Energia mágica pura, canalizada por magias como Seta Infalível de Talude.\n\n• Fogo. Causado por calor e chamas naturais e mágicas. Fogo é ligado ao elemento... fogo!\n\n• Frio. Algumas magias, além de clima severo, causam dano de frio. Ligado ao elemento água.\n\n• Impacto. Causado por armas de contusão, como clavas e maças, além de ondas de choque, explosões, ataques sônicos e quedas.\n\n• Luz. Magias e outros efeitos provenientes de divindades bondosas causam dano de luz.\n\n• Perfuração. Armas pontudas, como lanças, e mordidas de monstros causam dano de perfuração.\n\n• Psíquico. Ataques mentais e magias que afetam a mente da vítima causam dano deste tipo.\n\n• Trevas. Causado por efeitos de necromancia e ligados a divindades malignas."
+      },
+      {
+        "type": "item",
+        "name": "Acertos Críticos",
+        "description": "Um acerto crítico é um ataque especialmente certeiro, que atinge pontos vitais ou vulneráveis. A tabela de armas do Capítulo 3: Equipamento possui uma coluna “Crítico”. Cada arma tem uma margem de ameaça (que pode ser 18, 19 ou 20) e um multiplicador (que pode ser x2, x3 ou x4). Quando nenhuma margem aparece, será 20. Quando nenhum multiplicador aparece, será x2. Você faz um acerto crítico quando acerta um ataque rolando um valor igual ou maior que a margem de ameaça da arma. Neste caso, multiplica os dados de dano do ataque (incluindo quaisquer aumentos por passos) pelo multiplicador da arma. Bônus numéricos de dano, assim como dados extras (como pela habilidade Ataque Furtivo) não são multiplicados. Certas criaturas são imunes a acertos críticos. Um alvo imune a acertos críticos ainda sofre o dano de um ataque normal."
       },
       {
         "type": "folder",
@@ -14,8 +29,13 @@
         "items": [
           {
             "type": "item",
+            "name": "Iniciativa",
+            "description": "A cada rodada, todo personagem tem um turno — sua vez de agir. A Iniciativa determina a ordem dos turnos dentro da rodada."
+          },
+          {
+            "type": "item",
             "name": "Teste de Iniciativa",
-            "description": "No início do combate, cada jogador faz um teste de Iniciativa para seu personagem. O mestre faz um único teste para os inimigos (caso haja inimigos com bônus de Iniciativa diferentes, o mestre usa o menor valor). Aqueles com os resultados mais altos agem primeiro.\n\nNo caso de empates, o personagem com o maior modificador de perícia age primeiro. Se o empate persistir, eles fazem um novo teste de Iniciativa entre si, para decidir quem age primeiro.\n\nNão é preciso fazer novos testes de Iniciativa a cada rodada; a ordem se mantém igual durante todo o combate.\n"
+            "description": "No início do combate, cada jogador faz um teste de Iniciativa para seu personagem. O mestre faz um único teste para os inimigos (caso haja inimigos com bônus de Iniciativa diferentes, o mestre usa o menor valor). Aqueles com os resultados mais altos agem primeiro. No caso de empates, o personagem com o maior modificador de perícia age primeiro. Se o empate persistir, eles fazem um novo teste de Iniciativa entre si, para decidir quem age primeiro. Não é preciso fazer novos testes de Iniciativa a cada rodada; a ordem se mantém durante todo o combate."
           },
           {
             "type": "item",
@@ -30,9 +50,14 @@
           {
             "type": "item",
             "name": "Percebendo os Inimigos",
-            "description": "O mestre diz quem está ciente de seus inimigos no começo do combate. Em geral, ele diz aos jogadores para fazerem testes de Percepção contra uma dificuldade ou opostos pelo teste de Furtividade dos inimigos (caso estes estejam sendo cautelosos).\n\nUm personagem que nunca fica surpreendido (por exemplo, se tiver a habilidade Esquiva Sobrenatural) pode rolar a Iniciativa e agir mesmo que falhe em seu teste de Percepção; de alguma maneira ele já esperava o perigo, ou reage com reflexos impossivelmente rápidos.\n"
+            "description": "O mestre diz quem está ciente de seus inimigos no começo do combate. Em geral, ele diz aos jogadores para fazerem testes de Percepção contra uma dificuldade ou opostos pelo teste de Furtividade dos inimigos (caso estes estejam sendo cautelosos). Um personagem que nunca fica surpreendido (por exemplo, se tiver a habilidade Esquiva Sobrenatural) pode rolar a Iniciativa e agir mesmo que falhe em seu teste de Percepção; de alguma maneira ele já esperava o perigo, ou reage com reflexos impossivelmente rápidos."
           }
         ]
+      },
+      {
+        "type": "item",
+        "name": "A Rodada de Combate",
+        "description": "Uma rodada representa cerca de seis segundos no mundo de jogo. Durante a rodada, cada jogador (incluindo o mestre) tem o seu turno, a sua vez de realizar ações. Pense em “rodada” como se fosse uma medida de tempo, como “mês”: o mês representa os dias marcados no calendário, mas também determina o tempo entre um dia e o mesmo dia no mês seguinte. Assim, a rodada começa no turno do primeiro personagem (aquele que teve Iniciativa mais alta) e termina após o turno do último (aquele com Iniciativa mais baixa). Mas a rodada também é o tempo entre uma Iniciativa e a mesma Iniciativa na rodada seguinte. Efeitos que duram certo número de rodadas terminam imediatamente antes do mesmo resultado de Iniciativa quando se iniciaram, após o número apropriado de rodadas."
       },
       {
         "type": "folder",
@@ -40,8 +65,8 @@
         "items": [
           {
             "type": "item",
-            "name": "Tipos de Ações - Descrição",
-            "description": "No seu turno, você pode fazer uma ação padrão e uma ação de movimento, em qualquer ordem.\n\nVocê pode trocar sua ação padrão por uma ação de movimento, para fazer duas ações de movimento, mas não pode fazer o inverso.\n\nVocê também pode abrir mão das duas ações (tanto a padrão quanto a de movimento) para fazer uma ação completa.\n\nPortanto, em um turno você pode fazer:\n\n• Uma ação padrão e uma ação de movimento;\n\n• Ou duas ações de movimento;\n\n• Ou uma ação completa.\n\nVocê também pode executar qualquer quantidade de ações livres e reações."
+            "name": "Tipos de Ações",
+            "description": "No seu turno, você pode fazer uma ação padrão e uma ação de movimento, em qualquer ordem. Você pode trocar sua ação padrão por uma ação de movimento, para fazer duas ações de movimento, mas não pode fazer o inverso. Você também pode abrir mão das duas ações (tanto a padrão quanto a de movimento) para fazer uma ação completa. Portanto, em um turno você pode fazer:\n\n• Uma ação padrão e uma ação de movimento;\n\n• Ou duas ações de movimento;\n\n• Ou uma ação completa. Você também pode executar qualquer quantidade de ações livres e reações."
           },
           {
             "type": "item",
@@ -76,44 +101,13 @@
         "items": [
           {
             "type": "item",
-            "name": "Atacar",
-            "description": "Você faz um ataque com uma arma corpo a corpo ou à distância.\n\nCom uma arma corpo a corpo, você pode atacar qualquer inimigo dentro de seu alcance natural (1,5m para criaturas Pequenas e Médias ou um inimigo adjacente no mapa). Personagens maiores, ou usando certas armas, podem atacar mais longe. Você pode substituir um ataque corpo a corpo por uma manobra de combate (veja abaixo).\n\nCom uma arma de ataque à distância, você pode atacar qualquer inimigo que consiga ver e que esteja no alcance da arma (ou até o dobro do alcance, sofrendo uma penalidade de –5).\n\n• Atirando em Combate Corpo a Corpo. Quando faz um ataque à distância contra uma criatura em combate corpo a corpo, você sofre –5 no teste de ataque. Uma criatura está em combate corpo a corpo se estiver a 1,5m (adjacente) de qualquer inimigo (incluindo você).\n"
+            "name": "Ações Padrão",
+            "description": "Sua ação padrão normalmente representa a coisa mais importante que você vai fazer em seu turno."
           },
           {
-            "type": "folder",
-            "name": "Manobra de Combate",
-            "items": [
-              {
-                "type": "item",
-                "name": "Manobra de Combate - Descrição",
-                "description": "Uma manobra é um ataque corpo a corpo para fazer algo diferente de causar dano — como arrancar a arma do oponente ou empurrá-lo para um abismo. Não é possível fazer manobras de combate com ataques à distância.\n\nFaça um teste de manobra (um teste de ataque corpo a corpo) oposto com a criatura. Mesmo que ela esteja usando uma arma de ataque à distância, deve fazer o teste usando seu valor de Luta. Em caso de empate, o personagem com o maior bônus vence. Se os bônus forem iguais, outro teste deve ser feito. Em geral, você pode usar qualquer arma corpo a corpo para fazer manobras de combate.\n"
-              },
-              {
-                "type": "item",
-                "name": "Agarrar",
-                "description": "Você usa uma mão para segurar uma criatura (por seu braço, sua roupa etc.). Uma criatura agarrada fica desprevenida e imóvel, sofre –2 nos testes de ataque e só pode atacar com armas leves. Ela pode se soltar com uma ação padrão, vencendo um teste de manobra oposto. Enquanto agarra uma criatura, você fica com uma mão ocupada e move-se metade do deslocamento normal (mas arrastando a criatura que estiver agarrando). Você pode soltá-la com uma ação livre. Você pode atacar uma criatura agarrada com sua mão livre. Se preferir, pode substituir um ataque por um teste de manobra contra a criatura. Se vencer, causa dano de impacto igual a um ataque desarmado ou arma natural (que fica ocupada enquanto agarra). Isso significa que você está esmagando ou sufocando o inimigo.\n\nVocê só pode agarrar com um ataque desarmado. Um personagem fazendo um ataque à distância contra um alvo envolvido na manobra agarrar tem 50% de chance de mirar no alvo errado!\n"
-              },
-              {
-                "type": "item",
-                "name": "Derrubar",
-                "description": "Você deixa o alvo caído. Esta queda normalmente não causa dano. Se você vencer o teste oposto por 5 pontos ou mais, derruba o oponente com tanta força que também o empurra um quadrado em uma direção a sua escolha. Se isso o jogar além de um parapeito ou precipício, ele pode fazer um teste de Reflexos (CD 20) para se agarrar numa beirada."
-              },
-              {
-                "type": "item",
-                "name": "Desarmar",
-                "description": "Você derruba um item que a criatura esteja segurando. Normalmente o item cai no mesmo lugar em que o alvo está (a menos que o alvo esteja voando, sobre uma ponte etc.). Se você vencer o teste oposto por 5 pontos ou mais, derruba o item com tanta força que também o empurra um quadrado em uma direção a sua escolha."
-              },
-              {
-                "type": "item",
-                "name": "Empurrar",
-                "description": "Você empurra a criatura 1,5m. Para cada 5 pontos de diferença entre os testes, você empurra o alvo mais 1,5m. Você pode gastar uma ação de movimento para avançar junto com a criatura (até o limite do seu deslocamento)."
-              },
-              {
-                "type": "item",
-                "name": "Quebrar",
-                "description": "Você atinge um item que a criatura esteja segurando. Veja adiante em “Quebrando Objetos”"
-              }
-            ]
+            "type": "item",
+            "name": "Agredir",
+            "description": "Você faz um ataque com uma arma corpo a corpo ou à distância. Com uma arma corpo a corpo, você pode atacar qualquer inimigo dentro de seu alcance natural (1,5m para criaturas Pequenas e Médias ou um inimigo adjacente no mapa). Personagens maiores, ou usando certas armas, podem atacar mais longe. Você pode substituir um ataque corpo a corpo por uma manobra de combate (veja a seguir). Com uma arma de ataque à distância, você pode atacar qualquer inimigo que consiga ver e que esteja no alcance da arma (ou até o dobro do alcance, sofrendo uma penalidade de –5).\n\n• Atirando em Combate Corpo a Corpo. Quando faz um ataque à distância contra uma criatura em combate corpo a corpo, você sofre –5 no teste de ataque. Uma criatura está em combate corpo a corpo se estiver dentro do alcance natural de qualquer inimigo (incluindo você)."
           },
           {
             "type": "item",
@@ -133,7 +127,7 @@
           {
             "type": "item",
             "name": "Preparar",
-            "description": "Você prepara uma ação (padrão, de movimento ou livre) para realizar mais tarde, após seu turno, mas antes de seu turno na próxima rodada. Diga a ação que vai fazer e em quais circunstâncias (por exemplo, “disparar minha besta na primeira criatura que passar pela porta”). A qualquer momento antes de seu próximo turno, você pode fazer a ação preparada como uma reação a essas circunstâncias.\n\nSe, no seu próximo turno, você ainda não tiver realizado sua ação preparada, não pode mais realizá-la (embora possa preparar a mesma ação de novo).\n\nPelo resto do combate, sua Iniciativa fica imediatamente acima da qual você fez a ação preparada.\n"
+            "description": "Você prepara uma ação (padrão, de movimento ou livre) para realizar mais tarde, após seu turno, mas antes de seu turno na próxima rodada. Diga a ação que vai fazer e em quais circunstâncias (por exemplo, “disparar minha besta na primeira criatura que passar pela porta”). A qualquer momento antes de seu próximo turno, você pode fazer a ação preparada como uma reação a essas circunstâncias. Se, no seu próximo turno, você ainda não tiver realizado sua ação preparada, não pode mais realizá-la (embora possa preparar a mesma ação de novo). Pelo resto do combate, sua Iniciativa fica imediatamente acima da qual você fez a ação preparada."
           },
           {
             "type": "item",
@@ -148,13 +142,13 @@
         "items": [
           {
             "type": "item",
-            "name": "Levantar-se",
-            "description": "Levantar do chão (ou de uma cama, cadeira...) exige uma ação de movimento."
+            "name": "Ações de Movimento",
+            "description": "Uma ação de movimento serve para mudar algo de posição — seja você, seja um item."
           },
           {
             "type": "item",
-            "name": "Movimentar-se",
-            "description": "Você pode percorrer uma distância igual a seu deslocamento (tipicamente 9m para raças de tamanho Médio). Outros tipos de movimento, como nadar, escalar ou cavalgar, também usam esta ação."
+            "name": "Levantar-se",
+            "description": "Levantar do chão (ou de uma cama, cadeira...) exige uma ação de movimento."
           },
           {
             "type": "item",
@@ -163,8 +157,18 @@
           },
           {
             "type": "item",
-            "name": "Sacar ou Guardar Arma",
-            "description": "Sacar ou guardar uma arma exige uma ação de movimento. Se você tiver o poder Saque Rápido, pode sacar ou guardar itens como uma ação livre."
+            "name": "Mirar",
+            "description": "Você mira em um alvo que possa ver, dentro do alcance de sua arma. Isso anula a penalidade de –5 em testes de Pontaria realizados neste turno contra aquele alvo caso ele esteja engajado em combate corpo a corpo."
+          },
+          {
+            "type": "item",
+            "name": "Movimentar-se",
+            "description": "Você pode percorrer uma distância igual a seu deslocamento (tipicamente 9m para raças de tamanho Médio). Outros tipos de movimento, como nadar, escalar ou cavalgar, também usam esta ação."
+          },
+          {
+            "type": "item",
+            "name": "Sacar ou Guardar Item",
+            "description": "Sacar ou guardar um item exige uma ação de movimento."
           }
         ]
       },
@@ -172,6 +176,11 @@
         "type": "folder",
         "name": "Ações Completas",
         "items": [
+          {
+            "type": "item",
+            "name": "Ações Completas",
+            "description": "Ações completas exigem muito tempo e esforço. Leia mais sobre isso na página 233."
+          },
           {
             "type": "item",
             "name": "Corrida",
@@ -200,8 +209,13 @@
         "items": [
           {
             "type": "item",
+            "name": "Ações Livres",
+            "description": "Uma ação livre demanda pouco ou nenhum tempo, esforço ou atenção. Normalmente você pode executar quantas ações livres quiser por turno, mas o mestre pode limitar ou proibir ações complexas."
+          },
+          {
+            "type": "item",
             "name": "Atrasar",
-            "description": "Escolhendo atrasar sua ação, você age mais tarde na ordem de Iniciativa, em relação à Iniciativa que rolou. Isto é o mesmo que reduzir sua Iniciativa voluntariamente pelo resto do combate. Quando sua nova Iniciativa chegar, você age normalmente. Você pode especificar este novo valor de Iniciativa ou apenas esperar até algum momento e então agir, fixando sua nova Iniciativa neste ponto. Atrasar é útil para ver o que seus amigos ou inimigos farão, antes de decidir o que você mesmo fará.\n\n• Limites para atrasar. Você pode atrasar sua Iniciativa até –10 menos seu bônus de Iniciativa. Quando a contagem de Iniciativa chega a esse ponto, você deve agir ou abrir mão de qualquer ação na rodada. Por exemplo, um personagem com um bônus de Iniciativa +3 pode esperar até a contagem de Iniciativa chegar a –13. Nesse ponto, deve agir ou desistir de seu turno. Isso importa quando vários personagens atrasam suas ações.\n\n• Vários atrasos. Se vários personagens estão atrasando suas ações, aquele com o maior bônus de Iniciativa (ou a maior Destreza, em caso de empate) tem a vantagem. Se dois ou mais personagens que estejam atrasando quiserem agir na mesma contagem de Iniciativa, aquele com o maior bônus age primeiro. Se dois ou mais personagens estão tentando agir um depois do outro, aquele com o maior bônus de Iniciativa tem o direito de agir depois.\n"
+            "description": "Escolhendo atrasar sua ação, você age mais tarde na ordem de Iniciativa, em relação à Iniciativa que rolou. Isto é o mesmo que reduzir sua Iniciativa voluntariamente pelo resto do combate. Quando sua nova Iniciativa chegar, você age normalmente. Você pode especificar este novo valor de Iniciativa ou apenas esperar até algum momento e então agir, fixando sua nova Iniciativa neste ponto. Atrasar é útil para ver o que seus amigos ou inimigos farão, antes de decidir o que você mesmo fará.\n\n• Limites para atrasar. Você pode atrasar sua Iniciativa até –10 menos seu bônus de Iniciativa. Quando a contagem de Iniciativa chega a esse ponto, você deve agir ou abrir mão de qualquer ação na rodada. Por exemplo, um personagem com um bônus de Iniciativa +3 pode esperar até a contagem de Iniciativa chegar a –13. Nesse ponto, deve agir ou desistir de seu turno. Isso importa quando vários personagens atrasam suas ações.\n\n• Vários atrasos. Se vários personagens estão atrasando suas ações, aquele com o maior bônus de Iniciativa (ou a maior Destreza, em caso de empate) tem a vantagem. Se dois ou mais personagens que estejam atrasando quiserem agir na mesma contagem de Iniciativa, aquele com o maior bônus age primeiro. Se dois ou mais personagens estão tentando agir um depois do outro, aquele com o maior bônus de Iniciativa tem o direito de agir depois."
           },
           {
             "type": "item",
@@ -221,14 +235,50 @@
         ]
       },
       {
+        "type": "folder",
+        "name": "Manobras de Combate",
+        "items": [
+          {
+            "type": "item",
+            "name": "Manobras de Combate",
+            "description": "Uma manobra é um ataque corpo a corpo para fazer algo diferente de causar dano — como arrancar a arma do oponente ou empurrá-lo para um abismo. Não é possível fazer manobras de combate com ataques à distância. Faça um teste de manobra (um teste de ataque corpo a corpo) oposto com a criatura. Mesmo que ela esteja usando uma arma de ataque à distância, deve fazer o teste usando seu valor de Luta. Em caso de empate, o personagem com o maior bônus vence. Se os bônus forem iguais, outro teste deve ser feito. Em geral, você pode usar qualquer arma corpo a corpo para fazer manobras de combate. Estas são as manobras que você pode fazer."
+          },
+          {
+            "type": "item",
+            "name": "Agarrar",
+            "description": "Você segura uma criatura (por seu braço, sua roupa etc.). Uma criatura agarrada fica desprevenida e imóvel, sofre –2 nos testes de ataque e só pode atacar com armas leves. Ela pode se soltar com uma ação padrão, vencendo um teste de manobra oposto. Você só pode agarrar com um ataque desarmado ou arma natural e, enquanto agarra, fica com essa mão ou arma natural ocupada. Além disso, move-se metade do deslocamento normal, mas arrasta a criatura que estiver agarrando. Você pode soltá-la com uma ação livre. Você pode atacar uma criatura agarrada com sua mão livre. Se preferir, pode substituir um ataque por um teste de agarrar contra a criatura. Se vencer, causa dano de impacto igual a um ataque desarmado ou arma natural. Isso significa que você está esmagando ou sufocando o inimigo. Um personagem fazendo um ataque à distância contra um alvo envolvido na manobra agarrar tem 50% de chance de mirar no alvo errado!"
+          },
+          {
+            "type": "item",
+            "name": "Derrubar",
+            "description": "Você deixa o alvo caído. Esta queda normalmente não causa dano. Se você vencer o teste oposto por 5 pontos ou mais, derruba o oponente com tanta força que também o empurra um quadrado em uma direção a sua escolha. Se isso o jogar além de um parapeito ou precipício, ele pode fazer um teste de Reflexos (CD 20) para se agarrar numa beirada."
+          },
+          {
+            "type": "item",
+            "name": "Desarmar",
+            "description": "Você derruba um item que a criatura esteja segurando. Normalmente o item cai no mesmo lugar em que o alvo está (a menos que o alvo esteja voando, sobre uma ponte etc.). Se você vencer o teste oposto por 5 pontos ou mais, derruba o item com tanta força que também o empurra um quadrado em uma direção a sua escolha."
+          },
+          {
+            "type": "item",
+            "name": "Empurrar",
+            "description": "Você empurra a criatura 1,5m. Para cada 5 pontos de diferença entre os testes, você empurra o alvo mais 1,5m. Você pode gastar uma ação de movimento para avançar junto com a criatura (até o limite do seu deslocamento)."
+          },
+          {
+            "type": "item",
+            "name": "Quebrar",
+            "description": "Você atinge um item que a criatura esteja segurando. Veja adiante em “Quebrando Objetos”."
+          }
+        ]
+      },
+      {
         "type": "item",
         "name": "Ferimentos & Morte",
-        "description": "Sempre que você sofre dano — golpeado pelo tacape de um ogro, atingido por uma Bola de Fogo ou caindo em uma armadilha —, perde pontos de vida. Você anota seus pontos de vida na ficha de personagem ou em qualquer rascunho. Quando sofre dano, subtrai este valor de seus pontos de vida.\n\nO dano pode deixar cicatrizes, amassar sua armadura e sujar sua roupa de sangue, mas não o impede de agir. Isso só muda quando seus pontos de vida chegam a 0 ou menos.\n\nSe ficar com 0 PV ou menos, você cai inconsciente e começa a sangrar. No início de seu turno, faça um teste de Constituição (CD 15). Se passar, você estabiliza e não precisa mais fazer esse teste. Se falhar, você perde 1d6 pontos de vida e continua sangrando. Você deve repetir o teste a cada rodada, até estabilizar ou morrer. Um personagem sangrando pode ser estabilizado com um teste de Cura (CD 15) ou com qualquer efeito que cure pelo menos 1 PV.\n\nUm personagem com 0 ou menos pontos de vida que recupere PV até um valor positivo (1 ou mais) por causa de uma habilidade, magia ou descanso, recobra a consciência e pode agir normalmente.\n\nQuando seus pontos de vida chegam a –10 ou a um número negativo igual à metade de seus PV totais (o que for menor), você morre.\n\nPor exemplo: Oberon, o Martelo, um arcanista com 12 PV, morre se chegar a –10 PV. Mais tarde na campanha, Oberon sobe vários níveis e chega a 30 PV. Agora, ele só morre se chegar a –15 PV.\n"
+        "description": "Sempre que você sofre dano — golpeado pelo tacape de um ogro, atingido por uma Bola de Fogo ou caindo em uma armadilha —, subtrai este valor de seus pontos de vida. Você anota seus pontos de vida em sua ficha de personagem ou em qualquer papel de rascunho. O dano pode deixar cicatrizes, amassar sua armadura e sujar sua roupa de sangue, mas não o impede de agir. Isso só muda quando seus pontos de vida chegam a 0 ou menos. Se ficar com 0 PV ou menos, você cai inconsciente e fica sangrando. No início de seu turno, faça um teste de Constituição (CD 15). Se passar, você estabiliza e não precisa mais fazer esse teste (exceto se perder mais PV). Se falhar, você perde 1d6 pontos de vida. Você deve repetir o teste a cada rodada, até estabilizar ou morrer. Um personagem sangrando pode ser estabilizado com um teste de Cura (CD 15) ou com qualquer efeito que cure pelo menos 1 PV. Um personagem com 0 ou menos pontos de vida que recupere PV até um valor positivo (1 ou mais) por causa de uma habilidade, magia ou descanso, recobra a consciência e pode agir normalmente. Quando seus pontos de vida chegam a –10 ou a um número negativo igual à metade de seus PV totais (o que for mais baixo), você morre. Por exemplo: Oberon, o Martelo, um arcanista com 12 PV, morre se chegar a –10 PV. Mais tarde na campanha, Oberon sobe vários níveis e chega a 30 PV. Agora, ele só morre se chegar a –15 PV."
       },
       {
         "type": "item",
         "name": "Dano Não Letal",
-        "description": "Dano não letal se soma ao dano letal para determinar quando você cai inconsciente, mas não conta para determinar quando você morre e começa a sangrar. Se você tem dano letal e não letal e é curado, cura primeiro o dano não letal.\n\nQuase todo dano causado em condições normais (armas, armadilhas, magias...) é letal. Você pode usar uma arma para causar dano não letal (batendo com as partes não afiadas da arma, controlando a força dos golpes ou evitando pontos vitais), mas sofre uma penalidade de –5 no teste de ataque.\n\nAtaques desarmados e certas armas específicas causam dano não letal. Você pode usar esses ataques e armas para causar dano letal, mas sofre a mesma penalidade de –5 no teste de ataque.\n"
+        "description": "Dano não letal conta para determinar quando você cai inconsciente, mas não para determinar quando você começa a sangrar ou morre. Efeitos de cura recuperam primeiro pontos de vida perdidos por dano não letal. Quase todo dano causado em condições normais (armas, armadilhas, magias...) é letal. Você pode usar uma arma para causar dano não letal (batendo com as partes não afiadas da arma, controlando a força dos golpes ou evitando pontos vitais), mas sofre uma penalidade de –5 no teste de ataque. Ataques desarmados e certas armas específicas causam dano não letal. Você pode usar esses ataques e armas para causar dano letal, mas sofre a mesma penalidade de –5 no teste de ataque."
       },
       {
         "type": "folder",
@@ -242,12 +292,12 @@
           {
             "type": "item",
             "name": "Atravessar um Espaço Ocupado",
-            "description": "Você pode se mover livremente através de um espaço (ou um quadrado) ocupado por um aliado. No entanto, não pode atravessar um quadrado ocupado por um inimigo, a menos que ele esteja indefeso ou seja pelo menos três categorias de tamanho maior ou menor que você. Um inimigo caído conta como uma categoria de tamanho menor para esse efeito. Você também pode atravessar um espaço ocupado por um inimigo usando a perícia Acrobacia ou a manobra atropelar."
+            "description": "Você pode atravessar um espaço ocupado por um aliado. No entanto, não pode atravessar um espaço ocupado por um inimigo, a menos que ele esteja caído ou indefeso, ou seja pelo menos três categorias de tamanho maior ou menor que você. Você também pode atravessar um espaço ocupado por um inimigo com Acrobacia ou a ação atropelar. Espaço ocupado por um inimigo conta como terreno difícil."
           },
           {
             "type": "item",
             "name": "Carga",
-            "description": "Se você estiver carregando uma carga pesada (veja o Capítulo 3: Equipamento), seu deslocamento diminui em 3m."
+            "description": "Se você estiver sobrecarregado (veja a página 141), seu deslocamento diminui em 3m."
           },
           {
             "type": "item",
@@ -257,7 +307,7 @@
           {
             "type": "item",
             "name": "Outros Tipos de Movimento",
-            "description": "Além de andar, você pode usar uma ação de movimento para se mover de outras maneiras. Consulte as perícias Acrobacia e Atletismo."
+            "description": "Além de andar, você pode gastar uma ação de movimento para se mover de outras maneiras. Consulte as perícias Acrobacia e Atletismo."
           },
           {
             "type": "item",
@@ -267,7 +317,7 @@
           {
             "type": "item",
             "name": "Terreno Difícil",
-            "description": "Lugares acidentados, como um pântano lamacento, neve profunda, florestas cheias de raízes ou ruínas com destroços, são terreno difícil. Mover-se em terreno difícil custa o dobro. Ou seja, você se move metade do deslocamento normal — ou gasta 3m de deslocamento por quadrado, em vez de 1,5m. Atravessar um lugar muito apertado também conta como terreno difícil."
+            "description": "Lugares onde é difícil andar, como uma floresta cheia de raízes, neve profunda, ruínas com destroços ou mesmo uma rua lotada de pessoas, são terreno difícil. Mover-se em terreno difícil custa o dobro. Ou seja, você se move metade do deslocamento normal — ou gasta 3m de deslocamento por quadrado, em vez de 1,5m."
           }
         ]
       },
@@ -278,24 +328,24 @@
           {
             "type": "item",
             "name": "Camuflagem",
-            "description": "Você recebe camuflagem quando um efeito atrapalha a visão dos inimigos. Pode ser escuridão, neblina, folhagens ou outro efeito similar no local onde você está ou no espaço entre você e o oponente. Ataques contra você têm 20% de chance de falha (ao fazer um ataque, o atacante rola 1d10 junto com o d20 do teste de ataque; se o resultado desse d10 for 1 ou 2, o ataque erra, independentemente do resultado do teste de ataque).\n\nVocê recebe camuflagem total quando um efeito impede a visão dos inimigos — por exemplo, em uma câmara em escuridão total. A chance de falha em camuflagem total é 50% (1 a 5 no d10).\n"
+            "description": "Você recebe camuflagem leve quando um efeito dificulta a visão dos inimigos. Pode ser escuridão leve, neblina, folhagens ou outro efeito similar no local onde você está ou no espaço entre você e o oponente. Ataques contra você têm 20% de chance de falha (ao fazer um ataque, o atacante rola 1d10 junto com o d20 do teste de ataque; se o resultado desse d10 for 1 ou 2, o ataque erra, independentemente do resultado do teste de ataque). Você recebe camuflagem total quando um efeito impede a visão dos inimigos — por exemplo, em uma câmara em escuridão total. A chance de falha em camuflagem total é 50% (1 a 5 no d10)."
           },
           {
             "type": "item",
             "name": "Cobertura",
-            "description": "Você recebe cobertura quando está atrás de algo que bloqueia o ataque dos inimigos, como uma árvore, uma muralha de castelo, a lateral de uma carroça ou uma criatura maior. Cobertura fornece +5 na Defesa.\n\nNo mapa, o atacante e o alvo escolhem, cada um, um canto do quadrado onde estão. Trace uma linha reta entre os cantos. Se a linha é interrompida por um obstáculo ou criatura, o alvo tem cobertura. O alvo não recebe cobertura se a linha seguir ao longo de um obstáculo, ou apenas tocar a ponta de um obstáculo.\n\nVocê recebe cobertura total quando seus inimigos não podem alcançá-lo — por exemplo, se estiver atrás de uma parede. Cobertura total impede que você seja atacado.\n"
+            "description": "Você recebe cobertura leve quando está atrás de algo que bloqueia o ataque dos inimigos, como uma árvore, uma muralha de castelo, a lateral de uma carroça ou uma criatura maior. Cobertura leve fornece +5 na Defesa. No mapa, o atacante e o alvo escolhem, cada um, um canto do quadrado onde estão. Trace uma linha reta entre os cantos. Se a linha é interrompida por um obstáculo ou criatura, o alvo tem cobertura leve. O alvo não recebe cobertura se a linha seguir ao longo de um obstáculo ou apenas tocar a ponta de um obstáculo. Você recebe cobertura total quando seus inimigos não podem alcançá-lo — por exemplo, se estiver atrás de uma parede. Cobertura total impede que você seja atacado."
           },
           {
             "type": "item",
             "name": "Flanquear",
-            "description": "Quando você luta corpo a corpo contra um oponente e um aliado faz o mesmo no lado oposto — ou seja, o inimigo está entre vocês — vocês estão flanqueando o alvo. Ambos recebem +2 em seus testes de ataque contra o alvo flanqueado. Não se pode flanquear à distância ou com ataques desarmados, a menos que o personagem possua as habilidades Briga ou Estilo Desarmado."
+            "description": "Quando você luta corpo a corpo contra um oponente e um aliado faz o mesmo no lado oposto — ou seja, o inimigo está entre vocês — vocês estão flanqueando o alvo. Ambos recebem +2 em seus testes de ataque contra o alvo flanqueado. Não se pode flanquear à distância ou com ataques desarmados (a menos que você possua as habilidades Briga ou Estilo Desarmado)."
           }
         ]
       },
       {
         "type": "item",
         "name": "Quebrando Objetos",
-        "description": "Tentar quebrar ou destruir um objeto — desde uma porta fechada até uma espada empunhada por um inimigo — é similar a atacar uma criatura.\n\nPara objetos soltos, faça um ataque contra a Defesa do objeto, definida por sua categoria de tamanho. Se o objeto estiver em movimento, recebe +5 na Defesa. Para um objeto carregado por outra criatura, veja a manobra quebrar.\n\nSe você acerta o ataque, causa dano normal. Entretanto, objetos normalmente têm resistência a dano, dependendo de seu material. Um objeto reduzido a 0 ou menos PV é destruído.\n"
+        "description": "Tentar quebrar ou destruir um objeto — desde uma porta fechada até uma espada empunhada por um inimigo — é similar a atacar uma criatura. Para objetos soltos, faça um ataque contra a Defesa do objeto, definida por sua categoria de tamanho. Se o objeto estiver em movimento, recebe +5 na Defesa. Para um objeto segurado por outra criatura, veja a manobra quebrar. Se você acerta o ataque, causa dano normal. Entretanto, objetos normalmente têm redução de dano, dependendo de seu material. Um objeto reduzido a 0 ou menos PV é destruído."
       }
     ]
   },

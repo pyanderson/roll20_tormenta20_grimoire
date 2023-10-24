@@ -59,7 +59,7 @@ Visite a página da loja de extensões do seu navegador:
 - [ ] Equipamento - Armaduras & Escudos
 - [ ] Equipamento - Itens Gerais
 - [ ] Itens Superiores
-- [ ] Combate
+- [x] Combate
 - [x] Condições
 
 ## FAQ
