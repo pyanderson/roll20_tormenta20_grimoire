@@ -46,38 +46,8 @@ Visite a página da loja de extensões do seu navegador:
 
 ## Atualização para o Jogo Do Ano
 
-- [ ] Habilidades de raça
-  - [ ] Humano
-  - [ ] Anão
-  - [ ] Dahllan
-  - [ ] Elfo
-  - [ ] Goblin
-  - [ ] Lefou
-  - [ ] Minotauro
-  - [ ] Qareen
-  - [ ] Golem
-  - [ ] Hynne
-  - [ ] Kliren
-  - [ ] Medusa
-  - [ ] Osteon
-  - [ ] Sereia/Tritão
-  - [ ] Sílfide
-  - [ ] Suraggel
-  - [ ] Trog
+- [x] Habilidades de raça
 - [x] Poderes e Habilidades de classes
-  - [x] Arcanista
-  - [x] Bárbaro
-  - [x] Bardo
-  - [x] Bucaneiro
-  - [x] Caçador
-  - [x] Cavaleiro
-  - [x] Clérigo
-  - [x] Druida
-  - [x] Guerreiro
-  - [x] Ladino
-  - [x] Lutador
-  - [x] Nobre
-  - [x] Paladino
 - [ ] Origens
 - [ ] Perícias
 - [x] Poderes de Combate
