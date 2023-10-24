@@ -48,8 +48,7 @@ Visite a página da loja de extensões do seu navegador:
 
 - [x] Habilidades de raça
 - [x] Poderes e Habilidades de classes
-- [ ] Origens
-- [ ] Perícias
+- [x] Perícias
 - [x] Poderes de Combate
 - [x] Poderes de Destino
 - [x] Poderes de Magia
