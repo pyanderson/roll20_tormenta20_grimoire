@@ -12,7 +12,7 @@
         "css/sidebar-menu.css"
       ],
       "js": [
-        "third-party/jquery-3.6.0.min.js",
+        "third-party/jquery-3.7.1.min.js",
         "third-party/jquery-ui-1.12.1.min.js",
         "dist/main.js"
       ],
