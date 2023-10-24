@@ -64,7 +64,7 @@ Visite a página da loja de extensões do seu navegador:
   - [ ] Sílfide
   - [ ] Suraggel
   - [ ] Trog
-- [ ] Poderes e Habilidades de classes
+- [x] Poderes e Habilidades de classes
   - [x] Arcanista
   - [x] Bárbaro
   - [x] Bardo
@@ -76,8 +76,8 @@ Visite a página da loja de extensões do seu navegador:
   - [x] Guerreiro
   - [x] Ladino
   - [x] Lutador
-  - [ ] Nobre
-  - [ ] Paladino
+  - [x] Nobre
+  - [x] Paladino
 - [ ] Origens
 - [ ] Perícias
 - [x] Poderes de Combate
