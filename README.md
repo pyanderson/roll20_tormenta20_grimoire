@@ -44,14 +44,14 @@ Visite a página da loja de extensões do seu navegador:
 - [ ] Bestiário?
 - [ ] ??????
 
-## Roadmap Atualização para o Jogo Do Ano
+## Atualização para o Jogo Do Ano
 
 - [ ] Poderes e Habilidades de classes
 - [ ] Origens
 - [ ] Perícias
 - [ ] Poderes de Combate
 - [ ] Poderes de Destino
-- [ ] Poderes de Magia
+- [x] Poderes de Magia
 - [x] Poderes Concedidos
 - [x] Poderes da Tormenta
 - [x] Magias
