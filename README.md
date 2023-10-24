@@ -73,9 +73,9 @@ Visite a página da loja de extensões do seu navegador:
   - [x] Cavaleiro
   - [x] Clérigo
   - [x] Druida
-  - [ ] Guerreiro
-  - [ ] Ladino
-  - [ ] Lutador
+  - [x] Guerreiro
+  - [x] Ladino
+  - [x] Lutador
   - [ ] Nobre
   - [ ] Paladino
 - [ ] Origens
