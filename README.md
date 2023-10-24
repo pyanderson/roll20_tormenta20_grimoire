@@ -53,7 +53,7 @@ Visite a página da loja de extensões do seu navegador:
 - [ ] Poderes de Destino
 - [ ] Poderes de Magia
 - [x] Poderes Concedidos
-- [ ] Poderes da Tormenta
+- [x] Poderes da Tormenta
 - [x] Magias
 - [ ] Equipamento - Armas
 - [ ] Equipamento - Armaduras & Escudos
