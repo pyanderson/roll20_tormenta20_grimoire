@@ -71,8 +71,8 @@ Visite a página da loja de extensões do seu navegador:
   - [x] Bucaneiro
   - [x] Caçador
   - [x] Cavaleiro
-  - [ ] Clérigo
-  - [ ] Druida
+  - [x] Clérigo
+  - [x] Druida
   - [ ] Guerreiro
   - [ ] Ladino
   - [ ] Lutador
@@ -136,3 +136,4 @@ npm run watch
 ```
 
 Pronto agora você já pode carregar a extensão local no seu navegador, o webpack manterá o bundle sempre atualizado, mas dependendo de como você estiver utilizando a extensão no seu navegador você pode precisar recarregar a extensão para ver as mudanças refletidas.
+
