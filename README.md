@@ -8,13 +8,19 @@ Extensão para o Roll20 que auxilia na sua campanha de Tormenta20.
 É adicionada a opção de escolher uma magia ou poder, sem necessidade de ficar copiando/escrevendo do livro. Também adiciona o cálculo automático de CD.
 Um menu Lateral extra é adicionado na página pra consulta de regras de combate, condições e perícias.
 
+### Aviso
+
+Todo o conteúdo da pasta [src/data/](src/data/) está sob a licença [OPEN GAME LICENSE](OPEN_GAME_LICENSE).
+
+Icons from [freepik](https://www.freepik.com).
+
+## Instalação
+
+Visite a página da loja de extensões do seu navegador:
+
 - [Chrome](https://chrome.google.com/webstore/detail/roll20-grim%C3%B3rio-do-tormen/lplnbanhibpehlmiiakcacambjleeeng)
 
 - [Firefox](https://addons.mozilla.org/pt-BR/firefox/addon/roll20-grim%C3%B3rio-do-tormenta20/)
-
-Todo o conteúdo das pasta [src/data/](src/data/) está sob a licença [OPEN GAME LICENSE](OPEN_GAME_LICENSE).
-
-Icons from [freepik](https://www.freepik.com).
 
 ## Roadmap
 
@@ -74,7 +80,28 @@ Conforme as ideias surgem ou recebo sugestões, elas são adicionadas no Roadmap
 
 Como esse é um projeto que estou mantendo no meu tempo livre não é possível determinar prazos.
 
-## Notas do Desenvolvedor
+## Desenvolvendo
 
-- O firefox ainda não tem suporte para a versão 3 do manifest, por isso é necessário ter as duas versões disponíveis.
+### Configurando o ambiente
 
+O firefox não tem suporte para a versão 3 do manifest, por isso é necessário ter as duas versões disponíveis.
+
+Copie para a pasta `src/` o manifest do navegador que você irá testar as mudanças:
+
+```bash
+cp chrome/manifest.json src/manifest.json
+```
+
+Instale as dependências de desenvolvimento:
+
+```bash
+npm i
+```
+
+Inicie o webpack:
+
+```bash
+npm run watch
+```
+
+Pronto agora você já pode carregar a extensão local no seu navegador, o webpack manterá o bundle sempre atualizado, mas dependendo de como você estiver utilizando a extensão no seu navegador você pode precisar recarregar a extensão para ver as mudanças refletidas.

@@ -2220,7 +2220,7 @@
     },
     "Preparar Poção": {
       "name": "Preparar Poção",
-      "description": "Você pode usar a perícia Ofício (alquimia) para fabricar poções com magias que conheça de 1º e 2º círculos. Veja a página 121 para a regra de fabricar itens e as páginas 319 e 327 para a regra de poções. Pré--requisitos: Habilidade de classe Magias, treinado em Ofício (alquimia).\n"
+      "description": "Você pode usar a perícia Ofício (alquimia) para fabricar poções com magias que conheça de 1º e 2º círculos. Veja a página 121 para a regra de fabricar itens e as páginas 319 e 327 para a regra de poções. Pré-requisitos: Habilidade de classe Magias, treinado em Ofício (alquimia).\n"
     }
   },
   "Poderes Concedidos": {
@@ -2238,7 +2238,7 @@
     },
     "Apostar com o Trapaceiro Hyninn": {
       "name": "Apostar com o Trapaceiro Hyninn\n",
-      "description": "Quando faz um teste de perícia, você pode gastar 1 PM para apostar com Hyninn. Você e o mestre ro- lam 1d20, mas o mestre mantém o resultado dele em segredo. Você então escolhe entre usar seu próprio resultado ou o resultado oculto do mestre (neste caso, ele revela o resultado).\n"
+      "description": "Quando faz um teste de perícia, você pode gastar 1 PM para apostar com Hyninn. Você e o mestre rolam 1d20, mas o mestre mantém o resultado dele em segredo. Você então escolhe entre usar seu próprio resultado ou o resultado oculto do mestre (neste caso, ele revela o resultado).\n"
     },
     "Armas da ambição Valkaria": {
       "name": "Armas da ambição Valkaria\n",
@@ -2290,7 +2290,7 @@
     },
     "Conjurar Arma Arsenal": {
       "name": "Conjurar Arma Arsenal\n",
-      "description": "Você pode gastar 1 PM para invocar uma arma corpo a corpo ou de arremesso com a qual seja pro- ficiente. A arma surge em sua mão, fornece +1 em testes de ataque e rolagens de dano, é considerada mágica e dura pela cena. Você não pode criar armas de disparo, mas pode criar 20 munições.\n"
+      "description": "Você pode gastar 1 PM para invocar uma arma corpo a corpo ou de arremesso com a qual seja proficiente. A arma surge em sua mão, fornece +1 em testes de ataque e rolagens de dano, é considerada mágica e dura pela cena. Você não pode criar armas de disparo, mas pode criar 20 munições.\n"
     },
     "Coragem Total Arsenal, Khalmyr, Lin-Wu, Valkaria": {
       "name": "Coragem Total Arsenal, Khalmyr, Lin-Wu, Valkaria\n",
@@ -2310,27 +2310,27 @@
     },
     "Descanso Natural Allihanna": {
       "name": "Descanso Natural Allihanna\n",
-      "description": "Para você, dormir ao relento conta como condi- ção de descanso confortável.\n"
+      "description": "Para você, dormir ao relento conta como condição de descanso confortável.\n"
     },
     "Dom da Esperança Marah": {
       "name": "Dom da Esperança Marah\n",
-      "description": "Você soma sua Sabedoria em seus PV em vez de Constituição, e se torna imune às condições alque- brado, esmorecido e frustrado.\n"
+      "description": "Você soma sua Sabedoria em seus PV em vez de Constituição, e se torna imune às condições alquebrado, esmorecido e frustrado.\n"
     },
     "Dom da Imortalidade Thyatis": {
       "name": "Dom da Imortalidade Thyatis\n",
-      "description": "Você é imortal. Sempre que morre, não impor- tando o motivo, volta à vida após 3d6 dias. Apenas paladinos podem escolher este poder. Um perso- nagem pode ter Dom da Imortalidade ou Dom da Ressurreição, mas não ambos.\n"
+      "description": "Você é imortal. Sempre que morre, não importando o motivo, volta à vida após 3d6 dias. Apenas paladinos podem escolher este poder. Um personagem pode ter Dom da Imortalidade ou Dom da Ressurreição, mas não ambos.\n"
     },
     "Dom da Profecia Thyatis": {
       "name": "Dom da Profecia Thyatis\n",
-      "description": "Você pode lançar Augúrio. Caso aprenda nova- mente essa magia, seu custo diminui em –1 PM. Você também pode gastar 2 PM para receber +2 em um teste.\n"
+      "description": "Você pode lançar Augúrio. Caso aprenda novamente essa magia, seu custo diminui em –1 PM. Você também pode gastar 2 PM para receber +2 em um teste.\n"
     },
     "Dom da Ressurreição Thyatis": {
       "name": "Dom da Ressurreição Thyatis\n",
-      "description": "Você pode gastar uma ação completa e todos os PM que possui (mínimo 1 PM) para tocar o corpo de uma criatura morta há menos de um ano e res- suscitá-la. A criatura volta à vida com 1 PV e 0 PM, e perde 1 ponto de Constituição permanentemente. Este poder só pode ser usado uma vez em cada criatura. Apenas clérigos podem escolher este poder. Um personagem pode ter Dom da Imortalidade ou Dom da Ressurreição, mas não ambos.\n"
+      "description": "Você pode gastar uma ação completa e todos os PM que possui (mínimo 1 PM) para tocar o corpo de uma criatura morta há menos de um ano e ressuscitá-la. A criatura volta à vida com 1 PV e 0 PM, e perde 1 ponto de Constituição permanentemente. Este poder só pode ser usado uma vez em cada criatura. Apenas clérigos podem escolher este poder. Um personagem pode ter Dom da Imortalidade ou Dom da Ressurreição, mas não ambos.\n"
     },
     "Dom da Verdade Khalmyr": {
       "name": "Dom da Verdade Khalmyr\n",
-      "description": "Você pode pagar 2 PM para receber +5 em testes de Intuição, e em testes de Percepção contra Engana- ção e Furtividade, até o fim da cena.\n"
+      "description": "Você pode pagar 2 PM para receber +5 em testes de Intuição, e em testes de Percepção contra Enganação e Furtividade, até o fim da cena.\n"
     },
     "Escamas Dracônicas Kally": {
       "name": "Escamas Dracônicas Kally\n",
@@ -2366,7 +2366,7 @@
     },
     "Forma de Macaco Hyninn": {
       "name": "Forma de Macaco Hyninn\n",
-      "description": "Você pode gastar uma ação completa e 2 PM para se transformar em um macaco. Você adquire tamanho Minúsculo (o que fornece +5 em Furtividade e –5 em testes de manobra) e recebe deslocamento de escalar 9m. Seu equipamento desaparece (e você perde seus benefícios) até você voltar ao normal, mas suas ou- tras estatísticas não são alteradas. A transformação dura indefinidamente, mas termina caso você faça um ataque, lance uma magia ou sofra dano.\n"
+      "description": "Você pode gastar uma ação completa e 2 PM para se transformar em um macaco. Você adquire tamanho Minúsculo (o que fornece +5 em Furtividade e –5 em testes de manobra) e recebe deslocamento de escalar 9m. Seu equipamento desaparece (e você perde seus benefícios) até você voltar ao normal, mas suas outras estatísticas não são alteradas. A transformação dura indefinidamente, mas termina caso você faça um ataque, lance uma magia ou sofra dano.\n"
     },
     "Fulgor Solar Azgher": {
       "name": "Fulgor Solar Azgher\n",
@@ -2434,7 +2434,7 @@
     },
     "Presas Primordiais Kallyadranoch, Megalokk": {
       "name": "Presas Primordiais Kallyadranoch, Megalokk\n",
-      "description": "Você pode gastar 1 PM para transformar seus dentes em presas afiadas até o fim da cena. Você recebe uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quan- do usa a ação agredir com outra arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida. Se já possuir outro ataque natural de mordida, em vez disso, o dano desse ataque aumenta em dois passos.\n"
+      "description": "Você pode gastar 1 PM para transformar seus dentes em presas afiadas até o fim da cena. Você recebe uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir com outra arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida. Se já possuir outro ataque natural de mordida, em vez disso, o dano desse ataque aumenta em dois passos.\n"
     },
     "Presas venenosas Sszzaas": {
       "name": "Presas venenosas Sszzaas\n",
@@ -2458,7 +2458,7 @@
     },
     "Servos do Dragão Kally": {
       "name": "Servos do Dragão Kally\n",
-      "description": "Você pode gastar uma ação completa e 2 PM para invocar 2d4+1 kobolds capangas em espaços desocupados em alcance curto. Você pode gastar uma ação de movimento para fazer os kobolds andarem (eles têm deslocamento 9m) ou uma ação padrão para fazê-los causar dano a criaturas adjacentes (1d6–1 pontos de dano de perfuração cada). Os kobolds têm For –1, Des 1, Defesa 12, 1 PV e falham automaticamente em qualquer teste de resistência ou oposto. Eles desaparecem quando morrem ou no fim da cena. Os kobolds não agem sem receber uma ordem. Usos criativos para capan- gas fora de combate ficam a critério do mestre.\n"
+      "description": "Você pode gastar uma ação completa e 2 PM para invocar 2d4+1 kobolds capangas em espaços desocupados em alcance curto. Você pode gastar uma ação de movimento para fazer os kobolds andarem (eles têm deslocamento 9m) ou uma ação padrão para fazê-los causar dano a criaturas adjacentes (1d6–1 pontos de dano de perfuração cada). Os kobolds têm For –1, Des 1, Defesa 12, 1 PV e falham automaticamente em qualquer teste de resistência ou oposto. Eles desaparecem quando morrem ou no fim da cena. Os kobolds não agem sem receber uma ordem. Usos criativos para capangas fora de combate ficam a critério do mestre.\n"
     },
     "Sopro do Mar Oceano": {
       "name": "Sopro do Mar Oceano\n",
@@ -2470,7 +2470,7 @@
     },
     "Teurgista Místico Wynna": {
       "name": "Teurgista Místico Wynna\n",
-      "description": "Até uma magia de cada círculo que você apren- der poderá ser escolhida entre magias divinas (se você for um conjurador arcano) ou entre magias arcanas (se for um conjurador divino). Pré-requisito: habilidade de classe Magias.\n"
+      "description": "Até uma magia de cada círculo que você aprender poderá ser escolhida entre magias divinas (se você for um conjurador arcano) ou entre magias arcanas (se for um conjurador divino). Pré-requisito: habilidade de classe Magias.\n"
     },
     "Tradição de Lin-Wu Lin-Wu": {
       "name": "Tradição de Lin-Wu Lin-Wu\n",
@@ -2482,11 +2482,11 @@
     },
     "Tropas Duyshidakk Thwor": {
       "name": "Tropas Duyshidakk Thwor\n",
-      "description": "Você pode gastar uma ação completa e 2 PM para invocar 1d4+1 goblinoides capangas em espaços desocupados em alcance curto. Você pode gastar uma ação de movimento para fazer os goblinoides andarem (eles têm deslocamento 9m) ou uma ação padrão para fazê-los causar dano a criaturas adjacen- tes (1d6+1 pontos de dano de corte cada). Os gobli- noides têm For 1, Des 1, Defesa 15, 1 PV e falham automaticamente em qualquer teste de resistência ou oposto. Eles desaparecem quando morrem ou no fim da cena. Os goblinoides não agem sem receber uma ordem. Usos criativos para capangas fora de combate ficam a critério do mestre.\n"
+      "description": "Você pode gastar uma ação completa e 2 PM para invocar 1d4+1 goblinoides capangas em espaços desocupados em alcance curto. Você pode gastar uma ação de movimento para fazer os goblinoides andarem (eles têm deslocamento 9m) ou uma ação padrão para fazê-los causar dano a criaturas adjacentes (1d6+1 pontos de dano de corte cada). Os goblinoides têm For 1, Des 1, Defesa 15, 1 PV e falham automaticamente em qualquer teste de resistência ou oposto. Eles desaparecem quando morrem ou no fim da cena. Os goblinoides não agem sem receber uma ordem. Usos criativos para capangas fora de combate ficam a critério do mestre.\n"
     },
     "Urro Divino Megalokk": {
       "name": "Urro Divino Megalokk\n",
-      "description": "Quando faz um ataque ou lança uma magia, você pode pagar 1 PM para somar sua Constituição (mí- nimo +1) à rolagem de dano desse ataque ou magia.\n"
+      "description": "Quando faz um ataque ou lança uma magia, você pode pagar 1 PM para somar sua Constituição (mínimo +1) à rolagem de dano desse ataque ou magia.\n"
     },
     "Visão nas Trevas Tenebra": {
       "name": "Visão nas Trevas Tenebra\n",
@@ -2498,7 +2498,7 @@
     },
     "Voz da Natureza Allihanna": {
       "name": "Voz da Natureza Allihanna\n",
-      "description": "Você pode falar com animais (como o efeito da magia Voz Divina) e aprende e pode lançar Acalmar Animal, mas só contra animais. Caso aprenda nova- mente essa magia, seu custo diminui em –1 PM.\n"
+      "description": "Você pode falar com animais (como o efeito da magia Voz Divina) e aprende e pode lançar Acalmar Animal, mas só contra animais. Caso aprenda novamente essa magia, seu custo diminui em –1 PM.\n"
     },
     "Voz dos Monstros Megalokk": {
       "name": "Voz dos Monstros Megalokk\n",
@@ -2506,7 +2506,7 @@
     },
     "Zumbificar Tenebra": {
       "name": "Zumbificar Tenebra\n",
-      "description": "Você pode gastar uma ação completa e 3 PM para reanimar o cadáver de uma criatura Pequena ou Média adjacente por um dia. O cadáver funciona como um parceiro iniciante de um tipo a sua es- colha entre combatente, fortão ou guardião. Além disso, quando sofre dano, você pode sacrificar esse parceiro; se fizer isso, você sofre apenas metade do dano, mas o cadáver é destruído.\n"
+      "description": "Você pode gastar uma ação completa e 3 PM para reanimar o cadáver de uma criatura Pequena ou Média adjacente por um dia. O cadáver funciona como um parceiro iniciante de um tipo a sua escolha entre combatente, fortão ou guardião. Além disso, quando sofre dano, você pode sacrificar esse parceiro; se fizer isso, você sofre apenas metade do dano, mas o cadáver é destruído.\n"
     }
   },
   "Poderes da Tormenta": {
