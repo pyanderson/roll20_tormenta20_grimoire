@@ -6,7 +6,7 @@ mkdir -p releases/
 
 version=$(grep -o '"version": *"[^"]*"' "chrome/manifest.json" | sed 's/"version": "\(.*\)"/\1/')
 
-browsers=("chrome" "firefox")
+browsers=("firefox" "chrome")
 
 for browser in "${browsers[@]}"; do
     echo "preparing version $version for $browser"
