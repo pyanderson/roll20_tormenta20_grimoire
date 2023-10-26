@@ -451,12 +451,7 @@
       {
         "type": "item",
         "name": "Indefeso",
-        "description": "O personagem fica desprevenido, mas sofre –10 na Defesa, falha automaticamente em testes de Reflexos e pode sofrer golpes de misericórdia. Lento. Todas as formas de deslocamento do personagem são reduzidas à metade (arredonde para"
-      },
-      {
-        "type": "item",
-        "name": "baixo para o primeiro incremento de 1,5m) e ele não pode correr ou fazer investidas",
-        "description": "Movimento."
+        "description": "O personagem fica desprevenido, mas sofre –10 na Defesa, falha automaticamente em testes de Reflexos e pode sofrer golpes de misericórdia. Lento. Todas as formas de deslocamento do personagem são reduzidas à metade (arredonde para baixo para o primeiro incremento de 1,5m) e ele não pode correr ou fazer investidas. Movimento."
       },
       {
         "type": "item",
