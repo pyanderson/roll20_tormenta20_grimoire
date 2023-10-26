@@ -1,12 +1,3 @@
-function loadScript(path) {
-  const s = document.createElement('script');
-  s.src = chrome.runtime.getURL(path);
-  s.type = 'text/javascript';
-  s.onload = function () {
-    this.remove();
-  };
-  (document.head || document.documentElement).appendChild(s);
-}
 $(document).ready(() => {
   $(window).on('message', (e) => {
     const data = e.originalEvent.data;
