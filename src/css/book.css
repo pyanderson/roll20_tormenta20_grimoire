@@ -1,0 +1,107 @@
+ul,
+#tormenta20-book-list {
+  list-style-type: none;
+}
+
+#tormenta20-book-list {
+  margin: 15px 0 0 15px;
+  padding: 0;
+}
+
+.tormenta20-book-folder {
+  cursor: pointer;
+  -webkit-user-select: none;
+  /* Safari 3.1+ */
+  -moz-user-select: none;
+  /* Firefox 2+ */
+  -ms-user-select: none;
+  /* IE 10+ */
+  user-select: none;
+}
+
+.tormenta20-book-folder::before {
+  content: "\2795";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.tormenta20-book-folder-open::before {
+  content: "\2796";
+}
+
+.tormenta20-book-nested-folder {
+  display: none;
+}
+
+.tormenta20-book-active-folder {
+  display: inline-block;
+  width: 100%;
+}
+
+.tormenta20-book-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.tormenta20-book-chat-icon {
+  align-self: center;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.tormenta20-book-chat-icon a:hover {
+  text-decoration: none;
+}
+
+.tormenta20-book-item-name {
+  width: 100%;
+}
+
+.dd-item.tormenta20-book-row {
+  display: flex;
+  margin-left: 9px;
+}
+
+.tormenta20-book-button {
+  width: 21px;
+  height: 21px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 25%/50%;
+  border: none;
+  cursor: pointer;
+}
+
+.tormenta20-book-button-tooltip {
+  visibility: hidden;
+  width: 120px;
+  top: 150%;
+  left: 50%;
+  margin-left: -60px;
+  background-color: gray;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tormenta20-book-button-tooltip::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent gray transparent;
+}
+
+.tormenta20-book-button:hover .tormenta20-book-button-tooltip {
+  visibility: visible;
+  opacity: 1;
+}
