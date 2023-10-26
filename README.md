@@ -35,10 +35,11 @@ Visite a página da loja de extensões do seu navegador:
 - [x] Poderes de origens (Ficha) _[v0.0.8]_
 - [x] Poderes gerais (Ficha) _[v0.0.8]_
 - [x] Equipamento (Menu Lateral) _[v0.0.10]_
+- [x] Versão parcial do Jogo do Ano e subtistuição do menu lateral por um botão que abre o Grimório _[v0.3.0]_
 - [ ] Jogo do Ano
-- [ ] Poderes de classes (Menu Lateral)
-- [ ] Poderes de origens (Menu Lateral)
-- [ ] Poderes gerais (Menu Lateral)
+- [ ] Poderes de classes (Grimório)
+- [ ] Poderes de origens (Grimório)
+- [ ] Poderes gerais (Grimório)
 - [ ] Equipamento (Ficha)
 - [ ] Busca
 - [ ] Bestiário?
