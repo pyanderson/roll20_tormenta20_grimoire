@@ -9,16 +9,18 @@
         "https://app.roll20.net/editor*"
       ],
       "css": [
-        "css/sidebar-menu.css"
+        "css/book.css"
       ],
       "js": [
         "third-party/jquery-3.7.1.min.js",
         "third-party/jquery-ui-1.12.1.min.js",
+        "constants.js",
         "helpers.js",
         "element-factory.js",
         "powers.js",
         "spells.js",
         "character-sheet.js",
+        "book.js",
         "index.js"
       ],
       "run_at": "document_end"
@@ -27,10 +29,9 @@
   "web_accessible_resources": [
     {
       "resources": [
-        "css/*",
         "data/*",
-        "images/32.png",
-        "sidebar-menu.js"
+        "css/sheet.css",
+        "images/32.png"
       ],
       "matches": [
         "<all_urls>"
