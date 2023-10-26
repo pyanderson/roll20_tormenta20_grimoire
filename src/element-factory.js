@@ -1,9 +1,9 @@
 /*
-  * Generate the the CD row element.
-  *
-  * @returns {HTMLDivElement}
-  * */
-function generateCDRow () {
+ * Generate the the CD row element.
+ *
+ * @returns {HTMLDivElement}
+ * */
+function generateCDRow() {
   const content = `
   <span class="spell-cd-item">CD</span>
     <input class="spell-cd-item spell-cd-total" style="margin-right: 5px; border: 2px solid black;" disabled="" value="" maxlength="2" name="spell-cd-total">
@@ -19,17 +19,21 @@ function generateCDRow () {
     <div class="spell-cd-item">+</div>
     <input class="spell-cd-item spell-cd-bottom-border spell-cd-extra" maxlength="2" type="text" spellcheck="false" value="0" name="spell-cd-extra">
   `;
-  return createElement('div', { class: 'sheet-default-title spell-cd', name: 'spell-cd', innerHTML: content.trim() });
+  return createElement('div', {
+    classes: 'sheet-default-title spell-cd',
+    name: 'spell-cd',
+    innerHTML: content.trim(),
+  });
 }
 
 /*
-  * Generate the spell dialog element.
-  *
-  * @param {string} circle - The spell circle.
-  * @param {string[]} options - All available spell names for the circle.
-  * @returns {HTMLDivElement}
-  * */
-function generateSpellDialog (circle, options) {
+ * Generate the spell dialog element.
+ *
+ * @param {string} circle - The spell circle.
+ * @param {string[]} options - All available spell names for the circle.
+ * @returns {HTMLDivElement}
+ * */
+function generateSpellDialog(circle, options) {
   const content = `
   <form name="spell-form">
     <fieldset>
@@ -45,16 +49,20 @@ function generateSpellDialog (circle, options) {
     </fieldset>
   </form>
   `;
-  return createElement('div', { name: 'spell-dialog', title: `${circle}º Círculo`, innerHTML: content.trim() });
+  return createElement('div', {
+    name: 'spell-dialog',
+    title: `${circle}º Círculo`,
+    innerHTML: content.trim(),
+  });
 }
 
 /*
-  * Generate the power dialog element.
-  *
-  * @param {string[]} options - All available powers names.
-  * @returns {HTMLDivElement}
-  * */
-function generatePowerDialog (options) {
+ * Generate the power dialog element.
+ *
+ * @param {string[]} options - All available powers names.
+ * @returns {HTMLDivElement}
+ * */
+function generatePowerDialog(options) {
   const content = `
   <form name="power-form">
     <fieldset>
@@ -70,5 +78,157 @@ function generatePowerDialog (options) {
     </fieldset>
   </form>
   `;
-  return createElement('div', { name: 'power-dialog', title: 'Habilidade ou Poder', innerHTML: content.trim() });
+  return createElement('div', {
+    name: 'power-dialog',
+    title: 'Habilidade ou Poder',
+    innerHTML: content.trim(),
+  });
+}
+
+/*
+ * Generate the customized button to be used to open the book dialog.
+ *
+ * @returns {HTMLButtonElement}
+ * */
+function generateBookButton() {
+  return createElement('button', {
+    id: BOOK_BUTTON_ID,
+    classes: 'tormenta20-book-button',
+    append: [
+      createElement('span', {
+        classes: 'tormenta20-book-button-tooltip',
+        innerHTML: 'Clique para abrir o Grimório',
+      }),
+    ],
+  });
+}
+
+/*
+ * Render the book folder as a <li> element;
+ *
+ * @param {string} path - The path to access the book item.
+ * @param {object} bookItem - The book item.
+ * @param {string} bookItem.name - The book item name.
+ * @param {object[]} bookItems[].items - If the book item type is 'folder', this is a list of book item.
+ * @returns {HTMLLIElement}
+ * */
+function renderBookFolder(path, bookItem) {
+  const folder = createElement('li', { classes: 'dd-item dd-folder' });
+  const title = createElement('span', {
+    classes: 'tormenta20-book-folder dd-content',
+    innerHTML: bookItem.name,
+  });
+  const items = createElement('ul', {
+    classes: 'tormenta20-book-nested-folder',
+  });
+  items.append(
+    ...bookItem.items.map((innerBookItem) =>
+      renderBookItem(`${path}-${bookItem.name}`, innerBookItem),
+    ),
+  );
+
+  folder.append(title, items);
+  // active tree view
+  title.onclick = () => {
+    folder
+      .querySelector('.tormenta20-book-nested-folder')
+      .classList.toggle('tormenta20-book-active-folder');
+    title.classList.toggle('tormenta20-book-folder-open');
+  };
+  return folder;
+}
+
+/*
+ * Render the book item description as a <div> element.
+ *
+ * @param {string} name - The book item name.
+ * @param {string} description - The description of the book item.
+ * @returns {HTMLDivElement}
+ * */
+function renderBookItemInfo(name, description) {
+  return createElement('div', {
+    title: name,
+    append: description
+      .split('\n\n')
+      .map((line) => createElement('p', { innerHTML: line })),
+  });
+}
+
+/*
+ * Render the book item as a <li> element.
+ *
+ * @param {string} path - The path to access the book item.
+ * @param {object} bookItem - The book item.
+ * @param {string} bookItem.type - The book item type, can be 'item' or 'folder'.
+ * @param {string} bookItem.name - The book item name.
+ * @param {object[]} bookItems[].items - If the book item type is 'folder', this is a list of book item.
+ * @param {string} bookItem.description - If the book item type is 'item', this is the description of the book item.
+ * @returns {HTMLLIElement}
+ * */
+function renderBookItem(path, bookItem) {
+  if (bookItem.type === 'folder') return renderBookFolder(path, bookItem);
+  const dialogId = slugify(`${path}-${bookItem.name}`);
+  const item = createElement('li', {
+    classes: 'tormenta20-book-row journalitem dd-item',
+  });
+  const icon = createElement('div', {
+    name: 'tormenta20-chat-info-button',
+    classes: 'tormenta20-book-chat-icon',
+    onclick: () => {
+      setValue(
+        '#textchat-input .ui-autocomplete-input',
+        `&{template:t20-info}{{infoname=${bookItem.name}}}{{description=${bookItem.description}}}`,
+      );
+      document.querySelector('#textchat-input .btn').click();
+    },
+    append: [createElement('a', { classes: 'pictos', innerHTML: 'q' })],
+  });
+  const title = createElement('div', {
+    name: 'tormenta20-dialog-info-button',
+    classes: 'tormenta20-book-item-name dd-content',
+    innerHTML: bookItem.name,
+    onclick: () => {
+      const dialog = createElement('div', {
+        id: dialogId,
+        title: bookItem.name,
+        append: bookItem.description
+          .split('\n\n')
+          .map((line) => createElement('p', { innerHTML: line })),
+      });
+      document.body.append(dialog);
+      $(dialog).dialog({
+        autoOpen: true,
+        closeText: '',
+        classes: {
+          'ui-dialog-titlebar':
+            'ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix ui-draggable-handle',
+          'ui-dialog-titlebar-close': 'ui-dialog-titlebar-close ui-corner-all',
+        },
+        close: () => {
+          $(dialog).dialog().dialog('destroy');
+          dialog.remove();
+        },
+      });
+    },
+  });
+  item.append(icon, title);
+  return item;
+}
+
+/*
+ * Generate the book dialog content.
+ *
+ * @param {object[]} bookItems - List of book item.
+ * @param {string} bookItems[].type - The book item type, can be 'item' or 'folder'.
+ * @param {string} bookItems[].name - The book item name.
+ * @param {object[]} bookItems[].items - If the book item type is 'folder', this is a list of book item.
+ * @param {string} bookItems[].description - If the book item type is 'item', this is the description of the book item.
+ * @returns {HTMLUListElement}
+ * */
+function generateBookDialogContent(bookItems) {
+  return createElement('ul', {
+    id: BOOK_LIST_ID,
+    classes: 'dd-list dd folderroot',
+    append: bookItems.map((bookItem) => renderBookItem('', bookItem)),
+  });
 }
