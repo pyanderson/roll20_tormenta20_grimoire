@@ -5,7 +5,7 @@
  * @param {string} bookItems[].name - The book item name.
  * @param {object[]} bookItems[].items - If the book item type is 'folder', this is a list of book item.
  * @param {string} bookItems[].description - If the book item type is 'item', this is the description of the book item.
- * @param {number} retry - The number of remaining attempts
+ * @param {number} retry - The number of remaining attempts.
  * */
 function addBookButton(bookItems, retry = 5) {
   const zoomDiv = document.getElementById(ZOOM_DIV_ID);
@@ -23,9 +23,6 @@ function addBookButton(bookItems, retry = 5) {
     `${parseInt(valueInPx.slice(0, -2)) + 25}px`;
   // Get the initial style
   const zoomDivStyle = window.getComputedStyle(zoomDiv);
-  console.log({
-    newValue: calcRightValue(zoomDivStyle.getPropertyValue('right')),
-  });
   const buttonCSSText = `
     position: absolute;
     right: ${calcRightValue(zoomDivStyle.getPropertyValue('right'))};
@@ -68,9 +65,6 @@ function addBookButton(bookItems, retry = 5) {
   const observer = new MutationObserver((mutations) => {
     mutations.forEach((mutationRecord) => {
       button.style.right = calcRightValue(mutationRecord.target.style.right);
-      console.log({
-        newValue: calcRightValue(mutationRecord.target.style.right),
-      });
     });
   });
   observer.observe(zoomDiv, {
@@ -87,6 +81,10 @@ function loadBook() {
   fetch(chrome.runtime.getURL(BOOK_PATH))
     .then((response) => response.json())
     .then((bookItems) => {
-      addBookButton(bookItems);
+      fetch(chrome.runtime.getURL(TABLES_PATH))
+        .then((response) => response.json())
+        .then((tables) => {
+          addBookButton([...bookItems, tables]);
+        });
     });
 }

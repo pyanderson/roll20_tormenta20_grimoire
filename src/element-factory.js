@@ -139,18 +139,52 @@ function renderBookFolder(path, bookItem) {
 }
 
 /*
- * Render the book item description as a <div> element.
+ * Generate a table element from a string in the TSV format.
  *
- * @param {string} name - The book item name.
- * @param {string} description - The description of the book item.
- * @returns {HTMLDivElement}
+ * @param {string} content - Table content.
+ * @returns {HTMLDivElement|null}
  * */
-function renderBookItemInfo(name, description) {
+function generateTableFromTSV(content) {
+  const lines = content.split('\n');
+  if (lines.length <= 1) return null;
+  const [header, ...rows] = lines;
+  const columns = header.split('\t');
+  const generateRow = (row) => {
+    const cells = row.split('\t');
+    if (cells.length === 1)
+      return [
+        createElement('td', {
+          innerHTML: cells[0].trim(),
+          colspan: `${columns.length}`,
+        }),
+      ];
+    return cells.map((cell) => createElement('td', { innerHTML: cell.trim() }));
+  };
   return createElement('div', {
-    title: name,
-    append: description
-      .split('\n\n')
-      .map((line) => createElement('p', { innerHTML: line })),
+    classes: 'content note-editor notes',
+    append: [
+      createElement('table', {
+        classes: 'userscript-table userscript-table-bordered',
+        append: [
+          createElement('thead', {
+            append: [
+              createElement('tr', {
+                append: columns.map((column) =>
+                  createElement('th', { innerHTML: column.trim() }),
+                ),
+              }),
+            ],
+          }),
+          createElement('tbody', {
+            append: rows.map((row) =>
+              createElement('tr', {
+                append: generateRow(row),
+              }),
+            ),
+          }),
+        ],
+      }),
+    ],
   });
 }
 
@@ -188,12 +222,16 @@ function renderBookItem(path, bookItem) {
     classes: 'tormenta20-book-item-name dd-content',
     innerHTML: bookItem.name,
     onclick: () => {
+      const dialogContent =
+        bookItem.type === 'item'
+          ? bookItem.description
+              .split('\n\n')
+              .map((line) => createElement('p', { innerHTML: line.trim() }))
+          : [generateTableFromTSV(bookItem.content)];
       const dialog = createElement('div', {
         id: dialogId,
         title: bookItem.name,
-        append: bookItem.description
-          .split('\n\n')
-          .map((line) => createElement('p', { innerHTML: line })),
+        append: dialogContent,
       });
       document.body.append(dialog);
       $(dialog).dialog({
@@ -208,10 +246,14 @@ function renderBookItem(path, bookItem) {
           $(dialog).dialog().dialog('destroy');
           dialog.remove();
         },
+        ...(bookItem.type === 'item'
+          ? { width: 400, height: 200 }
+          : { width: 600, height: 400 }),
       });
     },
   });
-  item.append(icon, title);
+  if (bookItem.type === 'item') item.append(icon);
+  item.append(title);
   return item;
 }
 

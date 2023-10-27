@@ -48,10 +48,12 @@ function addEventObserver(el, eventName, eventHandler, options = {}) {
  * */
 function createElement(tagName, attributes = {}) {
   const newElement = document.createElement(tagName);
-  const { id, name, classes, append, ...other } = attributes;
-  Object.entries({ id, name, class: classes }).forEach(([key, value]) => {
-    if (key && value) newElement.setAttribute(key, value);
-  });
+  const { id, name, classes, append, colspan, ...other } = attributes;
+  Object.entries({ id, name, class: classes, colspan }).forEach(
+    ([key, value]) => {
+      if (key && value) newElement.setAttribute(key, value);
+    },
+  );
   Object.assign(newElement, other);
   if (append && append.length > 0) newElement.append(...append);
   return newElement;

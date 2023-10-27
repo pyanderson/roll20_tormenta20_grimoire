@@ -2,6 +2,7 @@
 const SPELLS_PATH = 'data/spells.json';
 const POWERS_PATH = 'data/powers.json';
 const BOOK_PATH = 'data/book.json';
+const TABLES_PATH = 'data/tables.json';
 const CHARACTER_SHEET_CSS_PATH = 'css/sheet.css';
 const ICON_PATH = 'images/32.png';
 

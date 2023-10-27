@@ -1,0 +1,22 @@
+{
+  "type": "folder",
+  "name": "Tabelas",
+  "items": [
+    {
+      "type": "folder",
+      "name": "Capítulo 5",
+      "items": [
+        {
+          "type": "table",
+          "name": "Tabela 5-1: Dificuldades",
+          "content": "Tarefa\tCD\tExemplo\nFácil*\t5\tSubir uma encosta íngreme (Atletismo)\nMédia\t10\tOuvir um guarda se aproximando (Percepção)\nDifícil\t15\tEstancar um sangramento (Cura)\nDesafiadora\t20\tNadar contra uma correnteza (Atletismo)\nFormidável\t25\tSabotar uma armadilha complexa (Ladinagem)\nHeroica\t30\tDecifrar um pergaminho antigo em um idioma morto (Conhecimento)\nQuase Impossível\t40\tFabricar uma “obra-prima”, ou seja, um item com quatro melhorias (Ofício)\n*Testes fáceis aparecem na tabela para fornecer senso de escala, mas normalmente não são exigidos — caso um personagem tente uma tarefa fácil, o mestre pode considerar que ele passa automaticamente, para acelerar o jogo."
+        },
+        {
+          "type": "table",
+          "name": "Tabela 5-2: Testes Estendidos",
+          "content": "Sucessos exigidos\tComplexidade\tExemplos\n3\tBaixa\tEscalar um paredão (Atletismo)\n5\tMédia\tAtravessar o Pântano dos Juncos (Sobrevivência)\n7\tAlta\tCompreender um ritual antigo (Misticismo)"
+        }
+      ]
+    }
+  ]
+}
