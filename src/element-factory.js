@@ -156,6 +156,7 @@ function generateTableFromTSV(content) {
         createElement('td', {
           innerHTML: cells[0].trim(),
           colspan: `${columns.length - cells.length + 1}`,
+          align: cells.length === 1 ? 'center' : 'left',
         }),
         ...cells
           .slice(1)

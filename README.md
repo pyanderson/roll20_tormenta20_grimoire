@@ -36,7 +36,7 @@ Visite a página da loja de extensões do seu navegador:
 - [x] Poderes gerais (Ficha) _[v0.0.8]_
 - [x] Equipamento (Menu Lateral) _[v0.0.10]_
 - [x] Versão parcial do Jogo do Ano e subtistuição do menu lateral por um botão que abre o Grimório _[v0.3.0]_
-- [ ] Jogo do Ano
+- [x] Jogo do Ano _[v0.3.1]_
 - [ ] Poderes de classes (Grimório)
 - [ ] Poderes de origens (Grimório)
 - [ ] Poderes gerais (Grimório)
@@ -45,29 +45,11 @@ Visite a página da loja de extensões do seu navegador:
 - [ ] Bestiário?
 - [ ] ??????
 
-## Atualização para o Jogo Do Ano
-
-- [x] Habilidades de raça
-- [x] Poderes e Habilidades de classes
-- [x] Perícias
-- [x] Poderes de Combate
-- [x] Poderes de Destino
-- [x] Poderes de Magia
-- [x] Poderes Concedidos
-- [x] Poderes da Tormenta
-- [x] Magias
-- [ ] Equipamento - Armas
-- [ ] Equipamento - Armaduras & Escudos
-- [ ] Equipamento - Itens Gerais
-- [ ] Itens Superiores
-- [x] Combate
-- [x] Condições
-
 ## FAQ
 
 ### Qual versão do livro está sendo usada?
 
-No momento está sendo feita a atualização para a versão Jogo do Ano, mais precisamente a 3ª edição lançada.
+Versão Jogo do Ano, mais precisamente a 3ª edição lançada.
 
 ### Como posso contribuir?
 

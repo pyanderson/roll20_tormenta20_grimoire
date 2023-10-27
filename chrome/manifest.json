@@ -1,8 +1,17 @@
 {
-  "name": "Roll20: Grimório do Tormenta20",
-  "description": "Escolha magias diretamente na sua ficha!",
-  "version": "0.3.0",
   "manifest_version": 3,
+  "name": "Roll20: Grimório do Tormenta20",
+  "version": "0.3.0",
+  "short_name": "Roll20: T20",
+  "description": "Escolha magias, habilidades e poderes na ficha! Consulte regras e equipamentos do T20 no Roll20.",
+  "author": "roll20tormenta20@pyanderson.dev",
+  "homepage_url": "https://roll20tormenta20.pyanderson.dev/",
+  "icons": {
+    "16": "images/16.png",
+    "32": "images/32.png",
+    "48": "images/48.png",
+    "128": "images/128.png"
+  },
   "content_scripts": [
     {
       "matches": [
@@ -37,11 +46,5 @@
         "<all_urls>"
       ]
     }
-  ],
-  "icons": {
-    "16": "images/16.png",
-    "32": "images/32.png",
-    "48": "images/48.png",
-    "128": "images/128.png"
-  }
+  ]
 }

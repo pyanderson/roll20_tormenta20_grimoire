@@ -15,6 +15,57 @@
     },
     {
       "type": "folder",
+      "name": "Capítulo 3",
+      "items": [
+        {
+          "type": "table",
+          "name": "Tabela 3-1: Dinheiro Inicial",
+          "content": "Nível\tDinheiro Inicial (T$)\tNível\tDinheiro Inicial (T$)\n1º\t4d6\t11º\t19.000\n2º\t300\t12º\t27.000\n3º\t600\t13º\t36.000\n4º\t1.000\t14º\t49.000\n5º\t2.000\t15º\t66.000\n6º\t3.000\t16º\t88.000\n7º\t5.000\t17º\t110.000\n8º\t7.000\t18º\t150.000\n9º\t10.000\t19º\t200.000\n10º\t13.000\t20º\t260.000"
+        },
+        {
+          "type": "table",
+          "name": "Tabela 3-2: Dano de Armas",
+          "content": "–2 Passos\t–1 Passo\tNormal\t+1 Passo\t+2 Passos\t+3 Passos\n1\t1d2\t1d3\t1d4\t1d6\t1d8\n1d2\t1d3\t1d4\t1d6\t1d8\t1d10\n1d3\t1d4\t1d6\t1d8\t1d10\t1d12\n1d4\t1d6\t1d8\tou\t2d4\t1d10\t1d12\t3d6\n1d6\t1d8\t1d10\t1d12\t3d6\t4d6\n1d8\t1d10\t1d12,\t2d6\tou\t3d4\t3d6\t4d6\t4d8\n1d10\t2d6\t2d8\t3d8\t4d8\t4d10\n2d6\t2d8\t2d10\t3d10\t4d10\t4d12 (máximo)"
+        },
+        {
+          "type": "table",
+          "name": "Tabela 3-3: Armas",
+          "content": "Nome\tPreço\tDano\tCrítico\tAlcance\tTipo\tEspaços\nArma Simples\nCorpo a Corpo — Leves\nAdaga\tT$ 2\t1d4\t19\tCurto\tPerfuração\t1\nEspada curta\tT$ 10\t1d6\t19\t—\tPerfuração\t1\nFoice\tT$ 4\t1d6\tx3\t—\tCorte\t1\nCorpo a Corpo — Uma Mão\nClava\t—\t1d6\tx2\t—\tImpacto\t1\nLança\tT$ 2\t1d6\tx2\tCurto\tPerfuração\t1\nMaça\tT$ 12\t1d8\tx2\t—\tImpacto\t1\nCorpo a Corpo — Duas Mãos\nBordão\t—\t1d6/1d6\tx2\t—\tImpacto\t2\nPique\tT$ 2\t1d8\tx2\t—\tPerfuração\t2\nTacape\t—\t1d10\tx2\t—\tImpacto\t2\nAtaque à Distância — Uma Mão\nAzagaia\tT$ 1\t1d6\tx2\tMédio\tPerfuração\t1\nBesta leve\tT$ 35\t1d8\t19\tMédio\tPerfuração\t1\nVirotes (20)\tT$ 2\t—\t—\t—\t—\t1\nFunda\t—\t1d4\tx2\tMédio\tImpacto\t1\nPedras (20)\tT$ 0,5\t—\t—\t—\t—\t1\nAtaque à Distância — Duas Mãos\nArco curto\tT$ 30\t1d6\tx3\tMédio\tPerfuração\t2\nFlechas (20)\tT$ 1\t—\t—\t—\t—\t1\nArmas Marciais \nCorpo a Corpo — Leves\nMachadinha\tT$ 6\t1d6\tx3\tCurto\tCorte\t1\nCorpo a Corpo — Uma Mão\nCimitarra\tT$ 15\t1d6\t18\t—\tCorte\t1\nEspada longa\tT$ 15\t1d8\t19\t—\tCorte\t1\nFlorete\tT$ 20\t1d6\t18\t—\tPerfuração\t1\nMachado de batalha\tT$ 10\t1d8\tx3\t—\tCorte\t1\nMangual\tT$ 8\t1d8\tx2\t—\tImpacto\t1\nMartelo de guerra\tT$ 12\t1d8\tx3\t—\tImpacto\t1\nPicareta\tT$ 8\t1d6\tx4\t—\tPerfuração\t1\nTridente\tT$ 15\t1d8\tx2\tCurto\tPerfuração\t1\nCorpo a Corpo — Duas Mãos\nAlabarda\tT$ 10\t1d10\tx3\t—\tCorte/perfuração\t2\nAlfange\tT$ 75\t2d4\t18\t—\tCorte\t2\nGadanho\tT$ 18\t2d4\tx4\t—\tCorte\t2\nLança montada\tT$ 10\t1d8\tx3\t—\tPerfuração\t2\nMachado de guerra\tT$ 20\t1d12\tx3\t—\tCorte\t2\nMarreta\tT$ 20\t3d4\tx2\t—\tImpacto\t2\nMontante\tT$ 50\t2d6\t19\t—\tCorte\t2\nAtaque à Distância — Duas Mãos\nArco longo\tT$ 100\t1d8\tx3\tMédio\tPerfuração\t2\nFlechas (20)\tT$ 1\t—\t—\t—\t—\t1\nBesta pesada\tT$ 50\t1d12\t19\tMédio\tPerfuração\t2\nVirotes (20)\tT$ 2\t—\t—\t—\t—\t1\nArmas Exóticas\nCorpo a Corpo — Uma Mão\nChicote\tT$ 2\t1d3\tx2\t—\tCorte\t1\nEspada bastarda\tT$ 35\t1d10/1d12\t19\t—\tCorte\t1\nKatana\tT$ 100\t1d8/1d10\t19\t—\tCorte\t1\nMachado anão\tT$ 30\t1d10\tx3\t—\tCorte\t1\nCorpo a Corpo — Duas Mãos\nCorrente de espinhos\tT$ 25\t2d4/2d4\t19\t—\tCorte\t2\nMachado táurico\tT$ 50\t2d8\tx3\t—\tCorte\t2\nAtaque à Distância — Uma Mão\nRede\tT$ 20\t—\t—\tCurto\t—\t1\nArmas de Fogo\nAtaque à Distância — Leve\nPistola\tT$ 250\t2d6\t19/x3\tCurto\tPerfuração\t1\nBalas (20)\tT$ 20\t—\t—\t—\t—\t1\nAtaque à Distância — Duas Mãos\nMosquete\tT$ 500\t2d8\t19/x3\tMédio\tPerfuração\t2\nBalas (20)\tT$ 20\t—\t—\t—\t—\t1"
+        },
+        {
+          "type": "table",
+          "name": "Tabela 3-4: Munições",
+          "content": "Item\tPreço\tEspaços\nBalas\tT$ 20\t1\nFlechas\tT$ 1\t1\nPedras\tT$ 0,5\t1\nVirotes\tT$ 2\t1"
+        },
+        {
+          "type": "table",
+          "name": "Tabela 3-5: Armaduras & Escudos",
+          "content": "Nome\tPreço\tBônus na Defesa\tPenalidade de Armadura\tEspaços\nArmaduras Leves\nArmadura acolchoada\tT$ 5\t+1\t0\t2\nArmadura de couro\tT$ 20\t+2\t0\t2\nCouro batido\tT$ 35\t+3\t–1\t2\nGibão de peles\tT$ 25\t+4\t–3\t2\nCouraça\tT$ 500\t+5\t–4\t2\nArmaduras Pesadas\nBrunea\tT$ 50\t+5\t–2\t5\nCota de malha\tT$ 150\t+6\t–2\t5\nLoriga segmentada\tT$ 250\t+7\t–3\t5\nMeia armadura\tT$ 600\t+8\t–4\t5\nArmadura completa\tT$ 3.000\t+10\t–5\t5\nEscudos\nEscudo leve\tT$ 5\t+1\t–1\t1\nEscudo pesado\tT$ 15\t+2\t–2\t2"
+        },
+        {
+          "type": "table",
+          "name": "Tabela 3-6: Itens Gerais",
+          "content": "Item\tPreço\tEspaços\tItem\tPreço\tEspaços\nEquipamento de Aventura\t-\t-\tVestuário (continuação)\t-\t-\nÁgua benta\tT$ 10\t0,5\tChapéu arcano\tT$ 50\t1\nAlgemas\tT$ 15\t1\tEnfeite de elmo\tT$ 15\t1\nArpéu\tT$ 5\t1\tFarrapos de ermitão\tT$ 1\t1\nBandoleira de poções\tT$ 20\t1\tGorro de ervas\tT$ 75\t1\nBarraca\tT$ 10\t1\tLuva de pelica\tT$ 5\t1\nCorda\tT$ 1\t1\tManopla\tT$ 10\t1\nEspelho\tT$ 10\t1\tManto camuflado\tT$ 12\t1\nLampião\tT$ 7\t1\tManto eclesiástico\tT$ 20\t1\nMochila\tT$ 2\t—\tRobe místico\tT$ 50\t1\nMochila de aventureiro\tT$ 50\t—\tSapatos de camurça\tT$ 8\t1\nÓleo\tT$ 0,1\t0,5\tTabardo\tT$ 10\t1\nOrganizador de pergaminhos\tT$ 25\t1\tTraje da corte\tT$ 100\t1\nPé de cabra\tT$ 2\t1\tTraje de viajante\tT$ 10\t—\nSaco de dormir\tT$ 1\t1\tVeste de seda\tT$ 25\t1\nSímbolo sagrado\tT$ 5\t1\t-\t-\t-\nTocha\tT$ 0,1\t1\tEsotéricos\t-\t-\nVara de madeira (3m)\tT$ 0,2\t1\tBolsa de pó\tT$ 300\t1\n-\t-\t-\tCajado arcano\tT$ 1.000\t2\nFerramentas\t-\t-\tCetro elemental\tT$ 750\t1\nAlaúde élfico\tT$ 300\t1\tCostela de lich\tT$ 300\t1\nColeção de livros\tT$ 75\t1\tDedo de ente\tT$ 200\t1\nEquipamento de viagem\tT$ 10\t1\tLuva de ferro\tT$ 150\t1\nEstojo de disfarces\tT$ 50\t1\tMedalhão de prata\tT$ 750\t1\nFlauta mística\tT$ 150\t1\tOrbe cristalina\tT$ 750\t1\nGazua\tT$ 5\t1\tTomo hermético\tT$ 1.500\t1\nInstrumentos de <ofício>\tT$ 30\t1\tVarinha arcana\tT$ 100\t1\nInstrumento musical\tT$ 35\t1\t-\t-\t-\nLuneta\tT$ 100\t1\tAlquímicos — Preparados\t-\t-\nMaleta de medicamentos\tT$ 50\t1\tÁcido\tT$ 10\t0,5\nSela\tT$ 20\t1\tBálsamo restaurador\tT$ 10\t0,5\nTambor das profundezas\tT$ 80\t1\tBomba\tT$ 50\t0,5\n-\t-\t-\tCosmético\tT$ 30\t0,5\nVestuário\t-\t-\tElixir do amor\tT$ 100\t0,5\nAndrajos de aldeão\tT$ 1\t1\tEssência de mana\tT$ 50\t0,5\nBandana\tT$ 5\t1\tFogo alquímico\tT$ 10\t0,5\nBotas reforçadas\tT$ 20\t1\tPó do desaparecimento\tT$ 100\t0,5\nCamisa bufante\tT$ 25\t1\t-\t-\t-\nCapa esvoaçante\tT$ 25\t1\tAlquímicos — Catalisadores\t-\t-\nCapa pesada\tT$ 15\t1\tBaga-de-fogo\tT$ 30\t0,5\nCasaco longo\tT$ 20\t1\tDente-de-dragão\tT$ 45\t0,5\nTabela 3-6: Itens Gerais (Continuação)\nAlquímicos — Catalisadores (continuação)\t-\t-\tAnimais\t-\t-\nEssência abissal\tT$ 150\t0,5\tAlforje\tT$ 30\t—\nLíquen lilás\tT$ 30\t0,5\tCão de caça\tT$ 150\t—\nMusgo púrpura\tT$ 45\t0,5\tCavalo\tT$ 75\t—\nOssos de monstro\tT$ 45\t0,5\tCavalo de guerra\tT$ 400\t—\nPó de cristal\tT$ 30\t0,5\tEstábulo (por dia)\tT$ 0,1\t—\nPó de giz\tT$ 30\t0,5\tPônei\tT$ 5\t—\nRamo verdejante\tT$ 45\t0,5\tPônei de guerra\tT$ 30\t—\nSaco de sal\tT$ 45\t0,5\tTrobo\tT$ 60\t—\nSeixo de âmbar\tT$ 30\t0,5\t-\t-\t-\nTerra de cemitério\tT$ 30\t0,5\tVeículos\t-\t-\n-\t-\t-\tBalão goblin\tT$ 200\t—\nAlquímicos — Venenos\t-\t-\tCarroça\tT$ 150\t—\nBeladona\tT$ 1.500\t0,5\tCarruagem\tT$ 500\t—\nBruma sonolenta\tT$ 150\t0,5\tCanoa\tT$ 70\t—\nCicuta\tT$ 60\t0,5\tVeleiro\tT$ 10.000\t—\nEssência de sombra\tT$ 100\t0,5\t-\t-\t-\nNévoa tóxica\tT$ 30\t0,5\tServiços\t-\t-\nPeçonha comum\tT$ 15\t0,5\tEstadia (por noite)\t-\t-\nPeçonha concentrada\tT$ 90\t0,5\t-- comum\tT$ 0,5\t—\nPeçonha potente\tT$ 600\t0,5\t-- confortável\tT$ 4\t—\nPó de lich\tT$ 3.000\t0,5\t-- luxuosa\tT$ 20\t—\nRiso de Nimb\tT$ 150\t0,5\tCondução\t-\t-\n-\t-\t-\t-- terrestre\tT$ 0,5 por km\t—\nAlimentação\t-\t-\t-- marítima\tT$ 0,1 por km\t—\nBatata valkariana\tT$ 2\t0,5\t-- aérea\tT$ 10 por km\t—\nGorad quente\tT$ 18\t0,5\tCurandeiro\tT$ 5\t—\nMacarrão de Yuvalin\tT$ 6\t0,5\tMagia\t-\t-\nPrato do aventureiro\tT$ 1\t0,5\t-- 1º círculo\tT$ 10\t—\nRação de viagem (por dia)\tT$ 0,5\t0,5\t-- 2º círculo\tT$ 90\t—\nRefeição comum\tT$ 0,3\t0,5\t-- 3º círculo\tT$ 360\t—\nSopa de peixe\tT$ 1\t0,5\tMensageiro\tT$ 0,5 por km\t—"
+        },
+        {
+          "type": "table",
+          "name": "Tabela 3-7: Preço de Melhorias",
+          "content": "Número de Melhorias\tAumento no Preço\tAumento na CD\n1\t+ T$ 300\t+5\n2\t+ T$ 3.000\t+10\n3\t+ T$ 9.000\t+15\n4\t+ T$ 18.000\t+20"
+        },
+        {
+          "type": "table",
+          "name": "Tabela 3-8: Melhorias",
+          "content": "Melhoria\tEfeito\nMelhorias para armas\nCerteira\t+1 nos testes de ataque\n-- Pungente\t+2 nos testes de ataque\nCruel\t+1 nas rolagens de dano\n-- Atroz\t+2 nas rolagens de dano\nEquilibrada\t+2 em testes de manobras\nHarmonizada\tCusto de habilidades de ataque diminui em –1 PM\nInjeção alquímica\tGera efeito de preparado\nMaciça\t+1 no multiplicador de crítico\nMaterial especial\tConforme o material\nMira telescópica\tAumenta alcance da arma\nPrecisa\t+1 na margem de ameaça\nMelhorias para armaduras e escudos\nAjustada\t–1 na penalidade de armadura\n-- Sob medida\t–2 na penalidade de armadura\nDelicada\tAplica 1 ponto de Des na Defesa\nEspinhosa (armadura)\tCausa dano com agarrar\nEspinhoso (escudo)\tAumenta dano do escudo\nMaterial especial\tConforme o material\nPolida\t+2 na Defesa na primeira rodada\nReforçada\t+1 na Defesa, +1 na penalidade de armadura\nSelada\t+1 nos testes de resistência\nMelhorias para esotéricos\nCanalizador\t+1 no limite de PM\nEnergético\t+1d6 no dano de magias\nHarmonizado\tCusto de uma magia diminui em –1 PM\nMaterial especial\tConforme o material\nPoderoso\t+1 na CD de suas magias\nVigilante\t+2 na Defesa\nMelhorias para ferramentas e vestuário\nAprimorado\t+1 em testes de perícia\nMelhorias para qualquer das categorias acima\nBanhado a ouro\t+2 em Diplomacia\nCravejado de gemas\t+2 em Enganação\nDiscreto\t–1 espaço, +5 para ocultar\nMacabro\t+2 em Intimidação, –2 em Diplomacia"
+        },
+        {
+          "type": "table",
+          "name": "Tabela 3-9: Preço Adicional de Materiais Especiais",
+          "content": "Item\tAço-Rubi\tAdamante\tGelo Eterno\tMadeira Tollon\tMatéria Vermelha\tMitral\nArma\t+ T$ 6.000\t+ T$ 3.000\t+ T$ 600\t+ T$ 1.500\t+ T$ 1.500\t+ T$ 1.500\nArmadura leve\t+ T$ 3.000\t+ T$ 6.000\t+ T$ 1.500\t—\t+ T$ 6.000\t+ T$ 1.500\nArmadura pesada\t+ T$ 6.000\t+ T$ 18.000\t+ T$ 3.000\t—\t+ T$ 18.000\t+ T$ 12.000\nEscudo\t+ T$ 3.000\t+ T$ 6.000\t+ T$ 1.500\t+ T$ 1.500\t+ T$ 6.000\t+ T$ 1.500\nEsotéricos\t+ T$ 6.000\t+ T$ 3.000\t+ T$ 3.000\t+ T$ 1.500\t+ T$ 3.000\t+ T$ 3.000"
+        }
+      ]
+    },
+    {
+      "type": "folder",
       "name": "Capítulo 5",
       "items": [
         {
