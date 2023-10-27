@@ -151,12 +151,15 @@ function generateTableFromTSV(content) {
   const columns = header.split('\t');
   const generateRow = (row) => {
     const cells = row.split('\t');
-    if (cells.length === 1)
+    if (cells.length < columns.length)
       return [
         createElement('td', {
           innerHTML: cells[0].trim(),
-          colspan: `${columns.length}`,
+          colspan: `${columns.length - cells.length + 1}`,
         }),
+        ...cells
+          .slice(1)
+          .map((cell) => createElement('td', { innerHTML: cell.trim() })),
       ];
     return cells.map((cell) => createElement('td', { innerHTML: cell.trim() }));
   };

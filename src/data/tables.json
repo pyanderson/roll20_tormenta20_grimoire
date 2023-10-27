@@ -15,6 +15,16 @@
           "type": "table",
           "name": "Tabela 5-2: Testes Estendidos",
           "content": "Sucessos exigidos\tComplexidade\tExemplos\n3\tBaixa\tEscalar um paredão (Atletismo)\n5\tMédia\tAtravessar o Pântano dos Juncos (Sobrevivência)\n7\tAlta\tCompreender um ritual antigo (Misticismo)"
+        },
+        {
+          "type": "table",
+          "name": "Tabela 5-3: Situações Especiais",
+          "content": "O atacante está...\tModificador no ataque\nCaído\t–5\nCego\t50% de chance de falha\nEm posição elevada\t+2\nFlanqueando o alvo\t+2 (apenas para corpo a corpo)\nInvisível\t+5 (não se aplica a alvos cegos)\nOfuscado\t–2\nO alvo está...\tModificador na Defesa\nCaído\t–5 contra ataques corpo a corpo, +5 contra ataques à distância\nCego\t–5\nDesprevenido\t–5\nSob camuflagem leve\t20% de chance de falha\nSob camuflagem total\t50% de chance de falha\nSob cobertura leve\t+5\nSob cobertura total\tO alvo não pode ser atacado"
+        },
+        {
+          "type": "table",
+          "name": "Tabela 5-4: Estatísticas de Objetos",
+          "content": "Exemplo\tTamanho\tDef\tRD\tPV\nObjetos Gerais\nPergaminho\tMinúsculo\t15\t0\t1\nCorda\tMinúsculo\t15\t0\t2\nCorrente\tMinúsculo\t15\t10\t2\nCadeira\tPequeno\t12\t5\t5\nBarril\tMédio\t10\t5\t10\nPortad de madeira\tGrande\t8\t5\t20\nPorta de pedra\tGrande\t8\t8\t100\nPorta de ferro\tGrande\t8\t10\t100\nCarroça\tGrande\t8\t5\t50\nCasebre\tEnorme\t5\t5\t100\nCeleiro\tColossal\t0\t5\t200\nArmas, Armaduras e Escudos*\nArma leve de madeira (machadinha)\t5\t2\nArma de uma mão de madeira (clava)\t5\t5\nArma de duas mãos de madeira (bordão)\t5\t10\nArma leve de metal (adaga)\t10\t2\nArma de uma mão de metal(espadalonga)\t10\t5\nArma de duas mãos de metal (montante)\t10\t10\nEscudo leve\t5\t10\nEscudo pesado\t10\t20\nArmadura leve\t5\t20\nArmadura pesada\t10\t40\n*Pontos de vida de itens comuns. Divida por 2 para itens reduzidos, multiplique por 2 para itens aumentados e multiplique por 5 para itens gigantes."
         }
       ]
     }
