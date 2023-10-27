@@ -1,0 +1,26 @@
+baseURL = "https://roll20tormenta20.pyanderson.dev"
+languageCode = "en"
+defaultContentLanguage = "pt-br"
+
+title = "Roll20: Grimório do Tormenta20"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+  name = "Roll20: Grimório do Tormenta20"
+  headline = "Uma extensão para Chrome e Firefox"
+  image = "images/logo.png"
+
+  links = [
+    { chrome = { href = "https://chrome.google.com/webstore/detail/roll20-grim%C3%B3rio-do-tormen/lplnbanhibpehlmiiakcacambjleeeng", text = "Chrome" } },
+    { firefox = { href = "https://addons.mozilla.org/pt-BR/firefox/addon/roll20-grim%C3%B3rio-do-tormenta20/", text = "Firefox" } },
+    { github = { href = 'https://github.com/pyanderson/roll20_tormenta20_grimoire', text = 'GitHub' } },
+    { email = { href = "mailto:roll20tormenta20@pyanderson.dev", text = 'Email' } },
+
+  ]
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.86.1"
