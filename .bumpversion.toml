@@ -1,0 +1,20 @@
+[tool.bumpversion]
+current_version = "0.3.0"
+commit = true
+tag = true
+
+[[tool.bumpversion.files]]
+filename = "chrome/manifest.json"
+
+[[tool.bumpversion.files]]
+filename = "firefox/manifest.json"
+
+[[tool.bumpversion.files]]
+filename = "package.json"
+search = '"version": "{current_version}"'
+replace = '"version": "{new_version}"'
+
+[[tool.bumpversion.files]]
+filename = "package-lock.json"
+search = '"version": "{current_version}"'
+replace = '"version": "{new_version}"'
