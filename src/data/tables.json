@@ -4,6 +4,17 @@
   "items": [
     {
       "type": "folder",
+      "name": "Capítulo 2",
+      "items": [
+        {
+          "type": "table",
+          "name": "Tabela 2-1: Perícias",
+          "content": "Perícia\tAtributo-chave\tSomente Treinada?\tPenalidade de Armadura?\nAcrobacia\tDes\t—\tsim\nAdestramento\tCar\tsim\t—\nAtletismo\tFor\t—\t—\nAtuação\tCar\tsim\t—\nCavalgar\tDes\t—\t—\nConhecimento\tInt\tsim\t—\nCura\tSab\t—\t—\nDiplomacia\tCar\t—\t—\nEnganação\tCar\t—\t—\nFortitude\tCon\t—\t—\nFurtividade\tDes\t—\tsim\nGuerra\tInt\tsim\t—\nIniciativa\tDes\t—\t—\nIntimidação\tCar\t—\t—\nIntuição\tSab\t—\t—\nInvestigação\tInt\t—\t—\nJogatina\tCar\tsim\t—\nLadinagem\tDes\tsim\tsim\nLuta\tFor\t—\t—\nMisticismo\tInt\tsim\t—\nNobreza\tInt\tsim\t—\nOfício\tInt\tsim\t—\nPercepção\tSab\t—\t—\nPilotagem\tDes\tsim\t—\nPontaria\tDes\t—\t—\nReflexos\tDes\t—\t—\nReligião\tSab\tsim\t—\nSobrevivência\tSab\t—\t—\nVontade\tSab\t—\t—"
+        }
+      ]
+    },
+    {
+      "type": "folder",
       "name": "Capítulo 5",
       "items": [
         {
