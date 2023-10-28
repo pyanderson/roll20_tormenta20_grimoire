@@ -192,6 +192,40 @@ function generateTableFromTSV(content) {
   });
 }
 
+function openInfoDialog(dialogId, bookItem) {
+  const currentDialog = document.getElementById(dialogId);
+  if (currentDialog) return;
+  const dialogOptions = {
+    autoOpen: true,
+    closeText: '',
+    classes: {
+      'ui-dialog-titlebar':
+        'ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix ui-draggable-handle',
+      'ui-dialog-titlebar-close': 'ui-dialog-titlebar-close ui-corner-all',
+    },
+    close: () => {
+      $(dialog).dialog().dialog('destroy');
+      dialog.remove();
+    },
+    ...(bookItem.type === 'item'
+      ? { width: 400, height: 200 }
+      : { width: 600, height: 400 }),
+  };
+  const dialogContent =
+    bookItem.type === 'item'
+      ? bookItem.description
+          .split('\n\n')
+          .map((line) => createElement('p', { innerHTML: line.trim() }))
+      : [generateTableFromTSV(bookItem.content)];
+  const dialog = createElement('div', {
+    id: dialogId,
+    title: bookItem.name,
+    append: dialogContent,
+  });
+  document.body.append(dialog);
+  $(dialog).dialog(dialogOptions);
+}
+
 /*
  * Render the book item as a <li> element.
  *
@@ -225,36 +259,7 @@ function renderBookItem(path, bookItem) {
     name: 'tormenta20-dialog-info-button',
     classes: 'tormenta20-book-item-name dd-content',
     innerHTML: bookItem.name,
-    onclick: () => {
-      const dialogContent =
-        bookItem.type === 'item'
-          ? bookItem.description
-              .split('\n\n')
-              .map((line) => createElement('p', { innerHTML: line.trim() }))
-          : [generateTableFromTSV(bookItem.content)];
-      const dialog = createElement('div', {
-        id: dialogId,
-        title: bookItem.name,
-        append: dialogContent,
-      });
-      document.body.append(dialog);
-      $(dialog).dialog({
-        autoOpen: true,
-        closeText: '',
-        classes: {
-          'ui-dialog-titlebar':
-            'ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix ui-draggable-handle',
-          'ui-dialog-titlebar-close': 'ui-dialog-titlebar-close ui-corner-all',
-        },
-        close: () => {
-          $(dialog).dialog().dialog('destroy');
-          dialog.remove();
-        },
-        ...(bookItem.type === 'item'
-          ? { width: 400, height: 200 }
-          : { width: 600, height: 400 }),
-      });
-    },
+    onclick: () => openInfoDialog(dialogId, bookItem),
   });
   if (bookItem.type === 'item') item.append(icon);
   item.append(title);

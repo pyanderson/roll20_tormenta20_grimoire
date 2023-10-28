@@ -18,7 +18,8 @@
         "https://app.roll20.net/editor*"
       ],
       "css": [
-        "css/book.css"
+        "css/book.css",
+        "css/enhancement.css"
       ],
       "js": [
         "third-party/jquery-3.7.1.min.js",
@@ -28,6 +29,7 @@
         "element-factory.js",
         "powers.js",
         "spells.js",
+        "enhancement.js",
         "character-sheet.js",
         "book.js",
         "index.js"

@@ -1,11 +1,28 @@
 $(document).ready(() => {
+  // Loading all game data in one place to avoid loading this multiple times through the extension.
+  const t20Data = { book: [], spells: {}, powers: {}, tables: {} };
+  const promisses = [
+    [BOOK_PATH, 'book'],
+    [SPELLS_PATH, 'spells'],
+    [POWERS_PATH, 'powers'],
+    [TABLES_PATH, 'tables'],
+  ].map(([path, key]) =>
+    fetch(chrome.runtime.getURL(path))
+      .then((response) => response.json())
+      .then((data) => {
+        t20Data[key] = data;
+      }),
+  );
+
   $(window).on('message', (e) => {
     const data = e.originalEvent.data;
-    if (data.type === 'loaded') {
-      // only add the improvements when a character sheet is opened
-      loadSheetEnhancement(data.characterId);
-    }
+    // only add the sheet improvements when a character sheet is opened
+    if (data.type === 'loaded')
+      loadSheetEnhancement(t20Data.spells, t20Data.powers, data.characterId);
   });
 
-  loadBook();
+  Promise.all(promisses).then(() => {
+    loadBook([...t20Data.book, t20Data.tables]);
+    loadChatEnhancement(t20Data.book);
+  });
 });

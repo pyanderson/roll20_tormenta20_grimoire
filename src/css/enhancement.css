@@ -1,0 +1,12 @@
+.tormenta20-chat-button {
+  border: none;
+  background-color: inherit;
+  padding: 0px;
+  cursor: pointer;
+  display: inline-block;
+  color: green;
+}
+
+.tormenta20-chat-button:hover {
+  background: #eee;
+}

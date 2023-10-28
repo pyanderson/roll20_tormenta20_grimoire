@@ -1,4 +1,5 @@
 /*
+ * Add the book button to the page.
  *
  * @param {object[]} bookItems - List of book item.
  * @param {string} bookItems[].type - The book item type, can be 'item' or 'folder'.
@@ -7,7 +8,7 @@
  * @param {string} bookItems[].description - If the book item type is 'item', this is the description of the book item.
  * @param {number} retry - The number of remaining attempts.
  * */
-function addBookButton(bookItems, retry = 5) {
+function loadBook(bookItems, retry = 5) {
   const zoomDiv = document.getElementById(ZOOM_DIV_ID);
   // Wait until the zoom button is available
   if (!zoomDiv)
@@ -71,20 +72,4 @@ function addBookButton(bookItems, retry = 5) {
     attributes: true,
     attributeFilter: ['style'],
   });
-}
-
-/*
- * Load the book data and add the book button.
- *
- * */
-function loadBook() {
-  fetch(chrome.runtime.getURL(BOOK_PATH))
-    .then((response) => response.json())
-    .then((bookItems) => {
-      fetch(chrome.runtime.getURL(TABLES_PATH))
-        .then((response) => response.json())
-        .then((tables) => {
-          addBookButton([...bookItems, tables]);
-        });
-    });
 }
