@@ -131,3 +131,30 @@ function hasCSS({ iframe, url }) {
     }),
   );
 }
+
+/**
+ * Normalize a string.
+ *
+ * @param {string} s
+ * @returns {string}
+ */
+// eslint-disable-next-line no-unused-vars
+function normalize(s) {
+  return s
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase();
+}
+
+/**
+ * Clear all children elements.
+ *
+ * @param {object} props
+ * @param {HTMLElement} props.el - The element to be clear.
+ */
+// eslint-disable-next-line no-unused-vars
+function clearChildren({ el }) {
+  while (el.firstChild) {
+    el.removeChild(el.lastChild);
+  }
+}

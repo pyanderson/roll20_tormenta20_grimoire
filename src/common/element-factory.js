@@ -2,7 +2,7 @@
 /* common/constants vars */
 /* global BOOK_BUTTON_ID,BOOK_DIALOG_ID,BOOK_LIST_ID */
 /* common/helpers vars */
-/* global createElement,slugify,setInputValue */
+/* global createElement,slugify,setInputValue,addEventObserver,normalize,clearChildren */
 /* common/dialog-manager vars  */
 /* global openDialog */
 
@@ -265,11 +265,68 @@ function renderBookItem({ path, bookItem }) {
  * @returns {HTMLUListElement}
  */
 function createBookDialogContent({ bookItems }) {
-  return createElement('ul', {
+  const search = (data, searchTerm) => {
+    const deepCopy = (obj) => {
+      return JSON.parse(JSON.stringify(obj));
+    };
+    const searchRecursive = (node) => {
+      if (normalize(node.name).includes(searchTerm)) {
+        return deepCopy(node);
+      }
+      if (node.type === 'folder') {
+        const foundItems = node.items
+          .map(searchRecursive)
+          .filter((item) => item !== null);
+        if (foundItems.length > 0) {
+          const folderCopy = deepCopy(node);
+          folderCopy.items = foundItems.map(deepCopy);
+          return folderCopy;
+        }
+      }
+      return null;
+    };
+    const result = searchRecursive({ type: 'folder', name: '', items: data });
+    if (result && result.items.length === 0) return null;
+    return result;
+  };
+
+  const list = createElement('ul', {
     id: BOOK_LIST_ID,
     classes: 'dd-list dd folderroot',
     append: bookItems.map((bookItem) => renderBookItem({ path: '', bookItem })),
   });
+  const input = createElement('input', {
+    classes: 'ui-autocomplete-input',
+    autocomplete: 'off',
+    type: 'text',
+    placeholder: 'Search by name...',
+  });
+  addEventObserver({
+    el: input,
+    eventName: 'input',
+    eventHandler: () => {
+      const searchTerm = normalize(input.value);
+      if (searchTerm && searchTerm.length >= 2) {
+        const searchResult = search(bookItems, searchTerm);
+        clearChildren({ el: list });
+        if (searchResult) {
+          list.append(
+            ...searchResult.items.map((bookItem) =>
+              renderBookItem({ path: '', bookItem }),
+            ),
+          );
+        }
+      } else {
+        clearChildren({ el: list });
+        list.append(
+          ...bookItems.map((bookItem) =>
+            renderBookItem({ path: '', bookItem }),
+          ),
+        );
+      }
+    },
+  });
+  return [input, list];
 }
 
 /**
@@ -297,7 +354,7 @@ function createBookButton({ cssText, bookItems }) {
       height: 500,
       persists: true,
       moveToTopOnClick: false,
-      content: [createBookDialogContent({ bookItems })],
+      content: createBookDialogContent({ bookItems }),
     });
   };
   return button;
