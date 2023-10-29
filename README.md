@@ -38,11 +38,11 @@ Visite a página da loja de extensões do seu navegador:
 - [x] Versão parcial do Jogo do Ano e subtistuição do menu lateral por um botão que abre o Grimório _[v0.3.0]_
 - [x] Jogo do Ano _[v0.3.1]_
 - [x] Condições clicáveis no chat _[v0.4.0]_
+- [x] Busca _[v0.4.2]_
 - [ ] Poderes de classes (Grimório)
 - [ ] Poderes de origens (Grimório)
 - [ ] Poderes gerais (Grimório)
 - [ ] Equipamento (Ficha)
-- [ ] Busca
 - [ ] Bestiário?
 - [ ] ??????
 
