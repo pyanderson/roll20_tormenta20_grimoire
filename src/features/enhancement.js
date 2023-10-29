@@ -11,7 +11,7 @@
  *
  * @param {object} props
  * @param {HTMLDivElement} message - The roll20 chat message.
- * @param {object} conditionsMap - All conditions. TODO: Document
+ * @param {object.<string, BookItem>} conditionsMap - All conditions.
  */
 function enhanceMessage({ message, conditionsMap }) {
   Object.keys(conditionsMap).map((condition) => {

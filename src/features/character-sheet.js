@@ -126,8 +126,8 @@ function loadSheetExtraCSS({ iframe }) {
  * Load the sheet improvements.
  *
  * @param {object} props
- * @param {object} props.spells - The spells data. TODO: Document
- * @param {object} props.powers - The powers data. TODO: Document
+ * @param {SpellData} props.spells - The spells data.
+ * @param {PowerData} props.powers - The powers data.
  * @param {string} props.characterId - The character ID in the Roll20 game.
  */
 // eslint-disable-next-line no-unused-vars

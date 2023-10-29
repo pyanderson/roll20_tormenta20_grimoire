@@ -41,7 +41,7 @@ function calcCD({ iframe }) {
  * @param {object} props
  * @param {HTMLDocument} props.iframe - The character sheet iframe document.
  * @param {HTMLDivElement} props.container - The container to be filled.
- * @param {object} props.spell - The spell data. TODO: Document
+ * @param {Spell} props.spell - The spell data.
  */
 function fillSpellContainer({ iframe, container, spell }) {
   if (spell === undefined) return;
@@ -112,7 +112,7 @@ function fillSpellContainer({ iframe, container, spell }) {
  * @param {HTMLDocument} props.iframe - The character sheet iframe document.
  * @param {HTMLDivElement} props.container - The container to be filled.
  * @param {string} props.circle - The spell circle.
- * @param {object} props.data - The Tormenta20 data. TODO: Document
+ * @param {T20Data} props.data - The Tormenta20 data.
  */
 function renderSpellButton({ iframe, container, circle, data }) {
   if (container.querySelector('button[name="choose-spell"]')) return; // if the button already exists, ignore
@@ -183,7 +183,7 @@ function renderSpellButton({ iframe, container, circle, data }) {
  *
  * @param {object} props
  * @param {HTMLDocument} props.iframe - The character sheet iframe document.
- * @param {object} props.data - The Tormenta20 data.  TODO: Document
+ * @param {T20Data} props.data - The Tormenta20 data.
  */
 // eslint-disable-next-line no-unused-vars
 function renderSpellsButtons({ iframe, data }) {

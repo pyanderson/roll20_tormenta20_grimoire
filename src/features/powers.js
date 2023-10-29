@@ -9,7 +9,7 @@
  *
  * @param {object} props
  * @param {HTMLDivElement} props.container - The container to be filled.
- * @param {object} props.power - The Tormenta20 data. TODO: Document
+ * @param {Power} props.power - The Tormenta20 data.
  */
 function fillPowerContainer({ container, power }) {
   if (power === undefined) return;
@@ -31,7 +31,7 @@ function fillPowerContainer({ container, power }) {
  *
  * @param {object} props
  * @param {HTMLDivElement} props.container - The container to be filled.
- * @param {object} props.data - The Tormenta20 data. TODO: Document
+ * @param {T20Data} props.data - The Tormenta20 data.
  */
 function renderPowerButton({ container, data }) {
   if (container.querySelector('button[name="choose-power"]')) return; // if the button already exists, ignore
@@ -102,7 +102,7 @@ function renderPowerButton({ container, data }) {
  *
  * @param {object} props
  * @param {HTMLDocument} props.iframe - The character sheet iframe document.
- * @param {object} props.data - The Tormenta20 data. TODO: Document
+ * @param {T20Data} props.data - The Tormenta20 data.
  */
 // eslint-disable-next-line no-unused-vars
 function renderPowersButtons({ iframe, data }) {
