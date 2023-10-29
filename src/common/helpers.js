@@ -1,17 +1,20 @@
-/*
+'use strict';
+
+/**
  * https://youmightnotneedjquery.com/#on
  * Add event listeners for the element or for the elements returned by the selector.
  *
- * @param {HTMLElement} el - The element.
- * @param {string} eventName - The event name.
- * @param {function} eventHandler - The event handler that will be called when the event is triggered.
- * @param {object} options - A object that accepts the following attributes.
- * @param {string} [options.selector]
- * */
-function addEventObserver(el, eventName, eventHandler, options = {}) {
+ * @param {object} props
+ * @param {HTMLElement} props.el - The element.
+ * @param {string} props.eventName - The event name.
+ * @param {function} props.eventHandler - The event handler that will be called when the event is triggered.
+ * @param {string} [props.selector]
+ */
+// eslint-disable-next-line no-unused-vars
+function addEventObserver({ el, eventName, eventHandler, selector }) {
   const handlers = [];
-  if (options.selector) {
-    const elements = el.querySelectorAll(options.selector);
+  if (selector) {
+    const elements = el.querySelectorAll(selector);
     elements.forEach((childEl) => {
       class WrappedHandler {
         handleEvent(e) {
@@ -39,13 +42,14 @@ function addEventObserver(el, eventName, eventHandler, options = {}) {
   return handlers;
 }
 
-/*
+/**
  * Creates a HTML element.
  *
  * @param {string} tagName - A string that specifies the type of element to be created.
  * @param {object} [attributes={}] - A object with the attributes to be assigned to the new element.
  * @returns {HTMLElement}
- * */
+ */
+// eslint-disable-next-line no-unused-vars
 function createElement(tagName, attributes = {}) {
   const newElement = document.createElement(tagName);
   const { id, name, classes, append, colspan, ...other } = attributes;
@@ -59,26 +63,31 @@ function createElement(tagName, attributes = {}) {
   return newElement;
 }
 
-/*
+/**
  * Returns the first element that is a descendant of the document or element that matches the specified selectors path.
  *
- * @param {HTMLDocument|HTMLElement} root - The document are element to be used in the search
- * @param {string[]} path - List of selectors to be used to search the element
+ * @param {object} props
+ * @param {HTMLDocument|HTMLElement} props.root - The document are element to be used in the search
+ * @param {string[]} props.path - List of selectors to be used to search the element
  * @returns {HTMLElement|null}
- * */
-
-function pathQuerySelector(root, path) {
+ */
+// eslint-disable-next-line no-unused-vars
+function pathQuerySelector({ root, path }) {
   if (!root) return null;
   if (path.length === 0) return root;
-  return pathQuerySelector(root.querySelector(path[0]), path.slice(1));
+  return pathQuerySelector({
+    root: root.querySelector(path[0]),
+    path: path.slice(1),
+  });
 }
 
-/*
+/**
  * Slugfy a string.
  *
  * @param {string} s
  * @returns {string}
- * */
+ */
+// eslint-disable-next-line no-unused-vars
 function slugify(s) {
   return s
     .toLowerCase()
@@ -87,19 +96,38 @@ function slugify(s) {
     .trim();
 }
 
-/*
- * Update the value attribute if the selector returns a valid element
+/**
+ * Update the value attribute if the selector returns a valid element.
  *
- * @param {string} selector - The selector.
- * @param {string} value - The new value.
- * @param {HTMLDocument|HTMLElement} [origin=document]
+ * @param {object} props
+ * @param {string} props.selector - The selector.
+ * @param {string} props.value - The new value.
+ * @param {HTMLDocument|HTMLElement} [props.origin=document]
  * @returns {HTMLElement|null}
- * */
-
-function setValue(selector, value, origin = document) {
+ */
+// eslint-disable-next-line no-unused-vars
+function setInputValue({ selector, value, origin = document }) {
   const el = origin.querySelector(selector);
   if (!el) return null;
   el.focus();
   el.value = value;
   return el;
+}
+
+/**
+ * Check if a iframe has a css applied.
+ *
+ * @param {object} props
+ * @param {HTMLDocument} props.iframe - The character sheet iframe document.
+ * @param {string} props.url
+ * @returns {boolean}
+ */
+// eslint-disable-next-line no-unused-vars
+function hasCSS({ iframe, url }) {
+  const links = iframe.querySelectorAll('link[rel="stylesheet"]');
+  return Boolean(
+    Array.from(links).find((link) => {
+      return link.href === url;
+    }),
+  );
 }

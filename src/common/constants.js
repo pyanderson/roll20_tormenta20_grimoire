@@ -1,3 +1,5 @@
+'use strict';
+/* eslint-disable no-unused-vars */
 // Static Data
 const BOOK_PATH = 'data/book.json';
 const SPELLS_PATH = 'data/spells.json';

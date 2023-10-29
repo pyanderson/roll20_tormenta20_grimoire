@@ -1,10 +1,19 @@
-/*
+'use strict';
+/* common/constants vars */
+/* global TEXTCHAT_DIV_ID */
+/* common/helpers vars */
+/* global createElement,addEventObserver,slugify */
+/* common/element-factory vars */
+/* global openBookItemDialog */
+
+/**
  * Replace all conditions text in a message with a button that opens a dialog with the details.
  *
+ * @param {object} props
  * @param {HTMLDivElement} message - The roll20 chat message.
- * @param {object} conditionsMap - All conditions.
- * */
-function enhanceMessage(message, conditionsMap) {
+ * @param {object} conditionsMap - All conditions. TODO: Document
+ */
+function enhanceMessage({ message, conditionsMap }) {
   Object.keys(conditionsMap).map((condition) => {
     for (const button of message.querySelectorAll(
       'button.tormenta20-chat-button',
@@ -25,22 +34,31 @@ function enhanceMessage(message, conditionsMap) {
   for (const button of message.querySelectorAll(
     'button.tormenta20-chat-button',
   )) {
-    addEventObserver(button, 'click', (event) => {
-      const condition = conditionsMap[event.target.textContent.toLowerCase()];
-      if (condition) {
-        openInfoDialog(slugify(`-Condições-${condition.name}`), condition);
-      }
+    addEventObserver({
+      el: button,
+      eventName: 'click',
+      eventHandler: (event) => {
+        const condition = conditionsMap[event.target.textContent.toLowerCase()];
+        if (condition) {
+          openBookItemDialog({
+            dialogId: slugify(`-Condições-${condition.name}`),
+            bookItem: condition,
+          });
+        }
+      },
     });
   }
 }
 
-/*
+/**
  * Adds the ability to view condition details when clicking a condition name in chat.
  *
- * @param {object[]} book - The t20 book as list of folders.
- * */
-function loadChatEnhancement(book) {
-  const conditionsMap = book
+ * @param {object} props
+ * @param {BookItem[]} props.bookItems - The t20 book as list of folders.
+ */
+// eslint-disable-next-line no-unused-vars
+function loadChatEnhancement({ bookItems }) {
+  const conditionsMap = bookItems
     .find((folder) => folder.name === 'Condições')
     .items.reduce((acc, item) => {
       acc[item.name.toLowerCase()] = item;
@@ -57,7 +75,7 @@ function loadChatEnhancement(book) {
             node.classList.contains('message') &&
             node.classList.contains('general')
           ) {
-            enhanceMessage(node, conditionsMap);
+            enhanceMessage({ message: node, conditionsMap });
           }
         }
       }
@@ -73,6 +91,6 @@ function loadChatEnhancement(book) {
   // Enhance current messages.
   const messages = chat.querySelectorAll('.message.general');
   for (const message of messages) {
-    enhanceMessage(message, conditionsMap);
+    enhanceMessage({ message, conditionsMap });
   }
 }

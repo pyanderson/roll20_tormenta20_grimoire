@@ -24,14 +24,15 @@
       "js": [
         "third-party/jquery-3.7.1.min.js",
         "third-party/jquery-ui-1.12.1.min.js",
-        "constants.js",
-        "helpers.js",
-        "element-factory.js",
-        "powers.js",
-        "spells.js",
-        "enhancement.js",
-        "character-sheet.js",
-        "book.js",
+        "common/constants.js",
+        "common/helpers.js",
+        "common/dialog-manager.js",
+        "common/element-factory.js",
+        "features/powers.js",
+        "features/spells.js",
+        "features/character-sheet.js",
+        "features/book.js",
+        "features/enhancement.js",
         "index.js"
       ],
       "run_at": "document_end"
