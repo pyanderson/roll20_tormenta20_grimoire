@@ -140,24 +140,38 @@ function loadSheetEnhancement({ spells, abilitiesAndPowers, characterId }) {
     console.error(`iframe not found for character ID: ${characterId}`);
     return;
   }
+  const observerOptions = {
+    attributes: false,
+    childList: true,
+    subtree: true,
+  };
   // Start the observer
-  const observer = new MutationObserver(() => {
+  const observer = new MutationObserver((_, iframeObserver) => {
     const spellsContainer = pathQuerySelector({
       root: iframe.contentDocument,
       path: ['div.sheet-left-container', 'div.sheet-spells'],
     });
-    if (spellsContainer) {
+    const powersContainer = pathQuerySelector({
+      root: iframe.contentDocument,
+      path: ['div.sheet-left-container', 'div.sheet-powers-and-abilities'],
+    });
+    if (spellsContainer && powersContainer) {
       init({ iframe: iframe.contentDocument, characterId });
       calcCD({ iframe: iframe.contentDocument });
       renderSpellsButtons({ iframe: iframe.contentDocument, data });
       renderPowersButtons({ iframe: iframe.contentDocument, data });
+      const spellsObserver = new MutationObserver(() => {
+        renderSpellsButtons({ iframe: iframe.contentDocument, data });
+      });
+      const powersObserver = new MutationObserver(() => {
+        renderPowersButtons({ iframe: iframe.contentDocument, data });
+      });
+      spellsObserver.observe(spellsContainer, observerOptions);
+      powersObserver.observe(powersContainer, observerOptions);
+      iframeObserver.disconnect();
     }
   });
-  observer.observe(iframe.contentDocument, {
-    attributes: false,
-    childList: true,
-    subtree: true,
-  });
+  observer.observe(iframe.contentDocument, observerOptions);
 
   loadSheetExtraCSS({ iframe: iframe.contentDocument });
 }
