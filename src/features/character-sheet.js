@@ -131,14 +131,9 @@ function loadSheetExtraCSS({ iframe }) {
  * @param {string} props.characterId - The character ID in the Roll20 game.
  */
 // eslint-disable-next-line no-unused-vars
-function loadSheetEnhancement({ spells, powers, characterId }) {
+function loadSheetEnhancement({ spells, abilitiesAndPowers, characterId }) {
   // Fetch the Tormenta20 data
-  const data = { spells, powers, powersOptions: [] };
-  for (const type of Object.keys(data.powers)) {
-    for (const name of Object.keys(data.powers[type])) {
-      data.powersOptions.push(`${type} - ${name}`);
-    }
-  }
+  const data = { spells, abilitiesAndPowers };
   // Load the functionalities
   const iframe = document.querySelector(`iframe[name="iframe_${characterId}"]`);
   if (!iframe) {

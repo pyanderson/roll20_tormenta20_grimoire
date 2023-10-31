@@ -42,7 +42,11 @@ function renderPowerButton({ container, data }) {
       innerHTML: 'Escolher',
     }),
   );
-  container.prepend(createPowerDialog({ options: data.powersOptions }));
+  container.prepend(
+    createPowerDialog({
+      options: Object.keys(data?.abilitiesAndPowers || {}),
+    }),
+  );
   container.style.flexDirection = 'column';
   container.style.gap = '8px';
   const button = container.querySelector('button[name="choose-power"]');
@@ -54,11 +58,9 @@ function renderPowerButton({ container, data }) {
     closeText: '',
     buttons: {
       Confirmar: () => {
-        const items = input.value.split(' - ');
-        if (items.length <= 1) return false;
         fillPowerContainer({
           container,
-          power: data.powers[items[0]][items[1]],
+          power: data.abilitiesAndPowers[input.value],
         });
         dialog.dialog('close');
       },
@@ -75,11 +77,9 @@ function renderPowerButton({ container, data }) {
     eventName: 'keydown',
     eventHandler: (e) => {
       if (e.keyCode === 13) {
-        const items = input.value.split(' - ');
-        if (items.length <= 1) return false;
         fillPowerContainer({
           container,
-          power: data.powers[items[0]][items[1]],
+          power: data.abilitiesAndPowers[input.value],
         });
         dialog.dialog('close');
       }

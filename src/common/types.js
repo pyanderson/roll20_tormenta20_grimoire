@@ -43,8 +43,7 @@
  * @typedef T20Data
  * @type {object}
  * @property {SpellData} spells
- * @property {PowerData} powers
- * @property {string[]} powersOptions
+ * @property {PowerData} abilitiesAndPowers
  */
 
 /**
@@ -54,5 +53,5 @@
 
 /**
  * @typedef PowerData
- * @type {object.<string, object.<string, Power>>}
+ * @type {object.<string, Power>}
  */

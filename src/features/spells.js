@@ -72,7 +72,7 @@ function fillSpellContainer({ iframe, container, spell }) {
   });
   setInputValue({
     selector: 'input[name="attr_spellalvoarea"]',
-    value: spell.target || spell.area,
+    value: spell.target || spell.area || spell.effect,
     origin: container,
   });
   setInputValue({
@@ -132,6 +132,7 @@ function renderSpellButton({ iframe, container, circle, data }) {
   const button = container.querySelector('button[name="choose-spell"]');
   const form = container.querySelector('form[name="spell-form"]');
   const input = form.querySelector('input[name="spell-name"]');
+  // TODO: Use the dialog manager
   const dialog = $(container.querySelector('div[name="spell-dialog"]')).dialog({
     autoOpen: false,
     closeText: '',
