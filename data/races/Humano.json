@@ -1,0 +1,24 @@
+{
+  "name": "Humano",
+  "displacement": 9,
+  "attributes": [
+    {
+      "attr": "any",
+      "mod": 1
+    },
+    {
+      "attr": "any",
+      "mod": 1
+    },
+    {
+      "attr": "any",
+      "mod": 1
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Versátil",
+      "description": "Você se torna treinado em duas perícias a sua escolha (não precisam ser da sua classe). Você pode trocar uma dessas perícias por um poder geral a sua escolha."
+    }
+  ]
+}

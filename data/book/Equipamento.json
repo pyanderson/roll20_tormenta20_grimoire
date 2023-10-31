@@ -1,0 +1,1531 @@
+{
+  "type": "folder",
+  "name": "Equipamento",
+  "items": [
+    {
+      "type": "item",
+      "name": "Equipamento Inicial",
+      "description": "Personagens de 1º nível começam com os itens fornecidos pela sua origem e os itens a seguir.\n\n• Uma mochila, um saco de dormir e um traje de viajante.\n\n• Uma arma simples a sua escolha. Se você tiver proficiência com armas marciais, também começa com uma arma marcial a sua escolha.\n\n• Uma armadura de couro, couro batido ou gibão de peles, a sua escolha. Se você tiver proficiência com armaduras pesadas, em vez disso pode começar com uma brunea. Se tiver proficiência com escudos, começa também com um escudo leve. Exceção: arcanistas começam sem armadura.\n\n• T$ 4d6, que você pode usar para comprar itens ou guardar para usar na aventura."
+    },
+    {
+      "type": "item",
+      "name": "Riqueza & Moedas",
+      "description": "O Tibar (T$) é a moeda padrão do Reinado. Trata-se de uma peça redonda de prata com 1,5 cm de diâmetro. A cunhagem traz em um lado o rosto de Tibar, o Deus do Comércio — um rei com cabelos encaracolados e uma joia em forma de olho na coroa; e no outro lado o mesmo rosto, mas sem a coroa. Em Arton, ao jogar “cara ou coroa”, o costume é escolher “coroa ou não coroa”.\n\nA moeda foi criada por Quindogar Tolliannor, primeiro conselheiro real de Deheon e adepto ardoroso das artes da barganha e negociação. Ficou tão popular que Tollianor passou a ser conhecido pelo nome de sua criação e ascendeu como Deus Menor do Comércio. Atualmente, ele tenta “negociar” uma posição no Panteão. Acredita-se que manter um Tibar no bolso ou no pescoço (como um amuleto) garante boa fortuna.\n\nNem todos os reinos seguem o padrão do Tibar. Em alguns lugares, devido à escassez de prata, o Tibar de cobre é usado como moeda padrão. Em outros, o valor do Tibar pode apresentar flutuações — provocando grande agitação entre as guildas de comerciantes, falsificadores e contrabandistas.\n\nPor padrão, todos os preços de itens e serviços são exibidos em T$. Entretanto, existem duas variações da moeda: o Tibar de cobre (TC), que vale um décimo do T$, utilizado por camponeses e plebeus, e o Tibar de Ouro (TO), que vale T$ 10, utilizado por aristocratas, grandes mercadores e aventureiros poderosos."
+    },
+    {
+      "type": "item",
+      "name": "Troca & comércio",
+      "description": "No Reinado, o comércio é organizado por guildas mercantes. As guildas decidem quem pode vender o quê e o valor dos produtos e serviços que controlam, o que garante um padrão nos preços. Em lugares afastados, ermos ou sob o domínio de tiranos, porém, os preços podem variar muito.\n\nNo geral, personagens podem comprar itens pelos preços listados nas tabelas e vendê-los pela metade desses preços. Em certos lugares, o mestre pode determinar que os itens são mais caros, estão disponíveis em quantidades limitadas ou não estão disponíveis (veja o Capítulo 6). Comprando ou vendendo, os valores podem ser melhorados através de barganha (veja a perícia Diplomacia)."
+    },
+    {
+      "type": "folder",
+      "name": "Usando & Carregando",
+      "items": [
+        {
+          "type": "item",
+          "name": "Usando & Carregando",
+          "description": "Equipamento é extremamente útil, mas há um limite de quantos itens você pode usar ou carregar ao mesmo tempo."
+        },
+        {
+          "type": "item",
+          "name": "Limites de Uso",
+          "description": "Alguns itens precisam ser empunhados para serem usados. Isso inclui armas, escudos, itens alquímicos e outros, como tochas e varinhas. Você pode empunhar apenas um item em cada mão, ou seja, pode empunhar no máximo dois itens ao mesmo tempo (supondo que você tenha duas mãos). Você pode guardar um item empunhado com uma ação de movimento ou largá-lo no chão com uma ação livre.\n\nItens que não são empunhados precisam ser vestidos. Você pode receber os benefícios de no máximo quatro itens vestidos simultaneamente — há um limite para a quantidade de objetos com os quais é possível lidar ao mesmo tempo. Se você vestir um quinto item, ele não fornecerá seu benefício até que você remova outro. Vestir ou despir um item é uma ação de movimento (e você ainda precisa gastar outra ação de movimento para guardá-lo ou uma ação livre para largá-lo no chão). Note que esse limite se aplica apenas a itens com benefícios mecânicos — você pode vestir seu traje de viajante, ou outra roupa que não forneça bônus, sem que isso afete seu limite."
+        },
+        {
+          "type": "item",
+          "name": "Limites de Carga",
+          "description": "A quantidade de equipamento que você pode carregar é medida em espaços de itens. Por padrão, um item ocupa 1 espaço. Porém, há exceções:\n\n• Itens alquímicos, poções, pergaminhos e outros itens muitos leves ou pequenos ocupam meio espaço. Ou seja, dois desses itens ocupam 1 espaço.\n\n• Armas de duas mãos, armaduras leves, escudos pesados, criaturas Minúsculas e outros itens pesados ou volumosos ocupam 2 espaços.\n\n• Armaduras pesadas, criaturas Pequenas e outros itens muito pesados ou volumosos, como um barril ou baú, ocupam 5 espaços.\n\n• Itens extremamente pesados ou volumosos, como uma criatura Média, ocupam 10 espaços. Itens ainda maiores podem ocupar mais espaços ou serem impossíveis de carregar, a critério do mestre.\n\n• Cada mil moedas, independentemente do tipo, ocupam 1 espaço. Você pode carregar 10 espaços +2 por ponto de Força (ou –1 por ponto de Força negativo). Se ultrapassar esse limite, fica sobrecarregado — sofre penalidade de armadura –5 e seu deslocamento é reduzido em –3m.\n\nVocê não pode carregar mais do que o dobro do seu limite. Assim, um personagem com Força 2 pode carregar até 14 espaços sem penalidade, e até 28 espaços ficando sobrecarregado. Ele não pode carregar mais de 28 espaços de itens.\n\nA regra considera que você possui uma mochila onde carregar seu equipamento. A própria mochila não ocupa espaço. De forma similar, recipientes cuja única função seja carregar outros itens não ocupam espaço. Por exemplo, a bainha de uma espada está incluída no espaço da própria espada. Porém, recipientes que forneçam benefícios próprios, como uma bandoleira de poções, ocupam espaço.\n\nPor fim, a critério do mestre, pequenos itens que não possuem efeito em jogo — ou seja, que são meramente “cosméticos” — não precisam ser considerados. Você pode carregar um traje de viajante (ou outra roupa que não forneça um benefício) sem que isso ocupe espaço."
+        },
+        {
+          "type": "item",
+          "name": "Carga: Bastidores",
+          "description": "A regra de carga existe para adicionar um elemento tático ao jogo, fazendo com que o jogador precise escolher o que levar em cada aventura — ou o que abandonar, caso encontre um item valioso mas já esteja com seus espaços ocupados. O mestre pode ignorar essa regra, desde que os jogadores não abusem. Nada de sair por aí com 50 essências de mana!\n\nA regra usa espaços em vez de peso para considerar tanto peso quanto volume, e para simplificar os cálculos. Obviamente, a regra é abstrata. Em caso de dúvida, o mestre deve decidir o que achar mais coerente. Lembre-se da filosofia básica: 1 item = 1 espaço. Para definir o que é “um item”, pense em termos de funcionalidade. Uma espada e sua bainha ocupam apenas 1 espaço porque a bainha sozinha não tem utilidade. Porém, uma bainha mágica, com poderes, ocupa um espaço próprio. Isso pode não fazer muito sentido em termos simulacionistas, mas é um preço pequeno a se pagar pela simplicidade. Se isso incomodá-lo, considere que a bainha mágica é mais pesada, precisa de mais cuidados etc."
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "Armas",
+      "items": [
+        {
+          "type": "item",
+          "name": "Armas",
+          "description": "Armas são classificadas de acordo com a proficiência necessária para usá-la (simples, marciais, exóticas ou de fogo), propósito (ataque corpo a corpo ou à distância) e empunhadura (leve, uma mão ou duas mãos)."
+        },
+        {
+          "type": "folder",
+          "name": "Proficiência",
+          "items": [
+            {
+              "type": "item",
+              "name": "Armas Simples",
+              "description": "Armas de manejo fácil, como adagas, clavas e lanças. Todos os personagens sabem usar armas simples."
+            },
+            {
+              "type": "item",
+              "name": "Armas Marciais",
+              "description": "Espadas, machados e outras armas de uso específico de combatentes. Bárbaros, bardos, bucaneiros, caçadores, cavaleiros, guerreiros, nobres e paladinos sabem usar armas marciais."
+            },
+            {
+              "type": "item",
+              "name": "Armas Exóticas",
+              "description": "Armas difíceis de dominar, como a corrente de espinhos e a espada bastarda. Exigem treinamento específico."
+            },
+            {
+              "type": "item",
+              "name": "Armas de Fogo",
+              "description": "Armas de pólvora são raras em Arton, por isso exigem treinamento específico."
+            },
+            {
+              "type": "item",
+              "name": "Penalidade por Não Proficiência",
+              "description": "Se você atacar com uma arma com a qual não seja proficiente, sofre –5 nos testes de ataque."
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Propósito",
+          "items": [
+            {
+              "type": "item",
+              "name": "Corpo a Corpo",
+              "description": "Podem ser usadas para atacar alvos adjacentes. Para atacar com uma arma de combate corpo a corpo, faça um teste de Luta. Quando você ataca com uma arma corpo a corpo, soma sua Força às rolagens de dano."
+            },
+            {
+              "type": "item",
+              "name": "Ataque à Distância",
+              "description": "Podem ser usadas para atacar alvos adjacentes ou à distância. Para atacar com uma arma de combate à distância, faça um teste de Pontaria. São subdivididas em de arremesso e de disparo."
+            },
+            {
+              "type": "item",
+              "name": "Arremesso",
+              "description": "A própria arma é atirada, como uma adaga ou azagaia. Sacar uma arma de arremesso é uma ação de movimento. Quando você ataca com uma arma de arremesso, soma sua Força às rolagens de dano."
+            },
+            {
+              "type": "item",
+              "name": "Disparo",
+              "description": "A arma dispara um projétil, como um arco atira flechas. Sacar a munição de uma arma de disparo é uma ação livre. Recarregar uma arma de disparo exige as duas mãos. Quando ataca com uma arma de disparo, não soma nenhum valor de atributo às rolagens de dano."
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Empunhadura",
+          "items": [
+            {
+              "type": "item",
+              "name": "Leve",
+              "description": "Esta arma é usada com uma mão e se beneficia do poder Acuidade com Arma."
+            },
+            {
+              "type": "item",
+              "name": "Uma mão",
+              "description": "Esta arma é usada com uma mão, deixando a outra mão livre para outros fins."
+            },
+            {
+              "type": "item",
+              "name": "Duas mãos",
+              "description": "Esta arma é usada com as duas mãos. Livrar uma mão é uma ação livre. Reempunhá-la é uma ação de movimento (ou livre, se você puder sacá-la dessa forma)."
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Características das Armas",
+          "items": [
+            {
+              "type": "item",
+              "name": "Preço",
+              "description": "Inclui acessórios básicos, como bainhas para lâminas e aljavas para flechas."
+            },
+            {
+              "type": "item",
+              "name": "Dano",
+              "description": "Quando você acerta um ataque, rola o dano indicado (acrescente modificadores, se houver). O resultado é subtraído dos pontos de vida do alvo. O dano na tabela se refere a armas normais, para criaturas Pequenas e Médias. Veja a Tabela 3-2: Dano de Armas para armas menores ou maiores."
+            },
+            {
+              "type": "item",
+              "name": "Crítico",
+              "description": "Quando você acerta um ataque rolando um 20 natural (ou seja, o dado mostra um 20), faz um acerto crítico. Neste caso, multiplique os dados de dano por 2. Bônus numéricos e dados extras (como pela habilidade Ataque Furtivo) não são multiplicados. Por exemplo, um dano de 1d8+3 torna-se 2d8+3 com um acerto crítico. Certas armas fazem críticos em margem maior que 20 ou multiplicam o dano por um valor maior que 2. Em geral, armas mais precisas (bestas, espadas...) têm margem maior, enquanto armas mais penetrantes (arcos, machados...) têm multiplicador maior. Efeitos que aumentam a margem de ameaça diminuem o número necessário para conseguir um crítico. Já efeitos que aumentam o multiplicador de crítico são acrescentados ao número do multiplicador. 19. A arma tem margem de ameaça 19 ou 20. 18. A arma tem margem de ameaça 18, 19 ou 20. x2, x3, x4. A arma causa dano dobrado, triplicado ou quadruplicado em caso de acerto crítico. 19/x3. A arma tem margem de ameaça 19 ou 20 e causa dano triplicado em caso de acerto crítico."
+            },
+            {
+              "type": "item",
+              "name": "Alcance",
+              "description": "Armas com alcance podem ser usadas para ataques à distância. As categorias de alcance são curto (9m, ou 6 quadrados em um mapa), médio (30m ou 20 quadrados) e longo (90m ou 60 quadrados). Você pode atacar dentro do alcance sem sofrer penalidades. Você pode atacar até o dobro do alcance, mas sofre –5 no teste de ataque. Armas sem alcance podem ser arremessadas em alcance curto com –5 no teste de ataque."
+            },
+            {
+              "type": "item",
+              "name": "Tipo",
+              "description": "Armas tipicamente causam dano por corte (C), impacto (I) ou perfuração (P). Certas criaturas são resistentes ou imunes a certos tipos de dano."
+            },
+            {
+              "type": "item",
+              "name": "Espaço",
+              "description": "Quantos espaços a arma ocupa, importante para a capacidade de carga do personagem."
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Habilidades de Armas",
+          "items": [
+            {
+              "type": "item",
+              "name": "Adaptável",
+              "description": "Uma arma de uma mão com esta habilidade pode ser usada com as duas mãos para aumentar seu dano em um passo."
+            },
+            {
+              "type": "item",
+              "name": "Ágil",
+              "description": "Pode ser usada com Acuidade com Arma, mesmo não sendo uma arma leve."
+            },
+            {
+              "type": "item",
+              "name": "Alongada",
+              "description": "Dobra o alcance natural do atacante, mas não permite atacar um adversário adjacente. Desbalanceada. Impõe uma penalidade de –2 em testes de ataque."
+            },
+            {
+              "type": "item",
+              "name": "Dupla",
+              "description": "Pode ser usada com Estilo de Duas Armas (e poderes similares) para fazer ataques adicionais, como se fosse uma arma de uma mão e uma arma leve. Cada “ponta” conta como uma arma separada para efeitos de melhorias e encantos."
+            },
+            {
+              "type": "item",
+              "name": "Versátil",
+              "description": "Fornece bônus em uma ou mais manobras (cumulativo com outros bônus de itens), conforme a arma."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "Passos de Dano",
+          "description": "Alguns efeitos podem aumentar ou diminuir o dano da arma em um ou mais “passos”. Por exemplo, armas aumentadas, usadas por criaturas Grandes (veja a página 106), causam um passo a mais de dano. Sempre que precisar aumentar ou diminuir o dano de uma arma em um ou mais passos, consulte a Tabela 3-2: Dano de Armas."
+        },
+        {
+          "type": "item",
+          "name": "Ataques Desarmados & Armas Naturais",
+          "description": "Um ataque desarmado é um soco, chute ou qualquer outro golpe que use seu próprio corpo. Um ataque desarmado é considerado uma arma leve corpo a corpo que causa dano de impacto não letal (1d3 pontos de dano para criaturas Pequenas e Médias) e não é afetado por efeitos que mencionem especificamente objetos ou armas empunhadas. Uma criatura só possui um único ataque desarmado (mas pode escolher qual parte do corpo utiliza cada vez que o desfere).\n\nArmas naturais representam partes específicas do corpo de uma criatura que podem ser usadas para desferir ataques, como chifres, garras ou uma poderosa mordida. Armas naturais são consideradas armas leves corpo a corpo e, assim como ataques desarmados, não são afetadas por efeitos que afetem especificamente objetos (uma arma natural não pode ser desarmada ou quebrada, por exemplo) ou que afetem armas que precisam ser empunhadas. A quantidade e tipo de dano de cada arma natural é apresentada em sua descrição."
+        },
+        {
+          "type": "folder",
+          "name": "Descrição das Armas",
+          "items": [
+            {
+              "type": "item",
+              "name": "Armas Improvisadas",
+              "description": "Atacar com um objeto que não tenha sido feito para lutar (cadeiras, garrafas quebradas..) provoca penalidade de –2 no teste de ataque. Via de regra, armas improvisadas causam 1d6 pontos de dano, com crítico x2, mas esses valores podem mudar de acordo com o mestre. O tipo de dano é determinado pelo mestre (impacto para cadeira, corte para garrafa quebrada...)."
+            },
+            {
+              "type": "item",
+              "name": "Adaga",
+              "description": "Esta faca afiada é usada por muitos habitantes adultos do Reinado, embora seja favorita de ladrões e assassinos, por ser facilmente escondida (fornece +5 em testes de Ladinagem para ocultá-la). Quando ataca com uma adaga, você pode usar sua Destreza em vez de Força nos testes de ataque. Uma adaga pode ser arremessada."
+            },
+            {
+              "type": "item",
+              "name": "Alabarda",
+              "description": "Uma haste de madeira com 2m de comprimento e uma lâmina de machado na ponta. A alabarda é uma arma alongada."
+            },
+            {
+              "type": "item",
+              "name": "Alfange",
+              "description": "Uma versão maior da cimitarra, esta espada de lâmina larga e curva é bastante usada por guerreiros do Deserto da Perdição."
+            },
+            {
+              "type": "item",
+              "name": "Arco Curto",
+              "description": "Uma arma antiga e comum, este arco é usado primariamente como ferramenta de caça, embora seja usado como arma de guerra por milícias, bandidos e exércitos menos equipados. Pode ser usado montado."
+            },
+            {
+              "type": "item",
+              "name": "Arco Longo",
+              "description": "Este arco reforçado tem a altura de uma pessoa. Ao contrário da versão curta, é primariamente uma arma de guerra. Por ter uma puxada pesada, permite que você aplique sua Força às rolagens de dano (ao contrário de outras armas de disparo). Porém, um arco longo não pode ser usado se você estiver montado."
+            },
+            {
+              "type": "item",
+              "name": "Azagaia",
+              "description": "Uma lança leve e flexível, própria para arremesso. Pode ser usada como arma corpo a corpo, mas você sofre uma penalidade de –5 no teste de ataque."
+            },
+            {
+              "type": "item",
+              "name": "Besta Leve",
+              "description": "Um arco montado sobre uma coronha de madeira com um gatilho, a besta leve é uma arma que dispara virotes com grande potência. Recarregar uma besta leve é uma ação de movimento."
+            },
+            {
+              "type": "item",
+              "name": "Besta Pesada",
+              "description": "Versão maior e mais potente da besta leve. Recarregar uma besta pesada é uma ação padrão."
+            },
+            {
+              "type": "item",
+              "name": "Bordão",
+              "description": "Um cajado apreciado por viajantes e camponeses por sua praticidade e fácil acesso (seu preço é zero). O bordão é uma arma dupla."
+            },
+            {
+              "type": "item",
+              "name": "Chicote",
+              "description": "Esta arma pode ser usada para atacar inimigos a até 4,5m e pode se enroscar nas mãos, pernas ou armas de seus adversários. O chicote é uma arma ágil e versátil, fornecendo +2 em testes para derrubar ou desarmar."
+            },
+            {
+              "type": "item",
+              "name": "Cimitarra",
+              "description": "Espada com a lâmina curva e muito afiada. A cimitarra é uma arma ágil."
+            },
+            {
+              "type": "item",
+              "name": "Clava",
+              "description": "Um pedaço de madeira empunhado como arma, geralmente usado por bárbaros ou criaturas brutais — ou como arma improvisada, como um galho de árvore ou pedaço de mobília. Sendo fácil de conseguir, seu preço é zero."
+            },
+            {
+              "type": "item",
+              "name": "Corrente de Espinhos",
+              "description": "Esta arma pode ser usada para atacar inimigos a até 4,5m e pode se enroscar nas mãos, pernas ou armas de seus adversários. A corrente de espinhos é uma arma ágil, dupla e versátil, fornecendo +2 em testes para derrubar ou desarmar."
+            },
+            {
+              "type": "item",
+              "name": "Espada Bastarda",
+              "description": "Maior e mais pesada que a espada longa, esta arma é tradicionalmente usada pelos cavaleiros de Bielefeld. A espada bastarda é uma arma adaptável. É muito grande para ser usada com uma só mão sem treinamento especial; por isso é uma arma exótica. Ela pode ser usada como uma arma marcial de duas mãos."
+            },
+            {
+              "type": "item",
+              "name": "Espada Curta",
+              "description": "O tipo mais comum de espada, usada por guardas ou como arma secundária de guerreiros mais capazes. Mede entre 40 e 50cm."
+            },
+            {
+              "type": "item",
+              "name": "Espada Longa",
+              "description": "Arma típica de soldados e guerreiros, esta espada de dois gumes tem lâmina reta medindo entre 80cm e 1m."
+            },
+            {
+              "type": "item",
+              "name": "Florete",
+              "description": "A lâmina leve e fina desta espada torna a arma muito precisa. O florete é uma arma ágil."
+            },
+            {
+              "type": "item",
+              "name": "Foice",
+              "description": "Originalmente um instrumento agrícola, consiste de uma lâmina curva presa a um cabo de madeira. Uma arma tradicional de druidas."
+            },
+            {
+              "type": "item",
+              "name": "Funda",
+              "description": "Uma simples tira de couro usada para arremessar pedras polidas. Na falta de munição adequada, pode disparar pedras comuns, mas o dano é reduzido em um passo. Recarregar uma funda é uma ação de movimento. Ao contrário de outras armas de disparo, você aplica sua Força a rolagens de dano com uma funda."
+            },
+            {
+              "type": "item",
+              "name": "Gadanho",
+              "description": "Outra ferramenta agrícola, o gadanho é uma versão maior da foice, para uso com as duas mãos. Foi criada para ceifar cereais, mas também pode ceifar vidas."
+            },
+            {
+              "type": "item",
+              "name": "Katana",
+              "description": "A espada tradicional do samurai tem lâmina levemente curva e apenas um gume. A katana é uma arma adaptável e ágil. É muito grande para ser empunhada com uma só mão sem treinamento especial; por isso, é uma arma exótica. Ela pode ser usada como uma arma marcial de duas mãos."
+            },
+            {
+              "type": "item",
+              "name": "Lança",
+              "description": "Qualquer arma feita com uma haste de madeira e uma ponta afiada, natural ou metálica. Por sua facilidade de fabricação, é muito comum entre orcs, kobolds, trogloditas e outras raças menos civilizadas. Uma lança pode ser arremessada."
+            },
+            {
+              "type": "item",
+              "name": "Lança Montada",
+              "description": "A lança montada é uma arma alongada. Se você estiver montado, pode usá-la com apenas uma mão. Além disso, quando usada numa investida montada, causa +2d8 pontos de dano (note que dados extras não são multiplicados em caso de acerto crítico)."
+            },
+            {
+              "type": "item",
+              "name": "Maça",
+              "description": "Bastão com um peso cheio de protuberâncias na ponta, a maça é usada por clérigos que fazem votos de não derramar sangue. De fato, um golpe de maça nem sempre derrama sangue, mas esmaga ossos."
+            },
+            {
+              "type": "item",
+              "name": "Machadinha",
+              "description": "Ferramenta útil para cortar madeira e também inimigos. Uma machadinha pode ser arremessada."
+            },
+            {
+              "type": "item",
+              "name": "Machado Anão",
+              "description": "A arma preferida de onze entre dez guerreiros anões. Um machado anão é muito grande para ser usado com uma só mão sem treinamento especial; por isso é uma arma exótica. Ele pode ser usado como uma arma marcial de duas mãos."
+            },
+            {
+              "type": "item",
+              "name": "Machado de Batalha",
+              "description": "Adaptado do machado de lenhador, este não é um instrumento para corte de árvores, mas sim uma arma capaz de causar ferimentos terríveis."
+            },
+            {
+              "type": "item",
+              "name": "Machado de Guerra",
+              "description": "Este imenso machado de lâmina dupla é uma arma extremamente perigosa."
+            },
+            {
+              "type": "item",
+              "name": "Machado Táurico",
+              "description": "Uma haste comprida com uma lâmina extremamente grossa na ponta, esta é uma arma ancestral dos minotauros. Um machado táurico é uma arma desbalanceada. Além disso, é muito grande para ser usado sem treinamento especial; por isso, é uma arma exótica."
+            },
+            {
+              "type": "item",
+              "name": "Mangual",
+              "description": "Uma haste metálica ligada a uma corrente com uma esfera de aço na ponta, que pode se enroscar na arma do adversário. O mangual é uma arma versátil, fornecendo +2 em testes para desarmar."
+            },
+            {
+              "type": "item",
+              "name": "Marreta",
+              "description": "Uma haste de madeira resistente com uma pesada cabeça de metal ou pedra."
+            },
+            {
+              "type": "item",
+              "name": "Martelo de Guerra",
+              "description": "Outra ferramenta adaptada para combate, esta é a arma favorita de quase todos os anões que não usam machados."
+            },
+            {
+              "type": "item",
+              "name": "Montante",
+              "description": "Enorme e pesada, esta espada de 1,5m de comprimento é uma arma poderosa."
+            },
+            {
+              "type": "item",
+              "name": "Mosquete",
+              "description": "Uma arma de fogo de uso difícil, mas com poder devastador. Recarregar um mosquete é uma ação padrão."
+            },
+            {
+              "type": "item",
+              "name": "Picareta",
+              "description": "Usada por mineradores, esta ferramenta quebra pedras com facilidade. Imagine o que pode fazer com carne e osso!"
+            },
+            {
+              "type": "item",
+              "name": "Pique",
+              "description": "Essencialmente uma lança muito longa. O pique é uma arma alongada."
+            },
+            {
+              "type": "item",
+              "name": "Pistola",
+              "description": "A arma de fogo mais comum. Recarregar uma pistola é uma ação padrão."
+            },
+            {
+              "type": "item",
+              "name": "Rede",
+              "description": "A rede tem pequenos dentes em sua trama e uma corda para controlar os inimigos presos. Se você acertar um ataque com a rede, não causa dano. Em vez disso, a vítima fica enredada (deslocamento reduzido à metade, não pode correr nem fazer investidas e sofre –2 na Defesa e em testes de ataque).\n\nEnquanto você estiver segurando a corda, sempre que a vítima se mover você pode fazer um teste de Força oposto contra ela como uma reação. Se você vencer, a vítima só pode se mover até o limite da corda (alcance curto).\n\nA vítima pode se soltar com uma ação completa e um teste de Força ou Acrobacia (CD 20). A rede tem 5 pontos de vida e, se rasgar, qualquer criatura enredada se solta automaticamente. A rede só pode ser usada contra criaturas no máximo uma categoria de tamanho maior que você."
+            },
+            {
+              "type": "item",
+              "name": "Tacape",
+              "description": "Versão maior e/ou com pregos de uma clava. Usado por bárbaros e humanoides bestiais, não é uma arma elegante, mas faz o serviço."
+            },
+            {
+              "type": "item",
+              "name": "Tridente",
+              "description": "Uma lança com três pontas, favorita de povos marinhos e gladiadores e própria para prender as pernas do oponente. O tridente é uma arma versátil, fornecendo +2 em testes para derrubar. Um tridente pode ser arremessado."
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Munições",
+          "items": [
+            {
+              "type": "item",
+              "name": "Munições",
+              "description": "Projéteis usados em armas de disparo. Munição é vendida em pacotes com projéteis suficientes para 20 ataques. Sempre que você faz um ataque com uma arma de disparo, a munição é perdida, independentemente de o ataque acertar ou não.\n\nPacotes de munições podem receber melhorias e encantos como armas (mas bônus de munições não acumulam com bônus da arma de disparo). O aumento no preço de um pacote de munição superior ou mágico é metade do aumento de uma arma (uma munição com uma melhoria, por exemplo, custa +T$ 150, em vez de +T$ 300)."
+            },
+            {
+              "type": "item",
+              "name": "Balas",
+              "description": "Uma bolsa com 20 balas (pequenas esferas de chumbo) e pólvora. Recarregar uma pistola ou um mosquete é uma ação padrão."
+            },
+            {
+              "type": "item",
+              "name": "Flechas",
+              "description": "Uma aljava com 20 flechas, hastes de madeira com ponta metálica e penas para estabilizar o voo. Recarregar um arco com uma flecha é uma ação livre."
+            },
+            {
+              "type": "item",
+              "name": "Pedras",
+              "description": "Um saco de couro com 20 pedras polidas. Recar­ regar uma funda com uma pedra de qualquer tipo é uma ação de movimento."
+            },
+            {
+              "type": "item",
+              "name": "Virotes",
+              "description": "Uma aljava com 20 setas de madeira. Recarregar uma besta leve é uma ação de movimento; já recarregar uma besta pesada é uma ação padrão."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "Armaduras & Escudos",
+      "items": [
+        {
+          "type": "item",
+          "name": "Armaduras & Escudos",
+          "description": "Armaduras são classificadas em leves e pesadas, de acordo com a sua facilidade de uso e mobilidade."
+        },
+        {
+          "type": "item",
+          "name": "Armaduras Leves",
+          "description": "Feitas de tecido, couro ou peles, oferecem pouca proteção, mas muita liberdade de movimentos. Vestir ou remover uma armadura leve é uma ação completa."
+        },
+        {
+          "type": "item",
+          "name": "Armaduras Pesadas",
+          "description": "Feitas de cota de malha (trama com anéis metálicos) ou placas de aço. Oferecem maior proteção, mas restringem seus movimentos. Se usar uma armadura pesada, você não aplica sua Destreza na Defesa e tem seu deslocamento reduzido em 3m. Vestir ou remover uma armadura pesada demora cinco minutos. Dormir de armadura pesada deixa você fatigado pelo dia."
+        },
+        {
+          "type": "item",
+          "name": "Escudos",
+          "description": "Existem escudos leves e pesados. Um personagem proficiente em escudo sabe usar ambos. Colocar ou tirar um escudo de qualquer tipo é uma ação de movimento."
+        },
+        {
+          "type": "item",
+          "name": "Ataque com Escudo",
+          "description": "Caso possua proficiência em armas marciais, você pode usar um escudo para atacar, mas perde seu bônus na Defesa até seu próximo turno se fizer isso. Escudos leves causam 1d4 pontos de dano de impacto e escudos pesados causam 1d6 pontos de dano de impacto, ambos com crítico x2. Embora possam ser usados para atacar, escudos não contam como armas."
+        },
+        {
+          "type": "item",
+          "name": "Penalidade por Não Proficiência",
+          "description": "Um personagem vestindo uma armadura ou escudo que não saiba usar aplica a penalidade da armadura em todas as perícias baseadas em Força e Destreza."
+        },
+        {
+          "type": "folder",
+          "name": "Características das Armaduras e Escudos",
+          "items": [
+            {
+              "type": "item",
+              "name": "Preço",
+              "description": "Este é o preço por armaduras completas — “partes” de armaduras não costumam ser vendidas separadamente e não fornecem proteção quando usadas de forma avulsa."
+            },
+            {
+              "type": "item",
+              "name": "Bônus na Defesa",
+              "description": "Cada armadura fornece um bônus na Defesa do usuário. Quanto mais pesada, maior o bônus. Não se pode vestir uma armadura sobre outra. Pode-se usar armadura e escudo ao mesmo tempo (os bônus se acumulam), mas não dois escudos."
+            },
+            {
+              "type": "item",
+              "name": "Penalidade de Armadura",
+              "description": "Por seu peso e rigidez, a maioria das armaduras dificulta o uso de perícias que demandam agilidade. Aplique a penalidade de armadura em testes de Acrobacia, Furtividade e Ladinagem (e em testes de Atletismo para natação). Penalidades de armaduras e escudos se acumulam."
+            },
+            {
+              "type": "item",
+              "name": "Espaço",
+              "description": "Quantos espaços a armadura ou escudo ocupa, importante para a capacidade de carga do personagem."
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Descrição das Armaduras e Escudos",
+          "items": [
+            {
+              "type": "item",
+              "name": "Armadura Acolchoada",
+              "description": "Uma túnica almofadada feita em linho ou lã. É a armadura mais leve, mas protege todo o corpo, fornecendo +2 em Fortitude."
+            },
+            {
+              "type": "item",
+              "name": "Armadura Completa",
+              "description": "A mais forte e pesada das armaduras, formada por placas de metal forjadas e encaixadas de modo a cobrir o corpo inteiro. Inclui uma túnica acolchoada para ser usada sob as placas. Correias e fivelas distribuem o peso da armadura pelo corpo inteiro. Esta armadura precisa ser feita sob medida para cada usuário; um ferreiro cobra T$ 200 para adaptar uma armadura completa a um novo usuário."
+            },
+            {
+              "type": "item",
+              "name": "Armadura de Couro",
+              "description": "O peitoral desta armadura é feito de couro curtido em óleo fervente, para ficar mais rígido, enquanto as demais partes são feitas de couro flexível."
+            },
+            {
+              "type": "item",
+              "name": "Brunea",
+              "description": "Colete de couro coberto com plaquetas de metal sobrepostas, como escamas de um peixe. Por ser barata de produzir, é a armadura mais utilizada no Reinado por soldados de infantaria e guardas de castelo."
+            },
+            {
+              "type": "item",
+              "name": "Cota de Malha",
+              "description": "Longa veste de anéis metálicos interligados, formando uma malha flexível e resistente, que vai até os joelhos."
+            },
+            {
+              "type": "item",
+              "name": "Couraça",
+              "description": "A mais robusta das armaduras leves, formada por uma placa metálica que protege o peito e as costas, presa sobre um casaco de couro."
+            },
+            {
+              "type": "item",
+              "name": "Couro Batido",
+              "description": "Versão mais pesada da armadura de couro, reforçada com rebites de metal."
+            },
+            {
+              "type": "item",
+              "name": "Escudo Leve",
+              "description": "Tipicamente feito de madeira, este escudo é amarrado no antebraço, deixando a mão livre. Você pode carregar um objeto na mão que empunha o escudo, mas não manusear uma arma."
+            },
+            {
+              "type": "item",
+              "name": "Escudo Pesado",
+              "description": "Normalmente feito de aço, este escudo é preso ao antebraço e também deve ser empunhado com firmeza, impedindo o usuário de usar aquela mão."
+            },
+            {
+              "type": "item",
+              "name": "Gibão de Peles",
+              "description": "Usada principalmente por bárbaros e selvagens, esta armadura é formada por várias camadas de peles e couro de animais."
+            },
+            {
+              "type": "item",
+              "name": "Loriga Segmentada",
+              "description": "Composta por tiras horizontais de metal, esta armadura pesada é muito utilizada por legionários do Império de Tauron."
+            },
+            {
+              "type": "item",
+              "name": "Meia Armadura",
+              "description": "Uma cota de malha reforçada com placas de metal."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "Itens gerais",
+      "items": [
+        {
+          "type": "item",
+          "name": "Itens Gerais",
+          "description": "Além de armas e armaduras, outros itens são úteis para aventureiros. Itens gerais são divididos em nove categorias: equipamento de aventura, ferramentas, vestuário, esotéricos, alquímicos, alimentação, animais, veículos e serviços. Alguns itens precisam ser empunhados para serem usados; outros, precisam ser vestidos (veja “Limites de Uso”, na página 141, para as regras de uso de itens). Itens que permitem um teste de resistência seguem as mesmas regras de testes de resistência de habilidades (veja a página 227)."
+        },
+        {
+          "type": "folder",
+          "name": "Equipamento de aventura",
+          "items": [
+            {
+              "type": "item",
+              "name": "Equipamento de aventura",
+              "description": "Utensílios úteis para exploradores de masmorras. A CD para fabricar qualquer desses itens é 15."
+            },
+            {
+              "type": "item",
+              "name": "Água Benta",
+              "description": "Produzida com a magia Abençoar Alimentos, esta água sagrada é um poderoso recurso na luta contra o mal. Para usar a água benta, você gasta uma ação padrão e escolhe um morto-vivo, demônio ou diabo em alcance curto (a água benta é inofensiva contra outras criaturas). O alvo sofre 2d10 pontos de dano de luz (Reflexos CD Sab reduz à metade)."
+            },
+            {
+              "type": "item",
+              "name": "Algemas",
+              "description": "Um par de algemas para criaturas Médias. Prender uma criatura que não esteja indefesa exige empunhar a algema, agarrar o alvo (veja “Manobras de Combate”, no Capítulo 5) e vencer um novo teste de agarrar contra ela. Você pode prender os dois pulsos da pessoa (–5 em testes que exijam o uso das mãos, impede conjuração) ou um dos pulsos dela em um objeto imóvel adjacente, caso haja, para impedir que ela se mova. Escapar das algemas exige uma ação completa e um teste de Acrobacia contra CD 30 ou de Força contra CD 25 — ou ter as chaves..."
+            },
+            {
+              "type": "item",
+              "name": "Arpéu",
+              "description": "Um gancho de aço amarrado na ponta de uma corda para se fixar em muros, janelas, parapeitos de prédios... Prender um arpéu exige um teste de Pontaria (CD 15). Subir um muro com a ajuda de uma corda fornece +5 no teste de Atletismo."
+            },
+            {
+              "type": "item",
+              "name": "Bandoleira de Poções",
+              "description": "Um cinto de couro com bolsos que comportam pequenos frascos. Se você estiver vestindo uma bandoleira, pode sacar itens alquímicos e poções como uma ação livre. Itens gerais"
+            },
+            {
+              "type": "item",
+              "name": "Barraca",
+              "description": "Esta barraca de lona conta como um saco de dormir para duas pessoas e fornece +2 em testes de Sobrevivência para acampar."
+            },
+            {
+              "type": "item",
+              "name": "Corda",
+              "description": "Um rolo com 10 metros de corda de cânhamo, o mesmo tipo usado em navios. Possui diversas utilidades: pode ajudar a descer um buraco ou muro (+5 em testes de Atletismo nessas situações), amarrar pessoas etc. Dar um nó firme ou especial (por exemplo, capaz de deslizar, se desfazer com um puxão etc.) exige um teste de Destreza (CD 15). Arrebentar a corda exige 2 pontos de dano de corte ou uma ação padrão e um teste de Força (CD 20)."
+            },
+            {
+              "type": "item",
+              "name": "Espelho",
+              "description": "Este pequeno espelho possui diversas utilidades: observar cantos, fazer sinais de luz e, claro, garantir que você esteja apresentável."
+            },
+            {
+              "type": "item",
+              "name": "Lampião",
+              "description": "Um cilindro com uma alça e duas portinholas. Uma chama alimentada por óleo é acesa dentro do cilindro e uma das portinholas aberta deixa a luz sair. Acender um lampião é uma ação padrão e sua luz ilumina um raio com 15m. Carregar um lampião com óleo é uma ação padrão e ele dura uma cena."
+            },
+            {
+              "type": "item",
+              "name": "Mochila",
+              "description": "Uma bolsa de lona com tiras para ser carregada nas costas. Não conta como item vestido."
+            },
+            {
+              "type": "item",
+              "name": "Mochila de Aventureiro",
+              "description": "Feita de couro resistente, esta mochila é repleta de bolsos para prender equipamento. Vestir uma mochila de aventureiro aumenta sua capacidade de carga em 2 espaços (ela própria não gasta um espaço)."
+            },
+            {
+              "type": "item",
+              "name": "Óleo",
+              "description": "Um frasco com óleo inflamável para lampião. Você pode atirar o frasco em uma criatura em alcance curto com uma ação padrão. Se ela sofrer dano de fogo até o fim do seu próximo turno, sofre 1d6 pontos de dano extra e fica em chamas."
+            },
+            {
+              "type": "item",
+              "name": "Organizador de Pergaminhos",
+              "description": "Um estojo de madeira ou couro rígido. Se você estiver vestindo um organizador de pergaminhos, pode sacar pergaminhos como uma ação livre."
+            },
+            {
+              "type": "item",
+              "name": "Pé de Cabra",
+              "description": "Esta barra de ferro fornece +5 em testes de Força para abrir portas, janelas e baús fechados. Um pé de cabra pode ser usado como arma, com as estatísticas de uma clava."
+            },
+            {
+              "type": "item",
+              "name": "Saco de Dormir",
+              "description": "Um colchão com uma coberta fina o bastante para ser enrolada e amarrada, é especialmente útil para aventureiros, que nunca sabem onde vão passar a noite. Dormir ao relento sem um acampamento e um saco de dormir diminui sua recuperação de PV e PM (veja a página 106)."
+            },
+            {
+              "type": "item",
+              "name": "Símbolo Sagrado",
+              "description": "Um medalhão de madeira ou metal com o símbolo de uma divindade. Se você estiver vestindo (normalmente com uma corrente ao redor do pescoço) ou empunhando o símbolo sagrado de um deus do qual é devoto, recebe +1 em testes de resistência."
+            },
+            {
+              "type": "item",
+              "name": "Tocha",
+              "description": "Um bastão de madeira com algum combustível na ponta (geralmente trapos embebidos em parafina). Acender uma tocha é uma ação padrão. Ela ilumina um raio de 9m e dura uma cena. Pode ser usada como uma arma simples leve (dano 1d4 de impacto mais 1 de fogo, crítico x2)."
+            },
+            {
+              "type": "item",
+              "name": "Vara de Madeira",
+              "description": "Uma haste com 3m de comprimento. Útil para alcançar pontos distantes, mas frágil demais para servir como arma."
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Ferramentas",
+          "items": [
+            {
+              "type": "item",
+              "name": "Ferramentas",
+              "description": "Itens desta categoria afetam testes de perícia, eliminando penalidades ou fornecendo bônus. A CD para fabricar qualquer ferramenta é 20."
+            },
+            {
+              "type": "item",
+              "name": "Alaúde Élfico",
+              "description": "Feito com madeira de alta qualidade e manufatura delicada, este alaúde gera notas vívidas e emocionantes. Enquanto empunha este item, você pode usar a habilidade Inspiração como uma ação de movimento. Conta como um instrumento musical."
+            },
+            {
+              "type": "item",
+              "name": "Coleção de Livros",
+              "description": "Uma pequena coleção de tomos e tratados sobre um assunto. Fornece +1 em Conhecimento, Guerra, Misticismo, Nobreza ou Religião (definido quando o item é comprado ou fabricado)."
+            },
+            {
+              "type": "item",
+              "name": "Equipamento de Viagem",
+              "description": "Um saco de lona contendo instrumentos úteis para sobreviver nos ermos, como pederneira (pedra para fazer fogo), panelas e talheres para cozinhar, anzól e linha para pescar e uma pequena pá. Um personagem sem este item sofre –5 em testes de Sobrevivência para fazer um acampamento. Não inclui saco de dormir ou barraca."
+            },
+            {
+              "type": "item",
+              "name": "Estojo de Disfarces",
+              "description": "Um conjunto de cosméticos, tintas para cabelo e algumas próteses simples (como bigodes e narizes falsos). Um personagem sem este item sofre –5 em testes de Enganação para disfarce."
+            },
+            {
+              "type": "item",
+              "name": "Flauta Mística",
+              "description": "Um instrumento delicado, repleto de runas e pequenas gemas místicas. Um bardo que empunhe este item aumenta a CD para resistir às magias lançadas por ele em +1. Conta como um instrumento musical."
+            },
+            {
+              "type": "item",
+              "name": "Gazua",
+              "description": "Uma barra fina de ferro, com a ponta torta ou em forma de gancho. Um personagem sem este item sofre –5 em testes de Ladinagem para abrir fechaduras."
+            },
+            {
+              "type": "item",
+              "name": "Instrumentos de <Ofício>",
+              "description": "Existe uma versão deste item para cada perícia de Ofício. Por exemplo, martelo, pregos e serrote para Ofício (carpinteiro), pergaminhos em branco, tinta e pena para Ofício (escriba) e assim por diante. Um personagem sem os instrumentos de seu Ofício sofre –5 nessa perícia."
+            },
+            {
+              "type": "item",
+              "name": "Instrumento Musical",
+              "description": "Um instrumento típico, como um bandolim, flauta ou lira. Veja o quadro acima para as regras deste item."
+            },
+            {
+              "type": "item",
+              "name": "Luneta",
+              "description": "Este instrumento valioso consiste de um cilindro metálico com duas lentes. Fornece +5 em testes de Percepção para observar coisas em alcance longo ou além."
+            },
+            {
+              "type": "item",
+              "name": "Maleta de Medicamentos",
+              "description": "Caixa de madeira com ervas, unguentos, bandagens e outros materiais úteis. Um personagem sem este item sofre –5 em Cura."
+            },
+            {
+              "type": "item",
+              "name": "Sela",
+              "description": "Uma peça de couro e pelego colocada sobre o lombo da montaria, sobre a qual o cavaleiro se senta. Inclui arreios para conduzir o animal. Um personagem montado em uma montaria sem sela sofre –5 em testes de Cavalgar. Usada no animal, a sela não ocupa espaço de carga do personagem."
+            },
+            {
+              "type": "item",
+              "name": "Tambor das Profundezas",
+              "description": "Um instrumento típico de anões de Doherimm, capaz de sons graves e retumbantes. Enquanto empunha este item, o alcance da habilidade Inspiração e de qualquer Música de Bardo é dobrado. Conta como um instrumento musical."
+            },
+            {
+              "type": "item",
+              "name": "Instrumentos Musicais",
+              "description": "Alguns itens da categoria ferramentas são instrumentos musicais. Tais itens são de grande importância para bardos e possuem as regras a seguir.\n\n• Você precisa empunhar um instrumento musical com as duas mãos para receber seus benefícios e para usar Músicas de Bardo (veja a página 45).\n\n• Instrumentos musicais podem ser usados como esotéricos por bardos (permitindo que lance magias usando a mão que empunha o instrumento).\n\n• Instrumentos musicais podem receber melhorias de ferramentas (contam como itens ligados a Atuação) e de esotéricos (mas afetam apenas magias lançadas por bardos)."
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Vestuário",
+          "items": [
+            {
+              "type": "item",
+              "name": "Vestuário",
+              "description": "Todos os itens desta seção precisam ser vestidos para fornecerem seus benefícios. A CD para fabricar qualquer vestuário é 20."
+            },
+            {
+              "type": "item",
+              "name": "Andrajos de Aldeão",
+              "description": "Roupas típicas de camponês. Consiste de camisa larga e calças soltas ou blusa e saia e não inclui botas — os mais pobres andam descalços. Fornece +2 em testes de Investigação para interrogar (ninguém se importa com o que um aldeão escuta) e, se você possuir o poder Aparência Inofensiva, a CD para resistir a ele aumenta em +2. Porém, impõe –2 em perícias baseadas em Carisma contra pessoas que se importam com classe social."
+            },
+            {
+              "type": "item",
+              "name": "Bandana",
+              "description": "Um lenço tipicamente usado por bandidos e piratas. Fornece +1 em Intimidação."
+            },
+            {
+              "type": "item",
+              "name": "Botas Reforçadas",
+              "description": "Grossas e resistentes, estas botas de cano alto protegem contra perigos do terreno. Aumentam seu deslocamento em +1,5m se ele for reduzido por terreno difícil (após a redução)."
+            },
+            {
+              "type": "item",
+              "name": "Camisa Bufante",
+              "description": "Blusa colorida, com mangas e golas longas e encrespadas. Fornece +1 em Atuação."
+            },
+            {
+              "type": "item",
+              "name": "Capa Esvoaçante",
+              "description": "Favorita entre heróis ousados, esta capa de seda produz movimentos amplos e chamativos, que fornecem +1 em Enganação."
+            },
+            {
+              "type": "item",
+              "name": "Capa Pesada",
+              "description": "Uma capa de couro grossa e resistente. Protege e aquece o corpo, fornecendo +1 em Fortitude."
+            },
+            {
+              "type": "item",
+              "name": "Casaco Longo",
+              "description": "Feito de peles ou couro grosso forrado com lã, e impermeabilizado com óleo, este casaco é quente e pesado. Fornece +5 em testes de Fortitude para resistir a efeitos de frio, mas impõe penalidade de armadura de –2."
+            },
+            {
+              "type": "item",
+              "name": "Chapéu Arcano",
+              "description": "Com pinturas e bordados de símbolos místicos, este chapéu pontudo ajuda a canalizar energias mágicas. Ele fornece +1 ponto de mana, mas apenas se você possuir a habilidade de classe Caminho do Arcanista."
+            },
+            {
+              "type": "item",
+              "name": "Enfeite de Elmo",
+              "description": "Um adorno chamativo, como crina de cavalo, plumas, asas ou um totem de animal. Fornece resistência a medo +2."
+            },
+            {
+              "type": "item",
+              "name": "Farrapos de Ermitão",
+              "description": "Trapos “adornados” com plantas e raízes. Uma pessoa vestindo farrapos de ermitão não parece muito civilizada, e sofre –2 em Diplomacia e em testes de Investigação para interrogar. Entretanto, recebe +2 em Adestramento."
+            },
+            {
+              "type": "item",
+              "name": "Gorro de Ervas",
+              "description": "Formado por duas camadas de tecido, este chapéu é preenchido com ervas preparadas para auxiliar a concentração do usuário. Fornece +1 em Vontade."
+            },
+            {
+              "type": "item",
+              "name": "Luva de Pelica",
+              "description": "Estas luvas delicadas preservam o tato e impedem que o suor deixe os dedos escorregadios. Fornecem +1 em Ladinagem."
+            },
+            {
+              "type": "item",
+              "name": "Manopla",
+              "description": "Luva metálica que permite socos mais perigosos — o dano de seus ataques desarmados torna-se letal. Uma manopla conta como uma arma para receber melhorias e encantos para usá-los em seus ataques desarmados."
+            },
+            {
+              "type": "item",
+              "name": "Manto Camuflado",
+              "description": "Um manto camuflado é feito para um tipo de terreno específico (veja a habilidade Explorador, na página 51). Por exemplo, um manto camuflado para floresta pode ser verde e marrom e coberto de folhas, enquanto um manto urbano pode ser cinza ou negro. Usar um manto camuflado no terreno correto fornece +2 em Furtividade."
+            },
+            {
+              "type": "item",
+              "name": "Manto Eclesiástico",
+              "description": "Um manto típico de igrejas e templos. Fornece +1 em Religião."
+            },
+            {
+              "type": "item",
+              "name": "Robe Místico",
+              "description": "Um manto longo, adornado com temas arcanos. Fornece +1 em Misticismo."
+            },
+            {
+              "type": "item",
+              "name": "Sapatos de Camurça",
+              "description": "Leves e resistentes, aprimoram o equilíbrio e a firmeza dos pés, fornecendo +1 em Acrobacia."
+            },
+            {
+              "type": "item",
+              "name": "Tabardo",
+              "description": "Uma peça de tecido usada como um colete, cobrindo o peito e as costas. Geralmente ostenta a heráldica de um reino, igreja, casa nobre ou ordem de cavaleiros. Fornece +1 em Diplomacia."
+            },
+            {
+              "type": "item",
+              "name": "Traje da Corte",
+              "description": "Roupas de luxo, feitas sob medida e adequadas à nobreza e realeza. Inclui algumas joias, como aneis e colares. Em certos ambientes (um baile, um salão de palácio), um personagem que não esteja vestindo este item sofre –5 em perícias baseadas em Carisma."
+            },
+            {
+              "type": "item",
+              "name": "Traje de Viajante",
+              "description": "Inclui botas, calças ou saias, cinto, camisa de linho e capa com capuz. A roupa padrão de aventureiros."
+            },
+            {
+              "type": "item",
+              "name": "Veste de Seda",
+              "description": "Esta roupa leve e elegante deixa seus movimentos os mais livres possíveis. Fornece +1 em Reflexos."
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Esotéricos",
+          "items": [
+            {
+              "type": "item",
+              "name": "Esotéricos",
+              "description": "Itens utilizados por conjuradores para lançar magias de forma mais eficiente. Para usar um esotérico, você precisa empunhá-lo com a mão que usará para gesticular ao lançar a magia. Uma magia só pode receber os benefícios de um esotérico por vez. A CD para fabricar qualquer esotérico é 20 e para fabricá-lo você deve ser treinado em Misticismo."
+            },
+            {
+              "type": "item",
+              "name": "Bolsa de Pó",
+              "description": "Uma bolsa com pó multicolorido, fabricado a partir das pétalas trituradas de flores que nascem apenas na Pondsmânia. Quando lança uma magia de encantamento ou ilusão, você recebe +2 PM para gastar em aprimoramentos."
+            },
+            {
+              "type": "item",
+              "name": "Cajado Arcano",
+              "description": "Um cajado típico, feito de madeira de boa qualidade e entalhado com runas. O limite de PM que você pode gastar em magias arcanas e a CD para resistir a elas aumentam em +1. Para fornecer seus benefícios, um cajado precisa ser empunhado com as duas mãos. Ele pode ser usado como arma, com as estatísticas de um bordão."
+            },
+            {
+              "type": "item",
+              "name": "Cetro Elemental",
+              "description": "Este cetro possui uma pedra preciosa em sua ponta: esmeralda (ácido), topázio (eletricidade), rubi (fogo) ou safira (frio). Quando lança uma magia que causa dano do tipo da pedra, o dano aumenta em um dado do mesmo tipo."
+            },
+            {
+              "type": "item",
+              "name": "Costela de Lich",
+              "description": "Esta varinha é feita a partir do osso de um morto-vivo. Suas magias causam +1d6 pontos de dano de trevas. Se estiver empunhando esta varinha você não recupera PV por efeitos mágicos de cura."
+            },
+            {
+              "type": "item",
+              "name": "Dedo de Ente",
+              "description": "Uma varinha feita da madeira de uma árvore senciente. Sempre que gastar pelo menos 1 PM para lançar uma magia, role 1d4. Com um resultado 4, você recupera 1 PM."
+            },
+            {
+              "type": "item",
+              "name": "Luva de Ferro",
+              "description": "Um conjunto de dedais interligados por correntes. Suas magias arcanas pessoais que concedem bônus na Defesa ou em testes de resistências têm esse bônus aumentado em +1."
+            },
+            {
+              "type": "item",
+              "name": "Medalhão de Prata",
+              "description": "Gravado com uma runa pessoal do conjurador, este medalhão de prata diminui em –1 PM o custo de magias de alcance pessoal."
+            },
+            {
+              "type": "item",
+              "name": "Orbe Cristalina",
+              "description": "Esta esfera perfeita concentra seu poder mágico. O limite de PM que você pode gastar em magias arcanas aumenta em +1."
+            },
+            {
+              "type": "item",
+              "name": "Tomo Hermético",
+              "description": "Um livro de tratados que aumentam a sua compreensão sobre uma escola de magia específica. A CD para resistir a suas magias arcanas dessa escola aumenta em +2."
+            },
+            {
+              "type": "item",
+              "name": "Varinha Arcana",
+              "description": "Uma varinha típica, feita de madeira de boa qualidade e entalhada com runas. A CD para resistir a suas magias arcanas aumenta em +1."
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Alquímicos",
+          "items": [
+            {
+              "type": "item",
+              "name": "Alquímicos",
+              "description": "Inclui preparados, catalisadores e venenos."
+            },
+            {
+              "type": "folder",
+              "name": "Preparados",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Preparados",
+                  "description": "Itens de uso único que geram efeitos variados quando usados. A CD para fabricar qualquer preparado é 15."
+                },
+                {
+                  "type": "item",
+                  "name": "Ácido",
+                  "description": "Frasco de vidro contendo um ácido alquímico altamente corrosivo. Para usar o ácido, você gasta uma ação padrão e escolhe uma criatura em alcance curto. Essa criatura sofre 2d4 pontos de dano de ácido (Reflexos CD Des reduz à metade)."
+                },
+                {
+                  "type": "item",
+                  "name": "Bálsamo Restaurador",
+                  "description": "Uma pasta verde e fedorenta, feita de ervas medicinais. Usá-la é uma ação completa e recupera 2d4 pontos de vida."
+                },
+                {
+                  "type": "item",
+                  "name": "Bomba",
+                  "description": "Uma granada rudimentar. Para usar a bomba, você precisa empunhá-la, gastar uma ação de movimento para acender seu pavio e uma ação padrão para arremessá-la em um ponto em alcance curto. Criaturas a até 3m desse ponto sofrem 6d6 pontos de dano de impacto (Reflexos CD Des reduz à metade)."
+                },
+                {
+                  "type": "item",
+                  "name": "Cosmético",
+                  "description": "Perfume ou maquiagem. Usá-lo é uma ação completa e fornece +2 em testes de perícias baseadas em Carisma até o fim da cena."
+                },
+                {
+                  "type": "item",
+                  "name": "Elixir do Amor",
+                  "description": "Um humanoide que beba este líquido adocicado fica apaixonado pela primeira criatura que enxergar (condição enfeitiçado; Vontade CD Car anula). O efeito dura 1d3 dias."
+                },
+                {
+                  "type": "item",
+                  "name": "Essência de Mana",
+                  "description": "Esta poção feita de ervas raras e compostos alquímicos recupera energia pessoal. Beber a essência de mana é uma ação padrão e recupera 1d4 pontos de mana."
+                },
+                {
+                  "type": "item",
+                  "name": "Fogo Alquímico",
+                  "description": "Frasco de cerâmica contendo uma substância que entra em combustão em contato com o ar. Para usar o fogo alquímico, você gasta uma ação padrão e escolhe uma criatura em alcance curto. Essa criatura sofre 1d6 pontos de dano de fogo e fica em chamas. Um teste de Reflexos (CD Des) reduz o dano à metade e evita as chamas."
+                },
+                {
+                  "type": "item",
+                  "name": "Pó do Desaparecimento",
+                  "description": "Uma criatura ou objeto coberto por este pó torna-se invisível (como em Invisibilidade) por 2d6 rodadas. O usuário não sabe quando a invisibilidade vai terminar."
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Catalisadores",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Catalisadores",
+                  "description": "Substâncias preparadas através de processos alquímicos, catalisadores são itens de uso único que melhoram o efeito de uma magia quando ela é lançada.\n\nVocê precisa estar empunhando um catalisador para usá-lo e só pode usar um catalisador por vez. Reduções de custo de catalisadores acumulam com outras reduções de custo. Catalisadores que aumentam o dano só funcionam em magias que já causem dano. A CD para fabricar qualquer catalisador é 15 e para fabricá-lo você deve ser treinado em Misticismo."
+                },
+                {
+                  "type": "item",
+                  "name": "Baga-de-Fogo",
+                  "description": "Pequeno fruto vermelho, apreciado por seu sabor picante. Usado como catalisador, adiciona +1d6 de dano de fogo a magias."
+                },
+                {
+                  "type": "item",
+                  "name": "Dente-de-Dragão",
+                  "description": "Uma flor comum em regiões montanhosas, especialmente nas Sanguinárias, possui formato parecido com uma presa de monstro. Suas propriedades místicas aumentam o dano de magias em um dado do mesmo tipo."
+                },
+                {
+                  "type": "item",
+                  "name": "Essência Abissal",
+                  "description": "Um líquido espesso, produzido através do sangue de criaturas demoníacas. Aumenta os dados de dano de magias de fogo em uma categoria — d4 para d6, d6 para d8, d8 para d10 e d10 para d12 (o máximo)."
+                },
+                {
+                  "type": "item",
+                  "name": "Líquen Lilás",
+                  "description": "Esta estranha planta tem aspecto cristalino e cresce em abundância na região das Uivantes. Adiciona +1d6 de dano de frio a magias."
+                },
+                {
+                  "type": "item",
+                  "name": "Musgo Púrpura",
+                  "description": "Encontrado em florestas fechadas, esse fungo cintilante possui propriedades que fornecem +2 na CD de magias de ilusão."
+                },
+                {
+                  "type": "item",
+                  "name": "Ossos de Monstro",
+                  "description": "Pequenas falanges de criaturas monstruosas, tratadas com óleos alquímicos. Fornece +2 na CD de magias de necromancia."
+                },
+                {
+                  "type": "item",
+                  "name": "Pó de Cristal",
+                  "description": "Uma pitada de pó de um mineral cristalino puro, como quartzo ou topázio. Diminui o custo de magias de encantamento em –1 PM."
+                },
+                {
+                  "type": "item",
+                  "name": "Pó de Giz",
+                  "description": "Calcário esmagado em pó, uma substância comum que, usada como catalisador, diminui o custo de magias de convocação em –1 PM."
+                },
+                {
+                  "type": "item",
+                  "name": "Ramo Verdejante",
+                  "description": "Esta combinação de ervas potencializa magias de cura, aumentando sua cura em +1 PV por dado."
+                },
+                {
+                  "type": "item",
+                  "name": "Saco de Sal",
+                  "description": "Um pequeno saco de couro com sal marinho. Fornece +2 na CD de magias de abjuração."
+                },
+                {
+                  "type": "item",
+                  "name": "Seixo de Âmbar",
+                  "description": "Essa “gema” feita de seiva de árvore fossilizada diminui o custo de magias de transmutação em –1 PM."
+                },
+                {
+                  "type": "item",
+                  "name": "Terra de Cemitério",
+                  "description": "Um punhado de terra cinzenta, colhida à noite de um cemitério. Adiciona +1d6 de dano de trevas a magias."
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Venenos",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Venenos",
+                  "description": "Substâncias naturais ou preparadas perigosas para seres vivos. Exceto se indicado o contrário, a CD para fabricar qualquer veneno é 20."
+                },
+                {
+                  "type": "item",
+                  "name": "Regras de Venenos",
+                  "description": "Venenos são classificados de acordo com o método de inoculação.\n\nContato. Inoculados via um ataque que acerte (ou se a vítima toca o objeto envenenado). Aplicar um veneno em uma arma exige uma ação de movimento e uma rolagem de 1d6. Se você rolar 1, se envenena acidentalmente (mas veja o poder Venefício). O veneno permanece na arma até acertar um ataque ou até o fim da cena (o que acontecer primeiro).\n\nInalação. Inoculados via respiração. São armazenados em frascos que podem ser arremessados em alcance curto. Quando o frasco se quebra, libera o veneno num cubo com 3m de lado. Todas as criaturas na área são expostas — prender a respiração não impede a inoculação, pois o veneno pode entrar por canais lacrimais, membranas nasais e outras partes do corpo.\n\nIngestão. Inoculados através da ingestão de comida ou bebida.\n\nUma criatura exposta a um veneno deve fazer um teste de Fortitude (CD definida pelo aplicador do veneno, atributo-chave Int). Se falhar, sofre o efeito do veneno (efeitos em parênteses afetam vítimas que passem no teste de resistência). Efeitos que não sejam instantâneos, como perda de PV recorrente ou condições, deixam a vítima com a condição envenenada, e curar esta condição encerra quaisquer efeitos de veneno (mas não recupera PV perdidos)."
+                },
+                {
+                  "type": "item",
+                  "name": "Beladona",
+                  "description": "Planta extremamente tóxica que afeta o sistema nervoso da vítima. Ingestão, vítima fica paralisada (lenta) por 3 rodadas. A CD para fabricar e para resistir a este veneno aumenta em +5."
+                },
+                {
+                  "type": "item",
+                  "name": "Bruma Sonolenta",
+                  "description": "Um gás sonífero. Inalação, vítima fica inconsciente (enjoada por 1 rodada)."
+                },
+                {
+                  "type": "item",
+                  "name": "Cicuta",
+                  "description": "Planta cuja ingestão pode causar náusea, dores e até morte. Ingestão, perde 1d12 PV por rodada durante 3 rodadas (perde 1d12 PV)."
+                },
+                {
+                  "type": "item",
+                  "name": "Essência de Sombra",
+                  "description": "Produzido a partir de compostos alquímicos que canalizam energia de trevas. Contato, vítima fica debilitada (fraca)."
+                },
+                {
+                  "type": "item",
+                  "name": "Névoa Tóxica",
+                  "description": "Este gás verde queima e corrói a pele e os pulmões. Inalação, perde 1d12 PV por rodada durante 3 rodadas (perde 1d12 PV)."
+                },
+                {
+                  "type": "item",
+                  "name": "Peçonha Comum",
+                  "description": "Veneno típico, extraído de animais ou plantas tóxicas. Contato, perde 1d12 PV."
+                },
+                {
+                  "type": "item",
+                  "name": "Peçonha Concentrada",
+                  "description": "Dose concentrada da peçonha comum. Contato, perde 1d12 PV por rodada durante 3 rodadas (perde 1d12 PV)."
+                },
+                {
+                  "type": "item",
+                  "name": "Peçonha Potente",
+                  "description": "Veneno poderoso, extraído de animais ou plantas perigosos. Contato, perde 2d12 PV por rodada durante 3 rodadas (perde 2d12 PV)."
+                },
+                {
+                  "type": "item",
+                  "name": "Pó de Lich",
+                  "description": "Veneno letal, usado para assassinar alvos poderosos. Ingestão, perde 4d12 PV por rodada durante 5 rodadas (perde 4d12 PV). A CD para fabricar e para resistir a este veneno aumenta em +5."
+                },
+                {
+                  "type": "item",
+                  "name": "Riso de Nimb",
+                  "description": "Este gás púrpura faz a vítima rir descontroladamente e agir de forma caótica. Inalação, vítima fica confusa (lenta por 1 rodada)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Alimentação",
+          "items": [
+            {
+              "type": "item",
+              "name": "Pratos Especiais",
+              "description": "A seção Alimentação traz pratos especiais, refeições feitas com ingredientes selecionados e que fornecem um benefício. Um prato especial deve ser consumido ao ser comprado ou fabricado. Seu bônus dura um dia e você só pode receber um bônus de alimentação por dia. Note que, se estiver usando a regra de custo de vida (veja a página 277), você não precisa se preocupar com a alimentação de seu personagem — refeições corriqueiras são apenas pano de fundo. Assim, use pratos especiais apenas quando quiser um benefício — e estiver disposto a pagar por ele! Fabricar um prato especial leva 1 hora e exige um teste de Ofício (cozinheiro) contra CD 15). Você pode sofrer –5 no teste para fabricar até cinco pratos (pagando o custo de todos)."
+            },
+            {
+              "type": "item",
+              "name": "Batata Valkariana",
+              "description": "Batatas cortadas em tiras e mergulhadas em óleo fervente. Gordurentas e pouco nutritivas, são o tipo de prato que só é servido numa metrópole como Valkaria. Apesar disso, são gostosas e deixam qualquer um empolgado. Você recebe +1d6 em um teste a sua escolha realizado até o fim do dia. Para não esquecer, deixe 1d6 em cima da sua ficha. De preferência, amarelo."
+            },
+            {
+              "type": "item",
+              "name": "Gorad Quente",
+              "description": "Gorad e leite, servidos quentes. Não tem erro. O gorad ativa o cérebro, fornecendo +2 PM temporários."
+            },
+            {
+              "type": "item",
+              "name": "Macarrão de Yuvalin",
+              "description": "Yuvalin é uma cidade mineradora em Zakharov, na fronteira com as Montanhas Uivantes. Seus habitantes criaram este prato reforçado (macarrão, bacon e creme de leite!) para encarar suas árduas jornadas de trabalho nas minas. Delicioso, o prato se espalhou por outras cidades e reinos. Você recebe +5 PV temporários."
+            },
+            {
+              "type": "item",
+              "name": "Prato do Aventureiro",
+              "description": "Um cozido de galinha com legumes, esta é uma refeição simples, mas nutritiva. Em sua próxima noite de sono, você aumenta a sua recuperação de pontos de vida em +1 por nível."
+            },
+            {
+              "type": "item",
+              "name": "Ração de Viagem",
+              "description": "Própria para viagens, uma porção desta ração alimenta uma pessoa por um dia. É feita de alimentos conservados, como carne defumada, frutas secas, pão, queijo e biscoitos. Se mantida seca dura bastante, mas quando molhada se estraga em 24 horas."
+            },
+            {
+              "type": "item",
+              "name": "Refeição Comum",
+              "description": "Uma refeição típica inclui pão, queijo, cozido de carne ou galinha com legumes e uma caneca de bebida, geralmente cidra, vinho ou cerveja."
+            },
+            {
+              "type": "item",
+              "name": "Sopa de Peixe",
+              "description": "Um cozido de peixe com verduras. É um prato humilde, mas garante um descanso relaxante. Em sua próxima noite de sono, você aumenta a sua recuperação de pontos de mana em +1 por nível."
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Animais",
+          "items": [
+            {
+              "type": "item",
+              "name": "Animais",
+              "description": "Animais funcionam como parceiros (veja a página 260). Animais comprados são parceiros iniciantes. Para parceiros de maior nível, você precisa adquiri-los através de uma habilidade."
+            },
+            {
+              "type": "item",
+              "name": "Alforje",
+              "description": "Sacos de couro feitos para serem presos em uma sela. Permitem que um parceiro montaria carregue até 10 espaços de item para você."
+            },
+            {
+              "type": "item",
+              "name": "Cão de Caça",
+              "description": "Este cachorro valente e leal pode ser usado como parceiro perseguidor por personagens treinados em Adestramento ou montaria por personagens Pequenos e Minúsculos."
+            },
+            {
+              "type": "item",
+              "name": "Cavalo",
+              "description": "A montaria mais comum no Reinado. Pode ser usado como parceiro montaria (veja a página 262). Cavalos sem treinamento se assustam facilmente, sendo necessário um teste de Cavalgar (CD 20) por rodada para permanecer montado durante um combate. Cavalos de guerra dispensam esse teste."
+            },
+            {
+              "type": "item",
+              "name": "Estábulo",
+              "description": "Inclui alimentação para o animal."
+            },
+            {
+              "type": "item",
+              "name": "Pônei",
+              "description": "A montaria mais comum entre raças Pequenas. Pode ser usado como parceiro montaria (veja a página 262). Pôneis sem treinamento se assustam facilmente, sendo necessário um teste de Cavalgar (CD 20) por rodada para permanecer montado durante um combate. Pôneis de guerra dispensam esse teste."
+            },
+            {
+              "type": "item",
+              "name": "Trobo",
+              "description": "Estas enormes aves, também chamadas de pássaros-touros, são parecidas com avestruzes com chifres, couro e cascos. Não têm asas. Possuem poucas penas, que servem apenas como ornamento. Muito dóceis, trobos são usados em áreas rurais como animais de carga e tração, mas também podem ser usados como montaria (veja a página 262)."
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Veículos",
+          "items": [
+            {
+              "type": "item",
+              "name": "Balão Goblin",
+              "description": "Feito de imensas bolsas de couro e outros tecidos remendados, com uma gôndola parecida com um grande cesto, o balão goblin é um engenho tecnológico sem igual em Arton. Um balão tem tamanho Enorme, deslocamento voo 12m, Defesa 5 (+ Des do baloeiro), 100 PV e pode carregar até 8 criaturas Médias ou 160 espaços. Ao contrário do que possa parecer, quedas de balões raramente são fatais. Quando o balão perde mais da metade de seus PV, começa a perder ar e flutua lentamente na direção do solo. Cada ocupante sofre 4d6 pontos de dano de impacto (Ref CD 15 reduz à metade). Um balão só cai de forma perigosa caso perca todos os seus PV. Neste caso, os ocupantes sofrem dano normal pela queda, de acordo com a altura. Remendar um balão em pleno voo exige uma ação completa e um teste de Ofício (artesão) contra CD 15. Se você passar no teste, recupera 1d8 PV do balão."
+            },
+            {
+              "type": "item",
+              "name": "Carroça",
+              "description": "Veículo de duas ou quatro rodas, aberto, normalmente usado para transportar cargas pesadas. É puxada por dois cavalos ou um trobo. Inclui os arreios necessários para controlar os animais. Uma carroça tem tamanho Grande, deslocamento 9m, Defesa 8 (+ Des do condutor), 50 PV e pode carregar até 4 criaturas Médias ou 80 espaços."
+            },
+            {
+              "type": "item",
+              "name": "Carruagem",
+              "description": "Veículo de quatro rodas, capaz de transportar até quatro pessoas em uma cabine fechada, mais dois condutores do lado de fora. É puxada por dois cavalos ou um trobo. Inclui os arreios necessários para controlar os animais. Tem as mesmas estatísticas de uma carroça, mas fornece cobertura leve a seus passageiros."
+            },
+            {
+              "type": "item",
+              "name": "Canoa",
+              "description": "Construída a partir de um único tronco de árvore, é a mais simples das embarcações. Tem as mesmas estatísticas de uma carroça, mas com deslocamento de natação."
+            },
+            {
+              "type": "item",
+              "name": "Veleiro",
+              "description": "Com três mastros, é o típico navio de viagem, muito popular entre mercadores."
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Serviços",
+          "items": [
+            {
+              "type": "folder",
+              "name": "Hospedagem",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Hospedagem",
+                  "description": "Estalagens e tavernas são lugares onde aventureiros descansam ou se preparam para suas próximas missões. Estalagens são como hospedarias, onde se pode alugar quartos para dormir e fazer refeições. Tavernas são como bares, com refeições, bebidas e às vezes espetáculos, geralmente realizados por bardos, além de bons lugares para conseguir informações. As estadias a seguir têm preços por noite, incluem uma refeição comum e determinam sua recuperação de PV e PM (veja mais na página 106)."
+                },
+                {
+                  "type": "item",
+                  "name": "Comum",
+                  "description": "Um espaço no salão comunal. Se tiver sorte, o taverneiro deixará a lareira acesa para que você não passe frio. Pelo menos não ficará sozinho — pulgas e ratos lhe farão companhia. A refeição consiste de pão, sopa e água. Recupera 1 PV e 1 PM por nível."
+                },
+                {
+                  "type": "item",
+                  "name": "Confortável",
+                  "description": "Um quarto pequeno, mas privativo, com uma cama com colchão de palha e um baú para guardar seus pertences. A refeição inclui pão, queijo, cozido de galinha com legumes e cerveja ou vinho (aguado). Recupera 2 PV e 2 PM por nível."
+                },
+                {
+                  "type": "item",
+                  "name": "Luxuosa",
+                  "description": "Um quarto grande, com colchão de algodão ou penas, cortinas nas janelas, uma bacia de água quente para banho e outros luxos. A refeição inclui carne, frutas, doces e uma taça de vinho de boa safra. Acomodações desta categoria estão disponíveis apenas nas melhores estalagens, normalmente apenas em cidades e metrópoles. Recupera 3 PV e 3 PM por nível."
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Outros Serviços",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Condução",
+                  "description": "Inclui viagens terrestres (em carroças), marítimas (em navios) ou aéreas (balões goblins). Viajar em balões goblins é arriscado: a cada 100 km há 1 chance em 20 de queda (não fatal)."
+                },
+                {
+                  "type": "item",
+                  "name": "Curandeiro",
+                  "description": "O preço para você receber cuidados prolongados ou tratamento contra uma doença ou veneno (veja a página 117). Isso considera que você vai até a casa do curandeiro ou onde quer que ele receba seus pacientes — curandeiros não aceitam acompanhar aventureiros em suas jornadas."
+                },
+                {
+                  "type": "item",
+                  "name": "Mensageiro",
+                  "description": "Inclui mensagens entregues a pé, por cavaleiros ou navios."
+                },
+                {
+                  "type": "item",
+                  "name": "Magias",
+                  "description": "Este é o preço para lançar uma magia em uma situação comum. Ou seja, você vai até o conjurador e lançar a magia não oferece risco para ele. Se você pedir ao conjurador para acompanhá-lo numa aventura, a resposta padrão será “não, obrigado”."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "Itens Superiores",
+      "items": [
+        {
+          "type": "item",
+          "name": "Itens superiores",
+          "description": "Itens superiores são equipamentos de alta qualidade, fabricados com as melhores técnicas e matérias-primas. Em termos de jogo, itens superiores possuem de uma a quatro melhorias. Cada melhoria fornece um benefício, mas aumenta o preço do item. Por exemplo, uma espada longa normal custa T$ 15. Uma espada longa superior com uma melhoria custa T$ 315. Já uma espada longa com quatro melhorias custa incríveis T$ 18.015! Itens com uma melhoria são caros, mas ainda relativamente comuns. Por exemplo, um castelo poderoso e próspero pode equipar seus guardas com armas com uma melhoria. Itens com duas melhorias são muito valiosos, e nunca são produzidos em grande quantidade. O capitão da guarda do mesmo castelo pode ter um item com duas melhorias. Já itens com três ou quatro melhorias são obras-primas, tão ou mais famosos quanto seus portadores. O senhor ou a senhora do castelo do exemplo talvez tenha um item assim, e ele provavelmente terá sido uma herança passada de geração em geração."
+        },
+        {
+          "type": "folder",
+          "name": "Melhorias",
+          "items": [
+            {
+              "type": "item",
+              "name": "Melhorias",
+              "description": "Apenas itens das categorias armas, armaduras e escudos, ferramentas, vestuário e esotéricos podem receber melhorias. As melhorias para cada categoria de item estão listadas na Tabela 3-8. Cada melhoria só pode ser aplicada uma vez a um mesmo item."
+            },
+            {
+              "type": "item",
+              "name": "Ajustada",
+              "description": "Feito com peças medidas com precisão, o item tem a sua penalidade de armadura diminuída em 1."
+            },
+            {
+              "type": "item",
+              "name": "Aprimorado",
+              "description": "O item é construído de forma cuidadosa e com os melhores materiais. Esta melhoria só pode ser aplicada a uma ferramenta ou vestuário que modifique uma perícia (reduza uma penalidade ou forneça um bônus) e fornece um bônus de +1 nessa perícia (ou aumenta o bônus fornecido em +1). Por exemplo, uma maleta de medicamentos aprimorada fornece +1 em Cura e uma luva de pelica aprimorada fornece +2 em Ladinagem."
+            },
+            {
+              "type": "item",
+              "name": "Atroz",
+              "description": "A arma é um amontoado de pontas, ganchos e protuberâncias. É difícil empunhá-la sem se machucar, mas ela fornece +2 nas rolagens de dano. Pré-requisito: Cruel."
+            },
+            {
+              "type": "item",
+              "name": "Banhado a Ouro",
+              "description": "Uma melhoria favorita de nobres pomposos ou de aventureiros que acabaram de enriquecer. Fornece +2 em Diplomacia. O mestre pode mudar o bônus para uma penalidade de –2 contra pessoas que desprezam ostentação. Além disso, pode atrair a cobiça de ladrões."
+            },
+            {
+              "type": "item",
+              "name": "Canalizador",
+              "description": "O esotérico possui uma gema mística que permite que você canalize mais mana do que normalmente seria capaz. O máximo de PM que você pode gastar em magias aumenta em +1."
+            },
+            {
+              "type": "item",
+              "name": "Certeira",
+              "description": "Fabricada para ser mais precisa e balanceada, a arma fornece +1 nos testes de ataque."
+            },
+            {
+              "type": "item",
+              "name": "Cravejado de Gemas",
+              "description": "É fácil ser persuadido por alguém opulento o bastante para ostentar um item cravejado de gemas. Fornece +2 em Enganação. Assim como um item banhado a ouro, um item cravejado de gemas pode atrair a cobiça de ladrões."
+            },
+            {
+              "type": "item",
+              "name": "Cruel",
+              "description": "Rebarbas, espinhos e até mesmo lâminas adicionais compõem uma arma cruel. Ela fornece +1 nas rolagens de dano."
+            },
+            {
+              "type": "item",
+              "name": "Delicada",
+              "description": "Apenas os materiais mais leves foram usados nesta armadura. As placas têm a espessura mínima necessária para oferecer a proteção que devem. Esta melhoria só pode ser aplicada a armaduras pesadas e permite que o personagem aplique 1 ponto de sua Destreza na Defesa (ou de outro atributo, caso o utilize em vez de Des). Uma armadura não pode ser delicada e reforçada."
+            },
+            {
+              "type": "item",
+              "name": "Discreto",
+              "description": "O item é disfarçado como outro item inócuo (como um florete escondido em uma bengala) ou modificado para ser telescópico (podendo se dobrar em si mesmo para ocupar menos espaço). O item ocupa –1 espaço (mínimo 1) e fornece +5 em testes de Ladinagem para ser ocultado."
+            },
+            {
+              "type": "item",
+              "name": "Energético",
+              "description": "Catalisadores alquímicos inseridos no item fazem com que ele potencialize energias mágicas. Suas magias que causam dano causam +1d6 pontos de dano do mesmo de tipo."
+            },
+            {
+              "type": "item",
+              "name": "Equilibrada",
+              "description": "Uma arma equilibrada é forjada com o balanço perfeito, o que facilita movimentos complexos. Ela fornece +2 em testes de manobras (desarmar, quebrar etc.)."
+            },
+            {
+              "type": "item",
+              "name": "Espinhosa (Armadura)",
+              "description": "Uma armadura coberta de espinhos é uma visão impressionante — principalmente se os espinhos estiverem banhados com o sangue dos inimigos! Se o usuário agarrar ou for agarrado por uma criatura, causa dano de perfuração nesta criatura igual a sua Força. O dano é causado quando a manobra é feita e no início de cada turno do personagem, enquanto ela for mantida."
+            },
+            {
+              "type": "item",
+              "name": "Espinhoso (Escudo)",
+              "description": "Aumenta o dano de um ataque com escudo em um passo."
+            },
+            {
+              "type": "item",
+              "name": "Harmonizada (Arma)",
+              "description": "A arma foi banhada em óleos alquímicos que a deixaram sintonizada com a aura de seu usuário. Escolha uma habilidade ativada ao se fazer um ataque ou usar a ação agredir e que custe pontos de mana. Esta habilidade tem seu custo em PM reduzido em –1 se utilizada com esta arma. Pré-requisito: outra melhoria qualquer."
+            },
+            {
+              "type": "item",
+              "name": "Harmonizado (Esotérico)",
+              "description": "Escolha uma magia. Seu custo diminui em –1 PM. Você pode mudar a magia afetada pelo item com um ritual que exige um dia e T$ 100 em ingredientes."
+            },
+            {
+              "type": "item",
+              "name": "Injeção Alquímica",
+              "description": "Um minúsculo frasco de cerâmica ou vidro é inserido ao longo da arma, junto com um mecanismo injetor ativado por impacto. Um ataque que acerte causa seu dano normal e libera uma carga de um preparado (como ácido ou fogo alquímico) ou de água benta, que atinge o alvo automaticamente. A melhoria tem espaço para 2 doses. Carregá-la exige uma ação completa e o gasto dos itens com os quais você quiser carregá-la."
+            },
+            {
+              "type": "item",
+              "name": "Macabro",
+              "description": "O macabro é pintado com sangue seco, esculpido na forma de uma caveira ou decorado com pedaços de orelhas, dedos e olhos. Essa aparência assustadora fornece +2 em Intimidação, mas impõe uma penalidade de –2 em Diplomacia."
+            },
+            {
+              "type": "item",
+              "name": "Maciça",
+              "description": "A arma é feita com material denso, fazendo com que seus golpes tenham impacto terrível. O multiplicador de crítico da arma aumenta em 1 ponto. Uma arma não pode ser maciça e precisa."
+            },
+            {
+              "type": "item",
+              "name": "Material Especial",
+              "description": "A arma, armadura, escudo ou item esotérico é feito de, ou banhado com, um material especial. Cada material fornece um benefício, cumulativo com outros benefícios de melhorias, mas possui um preço adicional que deve ser pago além do preço da melhoria. Veja a seção a seguir para a descrição dos materiais especiais. Fabricar um item de material especial é uma melhoria porque materiais especiais exigem um trabalho mais complexo do que materiais comuns."
+            },
+            {
+              "type": "item",
+              "name": "Mira Telescópica",
+              "description": "Aumenta o alcance da arma em uma categoria (de curto para médio, de médio para longo) e o alcance da habilidade Ataque Furtivo para médio. Esta melhoria só pode ser aplicada em armas de disparo (exceto fundas)."
+            },
+            {
+              "type": "item",
+              "name": "Poderoso",
+              "description": "A CD para resistir a suas magias aumenta em +1."
+            },
+            {
+              "type": "item",
+              "name": "Polida",
+              "description": "A armadura ou escudo foi feito com metais reluzentes. Além de bonita, a luz refletida ofusca inimigos. Em ambientes iluminados, o bônus de Defesa do item aumenta em +5, mas apenas na primeira rodada de combate — após isso, os inimigos se acostumam ao reflexo."
+            },
+            {
+              "type": "item",
+              "name": "Precisa",
+              "description": "Cuidado especial foi tomado ao temperar o aço desta arma, para que seu fio se mantenha sempre como uma navalha. A margem de ameaça aumenta em 1 ponto. Uma arma não pode ser precisa e maciça."
+            },
+            {
+              "type": "item",
+              "name": "Pungente",
+              "description": "Temperada diversas vezes para adquirir o fio ou o equilíbrio perfeito, a arma fornece +2 nos testes de ataque. Pré-requisito: Certeira."
+            },
+            {
+              "type": "item",
+              "name": "Reforçada",
+              "description": "Se for uma armadura, o item possui uma camada adicional de tecido, malha mais densa ou placas mais grossas. Se for um escudo, possui uma chapa mais espessa. O bônus na Defesa e a penalidade de armadura do item aumentam em 1. Um item não pode ser reforçado e delicado."
+            },
+            {
+              "type": "item",
+              "name": "Selada",
+              "description": "A armadura foi forjada de forma a proteger todo o corpo do usuário, sem deixar espaço para nem mesmo um alfinete! Esta melhoria fornece um bônus de +1 em testes de resistência, mas só pode ser aplicado em armaduras pesadas."
+            },
+            {
+              "type": "item",
+              "name": "Sob Medida",
+              "description": "Embora muitas armaduras sejam feitas especificamente para um usuário, esta passou por um período extenso de ajustes e refinamento, adequando-se com perfeição ao seu corpo. Reduz a penalidade por armadura em 2, mas apenas para o usuário específico (para outros, comporta-se como um item ajustado). Pré-requisito: Ajustada."
+            },
+            {
+              "type": "item",
+              "name": "Vigilante",
+              "description": "O item usa parte de sua mana pessoal para gerar um campo que desvia ataques. Você recebe +2 na Defesa."
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Materiais Especiais",
+          "items": [
+            {
+              "type": "item",
+              "name": "Materiais Especiais",
+              "description": "Armas, armaduras, escudos e esotéricos podem ser feitos ou banhados de um material especial. Para isso, o item precisa ter a melhoria material especial e você precisa pagar o preço extra do material escolhido, conforme a tabela 3-9."
+            },
+            {
+              "type": "item",
+              "name": "Aço-Rubi",
+              "description": "Este metal tem a aparência de vidro avermelhado, mas é duro como aço. Aço-rubi é caríssimo e comercializado apenas por uma guilda de ferreiros de Doherimm. Os anões mantém a origem deste material em segredo, mas suspeita-se de que ele seja minerado das profundezas de uma área de Tormenta. Arma. A arma ignora 10 pontos de redução de dano, além de ignorar a imunidade a crítico de lefeu. Armadura e Escudo. Fornece uma chance de ignorar o dano extra de acertos críticos e ataques furtivos: armaduras leves e escudos, 25% (1 em 1d4); armaduras pesadas, 50% (qualquer valor par em qualquer dado), cumulativas entre si. Esotérico. Quando lança uma magia que causa dano, ela ignora 10 pontos de redução de dano, além de ignorar as imunidades a dano de lefeu."
+            },
+            {
+              "type": "item",
+              "name": "Adamante",
+              "description": "Encontrado apenas em meteoritos (e por isso também chamado de “ferro-meteórico”), o adamante é um metal escuro, fosco e mais denso que o aço. Arma. Aumenta o dano em um passo. Armadura e Escudo. Fornece redução de dano: armaduras leves e escudos, RD 2; armaduras pesadas, RD 5. Esotérico. Quando lança uma magia que causa dano, você pode pagar +1 PM para rolar novamente qualquer resultado 1 na rolagem de dano dela."
+            },
+            {
+              "type": "item",
+              "name": "Gelo eterno",
+              "description": "As gélidas Montanhas Uivantes produzem gelo que nunca derrete. Expedições de aventureiros exploram essa região glacial perigosa à caça deste material fantástico. Arma. Causa +2 pontos de dano por frio. Armadura e Escudo. Fornece redução de fogo: armaduras leves e escudos, resistência 5; armaduras pesadas, resistência 10. Esotérico. Quando lança uma magia de frio que causa dano, você pode rolar novamente qualquer resultado 1 na rolagem de dano dela."
+            },
+            {
+              "type": "item",
+              "name": "Madeira Tollon",
+              "description": "A Floresta de Tollon produz um tipo de madeira negra, dura como aço e dotada de propriedades mágicas. Apenas armas de madeira — arcos, bordões, clavas, lanças, piques e tacapes —, escudos leves e esotéricos podem ser feitos com madeira Tollon. Arma. Conta como mágica para vencer redução de dano. Além disso, habilidades ativadas ao se fazer um ataque ou usar a ação agredir têm seu custo em PM reduzido em –1. Escudo e Esotérico. Fornece resistência a magia +2."
+            },
+            {
+              "type": "item",
+              "name": "Matéria Vermelha",
+              "description": "Qualquer material de origem lefeu — desde suas garras e carapaças, até minérios e partes de estruturas encontradas em áreas de Tormenta — apresenta propriedades parecidas, sendo conhecido como “matéria vermelha”. Estes itens assustadores impõem ao usuário penalidade de –2 em perícias baseadas em Carisma (exceto Intimidação). Arma. Causa +1d6 de dano extra. Porém, sempre que você acerta um ataque com a arma, perde 1 ponto de vida. Lefou e lefeu são imunes tanto ao dano extra de matéria vermelha quanto à perda de vida por usar armas desse material. Armadura e Escudo. Por sua aparência “borrada”, fornecem chance de falha para cada ataque: 10% para escudos e armaduras leves, 25% para armaduras pesadas (cumulativas entre si). Lefeu ignoram este efeito. Esotérico. Você e todos os seus inimigos em alcance curto sofrem –2 em testes de resistência contra efeitos mágicos."
+            },
+            {
+              "type": "item",
+              "name": "Mitral",
+              "description": "Metal raro e valioso, o mitral é prateado, brilhante e mais leve que aço. Itens de mitral ocupam –1 espaço (mínimo 1). Arma. Aumenta sua margem de ameaça em 1. Por exemplo, uma espada longa de mitral tem margem de ameaça 18-20. Armadura e Escudo. Tem sua penalidade de armadura diminuída em 2. Armaduras pesadas de mitral permitem que você aplique até dois pontos de sua Destreza na Defesa. Esotérico. Permite que você pague +2 PM ao lançar uma magia para aumentar a CD dela em +2."
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "Fabricando Itens Superiores",
+          "description": "Itens superiores só podem ser fabricados por personagens com a habilidade Fabricar Item Superior (veja a página 68). A fabricação deles segue a mesma regra de itens normais, porém, de acordo com o número de melhorias, o preço e a CD do teste de Ofício aumentam (veja a Tabela 3-7).\n\nPor exemplo, o preço de uma couraça é T$ 500. Fabricá-la exige um gasto de T$ 166 (um terço do preço) e um teste de Ofício contra CD 15. Já o preço de uma couraça com duas melhorias é T$ 3.500 (T$ 500 + T$ 3.000 das duas melhorias). Fabricá-la exige um gasto de T$ 1.166 (um terço do preço) e um teste de Ofício contra CD 25 (15 da CD base + 10 das duas melhorias).\n\nÉ possível adicionar melhorias a um item. Você paga a diferença de acordo com o novo número de melhorias. Por exemplo, para adicionar a terceira melhoria a um item que já possui duas, você precisa pagar mais T$ 2.000 (um terço da diferença de três para duas melhorias). Além disso, deve fazer um teste de Ofício contra a CD do número de melhorias que o item passará a ter e, se falhar por 5 ou mais, estraga o item."
+        }
+      ]
+    }
+  ]
+}

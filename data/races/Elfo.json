@@ -1,0 +1,32 @@
+{
+  "name": "Elfo",
+  "displacement": 12,
+  "attributes": [
+    {
+      "attr": "int",
+      "mod": 2
+    },
+    {
+      "attr": "des",
+      "mod": 1
+    },
+    {
+      "attr": "con",
+      "mod": -1
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Graça de Glórienn",
+      "description": "Seu deslocamento é 12m (em vez de 9m)."
+    },
+    {
+      "name": "Herança Feérica",
+      "description": "Você recebe +1 ponto de mana por nível."
+    },
+    {
+      "name": "Sentidos Élficos",
+      "description": "Você recebe visão na penumbra e +2 em Misticismo e Percepção."
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "name": "Caçador",
+  "hp": 16,
+  "addHP": 4,
+  "pm": 4,
+  "skills": [
+    "Luta ou Pontaria",
+    "Sobrevivência"
+  ],
+  "extraSkillsQty": 6,
+  "extraSkills": [
+    "Adestramento",
+    "Atletismo",
+    "Cavalgar",
+    "Cura",
+    "Fortitude",
+    "Furtividade",
+    "Iniciativa",
+    "Investigação",
+    "Luta",
+    "Ofício",
+    "Percepção",
+    "Pontaria",
+    "Reflexos"
+  ],
+  "proficiencies": [
+    "Armas marciais",
+    "Escudos"
+  ],
+  "abilities": [
+    {
+      "name": "Marca da Presa",
+      "description": "Você pode gastar uma ação de movimento e 1 PM para analisar uma criatura em alcance curto. Até o fim da cena, você recebe +1d4 nas rolagens de dano contra essa criatura. A cada quatro níveis, você pode gastar +1 PM para aumentar o bônus de dano (veja a tabela da classe)."
+    },
+    {
+      "name": "Rastreador",
+      "description": "Você recebe +2 em Sobrevivência. Além disso, pode se mover com seu deslocamento normal enquanto rastreia sem sofrer penalidades no teste de Sobrevivência. Poder de Caçador. No 2º nível, e a cada nível seguinte, você recebe uma habilidade da lista a seguir."
+    },
+    {
+      "name": "Ambidestria",
+      "description": "Se estiver empunhando duas armas (e pelo menos uma delas for leve) e fizer a ação agredir, você pode fazer dois ataques, um com cada arma. Se fizer isso, sofre –2 em todos os testes de ataque até o seu próximo turno. Pré-requisito: Des 2."
+    },
+    {
+      "name": "Armadilha: Arataca",
+      "description": "A vítima sofre 2d6 pontos de dano de perfuração e fica agarrada. Uma criatura agarrada pode escapar com uma ação padrão e um teste de Força ou Acrobacia (CD Sab)."
+    },
+    {
+      "name": "Armadilha: Espinhos",
+      "description": "A vítima sofre 6d6 pontos de dano de perfuração. Um teste de Reflexos (CD Sab) reduz o dano à metade."
+    },
+    {
+      "name": "Armadilha: Laço",
+      "description": "A vítima deve fazer um teste de Reflexos (CD Sab). Se passar, fica caída. Se falhar, fica agarrada. Uma criatura agarrada pode se soltar com uma ação padrão e um teste de Força ou Acrobacia (CD Sab)."
+    },
+    {
+      "name": "Armadilha: Rede",
+      "description": "Todas as criaturas na área ficam enredadas e não podem sair da área. Uma vítima pode se libertar com uma ação padrão e um teste de Força ou Acrobacia (CD 25). Além disso, a área ocupada pela rede é considerada terreno difícil. Nesta armadilha você escolhe quantas criaturas precisam estar na área para ativá-la."
+    },
+    {
+      "name": "Armadilheiro",
+      "description": "A CD para encontrar e resistir às suas armadilhas aumenta em +5 e você soma sua Sabedoria ao dano delas. Pré-requisitos: um poder de armadilha, 5º nível de caçador."
+    },
+    {
+      "name": "Arqueiro",
+      "description": "Se estiver usando uma arma de ataque à distância, você soma sua Sabedoria nas rolagens de dano (limitado pelo seu nível). Pré-requisito: Sab 1."
+    },
+    {
+      "name": "Aumento de Atributo",
+      "description": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
+    },
+    {
+      "name": "Bote",
+      "description": "Se estiver empunhando duas armas e fizer uma investida, você pode pagar 1 PM para fazer um ataque adicional com sua arma secundária. Pré-requisito: Ambidestria, 6º nível de caçador."
+    },
+    {
+      "name": "Camuflagem",
+      "description": "Você pode gastar 2 PM para se esconder mesmo sem camuflagem ou cobertura disponível. Pré-requisito: 6º nível de caçador."
+    },
+    {
+      "name": "Chuva de Lâminas",
+      "description": "Uma vez por rodada, quando usa Ambidestria, você pode pagar 2 PM para fazer um ataque adicional com sua arma primária. Pré-requisitos: Des 4, Ambidestria, 12º nível de caçador."
+    },
+    {
+      "name": "Companheiro Animal",
+      "description": "Você recebe um companheiro animal. Veja o quadro na página 62. Pré-requisito: Car 1, treinado em Adestramento."
+    },
+    {
+      "name": "Elo com a Natureza",
+      "description": "Você soma sua Sabedoria em seu total de pontos de mana e aprende e pode lançar Caminhos da Natureza (atributo-chave Sabedoria). Pré-requisitos: Sab 1, 3º nível de caçador. e"
+    },
+    {
+      "name": "Emboscar",
+      "description": "Você pode gastar 2 PM para realizar uma ação padrão adicional em seu turno. Você só pode usar este poder na primeira rodada de um combate. Pré-requisito: treinado em Furtividade."
+    },
+    {
+      "name": "Empatia Selvagem",
+      "description": "Você pode se comunicar com animais por meio de linguagem corporal e vocalizações. Você pode usar Adestramento com animais para mudar atitude e persuasão (veja Diplomacia, na página 118)."
+    },
+    {
+      "name": "Escaramuça",
+      "description": "Quando se move 6m ou mais, você recebe +2 na Defesa e Reflexos e +1d8 nas rolagens de dano de ataques corpo a corpo e à distância em alcance curto até o início de seu próximo turno. Você não pode usar esta habilidade se estiver vestindo armadura pesada. Pré-requisito: Des 2, 6º nível de caçador."
+    },
+    {
+      "name": "Escaramuça Superior",
+      "description": "Quando usa Escaramuça, seus bônus aumentam para +5 na Defesa e Reflexos e +1d12 em rolagens de dano. Pré-requisitos: Escaramuça, 12º nível de caçador."
+    },
+    {
+      "name": "Espreitar",
+      "description": "Quando usa a habilidade Marca da Presa, você recebe um bônus de +1 em testes de perícia contra a criatura marcada. Esse bônus aumenta em +1 para cada PM adicional gasto na habilidade e também dobra com a habilidade Inimigo."
+    },
+    {
+      "name": "Ervas Curativas",
+      "description": "Você pode gastar uma ação completa e uma quantidade de PM a sua escolha (limitado por sua Sabedoria) para aplicar ervas que curam ou desintoxicam em você ou num aliado adjacente. Para cada PM que gastar, cura 2d6 PV ou remove uma condição envenenado afetando o alvo."
+    },
+    {
+      "name": "Ímpeto",
+      "description": "Você pode gastar 1 PM para aumentar seu deslocamento em +6m por uma rodada."
+    },
+    {
+      "name": "Inimigo de (Criatura)",
+      "description": "Escolha um tipo de criatura entre animal, construto, espírito, monstro ou morto-vivo, ou duas raças humanoides (por exemplo, orcs e gnolls, ou elfos e qareen). Quando você usa a habilidade Marca da Presa contra uma criatura do tipo ou da raça escolhida, dobra os dados de bônus no dano. O nome desta habilidade varia de acordo com o tipo de criatura escolhida (Inimigo de Monstros, Inimigo de Mortos-Vivos etc.). Você pode escolher este poder outras vezes para inimigos diferentes."
+    },
+    {
+      "name": "Olho do Falcão",
+      "description": "Você pode usar a habilidade Marca da Presa em criaturas em alcance longo."
+    },
+    {
+      "name": "Ponto Fraco",
+      "description": "Quando usa a habilidade Marca da Presa, seus ataques contra a criatura marcada recebem +2 na margem de ameaça. Esse bônus dobra com a habilidade Inimigo."
+    },
+    {
+      "name": "Explorador",
+      "description": "No 3º nível, escolha um tipo de terreno entre aquático, ártico, colina, deserto, floresta, montanha, pântano, planície, subterrâneo ou urbano. A partir do 11º nível, você também pode escolher área de Tormenta. Quando estiver no tipo de terreno escolhido, você soma sua Sabedoria (mínimo +1) na Defesa e nos testes de Acrobacia, Atletismo, Furtividade, Percepção e Sobrevivência. A cada quatro níveis, escolha outro tipo de terreno para receber o bônus ou aumente o bônus em um tipo de terreno já escolhido em +2."
+    },
+    {
+      "name": "Caminho do Explorador",
+      "description": "No 5º nível, você pode atravessar terrenos difíceis sem sofrer redução em seu deslocamento e a CD para rastrear você aumenta em +10. Esta habilidade só funciona em terrenos nos quais você tenha a habilidade Explorador."
+    },
+    {
+      "name": "Mestre Caçador",
+      "description": "No 20º nível, você pode usar a habilidade Marca da Presa como uma ação livre. Além disso, quando usa a habilidade, pode pagar 5 PM para aumentar sua margem de ameaça contra a criatura em +2. Se você reduz uma criatura contra a qual usou Marca da Presa a 0 pontos de vida, recupera 5 PM."
+    },
+    {
+      "name": "Armadilhas",
+      "description": "Alguns poderes do caçador são Armadilhas. Esses poderes compartilham as seguintes regras.\n• Preparar uma armadilha gasta uma ação completa e 3 PM.\n• Uma armadilha afeta uma área de 3m de lado adjacente a você e é acionada pela primeira criatura que entrar na área.\n• Uma criatura que o veja preparando a armadilha saberá que ela está lá. Uma criatura que não o veja preparando a armadilha pode encontrá-la se gastar uma ação padrão procurando e passar em um teste de Investigação (CD Sab).\n• É possível aplicar veneno a uma armadilha, como se ela fosse uma arma. Você não precisa de nenhum item para criar a armadilha, pois usa materiais naturais, como galhos e cipós. Porém, precisa estar em um ambiente propício, como uma floresta, um beco repleto de entulhos etc."
+    }
+  ]
+}

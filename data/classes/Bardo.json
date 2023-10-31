@@ -1,0 +1,135 @@
+{
+  "name": "Bardo",
+  "hp": 12,
+  "addHP": 3,
+  "pm": 4,
+  "skills": [
+    "Atuação",
+    "Reflexos"
+  ],
+  "extraSkillsQty": 6,
+  "extraSkills": [
+    "Acrobacia",
+    "Cavalgar",
+    "Conhecimento",
+    "Diplomacia",
+    "Enganação",
+    "Furtividade",
+    "Iniciativa",
+    "Intuição",
+    "Investigação",
+    "Jogatina",
+    "Ladinagem",
+    "Luta",
+    "Misticismo",
+    "Nobreza",
+    "Percepção",
+    "Pontaria",
+    "Vontade"
+  ],
+  "proficiencies": [
+    "Armas marciais"
+  ],
+  "abilities": [
+    {
+      "name": "Inspiração",
+      "description": "Você pode gastar uma ação padrão e 2 PM para inspirar as pessoas com sua arte. Você e todos os seus aliados em alcance curto ganham +1 em testes de perícia até o fim da cena. A cada quatro níveis, pode gastar +2 PM para aumentar o bônus em +1."
+    },
+    {
+      "name": "Magias",
+      "description": "Escolha três escolas de magia. Uma vez feita, essa escolha não pode ser mudada. Você pode lançar magias arcanas de 1º círculo que pertençam a essas escolas. À medida que sobe de nível, pode lançar magias de círculos maiores (2º círculo no 6º nível, 3º círculo no 10º nível e 4º círculo no 14º nível). Você começa com duas magias de 1º círculo. A cada nível par (2º, 4º etc.), aprende uma magia de qualquer círculo e escola que possa lançar. Você pode lançar essas magias vestindo armaduras leves sem precisar de testes de Misticismo. Seu atributo-chave para lançar magias é Carisma e você soma seu Carisma no seu total de PM. Veja o Capítulo 4 para as regras de magia."
+    },
+    {
+      "name": "Arte Mágica",
+      "description": "Enquanto você estiver sob efeito de sua Inspiração, a CD para resistir a suas habilidades de bardo aumenta em +2."
+    },
+    {
+      "name": "Aumentar Repertório",
+      "description": "Você aprende duas magias de qualquer círculo que possa lançar. Elas devem pertencer às escolas que você sabe usar, mas podem ser arcanas ou divinas. Você pode escolher este poder quantas vezes quiser."
+    },
+    {
+      "name": "Aumento de Atributo",
+      "description": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
+    },
+    {
+      "name": "Dança das Lâminas",
+      "description": "Quando você lança uma magia com execução de uma ação padrão, pode gastar 1 PM para fazer um ataque corpo a corpo como uma ação livre. Pré-requisitos: Esgrima Mágica, 10º nível de bardo."
+    },
+    {
+      "name": "Esgrima Mágica",
+      "description": "Sua arte mescla esgrima e magia, transformando dança em golpes. Se estiver sob efeito de Inspiração, você pode substituir testes de Luta por testes de Atuação, mas apenas para ataques com armas corpo a corpo leves ou de uma mão."
+    },
+    {
+      "name": "Estrelato",
+      "description": "Suas apresentações o tornaram famoso, fazendo com que você seja reconhecido e bem tratado por aqueles que apreciam a arte. Por outro lado, pode ser difícil passar despercebido, especialmente em grandes cidades. Quando usa Atuação para impressionar uma plateia, o bônus recebido em perícias baseadas em Carisma aumenta para +5. Pré-requisito: 6º nível de bardo."
+    },
+    {
+      "name": "Fascinar em Massa",
+      "description": "Quando usa Música: Balada Fascinante, você pode gastar +2 PM. Se fizer isso, afeta todas as criaturas a sua escolha no alcance da música (você faz um único teste de Atuação, oposto pelo teste de Vontade de cada criatura). Pré-requisito: Música: Balada Fascinante."
+    },
+    {
+      "name": "Golpe Elemental",
+      "description": "Enquanto estiver sob efeito de Inspiração, sempre que você acertar um ataque corpo a corpo, pode gastar 1 PM para causar 1d6 de dano extra de ácido, eletricidade, fogo ou frio, a sua escolha. Para cada quatro níveis que possuir, pode gastar +1 PM para aumentar o dano em +1d6. Pré-requisito: Golpe Mágico."
+    },
+    {
+      "name": "Golpe Mágico",
+      "description": "Enquanto estiver sob efeito de Inspiração, sempre que você acertar um ataque corpo a corpo em um inimigo, recebe 2 PM temporários cumulativos. Você pode ganhar um máximo de PM temporários por cena igual ao seu nível. Esses pontos temporários desaparecem no final da cena. Pré-requisito: Esgrima Mágica."
+    },
+    {
+      "name": "Inspiração Marcial",
+      "description": "Quando você usa Inspiração, você e seus aliados aplicam o bônus recebido em rolagens de dano (além de testes de perícia)."
+    },
+    {
+      "name": "Lendas e Histórias",
+      "description": "Você é um arquivo vivo de relatos, canções e folclore. Além de outros benefícios a critério do mestre, pode gastar 1 PM para rolar novamente um teste recém realizado de Conhecimento, Misticismo, Nobreza ou Religião para informação, identificar criaturas ou identificar itens mágicos. Pré-requisito: Int 1."
+    },
+    {
+      "name": "Manipular",
+      "description": "Você pode gastar 1 PM para fazer uma criatura fascinada por você ficar enfeitiçada até o fim da cena (Von CD Car anula). Se a criatura passar, fica imune a este efeito por um dia. Usar esta habilidade não conta como ameaça à criatura fascinada. Pré-requisito: Música: Balada Fascinante."
+    },
+    {
+      "name": "Manipular em Massa",
+      "description": "Quando usa Manipular, você pode gastar +2 PM. Se fizer isso, afeta todas as criaturas a sua escolha em alcance curto. Pré-requisitos: Fascinar em Massa, Manipular, 10º nível de bardo."
+    },
+    {
+      "name": "Música: Balada Fascinante",
+      "description": "Faça um teste de Atuação oposto pelo teste de Vontade de uma criatura no alcance. Se você passar, ela fica fascinada enquanto você se concentrar (uma ação padrão por rodada). Um alvo hostil ou envolvido em combate recebe +5 no teste de resistência e tem direito a um novo teste sempre que você se concentrar. Se a criatura passar, fica imune a este efeito por um dia."
+    },
+    {
+      "name": "Música: Canção Assustadora",
+      "description": "Faça um teste de Atuação oposto pelo teste de Vontade de cada criatura a sua escolha dentro do alcance (você faz um único teste). Alvos que falhem ficam abalados até o fim da cena. Alvos que passem ficam imunes a este efeito por um dia."
+    },
+    {
+      "name": "Música: Melodia Curativa",
+      "description": "Criaturas a sua escolha no alcance recuperam 1d6 PV. Quando usa esta habilidade, você pode gastar mais pontos de mana. Para cada PM extra, aumente a cura em +1d6 PV."
+    },
+    {
+      "name": "Melodia Restauradora",
+      "description": "Quando você usa Música: Melodia Curativa, pode gastar +2 PM. Se fizer isso, escolha uma das condições a seguir: abalado, alquebrado, apavorado, atordoado, cego, confuso, enfeitiçado, esmorecido, exausto, fatigado, frustrado, pasmo ou surdo. Você remove a condição escolhida das criaturas afetadas pela música. Pré-requisito: Música: Melodia Curativa."
+    },
+    {
+      "name": "Mestre dos Sussurros",
+      "description": "Você é dissimulado, atento para rumores e ótimo em espalhar fofocas. Quando faz um teste de Investigação para interrogar ou um teste de Enganação para intriga, você rola dois dados e usa o melhor resultado. Além disso, pode fazer esses testes em ambientes sociais (taverna, festival, corte...) sem custo e em apenas uma hora (em vez de um dia). Pré-requisitos: Car 1, treinado em Enganação e Investigação."
+    },
+    {
+      "name": "Paródia",
+      "description": "Uma vez por rodada, quando vê outra criatura lançando uma magia em alcance médio, você pode pagar 1 PM e fazer um teste de Atuação (CD 15 + custo em PM da magia). Se passar, até o final de seu próximo turno você pode lançar essa magia."
+    },
+    {
+      "name": "Prestidigitação",
+      "description": "Quando faz uma ação padrão, você pode aproveitar seus gestos para lançar uma magia com execução de ação completa ou menor. Faça um teste de Atuação (CD 15 + custo em PM da magia). Se passar, você lança a magia como uma ação livre. Se falhar, a magia não funciona, mas você gasta os PM mesmo assim. Outros personagens só percebem que você lançou uma magia com um teste de Misticismo (CD 20). Pré-requisito: 6º nível de bardo."
+    },
+    {
+      "name": "Eclético",
+      "description": "A partir do 2º nível, você pode gastar 1 PM para receber todos os benefícios de ser treinado em uma perícia por um teste."
+    },
+    {
+      "name": "Artista Completo",
+      "description": "No 20º nível, você pode usar Inspiração como uma ação livre. Enquanto estiver sob efeito de sua Inspiração, qualquer habilidade de bardo (incluindo magias) que você usar tem seu custo em PM reduzido pela metade (após aplicar quaisquer outras habilidades que reduzam o custo)."
+    },
+    {
+      "name": "Músicas de Bardo",
+      "description": "Alguns poderes do bardo são Músicas. Esses poderes compartilham as seguintes regras.\n• Para ativar uma música, você precisa ser treinado em Atuação e empunhar um instrumento musical (veja a página 158).\n• Ativar uma música gasta uma ação padrão e 1 PM.\n• Efeitos de músicas têm alcance curto."
+    }
+  ]
+}
