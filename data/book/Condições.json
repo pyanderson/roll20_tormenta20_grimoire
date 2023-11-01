@@ -110,7 +110,12 @@
     {
       "type": "item",
       "name": "Paralisado",
-      "description": "Fica imóvel e indefeso e só pode realizar ações puramente mentais. Movimento. Pasmo. Não pode fazer ações. Mental."
+      "description": "Fica imóvel e indefeso e só pode realizar ações puramente mentais. Movimento."
+    },
+    {
+      "type": "item",
+      "name": "Pasmo",
+      "description": "Não pode fazer ações. Mental."
     },
     {
       "type": "item",
