@@ -1,0 +1,729 @@
+{
+  "name": "Itens Gerais",
+  "items": [
+    {
+      "name": "Água benta",
+      "price": "T$ 10",
+      "spaces": "0,5",
+      "category": "Equipamento de Aventura"
+    },
+    {
+      "name": "Algemas",
+      "price": "T$ 15",
+      "spaces": "1",
+      "category": "Equipamento de Aventura"
+    },
+    {
+      "name": "Arpéu",
+      "price": "T$ 5",
+      "spaces": "1",
+      "category": "Equipamento de Aventura"
+    },
+    {
+      "name": "Bandoleira de poções",
+      "price": "T$ 20",
+      "spaces": "1",
+      "category": "Equipamento de Aventura"
+    },
+    {
+      "name": "Barraca",
+      "price": "T$ 10",
+      "spaces": "1",
+      "category": "Equipamento de Aventura"
+    },
+    {
+      "name": "Corda",
+      "price": "T$ 1",
+      "spaces": "1",
+      "category": "Equipamento de Aventura"
+    },
+    {
+      "name": "Espelho",
+      "price": "T$ 10",
+      "spaces": "1",
+      "category": "Equipamento de Aventura"
+    },
+    {
+      "name": "Lampião",
+      "price": "T$ 7",
+      "spaces": "1",
+      "category": "Equipamento de Aventura"
+    },
+    {
+      "name": "Mochila",
+      "price": "T$ 2",
+      "spaces": "—",
+      "category": "Equipamento de Aventura"
+    },
+    {
+      "name": "Mochila de aventureiro",
+      "price": "T$ 50",
+      "spaces": "—",
+      "category": "Equipamento de Aventura"
+    },
+    {
+      "name": "Óleo",
+      "price": "T$ 0,1",
+      "spaces": "0,5",
+      "category": "Equipamento de Aventura"
+    },
+    {
+      "name": "Organizador de pergaminhos",
+      "price": "T$ 25",
+      "spaces": "1",
+      "category": "Equipamento de Aventura"
+    },
+    {
+      "name": "Pé de cabra",
+      "price": "T$ 2",
+      "spaces": "1",
+      "category": "Equipamento de Aventura"
+    },
+    {
+      "name": "Saco de dormir",
+      "price": "T$ 1",
+      "spaces": "1",
+      "category": "Equipamento de Aventura"
+    },
+    {
+      "name": "Símbolo sagrado",
+      "price": "T$ 5",
+      "spaces": "1",
+      "category": "Equipamento de Aventura"
+    },
+    {
+      "name": "Tocha",
+      "price": "T$ 0,1",
+      "spaces": "1",
+      "category": "Equipamento de Aventura"
+    },
+    {
+      "name": "Vara de madeira (3m)",
+      "price": "T$ 0,2",
+      "spaces": "1",
+      "category": "Equipamento de Aventura"
+    },
+    {
+      "name": "Alaúde élfico",
+      "price": "T$ 300",
+      "spaces": "1",
+      "category": "Ferramentas"
+    },
+    {
+      "name": "Coleção de livros",
+      "price": "T$ 75",
+      "spaces": "1"
+    },
+    {
+      "name": "Equipamento de viagem",
+      "price": "T$ 10",
+      "spaces": "1",
+      "category": "Ferramentas"
+    },
+    {
+      "name": "Estojo de disfarces",
+      "price": "T$ 50",
+      "spaces": "1",
+      "category": "Ferramentas"
+    },
+    {
+      "name": "Flauta mística",
+      "price": "T$ 150",
+      "spaces": "1",
+      "category": "Ferramentas"
+    },
+    {
+      "name": "Gazua",
+      "price": "T$ 5",
+      "spaces": "1",
+      "category": "Ferramentas"
+    },
+    {
+      "name": "Instrumentos de <ofício>",
+      "price": "T$ 30",
+      "spaces": "1",
+      "category": "Ferramentas"
+    },
+    {
+      "name": "Instrumento musical",
+      "price": "T$ 35",
+      "spaces": "1",
+      "category": "Ferramentas"
+    },
+    {
+      "name": "Luneta",
+      "price": "T$ 100",
+      "spaces": "1",
+      "category": "Ferramentas"
+    },
+    {
+      "name": "Maleta de medicamentos",
+      "price": "T$ 50",
+      "spaces": "1",
+      "category": "Ferramentas"
+    },
+    {
+      "name": "Sela",
+      "price": "T$ 20",
+      "spaces": "1",
+      "category": "Ferramentas"
+    },
+    {
+      "name": "Tambor das profundezas",
+      "price": "T$ 80",
+      "spaces": "1",
+      "category": "Ferramentas"
+    },
+    {
+      "name": "Andrajos de aldeão",
+      "price": "T$ 1",
+      "spaces": "1",
+      "category": "Vestuário"
+    },
+    {
+      "name": "Bandana",
+      "price": "T$ 5",
+      "spaces": "1",
+      "category": "Vestuário"
+    },
+    {
+      "name": "Botas reforçadas",
+      "price": "T$ 20",
+      "spaces": "1",
+      "category": "Vestuário"
+    },
+    {
+      "name": "Camisa bufante",
+      "price": "T$ 25",
+      "spaces": "1",
+      "category": "Vestuário"
+    },
+    {
+      "name": "Capa esvoaçante",
+      "price": "T$ 25",
+      "spaces": "1",
+      "category": "Vestuário"
+    },
+    {
+      "name": "Capa pesada",
+      "price": "T$ 15",
+      "spaces": "1",
+      "category": "Vestuário"
+    },
+    {
+      "name": "Casaco longo",
+      "price": "T$ 20",
+      "spaces": "1",
+      "category": "Vestuário"
+    },
+    {
+      "name": "Chapéu arcano",
+      "price": "T$ 50",
+      "spaces": "1",
+      "category": "Vestuário"
+    },
+    {
+      "name": "Enfeite de elmo",
+      "price": "T$ 15",
+      "spaces": "1",
+      "category": "Vestuário"
+    },
+    {
+      "name": "Farrapos de ermitão",
+      "price": "T$ 1",
+      "spaces": "1",
+      "category": "Vestuário"
+    },
+    {
+      "name": "Gorro de ervas",
+      "price": "T$ 75",
+      "spaces": "1",
+      "category": "Vestuário"
+    },
+    {
+      "name": "Luva de pelica",
+      "price": "T$ 5",
+      "spaces": "1",
+      "category": "Vestuário"
+    },
+    {
+      "name": "Manopla",
+      "price": "T$ 10",
+      "spaces": "1",
+      "category": "Vestuário"
+    },
+    {
+      "name": "Manto camuflado",
+      "price": "T$ 12",
+      "spaces": "1",
+      "category": "Vestuário"
+    },
+    {
+      "name": "Manto eclesiástico",
+      "price": "T$ 20",
+      "spaces": "1",
+      "category": "Vestuário"
+    },
+    {
+      "name": "Robe místico",
+      "price": "T$ 50",
+      "spaces": "1",
+      "category": "Vestuário"
+    },
+    {
+      "name": "Sapatos de camurça",
+      "price": "T$ 8",
+      "spaces": "1",
+      "category": "Vestuário"
+    },
+    {
+      "name": "Tabardo",
+      "price": "T$ 10",
+      "spaces": "1",
+      "category": "Vestuário"
+    },
+    {
+      "name": "Traje da corte",
+      "price": "T$ 100",
+      "spaces": "1",
+      "category": "Vestuário"
+    },
+    {
+      "name": "Traje de viajante",
+      "price": "T$ 10",
+      "spaces": "—",
+      "category": "Vestuário"
+    },
+    {
+      "name": "Veste de seda",
+      "price": "T$ 25",
+      "spaces": "1",
+      "category": "Vestuário"
+    },
+    {
+      "name": "Bolsa de pó",
+      "price": "T$ 300",
+      "spaces": "1",
+      "category": "Esotéricos"
+    },
+    {
+      "name": "Cajado arcano",
+      "price": "T$ 1.000",
+      "spaces": "2",
+      "category": "Esotéricos"
+    },
+    {
+      "name": "Cetro elemental",
+      "price": "T$ 750",
+      "spaces": "1",
+      "category": "Esotéricos"
+    },
+    {
+      "name": "Costela de lich",
+      "price": "T$ 300",
+      "spaces": "1",
+      "category": "Esotéricos"
+    },
+    {
+      "name": "Dedo de ente",
+      "price": "T$ 200",
+      "spaces": "1",
+      "category": "Esotéricos"
+    },
+    {
+      "name": "Luva de ferro",
+      "price": "T$ 150",
+      "spaces": "1",
+      "category": "Esotéricos"
+    },
+    {
+      "name": "Medalhão de prata",
+      "price": "T$ 750",
+      "spaces": "1",
+      "category": "Esotéricos"
+    },
+    {
+      "name": "Orbe cristalina",
+      "price": "T$ 750",
+      "spaces": "1",
+      "category": "Esotéricos"
+    },
+    {
+      "name": "Tomo hermético",
+      "price": "T$ 1.500",
+      "spaces": "1",
+      "category": "Esotéricos"
+    },
+    {
+      "name": "Varinha arcana",
+      "price": "T$ 100",
+      "spaces": "1",
+      "category": "Esotéricos"
+    },
+    {
+      "name": "Ácido",
+      "price": "T$ 10",
+      "spaces": "0,5",
+      "category": "Alquímicos — Preparados"
+    },
+    {
+      "name": "Bálsamo restaurador",
+      "price": "T$ 10",
+      "spaces": "0,5",
+      "category": "Alquímicos — Preparados"
+    },
+    {
+      "name": "Bomba",
+      "price": "T$ 50",
+      "spaces": "0,5",
+      "category": "Alquímicos — Preparados"
+    },
+    {
+      "name": "Cosmético",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos — Preparados"
+    },
+    {
+      "name": "Elixir do amor",
+      "price": "T$ 100",
+      "spaces": "0,5",
+      "category": "Alquímicos — Preparados"
+    },
+    {
+      "name": "Essência de mana",
+      "price": "T$ 50",
+      "spaces": "0,5",
+      "category": "Alquímicos — Preparados"
+    },
+    {
+      "name": "Fogo alquímico",
+      "price": "T$ 10",
+      "spaces": "0,5",
+      "category": "Alquímicos — Preparados"
+    },
+    {
+      "name": "Pó do desaparecimento",
+      "price": "T$ 100",
+      "spaces": "0,5",
+      "category": "Alquímicos — Preparados"
+    },
+    {
+      "name": "Baga-de-fogo",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos — Catalisadores"
+    },
+    {
+      "name": "Dente-de-dragão",
+      "price": "T$ 45",
+      "spaces": "0,5",
+      "category": "Alquímicos — Catalisadores"
+    },
+    {
+      "name": "Essência abissal",
+      "price": "T$ 150",
+      "spaces": "0,5",
+      "category": "Alquímicos — Catalisadores"
+    },
+    {
+      "name": "Líquen lilás",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos — Catalisadores"
+    },
+    {
+      "name": "Musgo púrpura",
+      "price": "T$ 45",
+      "spaces": "0,5",
+      "category": "Alquímicos — Catalisadores"
+    },
+    {
+      "name": "Ossos de monstro",
+      "price": "T$ 45",
+      "spaces": "0,5",
+      "category": "Alquímicos — Catalisadores"
+    },
+    {
+      "name": "Pó de cristal",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos — Catalisadores"
+    },
+    {
+      "name": "Pó de giz",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos — Catalisadores"
+    },
+    {
+      "name": "Ramo verdejante",
+      "price": "T$ 45",
+      "spaces": "0,5",
+      "category": "Alquímicos — Catalisadores"
+    },
+    {
+      "name": "Saco de sal",
+      "price": "T$ 45",
+      "spaces": "0,5"
+    },
+    {
+      "name": "Seixo de âmbar",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos — Catalisadores"
+    },
+    {
+      "name": "Terra de cemitério",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos — Catalisadores"
+    },
+    {
+      "name": "Beladona",
+      "price": "T$ 1.500",
+      "spaces": "0,5",
+      "category": "Alquímicos — Venenos"
+    },
+    {
+      "name": "Bruma sonolenta",
+      "price": "T$ 150",
+      "spaces": "0,5",
+      "category": "Alquímicos — Venenos"
+    },
+    {
+      "name": "Cicuta",
+      "price": "T$ 60",
+      "spaces": "0,5",
+      "category": "Alquímicos — Venenos"
+    },
+    {
+      "name": "Essência de sombra",
+      "price": "T$ 100",
+      "spaces": "0,5",
+      "category": "Alquímicos — Venenos"
+    },
+    {
+      "name": "Névoa tóxica",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos — Venenos"
+    },
+    {
+      "name": "Peçonha comum",
+      "price": "T$ 15",
+      "spaces": "0,5",
+      "category": "Alquímicos — Venenos"
+    },
+    {
+      "name": "Peçonha concentrada",
+      "price": "T$ 90",
+      "spaces": "0,5",
+      "category": "Alquímicos — Venenos"
+    },
+    {
+      "name": "Peçonha potente",
+      "price": "T$ 600",
+      "spaces": "0,5",
+      "category": "Alquímicos — Venenos"
+    },
+    {
+      "name": "Pó de lich",
+      "price": "T$ 3.000",
+      "spaces": "0,5",
+      "category": "Alquímicos — Venenos"
+    },
+    {
+      "name": "Riso de Nimb",
+      "price": "T$ 150",
+      "spaces": "0,5",
+      "category": "Alquímicos — Venenos"
+    },
+    {
+      "name": "Batata valkariana",
+      "price": "T$ 2",
+      "spaces": "0,5",
+      "category": "Alimentação"
+    },
+    {
+      "name": "Gorad quente",
+      "price": "T$ 18",
+      "spaces": "0,5",
+      "category": "Alimentação"
+    },
+    {
+      "name": "Macarrão de Yuvalin",
+      "price": "T$ 6",
+      "spaces": "0,5",
+      "category": "Alimentação"
+    },
+    {
+      "name": "Prato do aventureiro",
+      "price": "T$ 1",
+      "spaces": "0,5",
+      "category": "Alimentação"
+    },
+    {
+      "name": "Ração de viagem (por dia)",
+      "price": "T$ 0,5",
+      "spaces": "0,5",
+      "category": "Alimentação"
+    },
+    {
+      "name": "Refeição comum",
+      "price": "T$ 0,3",
+      "spaces": "0,5",
+      "category": "Alimentação"
+    },
+    {
+      "name": "Sopa de peixe",
+      "price": "T$ 1",
+      "spaces": "0,5",
+      "category": "Alimentação"
+    },
+    {
+      "name": "Alforje",
+      "price": "T$ 30",
+      "spaces": "—",
+      "category": "Animais"
+    },
+    {
+      "name": "Cão de caça",
+      "price": "T$ 150",
+      "spaces": "—",
+      "category": "Animais"
+    },
+    {
+      "name": "Cavalo",
+      "price": "T$ 75",
+      "spaces": "—",
+      "category": "Animais"
+    },
+    {
+      "name": "Cavalo de guerra",
+      "price": "T$ 400",
+      "spaces": "—",
+      "category": "Animais"
+    },
+    {
+      "name": "Estábulo (por dia)",
+      "price": "T$ 0,1",
+      "spaces": "—",
+      "category": "Animais"
+    },
+    {
+      "name": "Pônei",
+      "price": "T$ 5",
+      "spaces": "—",
+      "category": "Animais"
+    },
+    {
+      "name": "Pônei de guerra",
+      "price": "T$ 30",
+      "spaces": "—",
+      "category": "Animais"
+    },
+    {
+      "name": "Trobo",
+      "price": "T$ 60",
+      "spaces": "—",
+      "category": "Animais"
+    },
+    {
+      "name": "Balão goblin",
+      "price": "T$ 200",
+      "spaces": "—",
+      "category": "Veículos"
+    },
+    {
+      "name": "Carroça",
+      "price": "T$ 150",
+      "spaces": "—",
+      "category": "Veículos"
+    },
+    {
+      "name": "Carruagem",
+      "price": "T$ 500",
+      "spaces": "—",
+      "category": "Veículos"
+    },
+    {
+      "name": "Canoa",
+      "price": "T$ 70",
+      "spaces": "—",
+      "category": "Veículos"
+    },
+    {
+      "name": "Veleiro",
+      "price": "T$ 10.000",
+      "spaces": "—",
+      "category": "Veículos"
+    },
+    {
+      "name": "Estadia (por noite) comum",
+      "price": "T$ 0,5",
+      "spaces": "—",
+      "category": "Serviços"
+    },
+    {
+      "name": "Estadia (por noite) confortável",
+      "price": "T$ 4",
+      "spaces": "—",
+      "category": "Serviços"
+    },
+    {
+      "name": "Estadia (por noite) luxuosa",
+      "price": "T$ 20",
+      "spaces": "—",
+      "category": "Serviços"
+    },
+    {
+      "name": "Condução terrestre",
+      "price": "T$ 0,5 por km",
+      "spaces": "—",
+      "category": "Serviços"
+    },
+    {
+      "name": "Condução marítima",
+      "price": "T$ 0,1 por km",
+      "spaces": "—",
+      "category": "Serviços"
+    },
+    {
+      "name": "Condução aérea",
+      "price": "T$ 10 por km",
+      "spaces": "—",
+      "category": "Serviços"
+    },
+    {
+      "name": "Curandeiro",
+      "price": "T$ 5",
+      "spaces": "—",
+      "category": "Serviços"
+    },
+    {
+      "name": "Magia 1º círculo",
+      "price": "T$ 10",
+      "spaces": "—",
+      "category": "Serviços"
+    },
+    {
+      "name": "Magia 2º círculo",
+      "price": "T$ 90",
+      "spaces": "—",
+      "category": "Serviços"
+    },
+    {
+      "name": "Magia 3º círculo",
+      "price": "T$ 360",
+      "spaces": "—",
+      "category": "Serviços"
+    },
+    {
+      "name": "Mensageiro",
+      "price": "T$ 0,5 por km",
+      "spaces": "—",
+      "category": "Serviços"
+    }
+  ]
+}

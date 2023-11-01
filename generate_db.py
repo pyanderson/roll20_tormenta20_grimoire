@@ -36,6 +36,7 @@ races = load_folder("data/races")
 classes = load_folder("data/classes")
 powers = load_folder("data/powers")
 spells = load_folder("data/spells")
+equipments = load_folder("data/equipments")
 
 # fill the book
 for name, source in [
@@ -93,6 +94,7 @@ with open(output_path, "w") as jfile:
             "book": book,
             "abilities_and_powers": abilities_and_powers,
             "spells": spells_circles,
+            "equipments": equipments,
         },
         jfile,
         ensure_ascii=False,

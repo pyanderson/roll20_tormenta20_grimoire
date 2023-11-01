@@ -1,0 +1,101 @@
+{
+  "name": "Armaduras & Escudos",
+  "items": [
+    {
+      "name": "Armadura acolchoada",
+      "price": "T$ 5",
+      "defenseBonus": "+1",
+      "armorPenalty": "0",
+      "spaces": "2",
+      "proficiency": "Armaduras Leves"
+    },
+    {
+      "name": "Armadura de couro",
+      "price": "T$ 20",
+      "defenseBonus": "+2",
+      "armorPenalty": "0",
+      "spaces": "2",
+      "proficiency": "Armaduras Leves"
+    },
+    {
+      "name": "Couro batido",
+      "price": "T$ 35",
+      "defenseBonus": "+3",
+      "armorPenalty": "–1",
+      "spaces": "2",
+      "proficiency": "Armaduras Leves"
+    },
+    {
+      "name": "Gibão de peles",
+      "price": "T$ 25",
+      "defenseBonus": "+4",
+      "armorPenalty": "–3",
+      "spaces": "2",
+      "proficiency": "Armaduras Leves"
+    },
+    {
+      "name": "Couraça",
+      "price": "T$ 500",
+      "defenseBonus": "+5",
+      "armorPenalty": "–4",
+      "spaces": "2",
+      "proficiency": "Armaduras Leves"
+    },
+    {
+      "name": "Brunea",
+      "price": "T$ 50",
+      "defenseBonus": "+5",
+      "armorPenalty": "–2",
+      "spaces": "5",
+      "proficiency": "Armaduras Pesadas"
+    },
+    {
+      "name": "Cota de malha",
+      "price": "T$ 150",
+      "defenseBonus": "+6",
+      "armorPenalty": "–2",
+      "spaces": "5",
+      "proficiency": "Armaduras Pesadas"
+    },
+    {
+      "name": "Loriga segmentada",
+      "price": "T$ 250",
+      "defenseBonus": "+7",
+      "armorPenalty": "–3",
+      "spaces": "5",
+      "proficiency": "Armaduras Pesadas"
+    },
+    {
+      "name": "Meia armadura",
+      "price": "T$ 600",
+      "defenseBonus": "+8",
+      "armorPenalty": "–4",
+      "spaces": "5",
+      "proficiency": "Armaduras Pesadas"
+    },
+    {
+      "name": "Armadura completa",
+      "price": "T$ 3.000",
+      "defenseBonus": "+10",
+      "armorPenalty": "–5",
+      "spaces": "5",
+      "proficiency": "Armaduras Pesadas"
+    },
+    {
+      "name": "Escudo leve",
+      "price": "T$ 5",
+      "defenseBonus": "+1",
+      "armorPenalty": "–1",
+      "spaces": "1",
+      "proficiency": "Escudos"
+    },
+    {
+      "name": "Escudo pesado",
+      "price": "T$ 15",
+      "defenseBonus": "+2",
+      "armorPenalty": "–2",
+      "spaces": "2",
+      "proficiency": "Escudos"
+    }
+  ]
+}
