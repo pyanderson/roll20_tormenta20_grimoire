@@ -44,7 +44,7 @@ function renderPowerButton({ container, data }) {
   );
   container.prepend(
     createPowerDialog({
-      options: Object.keys(data?.abilitiesAndPowers || {}),
+      options: Object.keys(data?.abilities_and_powers || {}),
     }),
   );
   container.style.flexDirection = 'column';

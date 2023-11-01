@@ -176,8 +176,13 @@ function loadSheetEnhancement({ db: data, characterId }) {
       equipmentsContainer &&
       headerContainer
     ) {
-      init({ iframe: iframe.contentDocument, characterId });
-      calcCD({ iframe: iframe.contentDocument });
+      const isJDA = iframe.contentDocument.querySelector(
+        'span[data-i18n="global_charactersheet"]',
+      );
+      if (!isJDA) {
+        init({ iframe: iframe.contentDocument, characterId });
+        calcCD({ iframe: iframe.contentDocument });
+      }
       loadSpellsEnhancement({ iframe: iframe.contentDocument, data });
       loadPowersEnhancement({ iframe: iframe.contentDocument, data });
       loadEquipmentEnhancement({ iframe: iframe.contentDocument, data });
