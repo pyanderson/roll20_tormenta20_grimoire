@@ -35,12 +35,7 @@
     {
       "type": "item",
       "name": "Cego",
-      "description": "O personagem fica desprevenido e lento, não pode fazer testes de Percepção para observar e sofre –5 em testes de perícias baseadas em Força ou"
-    },
-    {
-      "type": "item",
-      "name": "Destreza",
-      "description": "Todos os alvos de seus ataques recebem camuflagem total. Você é considerado cego enquanto estiver em uma área de escuridão total, a menos que algo lhe permita perceber no escuro. Sentidos."
+      "description": "O personagem fica desprevenido e lento, não pode fazer testes de Percepção para observar e sofre –5 em testes de perícias baseadas em Força ou Destreza. Todos os alvos de seus ataques recebem camuflagem total. Você é considerado cego enquanto estiver em uma área de escuridão total, a menos que algo lhe permita perceber no escuro. Sentidos."
     },
     {
       "type": "item",
