@@ -55,9 +55,9 @@ Visite a página da loja de extensões do seu navegador:
 
 Versão Jogo do Ano, mais precisamente a 3ª edição lançada.
 
-### Quais templates de fichas a extensão funciona?
+### Quais templates de fichas a extensão tem suporte?
 
-Por enquanto apenas na versão `Tormenta 20`.
+Para os templates `Tormenta 20` e `Tormenta20 Game of the Year`.
 
 ### Como posso contribuir?
 
