@@ -95,6 +95,7 @@ with open(output_path, "w") as jfile:
             "abilities_and_powers": abilities_and_powers,
             "spells": spells_circles,
             "equipments": equipments,
+            "races": sorted(races, key=itemgetter("name")),
         },
         jfile,
         ensure_ascii=False,
