@@ -22,6 +22,7 @@ $(document).ready(() => {
           loadSheetEnhancement({
             spells: db.spells,
             abilitiesAndPowers: db.abilities_and_powers,
+            equipments: db.equipments,
             characterId: data.characterId,
           });
       });

@@ -6,9 +6,11 @@
 /* common/element-factory vars */
 /* global createCDRow */
 /* features/powers vars  */
-/* global renderPowersButtons */
+/* global loadPowersEnhancement */
 /* features/spells vars */
-/* global calcCD,renderSpellsButtons */
+/* global calcCD,loadSpellsEnhancement */
+/* features/equipments vars */
+/* global loadEquipmentEnhancement */
 
 /**
  * Returns the data configuration of the character saved in the local storage.
@@ -128,12 +130,18 @@ function loadSheetExtraCSS({ iframe }) {
  * @param {object} props
  * @param {SpellData} props.spells - The spells data.
  * @param {PowerData} props.powers - The powers data.
+ * @param {EquipmentData} props.equipments - The equipments data.
  * @param {string} props.characterId - The character ID in the Roll20 game.
  */
 // eslint-disable-next-line no-unused-vars
-function loadSheetEnhancement({ spells, abilitiesAndPowers, characterId }) {
-  // Fetch the Tormenta20 data
-  const data = { spells, abilitiesAndPowers };
+function loadSheetEnhancement({
+  spells,
+  abilitiesAndPowers,
+  equipments,
+  characterId,
+}) {
+  // Tormenta20 data
+  const data = { spells, abilitiesAndPowers, equipments };
   // Load the functionalities
   const iframe = document.querySelector(`iframe[name="iframe_${characterId}"]`);
   if (!iframe) {
@@ -155,19 +163,29 @@ function loadSheetEnhancement({ spells, abilitiesAndPowers, characterId }) {
       root: iframe.contentDocument,
       path: ['div.sheet-left-container', 'div.sheet-powers-and-abilities'],
     });
-    if (spellsContainer && powersContainer) {
+    const equipmentsContainer = pathQuerySelector({
+      root: iframe.contentDocument,
+      path: ['div.sheet-right-container', 'div.sheet-equipment-container'],
+    });
+    if (spellsContainer && powersContainer && equipmentsContainer) {
       init({ iframe: iframe.contentDocument, characterId });
       calcCD({ iframe: iframe.contentDocument });
-      renderSpellsButtons({ iframe: iframe.contentDocument, data });
-      renderPowersButtons({ iframe: iframe.contentDocument, data });
+      loadSpellsEnhancement({ iframe: iframe.contentDocument, data });
+      loadPowersEnhancement({ iframe: iframe.contentDocument, data });
+      loadEquipmentEnhancement({ iframe: iframe.contentDocument, data });
+      // Observers
       const spellsObserver = new MutationObserver(() => {
-        renderSpellsButtons({ iframe: iframe.contentDocument, data });
+        loadSpellsEnhancement({ iframe: iframe.contentDocument, data });
       });
       const powersObserver = new MutationObserver(() => {
-        renderPowersButtons({ iframe: iframe.contentDocument, data });
+        loadPowersEnhancement({ iframe: iframe.contentDocument, data });
+      });
+      const equipmentsObserber = new MutationObserver(() => {
+        loadEquipmentEnhancement({ iframe: iframe.contentDocument, data });
       });
       spellsObserver.observe(spellsContainer, observerOptions);
       powersObserver.observe(powersContainer, observerOptions);
+      equipmentsObserber.observe(equipmentsContainer, observerOptions);
       iframeObserver.disconnect();
     }
   });

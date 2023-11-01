@@ -105,7 +105,7 @@ function renderPowerButton({ container, data }) {
  * @param {T20Data} props.data - The Tormenta20 data.
  */
 // eslint-disable-next-line no-unused-vars
-function renderPowersButtons({ iframe, data }) {
+function loadPowersEnhancement({ iframe, data }) {
   const powersContainer = pathQuerySelector({
     root: iframe,
     path: ['div.sheet-left-container', 'div.sheet-powers-and-abilities'],

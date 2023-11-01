@@ -187,7 +187,7 @@ function renderSpellButton({ iframe, container, circle, data }) {
  * @param {T20Data} props.data - The Tormenta20 data.
  */
 // eslint-disable-next-line no-unused-vars
-function renderSpellsButtons({ iframe, data }) {
+function loadSpellsEnhancement({ iframe, data }) {
   const spellsContainer = pathQuerySelector({
     root: iframe,
     path: ['div.sheet-left-container', 'div.sheet-spells'],

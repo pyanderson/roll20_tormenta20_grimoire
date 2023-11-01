@@ -44,6 +44,7 @@
  * @type {object}
  * @property {SpellData} spells
  * @property {PowerData} abilitiesAndPowers
+ * @property {EquipmentData[]} equipments
  */
 
 /**
@@ -54,4 +55,51 @@
 /**
  * @typedef PowerData
  * @type {object.<string, Power>}
+ */
+
+/**
+ * @typedef Weapon
+ * @type {object}
+ * @property {string} name - Eg.: Adaga
+ * @property {string} price - Eg.: T$ 10
+ * @property {string} damage - Eg.: 1d4
+ * @property {string} critical - Eg.: 19
+ * @property {string} range - Eg.: Curto
+ * @property {string} damageType - Eg.: Perfuração
+ * @property {string} spaces - Eg.: 1
+ * @property {string} proficiency - Eg.: Armas Simples
+ * @property {string} purpose - Eg.: Corpo a Corpo
+ * @property {string} grip - Eg.: Leve
+ */
+
+/**
+ * @typedef Armor
+ * @type {object}
+ * @property {string} name - Eg.: Loriga segmentada
+ * @property {string} price - Eg.: T$ 10
+ * @property {string} defenseBonus - Eg.: +7
+ * @property {string} armorPenalty - Eg.: -3
+ * @property {string} spaces - Eg.: 1
+ * @property {string} proficiency - Eg.: Armas Simples
+ */
+
+/**
+ * @typedef Item
+ * @type {object}
+ * @property {string} name - Eg.: Água benta
+ * @property {string} price - Eg.: T$ 10
+ * @property {string} spaces - Eg.: 1
+ * @property {string} category - Eg.: Equipamento de Aventura
+ */
+
+/**
+ * @typedef Equipment
+ * @type {Weapon|Armor|Item}
+ */
+
+/**
+ * @typedef EquipmentData
+ * @type {object}
+ * @property {string} name - Eg.: Armas
+ * @property {Weapon[]|Armor[]|Item[]} items
  */

@@ -42,7 +42,7 @@ Visite a página da loja de extensões do seu navegador:
 - [x] Poderes de classes (Grimório) _[v0.4.3]_
 - [x] Poderes de origens (Grimório) _[v0.4.3]_
 - [x] Poderes gerais (Grimório) _[v0.4.3]_
-- [ ] Equipamento (Ficha)
+- [x] Equipamento (Ficha) _[v0.4.4]_
 - [ ] Origens (Grimório)
 - [ ] Bestiário?
 - [ ] ??????
