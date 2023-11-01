@@ -43,6 +43,7 @@ Visite a página da loja de extensões do seu navegador:
 - [x] Poderes de origens (Grimório) _[v0.4.3]_
 - [x] Poderes gerais (Grimório) _[v0.4.3]_
 - [x] Equipamento (Ficha) _[v0.4.4]_
+- [x] Autocomplete para raças (Ficha) _[v0.4.5]_
 - [ ] Tormenta20 Game of the Year - Suporte para a ficha do jogo do ano.
 - [ ] Origens (Grimório)
 - [ ] Bestiário?
