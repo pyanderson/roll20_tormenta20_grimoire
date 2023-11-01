@@ -34,7 +34,7 @@ function loadEquipmentAutoComplete({ equipmentsContainer, equipments }) {
         const value =
           parseFloat(equipment.spaces.replace(',', '.').trim()) || 0;
         const spacesInput = input.parentNode.querySelector(
-          'input[name="attr_equipweight"]',
+          'input[name="attr_equipweight"],input[name="attr_equipslot"]',
         );
         spacesInput.focus();
         spacesInput.value = value;
