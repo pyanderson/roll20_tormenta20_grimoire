@@ -43,6 +43,7 @@ Visite a página da loja de extensões do seu navegador:
 - [x] Poderes de origens (Grimório) _[v0.4.3]_
 - [x] Poderes gerais (Grimório) _[v0.4.3]_
 - [x] Equipamento (Ficha) _[v0.4.4]_
+- [ ] Tormenta20 Game of the Year - Suporte para a ficha do jogo do ano.
 - [ ] Origens (Grimório)
 - [ ] Bestiário?
 - [ ] ??????
@@ -52,6 +53,10 @@ Visite a página da loja de extensões do seu navegador:
 ### Qual versão do livro está sendo usada?
 
 Versão Jogo do Ano, mais precisamente a 3ª edição lançada.
+
+### Quais templates de fichas a extensão funciona?
+
+Por enquanto apenas na versão `Tormenta 20`.
 
 ### Como posso contribuir?
 
