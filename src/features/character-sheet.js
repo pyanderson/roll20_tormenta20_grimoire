@@ -135,8 +135,6 @@ function loadSheetExtraCSS({ iframe }) {
  */
 // eslint-disable-next-line no-unused-vars
 function loadSheetEnhancement({ db: data, characterId }) {
-  // Tormenta20 data
-  // const data = { spells, abilitiesAndPowers, equipments, races };
   // Load the functionalities
   const iframe = document.querySelector(`iframe[name="iframe_${characterId}"]`);
   if (!iframe) {

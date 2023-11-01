@@ -60,7 +60,7 @@ function renderPowerButton({ container, data }) {
       Confirmar: () => {
         fillPowerContainer({
           container,
-          power: data.abilitiesAndPowers[input.value],
+          power: data.abilities_and_powers[input.value],
         });
         dialog.dialog('close');
       },
@@ -79,7 +79,7 @@ function renderPowerButton({ container, data }) {
       if (e.keyCode === 13) {
         fillPowerContainer({
           container,
-          power: data.abilitiesAndPowers[input.value],
+          power: data.abilities_and_powers[input.value],
         });
         dialog.dialog('close');
       }

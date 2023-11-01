@@ -50,7 +50,7 @@
  * @typedef T20Data
  * @type {object}
  * @property {SpellData} spells
- * @property {PowerData} abilitiesAndPowers
+ * @property {PowerData} abilities_and_powers
  * @property {EquipmentData[]} equipments
  * @property {Race[]} races
  */
