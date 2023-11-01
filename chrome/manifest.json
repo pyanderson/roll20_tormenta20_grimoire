@@ -31,6 +31,7 @@
         "features/powers.js",
         "features/spells.js",
         "features/equipments.js",
+        "features/races.js",
         "features/character-sheet.js",
         "features/book.js",
         "features/enhancement.js",

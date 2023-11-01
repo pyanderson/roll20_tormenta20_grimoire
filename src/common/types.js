@@ -40,11 +40,19 @@
  */
 
 /**
+ * @typedef Ability
+ * @type {object}
+ * @property {string} name - Eg.: Conhecimento das Rochas
+ * @property {string} description - Eg.: Você recebe visão no escuro e +2 em testes de Percepção e Sobrevivência realizados no subterrâneo.
+ */
+
+/**
  * @typedef T20Data
  * @type {object}
  * @property {SpellData} spells
  * @property {PowerData} abilitiesAndPowers
  * @property {EquipmentData[]} equipments
+ * @property {Race[]} races
  */
 
 /**
@@ -102,4 +110,20 @@
  * @type {object}
  * @property {string} name - Eg.: Armas
  * @property {Weapon[]|Armor[]|Item[]} items
+ */
+
+/**
+ * @typedef Attribute
+ * @type {object}
+ * @property {string} attr - Eg.: con
+ * @property {number} mod - Eg.: 2
+ */
+
+/**
+ * @typedef Race
+ * @type {object}
+ * @property {string} name - Eg.: Anão
+ * @property {number} displacement - Eg.: 6
+ * @property {Attribute[]} attributes
+ * @property {Ability[]} abilities
  */

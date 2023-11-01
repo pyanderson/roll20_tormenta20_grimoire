@@ -19,12 +19,7 @@ $(document).ready(() => {
         const data = e.originalEvent.data;
         // only add the sheet improvements when a character sheet is opened
         if (data.type === 'loaded')
-          loadSheetEnhancement({
-            spells: db.spells,
-            abilitiesAndPowers: db.abilities_and_powers,
-            equipments: db.equipments,
-            characterId: data.characterId,
-          });
+          loadSheetEnhancement({ db, characterId: data.characterId });
       });
     });
 });

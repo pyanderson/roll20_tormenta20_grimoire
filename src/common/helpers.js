@@ -158,3 +158,29 @@ function clearChildren({ el }) {
     el.removeChild(el.lastChild);
   }
 }
+
+/**
+ * Generate Roll20 UUID.
+ *
+ * @returns {string}
+ */
+// eslint-disable-next-line no-unused-vars
+function generateUUID() {
+  const source =
+    '-0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz';
+  const getFirstPart = (part, seed) => {
+    if (seed === 0) return `-${part}`;
+    return getFirstPart(
+      `${source.charAt(seed % 64)}${part}`,
+      Math.floor(seed / 64),
+    );
+  };
+  const getSecondPart = (part, size) => {
+    if (part.length === size) return part;
+    return getSecondPart(
+      `${part}${source.charAt(Math.floor(64 * Math.random()))}`,
+      size,
+    );
+  };
+  return `${getFirstPart('', new Date().getTime())}${getSecondPart('', 12)}`;
+}

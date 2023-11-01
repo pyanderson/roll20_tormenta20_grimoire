@@ -11,6 +11,8 @@
 /* global calcCD,loadSpellsEnhancement */
 /* features/equipments vars */
 /* global loadEquipmentEnhancement */
+/* features/races vars */
+/* global loadRacesEnhancement */
 
 /**
  * Returns the data configuration of the character saved in the local storage.
@@ -128,20 +130,13 @@ function loadSheetExtraCSS({ iframe }) {
  * Load the sheet improvements.
  *
  * @param {object} props
- * @param {SpellData} props.spells - The spells data.
- * @param {PowerData} props.powers - The powers data.
- * @param {EquipmentData} props.equipments - The equipments data.
+ * @param {T20Data} props.db - The Tormenta20 data.
  * @param {string} props.characterId - The character ID in the Roll20 game.
  */
 // eslint-disable-next-line no-unused-vars
-function loadSheetEnhancement({
-  spells,
-  abilitiesAndPowers,
-  equipments,
-  characterId,
-}) {
+function loadSheetEnhancement({ db: data, characterId }) {
   // Tormenta20 data
-  const data = { spells, abilitiesAndPowers, equipments };
+  // const data = { spells, abilitiesAndPowers, equipments, races };
   // Load the functionalities
   const iframe = document.querySelector(`iframe[name="iframe_${characterId}"]`);
   if (!iframe) {
@@ -165,14 +160,28 @@ function loadSheetEnhancement({
     });
     const equipmentsContainer = pathQuerySelector({
       root: iframe.contentDocument,
-      path: ['div.sheet-right-container', 'div.sheet-equipment-container'],
+      path: [
+        'div.sheet-right-container',
+        'div.sheet-equipment-container',
+        'div[data-groupname="repeating_equipment"]',
+      ],
     });
-    if (spellsContainer && powersContainer && equipmentsContainer) {
+    const headerContainer = pathQuerySelector({
+      root: iframe.contentDocument,
+      path: ['div.sheet-left-container', 'div.sheet-header-info'],
+    });
+    if (
+      spellsContainer &&
+      powersContainer &&
+      equipmentsContainer &&
+      headerContainer
+    ) {
       init({ iframe: iframe.contentDocument, characterId });
       calcCD({ iframe: iframe.contentDocument });
       loadSpellsEnhancement({ iframe: iframe.contentDocument, data });
       loadPowersEnhancement({ iframe: iframe.contentDocument, data });
       loadEquipmentEnhancement({ iframe: iframe.contentDocument, data });
+      loadRacesEnhancement({ iframe: iframe.contentDocument, data });
       // Observers
       const spellsObserver = new MutationObserver(() => {
         loadSpellsEnhancement({ iframe: iframe.contentDocument, data });

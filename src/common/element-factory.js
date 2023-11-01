@@ -2,7 +2,7 @@
 /* common/constants vars */
 /* global BOOK_BUTTON_ID,BOOK_DIALOG_ID,BOOK_LIST_ID */
 /* common/helpers vars */
-/* global createElement,slugify,setInputValue,addEventObserver,normalize,clearChildren */
+/* global createElement,slugify,setInputValue,addEventObserver,normalize,clearChildren,generateUUID */
 /* common/dialog-manager vars  */
 /* global openDialog */
 
@@ -358,4 +358,62 @@ function createBookButton({ cssText, bookItems }) {
     });
   };
   return button;
+}
+
+/**
+ * Add a repeatable item to the character sheet.
+ *
+ * @param {object} props
+ * @param {HTMLDocument} props.iframe - The character sheet iframe document.
+ * @param {string} props.groupName - The item group name.
+ * @param {object[]} props.attributes - The item attributes values.
+ * @param {object[]} props.attributes[].name - The input name.
+ * @param {object[]} props.attributes[].value - The input value.
+ * @returns {HTMLUListElement}
+ */
+// eslint-disable-next-line no-unused-vars
+function addRepItem({ iframe, groupName, attributes }) {
+  const fieldset = iframe
+    .querySelector(`div.repcontrol[data-groupname="${groupName}"]`)
+    .parentNode.querySelector('fieldset');
+  const itemsContainer = iframe.querySelector(
+    `div.repcontainer[data-groupname="${groupName}"]`,
+  );
+  if (!fieldset) {
+    console.error(`fieldset for ${groupName} not found`);
+    return;
+  }
+  const repRowId = generateUUID().replace(/_/g, 'Z');
+  const newItem = createElement('div', {
+    classes: 'repitem',
+    append: [
+      createElement('div', {
+        classes: 'itemcontrol',
+        append: [
+          createElement('button', {
+            classes: 'btn btn-danger pictos repcontrol_del',
+            innerHTML: '#',
+          }),
+          createElement('a', {
+            classes: 'btn repcontrol_move',
+            innerHTML: '≡',
+          }),
+        ],
+      }),
+      ...Array.from(fieldset.childNodes).map((child) => child.cloneNode(true)),
+    ],
+  });
+  newItem.setAttribute('data-reprowid', repRowId);
+  for (const attr of attributes) {
+    const attrInput = newItem.querySelector(
+      `input[name="${attr.name}"],textarea[name="${attr.name}"]`,
+    );
+    if (attrInput) {
+      attrInput.value = attr.value;
+      setTimeout(() => {
+        attrInput.dispatchEvent(new CustomEvent('blur'));
+      }, 300);
+    }
+  }
+  itemsContainer.append(newItem);
 }

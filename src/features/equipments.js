@@ -11,10 +11,10 @@
  * @param {Equipment[]} props.equipments - All available equipments.
  */
 function loadEquipmentAutoComplete({ equipmentsContainer, equipments }) {
-  if (!equipmentsContainer.querySelector('#list-equipment')) {
+  if (!equipmentsContainer.querySelector('#equipment-list')) {
     equipmentsContainer.append(
       createElement('datalist', {
-        id: 'list-equipment',
+        id: 'equipment-list',
         append: equipments.map((equipment) =>
           createElement('option', { value: equipment.name }),
         ),
@@ -22,9 +22,9 @@ function loadEquipmentAutoComplete({ equipmentsContainer, equipments }) {
     );
   }
   for (const input of equipmentsContainer.querySelectorAll(
-    'input[name="attr_equipname"]:not([list="list-equipment"])',
+    'input[name="attr_equipname"]:not([list="equipment-list"])',
   )) {
-    input.setAttribute('list', 'list-equipment');
+    input.setAttribute('list', 'equipment-list');
     input.autocomplete = 'off';
     const updateSpacesValue = () => {
       const equipment = equipments.find(
@@ -55,7 +55,7 @@ function loadEquipmentAutoComplete({ equipmentsContainer, equipments }) {
 }
 
 /**
- * Add the equipment autocomplete.
+ * Load the equipment related enhancements.
  *
  * @param {object} props
  * @param {HTMLDocument} props.iframe - The character sheet iframe document.
