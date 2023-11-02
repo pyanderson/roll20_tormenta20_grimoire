@@ -128,7 +128,7 @@ Uma solução para esse problema seria usar uma ferramenta como o [Webpack](http
 
 - Revisão, por padrão a revisão da versão já fica mais lenta em ambas as lojas, mas além disso, no caso da Firefox ADD-ONS é necessário enviar duas versões da extensão, uma versão gerada pelo builder e a versão original do código, junto com instruções para gerar o mesmo código de saída, então vai detalhes de sistema e ferramentas, e isso precisa ser feito no lançamento de toda versão, mesmo que seja só um fix de um typo.
 
-- [Content Security Policy](https://developer.chrome.com/docs/extensions/mv3/manifest/content_security_policy/), é necessário atualizar as restrições dos scripts (isso não é necessário se a extensão passara injetar o script.)
+- [Content Security Policy](https://developer.chrome.com/docs/extensions/mv3/manifest/content_security_policy/), é necessário atualizar as restrições dos scripts (isso não é necessário se a extensão passar a injetar o script).
 
 
 Ok, não são muitos tradeoffs, apenas um tem impacto de verdade, onde o principal problema é a demora para lançar uma versão nova, principalmente quando se trata de correção de erros (a Chrome Store levou quase 48h para revisar a versão gerada via Webpack).
