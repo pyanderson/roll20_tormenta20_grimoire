@@ -59,6 +59,7 @@ book_folders_order = [
     "Condições",
     "Raças",
     "Classes",
+    "Origens",
     "Perícias",
     "Poderes",
     "Equipamento",
