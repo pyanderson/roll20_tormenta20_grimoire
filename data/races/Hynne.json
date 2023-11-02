@@ -1,6 +1,7 @@
 {
   "name": "Hynne",
   "displacement": 6,
+  "size": "Pequeno",
   "attributes": [
     {
       "attr": "des",

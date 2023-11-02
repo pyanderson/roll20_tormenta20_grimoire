@@ -1,6 +1,7 @@
 {
   "name": "Humano",
   "displacement": 9,
+  "size": "Médio",
   "attributes": [
     {
       "attr": "any",

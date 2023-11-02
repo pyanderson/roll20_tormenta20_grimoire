@@ -1,6 +1,7 @@
 {
   "name": "Goblin",
   "displacement": 9,
+  "size": "Pequeno",
   "attributes": [
     {
       "attr": "des",

@@ -1,6 +1,7 @@
 {
   "name": "Trog",
   "displacement": 9,
+  "size": "Médio",
   "attributes": [
     {
       "attr": "con",

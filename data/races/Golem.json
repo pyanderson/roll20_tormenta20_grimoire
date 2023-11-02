@@ -1,6 +1,7 @@
 {
   "name": "Golem",
   "displacement": 9,
+  "size": "Médio",
   "attributes": [
     {
       "attr": "for",

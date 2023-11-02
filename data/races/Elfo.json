@@ -1,6 +1,7 @@
 {
   "name": "Elfo",
   "displacement": 12,
+  "size": "Médio",
   "attributes": [
     {
       "attr": "int",

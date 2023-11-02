@@ -1,6 +1,7 @@
 {
   "name": "Sílfide",
   "displacement": 9,
+  "size": "Minúsculo",
   "attributes": [
     {
       "attr": "car",
