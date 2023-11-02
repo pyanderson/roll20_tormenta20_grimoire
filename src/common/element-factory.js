@@ -202,9 +202,16 @@ function openBookItemDialog({ dialogId, bookItem }) {
   const extraOptions =
     bookItem.type === 'item'
       ? {
-          content: bookItem.description
-            .split('\n\n')
-            .map((line) => createElement('p', { innerHTML: line.trim() })),
+          content: [
+            ...bookItem.description
+              .split('\n\n')
+              .map((line) => createElement('p', { innerHTML: line.trim() })),
+            ...(bookItem.implements || []).map((implement) =>
+              createElement('p', {
+                innerHTML: `${implement.cost}: ${implement.description}`,
+              }),
+            ),
+          ],
           width: 400,
           height: 200,
         }

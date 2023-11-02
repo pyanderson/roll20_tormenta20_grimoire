@@ -89,19 +89,22 @@ function fillSpellContainer({ iframe, container, spell }) {
       .join('\n\n')}`,
     origin: container,
   });
-
-  if (spell.resistance !== '') {
-    setInputValue({
-      selector: 'input[name="attr_spellcd"]',
-      value: iframe.querySelector('input[name="spell-cd-total"]').value,
-      origin: container,
-    });
-  } else {
-    setInputValue({
-      selector: 'input[name="attr_spellcd"]',
-      value: '',
-      origin: container,
-    });
+  if (container.querySelector('input[name="attr_spellcd"]')) {
+    if (spell.resistance !== '') {
+      if (iframe.querySelector('input[name="spell-cd-total"]')) {
+        setInputValue({
+          selector: 'input[name="attr_spellcd"]',
+          value: iframe.querySelector('input[name="spell-cd-total"]').value,
+          origin: container,
+        });
+      }
+    } else {
+      setInputValue({
+        selector: 'input[name="attr_spellcd"]',
+        value: '',
+        origin: container,
+      });
+    }
   }
 }
 
