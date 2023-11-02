@@ -45,6 +45,7 @@ Visite a página da loja de extensões do seu navegador:
 - [x] Equipamento (Ficha) _[v0.4.4]_
 - [x] Autocomplete para raças (Ficha) _[v0.4.5]_
 - [x] Tormenta20 Game of the Year - Suporte para a ficha do jogo do ano. _[v0.4.8]_
+- [x] Habilidades de raças adicionadas automaticamente. _[v0.4.11]_
 - [ ] Origens (Grimório)
 - [ ] Bestiário?
 - [ ] ??????
