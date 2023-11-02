@@ -124,6 +124,7 @@
  * @type {object}
  * @property {string} name - Eg.: Anão
  * @property {number} displacement - Eg.: 6
+ * @property {string} size - Eg.: Médio
  * @property {Attribute[]} attributes
  * @property {Ability[]} abilities
  */

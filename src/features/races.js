@@ -21,6 +21,11 @@ function loadRaceAutoComplete({ iframe, races }) {
     root: iframe,
     path: ['div.sheet-left-container', 'div.sheet-powers-and-abilities'],
   });
+  const sizeAndMoveContainer = pathQuerySelector({
+    root: iframe,
+    path: ['div.sheet-left-container', 'div.sheet-size-and-move-container'],
+  });
+
   if (!headerContainer.querySelector('#race-list')) {
     headerContainer.append(
       createElement('datalist', {
@@ -37,46 +42,74 @@ function loadRaceAutoComplete({ iframe, races }) {
 
   const updateAbilities = () => {
     const race = races.find((race) => race.name === input.value);
-    if (race) {
-      const toRemove = races
-        .filter((r) => r.name !== race.name)
-        .map((r) => r.abilities)
-        .reduce(
-          (acc, abilities) => [...acc, ...abilities.map((a) => a.name)],
-          [],
-        );
-      const allAbilitiesInputs = () =>
-        abilitiesAndPowersContainer.querySelectorAll(
-          'input[name="attr_nameability"],input[name="attr_namepower"]',
-        );
-      const currentAbilities = Array.from(allAbilitiesInputs()).map(
-        (abilityInput) => abilityInput.value.trim(),
+    if (!race) return;
+    const toRemove = races
+      .filter((r) => r.name !== race.name)
+      .map((r) => r.abilities)
+      .reduce(
+        (acc, abilities) => [...acc, ...abilities.map((a) => a.name)],
+        [],
       );
-      // add the race abilities
-      for (const ability of race.abilities) {
-        if (!currentAbilities.includes(ability.name)) {
-          addRepItem({
-            iframe,
-            groupName: 'repeating_abilities',
-            attributes: [
-              { name: 'attr_nameability', value: ability.name },
-              { name: 'attr_abilitydescription', value: ability.description },
-            ],
-          });
+    const allAbilitiesInputs = () =>
+      abilitiesAndPowersContainer.querySelectorAll(
+        'input[name="attr_nameability"],input[name="attr_namepower"]',
+      );
+    const currentAbilities = Array.from(allAbilitiesInputs()).map(
+      (abilityInput) => abilityInput.value.trim(),
+    );
+    // add the race abilities
+    for (const ability of race.abilities) {
+      if (!currentAbilities.includes(ability.name)) {
+        addRepItem({
+          iframe,
+          groupName: 'repeating_abilities',
+          attributes: [
+            { name: 'attr_nameability', value: ability.name },
+            { name: 'attr_abilitydescription', value: ability.description },
+          ],
+        });
+      }
+    }
+    // update size and displacement
+    if (sizeAndMoveContainer) {
+      const sizeSelect = sizeAndMoveContainer.querySelector(
+        'select[name="attr_tamanho"]',
+      );
+      const moveInput = sizeAndMoveContainer.querySelector(
+        'input[name="attr_deslocamento"]',
+      );
+      if (sizeSelect) {
+        const size =
+          {
+            Médio: 0,
+            Minúsculo: 5,
+            Pequeno: 2,
+            Grande: -2,
+            Enorme: -5,
+            Colossal: -10,
+          }[race.size] || 0;
+        sizeSelect.value = size;
+      }
+      if (moveInput) {
+        moveInput.value = race.displacement;
+      }
+    }
+    // remove the other races abilities
+    setTimeout(() => {
+      for (const abilityInput of allAbilitiesInputs()) {
+        if (toRemove.includes(abilityInput.value.trim())) {
+          abilityInput.parentNode.parentNode
+            .querySelector('button.repcontrol_del')
+            .click();
         }
       }
-      // remove the other races abilities
-      setTimeout(() => {
-        for (const abilityInput of allAbilitiesInputs()) {
-          if (toRemove.includes(abilityInput.value.trim())) {
-            abilityInput.parentNode.parentNode
-              .querySelector('button.repcontrol_del')
-              .click();
-          }
-        }
-      }, 1000);
-    }
+    }, 1000);
   };
+  addEventObserver({
+    el: input,
+    eventName: 'input',
+    eventHandler: updateAbilities,
+  });
   addEventObserver({
     el: input,
     eventName: 'change',
