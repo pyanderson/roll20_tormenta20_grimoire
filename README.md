@@ -122,7 +122,7 @@ A documentação será gerada na pasta `out`, seguindo o seguinte padrão: `out/
 
 ### ES6 Modules
 
-A primeiro momento pode parecer estranho os arquivos com comentários contendo a palavra [global](https://eslint.org/docs/latest/use/configure/language-options#specifying-globals) e as funções de outros arquivos, sem imports/exports. Isso acontece por que o navegador não consegue entender esse modulos dentro de Content scripts, resumindo a história, ele simplesmente executa os scripts na ordem que eles são declarados no manifest e não sabe resolver os imports.
+A primeiro momento pode parecer estranho os arquivos com comentários contendo a palavra [global](https://eslint.org/docs/latest/use/configure/language-options#specifying-globals) com o nome das funções de outros arquivos, sem imports/exports. Isso acontece por que o navegador não consegue entender esse modulos dentro de Content scripts, resumindo a história, ele simplesmente executa os scripts na ordem que eles são declarados no manifest e não sabe resolver os imports.
 
 Uma solução para esse problema seria usar uma ferramenta como o [Webpack](https://webpack.js.org/concepts/) ou o [Snowpack](https://www.snowpack.dev/), parece o caminho obvio, inclusive isso foi feito em uma das versões da extensão, mas foi necessário voltar atrás por causa dos tradeoffs que isso trouxe:
 
@@ -130,7 +130,7 @@ Uma solução para esse problema seria usar uma ferramenta como o [Webpack](http
 
 - [Content Security Policy](https://developer.chrome.com/docs/extensions/mv3/manifest/content_security_policy/), é necessário atualizar as restrições dos scripts (isso não é necessário se a extensão passar a injetar o script).
 
-
 Ok, não são muitos tradeoffs, apenas um tem impacto de verdade, onde o principal problema é a demora para lançar uma versão nova, principalmente quando se trata de correção de erros (a Chrome Store levou quase 48h para revisar a versão gerada via Webpack).
 
 Existem algumas configurações do webpack que podem facilitar o processo de revisão, como usar o modo de desenvolvimento e devtool como [source-map](https://webpack.js.org/configuration/devtool/) e provavelmente outras configurações extras (isso deixa o build mais lento, mas como essa é uma extensão pequena não chega a ser um problema de fato). Então o que tem travado isso de ir para a frente? Tempo, é o que falta para eu conseguir aplicar algum esforço nisso, mas contribuições e sugestões são sempre bem vindas.
+
