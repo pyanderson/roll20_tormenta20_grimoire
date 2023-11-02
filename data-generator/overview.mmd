@@ -1,0 +1,5 @@
+graph LR
+    pdf((pdf)) -- generate_raw_data.py --> raw.txt((raw.txt))
+    raw.txt((raw.txt)) -- manual fixes --> fixed.txt((fixed.txt))
+    fixed.txt((fixed.txt)) -- generate_book_items.py --> raw.json((raw.json))
+    raw.json((raw.json)) -- manual organization --> final.json((final.json))

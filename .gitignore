@@ -2,6 +2,8 @@
 *.xpi
 *.crx
 *.pem
+data-generator/*.json
+data-generator/*.txt
 src/manifest.json
 # editors
 *.swp

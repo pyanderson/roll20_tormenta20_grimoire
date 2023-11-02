@@ -73,6 +73,10 @@ Conforme as ideias surgem ou recebo sugestões, elas são adicionadas no Roadmap
 
 Como esse é um projeto que estou mantendo no meu tempo livre não é possível determinar prazos.
 
+### Como os dados são gerados?
+
+Os dados são extraídos do livro através de scripts e interações manuais. Mais detalhes em [data-generator](/data-generator/README.md).
+
 ## Desenvolvendo
 
 O firefox não tem suporte para a versão 3 do manifest, por isso é necessário ter as duas versões disponíveis.
