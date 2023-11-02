@@ -1,7 +1,9 @@
 'use strict';
 
 /* common/helpers vars */
-/* global pathQuerySelector,createElement */
+/* global pathQuerySelector,createElement,addEventObserver */
+/* common/element-factory vars */
+/* global addRepItem */
 
 /**
  * Add the race autocomplete.
@@ -15,10 +17,10 @@ function loadRaceAutoComplete({ iframe, races }) {
     root: iframe,
     path: ['div.sheet-left-container', 'div.sheet-header-info'],
   });
-  // const abilitiesAndPowersContainer = pathQuerySelector({
-  //   root: iframe,
-  //   path: ['div.sheet-left-container', 'div.sheet-powers-and-abilities'],
-  // });
+  const abilitiesAndPowersContainer = pathQuerySelector({
+    root: iframe,
+    path: ['div.sheet-left-container', 'div.sheet-powers-and-abilities'],
+  });
   if (!headerContainer.querySelector('#race-list')) {
     headerContainer.append(
       createElement('datalist', {
@@ -33,53 +35,53 @@ function loadRaceAutoComplete({ iframe, races }) {
   input.setAttribute('list', 'race-list');
   input.autocomplete = 'off';
 
-  // const updateAbilities = () => {
-  //   const race = races.find((race) => race.name === input.value);
-  //   if (race) {
-  //     const toRemove = races
-  //       .filter((r) => r.name !== race.name)
-  //       .map((r) => r.abilities)
-  //       .reduce(
-  //         (acc, abilities) => [...acc, ...abilities.map((a) => a.name)],
-  //         [],
-  //       );
-  //     const allAbilitiesInputs = abilitiesAndPowersContainer.querySelectorAll(
-  //       'input[name="attr_nameability"],input[name="attr_namepower"]',
-  //     );
-  //     const currentAbilities = Array.from(allAbilitiesInputs).map(
-  //       (abilityInput) => abilityInput.value.trim(),
-  //     );
-  //     // add the race abilities
-  //     for (const ability of race.abilities) {
-  //       if (!currentAbilities.includes(ability.name)) {
-  //         addRepItem({
-  //           iframe,
-  //           groupName: 'repeating_abilities',
-  //           attributes: [
-  //             { name: 'attr_nameability', value: ability.name },
-  //             { name: 'attr_abilitydescription', value: ability.description },
-  //           ],
-  //         });
-  //       }
-  //     }
-  //     // remove the other races abilities
-  //     for (const abilityInput of allAbilitiesInputs) {
-  //       if (toRemove.includes(abilityInput.value.trim())) {
-  //         console.log(`remove ${abilityInput.value}`);
-  //       }
-  //     }
-  //   }
-  // };
-  // addEventObserver({
-  //   el: input,
-  //   eventName: 'input',
-  //   eventHandler: updateAbilities,
-  // });
-  // addEventObserver({
-  //   el: input,
-  //   eventName: 'change',
-  //   eventHandler: updateAbilities,
-  // });
+  const updateAbilities = () => {
+    const race = races.find((race) => race.name === input.value);
+    if (race) {
+      const toRemove = races
+        .filter((r) => r.name !== race.name)
+        .map((r) => r.abilities)
+        .reduce(
+          (acc, abilities) => [...acc, ...abilities.map((a) => a.name)],
+          [],
+        );
+      const allAbilitiesInputs = () =>
+        abilitiesAndPowersContainer.querySelectorAll(
+          'input[name="attr_nameability"],input[name="attr_namepower"]',
+        );
+      const currentAbilities = Array.from(allAbilitiesInputs()).map(
+        (abilityInput) => abilityInput.value.trim(),
+      );
+      // add the race abilities
+      for (const ability of race.abilities) {
+        if (!currentAbilities.includes(ability.name)) {
+          addRepItem({
+            iframe,
+            groupName: 'repeating_abilities',
+            attributes: [
+              { name: 'attr_nameability', value: ability.name },
+              { name: 'attr_abilitydescription', value: ability.description },
+            ],
+          });
+        }
+      }
+      // remove the other races abilities
+      setTimeout(() => {
+        for (const abilityInput of allAbilitiesInputs()) {
+          if (toRemove.includes(abilityInput.value.trim())) {
+            abilityInput.parentNode.parentNode
+              .querySelector('button.repcontrol_del')
+              .click();
+          }
+        }
+      }, 1000);
+    }
+  };
+  addEventObserver({
+    el: input,
+    eventName: 'change',
+    eventHandler: updateAbilities,
+  });
 }
 
 /**
