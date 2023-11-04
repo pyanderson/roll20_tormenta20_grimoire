@@ -31,7 +31,13 @@ const config = {
       patterns: [
         { from: 'static', to: 'static' },
         { from: 'src', to: 'src' },
-        { from: 'manifest.v3.json', to: 'manifest.json' },
+        {
+          from:
+            process.env.MANIFEST === 'v2'
+              ? 'manifest.v2.json'
+              : 'manifest.v3.json',
+          to: 'manifest.json',
+        },
       ],
     }),
   ],

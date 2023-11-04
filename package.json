@@ -5,7 +5,9 @@
   "main": "src/index.js",
   "scripts": {
     "build:dev": "webpack build --mode development --watch",
+    "build:dev:v2": "MANIFEST=v2 webpack build --mode development --watch",
     "build:prod": "webpack build --mode production",
+    "build:prod:v2": "MANIFEST=v2 webpack build --mode production",
     "make_docs": "jsdoc --package package.json --readme README.md -r src/"
   },
   "repository": {
