@@ -4,6 +4,8 @@
   "description": "Extensão para Google Chrome e Firefox que personaliza fichas de Tormenta20 no Roll20 adicionando magias, habilidades e poderes.",
   "main": "src/index.js",
   "scripts": {
+    "build:dev": "webpack build --mode development --watch",
+    "build:prod": "webpack build --mode production",
     "make_docs": "jsdoc --package package.json --readme README.md -r src/"
   },
   "repository": {
@@ -24,12 +26,22 @@
   },
   "homepage": "https://github.com/pyanderson/roll20_tormenta20_grimoire",
   "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "@types/chrome": "^0.0.248",
+    "@types/jquery": "^3.5.25",
+    "@typescript-eslint/eslint-plugin": "^6.9.1",
+    "@typescript-eslint/parser": "^6.9.1",
+    "babel-loader": "^9.1.3",
     "eslint": "^8.52.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-config-semistandard": "^17.0.0",
     "eslint-plugin-prefer-arrow": "^1.2.3",
     "eslint-plugin-prettier": "^5.0.1",
     "jsdoc": "^4.0.2",
-    "prettier": "3.0.3"
+    "prettier": "3.0.3",
+    "typescript": "^5.2.2",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
   }
 }

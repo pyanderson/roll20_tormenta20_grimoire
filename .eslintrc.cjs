@@ -1,11 +1,16 @@
 module.exports = {
-  extends: ['semistandard', 'plugin:prettier/recommended'],
+  parser: '@typescript-eslint/parser',
+  extends: [
+    'semistandard',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:prettier/recommended',
+  ],
   env: {
     browser: true,
     webextensions: true,
     jquery: true,
   },
-  plugins: ['prefer-arrow'],
+  plugins: ['@typescript-eslint', 'prefer-arrow'],
   rules: {
     'prefer-arrow/prefer-arrow-functions': [
       'error',
@@ -13,5 +18,6 @@ module.exports = {
     ],
     'func-style': ['error', 'declaration', { allowArrowFunctions: true }],
     'prettier/prettier': ['warn', { singleQuote: true }],
+    '@typescript-eslint/no-var-requires': 0,
   },
 };
