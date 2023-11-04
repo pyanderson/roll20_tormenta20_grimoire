@@ -30,6 +30,7 @@
     "@babel/preset-env": "^7.23.2",
     "@types/chrome": "^0.0.248",
     "@types/jquery": "^3.5.25",
+    "@types/jqueryui": "^1.12.19",
     "@typescript-eslint/eslint-plugin": "^6.9.1",
     "@typescript-eslint/parser": "^6.9.1",
     "babel-loader": "^9.1.3",
