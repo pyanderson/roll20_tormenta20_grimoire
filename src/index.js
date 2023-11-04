@@ -4,10 +4,11 @@ import { loadBook } from './features/book';
 import { loadSheetEnhancement } from './features/character-sheet';
 import { loadChatEnhancement } from './features/enhancement';
 
-const DB_PATH = 'data/db.json';
+const DB_PATH = 'static/db.json';
 
 // https://youmightnotneedjquery.com/#ready
 function ready(fn) {
+  console.log('teste');
   if (document.readyState !== 'loading') {
     fn();
   } else {

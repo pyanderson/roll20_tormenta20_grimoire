@@ -1,8 +1,8 @@
 'use strict';
 /* eslint-disable no-unused-vars */
 // Static Data
-const CHARACTER_SHEET_CSS_PATH = 'css/sheet.css';
-const ICON_PATH = 'images/32.png';
+const CHARACTER_SHEET_CSS_PATH = 'src/css/sheet.css';
+const ICON_PATH = 'static/icons/32.png';
 
 // Book
 const ZOOM_DIV_ID = 'zoomclick';
