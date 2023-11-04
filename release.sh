@@ -8,6 +8,9 @@ version=$(grep -o '"version": *"[^"]*"' "manifest.v3.json" | sed 's/"version": "
 
 manifests=("v2" "v3")
 
+cp package.json package-lock.json webpack.config.cjs manifest.v3.json dist/
+cp BUILD.md dist/README.md
+
 for manifest in "${manifests[@]}"; do
   echo "preparing version $version for $manifest"
   cp "manifest.$manifest.json" "dist/manifest.json"
