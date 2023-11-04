@@ -3,7 +3,7 @@ from collections import OrderedDict
 from operator import itemgetter
 from pathlib import Path
 
-output_path = "src/data/db.json"
+output_path = "static/db.json"
 
 
 def load_folder(source_path):
