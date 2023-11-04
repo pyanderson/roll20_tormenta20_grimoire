@@ -133,8 +133,7 @@ function loadSheetExtraCSS({ iframe }) {
  * @param {T20Data} props.db - The Tormenta20 data.
  * @param {string} props.characterId - The character ID in the Roll20 game.
  */
-// eslint-disable-next-line no-unused-vars
-function loadSheetEnhancement({ db: data, characterId }) {
+export function loadSheetEnhancement({ db: data, characterId }) {
   // Load the functionalities
   const iframe = document.querySelector(`iframe[name="iframe_${characterId}"]`);
   if (!iframe) {

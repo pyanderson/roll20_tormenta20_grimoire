@@ -13,8 +13,7 @@
  * @param {BookItem[]} props.bookItems - The book items list.
  * @param {number} props.retry - Number of retries.
  */
-// eslint-disable-next-line no-unused-vars
-function loadBook({ bookItems, retry = 5 }) {
+export function loadBook({ bookItems, retry = 5 }) {
   const zoomDiv = document.getElementById(ZOOM_DIV_ID);
   // Wait until the zoom button is available
   if (!zoomDiv)

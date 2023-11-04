@@ -56,8 +56,7 @@ function enhanceMessage({ message, conditionsMap }) {
  * @param {object} props
  * @param {BookItem[]} props.bookItems - The t20 book as list of folders.
  */
-// eslint-disable-next-line no-unused-vars
-function loadChatEnhancement({ bookItems }) {
+export function loadChatEnhancement({ bookItems }) {
   const conditionsMap = bookItems
     .find((folder) => folder.name === 'Condições')
     .items.reduce((acc, item) => {
