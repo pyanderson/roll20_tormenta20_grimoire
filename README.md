@@ -82,7 +82,13 @@ Os dados são extraídos do livro através de scripts e interações manuais. Ma
 
 ### Dependências
 
-- [node v18.18.2](https://nodejs.org/en/download)
+- Instale o [node v18.18.2](https://nodejs.org/en/download)
+
+Então instale os pacotes:
+
+```bash
+npm i
+```
 
 ### Build
 
