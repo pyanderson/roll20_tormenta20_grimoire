@@ -22,8 +22,8 @@
         "src/css/enhancement.css"
       ],
       "js": [
-        "src/third-party/jquery-3.7.1.min.js",
-        "src/third-party/jquery-ui-1.12.1.min.js",
+        "src/vendor/jquery-3.7.1.min.js",
+        "src/vendor/jquery-ui-1.12.1.min.js",
         "index.js"
       ],
       "run_at": "document_end"

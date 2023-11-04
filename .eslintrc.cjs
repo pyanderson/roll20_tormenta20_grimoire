@@ -5,6 +5,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
   ],
+  ignorePatterns: ['**/vendor/*.js'],
   env: {
     browser: true,
     webextensions: true,
