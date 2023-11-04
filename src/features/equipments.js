@@ -1,7 +1,10 @@
 'use strict';
 
-/* common/helpers vars */
-/* global pathQuerySelector,createElement,addEventObserver */
+import {
+  addEventObserver,
+  createElement,
+  pathQuerySelector,
+} from '../common/helpers';
 
 /**
  * Add the equipment autocomplete.
@@ -61,8 +64,7 @@ function loadEquipmentAutoComplete({ equipmentsContainer, equipments }) {
  * @param {HTMLDocument} props.iframe - The character sheet iframe document.
  * @param {T20Data} props.data - The Tormenta20 data.
  */
-// eslint-disable-next-line no-unused-vars
-function loadEquipmentEnhancement({ iframe, data }) {
+export function loadEquipmentEnhancement({ iframe, data }) {
   const equipmentsContainer = pathQuerySelector({
     root: iframe,
     path: [

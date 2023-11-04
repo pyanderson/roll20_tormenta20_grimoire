@@ -10,8 +10,7 @@
  * @param {function} props.eventHandler - The event handler that will be called when the event is triggered.
  * @param {string} [props.selector]
  */
-// eslint-disable-next-line no-unused-vars
-function addEventObserver({ el, eventName, eventHandler, selector }) {
+export function addEventObserver({ el, eventName, eventHandler, selector }) {
   const handlers = [];
   if (selector) {
     const elements = el.querySelectorAll(selector);
@@ -49,8 +48,7 @@ function addEventObserver({ el, eventName, eventHandler, selector }) {
  * @param {object} [attributes={}] - A object with the attributes to be assigned to the new element.
  * @returns {HTMLElement}
  */
-// eslint-disable-next-line no-unused-vars
-function createElement(tagName, attributes = {}) {
+export function createElement(tagName, attributes = {}) {
   const newElement = document.createElement(tagName);
   const { id, name, classes, append, colspan, ...other } = attributes;
   Object.entries({ id, name, class: classes, colspan }).forEach(
@@ -71,8 +69,7 @@ function createElement(tagName, attributes = {}) {
  * @param {string[]} props.path - List of selectors to be used to search the element
  * @returns {HTMLElement|null}
  */
-// eslint-disable-next-line no-unused-vars
-function pathQuerySelector({ root, path }) {
+export function pathQuerySelector({ root, path }) {
   if (!root) return null;
   if (path.length === 0) return root;
   return pathQuerySelector({
@@ -87,8 +84,7 @@ function pathQuerySelector({ root, path }) {
  * @param {string} s
  * @returns {string}
  */
-// eslint-disable-next-line no-unused-vars
-function slugify(s) {
+export function slugify(s) {
   return s
     .toLowerCase()
     .replace(/[^\w\s-]/g, '')
@@ -105,8 +101,7 @@ function slugify(s) {
  * @param {HTMLDocument|HTMLElement} [props.origin=document]
  * @returns {HTMLElement|null}
  */
-// eslint-disable-next-line no-unused-vars
-function setInputValue({ selector, value, origin = document }) {
+export function setInputValue({ selector, value, origin = document }) {
   const el = origin.querySelector(selector);
   if (!el) return null;
   el.focus();
@@ -122,8 +117,7 @@ function setInputValue({ selector, value, origin = document }) {
  * @param {string} props.url
  * @returns {boolean}
  */
-// eslint-disable-next-line no-unused-vars
-function hasCSS({ iframe, url }) {
+export function hasCSS({ iframe, url }) {
   const links = iframe.querySelectorAll('link[rel="stylesheet"]');
   return Boolean(
     Array.from(links).find((link) => {
@@ -138,8 +132,7 @@ function hasCSS({ iframe, url }) {
  * @param {string} s
  * @returns {string}
  */
-// eslint-disable-next-line no-unused-vars
-function normalize(s) {
+export function normalize(s) {
   return s
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
@@ -152,8 +145,7 @@ function normalize(s) {
  * @param {object} props
  * @param {HTMLElement} props.el - The element to be clear.
  */
-// eslint-disable-next-line no-unused-vars
-function clearChildren({ el }) {
+export function clearChildren({ el }) {
   while (el.firstChild) {
     el.removeChild(el.lastChild);
   }
@@ -164,8 +156,7 @@ function clearChildren({ el }) {
  *
  * @returns {string}
  */
-// eslint-disable-next-line no-unused-vars
-function generateUUID() {
+export function generateUUID() {
   const source =
     '-0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz';
   const getFirstPart = (part, seed) => {

@@ -1,10 +1,42 @@
 'use strict';
-/* common/constants vars */
-/* global  */
-/* common/helpers vars */
-/* global createElement,addEventObserver,pathQuerySelector,setInputValue */
-/* common/element-factory vars */
-/* global createSpellDialog */
+
+import {
+  addEventObserver,
+  createElement,
+  pathQuerySelector,
+  setInputValue,
+} from '../common/helpers';
+
+/**
+ * Create the spell dialog element.
+ *
+ * @param {object} props
+ * @param {string} props.circle - The spell circle [1, 2, 3, 4, 5].
+ * @param {string[]} props.options - All available spell names for the circle.
+ * @returns {HTMLDivElement}
+ */
+function createSpellDialog({ circle, options }) {
+  const content = `
+  <form name="spell-form">
+    <fieldset>
+      <label>
+        <b>Nome</b><br>
+        <input list="list-${circle}-spells" type="text" name="spell-name" value="" autocomplete="off">
+        <datalist id="list-${circle}-spells">
+        ${options.map((option) => `<option value="${option}">`).join('')}
+         </datalist>
+      </label>
+      <!-- Allow form submission with keyboard without duplicating the dialog button -->
+      <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+    </fieldset>
+  </form>
+  `;
+  return createElement('div', {
+    name: 'spell-dialog',
+    title: `${circle}º Círculo`,
+    innerHTML: content.trim(),
+  });
+}
 
 /**
  * Calc the CD value.
@@ -12,8 +44,7 @@
  * @param {object} props
  * @param {HTMLDocument} props.iframe - The character sheet iframe document.
  */
-// eslint-disable-next-line no-unused-vars
-function calcCD({ iframe }) {
+export function calcCD({ iframe }) {
   const spellsContainer = pathQuerySelector({
     root: iframe,
     path: ['div.sheet-left-container', 'div.sheet-spells'],
@@ -189,8 +220,7 @@ function renderSpellButton({ iframe, container, circle, data }) {
  * @param {HTMLDocument} props.iframe - The character sheet iframe document.
  * @param {T20Data} props.data - The Tormenta20 data.
  */
-// eslint-disable-next-line no-unused-vars
-function loadSpellsEnhancement({ iframe, data }) {
+export function loadSpellsEnhancement({ iframe, data }) {
   const spellsContainer = pathQuerySelector({
     root: iframe,
     path: ['div.sheet-left-container', 'div.sheet-spells'],

@@ -1,9 +1,68 @@
 'use strict';
 
-/* common/helpers vars */
-/* global pathQuerySelector,createElement,addEventObserver */
-/* common/element-factory vars */
-/* global addRepItem */
+import {
+  addEventObserver,
+  createElement,
+  generateUUID,
+  pathQuerySelector,
+} from '../common/helpers';
+
+/**
+ * Add a repeatable item to the character sheet.
+ *
+ * @param {object} props
+ * @param {HTMLDocument} props.iframe - The character sheet iframe document.
+ * @param {string} props.groupName - The item group name.
+ * @param {object[]} props.attributes - The item attributes values.
+ * @param {object[]} props.attributes[].name - The input name.
+ * @param {object[]} props.attributes[].value - The input value.
+ * @returns {HTMLUListElement}
+ */
+function addRepItem({ iframe, groupName, attributes }) {
+  const fieldset = iframe
+    .querySelector(`div.repcontrol[data-groupname="${groupName}"]`)
+    .parentNode.querySelector('fieldset');
+  const itemsContainer = iframe.querySelector(
+    `div.repcontainer[data-groupname="${groupName}"]`,
+  );
+  if (!fieldset) {
+    console.error(`fieldset for ${groupName} not found`);
+    return;
+  }
+  const repRowId = generateUUID().replace(/_/g, 'Z');
+  const newItem = createElement('div', {
+    classes: 'repitem',
+    append: [
+      createElement('div', {
+        classes: 'itemcontrol',
+        append: [
+          createElement('button', {
+            classes: 'btn btn-danger pictos repcontrol_del',
+            innerHTML: '#',
+          }),
+          createElement('a', {
+            classes: 'btn repcontrol_move',
+            innerHTML: '≡',
+          }),
+        ],
+      }),
+      ...Array.from(fieldset.childNodes).map((child) => child.cloneNode(true)),
+    ],
+  });
+  newItem.setAttribute('data-reprowid', repRowId);
+  for (const attr of attributes) {
+    const attrInput = newItem.querySelector(
+      `input[name="${attr.name}"],textarea[name="${attr.name}"]`,
+    );
+    if (attrInput) {
+      attrInput.value = attr.value;
+      setTimeout(() => {
+        attrInput.dispatchEvent(new CustomEvent('blur'));
+      }, 300);
+    }
+  }
+  itemsContainer.append(newItem);
+}
 
 /**
  * Add the race autocomplete.
@@ -124,7 +183,6 @@ function loadRaceAutoComplete({ iframe, races }) {
  * @param {HTMLDocument} props.iframe - The character sheet iframe document.
  * @param {T20Data} props.data - The Tormenta20 data.
  */
-// eslint-disable-next-line no-unused-vars
-function loadRacesEnhancement({ iframe, data }) {
+export function loadRacesEnhancement({ iframe, data }) {
   loadRaceAutoComplete({ iframe, races: data.races });
 }

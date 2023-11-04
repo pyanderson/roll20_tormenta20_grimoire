@@ -1,10 +1,9 @@
 'use strict';
-/* common/constants vars */
-/* global TEXTCHAT_DIV_ID */
-/* common/helpers vars */
-/* global createElement,addEventObserver,slugify */
-/* common/element-factory vars */
-/* global openBookItemDialog */
+
+import { addEventObserver, createElement, slugify } from '../common/helpers';
+import { openBookItemDialog } from '../features/book';
+
+const TEXTCHAT_DIV_ID = 'textchat';
 
 /**
  * Replace all conditions text in a message with a button that opens a dialog with the details.

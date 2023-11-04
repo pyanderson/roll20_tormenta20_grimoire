@@ -24,14 +24,6 @@
       "js": [
         "src/third-party/jquery-3.7.1.min.js",
         "src/third-party/jquery-ui-1.12.1.min.js",
-        "src/common/constants.js",
-        "src/common/helpers.js",
-        "src/common/dialog-manager.js",
-        "src/common/element-factory.js",
-        "src/features/powers.js",
-        "src/features/spells.js",
-        "src/features/equipments.js",
-        "src/features/races.js",
         "index.js"
       ],
       "run_at": "document_end"

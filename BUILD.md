@@ -8,7 +8,7 @@
 
 ```bash
 npm i
-npm run build:prod
+npm run build:prod:v2
 ```
 
 The generated bundle will be located in the `dist` folder with the name `index.js`.

@@ -1,18 +1,45 @@
 'use strict';
-/* common/constants vars */
-/* global CHARACTER_SHEET_CSS_PATH */
-/* common/helpers vars */
-/* global createElement,addEventObserver,pathQuerySelector,hasCSS */
-/* common/element-factory vars */
-/* global createCDRow */
-/* features/powers vars  */
-/* global loadPowersEnhancement */
-/* features/spells vars */
-/* global calcCD,loadSpellsEnhancement */
-/* features/equipments vars */
-/* global loadEquipmentEnhancement */
-/* features/races vars */
-/* global loadRacesEnhancement */
+
+import {
+  addEventObserver,
+  createElement,
+  hasCSS,
+  pathQuerySelector,
+} from '../common/helpers';
+import { loadEquipmentEnhancement } from './equipments';
+import { loadPowersEnhancement } from './powers';
+import { loadRacesEnhancement } from './races';
+import { calcCD, loadSpellsEnhancement } from './spells';
+
+const CHARACTER_SHEET_CSS_PATH = 'src/css/sheet.css';
+
+/**
+ * Create the the CD row element.
+ *
+ * @returns {HTMLDivElement}
+ */
+function createCDRow() {
+  const content = `
+  <span class="spell-cd-item">CD</span>
+    <input class="spell-cd-item spell-cd-total" style="margin-right: 5px; border: 2px solid black;" disabled="" value="" maxlength="2" name="spell-cd-total">
+    <div class="spell-cd-item">=</div>
+    <select class="spell-cd-item spell-cd-bottom-border spell-cd-attr" style="margin-right: 5px" name="spell-cd-attr">
+        <option value="int">INT</option>
+        <option value="sab">SAB</option>
+        <option value="car">CAR</option>
+        <option value="for">FOR</option>
+        <option value="des">DES</option>
+        <option value="con">CON</option>
+    </select>
+    <div class="spell-cd-item">+</div>
+    <input class="spell-cd-item spell-cd-bottom-border spell-cd-extra" maxlength="2" type="text" spellcheck="false" value="0" name="spell-cd-extra">
+  `;
+  return createElement('div', {
+    classes: 'sheet-default-title spell-cd',
+    name: 'spell-cd',
+    innerHTML: content.trim(),
+  });
+}
 
 /**
  * Returns the data configuration of the character saved in the local storage.

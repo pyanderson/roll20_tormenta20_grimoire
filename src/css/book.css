@@ -20,14 +20,14 @@ ul,
 }
 
 .tormenta20-book-folder::before {
-  content: "\2795";
+  content: '\2795';
   color: black;
   display: inline-block;
   margin-right: 6px;
 }
 
 .tormenta20-book-folder-open::before {
-  content: "\2796";
+  content: '\2796';
 }
 
 .tormenta20-book-nested-folder {
@@ -91,7 +91,7 @@ ul,
 }
 
 .tormenta20-book-button-tooltip::after {
-  content: " ";
+  content: ' ';
   position: absolute;
   bottom: 100%;
   left: 50%;
