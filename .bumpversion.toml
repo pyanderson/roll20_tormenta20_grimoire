@@ -4,10 +4,10 @@ commit = true
 tag = true
 
 [[tool.bumpversion.files]]
-filename = "chrome/manifest.json"
+filename = "manifest.v2.json"
 
 [[tool.bumpversion.files]]
-filename = "firefox/manifest.json"
+filename = "manifest.v3.json"
 
 [[tool.bumpversion.files]]
 filename = "package.json"
