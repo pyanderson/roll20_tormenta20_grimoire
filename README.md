@@ -48,6 +48,7 @@ Visite a página da loja de extensões do seu navegador:
 - [x] Habilidades de raças adicionadas automaticamente. _[v0.4.11]_
 - [x] Tamanho e deslocamento atualizados automaticamente na versão jogo do ano da ficha. _[v0.4.12]_
 - [x] Origens (Grimório) _[v0.4.14]_
+- [ ] Divindades (Grimório)
 - [ ] Bestiário?
 - [ ] ??????
 
@@ -75,17 +76,37 @@ Como esse é um projeto que estou mantendo no meu tempo livre não é possível 
 
 ### Como os dados são gerados?
 
-Os dados são extraídos do livro através de scripts e interações manuais. Mais detalhes em [data-generator](/data-generator/README.md).
+Os dados são extraídos do livro através de scripts e interações manuais. Mais detalhes em [data-generator](/data/generator/README.md).
 
 ## Desenvolvendo
 
-O firefox não tem suporte para a versão 3 do manifest, por isso é necessário ter as duas versões disponíveis.
+### Dependências
 
-Copie para a pasta `src/` o manifest do navegador que você irá testar as mudanças:
+- Instale o [node v18.18.2](https://nodejs.org/en/download)
+
+Então instale os pacotes:
 
 ```bash
-cp chrome/manifest.json src/manifest.json
+npm i
 ```
+
+### Build
+
+O firefox não tem suporte para a versão 3 do manifest, por isso é necessário ter as duas versões disponíveis, sendo assim, tem dois comandos para gerar o bundle em desenvolvimento.
+
+- v2
+
+```bash
+npm run build:dev:v2
+```
+
+- v3
+
+```bash
+npm run build:dev
+```
+
+Os arquivos da extensão serão gerados na pasta `dist/`.
 
 ### Chrome
 
@@ -106,7 +127,7 @@ Isso significa que a extensão é executada em um "mundo isolado", sem acesso a 
 
 ### Documentação
 
-As funções estão documentadas usando [JSDoc](https://jsdoc.app/), sem nenhuma razão específica só por que eu queria testar mesmo :D. Para gerar a Documentação, siga os passos:
+As funções estão documentadas usando [JSDoc](https://jsdoc.app/), sem nenhuma razão específica só por que eu queria testar mesmo :D (é provavel que eu mude para typescript e essa documentação talvez não faça tanto sentido). Para gerar a Documentação, siga os passos:
 
 - Instale o [Node](https://github.com/nodejs/node/tree/main#download) caso não tenha ainda. Recomendo instalar via [nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
 
@@ -123,18 +144,3 @@ npm run make_docs
 ```
 
 A documentação será gerada na pasta `out`, seguindo o seguinte padrão: `out/roll20_tormenta20_grimoire/{versão-atual}/index.html`
-
-### ES6 Modules
-
-A primeiro momento pode parecer estranho os arquivos com comentários contendo a palavra [global](https://eslint.org/docs/latest/use/configure/language-options#specifying-globals) com o nome das funções de outros arquivos, sem imports/exports. Isso acontece por que o navegador não consegue entender esse modulos dentro de Content scripts, resumindo a história, ele simplesmente executa os scripts na ordem que eles são declarados no manifest e não sabe resolver os imports.
-
-Uma solução para esse problema seria usar uma ferramenta como o [Webpack](https://webpack.js.org/concepts/) ou o [Snowpack](https://www.snowpack.dev/), parece o caminho obvio, inclusive isso foi feito em uma das versões da extensão, mas foi necessário voltar atrás por causa dos tradeoffs que isso trouxe:
-
-- Revisão, por padrão a revisão da versão já fica mais lenta em ambas as lojas, mas além disso, no caso da Firefox ADD-ONS é necessário enviar duas versões da extensão, uma versão gerada pelo builder e a versão original do código, junto com instruções para gerar o mesmo código de saída, então vai detalhes de sistema e ferramentas, e isso precisa ser feito no lançamento de toda versão, mesmo que seja só um fix de um typo.
-
-- [Content Security Policy](https://developer.chrome.com/docs/extensions/mv3/manifest/content_security_policy/), é necessário atualizar as restrições dos scripts (isso não é necessário se a extensão passar a injetar o script).
-
-Ok, não são muitos tradeoffs, apenas um tem impacto de verdade, onde o principal problema é a demora para lançar uma versão nova, principalmente quando se trata de correção de erros (a Chrome Store levou quase 48h para revisar a versão gerada via Webpack).
-
-Existem algumas configurações do webpack que podem facilitar o processo de revisão, como usar o modo de desenvolvimento e devtool como [source-map](https://webpack.js.org/configuration/devtool/) e provavelmente outras configurações extras (isso deixa o build mais lento, mas como essa é uma extensão pequena não chega a ser um problema de fato). Então o que tem travado isso de ir para a frente? Tempo, é o que falta para eu conseguir aplicar algum esforço nisso, mas contribuições e sugestões são sempre bem vindas.
-

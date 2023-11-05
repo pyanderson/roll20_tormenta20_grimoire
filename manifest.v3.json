@@ -7,10 +7,10 @@
   "author": "roll20tormenta20@pyanderson.dev",
   "homepage_url": "https://roll20tormenta20.pyanderson.dev/",
   "icons": {
-    "16": "images/16.png",
-    "32": "images/32.png",
-    "48": "images/48.png",
-    "128": "images/128.png"
+    "16": "static/icons/16.png",
+    "32": "static/icons/32.png",
+    "48": "static/icons/48.png",
+    "128": "static/icons/128.png"
   },
   "content_scripts": [
     {
@@ -18,23 +18,12 @@
         "https://app.roll20.net/editor*"
       ],
       "css": [
-        "css/book.css",
-        "css/enhancement.css"
+        "src/css/book.css",
+        "src/css/enhancement.css"
       ],
       "js": [
-        "third-party/jquery-3.7.1.min.js",
-        "third-party/jquery-ui-1.12.1.min.js",
-        "common/constants.js",
-        "common/helpers.js",
-        "common/dialog-manager.js",
-        "common/element-factory.js",
-        "features/powers.js",
-        "features/spells.js",
-        "features/equipments.js",
-        "features/races.js",
-        "features/character-sheet.js",
-        "features/book.js",
-        "features/enhancement.js",
+        "src/vendor/jquery-3.7.1.min.js",
+        "src/vendor/jquery-ui-1.12.1.min.js",
         "index.js"
       ],
       "run_at": "document_end"
@@ -43,9 +32,9 @@
   "web_accessible_resources": [
     {
       "resources": [
-        "data/*",
-        "css/sheet.css",
-        "images/32.png"
+        "static/db.json",
+        "src/css/sheet.css",
+        "static/icons/32.png"
       ],
       "matches": [
         "<all_urls>"

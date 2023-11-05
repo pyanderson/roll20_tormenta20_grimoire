@@ -4,14 +4,17 @@ set -e
 
 mkdir -p releases/
 
-version=$(grep -o '"version": *"[^"]*"' "chrome/manifest.json" | sed 's/"version": "\(.*\)"/\1/')
+version=$(grep -o '"version": *"[^"]*"' "manifest.v3.json" | sed 's/"version": "\(.*\)"/\1/')
 
-browsers=("firefox" "chrome")
+manifests=("v2" "v3")
 
-for browser in "${browsers[@]}"; do
-    echo "preparing version $version for $browser"
-    cp "$browser/manifest.json" "src/manifest.json"
-    [ -e "releases/$browser-$version.zip" ] && rm "releases/$browser-$version.zip"
-    cd src && zip -r "../releases/$browser-$version.zip" * && cd ..
-    echo "$browser-$version done"
+cp package.json package-lock.json webpack.config.cjs manifest.v3.json dist/
+cp BUILD.md dist/README.md
+
+for manifest in "${manifests[@]}"; do
+  echo "preparing version $version for $manifest"
+  cp "manifest.$manifest.json" "dist/manifest.json"
+  [ -e "releases/$manifest-$version.zip" ] && rm "releases/$manifest-$version.zip"
+  cd dist && zip -r "../releases/$manifest-$version.zip" * && cd ..
+  echo "$manifest-$version done"
 done

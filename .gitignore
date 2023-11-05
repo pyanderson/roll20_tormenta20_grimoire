@@ -2,9 +2,8 @@
 *.xpi
 *.crx
 *.pem
-data-generator/*.json
-data-generator/*.txt
-src/manifest.json
+data/generator/*.json
+data/generator/*.txt
 # editors
 *.swp
 *.sublime-project

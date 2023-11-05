@@ -1,10 +1,9 @@
 'use strict';
-/* common/constants vars */
-/* global TEXTCHAT_DIV_ID */
-/* common/helpers vars */
-/* global createElement,addEventObserver,slugify */
-/* common/element-factory vars */
-/* global openBookItemDialog */
+
+import { addEventObserver, createElement, slugify } from '../common/helpers';
+import { openBookItemDialog } from '../features/book';
+
+const TEXTCHAT_DIV_ID = 'textchat';
 
 /**
  * Replace all conditions text in a message with a button that opens a dialog with the details.
@@ -56,8 +55,7 @@ function enhanceMessage({ message, conditionsMap }) {
  * @param {object} props
  * @param {BookItem[]} props.bookItems - The t20 book as list of folders.
  */
-// eslint-disable-next-line no-unused-vars
-function loadChatEnhancement({ bookItems }) {
+export function loadChatEnhancement({ bookItems }) {
   const conditionsMap = bookItems
     .find((folder) => folder.name === 'Condições')
     .items.reduce((acc, item) => {

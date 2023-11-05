@@ -1,6 +1,6 @@
 'use strict';
-/* common/helpers vars */
-/* global createElement,addEventObserver */
+
+import { addEventObserver, createElement } from './helpers';
 
 /**
  * Get the highest z-index from a list of elements returned by an element except the node to skip.
@@ -45,8 +45,7 @@ function moveDialogToTop({ dialog }) {
  * @param {boolean} [props.persists=false] - If set to true, the dialog will not be deleted after the close.
  * @param {boolean} [props.moveToTopOnClick=true] - If set to true, the dialog will be moved to top always it receives a click event..
  */
-// eslint-disable-next-line no-unused-vars
-function openDialog({
+export function openDialog({
   id,
   title,
   content,
