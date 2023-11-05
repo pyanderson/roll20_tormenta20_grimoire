@@ -29,6 +29,7 @@ const config = {
   plugins: [
     new CopyPlugin({
       patterns: [
+        { from: 'src/main.js' },
         { from: 'static', to: 'static' },
         { from: 'src', to: 'src' },
         {

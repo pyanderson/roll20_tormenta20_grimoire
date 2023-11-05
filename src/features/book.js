@@ -10,7 +10,6 @@ import {
   slugify,
 } from '../common/helpers';
 
-const ICON_PATH = 'static/icons/32.png';
 const ZOOM_DIV_ID = 'zoomclick';
 const BOOK_BUTTON_ID = 'tormenta20-book-button';
 const BOOK_DIALOG_ID = 'tormenta20-dialog-book';
@@ -290,15 +289,16 @@ function createBookButton({ cssText, bookItems }) {
  *
  * @param props
  * @param {BookItem[]} props.bookItems - The book items list.
+ * @param {string} props.buttonIconURL - The URL to the icon in the extension files.
  * @param {number} props.retry - Number of retries.
  */
-export function loadBook({ bookItems, retry = 5 }) {
+export function loadBook({ bookItems, buttonIconURL, retry = 5 }) {
   const zoomDiv = document.getElementById(ZOOM_DIV_ID);
   // Wait until the zoom button is available
   if (!zoomDiv)
     // wait one second and try again
     return setTimeout(() => {
-      loadBook({ bookItems, retry: retry - 1 });
+      loadBook({ bookItems, buttonIconURL, retry: retry - 1 });
     }, 1000);
   // Remove the old button and old dialog if it exists, this is useful during development where you need to reload the extension several times
   document.getElementById(BOOK_DIALOG_ID)?.parentNode?.remove();
@@ -313,7 +313,7 @@ export function loadBook({ bookItems, retry = 5 }) {
     right: ${calcRightValue(zoomDivStyle.getPropertyValue('right'))};
     top: ${zoomDivStyle.getPropertyValue('height')};
     z-index: ${zoomDivStyle.getPropertyValue('z-index')};
-    background-image: url(${chrome.runtime.getURL(ICON_PATH)});
+    background-image: url(${buttonIconURL});
   `;
   // Create the button and add it to the page
   const button = createBookButton({ cssText: buttonCSSText, bookItems });

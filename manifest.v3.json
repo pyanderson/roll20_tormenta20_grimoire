@@ -22,9 +22,7 @@
         "src/css/enhancement.css"
       ],
       "js": [
-        "src/vendor/jquery-3.7.1.min.js",
-        "src/vendor/jquery-ui-1.12.1.min.js",
-        "index.js"
+        "main.js"
       ],
       "run_at": "document_end"
     }
@@ -32,6 +30,7 @@
   "web_accessible_resources": [
     {
       "resources": [
+        "index.js",
         "static/db.json",
         "src/css/sheet.css",
         "static/icons/32.png"

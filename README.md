@@ -123,7 +123,9 @@ Essa extensão usa content scripts por que precisa acessar diretamente os recurs
 - [Chrome](https://developer.chrome.com/docs/extensions/mv3/content_scripts/)
 - [Firefox](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts)
 
-Isso significa que a extensão é executada em um "mundo isolado", sem acesso a recursos importantes, como a API interna do Roll20, em versões antigas da extensão foi implementada uma injeção de script que burlava esse comportamento, resolvi remover por que ela não era necessária, facilitva, mas os problemas poderiam ser resolvidos dentro do ambiente isolado da extensão. Essa remoção não significa que essa estratégia está banida, apenas que ela será usada quando de fato for necessária.
+Isso significa que a extensão é executada em um "mundo isolado", sem acesso a recursos importantes, como a API interna do Roll20, por isso, é utilizada uma técnica de injeção de script para conseguir acessar esses recursos. Mas existe uma contrapartida, temos que aceitar as limitações e uma certa imprevisibilidade da aplicação Roll20, por exemplo, no momento a versão jQuery utilizada é a 1.9.1, e não temos controle sobre isso, a qualquer momento eles podem atualizar para uma versão incompatível com algo que está sendo utilizado por essa extensão, embora seja improvável grandes mudanças do tipo, essa é uma opção factível.
+
+Sendo assim, o uso de jQuery é o mínimo possível, se limitando à casos que se precisa de compatibilidade de layout com o Roll20 (diálogos).
 
 ### Documentação
 

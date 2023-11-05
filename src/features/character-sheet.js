@@ -11,8 +11,6 @@ import { loadPowersEnhancement } from './powers';
 import { loadRacesEnhancement } from './races';
 import { calcCD, loadSpellsEnhancement } from './spells';
 
-const CHARACTER_SHEET_CSS_PATH = 'src/css/sheet.css';
-
 /**
  * Create the the CD row element.
  *
@@ -145,8 +143,7 @@ function init({ iframe, characterId }) {
  * @param {object} props
  * @param {HTMLDocument} props.iframe - The character sheet iframe document.
  */
-function loadSheetExtraCSS({ iframe }) {
-  const url = chrome.runtime.getURL(CHARACTER_SHEET_CSS_PATH);
+function loadSheetExtraCSS({ iframe, url }) {
   if (hasCSS({ iframe, url })) return;
   iframe.head.appendChild(
     createElement('link', { rel: 'stylesheet', href: url }),
@@ -159,8 +156,13 @@ function loadSheetExtraCSS({ iframe }) {
  * @param {object} props
  * @param {T20Data} props.db - The Tormenta20 data.
  * @param {string} props.characterId - The character ID in the Roll20 game.
+ * @param {string} props.characterSheetCssURL - URL for the custom URL to be applied to the character sheet.
  */
-export function loadSheetEnhancement({ db: data, characterId }) {
+export function loadSheetEnhancement({
+  db: data,
+  characterId,
+  characterSheetCssURL,
+}) {
   // Load the functionalities
   const iframe = document.querySelector(`iframe[name="iframe_${characterId}"]`);
   if (!iframe) {
@@ -229,5 +231,8 @@ export function loadSheetEnhancement({ db: data, characterId }) {
   });
   observer.observe(iframe.contentDocument, observerOptions);
 
-  loadSheetExtraCSS({ iframe: iframe.contentDocument });
+  loadSheetExtraCSS({
+    iframe: iframe.contentDocument,
+    url: characterSheetCssURL,
+  });
 }
