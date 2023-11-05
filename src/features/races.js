@@ -5,63 +5,58 @@ import {
   createElement,
   generateUUID,
   pathQuerySelector,
+  waitForCondition,
+  waitForWindowAttribute,
 } from '../common/helpers';
+
+/**
+ * Delete a repeatable item of the character sheet.
+ *
+ * @param {object} props
+ * @param {object} props.character - The character in the Roll20 game.
+ * @param {object[]} props.attributes - The item attributes values.
+ * @param {object[]} props.attributes[].name - The input name.
+ * @param {object[]} props.attributes[].value - The input value.
+ */
+function updateAttributes({ character, attributes }) {
+  attributes.forEach(({ name, value }) => {
+    const attribute = character.attribs.models.find(
+      (attr) => attr.get('name') === name,
+    );
+    attribute?.save({ name, current: value });
+  });
+}
+
+/**
+ * Delete a repeatable item of the character sheet.
+ *
+ * @param {object} props
+ * @param {object} props.character - The character in the Roll20 game.
+ * @param {string} props.groupName - The item group name.
+ * @param {string} props.rowId - The data-reprowid value.
+ */
+function delRepItem({ character, groupName, rowId }) {
+  character.view.deleteRepeatingRow(groupName, rowId);
+}
 
 /**
  * Add a repeatable item to the character sheet.
  *
  * @param {object} props
- * @param {HTMLDocument} props.iframe - The character sheet iframe document.
+ * @param {object} props.character - The character in the Roll20 game.
  * @param {string} props.groupName - The item group name.
  * @param {object[]} props.attributes - The item attributes values.
  * @param {object[]} props.attributes[].name - The input name.
  * @param {object[]} props.attributes[].value - The input value.
- * @returns {HTMLUListElement}
  */
-function addRepItem({ iframe, groupName, attributes }) {
-  const fieldset = iframe
-    .querySelector(`div.repcontrol[data-groupname="${groupName}"]`)
-    .parentNode.querySelector('fieldset');
-  const itemsContainer = iframe.querySelector(
-    `div.repcontainer[data-groupname="${groupName}"]`,
-  );
-  if (!fieldset) {
-    console.error(`fieldset for ${groupName} not found`);
-    return;
-  }
-  const repRowId = generateUUID().replace(/_/g, 'Z');
-  const newItem = createElement('div', {
-    classes: 'repitem',
-    append: [
-      createElement('div', {
-        classes: 'itemcontrol',
-        append: [
-          createElement('button', {
-            classes: 'btn btn-danger pictos repcontrol_del',
-            innerHTML: '#',
-          }),
-          createElement('a', {
-            classes: 'btn repcontrol_move',
-            innerHTML: '≡',
-          }),
-        ],
-      }),
-      ...Array.from(fieldset.childNodes).map((child) => child.cloneNode(true)),
-    ],
+function addRepItem({ character, groupName, attributes }) {
+  const rowId = generateUUID().replace(/_/g, 'Z');
+  attributes.forEach(({ name, value }) => {
+    character.attribs.create({
+      name: `${groupName}_${rowId}_${name}`,
+      current: value,
+    });
   });
-  newItem.setAttribute('data-reprowid', repRowId);
-  for (const attr of attributes) {
-    const attrInput = newItem.querySelector(
-      `input[name="${attr.name}"],textarea[name="${attr.name}"]`,
-    );
-    if (attrInput) {
-      attrInput.value = attr.value;
-      setTimeout(() => {
-        attrInput.dispatchEvent(new CustomEvent('blur'));
-      }, 300);
-    }
-  }
-  itemsContainer.append(newItem);
 }
 
 /**
@@ -70,13 +65,16 @@ function addRepItem({ iframe, groupName, attributes }) {
  * @param {object} props
  * @param {HTMLDocument} props.iframe - The character sheet iframe document.
  * @param {Race[]} props.races - All available races.
+ * @param {string} props.characterId - The character ID in the Roll20 game.
  */
-function loadRaceAutoComplete({ iframe, races }) {
+function loadRaceAutoComplete({ iframe, races, characterId }) {
+  const Campaign = window.Campaign;
+  const character = Campaign.characters.get(characterId);
   const headerContainer = pathQuerySelector({
     root: iframe,
     path: ['div.sheet-left-container', 'div.sheet-header-info'],
   });
-  const abilitiesAndPowersContainer = pathQuerySelector({
+  const abilitiesContainer = pathQuerySelector({
     root: iframe,
     path: ['div.sheet-left-container', 'div.sheet-powers-and-abilities'],
   });
@@ -99,9 +97,14 @@ function loadRaceAutoComplete({ iframe, races }) {
   input.setAttribute('list', 'race-list');
   input.autocomplete = 'off';
 
-  const updateAbilities = () => {
+  const updateAbilities = async () => {
+    const groupName = 'repeating_abilities';
     const race = races.find((race) => race.name === input.value);
     if (!race) return;
+    character.attribs.fetch();
+    await waitForCondition({
+      checkFn: () => character.attribs.models.length > 0,
+    });
     const toRemove = races
       .filter((r) => r.name !== race.name)
       .map((r) => r.abilities)
@@ -109,60 +112,56 @@ function loadRaceAutoComplete({ iframe, races }) {
         (acc, abilities) => [...acc, ...abilities.map((a) => a.name)],
         [],
       );
-    const allAbilitiesInputs = () =>
-      abilitiesAndPowersContainer.querySelectorAll(
-        'input[name="attr_nameability"],input[name="attr_namepower"]',
-      );
-    const currentAbilities = Array.from(allAbilitiesInputs()).map(
-      (abilityInput) => abilityInput.value.trim(),
+    const regex =
+      /^(repeating_abilities|repeating_powers)_(.+)_(nameability|namepower)$/;
+    const currentAttrs = character.attribs.models.filter((x) =>
+      regex.test(x.get('name')),
     );
     // add the race abilities
     for (const ability of race.abilities) {
-      if (!currentAbilities.includes(ability.name)) {
+      if (!currentAttrs.find((x) => x.get('current') === race.name)) {
         addRepItem({
-          iframe,
-          groupName: 'repeating_abilities',
+          character,
+          groupName,
           attributes: [
-            { name: 'attr_nameability', value: ability.name },
-            { name: 'attr_abilitydescription', value: ability.description },
+            { name: 'nameability', value: ability.name },
+            { name: 'abilitydescription', value: ability.description },
           ],
         });
       }
     }
     // update size and displacement
     if (sizeAndMoveContainer) {
-      const sizeSelect = sizeAndMoveContainer.querySelector(
-        'select[name="attr_tamanho"]',
-      );
-      const moveInput = sizeAndMoveContainer.querySelector(
-        'input[name="attr_deslocamento"]',
-      );
-      if (sizeSelect) {
-        const size =
-          {
-            Médio: 0,
-            Minúsculo: 5,
-            Pequeno: 2,
-            Grande: -2,
-            Enorme: -5,
-            Colossal: -10,
-          }[race.size] || 0;
-        sizeSelect.value = size;
-      }
-      if (moveInput) {
-        moveInput.value = race.displacement;
+      const size =
+        {
+          Médio: 0,
+          Minúsculo: 5,
+          Pequeno: 2,
+          Grande: -2,
+          Enorme: -5,
+          Colossal: -10,
+        }[race.size] || 0;
+      updateAttributes({
+        character,
+        attributes: [
+          { name: 'tamanho', value: size },
+          { name: 'deslocamento', value: race.displacement },
+        ],
+      });
+    }
+    const updatedAttrs = character.attribs.models.filter((x) =>
+      regex.test(x.get('name')),
+    );
+    // remove the other races abilities
+    for (const attribute of updatedAttrs) {
+      if (toRemove.includes(attribute.get('current').trim())) {
+        delRepItem({
+          character,
+          groupName,
+          rowId: attribute.get('id'), // TODO: Fix this ID
+        });
       }
     }
-    // remove the other races abilities
-    setTimeout(() => {
-      for (const abilityInput of allAbilitiesInputs()) {
-        if (toRemove.includes(abilityInput.value.trim())) {
-          abilityInput.parentNode.parentNode
-            .querySelector('button.repcontrol_del')
-            .click();
-        }
-      }
-    }, 1000);
   };
   addEventObserver({
     el: input,
@@ -182,7 +181,10 @@ function loadRaceAutoComplete({ iframe, races }) {
  * @param {object} props
  * @param {HTMLDocument} props.iframe - The character sheet iframe document.
  * @param {T20Data} props.data - The Tormenta20 data.
+ * @param {string} props.characterId - The character ID in the Roll20 game.
  */
-export function loadRacesEnhancement({ iframe, data }) {
-  loadRaceAutoComplete({ iframe, races: data.races });
+export function loadRacesEnhancement({ iframe, data, characterId }) {
+  waitForWindowAttribute('Campaign').then(() => {
+    loadRaceAutoComplete({ iframe, races: data.races, characterId });
+  });
 }

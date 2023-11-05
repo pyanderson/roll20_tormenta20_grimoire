@@ -212,7 +212,11 @@ export function loadSheetEnhancement({
       loadSpellsEnhancement({ iframe: iframe.contentDocument, data });
       loadPowersEnhancement({ iframe: iframe.contentDocument, data });
       loadEquipmentEnhancement({ iframe: iframe.contentDocument, data });
-      loadRacesEnhancement({ iframe: iframe.contentDocument, data });
+      loadRacesEnhancement({
+        iframe: iframe.contentDocument,
+        data,
+        characterId,
+      });
       // Observers
       const spellsObserver = new MutationObserver(() => {
         loadSpellsEnhancement({ iframe: iframe.contentDocument, data });

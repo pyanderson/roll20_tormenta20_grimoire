@@ -175,3 +175,49 @@ export function generateUUID() {
   };
   return `${getFirstPart('', new Date().getTime())}${getSecondPart('', 12)}`;
 }
+
+/**
+ * Wait until a condition is true or finish the number of attempts.
+ *
+ * @param {object} props
+ * @param {function} props.checkFn
+ * @param {function} props.checkCallback
+ * @param {number} [props.attempts=-1]
+ * @param {number} [props.interval=500]
+ */
+export function waitForCondition({
+  checkFn,
+  callbackFn,
+  attempts = -1,
+  interval = 500,
+}) {
+  return new Promise((resolve) => {
+    const checkCallback = () => {
+      if (checkFn()) {
+        if (callbackFn) {
+          resolve(callbackFn());
+        } else {
+          resolve();
+        }
+      } else if (attempts === -1 || attempts > 0) {
+        attempts--;
+        setTimeout(checkCallback, interval);
+      }
+    };
+    checkCallback();
+  });
+}
+
+/**
+ * Wait until the window object has a valid value for the attribute.
+ *
+ * @param {string} attributeName
+ */
+export function waitForWindowAttribute(attributeName) {
+  return waitForCondition({
+    checkFn: () =>
+      Object.prototype.hasOwnProperty.call(window, attributeName) &&
+      window[attributeName] !== undefined,
+    callbackFn: () => window[attributeName],
+  });
+}
