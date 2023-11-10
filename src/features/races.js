@@ -74,10 +74,6 @@ function loadRaceAutoComplete({ iframe, races, characterId }) {
     root: iframe,
     path: ['div.sheet-left-container', 'div.sheet-header-info'],
   });
-  const abilitiesContainer = pathQuerySelector({
-    root: iframe,
-    path: ['div.sheet-left-container', 'div.sheet-powers-and-abilities'],
-  });
   const sizeAndMoveContainer = pathQuerySelector({
     root: iframe,
     path: ['div.sheet-left-container', 'div.sheet-size-and-move-container'],
@@ -105,21 +101,36 @@ function loadRaceAutoComplete({ iframe, races, characterId }) {
     await waitForCondition({
       checkFn: () => character.attribs.models.length > 0,
     });
+    const toAdd = race.abilities.reduce((acc, a) => [...acc, a.name], []);
     const toRemove = races
       .filter((r) => r.name !== race.name)
       .map((r) => r.abilities)
       .reduce(
-        (acc, abilities) => [...acc, ...abilities.map((a) => a.name)],
+        (acc, abilities) => [
+          ...acc,
+          ...abilities
+            .filter((a) => toAdd.indexOf(a.name) === -1)
+            .map((a) => a.name),
+        ],
         [],
       );
-    const regex =
-      /^(repeating_abilities|repeating_powers)_(.+)_(nameability|namepower)$/;
-    const currentAttrs = character.attribs.models.filter((x) =>
-      regex.test(x.get('name')),
-    );
+
+    const getAttributes = () => {
+      const regex =
+        /^(repeating_abilities|repeating_powers)_(?<id>.+)_(nameability|namepower)$/;
+      return character.attribs.models
+        .filter((x) => regex.test(x.get('name')))
+        .map((attribute) => ({
+          name: attribute.get('current'),
+          id: attribute.get('name').match(regex)?.groups.id,
+        }));
+    };
+
+    const currentAttrs = getAttributes();
+
     // add the race abilities
     for (const ability of race.abilities) {
-      if (!currentAttrs.find((x) => x.get('current') === race.name)) {
+      if (!currentAttrs.find((x) => x.name === race.name)) {
         addRepItem({
           character,
           groupName,
@@ -149,25 +160,23 @@ function loadRaceAutoComplete({ iframe, races, characterId }) {
         ],
       });
     }
-    const updatedAttrs = character.attribs.models.filter((x) =>
-      regex.test(x.get('name')),
-    );
+    const updatedAttrs = getAttributes();
     // remove the other races abilities
     for (const attribute of updatedAttrs) {
-      if (toRemove.includes(attribute.get('current').trim())) {
+      if (toRemove.includes(attribute.name.trim())) {
         delRepItem({
           character,
           groupName,
-          rowId: attribute.get('id'), // TODO: Fix this ID
+          rowId: attribute.id,
         });
       }
     }
   };
-  addEventObserver({
-    el: input,
-    eventName: 'input',
-    eventHandler: updateAbilities,
-  });
+  // addEventObserver({
+  //   el: input,
+  //   eventName: 'input',
+  //   eventHandler: updateAbilities,
+  // });
   addEventObserver({
     el: input,
     eventName: 'change',
