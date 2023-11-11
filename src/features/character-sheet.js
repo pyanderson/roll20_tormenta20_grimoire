@@ -2,7 +2,7 @@
 
 import { createElement, enhanceElement, hasCSS } from '../common/helpers';
 import { loadEquipmentEnhancement } from './equipments';
-import { loadPowersEnhancement } from './powers';
+import { PowerSheet } from './powers';
 import { loadRacesEnhancement } from './races';
 import { SpellSheet } from './spells';
 
@@ -74,10 +74,29 @@ export class CharacterSheet {
         .filter(filterFn)
         .map(transformFn)
         .reduce((acc, a) => ({ ...acc, [a.get('name')]: a }), {});
+    this.character.updateAttributes = (prefix, attributes) => {
+      const regex = new RegExp(prefix);
+      const attrMap = this.character.getAttributes((a) =>
+        regex.test(a.get('name')),
+      );
+      console.log({ attrMap, prefix });
+      Object.entries(attributes).forEach(([name, current]) => {
+        const attrName = `${prefix}_${name}`;
+        const attr = attrMap[attrName];
+        if (attr) attr.save({ current });
+        else this.character.attribs.create({ name: attrName, current });
+      });
+    };
     /** @type {SpellSheet} */
     this.spellSheet = new SpellSheet({
       iframe: this.iframe,
       spells: this.db.spells,
+      character: this.character,
+    });
+    /** @type {PowerSheet} */
+    this.powerSheet = new PowerSheet({
+      iframe: this.iframe,
+      abilitiesAndPowers: this.db.abilities_and_powers,
       character: this.character,
     });
     /**
@@ -178,12 +197,12 @@ export class CharacterSheet {
           this.calcCD();
         }
         this.spellSheet.load();
-        this.loadPowers();
+        this.powerSheet.load();
         this.loadEquipment();
         this.loadRaces();
         // Observers
         this.observe(this.spellsContainer, () => this.spellSheet.load());
-        this.observe(this.powersContainer, () => this.loadPowers());
+        this.observe(this.powersContainer, () => this.powerSheet.load());
         this.observe(this.equipmentsContainer, () => this.loadEquipment());
         observer.disconnect();
       }
@@ -280,10 +299,6 @@ export class CharacterSheet {
       JSON.stringify(newCharacterData),
     );
     this.characterData = newCharacterData;
-  }
-
-  loadPowers() {
-    loadPowersEnhancement({ iframe: this.iframe, data: this.db });
   }
 
   loadEquipment() {

@@ -58,19 +58,10 @@ export class SpellSheet {
     /** @type {Object} */
     this.character = character;
     // enhancement
-    this.character.getSpellAttributes = (id, circle) => {
-      const regex = new RegExp(`^repeating_spells${circle}_${id}_`);
-      return this.character.getAttributes((a) => regex.test(a.get('name')));
-    };
     this.character.updateSpell = (id, circle, spellName) => {
-      const attribsMap = this.character.getSpellAttributes(id, circle);
-      const attributes = this.getSpellAttributes(circle, spellName);
-      Object.entries(attributes).forEach(([name, current]) => {
-        const attrName = `repeating_spells${circle}_${id}_${name}`;
-        const attr = attribsMap[attrName];
-        if (attr) attr.save({ current });
-        else this.character.attribs.create({ name: attrName, current });
-      });
+      const prefix = `repeating_spells${circle}_${id}`;
+      const attributes = this.getAttributes(circle, spellName);
+      this.character.updateAttributes(prefix, attributes);
     };
     /**
      * @type {EnhancedHTMLElement|null}
@@ -93,18 +84,18 @@ export class SpellSheet {
     this.spellsContainer.querySelectorAll('div.repcontainer').forEach((div) => {
       const circle = div.getAttribute('data-groupname').slice(-1);
       div.querySelectorAll('div.sheet-extra').forEach((container) => {
-        this.renderSpellButton(enhanceElement(container), circle);
+        this.addButton(enhanceElement(container), circle);
       });
     });
   }
 
   /**
-   * Add the button to trigger the spell choose dialog to a spell container.
+   * Add the button that triggers the creation of the spell selection dialog.
    *
    * @param {EnhancedHTMLElement} container - The repitem div of the spell.
    * @param {string} circle - The spell circle.
    */
-  renderSpellButton(container, circle) {
+  addButton(container, circle) {
     if (container.querySelector('button[name="choose-spell"]')) return; // if the button already exists, ignore
     container.prepend(
       createElement('button', {
@@ -128,7 +119,7 @@ export class SpellSheet {
       closeText: '',
       buttons: {
         Confirmar: () => {
-          this.updateSpell(container, circle, input.value);
+          this.update(container, circle, input.value);
           dialog.dialog('close');
         },
         Cancelar: () => dialog.dialog('close'),
@@ -136,7 +127,7 @@ export class SpellSheet {
     });
     input.addEventObserver('keydown', (e) => {
       if (e.keyCode === 13) {
-        this.updateSpell(container, circle, input.value);
+        this.update(container, circle, input.value);
         dialog.dialog('close');
       }
     });
@@ -154,7 +145,7 @@ export class SpellSheet {
    * @param {string} circle - The spell circle.
    * @param {string} spellName
    */
-  getSpellAttributes(circle, spellName) {
+  getAttributes(circle, spellName) {
     const spell = this.spells[circle][spellName];
     if (!spell) return [];
     const spellCD = this.iframe.getValue('input.spell-cd-total');
@@ -183,7 +174,7 @@ export class SpellSheet {
    * @param {string} circle - The spell circle.
    * @param {string} spellName
    */
-  async updateSpell(container, circle, spellName) {
+  async update(container, circle, spellName) {
     this.character.attribs.fetch();
     await waitForCondition({
       checkFn: () => this.character.attribs.models.length > 0,

@@ -3,8 +3,10 @@
 import {
   addEventObserver,
   createElement,
+  enhanceElement,
   pathQuerySelector,
   setInputValue,
+  waitForCondition,
 } from '../common/helpers';
 
 /**
@@ -150,5 +152,152 @@ export function loadPowersEnhancement({ iframe, data }) {
     )) {
       renderPowerButton({ container, data });
     }
+  }
+}
+
+/**
+ * Create a new Power Sheet object.
+ *
+ * @class
+ */
+export class PowerSheet {
+  /**
+   * @constructs
+   * @param {Object} props
+   * @param {EnhancedHTMLElement} props.iframe
+   * @param {PowerData} props.abilitiesAndPowers
+   * @param {Object} props.character
+   */
+  constructor({ iframe, abilitiesAndPowers, character }) {
+    /** @type {EnhancedHTMLElement} */
+    this.iframe = iframe;
+    /** @type {PowerData} */
+    this.abilitiesAndPowers = abilitiesAndPowers;
+    /** @type {Object} */
+    this.character = character;
+    // enhancement
+    this.character.updateAbilityPower = (groupName, id, name) => {
+      const attributes = this.getAttributes(groupName, name);
+      this.character.updateAttributes(`${groupName}_${id}`, attributes);
+    };
+    /**
+     * @type {EnhancedHTMLElement|null}
+     * @private
+     */
+    this._powersContainer = null;
+  }
+
+  /** @type {EnhancedHTMLElement|null} */
+  get powersContainer() {
+    if (this._powersContainer === null) {
+      const path = [
+        'div.sheet-left-container',
+        'div.sheet-powers-and-abilities',
+      ];
+      this._powersContainer = this.iframe.getElement(path);
+    }
+    return this._powersContainer;
+  }
+
+  /** @type {EnhancedHTMLElement|null} */
+  get abilitiesContainer() {
+    return this.powersContainer;
+  }
+
+  /** Load the sheet abilities and powers improvements. */
+  load() {
+    this.powersContainer.querySelectorAll('div.repcontainer').forEach((div) => {
+      div.querySelectorAll('div.sheet-extra').forEach((container) => {
+        this.addButton(enhanceElement(container));
+      });
+    });
+  }
+
+  /**
+   * Add the button that triggers the creation of the ability/power selection dialog.
+   *
+   * @param {EnhancedHTMLElement} container - The repitem div of the spell.
+   */
+  addButton(container) {
+    if (container.querySelector('button[name="choose-power"]')) return; // if the button already exists, ignore
+    container.prepend(
+      createElement('button', {
+        classes: 'sheet-singleline',
+        name: 'choose-power',
+        innerHTML: 'Escolher',
+      }),
+    );
+    container.prepend(
+      createPowerDialog({
+        options: Object.keys(this.abilitiesAndPowers || {}),
+      }),
+    );
+    container.style.flexDirection = 'column';
+    container.style.gap = '8px';
+    const button = container.select`button[name="choose-power"]`;
+    const form = container.select`form[name="power-form"]`;
+    const input = form.select`input[name="power-name"]`;
+    // TODO: Use the dialog manager
+    const dialog = $(container.select`div[name="power-dialog"]`).dialog({
+      autoOpen: false,
+      closeText: '',
+      buttons: {
+        Confirmar: () => {
+          this.update(container, input.value);
+          dialog.dialog('close');
+        },
+        Cancelar: () => dialog.dialog('close'),
+      },
+    });
+    input.addEventObserver('keydown', (e) => {
+      if (e.keyCode === 13) {
+        this.update(container, input.value);
+        dialog.dialog('close');
+      }
+    });
+    button.addEventObserver('click', () => {
+      dialog.dialog('open');
+      dialog
+        .dialog('widget')
+        .position({ my: 'center', at: 'center', of: button });
+    });
+  }
+
+  /**
+   * Search for the ability/power object and returns a objects in the format [attribute]: [value].
+   *
+   * @param {string} name
+   */
+  getAttributes(groupName, name) {
+    const power = this.abilitiesAndPowers[name];
+    if (!power) return [];
+    if (groupName === 'repeating_powers') {
+      return {
+        namepower: power.name,
+        powerdescription: power.description,
+      };
+    }
+    return {
+      nameability: power.name,
+      abilitydescription: power.description,
+    };
+  }
+
+  /**
+   * Update the ability/power data.
+   *
+   * @param {EnhancedHTMLElement} container - The repitem div of the spell.
+   * @param {string} name
+   */
+  async update(container, name) {
+    this.character.attribs.fetch();
+    await waitForCondition({
+      checkFn: () => this.character.attribs.models.length > 0,
+    });
+    const repRow = container.parentNode.parentNode;
+    const repcontainer = repRow.parentNode;
+    const id = repRow.getAttribute('data-reprowid');
+    const groupName = repcontainer.getAttribute('data-groupname');
+    this.character.updateAbilityPower(groupName, id, name);
   }
 }
