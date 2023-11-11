@@ -1,16 +1,10 @@
 'use strict';
 
-import {
-  addEventObserver,
-  createElement,
-  enhanceElement,
-  hasCSS,
-  pathQuerySelector,
-} from '../common/helpers';
+import { createElement, enhanceElement, hasCSS } from '../common/helpers';
 import { loadEquipmentEnhancement } from './equipments';
 import { loadPowersEnhancement } from './powers';
 import { loadRacesEnhancement } from './races';
-import { SpellSheet, calcCD, loadSpellsEnhancement } from './spells';
+import { SpellSheet } from './spells';
 
 /**
  * Create the the CD row element.
@@ -41,211 +35,24 @@ function createCDRow() {
 }
 
 /**
- * Returns the data configuration of the character saved in the local storage.
+ * Create a new Character Sheet object.
  *
- * @param {object} props
- * @param {string} props.characterId - The character ID in the Roll20 game.
- * @returns {object}
+ * @class
  */
-function loadCharacterData({ characterId }) {
-  const defaultData = { attr: 'int', extra: '0' };
-  const key = `grimoire_${characterId}`;
-  const data = localStorage.getItem(key);
-  if (!data) {
-    return defaultData;
-  }
-  return { ...defaultData, ...JSON.parse(data) };
-}
-
-/**
- * Save the data configuration of the character in the local storage.
- *
- * @param {object} props
- * @param {string} props.characterId - The character ID in the Roll20 game.
- * @param {object} props.characterData - The character info.
- */
-function saveCharacterData({ characterId, characterData }) {
-  localStorage.setItem(
-    `grimoire_${characterId}`,
-    JSON.stringify(characterData),
-  );
-}
-
-/**
- * Add the CD row in the spells container and add the event listeners.
- *
- * @param {object} props
- * @param {HTMLDocument} props.iframe - The character sheet iframe document.
- * @param {string} props.characterId - The character ID in the Roll20 game.
- */
-function init({ iframe, characterId }) {
-  const spellsContainer = pathQuerySelector({
-    root: iframe,
-    path: ['div.sheet-left-container', 'div.sheet-spells'],
-  });
-  if (!spellsContainer) return; // Spells container not rendered yet
-  if (spellsContainer.querySelector('div[name="spell-cd"]')) return; // CD row already added
-  // add the row
-  spellsContainer.querySelector('div.sheet-default-title').after(createCDRow());
-  // add the listeners
-  const characterData = loadCharacterData({ characterId });
-  const level = iframe.querySelector('input[name="attr_charnivel"]');
-  const attribute = spellsContainer.querySelector(
-    'select[name="spell-cd-attr"]',
-  );
-  const extra = spellsContainer.querySelector('input[name="spell-cd-extra"]');
-  attribute.value = characterData.attr;
-  extra.value = characterData.extra;
-  addEventObserver({
-    el: attribute,
-    eventName: 'change',
-    eventHandler: () => {
-      if (characterData.attr !== attribute.value) {
-        characterData.attr = attribute.value;
-        saveCharacterData({ characterId, characterData });
-        calcCD({ iframe });
-      }
-    },
-  });
-  addEventObserver({
-    el: extra,
-    eventName: 'change',
-    eventHandler: () => {
-      if (characterData.extra !== extra.value) {
-        characterData.extra = extra.value;
-        saveCharacterData({ characterId, characterData });
-        calcCD({ iframe });
-      }
-    },
-  });
-  addEventObserver({
-    el: level,
-    eventName: 'change',
-    eventHandler: () => {
-      calcCD({ iframe });
-    },
-  });
-  for (const attr of ['for', 'des', 'con', 'int', 'sab', 'car']) {
-    addEventObserver({
-      el: iframe.querySelector(`input[name="attr_${attr}"]`),
-      eventName: 'change',
-      eventHandler: () => {
-        setTimeout(() => {
-          calcCD({ iframe });
-        }, 1000);
-      },
-    });
-  }
-}
-
-/**
- * Load the extra css in the iframe.
- *
- * @param {object} props
- * @param {HTMLDocument} props.iframe - The character sheet iframe document.
- */
-function loadSheetExtraCSS({ iframe, url }) {
-  if (hasCSS({ iframe, url })) return;
-  iframe.head.appendChild(
-    createElement('link', { rel: 'stylesheet', href: url }),
-  );
-}
-
-/**
- * Load the sheet improvements.
- *
- * @param {object} props
- * @param {T20Data} props.db - The Tormenta20 data.
- * @param {string} props.characterId - The character ID in the Roll20 game.
- * @param {string} props.characterSheetCssURL - URL for the custom URL to be applied to the character sheet.
- */
-export function loadSheetEnhancement({
-  db: data,
-  characterId,
-  characterSheetCssURL,
-}) {
-  // Load the functionalities
-  const iframe = document.querySelector(`iframe[name="iframe_${characterId}"]`);
-  if (!iframe) {
-    console.error(`iframe not found for character ID: ${characterId}`);
-    return;
-  }
-  const observerOptions = {
-    attributes: false,
-    childList: true,
-    subtree: true,
-  };
-  // Start the observer
-  const observer = new MutationObserver((_, iframeObserver) => {
-    const spellsContainer = pathQuerySelector({
-      root: iframe.contentDocument,
-      path: ['div.sheet-left-container', 'div.sheet-spells'],
-    });
-    const powersContainer = pathQuerySelector({
-      root: iframe.contentDocument,
-      path: ['div.sheet-left-container', 'div.sheet-powers-and-abilities'],
-    });
-    const equipmentsContainer = pathQuerySelector({
-      root: iframe.contentDocument,
-      path: [
-        'div.sheet-right-container',
-        'div.sheet-equipment-container',
-        'div[data-groupname="repeating_equipment"]',
-      ],
-    });
-    const headerContainer = pathQuerySelector({
-      root: iframe.contentDocument,
-      path: ['div.sheet-left-container', 'div.sheet-header-info'],
-    });
-    if (
-      spellsContainer &&
-      powersContainer &&
-      equipmentsContainer &&
-      headerContainer
-    ) {
-      const isJDA = iframe.contentDocument.querySelector(
-        'span[data-i18n="global_charactersheet"]',
-      );
-      if (!isJDA) {
-        init({ iframe: iframe.contentDocument, characterId });
-        calcCD({ iframe: iframe.contentDocument });
-      }
-      loadSpellsEnhancement({ iframe: iframe.contentDocument, data });
-      loadPowersEnhancement({ iframe: iframe.contentDocument, data });
-      loadEquipmentEnhancement({ iframe: iframe.contentDocument, data });
-      loadRacesEnhancement({
-        iframe: iframe.contentDocument,
-        data,
-        characterId,
-      });
-      // Observers
-      const spellsObserver = new MutationObserver(() => {
-        loadSpellsEnhancement({ iframe: iframe.contentDocument, data });
-      });
-      const powersObserver = new MutationObserver(() => {
-        loadPowersEnhancement({ iframe: iframe.contentDocument, data });
-      });
-      const equipmentsObserber = new MutationObserver(() => {
-        loadEquipmentEnhancement({ iframe: iframe.contentDocument, data });
-      });
-      spellsObserver.observe(spellsContainer, observerOptions);
-      powersObserver.observe(powersContainer, observerOptions);
-      equipmentsObserber.observe(equipmentsContainer, observerOptions);
-      iframeObserver.disconnect();
-    }
-  });
-  observer.observe(iframe.contentDocument, observerOptions);
-
-  loadSheetExtraCSS({
-    iframe: iframe.contentDocument,
-    url: characterSheetCssURL,
-  });
-}
-
 export class CharacterSheet {
+  /**
+   * @constructs
+   * @param {Object} props
+   * @param {String} props.characterId - The character ID in the Roll20 game.
+   * @param {T20Data} props.db - The Tormenta20 data.
+   * @param {String} props.characterSheetCssURL - URL for the custom URL to be applied to the character sheet.
+   */
   constructor({ characterId, db, characterSheetCssURL }) {
+    /** @type {String} */
     this.characterId = characterId;
+    /** @type {T20Data} */
     this.db = db;
+    /** @type {String} */
     this.characterSheetCssURL = characterSheetCssURL;
     const iframe = document.querySelector(
       `iframe[name="iframe_${characterId}"]`,
@@ -253,20 +60,28 @@ export class CharacterSheet {
     if (!iframe) {
       console.error(`iframe not found for character ID: ${characterId}`);
     }
+    /** @type {EnhancedHTMLElement} */
     this.iframe = enhanceElement(iframe.contentDocument);
-    this.roll20 = window.Campaign;
-    this.character = this.roll20.characters.get(characterId);
+    /** @type {CharacterData} */
     this.characterData = this.loadCharacterData();
+    /** @type {Object} */
+    this.roll20 = window.Campaign;
+    /** @type {Object} */
+    this.character = this.roll20.characters.get(characterId);
+    // private
     this._isJDA = null;
     this._spellsContainer = null;
     this._powersContainer = null;
     this._equipmentsContainer = null;
     this._headerContainer = null;
+    // enhancement
     this.character.getAttributes = (filterFn, transformFn = (a) => a) =>
       this.character.attribs.models
         .filter(filterFn)
         .map(transformFn)
         .reduce((acc, a) => ({ ...acc, [a.get('name')]: a }), {});
+    // Other modules
+    /** @type {SpellSheet} */
     this.spellSheet = new SpellSheet(
       this.iframe,
       this.spellsContainer,
@@ -275,6 +90,7 @@ export class CharacterSheet {
     );
   }
 
+  /** @type {EnhancedHTMLElement|null} */
   get spellsContainer() {
     if (this._spellsContainer === null) {
       const path = ['div.sheet-left-container', 'div.sheet-spells'];
@@ -283,6 +99,7 @@ export class CharacterSheet {
     return this._spellsContainer;
   }
 
+  /** @type {EnhancedHTMLElement|null} */
   get powersContainer() {
     if (this._powersContainer === null) {
       const path = [
@@ -294,10 +111,12 @@ export class CharacterSheet {
     return this._powersContainer;
   }
 
+  /** @type {EnhancedHTMLElement|null} */
   get abilitiesContainer() {
     return this.powersContainer;
   }
 
+  /** @type {EnhancedHTMLElement|null} */
   get equipmentsContainer() {
     if (this._equipmentsContainer === null) {
       const path = [
@@ -310,6 +129,7 @@ export class CharacterSheet {
     return this._equipmentsContainer;
   }
 
+  /** @type {EnhancedHTMLElement|null} */
   get headerContainer() {
     if (this._headerContainer === null) {
       const path = ['div.sheet-left-container', 'div.sheet-header-info'];
@@ -318,14 +138,16 @@ export class CharacterSheet {
     return this._headerContainer;
   }
 
+  /** @type {Boolean} */
   get isJDA() {
     if (this._isJDA === null) {
       const selector = 'span[data-i18n="global_charactersheet"]';
       this._isJDA = this.iframe.querySelector(selector);
     }
-    return this._isJDA;
+    return Boolean(this._isJDA);
   }
 
+  /** Load the sheet improvements. */
   load() {
     this.observe(this.iframe, ({ observer }) => {
       if (
@@ -338,12 +160,12 @@ export class CharacterSheet {
           this.init();
           this.calcCD();
         }
-        this.loadSpells();
+        this.spellSheet.load();
         this.loadPowers();
         this.loadEquipment();
         this.loadRaces();
         // Observers
-        this.observe(this.spellsContainer, () => this.loadSpells());
+        this.observe(this.spellsContainer, () => this.spellSheet.load());
         this.observe(this.powersContainer, () => this.loadPowers());
         this.observe(this.equipmentsContainer, () => this.loadEquipment());
         observer.disconnect();
@@ -352,6 +174,12 @@ export class CharacterSheet {
     this.loadCSS();
   }
 
+  /**
+   * Adds an observer to the target and executes the callback function every time a new child element is created.
+   *
+   * @param {HTMLElement} target
+   * @param {Function} callbackFn
+   */
   observe(target, callbackFn) {
     const observerOptions = {
       attributes: false,
@@ -364,6 +192,7 @@ export class CharacterSheet {
     observer.observe(target, observerOptions);
   }
 
+  /** Init the Cd capabilities. */
   init() {
     if (this.spellsContainer.select`div[name="spell-cd"]`) return; // CD row already added
     // add the row
@@ -397,6 +226,7 @@ export class CharacterSheet {
     }
   }
 
+  /** Calculate the CD and update CD value. */
   calcCD() {
     const level = this.iframe.getInt('input[name="attr_charnivel"]');
     const attribute = this.spellsContainer.getValue(
@@ -408,6 +238,11 @@ export class CharacterSheet {
     this.spellsContainer.setValue('input[name="spell-cd-total"]', value);
   }
 
+  /**
+   * Load the character data to the local storage.
+   *
+   * @returns {CharacterData}
+   */
   loadCharacterData() {
     const defaultData = { attr: 'int', extra: '0' };
     const key = `grimoire_${this.characterId}`;
@@ -416,6 +251,11 @@ export class CharacterSheet {
     return { ...defaultData, ...JSON.parse(data) };
   }
 
+  /**
+   * Save the character data saved in the local storage.
+   *
+   * @param {Object} newData
+   */
   saveCharacterData(newData) {
     const newCharacterData = { ...this.characterData, ...newData };
     localStorage.setItem(
@@ -423,10 +263,6 @@ export class CharacterSheet {
       JSON.stringify(newCharacterData),
     );
     this.characterData = newCharacterData;
-  }
-
-  loadSpells() {
-    this.spellSheet.load();
   }
 
   loadPowers() {
@@ -445,10 +281,14 @@ export class CharacterSheet {
     });
   }
 
+  /** Load the extra css in the iframe. */
   loadCSS() {
-    loadSheetExtraCSS({
-      iframe: this.iframe,
-      url: this.characterSheetCssURL,
-    });
+    if (hasCSS({ iframe: this.iframe, url: this.characterSheetCssURL })) return;
+    this.iframe.head.appendChild(
+      createElement('link', {
+        rel: 'stylesheet',
+        href: this.characterSheetCssURL,
+      }),
+    );
   }
 }

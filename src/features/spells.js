@@ -239,6 +239,11 @@ export function loadSpellsEnhancement({ iframe, data }) {
   }
 }
 
+/**
+ * Create a new Spell Sheet object.
+ *
+ * @class
+ */
 export class SpellSheet {
   constructor(iframe, spellsContainer, db, character) {
     this.iframe = iframe;
