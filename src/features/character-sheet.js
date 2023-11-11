@@ -3,13 +3,14 @@
 import {
   addEventObserver,
   createElement,
+  enhanceElement,
   hasCSS,
   pathQuerySelector,
 } from '../common/helpers';
 import { loadEquipmentEnhancement } from './equipments';
 import { loadPowersEnhancement } from './powers';
 import { loadRacesEnhancement } from './races';
-import { calcCD, loadSpellsEnhancement } from './spells';
+import { SpellSheet, calcCD, loadSpellsEnhancement } from './spells';
 
 /**
  * Create the the CD row element.
@@ -239,4 +240,223 @@ export function loadSheetEnhancement({
     iframe: iframe.contentDocument,
     url: characterSheetCssURL,
   });
+}
+
+export class CharacterSheet {
+  constructor({ characterId, db, characterSheetCssURL }) {
+    this.characterId = characterId;
+    this.db = db;
+    this.characterSheetCssURL = characterSheetCssURL;
+    const iframe = document.querySelector(
+      `iframe[name="iframe_${characterId}"]`,
+    );
+    if (!iframe) {
+      console.error(`iframe not found for character ID: ${characterId}`);
+    }
+    this.iframe = enhanceElement(iframe.contentDocument);
+    this.roll20 = window.Campaign;
+    this.character = this.roll20.characters.get(characterId);
+    this.characterData = this.loadCharacterData();
+    this._isJDA = null;
+    this._spellsContainer = null;
+    this._powersContainer = null;
+    this._equipmentsContainer = null;
+    this._headerContainer = null;
+    this.character.getAttributes = (filterFn, transformFn = (a) => a) =>
+      this.character.attribs.models.filter(filterFn).map(transformFn);
+    this.character.getAbilities = () => {
+      const regex =
+        /^(repeating_abilities|repeating_powers)_(?<id>.+)_(nameability|namepower)$/;
+      return this.character.getAttributes(
+        (a) => regex.test(a.get('name')),
+        (a) => ({
+          name: a.get('current'),
+          id: a.get('name').match(regex)?.groups.id,
+        }),
+      );
+    };
+    this.spellSheet = new SpellSheet(
+      this.iframe,
+      this.spellsContainer,
+      this.db,
+      this.character,
+    );
+  }
+
+  get spellsContainer() {
+    if (this._spellsContainer === null) {
+      const path = ['div.sheet-left-container', 'div.sheet-spells'];
+      this._spellsContainer = this.iframe.getElement(path);
+    }
+    return this._spellsContainer;
+  }
+
+  get powersContainer() {
+    if (this._powersContainer === null) {
+      const path = [
+        'div.sheet-left-container',
+        'div.sheet-powers-and-abilities',
+      ];
+      this._powersContainer = this.iframe.getElement(path);
+    }
+    return this._powersContainer;
+  }
+
+  get abilitiesContainer() {
+    return this.powersContainer;
+  }
+
+  get equipmentsContainer() {
+    if (this._equipmentsContainer === null) {
+      const path = [
+        'div.sheet-right-container',
+        'div.sheet-equipment-container',
+        'div[data-groupname="repeating_equipment"]',
+      ];
+      this._equipmentsContainer = this.iframe.getElement(path);
+    }
+    return this._equipmentsContainer;
+  }
+
+  get headerContainer() {
+    if (this._headerContainer === null) {
+      const path = ['div.sheet-left-container', 'div.sheet-header-info'];
+      this._headerContainer = this.iframe.getElement(path);
+    }
+    return this._headerContainer;
+  }
+
+  get isJDA() {
+    if (this._isJDA === null) {
+      const selector = 'span[data-i18n="global_charactersheet"]';
+      this._isJDA = this.iframe.querySelector(selector);
+    }
+    return this._isJDA;
+  }
+
+  load() {
+    this.observe(this.iframe, ({ observer }) => {
+      if (
+        this.spellsContainer &&
+        this.powersContainer &&
+        this.equipmentsContainer &&
+        this.headerContainer
+      ) {
+        if (!this.isJDA) {
+          this.init();
+          this.calcCD();
+        }
+        this.loadSpells();
+        this.loadPowers();
+        this.loadEquipment();
+        this.loadRaces();
+        // Observers
+        this.observe(this.spellsContainer, () => this.loadSpells());
+        this.observe(this.powersContainer, () => this.loadPowers());
+        this.observe(this.equipmentsContainer, () => this.loadEquipment());
+        observer.disconnect();
+      }
+    });
+    this.loadCSS();
+  }
+
+  observe(target, callbackFn) {
+    const observerOptions = {
+      attributes: false,
+      childList: true,
+      subtree: true,
+    };
+    const observer = new MutationObserver((mutations, observer) => {
+      callbackFn({ mutations, observer });
+    });
+    observer.observe(target, observerOptions);
+  }
+
+  init() {
+    if (this.spellsContainer.select`div[name="spell-cd"]`) return; // CD row already added
+    // add the row
+    this.spellsContainer.select`div.sheet-default-title`.after(createCDRow());
+    // add the listeners
+    const level = this.iframe.select`input[name="attr_charnivel"]`;
+    const attribute = this.spellsContainer.select`select[name="spell-cd-attr"]`;
+    const extra = this.spellsContainer.select`input[name="spell-cd-extra"]`;
+    attribute.value = this.characterData.attr;
+    extra.value = this.characterData.extra;
+    attribute.addEventObserver('change', () => {
+      if (this.characterData.attr !== attribute.value) {
+        this.saveCharacterData({ attr: attribute.value });
+        this.calcCD();
+      }
+    });
+    extra.addEventObserver('change', () => {
+      if (this.characterData.extra !== extra.value) {
+        this.saveCharacterData({ extra: extra.value });
+        this.calcCD();
+      }
+    });
+    level.addEventObserver('change', this.calcCD);
+    for (const attr of ['for', 'des', 'con', 'int', 'sab', 'car']) {
+      this.iframe.select`input[name="attr_${attr}"]`.addEventObserver(
+        'change',
+        () => {
+          setTimeout(this.calcCD, 1000);
+        },
+      );
+    }
+  }
+
+  calcCD() {
+    const level = this.iframe.getInt('input[name="attr_charnivel"]');
+    const attribute = this.spellsContainer.getValue(
+      'select[name="spell-cd-attr"]',
+    );
+    const mod = this.iframe.getInt(`input[name="attr_${attribute}_mod_fake"]`);
+    const extra = this.spellsContainer.getInt('input[name="spell-cd-extra"]');
+    const value = Math.floor(level / 2) + mod + extra + 10;
+    this.spellsContainer.setValue('input[name="spell-cd-total"]', value);
+  }
+
+  loadCharacterData() {
+    const defaultData = { attr: 'int', extra: '0' };
+    const key = `grimoire_${this.characterId}`;
+    const data = localStorage.getItem(key);
+    if (!data) return defaultData;
+    return { ...defaultData, ...JSON.parse(data) };
+  }
+
+  saveCharacterData(newData) {
+    const newCharacterData = { ...this.characterData, ...newData };
+    localStorage.setItem(
+      `grimoire_${this.characterId}`,
+      JSON.stringify(newCharacterData),
+    );
+    this.characterData = newCharacterData;
+  }
+
+  loadSpells() {
+    this.spellSheet.load();
+  }
+
+  loadPowers() {
+    loadPowersEnhancement({ iframe: this.iframe, data: this.db });
+  }
+
+  loadEquipment() {
+    loadEquipmentEnhancement({ iframe: this.iframe, data: this.db });
+  }
+
+  loadRaces() {
+    loadRacesEnhancement({
+      iframe: this.iframe,
+      data: this.db,
+      characterId: this.characterId,
+    });
+  }
+
+  loadCSS() {
+    loadSheetExtraCSS({
+      iframe: this.iframe,
+      url: this.characterSheetCssURL,
+    });
+  }
 }

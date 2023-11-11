@@ -71,7 +71,7 @@ export function createElement(tagName, attributes = {}) {
  */
 export function pathQuerySelector({ root, path }) {
   if (!root) return null;
-  if (path.length === 0) return root;
+  if (path.length === 0) return enhanceElement(root);
   return pathQuerySelector({
     root: root.querySelector(path[0]),
     path: path.slice(1),
@@ -220,4 +220,26 @@ export function waitForWindowAttribute(attributeName) {
       window[attributeName] !== undefined,
     callbackFn: () => window[attributeName],
   });
+}
+
+export function enhanceElement(el) {
+  if (!el) return null;
+  const toArray = (param) => (param instanceof Array ? param : [param]);
+  el.getElement = (selectors) =>
+    selectors ? pathQuerySelector({ root: el, path: toArray(selectors) }) : el;
+  el.select = (strings, ...values) =>
+    el.getElement(
+      strings.reduce((acc, s, index) => acc + s + (values[index] || ''), ''),
+    );
+  el.getValue = (selectors) => el.getElement(selectors)?.value;
+  el.setValue = (selectors, value) => {
+    const child = el.getElement(selectors);
+    if (child) {
+      child.value = value;
+    }
+  };
+  el.getInt = (selectors) => parseInt(el.getElement(selectors)?.value) || 0;
+  el.addEventObserver = (eventName, eventHandler, selector) =>
+    addEventObserver({ el, eventName, eventHandler, selector });
+  return el;
 }

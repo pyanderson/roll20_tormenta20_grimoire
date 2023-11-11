@@ -3,8 +3,10 @@
 import {
   addEventObserver,
   createElement,
+  enhanceElement,
   pathQuerySelector,
   setInputValue,
+  waitForCondition,
 } from '../common/helpers';
 
 /**
@@ -234,5 +236,126 @@ export function loadSpellsEnhancement({ iframe, data }) {
     )) {
       renderSpellButton({ iframe, container, circle, data });
     }
+  }
+}
+
+export class SpellSheet {
+  constructor(iframe, spellsContainer, db, character) {
+    this.iframe = iframe;
+    this.spellsContainer = spellsContainer;
+    this.db = db;
+    this.character = character;
+    this.character.getSpellAttributes = (circle, id) => {
+      const regex = new RegExp(`^repeating_spells${circle}_${id}_`);
+      return this.character.getAttributes((a) => regex.test(a.get('name')));
+    };
+    this.character.setSpellAttributes = (circle, id, attributes) => {
+      const attribs = this.character.getSpellAttributes(circle, id);
+      attributes.forEach(({ name, value }) => {
+        const attrName = `repeating_spells${circle}_${id}_${name}`;
+        const attr = attribs.find((a) => a.get('name') === attrName);
+        if (attr) attr.save({ current: value });
+        else this.character.attribs.create({ name: attrName, current: value });
+      });
+    };
+  }
+
+  load() {
+    this.spellsContainer.querySelectorAll('div.repcontainer').forEach((div) => {
+      const circle = div.getAttribute('data-groupname').slice(-1);
+      div.querySelectorAll('div.sheet-extra').forEach((container) => {
+        this.renderSpellButton(circle, enhanceElement(container));
+      });
+    });
+  }
+
+  renderSpellButton(circle, container) {
+    if (container.querySelector('button[name="choose-spell"]')) return; // if the button already exists, ignore
+    container.prepend(
+      createElement('button', {
+        classes: 'sheet-singleline',
+        name: 'choose-spell',
+        innerHTML: 'Escolher Magia',
+      }),
+    );
+    container.prepend(
+      createSpellDialog({
+        circle,
+        options: Object.keys(this.db.spells[circle] || {}),
+      }),
+    );
+    const button = container.select`button[name="choose-spell"]`;
+    const form = container.select`form[name="spell-form"]`;
+    const input = form.select`input[name="spell-name"]`;
+    // TODO: Use the dialog manager
+    const dialog = $(container.select`div[name="spell-dialog"]`).dialog({
+      autoOpen: false,
+      closeText: '',
+      buttons: {
+        Confirmar: () => {
+          this.updateContainerSpell(container, circle, input.value);
+          dialog.dialog('close');
+        },
+        Cancelar: () => dialog.dialog('close'),
+      },
+    });
+    input.addEventObserver('keydown', (e) => {
+      if (e.keyCode === 13) {
+        this.updateContainerSpell(container, circle, input.value);
+        dialog.dialog('close');
+      }
+    });
+    button.addEventObserver('click', () => {
+      dialog.dialog('open');
+      dialog
+        .dialog('widget')
+        .position({ my: 'center', at: 'center', of: button });
+    });
+  }
+
+  getSpellAttributes(circle, spellName) {
+    const spell = this.db.spells[circle][spellName];
+    if (!spell) return [];
+    const spellCD = this.iframe.getValue('input.spell-cd-total');
+    return [
+      { name: 'namespell', value: spell.name },
+      { name: 'spelltipo', value: spell.type },
+      { name: 'spellexecucao', value: spell.execution },
+      { name: 'spellalcance', value: spell.range },
+      { name: 'spellduracao', value: spell.duration },
+      {
+        name: 'spellalvoarea',
+        value: spell.target || spell.area || spell.effect,
+      },
+      { name: 'spellresistencia', value: spell.resistance },
+      {
+        name: 'spelldescription',
+        value: `${spell.description}${
+          spell.implements.length > 0 ? '\n\n' : ''
+        }${spell.implements
+          .map((implement) => `${implement.cost}: ${implement.description}`)
+          .join('\n\n')}`,
+      },
+      ...(spellCD
+        ? [
+            {
+              name: 'spellcd',
+              value: spell.resistance !== '' ? spellCD : '',
+            },
+          ]
+        : []),
+    ];
+  }
+
+  async updateContainerSpell(container, circle, spellName) {
+    this.character.attribs.fetch();
+    await waitForCondition({
+      checkFn: () => this.character.attribs.models.length > 0,
+    });
+    this.character.setSpellAttributes(
+      circle,
+      container.parentNode.parentNode.getAttribute('data-reprowid'),
+      this.getSpellAttributes(circle, spellName),
+    );
   }
 }

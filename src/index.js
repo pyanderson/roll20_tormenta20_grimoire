@@ -1,7 +1,11 @@
 'use strict';
 
+import { waitForWindowAttribute } from './common/helpers';
 import { loadBook } from './features/book';
-import { loadSheetEnhancement } from './features/character-sheet';
+import {
+  CharacterSheet,
+  loadSheetEnhancement,
+} from './features/character-sheet';
 import { loadChatEnhancement } from './features/enhancement';
 
 // https://youmightnotneedjquery.com/#ready
@@ -46,10 +50,18 @@ ready(() => {
       Object.assign(resources, { db, buttonIconURL, characterSheetCssURL });
     }
     if (data?.type && data.type === 'loaded') {
-      loadSheetEnhancement({
-        db: resources.db,
-        characterId: data.characterId,
-        characterSheetCssURL: resources.characterSheetCssURL,
+      // loadSheetEnhancement({
+      //   db: resources.db,
+      //   characterId: data.characterId,
+      //   characterSheetCssURL: resources.characterSheetCssURL,
+      // });
+      waitForWindowAttribute('Campaign').then(() => {
+        const characterSheet = new CharacterSheet({
+          db: resources.db,
+          characterId: data.characterId,
+          characterSheetCssURL: resources.characterSheetCssURL,
+        });
+        characterSheet.load();
       });
     }
   };
