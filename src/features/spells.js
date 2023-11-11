@@ -1,11 +1,8 @@
 'use strict';
 
 import {
-  addEventObserver,
   createElement,
   enhanceElement,
-  pathQuerySelector,
-  setInputValue,
   waitForCondition,
 } from '../common/helpers';
 
@@ -41,215 +38,26 @@ function createSpellDialog({ circle, options }) {
 }
 
 /**
- * Calc the CD value.
- *
- * @param {object} props
- * @param {HTMLDocument} props.iframe - The character sheet iframe document.
- */
-export function calcCD({ iframe }) {
-  const spellsContainer = pathQuerySelector({
-    root: iframe,
-    path: ['div.sheet-left-container', 'div.sheet-spells'],
-  });
-  const level =
-    parseInt(iframe.querySelector('input[name="attr_charnivel"]').value) || 0;
-  const attribute = spellsContainer.querySelector(
-    'select[name="spell-cd-attr"]',
-  ).value;
-  const mod =
-    parseInt(
-      iframe.querySelector(`input[name="attr_${attribute}_mod_fake"]`).value,
-    ) || 0;
-  const extra =
-    parseInt(
-      spellsContainer.querySelector('input[name="spell-cd-extra"]').value,
-    ) || 0;
-  const value = Math.floor(level / 2) + mod + extra + 10;
-  spellsContainer.querySelector('input[name="spell-cd-total"]').value = value;
-}
-
-/**
- * Fill the a spell container with the spell data.
- *
- * @param {object} props
- * @param {HTMLDocument} props.iframe - The character sheet iframe document.
- * @param {HTMLDivElement} props.container - The container to be filled.
- * @param {Spell} props.spell - The spell data.
- */
-function fillSpellContainer({ iframe, container, spell }) {
-  if (spell === undefined) return;
-  setInputValue({
-    selector: 'input[name="attr_namespell"]',
-    value: spell.name,
-    origin: container.parentNode,
-  });
-  setInputValue({
-    selector: 'input[name="attr_spelltipo"]',
-    value: spell.type,
-    origin: container,
-  });
-  setInputValue({
-    selector: 'input[name="attr_spellexecucao"]',
-    value: spell.execution,
-    origin: container,
-  });
-  setInputValue({
-    selector: 'input[name="attr_spellalcance"]',
-    value: spell.range,
-    origin: container,
-  });
-  setInputValue({
-    selector: 'input[name="attr_spellduracao"]',
-    value: spell.duration,
-    origin: container,
-  });
-  setInputValue({
-    selector: 'input[name="attr_spellalvoarea"]',
-    value: spell.target || spell.area || spell.effect,
-    origin: container,
-  });
-  setInputValue({
-    selector: 'input[name="attr_spellresistencia"]',
-    value: spell.resistance,
-    origin: container,
-  });
-  setInputValue({
-    selector: 'textarea[name="attr_spelldescription"]',
-    value: `${spell.description}${
-      spell.implements.length > 0 ? '\n\n' : ''
-    }${spell.implements
-      .map((implement) => `${implement.cost}: ${implement.description}`)
-      .join('\n\n')}`,
-    origin: container,
-  });
-  if (container.querySelector('input[name="attr_spellcd"]')) {
-    if (spell.resistance !== '') {
-      if (iframe.querySelector('input[name="spell-cd-total"]')) {
-        setInputValue({
-          selector: 'input[name="attr_spellcd"]',
-          value: iframe.querySelector('input[name="spell-cd-total"]').value,
-          origin: container,
-        });
-      }
-    } else {
-      setInputValue({
-        selector: 'input[name="attr_spellcd"]',
-        value: '',
-        origin: container,
-      });
-    }
-  }
-}
-
-/**
- * Add the button to trigger the spell choose dialog to a spell container.
- *
- * @param {object} props
- * @param {HTMLDocument} props.iframe - The character sheet iframe document.
- * @param {HTMLDivElement} props.container - The container to be filled.
- * @param {string} props.circle - The spell circle.
- * @param {T20Data} props.data - The Tormenta20 data.
- */
-function renderSpellButton({ iframe, container, circle, data }) {
-  if (container.querySelector('button[name="choose-spell"]')) return; // if the button already exists, ignore
-  container.prepend(
-    createElement('button', {
-      classes: 'sheet-singleline',
-      name: 'choose-spell',
-      innerHTML: 'Escolher Magia',
-    }),
-  );
-  container.prepend(
-    createSpellDialog({
-      circle,
-      options: Object.keys(data.spells[circle] || {}),
-    }),
-  );
-  const button = container.querySelector('button[name="choose-spell"]');
-  const form = container.querySelector('form[name="spell-form"]');
-  const input = form.querySelector('input[name="spell-name"]');
-  // TODO: Use the dialog manager
-  const dialog = $(container.querySelector('div[name="spell-dialog"]')).dialog({
-    autoOpen: false,
-    closeText: '',
-    buttons: {
-      Confirmar: () => {
-        fillSpellContainer({
-          iframe,
-          container,
-          spell: data.spells[circle][input.value],
-        });
-        dialog.dialog('close');
-      },
-      Cancelar: () => {
-        dialog.dialog('close');
-      },
-    },
-    close: () => {
-      form.reset();
-    },
-  });
-  addEventObserver({
-    el: input,
-    eventName: 'keydown',
-    eventHandler: (e) => {
-      if (e.keyCode === 13) {
-        fillSpellContainer({
-          iframe,
-          container,
-          spell: data.spells[circle][input.value],
-        });
-        dialog.dialog('close');
-      }
-    },
-  });
-  addEventObserver({
-    el: button,
-    eventName: 'click',
-    eventHandler: () => {
-      dialog.dialog('open');
-      dialog
-        .dialog('widget')
-        .position({ my: 'center', at: 'center', of: button });
-    },
-  });
-}
-
-/**
- * Add the button to trigger the spell choose dialog to all spells containers.
- *
- * @param {object} props
- * @param {HTMLDocument} props.iframe - The character sheet iframe document.
- * @param {T20Data} props.data - The Tormenta20 data.
- */
-export function loadSpellsEnhancement({ iframe, data }) {
-  const spellsContainer = pathQuerySelector({
-    root: iframe,
-    path: ['div.sheet-left-container', 'div.sheet-spells'],
-  });
-  for (const parentContainer of spellsContainer.querySelectorAll(
-    'div.repcontainer',
-  )) {
-    const circle = parentContainer.getAttribute('data-groupname').slice(-1);
-    for (const container of parentContainer.querySelectorAll(
-      'div.sheet-extra',
-    )) {
-      renderSpellButton({ iframe, container, circle, data });
-    }
-  }
-}
-
-/**
  * Create a new Spell Sheet object.
  *
  * @class
  */
 export class SpellSheet {
-  constructor(iframe, spellsContainer, db, character) {
+  /**
+   * @constructs
+   * @param {Object} props
+   * @param {EnhancedHTMLElement} props.iframe
+   * @param {SpellData} props.spells
+   * @param {Object} props.character
+   */
+  constructor({ iframe, spells, character }) {
+    /** @type {EnhancedHTMLElement} */
     this.iframe = iframe;
-    this.spellsContainer = spellsContainer;
-    this.db = db;
+    /** @type {SpellData} */
+    this.spells = spells;
+    /** @type {Object} */
     this.character = character;
+    // enhancement
     this.character.getSpellAttributes = (id, circle) => {
       const regex = new RegExp(`^repeating_spells${circle}_${id}_`);
       return this.character.getAttributes((a) => regex.test(a.get('name')));
@@ -264,18 +72,39 @@ export class SpellSheet {
         else this.character.attribs.create({ name: attrName, current });
       });
     };
+    /**
+     * @type {EnhancedHTMLElement|null}
+     * @private
+     */
+    this._spellsContainer = null;
   }
 
+  /** @type {EnhancedHTMLElement|null} */
+  get spellsContainer() {
+    if (this._spellsContainer === null) {
+      const path = ['div.sheet-left-container', 'div.sheet-spells'];
+      this._spellsContainer = this.iframe.getElement(path);
+    }
+    return this._spellsContainer;
+  }
+
+  /** Load the sheet spells improvements. */
   load() {
     this.spellsContainer.querySelectorAll('div.repcontainer').forEach((div) => {
       const circle = div.getAttribute('data-groupname').slice(-1);
       div.querySelectorAll('div.sheet-extra').forEach((container) => {
-        this.renderSpellButton(circle, enhanceElement(container));
+        this.renderSpellButton(enhanceElement(container), circle);
       });
     });
   }
 
-  renderSpellButton(circle, container) {
+  /**
+   * Add the button to trigger the spell choose dialog to a spell container.
+   *
+   * @param {EnhancedHTMLElement} container - The repitem div of the spell.
+   * @param {string} circle - The spell circle.
+   */
+  renderSpellButton(container, circle) {
     if (container.querySelector('button[name="choose-spell"]')) return; // if the button already exists, ignore
     container.prepend(
       createElement('button', {
@@ -287,7 +116,7 @@ export class SpellSheet {
     container.prepend(
       createSpellDialog({
         circle,
-        options: Object.keys(this.db.spells[circle] || {}),
+        options: Object.keys(this.spells[circle] || {}),
       }),
     );
     const button = container.select`button[name="choose-spell"]`;
@@ -319,8 +148,14 @@ export class SpellSheet {
     });
   }
 
+  /**
+   * Search for the spell object and returns a objects in the format [attribute]: [value].
+   *
+   * @param {string} circle - The spell circle.
+   * @param {string} spellName
+   */
   getSpellAttributes(circle, spellName) {
-    const spell = this.db.spells[circle][spellName];
+    const spell = this.spells[circle][spellName];
     if (!spell) return [];
     const spellCD = this.iframe.getValue('input.spell-cd-total');
     return {
@@ -336,10 +171,18 @@ export class SpellSheet {
       }${spell.implements
         .map((implement) => `${implement.cost}: ${implement.description}`)
         .join('\n\n')}`,
+      // Only adds the spellCD in the old roll20 sheet format.
       ...(spellCD ? { spellcd: spell.resistance !== '' ? spellCD : '' } : {}),
     };
   }
 
+  /**
+   * Update the spell data.
+   *
+   * @param {EnhancedHTMLElement} container - The repitem div of the spell.
+   * @param {string} circle - The spell circle.
+   * @param {string} spellName
+   */
   async updateSpell(container, circle, spellName) {
     this.character.attribs.fetch();
     await waitForCondition({

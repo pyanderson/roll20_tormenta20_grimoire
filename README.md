@@ -142,7 +142,7 @@ npm i
 Gere a Documentação:
 
 ```bash
-npm run make_docs
+npm run docs
 ```
 
 A documentação será gerada na pasta `out`, seguindo o seguinte padrão: `out/roll20_tormenta20_grimoire/{versão-atual}/index.html`

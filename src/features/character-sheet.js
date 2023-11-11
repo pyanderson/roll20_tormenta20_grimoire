@@ -68,26 +68,43 @@ export class CharacterSheet {
     this.roll20 = window.Campaign;
     /** @type {Object} */
     this.character = this.roll20.characters.get(characterId);
-    // private
-    this._isJDA = null;
-    this._spellsContainer = null;
-    this._powersContainer = null;
-    this._equipmentsContainer = null;
-    this._headerContainer = null;
     // enhancement
     this.character.getAttributes = (filterFn, transformFn = (a) => a) =>
       this.character.attribs.models
         .filter(filterFn)
         .map(transformFn)
         .reduce((acc, a) => ({ ...acc, [a.get('name')]: a }), {});
-    // Other modules
     /** @type {SpellSheet} */
-    this.spellSheet = new SpellSheet(
-      this.iframe,
-      this.spellsContainer,
-      this.db,
-      this.character,
-    );
+    this.spellSheet = new SpellSheet({
+      iframe: this.iframe,
+      spells: this.db.spells,
+      character: this.character,
+    });
+    /**
+     * @type {EnhancedHTMLElement|null}
+     * @private
+     */
+    this._isJDA = null;
+    /**
+     * @type {EnhancedHTMLElement|null}
+     * @private
+     */
+    this._spellsContainer = null;
+    /**
+     * @type {EnhancedHTMLElement|null}
+     * @private
+     */
+    this._powersContainer = null;
+    /**
+     * @type {EnhancedHTMLElement|null}
+     * @private
+     */
+    this._equipmentsContainer = null;
+    /**
+     * @type {EnhancedHTMLElement|null}
+     * @private
+     */
+    this._headerContainer = null;
   }
 
   /** @type {EnhancedHTMLElement|null} */
