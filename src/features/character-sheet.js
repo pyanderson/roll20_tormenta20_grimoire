@@ -263,18 +263,10 @@ export class CharacterSheet {
     this._equipmentsContainer = null;
     this._headerContainer = null;
     this.character.getAttributes = (filterFn, transformFn = (a) => a) =>
-      this.character.attribs.models.filter(filterFn).map(transformFn);
-    this.character.getAbilities = () => {
-      const regex =
-        /^(repeating_abilities|repeating_powers)_(?<id>.+)_(nameability|namepower)$/;
-      return this.character.getAttributes(
-        (a) => regex.test(a.get('name')),
-        (a) => ({
-          name: a.get('current'),
-          id: a.get('name').match(regex)?.groups.id,
-        }),
-      );
-    };
+      this.character.attribs.models
+        .filter(filterFn)
+        .map(transformFn)
+        .reduce((acc, a) => ({ ...acc, [a.get('name')]: a }), {});
     this.spellSheet = new SpellSheet(
       this.iframe,
       this.spellsContainer,

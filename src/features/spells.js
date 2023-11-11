@@ -245,17 +245,18 @@ export class SpellSheet {
     this.spellsContainer = spellsContainer;
     this.db = db;
     this.character = character;
-    this.character.getSpellAttributes = (circle, id) => {
+    this.character.getSpellAttributes = (id, circle) => {
       const regex = new RegExp(`^repeating_spells${circle}_${id}_`);
       return this.character.getAttributes((a) => regex.test(a.get('name')));
     };
-    this.character.setSpellAttributes = (circle, id, attributes) => {
-      const attribs = this.character.getSpellAttributes(circle, id);
-      attributes.forEach(({ name, value }) => {
+    this.character.updateSpell = (id, circle, spellName) => {
+      const attribsMap = this.character.getSpellAttributes(id, circle);
+      const attributes = this.getSpellAttributes(circle, spellName);
+      Object.entries(attributes).forEach(([name, current]) => {
         const attrName = `repeating_spells${circle}_${id}_${name}`;
-        const attr = attribs.find((a) => a.get('name') === attrName);
-        if (attr) attr.save({ current: value });
-        else this.character.attribs.create({ name: attrName, current: value });
+        const attr = attribsMap[attrName];
+        if (attr) attr.save({ current });
+        else this.character.attribs.create({ name: attrName, current });
       });
     };
   }
@@ -293,7 +294,7 @@ export class SpellSheet {
       closeText: '',
       buttons: {
         Confirmar: () => {
-          this.updateContainerSpell(container, circle, input.value);
+          this.updateSpell(container, circle, input.value);
           dialog.dialog('close');
         },
         Cancelar: () => dialog.dialog('close'),
@@ -301,7 +302,7 @@ export class SpellSheet {
     });
     input.addEventObserver('keydown', (e) => {
       if (e.keyCode === 13) {
-        this.updateContainerSpell(container, circle, input.value);
+        this.updateSpell(container, circle, input.value);
         dialog.dialog('close');
       }
     });
@@ -317,45 +318,32 @@ export class SpellSheet {
     const spell = this.db.spells[circle][spellName];
     if (!spell) return [];
     const spellCD = this.iframe.getValue('input.spell-cd-total');
-    return [
-      { name: 'namespell', value: spell.name },
-      { name: 'spelltipo', value: spell.type },
-      { name: 'spellexecucao', value: spell.execution },
-      { name: 'spellalcance', value: spell.range },
-      { name: 'spellduracao', value: spell.duration },
-      {
-        name: 'spellalvoarea',
-        value: spell.target || spell.area || spell.effect,
-      },
-      { name: 'spellresistencia', value: spell.resistance },
-      {
-        name: 'spelldescription',
-        value: `${spell.description}${
-          spell.implements.length > 0 ? '\n\n' : ''
-        }${spell.implements
-          .map((implement) => `${implement.cost}: ${implement.description}`)
-          .join('\n\n')}`,
-      },
-      ...(spellCD
-        ? [
-            {
-              name: 'spellcd',
-              value: spell.resistance !== '' ? spellCD : '',
-            },
-          ]
-        : []),
-    ];
+    return {
+      namespell: spell.name,
+      spelltipo: spell.type,
+      spellexecucao: spell.execution,
+      spellalcance: spell.range,
+      spellduracao: spell.duration,
+      spellalvoarea: spell.target || spell.area || spell.effect,
+      spellresistencia: spell.resistance,
+      spelldescription: `${spell.description}${
+        spell.implements.length > 0 ? '\n\n' : ''
+      }${spell.implements
+        .map((implement) => `${implement.cost}: ${implement.description}`)
+        .join('\n\n')}`,
+      ...(spellCD ? { spellcd: spell.resistance !== '' ? spellCD : '' } : {}),
+    };
   }
 
-  async updateContainerSpell(container, circle, spellName) {
+  async updateSpell(container, circle, spellName) {
     this.character.attribs.fetch();
     await waitForCondition({
       checkFn: () => this.character.attribs.models.length > 0,
     });
-    this.character.setSpellAttributes(
-      circle,
+    this.character.updateSpell(
       container.parentNode.parentNode.getAttribute('data-reprowid'),
-      this.getSpellAttributes(circle, spellName),
+      circle,
+      spellName,
     );
   }
 }
