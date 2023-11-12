@@ -1,12 +1,29 @@
 # Grimório do Tormenta20 para o Roll20
 
-Escolha magias, habilidade e poderes diretamente na sua ficha!
+Escolha magias, habilidades, poderes, equipamentos e raça diretamente na sua ficha!
 
-Consulte regras de combate, condições e perícias direto no Roll20!
+Consulte regras de combate e muito mais direto no Roll20.
 
 Extensão para o Roll20 que auxilia na sua campanha de Tormenta20.
-É adicionada a opção de escolher uma magia ou poder, sem necessidade de ficar copiando/escrevendo do livro. Também adiciona o cálculo automático de CD.
-Um menu Lateral extra é adicionado na página pra consulta de regras de combate, condições e perícias.
+
+Ficha:
+
+- Escolher magias;
+- Escolher habilidades e poderes;
+- Escolher equipamento;
+- Escolher raça com preenchimento automático de habilidades.
+- Adiciona cálculo de CD na versão antiga da ficha (A versão JDA já possui essa funcionalidade).
+
+Grimório (disponível via botão posicionado abaixo dos botões de zoom):
+
+- Regras de combate e testes;
+- Condições, raças, classes, origens, perícias, poderes, equipamentos, magias e habilidades;
+- Habilita a opção de adicionar habilidades de raças e classes, poderes, equipamentos e magias arrastando do grimório para a sua ficha.
+- Busca rápida.
+
+Chat:
+
+- Transforma condições em itens clicáveis que mostram mais informações sobre a condição.
 
 ### Aviso
 
@@ -147,3 +164,4 @@ npm run docs
 ```
 
 A documentação será gerada na pasta `out`, seguindo o seguinte padrão: `out/roll20_tormenta20_grimoire/{versão-atual}/index.html`
+
