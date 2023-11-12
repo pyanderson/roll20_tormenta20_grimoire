@@ -57,12 +57,6 @@ export class SpellSheet {
     this.spells = spells;
     /** @type {Object} */
     this.character = character;
-    // enhancement
-    this.character.updateSpell = (id, circle, spellName) => {
-      const prefix = `repeating_spells${circle}_${id}`;
-      const attributes = this.getAttributes(circle, spellName);
-      this.character.updateAttributes(prefix, attributes);
-    };
     /**
      * @type {EnhancedHTMLElement|null}
      * @private
@@ -97,6 +91,8 @@ export class SpellSheet {
    */
   addButton(container, circle) {
     if (container.querySelector('button[name="choose-spell"]')) return; // if the button already exists, ignore
+    const repRow = container.parentNode.parentNode;
+    const id = repRow.getAttribute('data-reprowid');
     container.prepend(
       createElement('button', {
         classes: 'sheet-singleline',
@@ -119,7 +115,7 @@ export class SpellSheet {
       closeText: '',
       buttons: {
         Confirmar: () => {
-          this.update(container, circle, input.value);
+          this.update(id, circle, input.value);
           dialog.dialog('close');
         },
         Cancelar: () => dialog.dialog('close'),
@@ -127,7 +123,7 @@ export class SpellSheet {
     });
     input.addEventObserver('keydown', (e) => {
       if (e.keyCode === 13) {
-        this.update(container, circle, input.value);
+        this.update(id, circle, input.value);
         dialog.dialog('close');
       }
     });
@@ -170,19 +166,17 @@ export class SpellSheet {
   /**
    * Update the spell data.
    *
-   * @param {EnhancedHTMLElement} container - The repitem div of the spell.
+   * @param {string} id
    * @param {string} circle - The spell circle.
-   * @param {string} spellName
+   * @param {string} name
    */
-  async update(container, circle, spellName) {
+  async update(id, circle, name) {
     this.character.attribs.fetch();
     await waitForCondition({
       checkFn: () => this.character.attribs.models.length > 0,
     });
-    this.character.updateSpell(
-      container.parentNode.parentNode.getAttribute('data-reprowid'),
-      circle,
-      spellName,
-    );
+    const prefix = `repeating_spells${circle}_${id}`;
+    const attributes = this.getAttributes(circle, name);
+    this.character.updateAttributes(prefix, attributes);
   }
 }

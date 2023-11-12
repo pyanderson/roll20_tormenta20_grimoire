@@ -79,7 +79,6 @@ export class CharacterSheet {
       const attrMap = this.character.getAttributes((a) =>
         regex.test(a.get('name')),
       );
-      console.log({ attrMap, prefix });
       Object.entries(attributes).forEach(([name, current]) => {
         const attrName = `${prefix}_${name}`;
         const attr = attrMap[attrName];
