@@ -141,9 +141,7 @@ export class SpellSheet {
    * @param {string} circle - The spell circle.
    * @param {string} spellName
    */
-  getAttributes(circle, spellName) {
-    const spell = this.spells[circle][spellName];
-    if (!spell) return [];
+  getAttributes(spell) {
     const spellCD = this.iframe.getValue('input.spell-cd-total');
     return {
       namespell: spell.name,
@@ -175,8 +173,18 @@ export class SpellSheet {
     await waitForCondition({
       checkFn: () => this.character.attribs.models.length > 0,
     });
+    const spell = this.spells[circle][name];
+    if (!spell) return;
     const prefix = `repeating_spells${circle}_${id}`;
-    const attributes = this.getAttributes(circle, name);
+    const attributes = this.getAttributes(spell);
     this.character.updateAttributes(prefix, attributes);
+  }
+
+  /** Add a new spell to the character sheet. */
+  addSpell(spell) {
+    this.character.addAtttributes(
+      `repeating_spells${spell.circle}`,
+      this.getAttributes(spell),
+    );
   }
 }

@@ -159,7 +159,7 @@ function renderBookItem({ path, bookItem }) {
     classes: 'tormenta20-book-row journalitem dd-item',
   });
   const target = dialogId.split('-')[1];
-  const draggableFolders = ['raas', 'classes', 'poderes'];
+  const draggableFolders = ['raas', 'classes', 'poderes', 'magias'];
   const isDraggable = draggableFolders.indexOf(target) !== -1;
   const icon = createElement('div', {
     name: 'tormenta20-chat-info-button',

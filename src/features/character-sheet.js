@@ -349,6 +349,8 @@ export class CharacterSheet {
         this.powerSheet.addPower(item);
       } else if (['raas', 'classes'].indexOf(target) !== -1) {
         this.powerSheet.addAbility(item);
+      } else if (target === 'magias') {
+        this.spellSheet.addSpell({ ...item, type: item.spellType });
       }
       e.preventDefault();
     });
