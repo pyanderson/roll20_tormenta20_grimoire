@@ -132,7 +132,13 @@
 /**
  * @class EnhancedHTMLElement
  * @extends HTMLElement
- * @property {String} name - Eg.: Anão
+ * @property {Function} getElement
+ * @property {Function} getAllElements
+ * @property {Function} select
+ * @property {Function} getValue
+ * @property {Function} setValue
+ * @property {Function} getInt
+ * @property {Function} addEventObserver
  */
 
 /**
