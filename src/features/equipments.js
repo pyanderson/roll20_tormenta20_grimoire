@@ -1,6 +1,6 @@
 'use strict';
 
-import { createElement, waitForCondition } from '../common/helpers';
+import { createElement } from '../common/helpers';
 
 /**
  * Create a new Equipment Sheet object.
@@ -113,10 +113,6 @@ export class EquipmentSheet {
    * @param {string} name
    */
   async update(id, name) {
-    this.character.attribs.fetch();
-    await waitForCondition({
-      checkFn: () => this.character.attribs.models.length > 0,
-    });
     const equipment = this.equipmentsList.find(
       (equipment) => equipment.name.toLowerCase() === name.toLowerCase().trim(),
     );

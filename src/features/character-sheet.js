@@ -73,6 +73,7 @@ export class CharacterSheet {
     this.roll20 = window.Campaign;
     /** @type {Object} */
     this.character = this.roll20.characters.get(characterId);
+    this.character.attribs.fetch();
     // enhancement
     this.character.getAttributes = (filterFn, transformFn = (a) => a) =>
       this.character.attribs.models
@@ -80,15 +81,19 @@ export class CharacterSheet {
         .map(transformFn)
         .reduce((acc, a) => ({ ...acc, [a.get('name')]: a }), {});
     this.character.updateAttributes = (prefix, attributes) => {
-      const regex = new RegExp(prefix);
-      const attrMap = this.character.getAttributes((a) =>
-        regex.test(a.get('name')),
-      );
-      Object.entries(attributes).forEach(([name, current]) => {
-        const attrName = `${prefix}${prefix ? '_' : ''}${name}`;
-        const attr = attrMap[attrName];
-        if (attr) attr.save({ current });
-        else this.character.attribs.create({ name: attrName, current });
+      this.character.attribs.fetch({
+        success: () => {
+          const regex = new RegExp(prefix);
+          const attrMap = this.character.getAttributes((a) =>
+            regex.test(a.get('name')),
+          );
+          Object.entries(attributes).forEach(([name, current]) => {
+            const attrName = `${prefix}${prefix ? '_' : ''}${name}`;
+            const attr = attrMap[attrName];
+            if (attr) attr.save({ current });
+            else this.character.attribs.create({ name: attrName, current });
+          });
+        },
       });
     };
     this.character.addAtttributes = (prefix, attributes) => {

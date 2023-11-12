@@ -1,10 +1,6 @@
 'use strict';
 
-import {
-  createElement,
-  enhanceElement,
-  waitForCondition,
-} from '../common/helpers';
+import { createElement, enhanceElement } from '../common/helpers';
 
 /**
  * Create the spell dialog element.
@@ -168,10 +164,6 @@ export class SpellSheet {
    * @param {string} name
    */
   async update(id, circle, name) {
-    this.character.attribs.fetch();
-    await waitForCondition({
-      checkFn: () => this.character.attribs.models.length > 0,
-    });
     const spell = this.spells[circle][name];
     if (!spell) return;
     const prefix = `repeating_spells${circle}_${id}`;

@@ -1,10 +1,6 @@
 'use strict';
 
-import {
-  createElement,
-  enhanceElement,
-  waitForCondition,
-} from '../common/helpers';
+import { createElement, enhanceElement } from '../common/helpers';
 
 /**
  * Create the power dialog element.
@@ -186,10 +182,6 @@ export class PowerSheet {
    * @param {string} name
    */
   async update(groupName, id, name) {
-    this.character.attribs.fetch();
-    await waitForCondition({
-      checkFn: () => this.character.attribs.models.length > 0,
-    });
     const attributes = this.getAttributes(groupName, name);
     this.character.updateAttributes(`${groupName}_${id}`, attributes);
   }
