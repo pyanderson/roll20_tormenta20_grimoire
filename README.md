@@ -48,6 +48,7 @@ Visite a página da loja de extensões do seu navegador:
 - [x] Habilidades de raças adicionadas automaticamente. _[v0.4.11]_
 - [x] Tamanho e deslocamento atualizados automaticamente na versão jogo do ano da ficha. _[v0.4.12]_
 - [x] Origens (Grimório) _[v0.4.14]_
+- [x] Suporte para arrastar e soltar na ficha para raças, classes, poderes, equipamento e magias. _[v0.6.0]_
 - [ ] Divindades (Grimório)
 - [ ] Bestiário?
 - [ ] ??????
