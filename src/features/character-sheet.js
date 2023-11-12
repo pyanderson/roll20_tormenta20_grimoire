@@ -347,6 +347,8 @@ export class CharacterSheet {
       const { target, item } = JSON.parse(rawData);
       if (target === 'poderes') {
         this.powerSheet.addPower(item);
+      } else if (['raas', 'classes'].indexOf(target) !== -1) {
+        this.powerSheet.addAbility(item);
       }
       e.preventDefault();
     });

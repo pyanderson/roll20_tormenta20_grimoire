@@ -201,4 +201,12 @@ export class PowerSheet {
       this.getPowerAttributes(power),
     );
   }
+
+  /** Add a new ability to the character sheet. */
+  addAbility(ability) {
+    this.character.addAtttributes(
+      'repeating_abilities',
+      this.getAbilityAttributes(ability),
+    );
+  }
 }
