@@ -1,9 +1,14 @@
 'use strict';
 
-import { createElement, enhanceElement, hasCSS } from '../common/helpers';
+import {
+  createElement,
+  enhanceElement,
+  generateUUID,
+  hasCSS,
+} from '../common/helpers';
 import { EquipmentSheet } from './equipments';
 import { PowerSheet } from './powers';
-import { loadRacesEnhancement } from './races';
+import { RaceSheet } from './races';
 import { SpellSheet } from './spells';
 
 /**
@@ -80,12 +85,20 @@ export class CharacterSheet {
         regex.test(a.get('name')),
       );
       Object.entries(attributes).forEach(([name, current]) => {
-        const attrName = `${prefix}_${name}`;
+        const attrName = `${prefix}${prefix ? '_' : ''}${name}`;
         const attr = attrMap[attrName];
         if (attr) attr.save({ current });
         else this.character.attribs.create({ name: attrName, current });
       });
     };
+    this.character.addAtttributes = (prefix, attributes) => {
+      const id = generateUUID().replace(/_/g, 'Z');
+      this.character.updateAttributes(`${prefix}_${id}`, attributes);
+    };
+    this.character.deleteRow = (groupName, rowId) => {
+      this.character.view.deleteRepeatingRow(groupName, rowId);
+    };
+
     /** @type {SpellSheet} */
     this.spellSheet = new SpellSheet({
       iframe: this.iframe,
@@ -102,6 +115,12 @@ export class CharacterSheet {
     this.equipmentSheet = new EquipmentSheet({
       iframe: this.iframe,
       equipments: this.db.equipments,
+      character: this.character,
+    });
+    /** @type {EquipmentSheet} */
+    this.raceSheet = new RaceSheet({
+      iframe: this.iframe,
+      races: this.db.races,
       character: this.character,
     });
     /**
@@ -134,7 +153,7 @@ export class CharacterSheet {
   /** @type {EnhancedHTMLElement|null} */
   get spellsContainer() {
     if (this._spellsContainer === null) {
-      const path = ['div.sheet-left-container', 'div.sheet-spells'];
+      const path = 'div.sheet-left-container > div.sheet-spells';
       this._spellsContainer = this.iframe.getElement(path);
     }
     return this._spellsContainer;
@@ -143,10 +162,7 @@ export class CharacterSheet {
   /** @type {EnhancedHTMLElement|null} */
   get powersContainer() {
     if (this._powersContainer === null) {
-      const path = [
-        'div.sheet-left-container',
-        'div.sheet-powers-and-abilities',
-      ];
+      const path = 'div.sheet-left-container > div.sheet-powers-and-abilities';
       this._powersContainer = this.iframe.getElement(path);
     }
     return this._powersContainer;
@@ -160,11 +176,8 @@ export class CharacterSheet {
   /** @type {EnhancedHTMLElement|null} */
   get equipmentsContainer() {
     if (this._equipmentsContainer === null) {
-      const path = [
-        'div.sheet-right-container',
-        'div.sheet-equipment-container',
-        'div[data-groupname="repeating_equipment"]',
-      ];
+      const path =
+        'div.sheet-right-container > div.sheet-equipment-container > div[data-groupname="repeating_equipment"]';
       this._equipmentsContainer = this.iframe.getElement(path);
     }
     return this._equipmentsContainer;
@@ -173,7 +186,7 @@ export class CharacterSheet {
   /** @type {EnhancedHTMLElement|null} */
   get headerContainer() {
     if (this._headerContainer === null) {
-      const path = ['div.sheet-left-container', 'div.sheet-header-info'];
+      const path = 'div.sheet-left-container > div.sheet-header-info';
       this._headerContainer = this.iframe.getElement(path);
     }
     return this._headerContainer;
@@ -204,7 +217,7 @@ export class CharacterSheet {
         this.spellSheet.load();
         this.powerSheet.load();
         this.equipmentSheet.load();
-        this.loadRaces();
+        this.raceSheet.load();
         // Observers
         this.observe(this.spellsContainer, () => this.spellSheet.load());
         this.observe(this.powersContainer, () => this.powerSheet.load());
@@ -306,14 +319,6 @@ export class CharacterSheet {
       JSON.stringify(newCharacterData),
     );
     this.characterData = newCharacterData;
-  }
-
-  loadRaces() {
-    loadRacesEnhancement({
-      iframe: this.iframe,
-      data: this.db,
-      characterId: this.characterId,
-    });
   }
 
   /** Load the extra css in the iframe. */

@@ -67,7 +67,7 @@ export class SpellSheet {
   /** @type {EnhancedHTMLElement|null} */
   get spellsContainer() {
     if (this._spellsContainer === null) {
-      const path = ['div.sheet-left-container', 'div.sheet-spells'];
+      const path = 'div.sheet-left-container > div.sheet-spells';
       this._spellsContainer = this.iframe.getElement(path);
     }
     return this._spellsContainer;

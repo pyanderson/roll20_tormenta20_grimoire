@@ -73,7 +73,7 @@ export function pathQuerySelector({ root, path }) {
   if (!root) return null;
   if (path.length === 0) return enhanceElement(root);
   return pathQuerySelector({
-    root: root.querySelector(path[0]),
+    root: root.querySelector(path[0].trim()),
     path: path.slice(1),
   });
 }
@@ -224,13 +224,10 @@ export function waitForWindowAttribute(attributeName) {
 
 export function enhanceElement(el) {
   if (!el) return null;
-  const toArray = (param) => (param instanceof Array ? param : [param]);
-  el.getElement = (selectors) =>
-    selectors ? pathQuerySelector({ root: el, path: toArray(selectors) }) : el;
-  el.getAllElements = (selectors) =>
-    Array.from(el.querySelectorAll(selectors)).map((node) =>
-      enhanceElement(node),
-    );
+  el.getElement = (s) =>
+    s ? pathQuerySelector({ root: el, path: s.split('>') }) : el;
+  el.getAllElements = (s) =>
+    Array.from(el.querySelectorAll(s)).map((node) => enhanceElement(node));
   el.select = (strings, ...values) =>
     el.getElement(
       strings.reduce((acc, s, index) => acc + s + (values[index] || ''), ''),

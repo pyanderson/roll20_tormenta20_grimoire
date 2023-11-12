@@ -37,11 +37,8 @@ export class EquipmentSheet {
   /** @type {EnhancedHTMLElement|null} */
   get equipmentsContainer() {
     if (this._equipmentsContainer === null) {
-      const path = [
-        'div.sheet-right-container',
-        'div.sheet-equipment-container',
-        'div[data-groupname="repeating_equipment"]',
-      ];
+      const path =
+        'div.sheet-right-container > div.sheet-equipment-container > div[data-groupname="repeating_equipment"]';
       this._equipmentsContainer = this.iframe.getElement(path);
     }
     return this._equipmentsContainer;

@@ -1,199 +1,146 @@
 'use strict';
 
-import {
-  addEventObserver,
-  createElement,
-  generateUUID,
-  pathQuerySelector,
-  waitForCondition,
-  waitForWindowAttribute,
-} from '../common/helpers';
+import { createElement, waitForCondition } from '../common/helpers';
 
 /**
- * Delete a repeatable item of the character sheet.
+ * Create a new Race Sheet object.
  *
- * @param {object} props
- * @param {object} props.character - The character in the Roll20 game.
- * @param {object[]} props.attributes - The item attributes values.
- * @param {object[]} props.attributes[].name - The input name.
- * @param {object[]} props.attributes[].value - The input value.
+ * @class
  */
-function updateAttributes({ character, attributes }) {
-  attributes.forEach(({ name, value }) => {
-    const attribute = character.attribs.models.find(
-      (attr) => attr.get('name') === name,
-    );
-    attribute?.save({ name, current: value });
-  });
-}
-
-/**
- * Delete a repeatable item of the character sheet.
- *
- * @param {object} props
- * @param {object} props.character - The character in the Roll20 game.
- * @param {string} props.groupName - The item group name.
- * @param {string} props.rowId - The data-reprowid value.
- */
-function delRepItem({ character, groupName, rowId }) {
-  character.view.deleteRepeatingRow(groupName, rowId);
-}
-
-/**
- * Add a repeatable item to the character sheet.
- *
- * @param {object} props
- * @param {object} props.character - The character in the Roll20 game.
- * @param {string} props.groupName - The item group name.
- * @param {object[]} props.attributes - The item attributes values.
- * @param {object[]} props.attributes[].name - The input name.
- * @param {object[]} props.attributes[].value - The input value.
- */
-function addRepItem({ character, groupName, attributes }) {
-  const rowId = generateUUID().replace(/_/g, 'Z');
-  attributes.forEach(({ name, value }) => {
-    character.attribs.create({
-      name: `${groupName}_${rowId}_${name}`,
-      current: value,
-    });
-  });
-}
-
-/**
- * Add the race autocomplete.
- *
- * @param {object} props
- * @param {HTMLDocument} props.iframe - The character sheet iframe document.
- * @param {Race[]} props.races - All available races.
- * @param {string} props.characterId - The character ID in the Roll20 game.
- */
-function loadRaceAutoComplete({ iframe, races, characterId }) {
-  const Campaign = window.Campaign;
-  const character = Campaign.characters.get(characterId);
-  const headerContainer = pathQuerySelector({
-    root: iframe,
-    path: ['div.sheet-left-container', 'div.sheet-header-info'],
-  });
-  const sizeAndMoveContainer = pathQuerySelector({
-    root: iframe,
-    path: ['div.sheet-left-container', 'div.sheet-size-and-move-container'],
-  });
-
-  if (!headerContainer.querySelector('#race-list')) {
-    headerContainer.append(
-      createElement('datalist', {
-        id: 'race-list',
-        append: races.map((race) =>
-          createElement('option', { value: race.name }),
-        ),
-      }),
-    );
+export class RaceSheet {
+  /**
+   * @constructs
+   * @param {Object} props
+   * @param {EnhancedHTMLElement} props.iframe
+   * @param {Race[]} props.races
+   * @param {Object} props.character
+   */
+  constructor({ iframe, races, character }) {
+    /** @type {EnhancedHTMLElement} */
+    this.iframe = iframe;
+    /** @type {EquipmentData[]} */
+    this.races = races;
+    /** @type {Object} */
+    this.character = character;
+    /**
+     * @type {EnhancedHTMLElement|null}
+     * @private
+     */
+    this._headerContainer = null;
+    /**
+     * @type {EnhancedHTMLElement|null}
+     * @private
+     */
+    this._sizeAndMoveContainer = null;
   }
-  const input = headerContainer.querySelector('input[name="attr_trace"]');
-  input.setAttribute('list', 'race-list');
-  input.autocomplete = 'off';
 
-  const updateAbilities = async () => {
-    const groupName = 'repeating_abilities';
-    const race = races.find((race) => race.name === input.value);
-    if (!race) return;
-    character.attribs.fetch();
-    await waitForCondition({
-      checkFn: () => character.attribs.models.length > 0,
-    });
-    const toAdd = race.abilities.reduce((acc, a) => [...acc, a.name], []);
-    const toRemove = races
-      .filter((r) => r.name !== race.name)
-      .map((r) => r.abilities)
-      .reduce(
-        (acc, abilities) => [
-          ...acc,
-          ...abilities
-            .filter((a) => toAdd.indexOf(a.name) === -1)
-            .map((a) => a.name),
-        ],
-        [],
+  /** @type {EnhancedHTMLElement|null} */
+  get headerContainer() {
+    if (this._headerContainer === null) {
+      const path = 'div.sheet-left-container > div.sheet-header-info';
+      this._headerContainer = this.iframe.getElement(path);
+    }
+    return this._headerContainer;
+  }
+
+  /** @type {EnhancedHTMLElement|null} */
+  get sizeAndMoveContainer() {
+    if (this._sizeAndMoveContainer === null) {
+      const path =
+        'div.sheet-left-container > div.sheet-size-and-move-container';
+      this._sizeAndMoveContainer = this.iframe.getElement(path);
+    }
+    return this._sizeAndMoveContainer;
+  }
+
+  /** Load the sheet race improvements. */
+  load() {
+    this.loadAutoComplete();
+  }
+
+  /** Load the sheet race auto complete. */
+  loadAutoComplete() {
+    if (!this.headerContainer.querySelector('#race-list')) {
+      this.headerContainer.append(
+        createElement('datalist', {
+          id: 'race-list',
+          append: this.races.map((race) =>
+            createElement('option', { value: race.name }),
+          ),
+        }),
+      );
+    }
+    const input = this.headerContainer.select`input[name="attr_trace"]`;
+    input.setAttribute('list', 'race-list');
+    input.autocomplete = 'off';
+
+    const updateAbilities = async () => {
+      const race = this.races.find((race) => race.name === input.value);
+      if (!race) return;
+      this.character.attribs.fetch();
+      await waitForCondition({
+        checkFn: () => this.character.attribs.models.length > 0,
+      });
+      const toAdd = race.abilities.reduce((acc, a) => [...acc, a.name], []);
+      const toRemove = this.races
+        .filter((r) => r.name !== race.name)
+        .map((r) => r.abilities)
+        .reduce(
+          (acc, abilities) => [
+            ...acc,
+            ...abilities
+              .filter((a) => toAdd.indexOf(a.name) === -1)
+              .map((a) => a.name),
+          ],
+          [],
+        );
+      const regex =
+        /^(?<groupName>repeating_abilities|repeating_powers)_(?<id>-.+)_(nameability|namepower)$/;
+
+      const allAttributesMap = this.character.getAttributes(
+        (a) => regex.test(a.get('name')),
+        (a) => {
+          const match = a.get('name').match(regex);
+          a.rowId = match?.groups.id;
+          a.groupName = match?.groups.groupName;
+          return a;
+        },
       );
 
-    const getAttributes = () => {
-      const regex =
-        /^(repeating_abilities|repeating_powers)_(?<id>.+)_(nameability|namepower)$/;
-      return character.attribs.models
-        .filter((x) => regex.test(x.get('name')))
-        .map((attribute) => ({
-          name: attribute.get('current'),
-          id: attribute.get('name').match(regex)?.groups.id,
-        }));
+      const allAttributes = Object.values(allAttributesMap);
+
+      // add the race abilities
+      for (const ability of race.abilities) {
+        if (!allAttributes.find((a) => a.get('current') === race.name)) {
+          this.character.addAtttributes('repeating_abilities', {
+            nameability: ability.name,
+            abilitydescription: ability.description,
+          });
+        }
+      }
+      // update size and displacement
+      if (this.sizeAndMoveContainer) {
+        const size =
+          {
+            Médio: 0,
+            Minúsculo: 5,
+            Pequeno: 2,
+            Grande: -2,
+            Enorme: -5,
+            Colossal: -10,
+          }[race.size] || 0;
+        this.character.updateAttributes('', {
+          tamanho: size,
+          deslocamento: race.displacement,
+        });
+      }
+      // remove the other races abilities
+      for (const attribute of allAttributes) {
+        if (toRemove.includes(attribute.get('current').trim())) {
+          this.character.deleteRow(attribute.groupName, attribute.rowId);
+        }
+      }
     };
-
-    const currentAttrs = getAttributes();
-
-    // add the race abilities
-    for (const ability of race.abilities) {
-      if (!currentAttrs.find((x) => x.name === race.name)) {
-        addRepItem({
-          character,
-          groupName,
-          attributes: [
-            { name: 'nameability', value: ability.name },
-            { name: 'abilitydescription', value: ability.description },
-          ],
-        });
-      }
-    }
-    // update size and displacement
-    if (sizeAndMoveContainer) {
-      const size =
-        {
-          Médio: 0,
-          Minúsculo: 5,
-          Pequeno: 2,
-          Grande: -2,
-          Enorme: -5,
-          Colossal: -10,
-        }[race.size] || 0;
-      updateAttributes({
-        character,
-        attributes: [
-          { name: 'tamanho', value: size },
-          { name: 'deslocamento', value: race.displacement },
-        ],
-      });
-    }
-    const updatedAttrs = getAttributes();
-    // remove the other races abilities
-    for (const attribute of updatedAttrs) {
-      if (toRemove.includes(attribute.name.trim())) {
-        delRepItem({
-          character,
-          groupName,
-          rowId: attribute.id,
-        });
-      }
-    }
-  };
-  // addEventObserver({
-  //   el: input,
-  //   eventName: 'input',
-  //   eventHandler: updateAbilities,
-  // });
-  addEventObserver({
-    el: input,
-    eventName: 'change',
-    eventHandler: updateAbilities,
-  });
-}
-
-/**
- * Load the race related enhancements.
- *
- * @param {object} props
- * @param {HTMLDocument} props.iframe - The character sheet iframe document.
- * @param {T20Data} props.data - The Tormenta20 data.
- * @param {string} props.characterId - The character ID in the Roll20 game.
- */
-export function loadRacesEnhancement({ iframe, data, characterId }) {
-  waitForWindowAttribute('Campaign').then(() => {
-    loadRaceAutoComplete({ iframe, races: data.races, characterId });
-  });
+    input.addEventObserver('change', updateAbilities);
+  }
 }

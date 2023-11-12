@@ -66,10 +66,7 @@ export class PowerSheet {
   /** @type {EnhancedHTMLElement|null} */
   get powersContainer() {
     if (this._powersContainer === null) {
-      const path = [
-        'div.sheet-left-container',
-        'div.sheet-powers-and-abilities',
-      ];
+      const path = 'div.sheet-left-container > div.sheet-powers-and-abilities';
       this._powersContainer = this.iframe.getElement(path);
     }
     return this._powersContainer;
