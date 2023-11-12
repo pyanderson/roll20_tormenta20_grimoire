@@ -351,6 +351,13 @@ export class CharacterSheet {
         this.powerSheet.addAbility(item);
       } else if (target === 'magias') {
         this.spellSheet.addSpell({ ...item, type: item.spellType });
+      } else if (target === 'equipamento') {
+        const equipment = this.equipmentSheet.equipmentsList.find(
+          (eq) => eq.name.toLowerCase() === item.name.toLowerCase(),
+        );
+        if (equipment) {
+          this.equipmentSheet.addEquipment(equipment);
+        }
       }
       e.preventDefault();
     });

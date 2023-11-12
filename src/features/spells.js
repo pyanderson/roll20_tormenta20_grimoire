@@ -136,10 +136,9 @@ export class SpellSheet {
   }
 
   /**
-   * Search for the spell object and returns a objects in the format [attribute]: [value].
+   * Returns a objects in the format [attribute]: [value].
    *
-   * @param {string} circle - The spell circle.
-   * @param {string} spellName
+   * @param {Spell} spell
    */
   getAttributes(spell) {
     const spellCD = this.iframe.getValue('input.spell-cd-total');

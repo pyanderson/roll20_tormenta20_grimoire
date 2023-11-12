@@ -1,6 +1,6 @@
 'use strict';
 
-import { createElement } from '../common/helpers';
+import { createElement, waitForCondition } from '../common/helpers';
 
 /**
  * Create a new Equipment Sheet object.
@@ -32,6 +32,11 @@ export class EquipmentSheet {
      * @private
      */
     this._equipmentsContainer = null;
+    /**
+     * @type {EnhancedHTMLElement|null}
+     * @private
+     */
+    this._isJDA = null;
   }
 
   /** @type {EnhancedHTMLElement|null} */
@@ -42,6 +47,15 @@ export class EquipmentSheet {
       this._equipmentsContainer = this.iframe.getElement(path);
     }
     return this._equipmentsContainer;
+  }
+
+  /** @type {Boolean} */
+  get isJDA() {
+    if (this._isJDA === null) {
+      const selector = 'span[data-i18n="global_charactersheet"]';
+      this._isJDA = this.iframe.querySelector(selector);
+    }
+    return Boolean(this._isJDA);
   }
 
   /** Load the sheet equipment improvements. */
@@ -69,25 +83,53 @@ export class EquipmentSheet {
       const repRow = input.parentNode.parentNode;
       const id = repRow.getAttribute('data-reprowid');
       const updateSpacesValue = () => {
-        const equipment = this.equipmentsList.find(
-          (equipment) => equipment.name === input.value,
-        );
-        if (equipment) {
-          const prefix = `repeating_equipment_${id}`;
-          const rawValue = equipment.spaces.replace(',', '.').trim();
-          const value = parseFloat(rawValue) || 0;
-          const spacesInput = input.parentNode.querySelector(
-            'input[name="attr_equipweight"],input[name="attr_equipslot"]',
-          );
-          const attrName = spacesInput.getAttribute('name').split('_')[1];
-          this.character.updateAttributes(prefix, {
-            equipname: equipment.name,
-            [attrName]: value,
-          });
-        }
+        this.update(id, input.value);
       };
       input.addEventObserver('input', updateSpacesValue);
       input.addEventObserver('change', updateSpacesValue);
     }
+  }
+
+  /**
+   * Returns a objects in the format [attribute]: [value].
+   *
+   * @param {Equipment} equipment
+   * @returns {Object}
+   */
+  getAttributes(equipment, isUpdate = false) {
+    const rawValue = equipment.spaces.replace(',', '.').trim();
+    const value = parseFloat(rawValue) || 0;
+    return {
+      equipname: equipment.name,
+      ...(isUpdate ? {} : { equipquantity: '1' }),
+      ...(this.isJDA ? { equipslot: value } : { equipweight: value }),
+    };
+  }
+
+  /**
+   * Update the equipment data.
+   *
+   * @param {string} id
+   * @param {string} name
+   */
+  async update(id, name) {
+    this.character.attribs.fetch();
+    await waitForCondition({
+      checkFn: () => this.character.attribs.models.length > 0,
+    });
+    const equipment = this.equipmentsList.find(
+      (equipment) => equipment.name.toLowerCase() === name.toLowerCase().trim(),
+    );
+    if (!equipment) return;
+    const attributes = this.getAttributes(equipment, true);
+    this.character.updateAttributes(`repeating_equipment_${id}`, attributes);
+  }
+
+  /** Add a new equipment to the character sheet. */
+  addEquipment(equipment) {
+    this.character.addAtttributes(
+      'repeating_equipment',
+      this.getAttributes(equipment),
+    );
   }
 }
