@@ -158,6 +158,9 @@ function renderBookItem({ path, bookItem }) {
   const item = createElement('li', {
     classes: 'tormenta20-book-row journalitem dd-item',
   });
+  const target = dialogId.split('-')[1];
+  const draggableFolders = ['poderes'];
+  const isDraggable = draggableFolders.indexOf(target) !== -1;
   const icon = createElement('div', {
     name: 'tormenta20-chat-info-button',
     classes: 'tormenta20-book-chat-icon',
@@ -175,9 +178,21 @@ function renderBookItem({ path, bookItem }) {
     classes: 'tormenta20-book-item-name dd-content',
     innerHTML: bookItem.name,
     onclick: () => openBookItemDialog({ dialogId, bookItem }),
+    draggable: isDraggable ? 'true' : 'false',
   });
   if (bookItem.type === 'item') item.append(icon);
   item.append(title);
+  addEventObserver({
+    el: title,
+    eventName: 'dragstart',
+    eventHandler: (e) => {
+      e.dataTransfer.setData(
+        'application/json',
+        JSON.stringify({ target, item: bookItem }),
+      );
+      e.dataTransfer.effectAllowed = 'copy';
+    },
+  });
   return item;
 }
 

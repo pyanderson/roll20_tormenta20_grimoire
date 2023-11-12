@@ -141,6 +141,32 @@ export class PowerSheet {
   }
 
   /**
+   * Returns a objects in the format [attribute]: [value].
+   *
+   * @param {Power} power
+   * @returns {Object}
+   */
+  getPowerAttributes(power) {
+    return {
+      namepower: power.name,
+      powerdescription: power.description,
+    };
+  }
+
+  /**
+   * Returns a objects in the format [attribute]: [value].
+   *
+   * @param {Ability} ability
+   * @returns {Object}
+   */
+  getAbilityAttributes(ability) {
+    return {
+      nameability: ability.name,
+      abilitydescription: ability.description,
+    };
+  }
+
+  /**
    * Search for the ability/power object and returns a objects in the format [attribute]: [value].
    *
    * @param {string} name
@@ -148,16 +174,8 @@ export class PowerSheet {
   getAttributes(groupName, name) {
     const power = this.abilitiesAndPowers[name];
     if (!power) return [];
-    if (groupName === 'repeating_powers') {
-      return {
-        namepower: power.name,
-        powerdescription: power.description,
-      };
-    }
-    return {
-      nameability: power.name,
-      abilitydescription: power.description,
-    };
+    if (groupName === 'repeating_powers') return this.getPowerAttributes(power);
+    return this.getAbilityAttributes(power);
   }
 
   /**
@@ -174,5 +192,13 @@ export class PowerSheet {
     });
     const attributes = this.getAttributes(groupName, name);
     this.character.updateAttributes(`${groupName}_${id}`, attributes);
+  }
+
+  /** Add a new power to the character sheet. */
+  addPower(power) {
+    this.character.addAtttributes(
+      'repeating_powers',
+      this.getPowerAttributes(power),
+    );
   }
 }

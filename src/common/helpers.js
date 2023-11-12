@@ -50,8 +50,9 @@ export function addEventObserver({ el, eventName, eventHandler, selector }) {
  */
 export function createElement(tagName, attributes = {}) {
   const newElement = document.createElement(tagName);
-  const { id, name, classes, append, colspan, ...other } = attributes;
-  Object.entries({ id, name, class: classes, colspan }).forEach(
+  const { id, name, classes, append, colspan, draggable, ...other } =
+    attributes;
+  Object.entries({ id, name, class: classes, colspan, draggable }).forEach(
     ([key, value]) => {
       if (key && value) newElement.setAttribute(key, value);
     },

@@ -225,6 +225,7 @@ export class CharacterSheet {
           this.equipmentSheet.load(),
         );
         observer.disconnect();
+        this.loadDragDrop();
       }
     });
     this.loadCSS();
@@ -330,5 +331,24 @@ export class CharacterSheet {
         href: this.characterSheetCssURL,
       }),
     );
+  }
+
+  /** Load the drag'n'drop capabilities. */
+  loadDragDrop() {
+    this.iframe.addEventObserver('dragenter', (e) => {
+      e.preventDefault();
+    });
+    this.iframe.addEventObserver('dragover', (e) => {
+      e.preventDefault();
+    });
+    this.iframe.addEventObserver('drop', (e) => {
+      const rawData = e.dataTransfer.getData('application/json');
+      if (!rawData) return;
+      const { target, item } = JSON.parse(rawData);
+      if (target === 'poderes') {
+        this.powerSheet.addPower(item);
+      }
+      e.preventDefault();
+    });
   }
 }
