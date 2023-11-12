@@ -1,7 +1,7 @@
 'use strict';
 
 import { createElement, enhanceElement, hasCSS } from '../common/helpers';
-import { loadEquipmentEnhancement } from './equipments';
+import { EquipmentSheet } from './equipments';
 import { PowerSheet } from './powers';
 import { loadRacesEnhancement } from './races';
 import { SpellSheet } from './spells';
@@ -96,6 +96,12 @@ export class CharacterSheet {
     this.powerSheet = new PowerSheet({
       iframe: this.iframe,
       abilitiesAndPowers: this.db.abilities_and_powers,
+      character: this.character,
+    });
+    /** @type {EquipmentSheet} */
+    this.equipmentSheet = new EquipmentSheet({
+      iframe: this.iframe,
+      equipments: this.db.equipments,
       character: this.character,
     });
     /**
@@ -197,12 +203,14 @@ export class CharacterSheet {
         }
         this.spellSheet.load();
         this.powerSheet.load();
-        this.loadEquipment();
+        this.equipmentSheet.load();
         this.loadRaces();
         // Observers
         this.observe(this.spellsContainer, () => this.spellSheet.load());
         this.observe(this.powersContainer, () => this.powerSheet.load());
-        this.observe(this.equipmentsContainer, () => this.loadEquipment());
+        this.observe(this.equipmentsContainer, () =>
+          this.equipmentSheet.load(),
+        );
         observer.disconnect();
       }
     });
@@ -298,10 +306,6 @@ export class CharacterSheet {
       JSON.stringify(newCharacterData),
     );
     this.characterData = newCharacterData;
-  }
-
-  loadEquipment() {
-    loadEquipmentEnhancement({ iframe: this.iframe, data: this.db });
   }
 
   loadRaces() {

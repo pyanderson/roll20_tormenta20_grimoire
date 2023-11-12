@@ -227,6 +227,10 @@ export function enhanceElement(el) {
   const toArray = (param) => (param instanceof Array ? param : [param]);
   el.getElement = (selectors) =>
     selectors ? pathQuerySelector({ root: el, path: toArray(selectors) }) : el;
+  el.getAllElements = (selectors) =>
+    Array.from(el.querySelectorAll(selectors)).map((node) =>
+      enhanceElement(node),
+    );
   el.select = (strings, ...values) =>
     el.getElement(
       strings.reduce((acc, s, index) => acc + s + (values[index] || ''), ''),
