@@ -7,6 +7,7 @@ import {
   hasCSS,
 } from '../common/helpers';
 import { EquipmentSheet } from './equipments';
+import { ImportExportSheet } from './import-export';
 import { PowerSheet } from './powers';
 import { RaceSheet } from './races';
 import { SpellSheet } from './spells';
@@ -128,6 +129,11 @@ export class CharacterSheet {
       races: this.db.races,
       character: this.character,
     });
+    /** @type {ImportExportSheet} */
+    this.importExportSheet = new ImportExportSheet({
+      iframe: this.iframe,
+      character: this.character,
+    });
     /**
      * @type {EnhancedHTMLElement|null}
      * @private
@@ -223,6 +229,7 @@ export class CharacterSheet {
         this.powerSheet.load();
         this.equipmentSheet.load();
         this.raceSheet.load();
+        this.importExportSheet.load();
         // Observers
         this.observe(this.spellsContainer, () => this.spellSheet.load());
         this.observe(this.powersContainer, () => this.powerSheet.load());

@@ -46,7 +46,7 @@ export function addEventObserver({ el, eventName, eventHandler, selector }) {
  *
  * @param {string} tagName - A string that specifies the type of element to be created.
  * @param {object} [attributes={}] - A object with the attributes to be assigned to the new element.
- * @returns {HTMLElement}
+ * @returns {EnhancedHTMLElement}
  */
 export function createElement(tagName, attributes = {}) {
   const newElement = document.createElement(tagName);
@@ -59,7 +59,7 @@ export function createElement(tagName, attributes = {}) {
   );
   Object.assign(newElement, other);
   if (append && append.length > 0) newElement.append(...append);
-  return newElement;
+  return enhanceElement(newElement);
 }
 
 /**
