@@ -293,8 +293,7 @@ export class ImportExportSheet {
           return acc;
         }, {});
       Object.keys(allIds).forEach((rowId) => {
-        console.log({ groupName, rowId });
-        // this.character.deleteRow(groupName, rowId);
+        this.character.deleteRow(groupName, rowId);
       });
     });
   }
@@ -332,7 +331,88 @@ export class ImportExportSheet {
    * @returns {Object}
    */
   parseToJDA(newData) {
-    return newData;
+    const data = {};
+    const getValue = (source, attrName, defaultValue) => {
+      const value = source[attrName];
+      return value !== undefined ? value : defaultValue;
+    };
+    // The common data between both character sheets formats
+    Object.entries(ATTRS).forEach(([attrName, defaultValue]) => {
+      data[attrName] = getValue(newData, attrName, defaultValue);
+    });
+    // JDA
+    Object.entries(JDA_ATTRS).forEach(([attrName, defaultValue]) => {
+      data[attrName] = getValue(newData, attrName, defaultValue);
+    });
+    if ('isJDA' in newData && !newData.isJDA) {
+      ['for', 'des', 'con', 'int', 'sab', 'car'].forEach((attr) => {
+        data[attr] = `${Math.floor((parseFloat(data[attr]) - 10) / 2)}`;
+      });
+    }
+    // skills
+    const getAttrValue = (value, defaultValue) => {
+      if (value in SKILL_JDA_TO_OLD) {
+        return value;
+      } else if (value in SKILL_OLD_TO_JDA) {
+        return SKILL_OLD_TO_JDA[value];
+      }
+      return defaultValue;
+    };
+    Object.entries(SKILLS_ATTRS).forEach(([skillName, defaultArray]) => {
+      ['_treinada', 'atributo2', 'outros'].forEach((suffix, index) => {
+        const attrName = `${skillName}${suffix}`;
+        const value = newData[attrName];
+        if (value !== undefined) {
+          data[attrName] =
+            suffix === 'atributo2'
+              ? getAttrValue(value, defaultArray[index])
+              : value;
+        } else {
+          data[attrName] =
+            suffix === 'atributo2'
+              ? SKILL_JDA_TO_OLD[defaultArray[index]]
+              : defaultArray[index];
+        }
+      });
+    });
+    data.attacks = this.getRepImportData(
+      newData.attacks,
+      ATTACK_GROUP,
+      (attack) => {
+        const skill = attack.ataquepericia;
+        if (skill in ATTACK_SKILL_OLD_TO_JDA) {
+          attack.ataquepericia = ATTACK_SKILL_OLD_TO_JDA[skill];
+        } else if (!(skill in ATTACK_SKILL_JDA_TO_OLD)) {
+          attack.ataquepericia = ATTACK_SKILL_MELEE;
+        }
+        return attack;
+      },
+    );
+    data.abilities = this.getRepImportData(newData.abilities, ABILITY_GROUP);
+    data.powers = this.getRepImportData(newData.powers, POWER_GROUP);
+    const pSpell = (spell) => {
+      if (spell.spellcd) {
+        spell.spellcd = '0';
+      }
+      return spell;
+    };
+    data.spells1 = this.getRepImportData(newData.spells1, SPELL_GROUP, pSpell);
+    data.spells2 = this.getRepImportData(newData.spells2, SPELL_GROUP, pSpell);
+    data.spells3 = this.getRepImportData(newData.spells3, SPELL_GROUP, pSpell);
+    data.spells4 = this.getRepImportData(newData.spells4, SPELL_GROUP, pSpell);
+    data.spells5 = this.getRepImportData(newData.spells5, SPELL_GROUP, pSpell);
+    data.equipments = this.getRepImportData(
+      newData.equipments,
+      EQUIPMENT_GROUP,
+      (equipment) => {
+        if ('isJDA' in newData && !newData.isJDA) {
+          equipment.equipslot = equipment.equipweight;
+        }
+        return equipment;
+      },
+    );
+    data.skills = this.getRepImportData(newData.skills, SKILL_GROUP);
+    return data;
   }
 
   /**
@@ -418,6 +498,7 @@ export class ImportExportSheet {
         return equipment;
       },
     );
+    data.skills = [];
     return data;
   }
 
@@ -427,10 +508,32 @@ export class ImportExportSheet {
    * @param {Object} newData
    */
   importNewData(newData) {
-    const data = this.isJDA
-      ? this.parseToJDA(newData)
-      : this.parseToOld(newData);
-    console.log({ data });
+    const {
+      attacks,
+      abilities,
+      powers,
+      spells1,
+      spells2,
+      spells3,
+      spells4,
+      spells5,
+      equipments,
+      skills,
+      ...data
+    } = this.isJDA ? this.parseToJDA(newData) : this.parseToOld(newData);
+    this.character.updateAttributes('', data, false);
+    this.character.addRepAttributes('repeating_attacks', attacks, false);
+    this.character.addRepAttributes('repeating_abilities', abilities, false);
+    this.character.addRepAttributes('repeating_powers', powers, false);
+    this.character.addRepAttributes('repeating_spells1', spells1, false);
+    this.character.addRepAttributes('repeating_spells2', spells2, false);
+    this.character.addRepAttributes('repeating_spells3', spells3, false);
+    this.character.addRepAttributes('repeating_spells4', spells4, false);
+    this.character.addRepAttributes('repeating_spells5', spells5, false);
+    this.character.addRepAttributes('repeating_equipment', equipments, false);
+    if (this.isJDA) {
+      this.character.addRepAttributes('repeating_skills', skills, false);
+    }
   }
 
   /** Add the import button on the dialog header. */

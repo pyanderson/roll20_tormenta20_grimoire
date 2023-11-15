@@ -188,7 +188,7 @@ export class PowerSheet {
 
   /** Add a new power to the character sheet. */
   addPower(power) {
-    this.character.addAtttributes(
+    this.character.addAttributes(
       'repeating_powers',
       this.getPowerAttributes(power),
     );
@@ -196,7 +196,7 @@ export class PowerSheet {
 
   /** Add a new ability to the character sheet. */
   addAbility(ability) {
-    this.character.addAtttributes(
+    this.character.addAttributes(
       'repeating_abilities',
       this.getAbilityAttributes(ability),
     );

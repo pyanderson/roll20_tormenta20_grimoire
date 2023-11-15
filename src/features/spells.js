@@ -173,7 +173,7 @@ export class SpellSheet {
 
   /** Add a new spell to the character sheet. */
   addSpell(spell) {
-    this.character.addAtttributes(
+    this.character.addAttributes(
       `repeating_spells${spell.circle}`,
       this.getAttributes(spell),
     );

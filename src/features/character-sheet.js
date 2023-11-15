@@ -81,25 +81,41 @@ export class CharacterSheet {
         .filter(filterFn)
         .map(transformFn)
         .reduce((acc, a) => ({ ...acc, [a.get('name')]: a }), {});
-    this.character.updateAttributes = (prefix, attributes) => {
-      this.character.attribs.fetch({
-        success: () => {
-          const regex = new RegExp(prefix);
-          const attrMap = this.character.getAttributes((a) =>
-            regex.test(a.get('name')),
-          );
-          Object.entries(attributes).forEach(([name, current]) => {
-            const attrName = `${prefix}${prefix ? '_' : ''}${name}`;
-            const attr = attrMap[attrName];
-            if (attr) attr.save({ current });
-            else this.character.attribs.create({ name: attrName, current });
-          });
-        },
-      });
+    this.character.updateAttributes = (
+      prefix,
+      attributes,
+      forceFetch = true,
+    ) => {
+      const update = () => {
+        const regex = new RegExp(prefix);
+        const attrMap = this.character.getAttributes((a) =>
+          regex.test(a.get('name')),
+        );
+        Object.entries(attributes).forEach(([name, current]) => {
+          const attrName = `${prefix}${prefix ? '_' : ''}${name}`;
+          const attr = attrMap[attrName];
+          if (attr) attr.save({ current });
+          else this.character.attribs.create({ name: attrName, current });
+        });
+      };
+      if (forceFetch) {
+        this.character.attribs.fetch({ success: update });
+        return;
+      }
+      update();
     };
-    this.character.addAtttributes = (prefix, attributes) => {
+    this.character.addAttributes = (prefix, attributes, forceFetch = true) => {
       const id = generateUUID().replace(/_/g, 'Z');
-      this.character.updateAttributes(`${prefix}_${id}`, attributes);
+      this.character.updateAttributes(
+        `${prefix}_${id}`,
+        attributes,
+        forceFetch,
+      );
+    };
+    this.character.addRepAttributes = (prefix, items, forceFetch = true) => {
+      items.forEach((item) => {
+        this.character.addAttributes(prefix, item, forceFetch);
+      });
     };
     this.character.deleteRow = (groupName, rowId) => {
       this.character.view.deleteRepeatingRow(groupName, rowId);

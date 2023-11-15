@@ -123,7 +123,7 @@ export class EquipmentSheet {
 
   /** Add a new equipment to the character sheet. */
   addEquipment(equipment) {
-    this.character.addAtttributes(
+    this.character.addAttributes(
       'repeating_equipment',
       this.getAttributes(equipment),
     );

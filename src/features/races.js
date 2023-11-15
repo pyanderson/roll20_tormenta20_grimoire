@@ -110,7 +110,7 @@ export class RaceSheet {
           // add the race abilities
           for (const ability of race.abilities) {
             if (!allAttributes.find((a) => a.get('current') === race.name)) {
-              this.character.addAtttributes('repeating_abilities', {
+              this.character.addAttributes('repeating_abilities', {
                 nameability: ability.name,
                 abilitydescription: ability.description,
               });
