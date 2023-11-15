@@ -4,11 +4,11 @@
  * https://youmightnotneedjquery.com/#on
  * Add event listeners for the element or for the elements returned by the selector.
  *
- * @param {object} props
+ * @param {Object} props
  * @param {HTMLElement} props.el - The element.
- * @param {string} props.eventName - The event name.
- * @param {function} props.eventHandler - The event handler that will be called when the event is triggered.
- * @param {string} [props.selector]
+ * @param {String} props.eventName - The event name.
+ * @param {Function} props.eventHandler - The event handler that will be called when the event is triggered.
+ * @param {String} [props.selector]
  */
 export function addEventObserver({ el, eventName, eventHandler, selector }) {
   const handlers = [];
@@ -44,8 +44,8 @@ export function addEventObserver({ el, eventName, eventHandler, selector }) {
 /**
  * Creates a HTML element.
  *
- * @param {string} tagName - A string that specifies the type of element to be created.
- * @param {object} [attributes={}] - A object with the attributes to be assigned to the new element.
+ * @param {String} tagName - A string that specifies the type of element to be created.
+ * @param {Object} [attributes={}] - A object with the attributes to be assigned to the new element.
  * @returns {EnhancedHTMLElement}
  */
 export function createElement(tagName, attributes = {}) {
@@ -65,7 +65,7 @@ export function createElement(tagName, attributes = {}) {
 /**
  * Returns the first element that is a descendant of the document or element that matches the specified selectors path.
  *
- * @param {object} props
+ * @param {Object} props
  * @param {HTMLDocument|HTMLElement} props.root - The document are element to be used in the search
  * @param {string[]} props.path - List of selectors to be used to search the element
  * @returns {HTMLElement|null}
@@ -82,8 +82,8 @@ export function pathQuerySelector({ root, path }) {
 /**
  * Slugfy a string.
  *
- * @param {string} s
- * @returns {string}
+ * @param {String} s
+ * @returns {String}
  */
 export function slugify(s) {
   return s
@@ -96,9 +96,9 @@ export function slugify(s) {
 /**
  * Update the value attribute if the selector returns a valid element.
  *
- * @param {object} props
- * @param {string} props.selector - The selector.
- * @param {string} props.value - The new value.
+ * @param {Object} props
+ * @param {String} props.selector - The selector.
+ * @param {String} props.value - The new value.
  * @param {HTMLDocument|HTMLElement} [props.origin=document]
  * @returns {HTMLElement|null}
  */
@@ -113,9 +113,9 @@ export function setInputValue({ selector, value, origin = document }) {
 /**
  * Check if a iframe has a css applied.
  *
- * @param {object} props
+ * @param {Object} props
  * @param {HTMLDocument} props.iframe - The character sheet iframe document.
- * @param {string} props.url
+ * @param {String} props.url
  * @returns {boolean}
  */
 export function hasCSS({ iframe, url }) {
@@ -130,8 +130,8 @@ export function hasCSS({ iframe, url }) {
 /**
  * Normalize a string.
  *
- * @param {string} s
- * @returns {string}
+ * @param {String} s
+ * @returns {String}
  */
 export function normalize(s) {
   return s
@@ -143,7 +143,7 @@ export function normalize(s) {
 /**
  * Clear all children elements.
  *
- * @param {object} props
+ * @param {Object} props
  * @param {HTMLElement} props.el - The element to be clear.
  */
 export function clearChildren({ el }) {
@@ -155,7 +155,7 @@ export function clearChildren({ el }) {
 /**
  * Generate Roll20 UUID.
  *
- * @returns {string}
+ * @returns {String}
  */
 export function generateUUID() {
   const source =
@@ -180,11 +180,11 @@ export function generateUUID() {
 /**
  * Wait until a condition is true or finish the number of attempts.
  *
- * @param {object} props
- * @param {function} props.checkFn
- * @param {function} props.checkCallback
- * @param {number} [props.attempts=-1]
- * @param {number} [props.interval=500]
+ * @param {Object} props
+ * @param {Function} props.checkFn
+ * @param {Function} props.checkCallback
+ * @param {Number} [props.attempts=-1]
+ * @param {Number} [props.interval=500]
  */
 export function waitForCondition({
   checkFn,
@@ -212,7 +212,7 @@ export function waitForCondition({
 /**
  * Wait until the window object has a valid value for the attribute.
  *
- * @param {string} attributeName
+ * @param {String} attributeName
  */
 export function waitForWindowAttribute(attributeName) {
   return waitForCondition({
@@ -223,6 +223,12 @@ export function waitForWindowAttribute(attributeName) {
   });
 }
 
+/**
+ * Add extra methods to a HTMLElement.
+ *
+ * @param {HTMLElement} el
+ * @returns {EnhancedHTMLElement}
+ */
 export function enhanceElement(el) {
   if (!el) return null;
   el.getElement = (s) =>
@@ -244,4 +250,44 @@ export function enhanceElement(el) {
   el.addEventObserver = (eventName, eventHandler, selector) =>
     addEventObserver({ el, eventName, eventHandler, selector });
   return el;
+}
+
+/**
+ * Make a copy of a object without references.
+ *
+ * @param {Object} obj
+ * @returns {Object}
+ */
+export function deepClone(obj) {
+  return JSON.parse(JSON.stringify(obj));
+}
+
+/**
+ * https://stackoverflow.com/a/30800715
+ *
+ * @param {Object} obj
+ * @param {String} name
+ */
+export function downloadObjectAsJson(obj, name) {
+  const dataStr =
+    'data:text/json;charset=utf-8,' + encodeURIComponent(JSON.stringify(obj));
+  const downloadAnchorNode = document.createElement('a');
+  downloadAnchorNode.setAttribute('href', dataStr);
+  downloadAnchorNode.setAttribute('download', name + '.json');
+  document.body.appendChild(downloadAnchorNode); // required for firefox
+  downloadAnchorNode.click();
+  downloadAnchorNode.remove();
+}
+
+/**
+ * Returns the object reversed from [key]: value to [value]: key.
+ *
+ * @param {Object} obj
+ * @returns {Object}
+ */
+export function reverseObj(obj) {
+  return Object.keys(obj).reduce(
+    (acc, key) => ({ ...acc, [obj[key]]: key }),
+    {},
+  );
 }
