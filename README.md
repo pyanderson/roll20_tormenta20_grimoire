@@ -13,6 +13,7 @@ Ficha:
 - Escolher equipamento;
 - Escolher raça com preenchimento automático de habilidades.
 - Adiciona cálculo de CD na versão antiga da ficha (A versão JDA já possui essa funcionalidade).
+- Importar/Exportar ficha.
 
 Grimório (disponível via botão posicionado abaixo dos botões de zoom):
 
@@ -66,6 +67,7 @@ Visite a página da loja de extensões do seu navegador:
 - [x] Tamanho e deslocamento atualizados automaticamente na versão jogo do ano da ficha. _[v0.4.12]_
 - [x] Origens (Grimório) _[v0.4.14]_
 - [x] Suporte para arrastar e soltar na ficha para raças, classes, poderes, equipamento e magias. _[v0.6.0]_
+- [x] Importar/Exportar fichas. _[v0.7.0]_
 - [ ] Divindades (Grimório)
 - [ ] Bestiário?
 - [ ] ??????
