@@ -1248,7 +1248,7 @@
     {
       "area": "",
       "circle": "1",
-      "description": "Você dispara um raio púrpura que drena as forças do alvo. Se falhar na resistência, o alvo fica Fatigado}. Se passar, fica g{Vulnerável.\nNote que, como efeitos de magia não acumulam, lançar esta magia duas vezes contra o mesmo alvo não irá deixá-lo exausto. ",
+      "description": "Você dispara um raio púrpura que drena as forças do alvo. Se falhar na resistência, o alvo fica Fatigado Se passar, fica Vulnerável.\nNote que, como efeitos de magia não acumulam, lançar esta magia duas vezes contra o mesmo alvo não irá deixá-lo exausto.",
       "duration": "cena",
       "effect": "",
       "execution": "padrão",
@@ -1310,7 +1310,7 @@
     {
       "area": "",
       "circle": "1",
-      "description": "Qualquer criatura que tente fazer uma ação hostil contra o alvo deve fazer um teste de Vontade. Se falhar, não consegue, perde a ação e não pode tentar novamente até o fim da cena. Santuário não protege o alvo de efeitos de área. Além disso, o próprio alvo também não pode fazer ações hostis (incluindo forçar outras criaturas a atacá-lo), ou a magia é dissipada — mas pode usar  habilidades e magias de cura e suporte como Curar Ferimentos} e g{Bênção.\n ",
+      "description": "Qualquer criatura que tente fazer uma ação hostil contra o alvo deve fazer um teste de Vontade. Se falhar, não consegue, perde a ação e não pode tentar novamente até o fim da cena. Santuário não protege o alvo de efeitos de área. Além disso, o próprio alvo também não pode fazer ações hostis (incluindo forçar outras criaturas a atacá-lo), ou a magia é dissipada — mas pode usar  habilidades e magias de cura e suporte como Curar Ferimentos e Bênção.\n ",
       "duration": "cena",
       "effect": "",
       "execution": "padrão",
@@ -1364,7 +1364,7 @@
     {
       "area": "",
       "circle": "1",
-      "description": "Um cansaço místico recai sobre o alvo. Se falhar na resistência, ele fica inconsciente e caído ou, se estiver envolvido em combate ou outra situação perigosa, fica Exausto} por 1 rodada, depois fatigado. Em ambos os casos, se passar, o alvo fica g{Fatigado por 1d4 rodadas.",
+      "description": "Um cansaço místico recai sobre o alvo. Se falhar na resistência, ele fica inconsciente e caído ou, se estiver envolvido em combate ou outra situação perigosa, fica Exausto por 1 rodada, depois fatigado. Em ambos os casos, se passar, o alvo fica Fatigado por 1d4 rodadas.",
       "duration": "cena",
       "effect": "",
       "execution": "padrão",

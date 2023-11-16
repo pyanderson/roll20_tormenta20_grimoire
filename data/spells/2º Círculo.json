@@ -382,7 +382,7 @@
     {
       "area": "Cone de 6m",
       "circle": "2",
-      "description": "Humanoides na área são acometidos de grande tristeza, adquirindo as condições Fraco} e g{Frustrado. Se passarem na resistência, adquirem essas condições por uma rodada.",
+      "description": "Humanoides na área são acometidos de grande tristeza, adquirindo as condições Fraco e Frustrado. Se passarem na resistência, adquirem essas condições por uma rodada.",
       "duration": "cena",
       "effect": "",
       "execution": "padrão",
@@ -849,7 +849,7 @@
     {
       "area": "",
       "circle": "2",
-      "description": "Você purifica a criatura tocada, removendo uma condição dela entre abalado, Apavorado, Alquebrado, Atordoado, Cego, Confuso, Debilitado}, g{Surdo.",
+      "description": "Você purifica a criatura tocada, removendo uma condição dela entre abalado, Apavorado, Alquebrado, Atordoado, Cego, Confuso, Debilitado}, Surdo.",
       "duration": "instantânea",
       "effect": "",
       "execution": "padrão",
@@ -965,7 +965,7 @@
     {
       "area": "",
       "circle": "2",
-      "description": "Você entoa cânticos maléficos que amaldiçoam uma vítima, criando efeitos variados. Ao lançar a magia, escolha entre os seguintes.\nDebilidade: o alvo fica Esmorecido e não pode se comunicar ou lançar magias. Ainda reconhece seus aliados e pode segui-los e ajudá-los, mas sempre de maneira simplória.\nDoença: muda a duração para instantânea. O alvo contrai uma doença a sua escolha, que o afeta imediatamente (sem período de incubação).\nFraqueza: o alvo fica Debilitadoe Lento.\nIsolamento: o alvo perde o uso de um de seus cinco sentidos a sua escolha. Se perder a visão, fica Cego}. Se perder a audição, fica g{Caído e não pode se levantar.\nVocê também pode inventar sua própria maldição, usando esses exemplos como sugestões, mas o mestre tem a palavra final sobre o efeito.",
+      "description": "Você entoa cânticos maléficos que amaldiçoam uma vítima, criando efeitos variados. Ao lançar a magia, escolha entre os seguintes.\nDebilidade: o alvo fica Esmorecido e não pode se comunicar ou lançar magias. Ainda reconhece seus aliados e pode segui-los e ajudá-los, mas sempre de maneira simplória.\nDoença: muda a duração para instantânea. O alvo contrai uma doença a sua escolha, que o afeta imediatamente (sem período de incubação).\nFraqueza: o alvo fica Debilitadoe Lento.\nIsolamento: o alvo perde o uso de um de seus cinco sentidos a sua escolha. Se perder a visão, fica Cego. Se perder a audição, fica Caído e não pode se levantar.\nVocê também pode inventar sua própria maldição, usando esses exemplos como sugestões, mas o mestre tem a palavra final sobre o efeito.",
       "duration": "sustentada",
       "effect": "",
       "execution": "padrão",

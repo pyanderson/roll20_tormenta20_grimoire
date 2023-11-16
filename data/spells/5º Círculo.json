@@ -186,7 +186,7 @@
     {
       "area": "cubo de 90m",
       "circle": "5",
-      "description": "Você cria uma nuvem de tempestade violenta. Os ventos tornam ataques à distância impossíveis e fazem a área contar como condição terrível para lançar magia. Além disso, inimigos na área têm a visibilidade reduzida (como a magia Névoa). Uma vez por turno, você pode gastar uma ação de movimento para gerar um dos efeitos a seguir.\nNevasca. Inimigos na área sofrem 10d6 pontos de dano de frio (Fortitude reduz à metade). A área fica coberta de neve, virando terreno difícil até o fim da cena ou até você usar siroco.\nRaios. Até 6 inimigos a sua escolha na área sofrem 10d8 pontos de dano de  eletricidade (Reflexos reduz à metade).\nSiroco. Transforma a chuva em uma tempestade de areia escaldante. Inimigos na área sofrem 10d6 pontos de dano (metade corte, metade fogo) e ficam Sangrando} (Fortitude reduz o dano à metade e evita a condição).\nTrovões. Inimigos sofrem 10d6 pontos de dano de impacto e ficam g{Desprevenido por uma rodada (Fortitude reduz o dano à metade e evita a condição).",
+      "description": "Você cria uma nuvem de tempestade violenta. Os ventos tornam ataques à distância impossíveis e fazem a área contar como condição terrível para lançar magia. Além disso, inimigos na área têm a visibilidade reduzida (como a magia Névoa). Uma vez por turno, você pode gastar uma ação de movimento para gerar um dos efeitos a seguir.\nNevasca. Inimigos na área sofrem 10d6 pontos de dano de frio (Fortitude reduz à metade). A área fica coberta de neve, virando terreno difícil até o fim da cena ou até você usar siroco.\nRaios. Até 6 inimigos a sua escolha na área sofrem 10d8 pontos de dano de  eletricidade (Reflexos reduz à metade).\nSiroco. Transforma a chuva em uma tempestade de areia escaldante. Inimigos na área sofrem 10d6 pontos de dano (metade corte, metade fogo) e ficam Sangrando (Fortitude reduz o dano à metade e evita a condição).\nTrovões. Inimigos sofrem 10d6 pontos de dano de impacto e ficam Desprevenido por uma rodada (Fortitude reduz o dano à metade e evita a condição).",
       "duration": "sustentada",
       "effect": "",
       "execution": "completa",
@@ -294,7 +294,7 @@
     {
       "area": "",
       "circle": "5",
-      "description": "Você pronuncia uma palavra do idioma primordial da Criação, que causa um dos efeitos abaixo, a sua escolha.Atordoar: a criatura fica atordoada por 1d4+1 rodadas (apenas uma vez por cena). Se passar no teste de resistência, ou se já foi atordoada por esta magia, fica desprevenida por 1d4 rodadas.Cegar: a criatura fica Cego}. Se passar no teste de resistência, fica g{Sangrando.",
+      "description": "Você pronuncia uma palavra do idioma primordial da Criação, que causa um dos efeitos abaixo, a sua escolha.Atordoar: a criatura fica atordoada por 1d4+1 rodadas (apenas uma vez por cena). Se passar no teste de resistência, ou se já foi atordoada por esta magia, fica desprevenida por 1d4 rodadas.Cegar: a criatura fica Cego. Se passar no teste de resistência, fica Sangrando.",
       "duration": "instantânea ou veja texto",
       "effect": "",
       "execution": "padrão",
