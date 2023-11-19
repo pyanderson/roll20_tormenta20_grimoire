@@ -745,7 +745,9 @@ export class ImportExportSheet {
 
   /** Load the sheet import/export capabilities. */
   load() {
-    this.addImportButton();
-    this.addExportButton();
+    if (!document.querySelector('#t20-import-button')) {
+      this.addImportButton();
+      this.addExportButton();
+    }
   }
 }
