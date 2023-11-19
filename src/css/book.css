@@ -105,26 +105,3 @@ ul,
   visibility: visible;
   opacity: 1;
 }
-
-.tormenta20-import-export-button {
-  margin-left: 15px;
-}
-
-.tormenta20-import-content {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-
-  input {
-    width: 90%;
-    align-self: center;
-  }
-}
-
-.tormenta20-success-message {
-  color: #0FDA55;
-}
-
-.tormenta20-error-message {
-  color: #DA0F20;
-}

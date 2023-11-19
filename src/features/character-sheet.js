@@ -6,6 +6,7 @@ import {
   generateUUID,
   hasCSS,
 } from '../common/helpers';
+import { CharacterBuilder } from './character-builder';
 import { EquipmentSheet } from './equipments';
 import { ImportExportSheet } from './import-export';
 import { PowerSheet } from './powers';
@@ -52,14 +53,22 @@ export class CharacterSheet {
    * @param {String} props.characterId - The character ID in the Roll20 game.
    * @param {T20Data} props.db - The Tormenta20 data.
    * @param {String} props.characterSheetCssURL - URL for the custom URL to be applied to the character sheet.
+   * @param {String} props.characterBuilderCssURL - URL for the custom URL to be applied to the character builder.
    */
-  constructor({ characterId, db, characterSheetCssURL }) {
+  constructor({
+    characterId,
+    db,
+    characterSheetCssURL,
+    characterBuilderCssURL,
+  }) {
     /** @type {String} */
     this.characterId = characterId;
     /** @type {T20Data} */
     this.db = db;
     /** @type {String} */
     this.characterSheetCssURL = characterSheetCssURL;
+    /** @type {String} */
+    this.characterBuilderCssURL = characterBuilderCssURL;
     const iframe = document.querySelector(
       `iframe[name="iframe_${characterId}"]`,
     );
@@ -149,6 +158,15 @@ export class CharacterSheet {
     this.importExportSheet = new ImportExportSheet({
       iframe: this.iframe,
       character: this.character,
+    });
+    /** @type {CharacterBuilder} */
+    this.characterBuilder = new CharacterBuilder({
+      iframe: this.iframe,
+      character: this.character,
+      characterBuilderCssURL: this.characterBuilderCssURL,
+      races: this.db.races,
+      abilitiesAndPowers: this.db.abilities_and_powers,
+      spells: this.db.spells,
     });
     /**
      * @type {EnhancedHTMLElement|null}
@@ -246,6 +264,7 @@ export class CharacterSheet {
         this.equipmentSheet.load();
         this.raceSheet.load();
         this.importExportSheet.load();
+        this.characterBuilder.load();
         // Observers
         this.observe(this.spellsContainer, () => this.spellSheet.load());
         this.observe(this.powersContainer, () => this.powerSheet.load());

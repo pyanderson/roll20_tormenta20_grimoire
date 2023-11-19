@@ -38,13 +38,28 @@ ready(() => {
     window.removeEventListener('message', listener, false);
   });
   window.listeners = [];
-  const resources = { db: {}, characterSheetCssURL: '', buttonIconURL: '' };
+  const resources = {
+    db: {},
+    buttonIconURL: '',
+    characterSheetCssURL: '',
+    characterBuilderCssURL: '',
+  };
   const t20EventListener = ({ data }) => {
     if (data?.type && data.type === 't20-data') {
-      const { db, buttonIconURL, characterSheetCssURL } = data;
+      const {
+        db,
+        buttonIconURL,
+        characterSheetCssURL,
+        characterBuilderCssURL,
+      } = data;
       loadBook({ bookItems: db.book, buttonIconURL });
       loadChatEnhancement({ bookItems: db.book });
-      Object.assign(resources, { db, buttonIconURL, characterSheetCssURL });
+      Object.assign(resources, {
+        db,
+        buttonIconURL,
+        characterSheetCssURL,
+        characterBuilderCssURL,
+      });
     }
     if (data?.type && data.type === 'loaded') {
       waitForWindowAttribute('Campaign').then(() => {
@@ -52,6 +67,7 @@ ready(() => {
           db: resources.db,
           characterId: data.characterId,
           characterSheetCssURL: resources.characterSheetCssURL,
+          characterBuilderCssURL: resources.characterBuilderCssURL,
         });
         characterSheet.load();
       });
