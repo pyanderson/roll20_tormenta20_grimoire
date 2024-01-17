@@ -10,7 +10,7 @@ import {
   slugify,
 } from '../common/helpers';
 
-const ZOOM_DIV_ID = 'zoomclick';
+const ZOOM_DIV_ID = 'vm_zoom_buttons';
 const BOOK_BUTTON_ID = 'tormenta20-book-button';
 const BOOK_DIALOG_ID = 'tormenta20-dialog-book';
 const BOOK_LIST_ID = 'tormenta20-book-list';
@@ -325,14 +325,14 @@ export function loadBook({ bookItems, buttonIconURL, retry = 5 }) {
   document.getElementById(BOOK_DIALOG_ID)?.parentNode?.remove();
   document.getElementById(BOOK_BUTTON_ID)?.remove();
 
-  const calcRightValue = (valueInPx) =>
-    `${parseInt(valueInPx.slice(0, -2)) + 25}px`;
+  const calcPosValue = (valueInPx, extra = 0) =>
+    `${parseInt(valueInPx.slice(0, -2)) + extra}px`;
   // Get the initial style
   const zoomDivStyle = window.getComputedStyle(zoomDiv);
   const buttonCSSText = `
     position: absolute;
-    right: ${calcRightValue(zoomDivStyle.getPropertyValue('right'))};
-    top: ${zoomDivStyle.getPropertyValue('height')};
+    right: ${calcPosValue(zoomDivStyle.getPropertyValue('right'), 6)};
+    top: ${calcPosValue(zoomDivStyle.getPropertyValue('height'), 50)};
     z-index: ${zoomDivStyle.getPropertyValue('z-index')};
     background-image: url(${buttonIconURL});
   `;
@@ -344,7 +344,7 @@ export function loadBook({ bookItems, buttonIconURL, retry = 5 }) {
   // Start observing the zoom div change so the button can follow it
   const observer = new MutationObserver((mutations) => {
     mutations.forEach((mutationRecord) => {
-      button.style.right = calcRightValue(mutationRecord.target.style.right);
+      button.style.right = calcPosValue(mutationRecord.target.style.right, 6);
     });
   });
   observer.observe(zoomDiv, {
