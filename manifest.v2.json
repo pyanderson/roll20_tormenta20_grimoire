@@ -19,7 +19,8 @@
       ],
       "css": [
         "src/css/book.css",
-        "src/css/enhancement.css"
+        "src/css/enhancement.css",
+        "src/css/import-export.css"
       ],
       "js": [
         "main.js"
@@ -30,7 +31,8 @@
   "web_accessible_resources": [
     "index.js",
     "static/db.json",
-    "src/css/sheet.css",
+    "src/css/character-sheet.css",
+    "src/css/character-builder.css",
     "static/icons/32.png"
   ]
 }

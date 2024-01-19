@@ -18,7 +18,7 @@ export class RaceSheet {
   constructor({ iframe, races, character }) {
     /** @type {EnhancedHTMLElement} */
     this.iframe = iframe;
-    /** @type {EquipmentData[]} */
+    /** @type {Race[]} */
     this.races = races;
     /** @type {Object} */
     this.character = character;

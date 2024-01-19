@@ -1,0 +1,22 @@
+.tormenta20-import-export-button {
+  margin-left: 15px;
+}
+
+.tormenta20-import-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.tormenta20-import-content input {
+  width: 90%;
+  align-self: center;
+}
+
+.tormenta20-success-message {
+  color: #0fda55;
+}
+
+.tormenta20-error-message {
+  color: #da0f20;
+}
