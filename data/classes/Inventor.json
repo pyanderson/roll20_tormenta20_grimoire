@@ -1,0 +1,213 @@
+{
+  "name": "Iventor",
+  "hp": 12,
+  "addHP": 3,
+  "pm": 4,
+  "skills": [
+    "Ofício",
+    "Vontade"
+  ],
+  "extraSkillsQty": 4,
+  "extraSkills": [
+    "Conhecimento,",
+    "Cura",
+    "Diplomacia",
+    "Fortitude",
+    "Iniciativa",
+    "Investigação",
+    "Luta",
+    "Misticismo",
+    "Ofício",
+    "Pilotagem",
+    "Percepção",
+    "Pontaria"
+  ],
+  "proficiencies": [],
+  "abilities": [
+    {
+      "name": "Engenhosidade",
+      "description": "Quando faz um teste de perícia, você pode gastar 2 PM para somar a sua Inteligência no teste. Você não pode usar esta habilidade em testes de ataque."
+    },
+    {
+      "name": "Protótipo",
+      "description": "Você começa o jogo com um item superior, ou com 10 itens alquímicos, com preço total de até T$ 500. Veja o Capítulo 3: Equipamento para a lista de itens."
+    },
+    {
+      "name": "Fabricar Item Superior",
+      "description": "No 2º nível, você recebe um item superior com preço de até T$ 2.000 e passa a poder fabricar itens superiores com uma melhoria. Veja o Capítulo 3: Equipamento para a lista de melhorias.\n\nNos níveis 5, 8 e 11, você pode substituir esse item por um item superior com duas, três e quatro melhorias, respectivamente, e passa a poder fabricar itens superiores com essa quantidade de melhorias. Considera-se que você estava trabalhando nos itens e você não gasta dinheiro ou tempo neles (mas gasta em itens que fabricar futuramente)."
+    },
+    {
+      "name": "Agite Antes de Usar",
+      "description": "Quando usa um preparado alquímico que cause dano, você pode gastar uma quantidade de PM a sua escolha (limitado por sua Inteligência). Para cada PM que gastar, o item causa um dado extra de dano do mesmo tipo. Pré-requisito: treinado em Ofício (alquimista)."
+    },
+    {
+      "name": "Ajuste de Mira",
+      "description": "Você pode gastar uma ação padrão e uma quantidade de PM a sua escolha (limitado pela sua Inteligência) para aprimorar uma arma de ataque à distância. Para cada PM que gastar, você recebe +1 em rolagens de dano com a arma até o final da cena. Pré-requisito: Balística."
+    },
+    {
+      "name": "Alquimista de Batalha",
+      "description": "Quando usa um preparado alquímico ou poção que cause dano, você soma sua Inteligência na rolagem de dano. Pré-requisito: Alquimista Iniciado."
+    },
+    {
+      "name": "Alquimista Iniciado",
+      "description": "Você recebe um livro de fórmulas e pode fabricar poções com fórmulas que conheça de 1º e 2º círculos. Veja as páginas 333 e 341 para as regras de poções. Pré-requisitos: Int 1, Sab 1, treinado em Ofício (alquimista)."
+    },
+    {
+      "name": "Armeiro",
+      "description": "Você recebe proficiência com armas marciais corpo a corpo. Quando empunha uma arma corpo a corpo, pode usar sua Inteligência em vez de Força nos testes de ataque e rolagens de dano. Pré-requisitos: treinado em Luta e Ofício (armeiro)."
+    },
+    {
+      "name": "Ativação Rápida",
+      "description": "Ao ativar uma engenhoca com ação padrão, você pode pagar 2 PM para ativá-la com uma ação de movimento, em vez disto. Pré-requisitos: Engenhoqueiro, 7º nível de inventor."
+    },
+    {
+      "name": "Aumento de Atributo",
+      "description": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
+    },
+    {
+      "name": "Autômato",
+      "description": "Você fabrica um autômato, um construto que obedece a seus comandos. Ele é um parceiro iniciante de um tipo a sua escolha entre ajudante, assassino, atirador, combatente, guardião, montaria ou vigilante. No 7º nível, ele muda para veterano e, no 15º nível, para mestre. Se o autômato for destruído, você pode fabricar um novo com uma semana de trabalho e T$ 100. Pré-requisito: Engenhoqueiro."
+    },
+    {
+      "name": "Autômato Prototipado",
+      "description": "Você pode gastar uma ação padrão e 2 PM para ativar uma melhoria experimental em seu autômato. Role 1d6. Em um resultado 2 a 6, você aumenta o nível de parceiro do autômato em um passo (até mestre), ou concede a ele a habilidade iniciante de outro de seus tipos, até o fim da cena. Em um resultado 1, o autômato enguiça como uma engenhoca. Pré-requisito: Autômato."
+    },
+    {
+      "name": "Balística",
+      "description": "Você recebe proficiência com armas marciais de ataque à distância ou com armas de fogo. Quando usa uma arma de ataque à distância, pode usar sua Inteligência em vez de Destreza nos testes de ataque (e, caso possua o poder Estilo de Disparo, nas rolagens de dano). Pré-requisitos: treinado em Pontaria e Ofício (armeiro)."
+    },
+    {
+      "name": "Blindagem",
+      "description": "Você pode usar sua Inteligência na Defesa quando usa armadura pesada. Se fizer isso, não pode somar sua Destreza, mesmo que outras habilidades ou efeitos permitam isso. Pré-requisitos: Couraceiro, 8º nível de inventor."
+    },
+    {
+      "name": "Cano Raiado",
+      "description": "Quando usa uma arma de disparo feita por você mesmo, ela recebe +1 na margem de ameaça. Pré-requisitos: Balística, 5º nível de inventor."
+    },
+    {
+      "name": "Catalisador Instável",
+      "description": "Você pode gastar uma ação completa e 3 PM para fabricar um preparado alquímico ou poção cuja fórmula conheça instantaneamente. O custo do item é reduzido à metade e você não precisa fazer o teste de Ofício (alquimista), mas ele só dura até o fim da cena. Pré-requisito: Alquimista Iniciado."
+    },
+    {
+      "name": "Chutes e Palavrões",
+      "description": "Uma vez por rodada, você pode pagar 1 PM para repetir um teste de Ofício (engenhoqueiro) recém realizado para ativar uma engenhoca. Pré-requisito: Engenhoqueiro."
+    },
+    {
+      "name": "Conhecimento de Fórmulas",
+      "description": "Você aprende três fórmulas de quaisquer círculos que possa aprender. Você pode escolher este poder quantas vezes quiser. Pré-requisito: Alquimista Iniciado."
+    },
+    {
+      "name": "Couraceiro",
+      "description": "Você recebe proficiência com armaduras pesadas e escudos. Quando usa armadura, pode usar sua Inteligência em vez de Destreza na Defesa (mas continua não podendo somar um atributo na Defesa quando usa armadura pesada). Pré-requisito: treinado em Ofício (armeiro)."
+    },
+    {
+      "name": "Engenhoqueiro",
+      "description": "Você pode fabricar engenhocas. Veja as regras para isso na página 70. Pré-requisitos: Int 3, treinado em Ofício (engenhoqueiro)."
+    },
+    {
+      "name": "Farmacêutico",
+      "description": "Quando usa um item alquímico que cure pontos de vida, você pode gastar uma quantidade de PM a sua escolha (limitado por sua Inteligência). Para cada PM que gastar, o item cura um dado extra do mesmo tipo. Pré-requisitos: Sab 1, treinado em Ofício (alquimista)."
+    },
+    {
+      "name": "Ferreiro",
+      "description": "Quando usa uma arma corpo a corpo feita por você mesmo, o dano dela aumenta em um passo. Pré-requisitos: Armeiro, 5º nível de inventor."
+    },
+    {
+      "name": "Granadeiro",
+      "description": "Você pode arremessar itens alquímicos e poções em alcance médio. Você pode usar sua Inteligência em vez de Destreza para calcular a CD do teste de resistência desses itens. Pré-requisito: Alquimista de Batalha."
+    },
+    {
+      "name": "Homúnculo",
+      "description": "Você possui um homúnculo, uma criatura Minúscula feita de alquimia. Vocês podem se comunicar telepaticamente em alcance longo e ele obedece a suas ordens, mas ainda está limitado ao que uma criatura de seu tamanho pode fazer. Um homúnculo é um parceiro ajudante iniciante. Você pode perder 1d6 pontos de vida para seu homúnculo assumir uma forma capaz de protegê-lo e se tornar também um parceiro guardião iniciante até o fim da cena. Pré-requisito: Alquimista Iniciado."
+    },
+    {
+      "name": "Invenção Potente",
+      "description": "Quando usa um item ou engenhoca fabricado por você mesmo, você pode pagar 1 PM para aumentar em +2 a CD para resistir a ele."
+    },
+    {
+      "name": "Maestria em Perícia",
+      "description": "Escolha um número de perícias treinadas igual a sua Inteligência, exceto bônus temporários. Com essas perícias, você pode gastar 1 PM para escolher 10 em qualquer situação, exceto testes de ataque."
+    },
+    {
+      "name": "Manutenção Eficiente",
+      "description": "A quantidade de engenhocas que você pode manter aumenta em +3. Além disso, cada engenhoca passa a ocupar meio espaço. Pré-requisitos: Engenhoqueiro, 5º nível de inventor."
+    },
+    {
+      "name": "Mestre Alquimista",
+      "description": "Você pode fabricar poções com fórmulas que conheça de qualquer círculo. Pré-requisitos: Int 3, Sab 3, Alquimista Iniciado, 10º nível de inventor."
+    },
+    {
+      "name": "Mestre Cuca",
+      "description": "Todas as comidas que você cozinha têm seu bônus numérico aumentado em +1. Pré-requisito: treinado em Ofício (cozinheiro)."
+    },
+    {
+      "name": "Mistura Fervilhante",
+      "description": "Quando usa um item alquímico ou poção, você pode gastar 2 PM para dobrar a área de efeito dele. Pré-requisitos: Alquimista Iniciado, 5º nível de inventor."
+    },
+    {
+      "name": "Livro de Fórmulas",
+      "description": "Quando adquire o poder Alquimista Iniciado, você recebe um livro de fórmulas. Uma “fórmula” é uma magia divina ou arcana (atributo-chave Inteligência) que serve para cumprir os pré-requisitos de fabricação de poções.\n\nVocê começa com três fórmulas de 1º círculo. A cada nível além do 1º, aprende uma fórmula adicional. A partir do 6º nível, pode aprender fórmulas de 2º círculo e, se possuir o poder Mestre Alquimista, a cada quatro níveis (10º, 14º e 18º) pode aprender fórmulas de um círculo maior.\n\nSe não tiver seu livro de fórmulas, você não pode fabricar poções. Se perder seu livro, você pode preparar outro com uma semana de trabalho e o gasto de T$ 100."
+    },
+    {
+      "name": "Oficina de Campo",
+      "description": "Você pode gastar uma hora e 2 PM para fazer a manutenção do equipamento de seu grupo. Cada membro do grupo escolhe uma arma, armadura ou escudo para manutenção. Armas recebem +1 em testes de ataque, armaduras e escudos aumentam seu bônus na Defesa em +1. Os benefícios duram um dia. Pré-requisito: treinado em Ofício (armeiro)."
+    },
+    {
+      "name": "Pedra de Amolar",
+      "description": "Você pode gastar uma ação de movimento e uma quantidade de PM a sua escolha (limitado por sua Inteligência) para aprimorar uma arma corpo a corpo que esteja empunhando. Para cada PM que gastar, você recebe +1 em rolagens de dano com a arma até o final da cena. Pré-requisito: Armeiro."
+    },
+    {
+      "name": "Síntese Rápida",
+      "description": "Quando fabrica um item alquímico ou poção, você pode fabricar o dobro de doses no mesmo tempo (pagando o custo de matéria-prima de cada uma). Pré-requisito: Alquimista Iniciado."
+    },
+    {
+      "name": "Comerciante",
+      "description": "No 3º nível, você pode vender itens 10% mais caro (não cumulativo com barganha)."
+    },
+    {
+      "name": "Encontrar Fraqueza",
+      "description": "A partir do 7º nível, você pode gastar uma ação de movimento e 2 PM para analisar um objeto em alcance curto. Se fizer isso, ignora a redução de dano dele. Você também pode usar esta habilidade para encontrar uma fraqueza em um inimigo. Se ele estiver de armadura ou for um construto, você recebe +2 em seus testes de ataque contra ele. Os benefícios desta habilidade duram até o fim da cena."
+    },
+    {
+      "name": "Fabricar Item Mágico",
+      "description": "No 9º nível, você recebe um item mágico menor e passa a poder fabricar itens mágicos menores. Veja o Capítulo 8: Recompensas para as regras de itens mágicos.\n\nNos níveis 13 e 17, você pode substituir esse item por um item mágico médio e maior, respectivamente, e passa a poder fabricar itens mágicos dessas categorias. Considera-se que você estava trabalhando nos itens que recebe e você não gasta dinheiro, tempo ou pontos de mana neles (mas gasta em itens que fabricar futuramente)."
+    },
+    {
+      "name": "Olho do Dragão",
+      "description": "A partir do 10º nível, você pode gastar uma ação completa para analisar um item. Você automaticamente descobre se o item é mágico, suas propriedades e como utilizá-las."
+    },
+    {
+      "name": "Obra-Prima",
+      "description": "No 20º nível, você fabrica sua obra-prima, aquela pela qual seu nome será lembrado em eras futuras. Você é livre para criar as regras do item, mas ele deve ser aprovado pelo mestre. Como linha geral, ele pode ter benefícios equivalentes a de um item com cinco melhorias e quatro encantos. Considera-se que você estava trabalhando no item e você não gasta dinheiro, tempo ou PM nele."
+    },
+    {
+      "name": "Engenhocas",
+      "description": "Uma engenhoca é uma invenção que simula o efeito de uma magia. Exemplos incluem um canhão (simula o efeito da magia Bola de Fogo), uma arma de raios (Relâmpago), um casaco blindado (Armadura Arcana), um emplastro curativo (Curar Ferimentos), um guarda-costas mecânico (Conjurar Monstro), um projetor de imagens (Criar Ilusão), um veículo a vapor (Montaria Arcana) etc.\n\nUma engenhoca é um item mundano Minúsculo que ocupa 1 espaço e possui Defesa 15, pontos de vida iguais à metade dos PV de seu fabricante e RD 5. Quando é fabricada, escolha se ela será empunhada (precisa estar na sua mão para ser ativada) ou vestida (precisa estar vestida para ser ativada, conta para seu limite de itens vestidos). Ao ser ativada, uma engenhoca pode assumir outra forma. Por exemplo, uma engenhoca que simula Montaria Arcana pode ser uma caixinha de engrenagens que se desdobra na forma de uma moto de madeira. Suas estatísticas não mudam."
+    },
+    {
+      "name": "Fabricação",
+      "description": "Para fabricar uma engenhoca, escolha uma magia arcana ou divina de 1º círculo. Essa será a magia que a engenhoca irá simular. A partir do 6º nível, você pode criar engenhocas com magias de 2º círculo e, a cada quatro níveis, pode criar engenhocas de um círculo maior.\n\nO custo de fabricação da engenhoca é T$ 100 x o custo em PM da magia que ela simula e a CD do teste é 20 + o custo em PM da magia. Assim, para fabricar uma engenhoca que simula o efeito de uma magia de 2º círculo (3 PM) você precisa gastar T$ 300 e passar em um teste de Ofício (engenhoqueiro) contra CD 23. O tempo de fabricação é uma semana."
+    },
+    {
+      "name": "Limite de Engenhocas",
+      "description": "Engenhocas são itens complexos e delicados, que exigem manutenção constante. O máximo de engenhocas que você pode ter ao mesmo tempo é igual a sua Inteligência."
+    },
+    {
+      "name": "Ativação",
+      "description": "Apenas o fabricante de uma engenhoca pode ativá-la. Ativar uma engenhoca exige uma ação padrão (ou a execução da magia, o que for maior) e um teste de Ofício (engenhoqueiro) contra CD 15 + custo em PM da magia. Se você passar, a engenhoca gera o efeito da magia (atributo-chave Int). Se falhar, ela enguiça e não pode ser utilizada até ser consertada, o que exige uma hora de trabalho. Cada nova ativação da engenhoca no mesmo dia aumenta a CD do teste de Ofício em +5.\n\nQuando ativa uma engenhoca, você pode usar quaisquer aprimoramentos da magia que ela simula, até um custo igual a sua Inteligência. A CD para ativar a engenhoca aumenta em +1 por PM e você paga o custo em PM dos aprimoramentos.\n\nSe a engenhoca simula o efeito de uma magia com custo especial, esse custo deve ser pago a cada ativação. Para outros custos e limitações, o efeito gerado pela engenhoca funciona como uma magia. Por exemplo, para manter um efeito com duração sustentada gerado por uma engenhoca, o inventor deve pagar 1 PM no início de cada um de seus turnos. Da mesma forma, só pode manter um efeito sustentado de engenhoca por vez. Se a magia simulada exigir um teste de Misticismo, use Ofício (engenhoqueiro) em seu lugar."
+    },
+    {
+      "name": "Efeito Mundano",
+      "description": "O efeito de uma engenhoca não é mágico. Isso significa que ele não pode ser dissipado, funciona em áreas de antimagia etc."
+    },
+    {
+      "name": "Penalidade de Armadura",
+      "description": "A ativação de uma engenhoca exige movimentos rápidos e precisos. Por isso, o teste de Ofício (engenhoqueiro) para ativar engenhocas sofre penalidade de armadura. Porém, você pode ativar engenhocas que geram magias arcanas enquanto usa armadura sem precisar fazer testes de Misticismo."
+    },
+    {
+      "name": "Efeitos que Impedem Conjuração",
+      "description": "Um efeito que especificamente impeça um personagem de lançar magias (como a Fúria de um bárbaro ou a magia Transformação de Guerra) também impede um inventor de ativar engenhocas."
+    }
+  ]
+}
+
