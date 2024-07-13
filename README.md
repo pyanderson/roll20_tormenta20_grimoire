@@ -26,7 +26,11 @@ Chat:
 
 - Transforma condições em itens clicáveis que mostram mais informações sobre a condição.
 
-### Aviso
+## Aviso
+
+Este é um projeto NÃO OFICIAL mantido por um fã e não está relacionado à Tormenta20 ou à Jambo Editora.
+
+Tormenta 20 é um RPG produzido pela Jambo Editora no Brasil.
 
 Todo o conteúdo da pasta [src/data/](src/data/) está sob a licença [OPEN GAME LICENSE](OPEN_GAME_LICENSE).
 
@@ -68,6 +72,7 @@ Visite a página da loja de extensões do seu navegador:
 - [x] Origens (Grimório) _[v0.4.14]_
 - [x] Suporte para arrastar e soltar na ficha para raças, classes, poderes, equipamento e magias. _[v0.6.0]_
 - [x] Importar/Exportar fichas. _[v0.7.0]_
+- [x] Inventor. _[v0.7.3]_
 - [ ] Divindades (Grimório)
 - [ ] Bestiário?
 - [ ] ??????
@@ -96,7 +101,7 @@ Como esse é um projeto que estou mantendo no meu tempo livre não é possível 
 
 ### Como os dados são gerados?
 
-Os dados são extraídos do livro através de scripts e interações manuais. Mais detalhes em [data-generator](/data/generator/README.md).
+Os dados são extraídos do livro através de scripts e interações manuais. Mais detalhes em [data/generator](/data/generator/README.md).
 
 ## Desenvolvendo
 
