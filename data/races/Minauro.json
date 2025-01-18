@@ -1,0 +1,34 @@
+{
+    "name": "Minauro",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "for",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Faro",
+        "description": "Você tem olfato apurado. Contra inimigos em alcance curto que não possa ver, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha."
+      },
+      {
+        "name": "Mente Aberta",
+        "description": "Você recebe +2 em Diplomacia e Investigação."
+      },
+      {
+        "name": "Plurivalente",
+        "description": "Você recebe um poder geral a sua escolha."
+      }
+    ]
+  }
+  

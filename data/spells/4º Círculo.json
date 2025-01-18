@@ -556,6 +556,41 @@
     {
       "area": "",
       "circle": "4",
+      "description": "Esta magia invoca o poder de um dragão, causando mutações no conjurador que o tornam semelhante a uma criatura dracônica. Você recebe +2 em Força, Constituição, Inteligência e Carisma (esse aumento não oferece PV, PM ou perícias adicionais), +5 na Defesa e redução 30 contra o elemento do sopro do dragão cujo componente material você usou. Uma vez por rodada, você pode gastar uma ação padrão para exalar um sopro que causa 8d6+8 pontos de dano do elemento correspondente em um cone de 9m (Reflexos reduz à metade). \nComponente Material: uma peça de couro de dragão ou uma escama de dragão no valor de T$ 1.000.",
+      "duration": "sustentada",
+      "effect": "",
+      "execution": "completa",
+      "implements": [
+        {
+          "cost": "+2 PM",
+          "description": "aumenta o dano do sopro em +1d6+1."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "aumenta o bônus na Defesa em +1."
+        },
+        {
+          "cost": "+6 PM",
+          "description": "além do normal, asas de couro brotam de suas costas. Você recebe deslocamento de voo 18m."
+        },
+        {
+          "cost": "+3 PM",
+          "description": "você recebe uma arma natural de mordida (1d6, crítico x2, corte). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida. Se já possuir uma mordida, em vez disso seu dano aumenta em dois passos."
+        },
+        {
+          "cost": "+3 PM",
+          "description": "o bônus em atributos se torna +4."
+        }
+      ],
+      "name": "Transformação em Dragão",
+      "range": "pessoal",
+      "resistance": "",
+      "target": "você",
+      "type": "Arcana 4 (Transmutação)"
+    },
+    {
+      "area": "",
+      "circle": "4",
       "description": "Você viaja instantaneamente para outro plano da Criação. Lá, você chega de 10 a 1.000km do destino pretendido (role 1d100 e multiplique por 10km).Componente material: um bastão de metal precioso em forma de forquilha (no valor de T$ 1.000). O tipo de metal determina para qual plano de existência você será enviado. Os metais que levam a dimensões específicas podem ser difíceis de encontrar, de acordo com o mestre.",
       "duration": "instantânea",
       "effect": "",

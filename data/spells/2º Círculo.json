@@ -247,7 +247,7 @@
     {
       "area": "",
       "circle": "2",
-      "description": "Você conjura seis esqueletos capangas de tamanho Médio feitos de energia negativa em espaços desocupados dentro do alcance. Você pode gastar uma ação de movimento para fazer os mortos-vivos andarem (eles têm deslocamento 9m) ou uma ação padrão para fazê-los causar dano a criaturas adjacentes (1d6+2 pontos de dano de trevas cada). Os esqueletos têm For 2, Des 2, Defesa 18 e todos os outros atributos nulos; eles têm 1 PV e falham automaticamente em qualquer teste de resistência ou oposto, mas são imunes a atordoamento, dano não letal, doença, encantamento, fadiga, frio, ilusão, paralisia, sono e veneno. Eles desaparecem quando são reduzidos a 0 PV ou no fim da cena. Os mortos- -vivos não agem sem receber uma ordem. Usos criativos para capangas fora de combate ficam a critério do mestre.\n \nCarniçal: como esqueletos, mas têm For 3, Des 3, Defesa 27 e causam 1d8+3 pontos de dano de trevas mais perda de 1d8 PV por veneno. Além disso, criaturas atingidas por um carniçal devem passar num teste de Fortitude ou ficam Paralisado por 1 rodada. Uma criatura que passe no teste de resistência fica imune à paralisia dos carniçais por um dia.\n \nSombra: como esqueletos, mas têm Des 4, Defesa 35, a habilidade incorpóreo e causam 2d10 pontos de dano de trevas. Além disso, criaturas vivas atingidas por uma sombra devem passar num teste de Fortitude ou perdem 1d4 PM. Sombras perdem a habilidade incorpóreo quando expostas à luz do sol.",
+      "description": "Você conjura seis esqueletos capangas de tamanho Médio feitos de energia negativa em espaços desocupados dentro do alcance. Você pode gastar uma ação de movimento para fazer os mortos-vivos andarem (eles têm deslocamento 9m) ou uma ação padrão para fazê-los causar dano a criaturas adjacentes (1d6+2 pontos de dano de trevas cada). Os esqueletos têm For 2, Des 2, Defesa 18 e todos os outros atributos nulos; eles têm 1 PV e falham automaticamente em qualquer teste de resistência ou oposto, mas são imunes a atordoamento, dano não letal, doença, encantamento, fadiga, frio, ilusão, paralisia, sono e veneno. Eles desaparecem quando são reduzidos a 0 PV ou no fim da cena. Os mortos- -vivos não agem sem receber uma ordem. Usos criativos para capangas fora de combate ficam a critério do mestre.\n \nSoterrado: como esqueletos, mas causam dano de frio. Além disso, criaturas atingidas por um soterrado devem passar num teste de Fortitude ou ficam enredadas por 1 rodada.\n \nCarniçal: como esqueletos, mas têm For 3, Des 3, Defesa 27 e causam 1d8+3 pontos de dano de trevas mais perda de 1d8 PV por veneno. Além disso, criaturas atingidas por um carniçal devem passar num teste de Fortitude ou ficam Paralisado por 1 rodada. Uma criatura que passe no teste de resistência fica imune à paralisia dos carniçais por um dia.\n \nFúria de Tauron: como esqueletos, mas têm tamanho Pequeno, deslocamento de voo 12m, a habilidade incorpóreo, Des 5, Defesa 18 e causam 1d6 pontos de dano de trevas mais 1d6 pontos de dano de fogo. Além disso, criaturas vivas atingidas ficam desprevenidas por 1 rodada e em chamas (Fort CD igual à da magia evita).\n \nGuerreiro Perpétuo: como esqueletos, mas têm For 5, Des 4, Defesa 33, a habilidade incorpóreo e causam 3d6 pontos de dano de impacto duas vezes por ação.\n \nZumbi Peçonha: como esqueletos, mas têm For 3, Des 1, Defesa 25 e causam 1d8+1 pontos de dano de trevas mais perda de 2d6 PV por veneno. Além disso, criaturas atingidas por um zumbi peçonha ficam atordoadas por 1 rodada (apenas uma vez por cena) e depois fracas (Fort reduz para fracas por 1 rodada).\n \nSombra: como esqueletos, mas têm Des 4, Defesa 35, a habilidade incorpóreo e causam 2d10 pontos de dano de trevas. Além disso, criaturas vivas atingidas por uma sombra devem passar num teste de Fortitude ou perdem 1d4 PM. Sombras perdem a habilidade incorpóreo quando expostas à luz do sol.",
       "duration": "sustentada",
       "effect": "6 mortos-vivos",
       "execution": "completa",
@@ -257,8 +257,24 @@
           "description": "aumenta o número de mortos-vivos conjurados em +1."
         },
         {
+          "cost": "+2 PM (Apenas Arcanos)",
+          "description": "em vez de esqueletos, conjura soterrados. Requer 3° círculo."
+        },
+        {
           "cost": "+3 PM",
           "description": "em vez de esqueletos, conjura carniçais. Requer 3º círculo."
+        },
+        {
+          "cost": "+3 PM",
+          "description": "em vez de esqueletos, conjura fúrias de Tauron. Requer 3º círculo."
+        },
+        {
+          "cost": "+3 PM (Apenas Devotos de Arsenal)",
+          "description": "em vez de esqueletos, conjura guerreiros perpétuos. Requer 3º círculo."
+        },
+        {
+          "cost": "+3 PM (Apenas Devotos de Sszzaas)",
+          "description": "em vez de esqueletos, conjura zumbis peçonha. Requer 3º círculo."
         },
         {
           "cost": "+7 PM",
@@ -598,6 +614,29 @@
     {
       "area": "",
       "circle": "2",
+      "description": "Você transforma uma porção de um elemento inerte em uma criatura elemental Pequena do tipo do elemento alvo. Por exemplo, lançar esta magia em um copo de água cria um elemental da água. Você pode criar elementais do ar, da água, do fogo e da terra com esta magia. O elemental obedece a todos os seus comandos e funciona como um familiar comum (veja Familiares, em Tormenta20, p. 38) ou elemental (veja Elementais). O elemental auxilia apenas você e não conta em seu limite de parceiros.",
+      "duration": "sustentada",
+      "effect": "familiar elemental",
+      "execution": "completa",
+      "implements": [
+        {
+          "cost": "+1 PM",
+          "description": "além do normal, o elemental fornece redução 10 contra o dano correspondente a seu tipo."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "em vez do normal, o elemental recebe a habilidade de dois familiares, um comum e um elemental."
+        }
+      ],
+      "name": "Invocar Fagulha Elemental",
+      "range": "curto",
+      "resistance": "",
+      "target": "",
+      "type": "Arcana 2 (Convocação)"
+    },
+    {
+      "area": "",
+      "circle": "2",
       "description": "Você cria um elo mental entre duas criaturas com Inteligência -3 ou maior (você pode ser uma delas). As criaturas podem se comunicar independente de idioma ou distância, mas não em mundos diferentes.",
       "duration": "1 dia",
       "effect": "",
@@ -783,6 +822,33 @@
       "resistance": "Fortitude (veja texto)",
       "target": "",
       "type": "Divina 2 (Necromancia)"
+    },
+    {
+      "area": "cubo de 30m",
+      "circle": "2",
+      "description": "Uma nuvem rubra surge acima do conjurador. Uma vez por turno, você pode gastar uma ação de movimento para fazer a nuvem manifestar um dos fenômenos a seguir.\n \nChuva ácida. Gotas corrosivas causam 6d4 pontos de dano de ácido em todas as criaturas na área.\n \nNeblina venenosa. Uma neblina faz com que todas as criaturas na área percam 2d12 PV por veneno (Fortitude evita).\n \nRaios escarlates. Até 6 inimigos aleatórios na área sofrem 6d8 pontos de dano de eletricidade (Reflexos reduz à metade).\n \nPesadelos reais. Cada criatura na área sofre 4d6 pontos de dano psíquico e perde 1d4 PM (Vontade reduz o dano à metade e evita a perda de PM).\n \nEsta magia só pode ser aprendida e lançada por conjuradores que tenham observado uma área de Tormenta pelo menos uma vez. Sua divulgação é proibida e seu uso é permitido apenas em áreas controladas na Academia Arcana e outros lugares restritos, para estudar o fenômeno da Tormenta. Usar esta magia em qualquer outro ponto do Reinado é um crime enquadrado na décima-primeira infração do Vigintílogo.",
+      "duration": "sustentada",
+      "effect": "",
+      "execution": "completa",
+      "implements": [
+        {
+          "cost": "+3 PM",
+          "description": "aumenta o dano em +1 dado do mesmo tipo."
+        },
+        {
+          "cost": "+5 PM",
+          "description": "além do normal, criaturas na área ficam alquebradas enquanto permanecerem na área."
+        },
+        {
+          "cost": "+5 PM (Apenas Devotos de Aharadak)",
+          "description": "muda a área para círculo de 1km de raio."
+        }
+      ],
+      "name": "Momento de Tormenta",
+      "range": "pessoal",
+      "resistance": "veja texto",
+      "target": "",
+      "type": "Universal 2 (Convocação)"
     },
     {
       "area": "",

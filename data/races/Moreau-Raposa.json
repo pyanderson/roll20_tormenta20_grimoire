@@ -1,0 +1,33 @@
+{
+    "name": "Moreau Raposa",
+    "displacement": 12,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "int",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Agarra-me Se Puderes",
+        "description": "Seu deslocamento é 12m (em vez de 9m) e você tem visão na penumbra."
+      },
+      {
+        "name": "Esperteza Vulpina",
+        "description": "Você recebe +2 em duas perícias originalmente baseadas em Inteligência ou Carisma, a sua escolha."
+      },
+      {
+        "name": "Faro",
+        "description": "Você tem olfato apurado. Contra inimigos em alcance curto que não possa ver, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha."
+      }
+    ]
+  }

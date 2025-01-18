@@ -1,0 +1,33 @@
+{
+    "name": "Moreau Crocodilo",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "con",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Mordida Poderosa",
+        "description": "Você possui uma arma natural de mordida (dano 1d6, crítico x2, perfuração), com a qual recebe +2 em testes de agarrar. Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida."
+      },
+      {
+        "name": "Predador Aquático",
+        "description": "Você tem deslocamento de natação 6m e recebe +1 na Defesa e +2 em Furtividade."
+      },
+      {
+        "name": "Surto Reptiliano",
+        "description": "Uma vez por cena, você pode gastar 1 PM para realizar uma ação de movimento adicional em seu turno."
+      }
+    ]
+  }

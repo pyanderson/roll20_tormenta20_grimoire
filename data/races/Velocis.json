@@ -1,0 +1,34 @@
+{
+    "name": "Velocis",
+    "displacement": 12,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "des",
+        "mod": 2
+      },
+      {
+        "attr": "sab",
+        "mod": 1
+      },
+      {
+        "attr": "int",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Através de Espinheiros",
+        "description": "Você recebe redução de corte e perfuração 2 e não sofre redução em seu deslocamento por terreno difícil natural."
+      },
+      {
+        "name": "Sentidos Selvagens",
+        "description": "Você recebe +2 em Sobrevivência, visão na penumbra e faro (contra inimigos em alcance curto que não possa ver, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha)."
+      },
+      {
+        "name": "Velocista da Planície",
+        "description": "Seu deslocamento é 12m. Você pode usar Destreza como atributo-chave de Atletismo (em vez de Força) e, quando faz testes de Atletismo para correr ou saltar, pode rolar dois dados e usar o melhor resultado."
+      }
+    ]
+  }
+  

@@ -1,0 +1,42 @@
+{
+    "name": "Golem de Espelhos",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "for",
+        "mod": 1
+      },
+      {
+        "attr": "car",
+        "mod": 1
+      },
+      {
+        "attr": "sab",
+        "mod": 1
+      },
+      {
+        "attr": "con",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Chassi de Espelhos",
+        "description": "Quando uma criatura em alcance curto usa uma habilidade de classe que você possa ver, você pode gastar 1 PM para copiar essa habilidade. Até o fim do seu próximo turno, você pode usá-la como uma habilidade de raça (se ela usar um atributo para algo, use seu Carisma). Se copiar outra habilidade, você perde a anterior."
+      },
+      {
+        "name": "Criatura Artificial",
+        "description": "Você é uma criatura do tipo construto. Recebe visão no escuro e imunidade a efeitos de cansaço, metabólicos e de veneno. Além disso, não precisa respirar, alimentar-se ou dormir, mas não se beneficia de cura mundana e de itens da categoria alimentação. Você precisa ficar inerte por oito horas por dia para recarregar sua fonte de energia. Se fizer isso, recupera PV e PM por descanso em condições normais (golens não são afetados por condições boas ou ruins de descanso). Por fim, a perícia Cura não funciona em você, mas Ofício (artesão) pode ser usada no lugar dela."
+      },
+      {
+        "name": "Propósito de Criação",
+        "description": "Você foi construído “pronto” para um propósito específico e não teve uma infância. Você não tem direito a escolher uma origem, mas recebe um poder geral a sua escolha."
+      },
+      {
+        "name": "Fonte de Energia",
+        "description": "Escolha sua fonte de energia entre: Alquímica, Elemental, Sagrada ou Vapor. Veja a página 135 do livro Ameaças de Arton para visualizar as fontes de energia disponíveis."
+      }
+    ]
+  }
+  

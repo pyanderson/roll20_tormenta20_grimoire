@@ -1,0 +1,33 @@
+{
+    "name": "Moreau Coelho",
+    "displacement": 12,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "des",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Patas Ligeiras",
+        "description": "Seu deslocamento é 12m e, quando faz uma investida ou um teste de Atletismo para correr, você não precisa percorrer uma linha reta."
+      },
+      {
+        "name": "Pé de Coelho",
+        "description": "Quando faz um teste de uma perícia baseada em Destreza (exceto testes de ataque), você pode gastar 1 PM para rolar dois dados e usar o melhor resultado."
+      },
+      {
+        "name": "Senso de Preservação",
+        "description": "Você recebe visão na penumbra e +2 em Percepção e Reflexos."
+      }
+    ]
+  }

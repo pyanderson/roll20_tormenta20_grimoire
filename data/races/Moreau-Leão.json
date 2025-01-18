@@ -1,0 +1,33 @@
+{
+    "name": "Moreau Leão",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "for",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Mordida",
+        "description": "Você possui uma arma natural de mordida (dano 1d8, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida."
+      },
+      {
+        "name": "Rugido Imponente",
+        "description": "Você pode gastar uma ação de movimento e 1 PM para emitir um rugido assustador. Todos os inimigos em alcance curto sofrem -2 em rolagens de dano por 1 rodada. Medo."
+      },
+      {
+        "name": "Sentidos da Realeza",
+        "description": "Você recebe visão na penumbra e +2 em Intimidação e Percepção."
+      }
+    ]
+  }
