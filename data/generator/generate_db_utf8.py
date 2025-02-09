@@ -3,10 +3,29 @@ from collections import OrderedDict
 from operator import itemgetter
 from pathlib import Path
 
-# Tive problemas em gerar o db então modifiquei para forçar a codificação em UTF-8.
-# Estou mandando isso junto apenas para informar, mesmo!
-
 output_path = "static/db.json"
+
+# Raças que possuem alguma repetição de poder por serem variantes
+racas_com_repeticao = {
+    "Soterrado", "Trog Anão", "Golem de Barro", "Golem de Bronze", "Golem de Carne", 
+    "Golem de Espelhos", "Golem de Ferro", "Golem de Gelo Eterno", "Golem de Pedra", 
+    "Golem de Sucata", "Mashin"
+}
+
+# Poderes que são repetidos nas raças variantes
+itens_que_retornam_zero = {
+    "Natureza Esquelética", "Preço da Não Vida", "Mau Cheiro", "Mordida",
+    "Sangue Frio", "Criatura Artificial", "Propósito de Criação", "Fonte de Energia"
+}
+
+def repeticao(nominho, item):
+    if nominho in racas_com_repeticao:
+        if item['name'] in itens_que_retornam_zero:
+            return 0
+        else:
+            return 1
+    else:
+        return 1
 
 def load_folder(source_path):
     folder = []
@@ -79,9 +98,10 @@ for source in (
 ):
     for item in source.get("abilities", source.get("powers")):
         extra = item.get("source")
-        abilities_and_powers[ 
-            f"{source['name']}{f' - {extra}' if extra else ''} - {item['name']}"
-        ] = item
+        if repeticao(source['name'], item):
+            abilities_and_powers[ 
+                f"{source['name']}{f' - {extra}' if extra else ''} - {item['name']}"
+            ] = item
 
 spells_circles = OrderedDict()
 for spell_circle in spells:
