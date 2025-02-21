@@ -16,7 +16,6 @@ disableKinds = ["taxonomy", "term"]
     { firefox = { href = "https://addons.mozilla.org/pt-BR/firefox/addon/roll20-grim%C3%B3rio-do-tormenta20/", text = "Firefox" } },
     { github = { href = 'https://github.com/pyanderson/roll20_tormenta20_grimoire', text = 'GitHub' } },
     { email = { href = "mailto:roll20tormenta20@pyanderson.dev", text = 'Email' } },
-
   ]
 
 [module]
