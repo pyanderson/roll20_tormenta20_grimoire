@@ -1,0 +1,34 @@
+{
+    "name": "Elfo-do-Mar",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "des",
+        "mod": 2
+      },
+      {
+        "attr": "con",
+        "mod": 1
+      },
+      {
+        "attr": "int",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Arsenal do Oceano",
+        "description": "Você recebe proficiência em arpão, rede e tridente e +2 em testes de ataque com essas armas. Se receber proficiência em uma dessas armas novamente, pode considerá-la uma arma leve."
+      },
+      {
+        "name": "Cria das Águas",
+        "description": "Você possui deslocamento de natação igual a seu deslocamento em terra e visão na penumbra. Quando dentro d’água, você recebe percepção às cegas e +2 na Defesa e, em Furtividade e Sobrevivência."
+      },
+      {
+        "name": "Dependência de Água",
+        "description": "Se permanecer mais de um dia sem contato com água, você não recupera PM com descanso até voltar para a água (ou, pelo menos, tomar um bom banho!)."
+      }
+    ]
+  }
+  

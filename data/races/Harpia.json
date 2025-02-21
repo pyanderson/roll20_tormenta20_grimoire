@@ -1,0 +1,38 @@
+{
+    "name": "Harpia",
+    "displacement": 12,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "des",
+        "mod": 2
+      },
+      {
+        "attr": "car",
+        "mod": 1
+      },
+      {
+        "attr": "int",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Asas de Abutre",
+        "description": "Você possui asas no lugar dos braços e das mãos. Você pode pairar a 1,5m do chão com deslocamento 12m. Isso permite que você ignore terreno difícil e o torna imune a dano por queda (a menos que esteja inconsciente). Se não estiver usando armadura pesada, você pode gastar 1 PM por rodada para voar com deslocamento de 12m."
+      },
+      {
+        "name": "Cria de Masmorra",
+        "description": "Você é uma criatura do tipo monstro e recebe visão no escuro e +2 em Intimidação e Sobrevivência."
+      },
+      {
+        "name": "Grito Aterrorizante",
+        "description": "Você pode gastar uma ação padrão e 1 PM para emitir um grito estridente. Criaturas em alcance curto ficam abaladas (Von CD Car evita)."
+      },
+      {
+        "name": "Pés Rapinantes",
+        "description": "Seus pés podem ser usados como mãos ou como duas armas naturais de garras (dano 1d6 cada, crítico x2, corte). Uma vez por rodada, quando usa a ação agredir para atacar com uma arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com uma das garras, desde que ela esteja livre e não tenha sido usada para atacar neste turno. Como alternativa, se tiver habilidades que exijam uma arma secundária (como Estilo de Duas Armas), você pode usá-las com suas garras."
+      }
+    ]
+  }
+  

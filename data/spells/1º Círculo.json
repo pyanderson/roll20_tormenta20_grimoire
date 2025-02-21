@@ -62,6 +62,33 @@
     {
       "area": "",
       "circle": "1",
+      "description": "Um açoite de fogo surge em uma de suas mãos com a qual possa empunhar uma arma (essa mão fica ocupada pela duração da magia). Você pode usar uma ação padrão para causar 2d6 pontos de dano de fogo com o açoite em uma criatura em alcance curto e deixá-la em chamas e enredada enquanto estiver em chamas dessa forma. Passar na resistência reduz o dano à metade e evita as chamas.",
+      "duration": "sustentada",
+      "effect": "açoite de chamas criado em sua mão (veja texto)",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+2 PM",
+          "description": "muda a execução para movimento."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "muda o dano para 4d6. Requer 2º círculo."
+        },
+        {
+          "cost": "+5 PM",
+          "description": "muda o dano para 6d6. Requer 3º círculo."
+        }
+      ],
+      "name": "Açoite Flamejante",
+      "range": "pessoal",
+      "resistance": "Reflexos parcial",
+      "target": "",
+      "type": "Arcana 1 (Convocação)"
+    },
+    {
+      "area": "",
+      "circle": "1",
       "description": "Você manifesta e dispara uma adaga imaterial contra a mente do alvo, que sofre 2d6 pontos de dano psíquico e fica Atordoado por uma rodada. Se passar no teste de resistência, sofre apenas metade do dano e evita a condição. Uma criatura só pode ficar atordoada por esta magia uma vez por cena.",
       "duration": "instantânea",
       "effect": "",
@@ -663,6 +690,29 @@
     {
       "area": "",
       "circle": "1",
+      "description": "Você dispara um dardo de gelo contra o alvo, que sofre 2d6 pontos de dano de frio e fica lento por 1 rodada. Passar no teste de resistência reduz o dano à metade e evita a condição.",
+      "duration": "instantânea",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+1 PM",
+          "description": "aumenta o dano em +1d6."
+        },
+        {
+          "cost": "+1 PM",
+          "description": "aumenta o número de alvos em +1 (total de alvos limitado pelo círculo máximo de magia que você pode lançar)."
+        }
+      ],
+      "name": "Dardo Gélido",
+      "range": "curto",
+      "resistance": "Fortitude parcial",
+      "target": "1 criatura",
+      "type": "Arcana 1 (Evocação)"
+    },
+    {
+      "area": "",
+      "circle": "1",
       "description": "Esta magia emite um som alto e agudo. O alvo sofre 1d8+2 pontos de dano de impacto (ou o dobro disso e ignora RD se for um construto ou objeto mundano) e fica Atordoado por uma rodada (apenas uma vez por cena). Um teste de Fortitude reduz o dano à metade e evita o atordoamento.",
       "duration": "instantânea",
       "effect": "",
@@ -973,6 +1023,29 @@
       "resistance": "Fortitude reduz à metade",
       "target": "1 criatura",
       "type": "Divina 1 (Necromancia)"
+    },
+    {
+      "area": "linha de 9m",
+      "circle": "1",
+      "description": "Você dispara um jato, que causa 2d6 pontos de dano de ácido às criaturas na área. Contra construtos e objetos soltos, a magia causa +1 ponto de dano por dado.",
+      "duration": "instantânea",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+1 PM",
+          "description": "aumenta o dano em +1d6."
+        },
+        {
+          "cost": "+1 PM",
+          "description": "muda a resistência para Reflexos parcial. Se passar, a criatura reduz o dano à metade; se falhar, fica vulnerável."
+        }
+      ],
+      "name": "Jato Corrosivo",
+      "range": "pessoal",
+      "resistance": "Reflexos reduz à metade",
+      "target": "",
+      "type": "Arcana 1 (Evocação)"
     },
     {
       "area": "cone de 4,5m",

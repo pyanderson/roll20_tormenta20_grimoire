@@ -1,0 +1,30 @@
+{
+    "name": "Meio-Orc",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "for",
+        "mod": 2
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Adaptável",
+        "description": "Você recebe +2 em Intimidação e se torna treinado em uma perícia a sua escolha."
+      },
+      {
+        "name": "Criatura das Profundezas",
+        "description": "Você recebe visão no escuro e +2 em testes de Percepção e Sobrevivência realizados no subterrâneo."
+      },
+      {
+        "name": "Sangue Orc",
+        "description": "Você recebe +1 em rolagens de dano com armas corpo a corpo e de arremesso e é considerado um orc para efeitos relacionados a raça."
+      }
+    ]
+  }
+  

@@ -231,6 +231,29 @@
       "type": "Universal 5 (Abjuração)"
     },
     {
+      "area": "linha de 60m ou duas linhas de 30m",
+      "circle": "5",
+      "description": "Um golpe vindo dos céus risca o campo de batalha. Se escolher duas linhas, cada uma deve seguir em uma direção diferente, criando um corte em “V”. Criaturas na área sofrem 12d8 pontos de dano de luz (ou 12d12, se forem mortos-vivos) e ficam cegas e surdas até o fim da cena (Reflexos reduz à metade e evita as condições).",
+      "duration": "instantânea",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+3 PM",
+          "description": "aumenta o dano em +2d8 (ou +2d12 contra mortos-vivos)."
+        },
+        {
+          "cost": "+6 PM",
+          "description": "muda a área para uma linha de 120m ou quatro linhas de 30m em direções opostas, formando um  “X”."
+        }
+      ],
+      "name": "Katana Celestial",
+      "range": "pessoal",
+      "resistance": "Reflexos parcial",
+      "target": "",
+      "type": "Divina 5 (Evocação)"
+    },
+    {
       "area": "",
       "circle": "5",
       "description": "Você domina a mente dos alvos. Os alvos obedecem cegamente a seus comandos, exceto ordens claramente suicidas. Um alvo tem direito a um teste no final de cada um de seus turnos para se livrar do efeito. Alvos que passarem no teste ficam Abalado por 1 rodada enquanto recuperam a consciência.",

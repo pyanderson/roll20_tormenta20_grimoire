@@ -1,5 +1,5 @@
 import json
-from collections import OrderedDict
+from collections import OrderedDict, defaultdict
 from operator import itemgetter
 from pathlib import Path
 
@@ -71,17 +71,25 @@ book_folders_order = [
 ]
 book = sorted(book, key=lambda item: book_folders_order.index(item["name"]))
 
+a_and_p_group = OrderedDict()
+entry_name_group = defaultdict(list)
 abilities_and_powers = OrderedDict()
-for source in (
+entries = (
     sorted(races, key=itemgetter("name"))
     + sorted(classes, key=itemgetter("name"))
     + sorted(powers, key=itemgetter("name"))
-):
-    for item in source.get("abilities", source.get("powers")):
-        extra = item.get("source")
-        abilities_and_powers[
-            f"{source['name']}{f' - {extra}' if extra else ''} - {item['name']}"
-        ] = item
+)
+for entry in entries:
+    for item in entry.get("abilities", entry.get("powers")):
+        source = item.get("source")
+        source = f" - {source}" if source else ""
+        key = f"{item['name']}{source}"
+        a_and_p_group[key] = item
+        entry_name_group[key].append(entry["name"])
+
+for key, item in a_and_p_group.items():
+    new_key = f"{key} - {', '.join(entry_name_group[key])}"
+    abilities_and_powers[new_key] = item
 
 spells_circles = OrderedDict()
 for spell_circle in spells:
@@ -89,7 +97,7 @@ for spell_circle in spells:
     for spell in sorted(spell_circle["spells"], key=itemgetter("name")):
         spells_circles[spell_circle["name"][0]][spell["name"]] = spell
 
-with open(output_path, "w") as jfile:
+with open(output_path, "w", encoding="utf-8") as jfile:
     json.dump(
         {
             "book": book,

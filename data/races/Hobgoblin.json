@@ -1,0 +1,34 @@
+{
+    "name": "Hobgoblin",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "con",
+        "mod": 2
+      },
+      {
+        "attr": "des",
+        "mod": 1
+      },
+      {
+        "attr": "car",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Arte da Guerra",
+        "description": "Você é treinado em Guerra e recebe proficiência em armas marciais. Se receber essa proficiência novamente, recebe +2 em rolagens de dano com essas armas."
+      },
+      {
+        "name": "Metalurgia Hobgoblin",
+        "description": "Você recebe +2 em Ofício (armeiro) e, se for treinado nesta perícia, pode fabricar armas e armaduras superiores com uma melhoria. Se aprender a fabricar itens superiores desses tipos por outra habilidade, gasta apenas 1/4 do preço das melhorias que aplica nesses itens (em vez de 1/3)."
+      },
+      {
+        "name": "Táticas de Guerrilha",
+        "description": "Você recebe visão no escuro e +2 em Furtividade."
+      }
+    ]
+  }
+  

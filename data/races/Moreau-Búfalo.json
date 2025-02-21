@@ -1,0 +1,33 @@
+{
+    "name": "Moreau Búfalo",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "for",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Chifres",
+        "description": "Você possui uma arma natural de chifres (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com os chifres."
+      },
+      {
+        "name": "Faro",
+        "description": "Você tem olfato apurado. Contra inimigos em alcance curto que não possa ver, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha."
+      },
+      {
+        "name": "Marrada Impressionante",
+        "description": "Você recebe +2 em ataques em investida e em testes para empurrar, e pode usar Força como atributo-chave de Intimidação (em vez de Carisma)."
+      }
+    ]
+  }

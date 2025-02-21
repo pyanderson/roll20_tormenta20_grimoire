@@ -1,0 +1,33 @@
+{
+    "name": "Moreau Serpente",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "int",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      },
+      {
+        "attr": "any",
+        "mod": 1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Arborícola",
+        "description": "Você recebe deslocamento de escalada 6m e +2 em Furtividade."
+      },
+      {
+        "name": "Constritor",
+        "description": "Você recebe +2 em testes para agarrar e em rolagens de dano contra criaturas que estiver agarrando."
+      },
+      {
+        "name": "Instintos Traiçoeiros",
+        "description": "Você recebe visão no escuro e +2 em Diplomacia e na CD de seus efeitos mentais."
+      }
+    ]
+  }

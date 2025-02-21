@@ -1,0 +1,34 @@
+{
+    "name": "Tabrachi",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "con",
+        "mod": 2
+      },
+      {
+        "attr": "for",
+        "mod": 1
+      },
+      {
+        "attr": "car",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Batráquio",
+        "description": "Você recebe visão na penumbra e deslocamento de natação igual ao seu deslocamento terrestre."
+      },
+      {
+        "name": "Linguarudo",
+        "description": "Sua língua é uma arma natural que pode atacar inimigos a até 3m (dano 1d4, crítico x2, impacto). Ela é uma arma versátil, fornecendo +2 em testes para desarmar e derrubar. Uma vez por rodada, quando usa a ação agredir com outra arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com a língua."
+      },
+      {
+        "name": "Saltador",
+        "description": "Você recebe +10 em testes de Atletismo para saltar."
+      }
+    ]
+  }
+  
