@@ -6,7 +6,7 @@ title = "Roll20: Grimório do Tormenta20"
 enableEmoji = true
 disableKinds = ["taxonomy", "term"]
 
-[author]
+[params.author]
   name = "Roll20: Grimório do Tormenta20"
   headline = "Uma extensão para Chrome e Firefox"
   image = "images/logo.png"
