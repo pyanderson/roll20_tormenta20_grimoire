@@ -1,3 +1,4 @@
+import hashlib
 import json
 from collections import OrderedDict, defaultdict
 from operator import itemgetter
@@ -83,12 +84,14 @@ for entry in entries:
     for item in entry.get("abilities", entry.get("powers")):
         source = item.get("source")
         source = f" - {source}" if source else ""
-        key = f"{item['name']}{source}"
+        key_suffix = hashlib.md5(item["description"].encode()).hexdigest()
+        key = f"{item['name']}{source}__{key_suffix}"
         a_and_p_group[key] = item
         entry_name_group[key].append(entry["name"])
 
 for key, item in a_and_p_group.items():
-    new_key = f"{key} - {', '.join(entry_name_group[key])}"
+    key_prefix = key.split("__")[0]
+    new_key = f"{key_prefix} - {', '.join(entry_name_group[key])}"
     abilities_and_powers[new_key] = item
 
 spells_circles = OrderedDict()
