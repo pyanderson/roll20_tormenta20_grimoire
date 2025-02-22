@@ -47,7 +47,7 @@
     },
     {
       "name": "Fome de Mana",
-      "description": "Quando passa em um teste de resistência para resistir a uma habilidade mágica, você recebe 1 PM temporário cumulativo. Você pode ganhar um máximo de PM temporários por cena desta forma igual ao número de poderes da Tormenta que possui."
+      "description": "Quando passa em um teste de resistência para resistir a uma habilidade mágica de um inimigo, você recebe 1 PM temporário cumulativo. Você pode ganhar um máximo de PM temporários por cena desta forma igual ao número de poderes da Tormenta que possui."
     },
     {
       "name": "Larva Explosiva",

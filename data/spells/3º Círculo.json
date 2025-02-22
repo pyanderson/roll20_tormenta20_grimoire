@@ -362,7 +362,7 @@
     {
       "area": "",
       "circle": "3",
-      "description": "Você é envolto por uma esfera mágica brilhante com 3m de raio, que detém qualquer magia de 2º círculo ou menor. Nenhuma magia pode ser lançada contra um alvo dentro do globo e magias de área não o penetram. No entanto, magias ainda podem ser lançadas de dentro para fora.\nUma magia que dissipa outras magias só dissipa o globo se for usada diretamente sobre você, não o afetando se usada em área. Efeitos mágicos não são dissipados quando entram na esfera, apenas suprimidos (voltam a funcionar fora do globo, caso sua duração não tenha acabado). O globo é imóvel e não tem efeito sobre criaturas ou objetos. Após lançá-lo, você pode entrar ou sair livremente.",
+      "description": "Você é envolto por uma esfera mágica brilhante com 3m de raio, que detém qualquer magia de 2º círculo ou menor. Nenhuma magia pode ser lançada contra um alvo dentro do globo e magias de área não têm efeito dentro dele. No entanto, magias ainda podem ser lançadas de dentro para fora.\nUma magia que dissipa outras magias só dissipa o globo se for usada diretamente sobre você, não o afetando se usada em área. Efeitos mágicos não são dissipados quando entram na esfera, apenas suprimidos (voltam a funcionar fora do globo, caso sua duração não tenha acabado). O globo é imóvel e não tem efeito sobre criaturas ou objetos. Após lançá-lo, você pode entrar ou sair livremente.",
       "duration": "sustentada",
       "effect": "",
       "execution": "padrão",
@@ -503,7 +503,7 @@
       "implements": [
         {
           "cost": "+4 PM",
-          "description": "muda o alcance para toque e o alvo para 1 criatura. Requer 4º círculo."
+          "description": "muda o alcance para toque e o alvo para 1 criatura voluntária. Requer 4º círculo."
         }
       ],
       "name": "Manto de Sombras",
