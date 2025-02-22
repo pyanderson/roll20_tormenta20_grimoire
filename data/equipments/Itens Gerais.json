@@ -32,8 +32,26 @@
       "category": "Equipamento de Aventura"
     },
     {
+      "name": "Caixa de voz",
+      "price": "T$ 50",
+      "spaces": "1",
+      "category": "Equipamento de Aventura"
+    },
+    {
       "name": "Corda",
       "price": "T$ 1",
+      "spaces": "1",
+      "category": "Equipamento de Aventura"
+    },
+    {
+      "name": "Corda de teia",
+      "price": "T$ 100",
+      "spaces": "1",
+      "category": "Equipamento de Aventura"
+    },
+    {
+      "name": "Dente de wisphago",
+      "price": "T$ 100",
       "spaces": "1",
       "category": "Equipamento de Aventura"
     },
@@ -235,6 +253,12 @@
       "category": "Vestuário"
     },
     {
+      "name": "Garra feroz",
+      "price": "T$ 60",
+      "spaces": "1",
+      "category": "Vestuário"
+    },
+    {
       "name": "Gorro de ervas",
       "price": "T$ 75",
       "spaces": "1",
@@ -259,8 +283,20 @@
       "category": "Vestuário"
     },
     {
+      "name": "Manto do mantor",
+      "price": "T$ 450",
+      "spaces": "1",
+      "category": "Vestuário"
+    },
+    {
       "name": "Manto eclesiástico",
       "price": "T$ 20",
+      "spaces": "1",
+      "category": "Vestuário"
+    },
+    {
+      "name": "Manto pesado",
+      "price": "T$ 10",
       "spaces": "1",
       "category": "Vestuário"
     },
@@ -273,6 +309,12 @@
     {
       "name": "Sapatos de camurça",
       "price": "T$ 8",
+      "spaces": "1",
+      "category": "Vestuário"
+    },
+    {
+      "name": "Sombreiro",
+      "price": "T$ 10",
       "spaces": "1",
       "category": "Vestuário"
     },
@@ -295,10 +337,22 @@
       "category": "Vestuário"
     },
     {
+      "name": "Traje Selako",
+      "price": "T$ 90",
+      "spaces": "1",
+      "category": "Vestuário"
+    },
+    {
       "name": "Veste de seda",
       "price": "T$ 25",
       "spaces": "1",
       "category": "Vestuário"
+    },
+    {
+      "name": "Ankh solar",
+      "price": "T$ 450",
+      "spaces": "1",
+      "category": "Esotéricos"
     },
     {
       "name": "Bolsa de pó",
@@ -349,6 +403,18 @@
       "category": "Esotéricos"
     },
     {
+      "name": "Tomo de Guerra",
+      "price": "T$ 300",
+      "spaces": "1",
+      "category": "Esotéricos"
+    },
+    {
+      "name": "Tomo do Rancor",
+      "price": "T$ 750",
+      "spaces": "1",
+      "category": "Esotéricos"
+    },
+    {
       "name": "Tomo hermético",
       "price": "T$ 1.500",
       "spaces": "1",
@@ -367,6 +433,12 @@
       "category": "Alquímicos — Preparados"
     },
     {
+      "name": "Bálsamo de drogadora",
+      "price": "T$ 60",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados"
+    },
+    {
       "name": "Bálsamo restaurador",
       "price": "T$ 10",
       "spaces": "0,5",
@@ -377,6 +449,12 @@
       "price": "T$ 50",
       "spaces": "0,5",
       "category": "Alquímicos — Preparados"
+    },
+    {
+      "name": "Bomba de fumaça",
+      "price": "T$ 15",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados"
     },
     {
       "name": "Cosmético",
@@ -391,16 +469,58 @@
       "category": "Alquímicos — Preparados"
     },
     {
+      "name": "Elixir quimérico",
+      "price": "T$ 120",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados"
+    },
+    {
       "name": "Essência de mana",
       "price": "T$ 50",
       "spaces": "0,5",
       "category": "Alquímicos — Preparados"
     },
     {
+      "name": "Éter elemental",
+      "price": "T$ 60",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados"
+    },
+    {
       "name": "Fogo alquímico",
       "price": "T$ 10",
       "spaces": "0,5",
       "category": "Alquímicos — Preparados"
+    },
+    {
+      "name": "Isca putrefata",
+      "price": "T$ 60",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados"
+    },
+    {
+      "name": "Lagrima pétrea",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados"
+    },
+    {
+      "name": "Óleo de baleia",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados"
+    },
+    {
+      "name": "Óleo de besouro",
+      "price": "T$ 50",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados"
+    },
+    {
+      "name": "Pó azul",
+      "price": "T$ 150",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados"
     },
     {
       "name": "Pó do desaparecimento",
@@ -415,6 +535,12 @@
       "category": "Alquímicos — Catalisadores"
     },
     {
+      "name": "Corrosivo Mineral",
+      "price": "T$ 150",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores"
+    },
+    {
       "name": "Dente-de-dragão",
       "price": "T$ 45",
       "spaces": "0,5",
@@ -425,6 +551,12 @@
       "price": "T$ 150",
       "spaces": "0,5",
       "category": "Alquímicos — Catalisadores"
+    },
+    {
+      "name": "Gelo Extremo",
+      "price": "T$ 150",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores"
     },
     {
       "name": "Líquen lilás",
@@ -445,6 +577,12 @@
       "category": "Alquímicos — Catalisadores"
     },
     {
+      "name": "Pedaço de língua",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores"
+    },
+    {
       "name": "Pó de cristal",
       "price": "T$ 30",
       "spaces": "0,5",
@@ -455,6 +593,12 @@
       "price": "T$ 30",
       "spaces": "0,5",
       "category": "Alquímicos — Catalisadores"
+    },
+    {
+      "name": "Raio cristalizado",
+      "price": "T$ 150",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores"
     },
     {
       "name": "Ramo verdejante",
@@ -498,6 +642,12 @@
       "category": "Alquímicos — Venenos"
     },
     {
+      "name": "Esporos de cogumelo",
+      "price": "T$ 75",
+      "spaces": "0,5",
+      "category": "Alquímicos - Venenos"
+    },
+    {
       "name": "Essência de sombra",
       "price": "T$ 100",
       "spaces": "0,5",
@@ -510,6 +660,12 @@
       "category": "Alquímicos — Venenos"
     },
     {
+      "name": "Peçonha anciã",
+      "price": "T$ 1800",
+      "spaces": "0,5",
+      "category": "Alquímicos - Venenos"
+    },
+    {
       "name": "Peçonha comum",
       "price": "T$ 15",
       "spaces": "0,5",
@@ -520,6 +676,12 @@
       "price": "T$ 90",
       "spaces": "0,5",
       "category": "Alquímicos — Venenos"
+    },
+    {
+      "name": "Peçonha irritante",
+      "price": "T$ 10",
+      "spaces": "0,5",
+      "category": "Alquímicos - Venenos"
     },
     {
       "name": "Peçonha potente",
@@ -540,9 +702,39 @@
       "category": "Alquímicos — Venenos"
     },
     {
+      "name": "Veneno batráquio",
+      "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos - Venenos"
+    },
+    {
+      "name": "Algravia",
+      "price": "T$ 3",
+      "spaces": "—",
+      "category": "Alimentação"
+    },
+    {
+      "name": "Banquete de canceronte",
+      "price": "T$ 36",
+      "spaces": "—",
+      "category": "Alimentação"
+    },
+    {
       "name": "Batata valkariana",
       "price": "T$ 2",
       "spaces": "0,5",
+      "category": "Alimentação"
+    },
+    {
+      "name": "Coc-au-triz",
+      "price": "T$ 54",
+      "spaces": "—",
+      "category": "Alimentação"
+    },
+    {
+      "name": "Cozido de Serpe",
+      "price": "T$ 12",
+      "spaces": "—",
       "category": "Alimentação"
     },
     {
@@ -552,9 +744,21 @@
       "category": "Alimentação"
     },
     {
+      "name": "Gorlogg ensopado",
+      "price": "T$ 6",
+      "spaces": "—",
+      "category": "Alimentação"
+    },
+    {
       "name": "Macarrão de Yuvalin",
       "price": "T$ 6",
       "spaces": "0,5",
+      "category": "Alimentação"
+    },
+    {
+      "name": "Omelete Monstruosa",
+      "price": "T$ 3",
+      "spaces": "—",
       "category": "Alimentação"
     },
     {
@@ -576,6 +780,12 @@
       "category": "Alimentação"
     },
     {
+      "name": "Sashimi de Kraken",
+      "price": "T$ 60",
+      "spaces": "—",
+      "category": "Alimentação"
+    },
+    {
       "name": "Sopa de peixe",
       "price": "T$ 1",
       "spaces": "0,5",
@@ -588,7 +798,25 @@
       "category": "Animais"
     },
     {
+      "name": "Bulette",
+      "price": "T$ 500",
+      "spaces": "—",
+      "category": "Animais"
+    },
+    {
       "name": "Cão de caça",
+      "price": "T$ 150",
+      "spaces": "—",
+      "category": "Animais"
+    },
+    {
+      "name": "Capivara",
+      "price": "T$ 60",
+      "spaces": "—",
+      "category": "Animais"
+    },
+    {
+      "name": "Corcel do deserto",
       "price": "T$ 150",
       "spaces": "—",
       "category": "Animais"
@@ -606,8 +834,32 @@
       "category": "Animais"
     },
     {
+      "name": "Dromedário",
+      "price": "T$ 75",
+      "spaces": "—",
+      "category": "Animais"
+    },
+    {
+      "name": "Elefante",
+      "price": "T$ 1500",
+      "spaces": "—",
+      "category": "Animais"
+    },
+    {
       "name": "Estábulo (por dia)",
       "price": "T$ 0,1",
+      "spaces": "—",
+      "category": "Animais"
+    },
+    {
+      "name": "Hiena",
+      "price": "T$ 220",
+      "spaces": "—",
+      "category": "Animais"
+    },
+    {
+      "name": "Leão",
+      "price": "T$ 800",
       "spaces": "—",
       "category": "Animais"
     },
@@ -624,8 +876,20 @@
       "category": "Animais"
     },
     {
+      "name": "Rinoceronte",
+      "price": "T$ 600",
+      "spaces": "—",
+      "category": "Animais"
+    },
+    {
       "name": "Trobo",
       "price": "T$ 60",
+      "spaces": "—",
+      "category": "Animais"
+    },
+    {
+      "name": "Urso Pardo",
+      "price": "T$ 300",
       "spaces": "—",
       "category": "Animais"
     },

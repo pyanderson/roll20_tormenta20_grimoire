@@ -6,6 +6,10 @@
       "description": "Você pode usar sua Destreza em vez de Força em testes de Atletismo. Além disso, terreno difícil não reduz seu deslocamento nem o impede de realizar investidas. Pré-requisito: Des 2."
     },
     {
+      "name": "Adestrar Montaria",
+      "description": "Você recebe +2 em Adestramento. Além disso, escolha um dos efeitos a seguir. Sua montaria se torna veterana ou recebe a habilidade de um outro tipo de parceiro iniciante, entre ajudante, assassino, besta de carga (veja a página 416), combatente, fortão, guardião ou vigilante. No caso do ajudante, o mestre deve aprovar as perícias escolhidas. Você só pode ter uma montaria treinada desta forma por vez e, se perdê-la, pode aplicar um treinamento a outra com uma semana de trabalho. Pré-requisitos: treinado em Adestramento, 7º nível de personagem."
+    },
+    {
       "name": "Ao Sabor do Destino",
       "description": "Confiando em suas próprias habilidades (ou em sua própria sorte), você abre mão de usar itens mágicos. Sua autoconfiança fornece diversos benefícios, de acordo com seu nível de personagem e a tabela da página seguinte.\n\nNível / Benefício\n6º +2 em uma perícia\n7º +1 na Defesa\n8º +1 nas rolagens de dano\n9º +1 em um atributo\n11º +2 em uma perícia\n12º +2 na Defesa\n13º +2 nas rolagens de dano\n14º +1 em um atributo\n16º +2 em uma perícia\n17º +3 na Defesa\n18º +3 nas rolagens de dano\n19º +1 em um atributo\n\nOs bônus não são cumulativos (os bônus em atributos e perícias devem ser aplicados num atributo ou perícia diferente a cada vez). Se você utilizar voluntariamente qualquer item mágico (exceto poções), perde o benefício deste poder até o fim da aventura. Você ainda pode lançar magias, receber magias benéficas ou beneficiar-se de itens usados por outros — por exemplo, pode “ir de carona” em um tapete voador, mas não pode você mesmo conduzi-lo. Pré-requisito: 6º nível de personagem."
     },
@@ -28,6 +32,10 @@
     {
       "name": "Costas Largas",
       "description": "Seu limite de carga aumenta em 5 espaços e você pode se beneficiar de um item vestido adicional. Pré-requisito: Con 1, For 1."
+    },
+    {
+      "name": "Dois Como Um",
+      "description": "Quando faz um teste de Atletismo, Cavalgar, Iniciativa, Luta, Percepção, Pontaria ou Reflexos enquanto montado, você pode gastar 2 PM para rolar dois dados e usar o melhor resultado. Pré-requisito: Ginete."
     },
     {
       "name": "Foco em Perícia",
@@ -55,11 +63,11 @@
     },
     {
       "name": "Sentidos Aguçados",
-      "description": "Você recebe +2 em Percepção, não fica desprevenido contra inimigos que não possa ver e, sempre que erra um ataque devido a camuflagem, pode rolar mais uma vez o dado da chance de falha. Pré-requisitos: Sab 1, treinado em Percepção."
+      "description": "Você recebe +2 em Percepção, não fica desprevenido contra inimigos que não possa perceber e, sempre que erra um ataque devido a camuflagem, pode rolar mais uma vez o dado da chance de falha. Pré-requisitos: Sab 1, treinado em Percepção."
     },
     {
       "name": "Sortudo",
-      "description": "Você pode gastar 3 PM para rolar novamente um teste recém realizado (apenas uma vez por teste)."
+      "description": "Quando faz um teste, você pode gastar 3 PM para rolá-lo novamente."
     },
     {
       "name": "Surto Heroico",

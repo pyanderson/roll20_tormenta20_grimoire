@@ -26,10 +26,26 @@
       "proficiency": "Armaduras Leves"
     },
     {
+      "name": "Armadura de ossos",
+      "price": "T$ 120",
+      "defenseBonus": "+3",
+      "armorPenalty": "–2",
+      "spaces": "2",
+      "proficiency": "Armaduras Leves"
+    },
+    {
       "name": "Gibão de peles",
       "price": "T$ 25",
       "defenseBonus": "+4",
       "armorPenalty": "–3",
+      "spaces": "2",
+      "proficiency": "Armaduras Leves"
+    },
+    {
+      "name": "Veste de teia de aranha",
+      "price": "T$  3.000",
+      "defenseBonus": "+4",
+      "armorPenalty": "0",
       "spaces": "2",
       "proficiency": "Armaduras Leves"
     },
@@ -66,6 +82,14 @@
       "proficiency": "Armaduras Pesadas"
     },
     {
+      "name": "Armadura de quitina",
+      "price": "T$ 350",
+      "defenseBonus": "+7",
+      "armorPenalty": "–3",
+      "spaces": "5",
+      "proficiency": "Armaduras Pesadas"
+    },
+    {
       "name": "Meia armadura",
       "price": "T$ 600",
       "defenseBonus": "+8",
@@ -95,6 +119,14 @@
       "defenseBonus": "+2",
       "armorPenalty": "–2",
       "spaces": "2",
+      "proficiency": "Escudos"
+    },
+    {
+      "name": "Escudo de couro",
+      "price": "T$ 3",
+      "defenseBonus": "+1",
+      "armorPenalty": "–1",
+      "spaces": "1",
       "proficiency": "Escudos"
     }
   ]

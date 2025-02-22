@@ -120,7 +120,11 @@
     },
     {
       "name": "Veneno Potente",
-      "description": "A CD para resistir aos venenos que você usa aumenta em +5. Pré-requisito: treinado em Ofício (alquimista). Esquiva Sobrenatural. No 4º nível, seus instintos são tão apurados que você consegue reagir ao perigo antes que seus sentidos percebam. Você nunca fica surpreendido."
+      "description": "A CD para resistir aos venenos que você usa aumenta em +5. Pré-requisito: treinado em Ofício (alquimista)."
+    },
+    {
+      "name": "Esquiva Sobrenatural",
+      "description": "No 4º nível, seus instintos são tão apurados que você consegue reagir ao perigo antes que seus sentidos percebam. Você nunca fica surpreendido."
     },
     {
       "name": "Olhos nas Costas",

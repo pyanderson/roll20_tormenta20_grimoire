@@ -39,11 +39,11 @@
     },
     {
       "name": "Aura de Paz Marah",
-      "description": "Você pode gastar 2 PM para gerar uma aura de paz com alcance curto e duração de uma cena. Qualquer inimigo dentro da aura que tente fazer uma ação hostil contra você deve fazer um teste de Vontade (CD Car). Se falhar, perderá sua ação. Se passar, fica imune a esta habilidade por um dia."
+      "description": "Você pode gastar 2 PM para gerar uma aura de paz com 9m de raio e duração de uma cena. Qualquer inimigo dentro da aura que tente fazer uma ação hostil contra você deve fazer um teste de Vontade (CD Car). Se falhar, perderá sua ação. Se passar, fica imune a esta habilidade por um dia."
     },
     {
       "name": "Aura Restauradora Lena",
-      "description": "Efeitos de cura usados por você e seus aliados em alcance curto recuperam +1 PV por dado."
+      "description": "Efeitos de cura usados por você e seus aliados em um raio de 9m recuperam +1 PV por dado."
     },
     {
       "name": "Bênção do Mana Wynna",
@@ -139,7 +139,7 @@
     },
     {
       "name": "Fé Guerreira Arsenal",
-      "description": "Você pode usar Sabedoria para Guerra (em vez de Inteligência). Além disso, em combate, pode gastar 2 PM para substituir um teste de perícia (exceto testes de ataque) por um teste de Guerra."
+      "description": "Você pode usar Sabedoria para Guerra (em vez de Inteligência). Além disso, em combate, quando vai fazer um teste de perícia, você pode gastar 2 PM para substituí-lo por um teste de Guerra (exceto para testes de ataque)."
     },
     {
       "name": "Forma de Macaco Hyninn",
@@ -239,7 +239,11 @@
     },
     {
       "name": "Sopro do Mar Oceano",
-      "description": "Você pode gastar uma ação padrão e 1 PM para soprar vento marinho em um cone de 6m. Criaturas na área sofrem 2d6 pontos de dano de frio (Reflexos CD Sab reduz à metade). Você pode aprender Sopro das Uivantes como uma magia divina. Se fizer isso, o custo dela diminui em –1 PM. e Sorte dos loucos Nimb Você pode pagar 1 PM para rolar novamente um teste recém realizado. Se ainda assim falhar no teste, você perde 1d6 PM."
+      "description": "Você pode gastar uma ação padrão e 1 PM para soprar vento marinho em um cone de 6m. Criaturas na área sofrem 2d6 pontos de dano de frio (Reflexos CD Sab reduz à metade). Você pode aprender Sopro das Uivantes como uma magia divina. Se fizer isso, o custo dela diminui em –1 PM."
+    },
+    {
+      "name": "Sorte dos loucos Nimb",
+      "description": "Quando faz um teste, você pode pagar 1 PM para rolá-lo novamente (você pode fazer isso mais de uma vez por teste). Se ainda assim falhar, perde 1d6 PM para cada vez que utilizou este poder neste teste."
     },
     {
       "name": "Talento Artístico Marah",
