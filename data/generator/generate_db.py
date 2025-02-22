@@ -10,7 +10,7 @@ output_path = "static/db.json"
 def load_folder(source_path):
     folder = []
     for path in Path(source_path).rglob("*.json"):
-        with open(path) as jfile:
+        with open(path, encoding="utf-8") as jfile:
             folder.append(json.load(jfile))
     return folder
 
