@@ -27,7 +27,7 @@
     },
     {
       "name": "Faro",
-      "description": "Você tem olfato apurado. Contra inimigos que não possa ver, a criatura não fica desprevenida e camuflagem total lhe causa apenas 20% de chance de falha em alcance curto."
+      "description": "Você tem olfato apurado. Contra inimigos em alcance curto que não possa perceber, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha."
     },
     {
       "name": "Medo de Altura",
