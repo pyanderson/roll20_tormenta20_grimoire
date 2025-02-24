@@ -61,6 +61,7 @@ book_folders_order = [
     "Raças",
     "Classes",
     "Origens",
+    "Deuses",
     "Perícias",
     "Poderes",
     "Equipamento",

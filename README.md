@@ -73,7 +73,7 @@ Visite a página da loja de extensões do seu navegador:
 - [x] Suporte para arrastar e soltar na ficha para raças, classes, poderes, equipamento e magias. _[v0.6.0]_
 - [x] Importar/Exportar fichas. _[v0.7.0]_
 - [x] Inventor. _[v0.7.3]_
-- [ ] Divindades (Grimório)
+- [x] Divindades (Grimório). _[v0.7.5]_ (Obrigado @raul-brilhante)
 - [ ] Bestiário?
 - [ ] ??????
 
