@@ -1,6 +1,6 @@
 {
   "name": "roll20_tormenta20_grimoire",
-  "version": "0.7.4",
+  "version": "0.7.5",
   "description": "Extensão para Google Chrome e Firefox que personaliza fichas de Tormenta20 no Roll20 adicionando magias, habilidades e poderes.",
   "main": "src/index.js",
   "scripts": {
