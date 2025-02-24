@@ -5,7 +5,7 @@
     {
       "type": "item",
       "name": "Testes",
-      "description": "Sempre que um personagem tenta fazer uma ação cujo resultado é incerto, o jogador faz um teste. Um teste é uma rolagem de 1d20 + um modificador.\n\nTestes são classificados pela característica utilizada (atributo ou perícia) e pelo que define sua CD (comuns ou opostos)."
+      "description": "Sempre que um personagem tenta fazer uma ação cujo resultado é incerto, o jogador faz um teste. Um teste é uma rolagem de 1d20 + um modificador. Você passa no teste se este resultado for igual ou maior que a CD.\n\nTestes são classificados pela característica utilizada (atributo ou perícia) e pelo que define sua CD (comuns ou opostos)."
     },
     {
       "type": "item",

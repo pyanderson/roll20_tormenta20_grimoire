@@ -81,12 +81,44 @@
         {
           "type": "table",
           "name": "Tabela 5-3: Situações Especiais",
-          "content": "O atacante está...\tModificador no ataque\nCaído\t–5\nCego\t50% de chance de falha\nEm posição elevada\t+2\nFlanqueando o alvo\t+2 (apenas para corpo a corpo)\nInvisível\t+5 (não se aplica a alvos cegos)\nOfuscado\t–2\nO alvo está...\tModificador na Defesa\nCaído\t–5 contra ataques corpo a corpo, +5 contra ataques à distância\nCego\t–5\nDesprevenido\t–5\nSob camuflagem leve\t20% de chance de falha\nSob camuflagem total\t50% de chance de falha\nSob cobertura leve\t+5\nSob cobertura total\tO alvo não pode ser atacado"
+          "content": "O atacante está...\tModificador no ataque\nCaído\t–5 (apenas para corpo a corpo)\nCego\t50% de chance de falha\nEm posição elevada\t+2\nFlanqueando o alvo\t+2 (apenas para corpo a corpo)\nInvisível\tO alvo sofre –5 na Defesa\nOfuscado\t–2\nO alvo está...\tModificador na Defesa\nCaído\t–5 contra ataques corpo a corpo, +5 contra ataques à distância\nCego\t–5\nDesprevenido\t–5\nSob camuflagem leve\t20% de chance de falha\nSob camuflagem total\t50% de chance de falha\nSob cobertura leve\t+5\nSob cobertura total\tO alvo não pode ser atacado"
         },
         {
           "type": "table",
           "name": "Tabela 5-4: Estatísticas de Objetos",
           "content": "Exemplo\tTamanho\tDef\tRD\tPV\nObjetos Gerais\nPergaminho\tMinúsculo\t15\t0\t1\nCorda\tMinúsculo\t15\t0\t2\nCorrente\tMinúsculo\t15\t10\t2\nCadeira\tPequeno\t12\t5\t5\nBarril\tMédio\t10\t5\t10\nPortad de madeira\tGrande\t8\t5\t20\nPorta de pedra\tGrande\t8\t8\t100\nPorta de ferro\tGrande\t8\t10\t100\nCarroça\tGrande\t8\t5\t50\nCasebre\tEnorme\t5\t5\t100\nCeleiro\tColossal\t0\t5\t200\nArmas, Armaduras e Escudos*\nArma leve de madeira (machadinha)\t5\t2\nArma de uma mão de madeira (clava)\t5\t5\nArma de duas mãos de madeira (bordão)\t5\t10\nArma leve de metal (adaga)\t10\t2\nArma de uma mão de metal(espadalonga)\t10\t5\nArma de duas mãos de metal (montante)\t10\t10\nEscudo leve\t5\t10\nEscudo pesado\t10\t20\nArmadura leve\t5\t20\nArmadura pesada\t10\t40\n*Pontos de vida de itens comuns. Divida por 2 para itens reduzidos, multiplique por 2 para itens aumentados e multiplique por 5 para itens gigantes."
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "Ameaças de Arton",
+      "items": [
+        {
+          "type": "folder",
+          "name": "Capítulo 3",
+          "items": [
+            {
+              "type": "table",
+              "name": "Tabela 3-1: Novas Armas",
+              "content": "Nome\tPreço\tDano\tCrítico\tAlcance\tTipo\tEspaços\nArmas Simples\nCorpo a Corpo - Leve\nPorrete\tT$ 2\t1d6\tx2\t—\tImpacto\t1\nAtaque à Distância - Uma Mão\nZarabatana\tT$ 5\t1d3\tx2\tCurto\tPerfuração\t1\nArmas Marciais\nCorpo a Corpo - Leve\nNeko-te\tT$ 10\t1d4\t19\t—\tCorte\t1\nCorpo a Corpo - Uma Mão\nGládio\tT$ 12\t1d6\t19/x3\t—\tPerfuração\t1\nCorpo a Corpo - Duas Mãos\nTetsubo\tT$ 20\t1d10\tx2\t—\tImpacto\t2\nArmas de Fogo*\nAtaque à Distância - Leve\nTraque\tT$ 75\t2d6\t19/x3\tCurto\tPerfuração\t1\nAtaque à Distância - Duas Mãos\nArcabuz\tT$ 800\t2d10\t19/x3\tMédio\tPerfuração\t2\nBacamarte\tT$ 450\t4d6\t19/x3\tEspecial\tPerfuração\t2\nArmas Exóticas\nCorpo a Corpo - Uma Mão\nAçoite finntroll\tT$ 30\t1d8\tx2\t—\tCorte\t1\nEspada vespa\tT$ 75\t2d4\t18\t—\tCorte ou Perfuração\t1\nPistola-punhal\tT$ 300\t**\t**\t**\tPerfuração\t1\nMordida do diabo\tT$ 30\t1d4\tx2\t—\tPerfuração\t1\nPresa de serpente\tT$ 1.000\t1d8\t17\t—\tCorte\t1\nCorpo a Corpo - Duas Mãos\nLança de fogo\tT$ 1.000\t**\t**\t**\tPerfuração\t2\nAtaque à Distância - Leve\nShuriken\tT$ 1\t1d4\tx2\tCurto\tPerfuração\t0,5\nAtaque à Distância - Uma Mão\nArpão\tT$ 30\t1d10\tx3\tCurto\tPerfuração\t1\n\n*Todas as armas de fogo usam balas (veja Tormenta20, p. 151) como munição.\n**Veja descrição da arma."
+            },
+            {
+              "type": "table",
+              "name": "Tabela 3-2: Novas Armaduras e Escudos",
+              "content": "Nome\tPreço\tDefesa\tPenalidade\tEspaços\nArmaduras Leves\nArmadura de ossos\tT$ 120\t+3\t-2\t2\nVeste de teia de aranha\tT$ 3.000\t+4\t0\t2\nCouro batido\tT$ 35\t+3\t–1\t2\nArmaduras Pesadas\nArmadura de quitina\tT$ 350\t+7\t-3\t5\nEscudos\nEscudo de couro\tT$ 3\t+1\t-1\t1"
+            },
+            {
+              "type": "table",
+              "name": "Tabela 3-3: Novos Itens Gerais",
+              "content": "Item\tPreço\tEspaços\tItem\tPreço\tEspaços\nAlimentação\t-\t-\tAlquímicos - Preparados\t-\t-\nAlgravia\tT$ 3\t—\tBálsamo de drogadora\tT$ 60\t0,5\nBanquete de canceronte\tT$ 36\t—\tBomba de fumaça\tT$ 15\t0,5\nCoc-au-triz\tT$ 54\t—\tElixir quimérico\tT$ 120\t0,5\nCozido de serpe\tT$ 12\t—\tÉter elemental\tT$ 60\t0,5\nGorlogg ensopado\tT$ 6\t—\tIsca putrefata\tT$ 60\t0,5\nOmelete monstruosa\tT$ 3\t—\tLágrima pétrea\tT$ 30\t0,5\nSashimi de kraken\tT$ 60\t—\tÓleo de baleia\tT$ 30\t0,5\nAnimais\t-\t-\tÓleo de besouro\tT$ 50\t0,5\nBulette\tT$ 500\t—\tPó azul\tT$ 150\t0,5\nCapivara\tT$ 60\t—\tAlquímicos - Catalisadores\t-\t-\nCorcel do deserto\tT$ 150\t—\tCorrosivo mineral\tT$ 150\t0,5\nDromedário\tT$ 75\t—\tGelo extremo\tT$ 150\t0,5\nElefante\tT$ 1.500\t—\tPedaço de língua\tT$ 30\t0,5\nHiena\tT$ 220\t—\tRaio cristalizado\tT$ 150\t0,5\nLeão\tT$ 800\t—\tAlquímicos - Venenos\t-\t-\nRinoceronte\tT$ 600\t—\tEsporos de cogumelo\tT$ 75\t0,5\nUrso pardo\tT$ 300\t—\tPeçonha anciã\tT$ 1.800\t0,5\nEquipamento de Aventura\t-\t-\tPeçonha irritante\tT$ 10\t0,5\nCaixa de voz\tT$ 50\t1\tVeneno batráquio\tT$ 30\t0,5\nCorda de teia\tT$ 100\t1\tVestuário\t-\t-\nDente de wisphago\tT$ 100\t1\tGarra feroz\tT$ 60\t1\nEsotéricos\t-\t-\tManto do mantor\tT$ 450\t1\nAnkh solar\tT$ 450\t1\tManto pesado\tT$ 10\t1\nTomo de guerra\tT$ 300\t1\tSombreiro\tT$ 10\t1\nTomo do rancor\tT$ 750\t1\tTraje selako\tT$ 90\t1"
+            },
+            {
+              "type": "table",
+              "name": "Tabela 3-4: Novos Materiais Especiais",
+              "content": "Material\tArma\tArmadura Leve\tArmadura Pesada\tEscudo\tEsotérico\nCasco de monstro\t+ T$ 750\t+ T$ 750\t+ T$ 6.000\t+ T$ 750\t+ T$ 6.000\nLanajuste\t+ T$ 600\t+ T$ 1.500\t+ T$ 3.000\t+ T$ 1.500\t+ T$ 3.000\nPrata\t+ T$  600\t+ T$  1.500\t+ T$ 3.000\t+ T$ 1.500\t+ T$ 400"
+            }
+          ]
         }
       ]
     }

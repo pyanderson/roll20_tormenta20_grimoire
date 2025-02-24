@@ -19,11 +19,11 @@
   "abilities": [
     {
       "name": "Engenhoso",
-      "description": "Você não sofre penalidades em testes de perícia por não usar kits. Se usar o kit, recebe +2 no teste de perícia."
+      "description": "Você não sofre penalidades em testes de perícia por não usar ferramentas. Se usar a ferramenta necessária, recebe +2 no teste de perícia."
     },
     {
       "name": "Espelunqueiro",
-      "description": "Você recebe visão no escuro e deslocamento de escalada igual ao seu deslocamento terrestre"
+      "description": "Você recebe visão no escuro e deslocamento de escalada igual ao seu deslocamento terrestre."
     },
     {
       "name": "Peste Esguia",

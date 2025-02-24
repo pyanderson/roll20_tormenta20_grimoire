@@ -386,6 +386,11 @@
         },
         {
           "type": "item",
+          "name": "Fortificação",
+          "description": "A criatura tem uma chance de ignorar o dano adicional de acertos críticos e ataques furtivos (em caso de sucesso, trate-a como se tivesse Imunidade a isso)."
+        },
+        {
+          "type": "item",
           "name": "Imunidade",
           "description": "A criatura é imune a um tipo de efeito ou outro elemento (como um tipo de dano, uma condição ou uma habilidade). Ela não sofre nenhuma consequência direta daquilo contra a qual ela é imune. Ela ainda pode ser afetada indiretamente — por exemplo, uma criatura imune a efeitos mágicos ainda é afetada por terreno difícil criado por magias. Imunidade a acertos críticos os transforma em acertos normais."
         },

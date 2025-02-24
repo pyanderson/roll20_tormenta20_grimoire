@@ -85,7 +85,7 @@
     },
     {
       "name": "Mestre em Arma",
-      "description": "Escolha uma arma. Com esta arma, seu dano aumenta em um passo e você pode gastar 2 PM para rolar novamente um teste de ataque recém realizado. Pré-requisitos: Especialização em Arma com a arma escolhida, 12º nível de guerreiro."
+      "description": "Escolha uma arma. Com esta arma, seu dano aumenta em um passo e quando faz um teste de ataque você pode gastar 2 PM para rolá-lo novamente. Pré-requisitos: Especialização em Arma com a arma escolhida, 12º nível de guerreiro."
     },
     {
       "name": "Planejamento Marcial",
@@ -105,7 +105,11 @@
     },
     {
       "name": "Valentão",
-      "description": "Você recebe +2 em testes de ataque e rolagens de dano contra oponentes caídos, desprevenidos, flanqueados ou indefesos. Durão. A partir do 3ª nível, sua rijeza muscular permite que você absorva ferimentos. Sempre que sofre dano, você pode gastar 3 PM para reduzir esse dano à metade."
+      "description": "Você recebe +2 em testes de ataque e rolagens de dano contra oponentes caídos, desprevenidos, flanqueados ou indefesos."
+    },
+    {
+      "name": "Durão",
+      "description": "A partir do 3ª nível, sua rijeza muscular permite que você absorva ferimentos. Sempre que sofre dano, você pode gastar 3 PM para reduzir esse dano à metade."
     },
     {
       "name": "Ataque Extra",

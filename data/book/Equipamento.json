@@ -205,12 +205,99 @@
         {
           "type": "item",
           "name": "Ataques Desarmados & Armas Naturais",
-          "description": "Um ataque desarmado é um soco, chute ou qualquer outro golpe que use seu próprio corpo. Um ataque desarmado é considerado uma arma leve corpo a corpo que causa dano de impacto não letal (1d3 pontos de dano para criaturas Pequenas e Médias) e não é afetado por efeitos que mencionem especificamente objetos ou armas empunhadas. Uma criatura só possui um único ataque desarmado (mas pode escolher qual parte do corpo utiliza cada vez que o desfere).\n\nArmas naturais representam partes específicas do corpo de uma criatura que podem ser usadas para desferir ataques, como chifres, garras ou uma poderosa mordida. Armas naturais são consideradas armas leves corpo a corpo e, assim como ataques desarmados, não são afetadas por efeitos que afetem especificamente objetos (uma arma natural não pode ser desarmada ou quebrada, por exemplo) ou que afetem armas que precisam ser empunhadas. A quantidade e tipo de dano de cada arma natural é apresentada em sua descrição."
+          "description": "Um ataque desarmado é um soco, chute ou qualquer outro golpe que use seu próprio corpo e que não seja uma arma natural. Um ataque desarmado é considerado uma arma leve corpo a corpo que causa dano de impacto não letal (1d3 pontos de dano para criaturas Pequenas e Médias) e não é afetado por efeitos que mencionem especificamente objetos ou armas empunhadas. Uma criatura só possui um único ataque desarmado (mas pode escolher qual parte do corpo utiliza cada vez que o desfere).\n\nArmas naturais representam partes específicas do corpo de uma criatura que podem ser usadas para desferir ataques, como chifres, garras ou uma poderosa mordida. Armas naturais são consideradas armas leves corpo a corpo e, assim como ataques desarmados, não são afetadas por efeitos que afetem especificamente objetos (uma arma natural não pode ser desarmada ou quebrada, por exemplo) ou que afetem armas que precisam ser empunhadas. A quantidade e tipo de dano de cada arma natural é apresentada em sua descrição."
         },
         {
           "type": "folder",
           "name": "Descrição das Armas",
           "items": [
+            {
+              "type": "folder",
+              "name": "Ameaças de Arton",
+              "items":
+              [
+                {
+                  "type": "item",
+                  "name": "Açoite Finntroll",
+                  "description": "Feito de tiras de couro com farpas de aço nas pontas, é também um instrumento de tortura. Uma criatura que sofra dano do açoite sofre –2 em testes de perícia e rolagens de dano por 1 rodada (metabolismo)."
+                },
+                {
+                  "type": "item",
+                  "name": "Arcabuz",
+                  "description": "Versão mais pesada e mais potente do mosquete. Por seu peso e recuo, é uma arma desbalanceada. Recarregar um arcabuz é uma ação padrão."
+                },
+                {
+                  "type": "item",
+                  "name": "Arpão",
+                  "description": "Instrumento de pesca convertido em arma, esta haste tem rebarbas em uma extremidade e uma corda na outra. Se causar dano com um ataque, o arpão fica preso no alvo. Enquanto você segura a corda, sempre que o alvo se move, você pode fazer um teste de Força oposto. Se você vencer, o alvo só pode se mover até o limite da corda (9m). Ele pode se soltar gastando uma ação de movimento, mas perde 1d10 PV. O arpão é uma arma de arremesso; pode ser usado como arma corpo a corpo, mas com penalidade de –5 no teste de ataque. Esta arma é permitida para devotos do Oceano e se beneficia de poderes concedidos que afetam essas armas."
+                },
+                {
+                  "type": "item",
+                  "name": "Bacamarte",
+                  "description": "Esta arma de fogo tem boca larga, capaz de espalhar a munição como um cone de 6m (seu alcance máximo). Para atacar, faça um ataque à distância e compare com a Defesa de cada criatura na área. Recarregar exige uma ação completa e 2 balas."
+                },
+                {
+                  "type": "item",
+                  "name": "Espada Vespa",
+                  "description": "Esta arma estranha é feita com três ferrões de vespas gigantes, presos a uma estrutura de ossos em forma de “H”. Pode-se pressionar a empunhadura para unir os ferrões, como uma arma de corte; ou separá-los, para dano de perfuração."
+                },
+                {
+                  "type": "item",
+                  "name": "Gládio",
+                  "description": "Espada de lâmina curta, mas pesada, sem guarda. A ponta é muito afiada, capaz de infligir ferimentos precisos e letais. É uma das armas padrão dos legionários do Império de Tauron."
+                },
+                {
+                  "type": "item",
+                  "name": "Lança de Fogo",
+                  "description": "Esta arma é formada por um longo cano com uma coronha de madeira e uma lâmina pontiaguda em sua extremidade. A lança de fogo é uma arma híbrida que pode ser usada em dois modos: como uma arma corpo a corpo alongada (dano 1d10, crítico x3) ou como uma arma de fogo (dano 2d8, crítico 19/x3, alcance médio). Quando faz um ataque com a lança de fogo em modo corpo a corpo, você pode acionar seu mecanismo para disparar a bala; se acertar, causa +2d8 pontos de dano. Quando faz um ataque com ela em modo arma de fogo contra um oponente adjacente, você causa +1d8 pontos de dano. Para atacar com ela como arma de fogo, você deve também ter proficiência em armas de fogo, ou é considerado não proficiente na arma. Recarregar a lança de fogo é uma ação padrão."
+                },
+                {
+                  "type": "item",
+                  "name": "Mordida do Diabo",
+                  "description": "Esta arma é formada por um aparato em forma de mandíbula preso a uma empunhadura. A mandíbula pode ser usada para agarrar e, graças a uma longa corrente, pode se destacar do cabo e alcançar alvos a até 3m. Por exigir movimentos precisos e coordenados, é uma arma exótica. A mordida pode ser feita de metal, mas ossos e dentes de feras aquáticas também são usados. É uma arma ágil e versátil, fornecendo +2 em testes para agarrar e desarmar."
+                },
+                {
+                  "type": "item",
+                  "name": "Neko-te",
+                  "description": "Uma luva com garras metálicas na palma e no dorso. Fornece +2 em testes de Atletismo para escalar e conta como uma mão livre para isso. Além disso, se você estiver usando duas neko-te, seu deslocamento ao escalar aumenta em +1,5m."
+                },
+                {
+                  "type": "item",
+                  "name": "Pistola-Punhal",
+                  "description": "Esta arma é formada por uma lâmina pontiaguda com um mecanismo acoplado que armazena uma bala. A pistola-punhal é uma arma híbrida que pode ser usada em dois modos: como uma arma corpo a corpo ágil (dano 1d6, crítico 18) ou como uma arma de fogo (dano 2d6, crítico 19/x3, alcance curto). Quando faz um ataque com a pistola-punhal em modo corpo a corpo, você pode acionar seu mecanismo para disparar a bala; se acertar, causa +2d6 pontos de dano. Para atacar com ela em modo arma de fogo, você deve também ter proficiência em armas de fogo, ou é considerado não proficiente com ela. Recarregar a pistola-punhal é uma ação padrão."
+                },
+                {
+                  "type": "item",
+                  "name": "Porrete",
+                  "description": "Um pedaço sólido de madeira, coberto por uma camada grossa de lã. Um porrete causa dano não letal."
+                },
+                {
+                  "type": "item",
+                  "name": "Presa de Serpente",
+                  "description": "Espada de obsidiana, um vidro vulcânico negro formado quando a lava esfria rapidamente. Por sua origem, as voracis acreditam que esse material é uma dádiva da Divina Serpente. Mais afiada que o aço, causa ferimentos terríveis; em um acerto crítico, o dano aumenta em um passo (antes de ser multiplicado). Uma presa de serpente não pode receber a melhoria material especial e exige treinamento especial para ser empunhada sem quebrar, por isso é uma arma exótica. É uma arma ágil."
+                },
+                {
+                  "type": "item",
+                  "name": "Shuriken",
+                  "description": "Pequenos projéteis metálicos para arremesso, em forma de estrelas ou dardos. Uma vez por rodada, quando ataca com uma shuriken, você pode gastar 1 PM para fazer um ataque adicional de shuriken contra o mesmo alvo. Se tiver Arremesso Múltiplo, em vez disso você não paga PM para usar esse poder."
+                },
+                {
+                  "type": "item",
+                  "name": "Tetsubo",
+                  "description": "Uma versão mais pesada e sofisticada do tacape, geralmente reforçado com anéis metálicos, rebites e/ou cravos. É uma arma versátil, fornecendo +2 em testes para derrubar ou empurrar."
+                },
+                {
+                  "type": "item",
+                  "name": "Traque",
+                  "description": "Esta arma, feita com sucata e materiais de segunda mão, é suscetível a falhar nos piores momentos. Se errar um ataque com um resultado ímpar no d20, ela é avariada. Recarregá-la é uma ação padrão."
+                },
+                {
+                  "type": "item",
+                  "name": "Zarabatana",
+                  "description": "Pequeno tubo oco usado para disparar dardos. Causa dano mínimo, mas é excelente para inocular venenos; a CD para resistir ao veneno dos dardos aumenta em +2. Um pacote de munição contém 20 dardos, custa T$ 2 e ocupa 0,5 espaço."
+                }
+              ]
+            },
             {
               "type": "item",
               "name": "Armas Improvisadas",
@@ -478,7 +565,7 @@
         {
           "type": "item",
           "name": "Ataque com Escudo",
-          "description": "Caso possua proficiência em armas marciais, você pode usar um escudo para atacar, mas perde seu bônus na Defesa até seu próximo turno se fizer isso. Escudos leves causam 1d4 pontos de dano de impacto e escudos pesados causam 1d6 pontos de dano de impacto, ambos com crítico x2. Embora possam ser usados para atacar, escudos não contam como armas."
+          "description": "Caso possua proficiência em armas marciais, você pode usar um escudo para atacar, mas perde seu bônus na Defesa até seu próximo turno se fizer isso. Escudos leves causam 1d4 pontos de dano de impacto e escudos pesados causam 1d6 pontos de dano de impacto, ambos com crítico x2. Escudos podem ser reduzidos, aumentados ou gigantes (veja p. 106) mas não contam como armas."
         },
         {
           "type": "item",
@@ -515,6 +602,32 @@
           "type": "folder",
           "name": "Descrição das Armaduras e Escudos",
           "items": [
+            {
+              "type": "folder",
+              "name": "Ameaças de Arton",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Armadura de ossos",
+                  "description": "Os nezumi e outros povos são conhecidos por produzir estas armaduras sinistras. Combinando um aspecto assustador e energias negativas de ossadas, esta armadura fornece +1 em Intimidação e na CD de seus efeitos de medo (cumulativo com a melhoria macabra)."
+                },
+                {
+                  "type": "item",
+                  "name": "Armadura de quitina",
+                  "description": "Feita com carapaças selecionadas de grandes insetos, esta armadura dos povos-trovão é mais leve que suas contrapartes metálicas. Embora seja uma armadura pesada, não reduz o deslocamento do usuário."
+                },
+                {
+                  "type": "item",
+                  "name": "Escudo de couro",
+                  "description": "Por sua leveza, este escudo é popular entre velocis e ubaneri. É feito com uma armação de madeira esticando uma membrana de couro (ou outro material flexível) e amarrado ao braço, impedindo o uso dessa mão. Contra ataques à distância, o bônus na Defesa do escudo aumenta em +2. Entretanto, ele é muito leve para ser usado como arma."
+                },
+                {
+                  "type": "item",
+                  "name": "Veste de teia de aranha",
+                  "description": "Feita com teia de aranha gigante, esta veste é cinza-escura, maleável e silenciosa, mas também forte como aço. Fornece +5 em Furtividade, mas não pode receber a melhoria material especial."
+                }
+              ]
+            },
             {
               "type": "item",
               "name": "Armadura Acolchoada",
@@ -598,9 +711,35 @@
               "description": "Utensílios úteis para exploradores de masmorras. A CD para fabricar qualquer desses itens é 15."
             },
             {
+              "type": "folder",
+              "name": "Ameaças de Arton",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Caixa de Voz",
+                  "description": "Este complexo mecanismo tem 1d4 cargas: quando usa uma habilidade de bardo ou nobre com alcance curto ou médio, você pode gastar uma carga para aumentar seu alcance em um passo. Segredo de engenharia da Supremacia Purista, este item não pode ser fabricado, sendo encontrado apenas nos destroços de corcéis e carruagens de comando."
+                },
+                {
+                  "type": "item",
+                  "name": "Corda de Teia",
+                  "description": "Feita de teia de aranha gigante, esta corda de 10m funciona como uma corda normal, mas é mais resistente. Arrebentá-la exige 5 pontos de dano de corte ou um teste de Força (CD 28)."
+                },
+                {
+                  "type": "item",
+                  "name": "Dente de Wisphago",
+                  "description": "Um dente de wisphago pode ser vestido como um amuleto. Quando faz um teste de resistência contra uma magia arcana, você pode gastar o amuleto para rolar novamente esse teste com um bônus de +2. Uma vez ativado, o amuleto se desfaz. Um dente de wisphago não pode ser fabricado."
+                },
+                {
+                  "type": "item",
+                  "name": "Gema de Força",
+                  "description": "Parte de certos engenhos da Supremacia, esta gema tem 1d4 cargas. Empunhando a gema, você pode gastar uma ação padrão e uma carga para produzir um domo semelhante ao efeito básico da magia Campo de Força. Alternativamente, quando lança essa magia, você pode empulhá-lo e usar uma carga para reduzir seu custo em –2 PM. Encontrada nos destroços de corcéis e carruagens de comando, esta gema não pode ser fabricada."
+                }
+              ]
+            },
+            {
               "type": "item",
               "name": "Água Benta",
-              "description": "Produzida com a magia Abençoar Alimentos, esta água sagrada é um poderoso recurso na luta contra o mal. Para usar a água benta, você gasta uma ação padrão e escolhe um morto-vivo, demônio ou diabo em alcance curto (a água benta é inofensiva contra outras criaturas). O alvo sofre 2d10 pontos de dano de luz (Reflexos CD Sab reduz à metade)."
+              "description": "Produzida com a magia Abençoar Alimentos, esta água sagrada é um poderoso recurso na luta contra o mal. Para usar a água benta, você gasta uma ação padrão e escolhe um morto-vivo ou abissal em alcance curto (a água benta é inofensiva contra outras criaturas). O alvo sofre 2d10 pontos de dano de luz (Reflexos CD Sab reduz à metade)."
             },
             {
               "type": "item",
@@ -770,6 +909,37 @@
               "description": "Todos os itens desta seção precisam ser vestidos para fornecerem seus benefícios. A CD para fabricar qualquer vestuário é 20."
             },
             {
+              "type": "folder",
+              "name": "Ameaças de Arton",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Garra Feroz",
+                  "description": "Estas pinças de insetos gigantes, presas com tiras de couro, funcionam como uma manopla (Tormenta20, p. 159), mas seus benefícios também se aplicam a uma garra ou a uma arma natural de um personagem sob efeito de habilidades como Forma Selvagem."
+                },
+                {
+                  "type": "item",
+                  "name": "Manto do Mantor",
+                  "description": "Este manto, feito a partir do couro de um mantor, oferece parte de sua furtividade. Na escuridão completa fornece camuflagem total, mesmo contra criaturas que vejam no escuro."
+                },
+                {
+                  "type": "item",
+                  "name": "Manto Pesado",
+                  "description": "Estas vestes pesadas com um grande capuz oferecem proteção contra o sol e contra claridade em excesso. Você recebe imunidade a condição ofuscado e, mesmo durante o dia, não é considerado sob luz solar ou semelhante."
+                },
+                {
+                  "type": "item",
+                  "name": "Sombreiro",
+                  "description": "Tipo de chapéu com abas muito largas, comum nas proximidades de Smokestone. Fornece resistência a efeitos de sentidos +2."
+                },
+                {
+                  "type": "item",
+                  "name": "Traje Selako",
+                  "description": "Feito com couro de selako, este traje fornece parte das capacidades desses predadores. Você recebe +2 em testes de Atletismo para nadar e +3m em seu deslocamento de natação."
+                }
+              ]
+            },
+            {
               "type": "item",
               "name": "Andrajos de Aldeão",
               "description": "Roupas típicas de camponês. Consiste de camisa larga e calças soltas ou blusa e saia e não inclui botas — os mais pobres andam descalços. Fornece +2 em testes de Investigação para interrogar (ninguém se importa com o que um aldeão escuta) e, se você possuir o poder Aparência Inofensiva, a CD para resistir a ele aumenta em +2. Porém, impõe –2 em perícias baseadas em Carisma contra pessoas que se importam com classe social."
@@ -886,6 +1056,27 @@
               "description": "Itens utilizados por conjuradores para lançar magias de forma mais eficiente. Para usar um esotérico, você precisa empunhá-lo com a mão que usará para gesticular ao lançar a magia. Uma magia só pode receber os benefícios de um esotérico por vez. A CD para fabricar qualquer esotérico é 20 e para fabricá-lo você deve ser treinado em Misticismo."
             },
             {
+              "type": "folder",
+              "name": "Ameaças de Arton",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Ankh Solar",
+                  "description": "Este item raro é encontrado em corpos embalsamados no Deserto da Perdição. Pode ser usado como arma leve simples corpo a corpo (dano 1d6, crítico 19, corte). Suas magias que tenham testes de resistência recebem o seguinte aprimoramento: +2 PM. Além do normal, criaturas que falham na resistência não podem recuperar PV por 1 rodada."
+                },
+                {
+                  "type": "item",
+                  "name": "Tomo de Guerra",
+                  "description": "Quando lança uma magia de evocação, você recebe +1 PM para gastar em aprimoramentos."
+                },
+                {
+                  "type": "item",
+                  "name": "Tomo do Rancor",
+                  "description": "Suas magias de dano recebem o seguinte aprimoramento: +2 PM. Além do normal, quando lança uma magia de dano, ela causa +2d8+2 pontos de dano de corte, impacto ou perfuração, a sua escolha."
+                }
+              ]
+            },
+            {
               "type": "item",
               "name": "Bolsa de Pó",
               "description": "Uma bolsa com pó multicolorido, fabricado a partir das pétalas trituradas de flores que nascem apenas na Pondsmânia. Quando lança uma magia de encantamento ou ilusão, você recebe +2 PM para gastar em aprimoramentos."
@@ -956,6 +1147,57 @@
                   "description": "Itens de uso único que geram efeitos variados quando usados. A CD para fabricar qualquer preparado é 15."
                 },
                 {
+                  "type": "folder",
+                  "name": "Ameaças de Arton",
+                  "items": [
+                    {
+                      "type": "item",
+                      "name": "Bálsamo de Drogadora",
+                      "description": "Produzido por curandeiras dos povos-trovão, este pote de cerâmica contém uma pasta gosmenta. Aplicá-la é uma ação completa e cura 4d6+4 PV."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Bomba de Fumaça",
+                      "description": "Saco de estopa com pavio, contendo uma pólvora especial que produz mais fumaça do que fogo. Segue as mesmas regras da bomba, mas, em vez de causar dano, emite uma nuvem de fumaça espessa com 6m de raio, que obscurece toda a visão e dura até o fim da cena. Criaturas a até 1,5m têm camuflagem leve e criaturas a partir de 3m têm camuflagem total."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Elixir Quimérico",
+                      "description": "Beber este elixir é uma ação padrão; até o fim da cena, você ganha uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida. Se já possui uma mordida, seu dano aumenta em um passo."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Éter Elemental",
+                      "description": "Extraído de elementais, este líquido viscoso tem cor e textura relacionados ao elemento de origem. Uma dose é suficiente para cobrir uma arma corpo a corpo ou 20 munições; aplicá-lo é uma ação padrão e faz a arma (ou as munições) causar +1d4 pontos de dano do tipo do dano elemental até o fim da cena. Múltiplas doses não são cumulativas."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Isca Putrefata",
+                      "description": "Frasco de restos mortais diluídos em uma solução macabra. Você pode gastar uma ação padrão para arremessar a isca em um local ou criatura em alcance médio. A isca se gruda ao alvo (Ref CD Des evita) e dura 1d6 rodadas. Durante esse tempo, cada morto-vivo não inteligente em alcance curto é atraído (Von CD Des evita), gastando todas as suas ações para se deslocar até a isca. Quando a alcança, fica fascinado ou, se a isca estiver presa a uma criatura, a ataca."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Lágrima Pétrea",
+                      "description": "Este líquido cristalino tem o poder de devolver criaturas à sua forma original. Você pode gastar uma ação padrão para aplicá-lo em uma criatura adjacente ou arremessá-lo em uma criatura em alcance curto; uma dose remove todos os efeitos de metamorfose (Ref CD Des evita)."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Óleo de Baleia",
+                      "description": "Este antigo preparado é um destilado de gordura de baleia. Você pode usar uma ação padrão para aplicar o óleo em uma arma ou pacote de munições para ignorar penalidades de combate submerso com esse item até o fim da cena."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Óleo de Besouro",
+                      "description": "O líquido do terrível besouro-do-óleo pode ser usado em lampiões (dobro da duração e área de iluminação) e explosivos. Para usar um frasco, você precisa empunhá-lo, gastar uma ação de movimento para acender seu pavio e uma ação padrão para arremessá-lo em alcance curto. Criaturas a até 3m do ponto atingido sofrem 4d6 pontos de dano de fogo e ficam em chamas (Ref CD Des reduz o dano à metade e evita a condição)."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Pó Azul",
+                      "description": "Saquinho de couro com pó feito a partir de uma planta exótica de Galrasia, capaz de absorver energia mágica ambiente. Inalar o pó é uma ação completa e recupera 2d4 PM."
+                    }
+                  ]
+                },
+                {
                   "type": "item",
                   "name": "Ácido",
                   "description": "Frasco de vidro contendo um ácido alquímico altamente corrosivo. Para usar o ácido, você gasta uma ação padrão e escolhe uma criatura em alcance curto. Essa criatura sofre 2d4 pontos de dano de ácido (Reflexos CD Des reduz à metade)."
@@ -1005,6 +1247,32 @@
                   "type": "item",
                   "name": "Catalisadores",
                   "description": "Substâncias preparadas através de processos alquímicos, catalisadores são itens de uso único que melhoram o efeito de uma magia quando ela é lançada.\n\nVocê precisa estar empunhando um catalisador para usá-lo e só pode usar um catalisador por vez. Reduções de custo de catalisadores acumulam com outras reduções de custo. Catalisadores que aumentam o dano só funcionam em magias que já causem dano. A CD para fabricar qualquer catalisador é 15 e para fabricá-lo você deve ser treinado em Misticismo."
+                },
+                {
+                  "type": "folder",
+                  "name": "Ameaças de Arton",
+                  "items": [
+                    {
+                      "type": "item",
+                      "name": "Corrosivo Mineral",
+                      "description": "Pasta mineral corrosiva produzida com ingredientes naturais. Aumenta os dados de dano de magias de ácido em uma categoria: d4 para d6, d6 para d8, d8 para d10 e d10 para d12 (máximo)."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Gelo Extremo",
+                      "description": "Cristais minerais que eliminam todo o calor ao redor. Aumenta os dados de dano de magias de frio em uma categoria: d4 para d6, d6 para d8, d8 para d10 e d10 para d12 (máximo)."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Pedaço de Língua",
+                      "description": "Glândulas que podem ser usadas como um catalisador que fornece +1 na CD dos testes de Fortitude para resistir a suas magias."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Raio Cristalizado",
+                      "description": "Eletricidade gerada por elementais e outros seres mágicos pode ser solidificada na forma de pequenos cristais. Aumenta os dados de dano de magias de eletricidade em uma categoria: d4 para d6, d6 para d8, d8 para d10 e d10 para d12 (máximo)."
+                    }
+                  ]
                 },
                 {
                   "type": "item",
@@ -1083,6 +1351,32 @@
                   "description": "Venenos são classificados de acordo com o método de inoculação.\n\nContato. Inoculados via um ataque que acerte (ou se a vítima toca o objeto envenenado). Aplicar um veneno em uma arma exige uma ação de movimento e uma rolagem de 1d6. Se você rolar 1, se envenena acidentalmente (mas veja o poder Venefício). O veneno permanece na arma até acertar um ataque ou até o fim da cena (o que acontecer primeiro).\n\nInalação. Inoculados via respiração. São armazenados em frascos que podem ser arremessados em alcance curto. Quando o frasco se quebra, libera o veneno num cubo com 3m de lado. Todas as criaturas na área são expostas — prender a respiração não impede a inoculação, pois o veneno pode entrar por canais lacrimais, membranas nasais e outras partes do corpo.\n\nIngestão. Inoculados através da ingestão de comida ou bebida.\n\nUma criatura exposta a um veneno deve fazer um teste de Fortitude (CD definida pelo aplicador do veneno, atributo-chave Int). Se falhar, sofre o efeito do veneno (efeitos em parênteses afetam vítimas que passem no teste de resistência). Efeitos que não sejam instantâneos, como perda de PV recorrente ou condições, deixam a vítima com a condição envenenada, e curar esta condição encerra quaisquer efeitos de veneno (mas não recupera PV perdidos)."
                 },
                 {
+                  "type": "folder",
+                  "name": "Ameaças de Arton",
+                  "items": [
+                    {
+                      "type": "item",
+                      "name": "Esporos de Cogumelo",
+                      "description": "Extraído de certos cogumelos e criaturas aparentadas, causa breve mas perigosa paralisia. Inalação, vítima fica paralisada (lenta) por 1 rodada, depois imune a paralisia por este veneno pela cena."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Peçonha Anciã",
+                      "description": "Veneno poderoso, extraído de serpes anciãs, capaz de afetar até criaturas imunes. Contato, perde 3d12 PV por rodada durante 3 rodadas e ignora imunidade a venenos (perde 3d12 PV)."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Peçonha Irritante",
+                      "description": "Este veneno leve, produzido por diversas criaturas, tem efeito brando mas que não pode ser resistido. Contato, perde 1d6 PV"
+                    },
+                    {
+                      "type": "item",
+                      "name": "Veneno Batráquio",
+                      "description": "Produzida a partir da saliva de sapos gigantes, esta gosma machuca e enjoa. Contato, perde 1d12 PV e fica enjoado por 1 rodada (perde 1d6 PV)."
+                    }
+                  ]
+                },
+                {
                   "type": "item",
                   "name": "Beladona",
                   "description": "Planta extremamente tóxica que afeta o sistema nervoso da vítima. Ingestão, vítima fica paralisada (lenta) por 3 rodadas. A CD para fabricar e para resistir a este veneno aumenta em +5."
@@ -1146,6 +1440,47 @@
               "description": "A seção Alimentação traz pratos especiais, refeições feitas com ingredientes selecionados e que fornecem um benefício. Um prato especial deve ser consumido ao ser comprado ou fabricado. Seu bônus dura um dia e você só pode receber um bônus de alimentação por dia. Note que, se estiver usando a regra de custo de vida (veja a página 277), você não precisa se preocupar com a alimentação de seu personagem — refeições corriqueiras são apenas pano de fundo. Assim, use pratos especiais apenas quando quiser um benefício — e estiver disposto a pagar por ele! Fabricar um prato especial leva 1 hora e exige um teste de Ofício (cozinheiro) contra CD 15). Você pode sofrer –5 no teste para fabricar até cinco pratos (pagando o custo de todos)."
             },
             {
+              "type": "folder",
+              "name": "Ameaças de Arton",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Algravia",
+                  "description": "Bebida alcoólica adocicada feita da seiva de feras-cactos. Você recebe +1 em perícias baseadas em Carisma, cumulativo com outros itens. Múltiplas doses são cumulativas entre si, mas intoxicantes; para cada dose além da primeira no mesmo dia, você deve fazer um teste de Fortitude (CD 15 + 5 para cada dose anterior). Em caso de falha, você fica enjoado e perde todos os bônus de alimentação até o fim do dia."
+                },
+                {
+                  "type": "item",
+                  "name": "Banquete de Canceronte",
+                  "description": "Um canceronte adulto é suficiente para produzir um pequeno banquete. Você recebe 1d4+1 dados de auxílio. Sempre que realizar um teste de perícia, você pode gastar 1d4 e adicionar o resultado como bônus no teste. Se o banquete for preparado por um personagem com o poder Mestre Cuca, os dados de auxílio se tornam d6. Este prato requer carne fresca de canceronte, sendo assim raramente encontrado longe de grandes cidades costeiras."
+                },
+                {
+                  "type": "item",
+                  "name": "Coc-au-Triz",
+                  "description": "Ovos de cocatriz são ingredientes mágicos poderosos, e esta guloseima reflete esse poder; é um ninho de fios de ovos assados e gratinados. Ao consumir, escolha uma habilidade com custo em PM. Seu custo diminui em –1 PM."
+                },
+                {
+                  "type": "item",
+                  "name": "Cozido de Serpe",
+                  "description": "Quando cozida por várias horas em uma sopa específica, a carne da serpe fica livre de seu veneno natural. Diferente de outros alimentos, preparar este cozido é um teste estendido de Ofício (cozinheiro) com CD 20, que requer 3 sucessos antes de 3 falhas. Se preparado com sucesso, fornece+1 em todos os testes de perícia, cumulativo com outros itens. Se falhar, os ingredientes são consumidos e você é envenenado (perde 1d12 pontos de vida por rodada durante 3 rodadas; Fort CD 20 reduz para 1 rodada)."
+                },
+                {
+                  "type": "item",
+                  "name": "Gorlogg Ensopado",
+                  "description": "Criado nas cozinhas de Yuvalin por Rizzelena, chef élfica de grande talento, este é um ensopado altamente nutritivo. Em sua próxima noite de sono, você aumenta a sua recuperação de PV e PM em +1 por nível."
+                },
+                {
+                  "type": "item",
+                  "name": "Omelete Monstruosa",
+                  "description": "Dizem que este prato foi inventado por aventureiros presos em uma caverna cheia de ovos. Desde então, tornou-se popular entre aqueles de baixa seletividade alimentar, ou muita coragem. É feita com ovos de qualquer praga monstruosa, mas variações mais refinadas usam ovos de corcel de Kally e outras feras dracônicas menores. Você recebe +2 em rolagens de dano e –2 em testes de perícias baseadas em Sabedoria, cumulativo com outros itens. Se feita com ovos de dragão, muda para +5 e –5. E garante que você será caçado por uma mamãe dragoa furiosa…"
+                },
+                {
+                  "type": "item",
+                  "name": "Sashimi de Kraken",
+                  "description": "Esta iguaria exótica foi criada pelos maiores chefs de Tamu-ra. Você recebe +2 em Diplomacia, cumulativo com outros itens, e 5 PM temporários. Dificilmente encontrada em cidades longe do mar."
+                }
+              ]
+            },
+            {
               "type": "item",
               "name": "Batata Valkariana",
               "description": "Batatas cortadas em tiras e mergulhadas em óleo fervente. Gordurentas e pouco nutritivas, são o tipo de prato que só é servido numa metrópole como Valkaria. Apesar disso, são gostosas e deixam qualquer um empolgado. Você recebe +1d6 em um teste a sua escolha realizado até o fim do dia. Para não esquecer, deixe 1d6 em cima da sua ficha. De preferência, amarelo."
@@ -1190,6 +1525,62 @@
               "type": "item",
               "name": "Animais",
               "description": "Animais funcionam como parceiros (veja a página 260). Animais comprados são parceiros iniciantes. Para parceiros de maior nível, você precisa adquiri-los através de uma habilidade."
+            },
+            {
+              "type": "folder",
+              "name": "Ameaças de Arton",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Animais (Ameaças de Arton)",
+                  "description": "Estes animais são raros, restritos a povos ou regiões específicas, mas podem ocasionalmente ser encontrados à venda. Todos são parceiros iniciantes."
+                },
+                {
+                  "type": "item",
+                  "name": "Bulette",
+                  "description": "Temperamental e feroz, esta fera pode ser adquirida de mercadores na Grande Savana, no Deserto da Perdição ou em Doherimm — em outros lugares, atinge o dobro do preço. Pode ser usado como um parceiro montaria."
+                },
+                {
+                  "type": "item",
+                  "name": "Capivara",
+                  "description": "Simpática, amistosa e dotada de longos e afiados dentes, a capivara é muito apreciada por ginetes Pequenos como hynne e goblins. Pode ser usado como um parceiro montaria por personagens Pequenos e Minúsculos."
+                },
+                {
+                  "type": "item",
+                  "name": "Corcel do Deserto",
+                  "description": "Tipo de cavalo insetoide encontrado na Grande Savana e no Deserto da Perdição. Pode ser usado como um parceiro montaria."
+                },
+                {
+                  "type": "item",
+                  "name": "Dromedário",
+                  "description": "Disponível em regiões áridas ou montanhosas, pode ser um parceiro montaria."
+                },
+                {
+                  "type": "item",
+                  "name": "Elefante",
+                  "description": "Grande demais para ambientes urbanos, é empregado como animal de trabalho em áreas abertas, como fazendas e áreas de mineração. Pode ser usado como um parceiro montaria."
+                },
+                {
+                  "type": "item",
+                  "name": "Hiena",
+                  "description": "Embora sejam mais comuns entre gnolls, hienas podem ocasionalmente ser domesticadas por outros povos. Uma hiena pode ser usada como um parceiro especial (veja p. 119) por personagens treinados em Adestramento, ou montaria por personagens Pequenos e Minúsculos."
+                },
+                {
+                  "type": "item",
+                  "name": "Leão",
+                  "description": "Considerado símbolo de nobreza e força, o majestoso leão pode ser treinado para aceitar um cavaleiro, sendo usado como um parceiro montaria."
+                },
+                {
+                  "type": "item",
+                  "name": "Rinoceronte",
+                  "description": "Eram animais de gado dos anões quando estes ainda viviam na superfície; hoje são selvagens e perigosos, de difícil domesticação. Podem ser usados como parceiros montaria, mas raramente são encontrados à venda."
+                },
+                {
+                  "type": "item",
+                  "name": "Urso Pardo",
+                  "description": "Este robusto predador pode ser encontrado em várias regiões de Arton. Ainda que incomum, pode ser empregado como um parceiro montaria."
+                }
+              ]
             },
             {
               "type": "item",
@@ -1331,6 +1722,22 @@
               "type": "item",
               "name": "Melhorias",
               "description": "Apenas itens das categorias armas, armaduras e escudos, ferramentas, vestuário e esotéricos podem receber melhorias. As melhorias para cada categoria de item estão listadas na Tabela 3-8. Cada melhoria só pode ser aplicada uma vez a um mesmo item."
+            },
+            {
+              "type": "folder",
+              "name": "Ameaças de Arton",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Multifuncional (ferramenta ou vestuário)",
+                  "description": "Esta melhoria só pode ser aplicada em um item que modifica uma perícia (fornecendo bônus ou reduzindo penalidade). Escolha outra perícia que usa o mesmo atributo-chave; o item passa a funcionar também para a segunda perícia escolhida (mas não se aplica a testes de ataque)."
+                },
+                {
+                  "type": "item",
+                  "name": "Penetrante (arma)",
+                  "description": "A arma ignora 5 pontos da redução de dano. Pré-requisito: cruel."
+                }
+              ]
             },
             {
               "type": "item",
@@ -1487,6 +1894,57 @@
               "type": "item",
               "name": "Materiais Especiais",
               "description": "Armas, armaduras, escudos e esotéricos podem ser feitos ou banhados de um material especial. Para isso, o item precisa ter a melhoria material especial e você precisa pagar o preço extra do material escolhido, conforme a tabela 3-9."
+            },
+            {
+              "type": "folder",
+              "name": "Ameaças de Arton",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Casco de Monstro",
+                  "description": "Os cascos protetores de certos monstros podem substituir aço e outros materiais rígidos, embora sejam mais frágeis; ao sofrer dano de impacto, um item mundano feito de casco de monstro sofre 1 ponto a mais por dado de dano. Arma. Conta como uma arma primitiva para a magia Armamento da Natureza e efeitos semelhantes. Armadura e Escudo. Têm sua penalidade de armadura diminuída em 1. Armaduras pesadas de casco permitem aplicar 1 ponto de Destreza na Defesa. Esotérico. Quando lança uma magia, você recebe redução de dano 5 contra o próximo dano que sofrer até sua próxima rodada."
+                },
+                {
+                  "type": "item",
+                  "name": "Couraça de Kaiju",
+                  "description": "Ainda mais raro que couro dracônico, este material pode ser empregado para fabricar itens superiores de grande poder. Jamais encontrado à venda, sendo obtido apenas a partir de um kaiju abatido. Arma (exige uma peça). O dano aumenta um passo. Além disso, quando faz um ataque, se o alvo usar um efeito que reduz o dano desse ataque (como Durão ou Escamas Supremas), você pode gastar 2 PM para ignorar o efeito. Isso não se aplica a RD. Armadura e Escudo. Armadura leve e escudo (exigem uma peça): RD 10/mágico. Armadura pesada (exige três peças): RD 20/mágico. Esotérico (exige uma peça). Quando lança uma magia que causa dano, você pode gastar 2 PM para ignorar efeitos dos alvos que reduzem o dano dessa magia, como Durão ou Evasão (exceto redução de dano e o efeito de passar no teste de resistência contra a magia)."
+                },
+                {
+                  "type": "item",
+                  "name": "Couro de Bulette",
+                  "description": "Este couro raramente é encontrado à venda; quando não é curtido e tratado logo após a extração, perde suas qualidades especiais. Armadura. Armadura leve (exige uma peça): fornece deslocamento de escavação igual à metade de seu deslocamento normal e redução de ácido 5. Armadura pesada (exige três peças): como acima, mas a redução de ácido é 10. Esotérico (exige uma peça). Quando lança uma magia de ácido que causa dano, você pode rolar novamente qualquer resultado 1 nas rolagens de dano (mesmo em rodadas subsequentes)."
+                },
+                {
+                  "type": "item",
+                  "name": "Cristal de Sol",
+                  "description": "Utilizados pelos ursos das neves para armazenar calor, estes cristais perdem suas propriedades em algumas semanas quando não utilizados, tornando difícil encontrá-los à venda. Arma (exige uma peça). Só pode ser aplicado a armas de corte ou perfuração. A arma causa +2 pontos de dano por fogo. Armadura e Escudo (exige uma peça). Quando faz um teste de resistência contra um efeito de frio, você pode rolar dois dados e usar o melhor resultado. Esotérico (exige uma peça). Quando lança uma magia de fogo, você pode gastar 1 PM. Se fizer isso, criaturas que falhem em seu teste de resistência contra a magia ficam em chamas (se a magia já deixa a vítima em chamas, em vez disso o dano das chamas aumenta em +1d6 cumulativo)."
+                },
+                {
+                  "type": "item",
+                  "name": "Espada de Coral",
+                  "description": "Fabricada com uma técnica secreta mantida pela Irmandade dos Pescadores, uma espada de coral é uma cimitarra feita de lanajuste. Além dos benefícios do material especial, ela tem fio extremamente agudo; em um acerto crítico, deixa a vítima sangrando. Quando aplicado desta forma, este material especial custa +T$ 1.800 (em vez de T$ 600)."
+                },
+                {
+                  "type": "item",
+                  "name": "Lanajuste",
+                  "description": "Também chamado de coral-de-ferro, é encontrado em paredões afiados banhados pelo mar em Khubar. Mais conhecido por seu uso em lâminas afiadas, o lanajuste também é empregado em outros itens. Arma. Ataques com a arma ignoram penalidades por combate submerso. Além disso, pode ser utilizada por devotos do Oceano sem violar suas obrigações e restrições. Armadura e Escudo. Fornece redução de corte: armaduras leves e escudos, redução 5; armaduras pesadas, redução 10. Esotérico. Quando lança uma magia que causa dano de corte, você pode rolar novamente qualquer resultado 1 na rolagem de dano."
+                },
+                {
+                  "type": "item",
+                  "name": "Pena de kraken",
+                  "description": "Esse material vítreo extraído da concha interna de um kraken é extremamente afiado. Em seu estado bruto, é quebradiço e difícil de transportar sem equipamento adequado, sendo assim raramente encontrado à venda. Arma (exige uma peça). Quando faz um acerto crítico, o dano aumenta dois passos (antes de ser multiplicado). Armadura e Escudo. Armadura leve e escudo (exigem uma peça): quando uma criatura erra um ataque corpo a corpo contra você, perde 5 pontos de vida. Armadura pesada (exige três peças): quando uma criatura erra um ataque corpo a corpo contra você, perde 10 pontos de vida. Esotérico (exige uma peça). Se o item fornece algum bônus numérico, ele aumenta em +1."
+                },
+                {
+                  "type": "item",
+                  "name": "Prata",
+                  "description": "Embora seja muito maleável, a prata pode ser usada para revestir objetos e conceder propriedades quase mágicas. Por ser usada como revestimento, prata pode ser combinada com um segundo material especial (cada um contando como uma melhoria separada). Arma. Causa +2 pontos de dano em espíritos e mortos-vivos e é considerada mágica para atacar essas criaturas. Armadura e Escudo. Fornece redução de dano causado por espíritos e mortos-vivos: armaduras leves e escudos, RD 5; armaduras pesadas, RD 10. Esotérico. Suas magias causam +2 pontos de dano em espíritos e mortos-vivos."
+                },
+                {
+                  "type": "item",
+                  "name": "Quitina Razza",
+                  "description": "Cobiçada por caçadores de monstros, que a consideram um grande troféu, esta quitina raramente é encontrada à venda; a única forma de obter este material é abater um razza’kham. Arma (exige uma peça). Sempre que rolar o resultado máximo em um dado do dano básico da arma, role um dado extra, repetindo o processo a cada resultado máximo. Armadura e Escudo. Armadura leve e escudo (exigem uma peça): concede +2 em Percepção e seu bônus na Defesa aumenta em 1. Armadura pesada (exigem três peças): concede +5 em Percepção e seu bônus na Defesa aumenta em 2. Esotérico (exige uma peça). Sempre que rolar o resultado máximo em um dado do dano básico da magia (sem contar aprimoramentos e outros efeitos), role um dado extra, repetindo o processo a cada resultado máximo."
+                }
+              ]
             },
             {
               "type": "item",

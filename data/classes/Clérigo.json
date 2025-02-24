@@ -60,7 +60,7 @@
     },
     {
       "name": "Conhecimento Mágico",
-      "description": "Você aprende duas magias divinas de qualquer círculo que possa lançar. Você pode escolher este poder quantas vezes quiser."
+      "description": "Você aprende duas magias de qualquer círculo que possa lançar. Você pode escolher este poder quantas vezes quiser."
     },
     {
       "name": "Expulsar/Comandar Mortos-Vivos",
@@ -80,7 +80,11 @@
     },
     {
       "name": "Missas",
-      "description": "Alguns poderes do clérigo são Missas. Esses poderes compartilham as seguintes regras.\n• Rezar uma Missa exige uma hora e o gasto de materiais especiais (como velas, incensos, água benta...) no valor de T$ 25. Um mesmo celebrante pode aplicar mais de um poder de Missa na mesma celebração. Cada poder adicional aumenta o custo da Missa em T$ 25.\n• Uma Missa afeta um número máximo de pessoas igual a 1 + sua Sabedoria. Todas as pessoas precisam estar presentes durante toda a Missa.\n• Os efeitos de uma Missa duram um dia. Uma mesma criatura só pode receber os benefícios da mesma Missa uma vez por dia.\n• Missa: Bênção da Vida. Os participantes recebem pontos de vida temporários em um valor igual ao seu nível + sua Sabedoria."
+      "description": "Alguns poderes do clérigo são Missas. Esses poderes compartilham as seguintes regras.\n• Rezar uma Missa exige uma hora e o gasto de materiais especiais (como velas, incensos, água benta...) no valor de T$ 25. Um mesmo celebrante pode aplicar mais de um poder de Missa na mesma celebração. Cada poder adicional aumenta o custo da Missa em T$ 25.\n• Uma Missa afeta um número máximo de pessoas igual a 1 + sua Sabedoria. Todas as pessoas precisam estar presentes durante toda a Missa.\n• Os efeitos de uma Missa duram um dia. Uma mesma criatura só pode receber os benefícios da mesma Missa uma vez por dia."
+    },
+    {
+      "name": "Missa: Bênção da Vida",
+      "description": "Os participantes recebem pontos de vida temporários em um valor igual ao seu nível + sua Sabedoria."
     },
     {
       "name": "Missa: Chamado às Armas",

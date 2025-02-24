@@ -294,7 +294,7 @@
     {
       "area": "",
       "circle": "1",
-      "description": "Envia um aviso telepático para uma criatura, mesmo que não possa vê-la nem tenha linha de efeito.\nEscolha um:\nAlerta: o alvo recebe +5 em seu próximo teste de Iniciativa e de Percepção dentro da cena.\nMensagem: o alvo recebe uma mensagem sua de até 25 palavras. Vocês devem ter um idioma em comum para o alvo poder entendê-lo.\nLocalização: o alvo sabe onde você está naquele momento. Se você mudar de posição, ele não saberá.",
+      "description": "Envia um aviso telepático para uma criatura, mesmo que não possa vê-la nem tenha linha de efeito.\nEscolha um:\nAlerta: o alvo recebe +5 em seu próximo teste de Iniciativa e de Percepção até o fim da próxima cena.\nMensagem: o alvo recebe uma mensagem sua de até 25 palavras. Vocês devem ter um idioma em comum para o alvo poder entendê-lo.\nLocalização: o alvo sabe onde você está naquele momento. Se você mudar de posição, ele não saberá.",
       "duration": "instantânea",
       "effect": "",
       "execution": "movimento",
@@ -460,7 +460,7 @@
     {
       "area": "",
       "circle": "1",
-      "description": "\nVocê conjura um monstro Pequeno que ataca seus inimigos. Você escolhe a aparência do monstro e o tipo de dano que ele pode causar, entre corte, impacto e perfuração. No entanto, ele não é uma criatura real, e sim um construto feito de energia. Se for destruído, ou quando a magia acaba, desaparece com um brilho, sem deixar nada para trás. Você só pode ter um monstro conjurado por esta magia por vez.\n\nO monstro surge em um espaço desocupado a sua escolha dentro do alcance e age no início de cada um de seus turnos, a partir da próxima rodada. O monstro tem deslocamento 9m e pode fazer uma ação de movimento por rodada. Você pode gastar uma ação padrão para dar uma das seguintes ordens a ele.\n\nMover: o monstro se movimenta o dobro do deslocamento nessa rodada.\n\nAtacar: o monstro causa 2d4+2 pontos de dano a uma criatura adjacente.\n\nLançar Magia: o monstro pode servir como ponto de origem para uma magia lançada por você com execução de uma ação padrão ou menor. Ele pode descarregar um Toque Chocante em um inimigo distante, ou mesmo “cuspir” uma Bola de Fogo! Você gasta PM normalmente para lançar a magia.\n\nOutros usos criativos para monstros conjurados ficam a critério do mestre. O monstro não age sem receber uma ordem.\n\nPara efeitos de jogo, o monstro conjurado tem For 2, Des 3 e todos os outros atributos nulos. Ele tem Defesa igual a sua, 20 pontos de vid e usa o seu bônus para teste de Reflexos. Ele é imune a efeitos que pedem um teste de Fortitude ou Vontade.\n",
+      "description": "\nVocê conjura um monstro Pequeno que ataca seus inimigos. Você escolhe a aparência do monstro e o tipo de dano que ele pode causar, entre corte, impacto e perfuração. No entanto, ele não é uma criatura real, e sim uma criatura feita de energia. Se for destruído, ou quando a magia acaba, desaparece com um brilho, sem deixar nada para trás. Você só pode ter um monstro conjurado por esta magia por vez.\n\nO monstro surge em um espaço desocupado a sua escolha dentro do alcance e age no início de cada um de seus turnos, a partir da próxima rodada. O monstro tem deslocamento 9m e pode fazer uma ação de movimento por rodada. Você pode gastar uma ação padrão para dar uma das seguintes ordens a ele.\n\nMover: o monstro se movimenta o dobro do deslocamento nessa rodada.\n\nAtacar: o monstro causa 2d4+2 pontos de dano de corte, impacto ou perfuração a uma criatura adjacente.\n\nLançar Magia: o monstro pode servir como ponto de origem para uma magia lançada por você com execução de uma ação padrão ou menor. Ele pode descarregar um Toque Chocante em um inimigo distante, ou mesmo “cuspir” uma Bola de Fogo! Você gasta PM normalmente para lançar a magia.\n\nOutros usos criativos para monstros conjurados ficam a critério do mestre. O monstro não age sem receber uma ordem.\n\nPara efeitos de jogo, o monstro conjurado tem For 2, Des 3 e todos os outros atributos nulos. Ele tem Defesa igual a sua, 20 pontos de vid e usa o seu bônus para teste de Reflexos. Ele é imune a efeitos que pedem um teste de Fortitude ou Vontade.\n",
       "duration": "sustentada",
       "effect": "1 criatura conjurada",
       "execution": "completa",
@@ -487,7 +487,7 @@
         },
         {
           "cost": "+2 PM",
-          "description": "o monstro ganha resistência 5 contra dois tipos de dano (por exemplo, corte e frio)."
+          "description": "o monstro ganha redução 5 contra dois tipos de dano (por exemplo, corte e frio)."
         },
         {
           "cost": "+4 PM",
@@ -655,7 +655,7 @@
     {
       "area": "",
       "circle": "1",
-      "description": "Você canaliza energia positiva que recupera 2d8+2 pontos de vida na criatura tocada.",
+      "description": "Você canaliza energia positiva que recupera 2d8+2 pontos de vida na criatura tocada. Curar Ferimentos anula Infligir Ferimentos.",
       "duration": "instantânea",
       "effect": "",
       "execution": "padrão",
@@ -670,7 +670,7 @@
         },
         {
           "cost": "+2 PM",
-          "description": "também remove uma condição de fadiga do alvo."
+          "description": "também remove uma condição de cansaço do alvo."
         },
         {
           "cost": "+2 PM",
@@ -713,7 +713,7 @@
     {
       "area": "",
       "circle": "1",
-      "description": "Esta magia emite um som alto e agudo. O alvo sofre 1d8+2 pontos de dano de impacto (ou o dobro disso e ignora RD se for um construto ou objeto mundano) e fica Atordoado por uma rodada (apenas uma vez por cena). Um teste de Fortitude reduz o dano à metade e evita o atordoamento.",
+      "description": "Esta magia emite um som alto e agudo. O alvo sofre 1d8+2 pontos de dano de impacto (ou o dobro disso e ignora RD se for um construto ou objeto mundano) e fica Atordoado por uma rodada (apenas uma vez por cena). Um teste de Fortitude reduz o dano à metade e evita o atordoamento. Despedaçar anula Transmutar Objetos.",
       "duration": "instantânea",
       "effect": "",
       "execution": "padrão",
@@ -1003,7 +1003,7 @@
       "implements": [
         {
           "cost": "+1 PM",
-          "description": "além do normal, se falhar na resistência, o alvo fica fraco pela cena."
+          "description": "além do normal, se falhar na resistência, o alvo fica fraco pela cena (passar no teste de resistência evita)."
         },
         {
           "cost": "+2 PM",
@@ -1383,7 +1383,7 @@
     {
       "area": "",
       "circle": "1",
-      "description": "Qualquer criatura que tente fazer uma ação hostil contra o alvo deve fazer um teste de Vontade. Se falhar, não consegue, perde a ação e não pode tentar novamente até o fim da cena. Santuário não protege o alvo de efeitos de área. Além disso, o próprio alvo também não pode fazer ações hostis (incluindo forçar outras criaturas a atacá-lo), ou a magia é dissipada — mas pode usar  habilidades e magias de cura e suporte como Curar Ferimentos e Bênção.\n ",
+      "description": "Qualquer criatura que tente fazer uma ação hostil contra o alvo deve fazer um teste de Vontade. Se falhar, não consegue, perde a ação e não pode tentar novamente enquanto a magia durar. Santuário não protege o alvo de efeitos de área. Além disso, o próprio alvo também não pode fazer ações hostis (incluindo forçar outras criaturas a atacá-lo), ou a magia é dissipada — mas pode usar habilidades e magias de cura e suporte, como Curar Ferimentos e Bênção.\n ",
       "duration": "cena",
       "effect": "",
       "execution": "padrão",

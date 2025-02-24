@@ -38,6 +38,18 @@
       "grip": "Leve"
     },
     {
+      "name": "Porrete",
+      "price": "T$ 2",
+      "damage": "1d6",
+      "critical": "x2",
+      "range": "—",
+      "damageType": "Impacto",
+      "spaces": "1",
+      "proficiency": "Armas Simples",
+      "purpose": "Corpo a Corpo",
+      "grip": "Leve"
+    },
+    {
       "name": "Clava",
       "price": "—",
       "damage": "1d6",
@@ -170,6 +182,18 @@
       "grip": "Uma Mão"
     },
     {
+      "name": "Zarabatana",
+      "price": "T$ 5",
+      "damage": "1d3",
+      "critical": "x2",
+      "range": "Curto",
+      "damageType": "Perfuração",
+      "spaces": "1",
+      "proficiency": "Armas Simples",
+      "purpose": "Ataque à Distância",
+      "grip": "Uma Mão"
+    },
+    {
       "name": "Arco curto",
       "price": "T$ 30",
       "damage": "1d6",
@@ -206,6 +230,18 @@
       "grip": "Leve"
     },
     {
+      "name": "Neko-te",
+      "price": "T$ 10",
+      "damage": "1d4",
+      "critical": "19",
+      "range": "—",
+      "damageType": "Corte",
+      "spaces": "1",
+      "proficiency": "Armas Marciais",
+      "purpose": "Corpo a Corpo",
+      "grip": "Leve"
+    },
+    {
       "name": "Cimitarra",
       "price": "T$ 15",
       "damage": "1d6",
@@ -234,6 +270,18 @@
       "price": "T$ 20",
       "damage": "1d6",
       "critical": "18",
+      "range": "—",
+      "damageType": "Perfuração",
+      "spaces": "1",
+      "proficiency": "Armas Marciais",
+      "purpose": "Corpo a Corpo",
+      "grip": "Uma Mão"
+    },
+    {
+      "name": "Gládio",
+      "price": "T$ 12",
+      "damage": "1d6",
+      "critical": "19/x3",
       "range": "—",
       "damageType": "Perfuração",
       "spaces": "1",
@@ -386,6 +434,18 @@
       "grip": "Duas Mãos"
     },
     {
+      "name": "Tetsubo",
+      "price": "T$ 20",
+      "damage": "1d10",
+      "critical": "x2",
+      "range": "—",
+      "damageType": "Impacto",
+      "spaces": "2",
+      "proficiency": "Armas Marciais",
+      "purpose": "Corpo a Corpo",
+      "grip": "Duas Mãos"
+    },
+    {
       "name": "Arco longo",
       "price": "T$ 100",
       "damage": "1d8",
@@ -434,6 +494,18 @@
       "grip": "Duas Mãos"
     },
     {
+      "name": "Açoite Finntroll",
+      "price": "T$ 30",
+      "damage": "1d8",
+      "critical": "x2",
+      "range": "—",
+      "damageType": "Corte",
+      "spaces": "1",
+      "proficiency": "Armas Exóticas",
+      "purpose": "Corpo a Corpo",
+      "grip": "Uma Mão"
+    },
+    {
       "name": "Chicote",
       "price": "T$ 2",
       "damage": "1d3",
@@ -452,6 +524,18 @@
       "critical": "19",
       "range": "—",
       "damageType": "Corte",
+      "spaces": "1",
+      "proficiency": "Armas Exóticas",
+      "purpose": "Corpo a Corpo",
+      "grip": "Uma Mão"
+    },
+    {
+      "name": "Espada vespa",
+      "price": "T$ 75",
+      "damage": "2d4",
+      "critical": "18",
+      "range": "—",
+      "damageType": "Corte ou Perfuração",
       "spaces": "1",
       "proficiency": "Armas Exóticas",
       "purpose": "Corpo a Corpo",
@@ -482,12 +566,60 @@
       "grip": "Uma Mão"
     },
     {
+      "name": "Mordida do diabo",
+      "price": "T$ 30",
+      "damage": "1d4",
+      "critical": "x2",
+      "range": "—",
+      "damageType": "Perfuração",
+      "spaces": "1",
+      "proficiency": "Armas Exóticas",
+      "purpose": "Corpo a Corpo",
+      "grip": "Uma Mão"
+    },
+    {
+      "name": "Pistola-punhal",
+      "price": "T$ 300",
+      "damage": "**",
+      "critical": "**",
+      "range": "**",
+      "damageType": "Perfuração",
+      "spaces": "1",
+      "proficiency": "Armas Exóticas",
+      "purpose": "Corpo a Corpo",
+      "grip": "Uma Mão"
+    },
+    {
+      "name": "Presa de Serpente",
+      "price": "T$ 1000",
+      "damage": "1d8",
+      "critical": "17",
+      "range": "—",
+      "damageType": "Corte",
+      "spaces": "1",
+      "proficiency": "Armas Exóticas",
+      "purpose": "Corpo a Corpo",
+      "grip": "Uma Mão"
+    },
+    {
       "name": "Corrente de espinhos",
       "price": "T$ 25",
       "damage": "2d4/2d4",
       "critical": "19",
       "range": "—",
       "damageType": "Corte",
+      "spaces": "2",
+      "proficiency": "Armas Exóticas",
+      "purpose": "Corpo a Corpo",
+      "grip": "Duas Mãos"
+    },
+    {
+      "name": "Lança de fogo",
+      "price": "T$ 1000",
+      "damage": "**",
+      "critical": "**",
+      "range": "**",
+      "damageType": "Perfuração",
       "spaces": "2",
       "proficiency": "Armas Exóticas",
       "purpose": "Corpo a Corpo",
@@ -504,6 +636,30 @@
       "proficiency": "Armas Exóticas",
       "purpose": "Corpo a Corpo",
       "grip": "Duas Mãos"
+    },
+    {
+      "name": "Shuriken",
+      "price": "T$ 1",
+      "damage": "1d4",
+      "critical": "x2",
+      "range": "Curto",
+      "damageType": "Perfuração",
+      "spaces": "0,5",
+      "proficiency": "Armas Exóticas",
+      "purpose": "Ataque à Distância",
+      "grip": "Leve"
+    },
+    {
+      "name": "Arpão",
+      "price": "T$ 30",
+      "damage": "1d10",
+      "critical": "x3",
+      "range": "Curto",
+      "damageType": "Perfuração",
+      "spaces": "1",
+      "proficiency": "Armas Exóticas",
+      "purpose": "Ataque à Distância",
+      "grip": "Uma Mão"
     },
     {
       "name": "Rede",
@@ -540,6 +696,42 @@
       "proficiency": "Armas de Fogo",
       "purpose": "Ataque à Distância",
       "grip": "Leve"
+    },
+    {
+      "name": "Traque",
+      "price": "T$ 75",
+      "damage": "2d6",
+      "critical": "19/x3",
+      "range": "Curto",
+      "damageType": "Perfuração",
+      "spaces": "1",
+      "proficiency": "Armas de Fogo",
+      "purpose": "Ataque à Distância",
+      "grip": "Leve"
+    },
+    {
+      "name": "Arcabuz",
+      "price": "T$ 800",
+      "damage": "2d10",
+      "critical": "19/x3",
+      "range": "Médio",
+      "damageType": "Perfuração",
+      "spaces": "2",
+      "proficiency": "Armas de Fogo",
+      "purpose": "Ataque à Distância",
+      "grip": "Duas Mãos"
+    },
+    {
+      "name": "Bacamarte",
+      "price": "T$ 450",
+      "damage": "4d6",
+      "critical": "19/x3",
+      "range": "Especial",
+      "damageType": "Perfuração",
+      "spaces": "2",
+      "proficiency": "Armas de Fogo",
+      "purpose": "Ataque à Distância",
+      "grip": "Duas Mãos"
     },
     {
       "name": "Mosquete",

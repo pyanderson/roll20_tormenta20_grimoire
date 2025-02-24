@@ -1,5 +1,5 @@
 {
-  "name": "Iventor",
+  "name": "Inventor",
   "hp": 12,
   "addHP": 3,
   "pm": 4,
@@ -90,7 +90,7 @@
     },
     {
       "name": "Chutes e Palavrões",
-      "description": "Uma vez por rodada, você pode pagar 1 PM para repetir um teste de Ofício (engenhoqueiro) recém realizado para ativar uma engenhoca. Pré-requisito: Engenhoqueiro."
+      "description": "Uma vez por rodada, quando faz um teste de Ofício (engenhoqueiro) para ativar uma engenhoca, você pode gastar 1 PM para rolá-lo novamente. Pré-requisito: Engenhoqueiro."
     },
     {
       "name": "Conhecimento de Fórmulas",
@@ -126,7 +126,7 @@
     },
     {
       "name": "Maestria em Perícia",
-      "description": "Escolha um número de perícias treinadas igual a sua Inteligência, exceto bônus temporários. Com essas perícias, você pode gastar 1 PM para escolher 10 em qualquer situação, exceto testes de ataque."
+      "description": "Escolha um número de perícias treinadas igual a sua Inteligência, exceto bônus temporários. Quando faz um teste dessas perícias, você pode gastar 1 PM para escolher 10 em qualquer situação, exceto testes de ataque."
     },
     {
       "name": "Manutenção Eficiente",

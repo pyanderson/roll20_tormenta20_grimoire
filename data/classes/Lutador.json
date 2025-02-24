@@ -77,7 +77,7 @@
     },
     {
       "name": "Língua dos Becos",
-      "description": "Você pode pagar 1 PM para usar sua Força no lugar de Carisma em um teste de perícia baseada em Carisma. Pré-requisitos: For 1, treinado em Intimidação."
+      "description": "Quando faz um teste de perícia baseada em Carisma, você pode pagar 1 PM para usar sua Força no lugar deste atributo. Pré-requisitos: For 1, treinado em Intimidação."
     },
     {
       "name": "Lutador de Chão",
@@ -109,7 +109,7 @@
     },
     {
       "name": "Trocação",
-      "description": "Quando você começa a bater, não para mais. Ao acertar um ataque desarmado, pode fazer outro ataque desarmado contra o mesmo alvo, pagando uma quantidade de PM igual à quantidade de ataques já realizados no turno. Ou seja, pode fazer o primeiro ataque extra gastando 1 PM, um segundo ataque extra gastando mais 2 PM e assim por diante, até errar um ataque ou não ter mais pontos de mana. Pré-requisito: 6º nível de lutador."
+      "description": "Quando você começa a bater, não para mais. Ao acertar um ataque desarmado, pode fazer outro ataque desarmado contra o mesmo alvo, pagando uma quantidade de PM igual à quantidade de ataques já realizados por você na rodada. Ou seja, pode fazer o primeiro ataque extra gastando 1 PM, um segundo ataque extra gastando mais 2 PM e assim por diante, até errar um ataque ou não ter mais pontos de mana. Pré-requisito: 6º nível de lutador."
     },
     {
       "name": "Trocação Tumultuosa",
