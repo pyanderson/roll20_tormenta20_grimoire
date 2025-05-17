@@ -1,0 +1,37 @@
+{
+  "name": "Galokk",
+  "displacement": 9,
+  "size": "Grande",
+  "attributes": [
+    {
+      "attr": "for",
+      "mod": 1
+    },
+    {
+      "attr": "con",
+      "mod": 1
+    },
+    {
+      "attr": "any",
+      "mod": 1
+    },
+    {
+      "attr": "car",
+      "mod": -1
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Força dos Titãs",
+      "description": "Quando acerta um ataque corpo a corpo ou de arremesso, você pode gastar 1 PM. Se fizer isso, sempre que rolar o resultado máximo em um dado de dano da arma, role um dado extra, até um limite de dados extras igual à sua Força."
+    },
+    {
+      "name": "Meio-Gigante",
+      "description": "Você é uma criatura do tipo humanoide (gigante). Seu tamanho é Grande e você pode usar Força como atributo-chave de Intimidação."
+    },
+    {
+      "name": "Infância entre os Pequenos",
+      "description": "Você se torna treinado em uma perícia a sua escolha."
+    }
+  ]
+}

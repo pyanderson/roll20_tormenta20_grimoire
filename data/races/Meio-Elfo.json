@@ -1,0 +1,33 @@
+{
+  "name": "Meio-Elfo",
+  "displacement": 9,
+  "size": "Médio",
+  "attributes": [
+    {
+      "attr": "int",
+      "mod": 1
+    },
+    {
+      "attr": "any",
+      "mod": 1
+    },
+    {
+      "attr": "any",
+      "mod": 1
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Ambição Herdada",
+      "description": "Você recebe um poder geral ou poder único de origem (Tormenta20, p. 85) a sua escolha."
+    },
+    {
+      "name": "Entre Dois Mundos",
+      "description": "Você recebe +1 em perícias baseadas em Carisma."
+    },
+    {
+      "name": "Sangue Élfico",
+      "description": "Você recebe visão na penumbra e +1 ponto de mana a cada nível ímpar (incluindo o 1º). Além disso, é considerado um elfo para efeitos relacionados a raça."
+    }
+  ]
+}
