@@ -52,6 +52,38 @@
       "description": "Quando lança uma magia, você soma seu atributo-chave na rolagem de dano."
     },
     {
+      "name": "Agrilhoar os Caídos",
+      "description": "Quando uma de suas magias de necromancia reduz os PV de um inimigo vivo a 0 ou menos, você pode aprisionar uma parte de seu espírito, que então fica flutuando ao seu redor. Para cada espírito, você recebe +2 na Defesa e em testes de resistência. Quando lança uma magia de dano, você pode libertar um espírito para causar +2d6 pontos de dano de trevas. Você pode acumular um máximo de espíritos simultâneos igual ao seu atributo-chave e eles permanecem ao seu redor até serem libertados ou até o fim do dia. Pré-requisito: 3º nível de arcanista."
+    },
+    {
+      "name": "Alquimia Arcana",
+      "description": "A CD para resistir aos preparados alquímicos e poções que você usa aumenta em +1 para cada círculo de magia a que você tiver acesso. Pré-requisito: treinado em Ofício (alquimista)."
+    },
+    {
+      "name": "Apoteose Celestial",
+      "description": "Sua conexão com o divino se torna ainda mais profunda, às custas de uma fração de sua mortalidade. Você recebe +1 em Sabedoria e aprende uma magia divina de cada círculo a que tenha acesso. Entretanto, sua Constituição diminui em –1. Pré-requisitos: Herança Superior (linhagem celestial), 17° nível de arcanista."
+    },
+    {
+      "name": "Apoteose Dracônica",
+      "description": "A influência de sua magia dracônica se torna cada vez mais evidente, tornando-o mais e mais próximo dos dragões. As magias do seu elemento escolhido causam +1 ponto de dano por dado e, contra criaturas imunes a esse elemento, ainda causam metade do dano. Contudo, você não pode mais lançar magias do tipo oposto ao seu elemento escolhido (fogo para frio e ácido para eletricidade). Pré-requisitos: Herança Superior (linhagem dracônica), 17° nível de arcanista."
+    },
+    {
+      "name": "Apoteose Feérica",
+      "description": "Sua natureza feérica se acentua, mas isso o afasta do mundo dos mortais. Sempre que um ou mais inimigos falharem em um teste de Vontade contra uma de suas magias, você recebe 1 PM temporário cumulativo que dura até o fim da cena. Se a magia é de encantamento ou ilusão, em vez disso você recebe 2 PM temporários. Em ambos os casos, o ganho é limitado pelo total de PM gasto na magia. Contudo, você não pode mais lançar magias de convocação e necromancia. Pré-requisitos: Herança Superior (linhagem feérica), 17° nível de arcanista."
+    },
+    {
+      "name": "Apoteose Rubra",
+      "description": "Você acolheu a corrupção rubra em seu ser — uma escolha que pode ser percebida por todos ao redor. Escolha uma magia que cause dano de cada círculo a que tem acesso. O tipo de dano dessas magias muda para psíquico. Além disso, quando lança uma magia de dano psíquico, você soma seu total de poderes da Tormenta na rolagem de dano. Este poder conta como um poder da Tormenta (exceto para perda de Carisma). Pré-requisitos: Herança Superior (linhagem rubra), 17° nível de arcanista."
+    },
+    {
+      "name": "Arcanista de Linha de Frente",
+      "description": "Quando você lança uma magia, criaturas adjacentes sofrem –2 em seus testes de resistência contra ela e, se ela causar dano, causa um dado extra do mesmo tipo."
+    },
+    {
+      "name": "Asas de Sapo",
+      "description": "Você pode empunhar dois catalisadores diferentes em uma mão ao mesmo tempo e, quando lança uma magia, pode gastar ambos para aplicar seus efeitos. Pré-requisito: treinado em Ofício (alquimista)."
+    },
+    {
       "name": "Aumento de Atributo",
       "description": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
     },
@@ -64,8 +96,16 @@
       "description": "Você aprende duas magias de qualquer círculo que possa lançar. Você pode escolher este poder quantas vezes quiser."
     },
     {
+      "name": "Contingência Arcana",
+      "description": "Quando lança Runa de Proteção com o aprimoramento que muda o alvo para “você”, você pode substituir o componente material da magia por uma penalidade em PM igual ao círculo da magia inscrita na runa. Pré-requisito: Runa de Proteção."
+    },
+    {
       "name": "Contramágica Aprimorada",
       "description": "Uma vez por rodada, você pode fazer uma contramágica como uma reação (veja a página 173). Pré-requisito: Dissipar Magia."
+    },
+    {
+      "name": "Contramágica Superior",
+      "description": "Quando anula uma magia com uma contramágica, você recebe uma quantidade de PM temporários igual ao círculo da magia anulada (limitada pelos PM que gastou para anular). Pré-requisitos: Contramágica Aprimorada, 9º nível de arcanista."
     },
     {
       "name": "Envolto em Mistério",
@@ -80,8 +120,16 @@
       "description": "Escolha uma escola de magia. A CD para resistir a suas magias dessa escola aumenta em +2. Pré-requisito: Bruxo ou Mago."
     },
     {
+      "name": "Especialista em Invocações",
+      "description": "Você soma seu atributo-chave na Defesa de suas criaturas conjuradas por habilidades mágicas (incluindo capangas) e a ação necessária para comandá-las diminui em um passo (de padrão para movimento e de movimento para livre). Contudo, cada comando só pode ser executado uma vez por rodada."
+    },
+    {
       "name": "Familiar",
       "description": "Você possui um animal de estimação mágico. Veja o quadro para detalhes."
+    },
+    {
+      "name": "Familiar Aprimorado",
+      "description": "Seu familiar pode falar e passa a fornecer um segundo benefício, escolhido entre os tipos comuns de familiares (Tormenta20, p. 38). Pré-requisitos: Familiar, 5º nível de arcanista."
     },
     {
       "name": "Fluxo de Mana",
@@ -104,12 +152,28 @@
       "description": "Você recebe a herança superior de sua linhagem sobrenatural. Pré-requisitos: Herança Aprimorada, 11º nível de arcanista."
     },
     {
+      "name": "Ingrediente Especial",
+      "description": "Quando usa uma poção, você pode usar um catalisador e aplicar seus efeitos a ela. Pré-requisitos: Caldeirão do Bruxo, 5º nível de arcanista."
+    },
+    {
+      "name": "Magia Performática",
+      "description": "Quando lança uma magia diante de uma ou mais criaturas inteligentes (Int –3 ou mais), você pode fazer um teste de Atuação (CD 20 + custo em PM da magia) para lançá-la de forma impressionante. Se você passar, a CD da magia aumenta em +1. Esse bônus aumenta em +1 para cada 10 pontos pelos quais o teste passar da CD. Se falhar, a magia não funciona. Pré-requisitos: Car 1, treinado em Atuação."
+    },
+    {
       "name": "Magia Pungente",
       "description": "Quando lança uma magia, você pode pagar 1 PM para aumentar em +2 a CD para resistir a ela."
     },
     {
+      "name": "Memória Súbita",
+      "description": "Escolha uma de suas magias que não esteja memorizada. Você pode gastar uma ação de movimento para memorizar essa magia até o fim da cena. Se fizer isso, uma de suas outras magias memorizadas, a sua escolha, deixa de estar memorizada. Pré-requisito: Mago."
+    },
+    {
       "name": "Mestre em Escola",
       "description": "Escolha uma escola de magia. O custo para lançar magias dessa escola diminui em –1 PM. Pré-requisitos: Especialista em Escola com a escola escolhida, 8º nível de arcanista."
+    },
+    {
+      "name": "O Próprio Sangue",
+      "description": "Se você aprender novamente como feiticeiro uma magia que já possa lançar por uma habilidade qualquer (como uma habilidade de raça ou um poder concedido), a CD para resistir a ela aumenta em +2. Pré-requisito: Feiticeiro."
     },
     {
       "name": "Poder Mágico",
@@ -120,6 +184,10 @@
       "description": "Você pode gastar uma ação padrão para causar 1d8 pontos de dano de essência num alvo em alcance curto. Esse dano aumenta em +1d8 para cada círculo de magia acima do 1º que você puder lançar. O alvo pode fazer um teste de Reflexos (CD atributo-chave) para reduzir o dano à metade. O raio arcano conta como uma magia para efeitos de habilidades e itens que beneficiem suas magias. e"
     },
     {
+      "name": "Raio Dividido",
+      "description": "Você pode usar Raio Arcano como uma ação completa, em vez de padrão. Se fizer isso, ele afeta um número de alvos igual ao seu atributo-chave. Pré-requisitos: Raio Arcano, 5º nível de arcanista."
+    },
+    {
       "name": "Raio Elemental",
       "description": "Quando usa Raio Arcano, você pode pagar 1 PM para que ele cause dano de ácido, eletricidade, fogo, frio ou trevas, a sua escolha. Se o alvo falhar no teste de Reflexos, sofre uma condição, de acordo com o tipo de dano (veja a descrição das condições na página 394). Ácido: vulnerável por 1 rodada. Eletricidade: ofuscado por 1 rodada. Fogo: fica em chamas. Frio: lento por 1 rodada. Trevas: não pode curar PV por 1 rodada. Pré-requisito: Raio Arcano. e"
     },
@@ -128,8 +196,20 @@
       "description": "Os dados de dano do seu Raio Arcano aumentam para d12 e o alcance dele aumenta para médio. Pré-requisito: Raio Arcano. e"
     },
     {
+      "name": "Sifão de Mana",
+      "description": "Quando você lança uma magia e pelo menos um inimigo falha no teste de resistência contra ela, você recupera uma quantidade de pontos de mana igual ao círculo da magia (limitada pelo total de PM gastos nela). Pré-requisito: 17° nível de arcanista."
+    },
+    {
       "name": "Tinta do Mago",
       "description": "Você pode criar pergaminhos, como se tivesse o poder Escrever Pergaminho. Se tiver ambos, seu custo para criar pergaminhos é reduzido à metade. Pré-requisitos: Mago, treinado em Ofício (escriba)."
+    },
+    {
+      "name": "Trama Célere",
+      "description": "Uma vez por rodada, quando usa uma ação padrão para lançar uma magia, você pode gastar 2 PM para fazer uma conjuração dupla. Isso permite que você lance uma segunda magia de 1º círculo como ação livre, pagando seu custo em PM como normal. Pré-requisito: 9º nível de arcanista."
+    },
+    {
+      "name": "Transliteração Impossível",
+      "description": "Quando usa um pergaminho de uma magia que conheça, você recebe +2 PM para gastar em aprimoramentos e a magia não pode ser anulada por contramágica. Pré-requisito: Escriba Arcano."
     },
     {
       "name": "Alta Arcana",
@@ -138,6 +218,10 @@
     {
       "name": "Linhagens Sobrenaturais",
       "description": "O poder de um feiticeiro vem de seu sangue — mais precisamente, do sangue de um antepassado sobrenatural, como um dragão ou uma fada. Além da capacidade de lançar magias, o feiticeiro herda desse antepassado uma fração de seu poder natural, que ele pode desenvolver ao longo de sua vida. Ao escolher o caminho do feiticeiro, escolha uma linhagem da lista a seguir. Você recebe a herança básica de sua linhagem e pode desenvolver as demais através de poderes de arcanista."
+    },
+    {
+      "name": "Linhagem Abençoada",
+      "description": "• Básica. Escolha um deus maior. Uma vez feita, essa escolha não pode ser mudada. Você aprende uma magia divina de 1º círculo e pode aprender magias divinas de 1º círculo como magias de feiticeiro. No 2º nível, você recebe um poder concedido do deus escolhido, aprovado pelo mestre, sem precisar ser devoto dele (mas você ainda pode ser devoto desse ou de outro deus). • Aprimorada. Suas magias divinas de círculo igual ou menor que sua Sabedoria custam –1 PM e você pode aprender magias divinas de 2º e 3º círculos como magias de feiticeiro. • Superior. Você recebe +1 em Sabedoria e aprende uma magia divina de cada círculo a que tenha acesso, limitado por sua Sabedoria. A cada dia, após descansar, pode trocar essas magias por outras dos mesmos círculos. Por fim, pode aprender magias divinas de 4º e 5º círculos como magias de feiticeiro."
     },
     {
       "name": "Linhagem Dracônica",
