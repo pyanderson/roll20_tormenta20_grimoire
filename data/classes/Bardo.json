@@ -40,6 +40,22 @@
       "description": "Escolha três escolas de magia. Uma vez feita, essa escolha não pode ser mudada. Você pode lançar magias arcanas de 1º círculo que pertençam a essas escolas. À medida que sobe de nível, pode lançar magias de círculos maiores (2º círculo no 6º nível, 3º círculo no 10º nível e 4º círculo no 14º nível). Você começa com duas magias de 1º círculo. A cada nível par (2º, 4º etc.), aprende uma magia de qualquer círculo e escola que possa lançar. Você pode lançar essas magias vestindo armaduras leves sem precisar de testes de Misticismo. Seu atributo-chave para lançar magias é Carisma e você soma seu Carisma no seu total de PM. Veja o Capítulo 4 para as regras de magia."
     },
     {
+      "name": "Acorde Místico",
+      "description": "Se estiver empunhando um instrumento musical, você pode gastar uma ação padrão para fazer um teste de Atuação oposto ao teste de Vontade de uma criatura em alcance curto. Se você vencer, a criatura sofre 1d6 pontos de dano de essência e fica vulnerável por 1 rodada. Esse dano aumenta em +1d6 para cada círculo de magia acima do 1º que você puder lançar. Quando faz um ataque como parte da execução de uma magia (como pelo aprimoramento de Toque Chocante), você pode usar este poder no lugar do ataque."
+    },
+    {
+      "name": "Acorde Poderoso",
+      "description": "Os dados de dano do seu Acorde Místico aumentam para d10, o alcance dele aumenta para médio e, se você vencer o teste oposto, a vítima fica desprevenida, em vez de vulnerável. Pré-requisito: Acorde Místico."
+    },
+    {
+      "name": "Adereço Musical",
+      "description": "Você pode gastar 10 minutos para acoplar (ou desacoplar) um item esotérico a um instrumento musical. Isso permite empunhar o esotérico com a mesma mão que empunha o instrumento e usar seu efeito em Acorde Místico, como se esse poder fosse uma magia. Cada instrumento musical só pode ter um esotérico acoplado."
+    },
+    {
+      "name": "Apresentação Impactante",
+      "description": "Quando usa Inspiração, você impacta também os inimigos dentro do alcance. Na próxima vez que um inimigo fizer um teste de ataque ou de resistência nessa cena, ele rola dois dados e usa o pior resultado (apenas uma vez por cena)."
+    },
+    {
       "name": "Arte Mágica",
       "description": "Enquanto você estiver sob efeito de sua Inspiração, a CD para resistir a suas habilidades de bardo aumenta em +2."
     },
@@ -52,12 +68,28 @@
       "description": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
     },
     {
+      "name": "Balada do Atirador",
+      "description": "Você pode usar Esgrima Mágica, e qualquer poder de bardo que o tenha como pré-requisito, com armas de ataque à distância leves ou de uma mão. Quando faz isso, você pode substituir testes de Pontaria por Atuação. Pré-requisito: Esgrima Mágica."
+    },
+    {
+      "name": "Celebridade Artoniana",
+      "description": "No início de cada cena, você pode gastar 3 PM para fazer um teste de Atuação oposto pelo teste de Vontade de uma criatura inteligente (Int –3 ou maior) que possa ver. Se você vencer, a criatura se revela sua fã. Você recebe +5 em todos os testes de perícia contra ela e ela sofre –5 em todos os testes dela contra você até o fim da aventura. Quem vai querer agredir seu ídolo? Pré-requisitos: Estrelato, 17º nível de bardo."
+    },
+    {
+      "name": "Dança Acrobática",
+      "description": "Você pode substituir testes de Acrobacia por Atuação. Quando você faz isso para passar por um inimigo, ele só pode usar Acrobacia ou Iniciativa no teste oposto."
+    },
+    {
       "name": "Dança das Lâminas",
       "description": "Quando você lança uma magia com execução de uma ação padrão, pode gastar 1 PM para fazer um ataque corpo a corpo como uma ação livre. Pré-requisitos: Esgrima Mágica, 10º nível de bardo."
     },
     {
       "name": "Esgrima Mágica",
       "description": "Sua arte mescla esgrima e magia, transformando dança em golpes. Se estiver sob efeito de Inspiração, você pode substituir testes de Luta por testes de Atuação, mas apenas para ataques com armas corpo a corpo leves ou de uma mão."
+    },
+    {
+      "name": "Espada Encantada",
+      "description": "Quando você causa dano com seu Golpe Elemental, o alvo sofre uma condição conforme o tipo de dano escolhido. Ácido: vulnerável por 1 rodada. Eletricidade: ofuscado por 1 rodada. Fogo: em chamas. Frio: lento por 1 rodada. Pré-requisito: Golpe Elemental."
     },
     {
       "name": "Estrelato",
@@ -76,12 +108,36 @@
       "description": "Enquanto estiver sob efeito de Inspiração, sempre que você acertar um ataque corpo a corpo em um inimigo, recebe 2 PM temporários cumulativos. Você pode ganhar um máximo de PM temporários por cena igual ao seu nível. Esses pontos temporários desaparecem no final da cena. Pré-requisito: Esgrima Mágica."
     },
     {
+      "name": "História de Acampamento",
+      "description": "Você pode gastar 1 hora para entreter um número de pessoas igual ao seu nível com histórias e canções. A recuperação de PM por descanso dessas pessoas aumenta em +1 por nível nesse dia."
+    },
+    {
+      "name": "Inspiração Espirituosa",
+      "description": "Na primeira vez que você usa Inspiração em cada combate, você e seus aliados recebem uma quantidade de PM temporários igual ao bônus fornecido por essa habilidade. Pré-requisito: 11º nível de bardo."
+    },
+    {
       "name": "Inspiração Marcial",
       "description": "Quando você usa Inspiração, você e seus aliados aplicam o bônus recebido em rolagens de dano (além de testes de perícia)."
     },
     {
+      "name": "Inspiração Resoluta",
+      "description": "Quando você usa Inspiração, você e seus aliados aplicam o bônus recebido na Defesa (além de testes de perícia)."
+    },
+    {
+      "name": "Inspiração Revigorante",
+      "description": "Quando você usa Inspiração, você e seus aliados recebem uma quantidade de PV temporários igual a 5 vezes o bônus fornecido."
+    },
+    {
       "name": "Lendas e Histórias",
       "description": "Você é um arquivo vivo de relatos, canções e folclore. Além de outros benefícios a critério do mestre, quando faz um teste de Conhecimento, Misticismo, Nobreza ou Religião para informação, identificar criaturas ou identificar itens mágicos, você pode gastar 1 PM para rolá-lo novamente. Pré-requisito: Int 1."
+    },
+    {
+      "name": "Magia Performática",
+      "description": "Quando lança uma magia diante de uma ou mais criaturas inteligentes (Int –3 ou mais), você pode fazer um teste de Atuação (CD 20 + custo em PM da magia) para lançá-la de forma impressionante. Se você passar, a CD da magia aumenta em +1. Esse bônus aumenta em +1 para cada 10 pontos pelos quais o teste passar da CD. Se falhar, a magia não funciona. Pré-requisitos: Car 1, treinado em Atuação."
+    },
+    {
+      "name": "Mago Vermelho",
+      "description": "Se estiver empunhando uma arma leve ou ágil, você soma o círculo máximo de magias que pode lançar nos testes de ataque e nas rolagens de dano com ela. Além disso, a mão da arma é considerada livre para lançar magias. Pré-requisito: treinado em Misticismo."
     },
     {
       "name": "Manipular",
@@ -100,8 +156,20 @@
       "description": "Faça um teste de Atuação oposto pelo teste de Vontade de cada criatura a sua escolha dentro do alcance (você faz um único teste). Alvos que falhem ficam abalados até o fim da cena. Alvos que passem ficam imunes a este efeito por um dia."
     },
     {
+      "name": "Música: Marcha Vitoriosa",
+      "description": "Faça um teste de Atuação. Para cada 10 pontos no resultado desse teste, seus aliados dentro do alcance recebem +1 em rolagens de dano por 1 rodada. Pré-requisitos: Inspiração Marcial, 5º nível de bardo."
+    },
+    {
       "name": "Música: Melodia Curativa",
       "description": "Criaturas a sua escolha no alcance recuperam 1d6 PV. Quando usa esta habilidade, você pode gastar mais pontos de mana. Para cada PM extra, aumente a cura em +1d6 PV."
+    },
+    {
+      "name": "Música: Réquiem Sombrio",
+      "description": "Um cadáver de uma criatura Média ou menor dentro do alcance se ergue como um morto-vivo sob seu comando. Ele é um parceiro iniciante de um tipo a sua escolha aprovado pelo mestre que não conta em seu limite de parceiros. Você pode animar um máximo de cadáveres simultâneos igual ao seu Carisma. Os cadáveres se decompõem no fim da cena. Pré-requisito: necromancia como uma de suas escolas de magia."
+    },
+    {
+      "name": "Música: Sonata da Distração",
+      "description": "Faça um teste de Atuação oposto pela Vontade de cada criatura a sua escolha dentro do alcance (você faz um único teste). Alvos que falharem ficam desprevenidos por 1 rodada. Alvos que passarem ficam imunes a este efeito por 1 dia. Mental."
     },
     {
       "name": "Melodia Restauradora",
@@ -116,8 +184,20 @@
       "description": "Uma vez por rodada, quando vê outra criatura lançando uma magia em alcance médio, você pode pagar 1 PM e fazer um teste de Atuação (CD 15 + custo em PM da magia). Se passar, até o final de seu próximo turno você pode lançar essa magia."
     },
     {
+      "name": "Portas da Fama",
+      "description": "Você recebe +10 em testes de Diplomacia, Enganação e Furtividade para entrar em lugares proibidos — as pessoas simplesmente presumem que você tem acesso a tudo! Pré-requisito: Estrelato."
+    },
+    {
       "name": "Prestidigitação",
       "description": "Quando faz uma ação padrão, você pode aproveitar seus gestos para lançar uma magia com execução de ação completa ou menor. Faça um teste de Atuação (CD 15 + custo em PM da magia). Se passar, você lança a magia como uma ação livre. Se falhar, a magia não funciona, mas você gasta os PM mesmo assim. Outros personagens só percebem que você lançou uma magia com um teste de Misticismo (CD 20). Pré-requisito: 6º nível de bardo."
+    },
+    {
+      "name": "Ressoar",
+      "description": "Quando lança uma magia que tenha apenas você como alvo, você pode gastar 2 PM e fazer um teste de Atuação (CD 15 + custo em PM da magia). Se você passar, um aliado em alcance curto que esteja sob efeito de sua Inspiração é afetado pelo efeito básico da magia como se você a tivesse lançado nele. Pré-requisito: 17º nível de bardo."
+    },
+    {
+      "name": "Triunfo do Amor",
+      "description": "Se você “conquistar” romanticamente um NPC, seus PM aumentam em +1 por nível até o fim da aventura. O mestre define exatamente o que você precisa fazer, de acordo com o NPC. Por padrão, isso envolve aumentar a atitude dele em relação a você para prestativo e então passar em um teste de Atuação, Diplomacia ou Enganação oposto pela Vontade do NPC +10. Você pode receber esse benefício até duas vezes por aventura (ou seja, pode conquistar até duas pessoas por aventura para ganhar +2 PM por nível)."
     },
     {
       "name": "Eclético",
