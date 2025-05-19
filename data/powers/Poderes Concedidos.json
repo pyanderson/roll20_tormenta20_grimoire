@@ -310,12 +310,20 @@
       "description": "Você recebe +2 em Enganação, Jogatina e Ladinagem."
     },
     {
+      "name": "Guardei para Você Mauziell",
+      "description": "Você pode gastar uma ação de movimento e 1 PM para produzir uma lembrança, na forma de uma memória ou de um objeto, para um aliado em alcance curto. Uma memória fornece +1d4 em um teste de perícia feito até o fim da cena, enquanto um objeto é uma versão mundana e não superior de um item não consumível a sua escolha, que dura até o fim da cena ou até ser largado pelo aliado. Você só pode produzir uma lembrança para cada aliado na mesma cena."
+    },
+    {
       "name": "Habitante do Deserto Azgher",
       "description": "Você recebe redução de fogo 10 e pode pagar 1 PM para criar água pura e potável suficiente para um odre (ou outro recipiente pequeno)."
     },
     {
       "name": "Imolação Sagrada Azgher, Thyatis",
       "description": "Você pode gastar uma ação padrão e 1 PM para cobrir seus braços com chamas com duração sustentada. Nesse estado, seus ataques corpo a corpo causam +1d6 pontos de dano de fogo."
+    },
+    {
+      "name": "Incentivador da Economia Tibar",
+      "description": "A cada T$ 50 x seu nível que gastar em uma aventura, você recebe +1 PM cumulativo até o fim da aventura."
     },
     {
       "name": "Inimigo de Tenebra Azgher",
@@ -336,6 +344,10 @@
     {
       "name": "Liberdade Divina Valkaria",
       "description": "Você pode gastar 2 PM para receber imunidade a efeitos de movimento por uma rodada."
+    },
+    {
+      "name": "Liberdade Irrestrita Gwendolynn",
+      "description": "Você recebe +2 em testes de manobra para evitar ser agarrado e de resistência contra efeitos mentais, de medo, de metamorfose e de movimento. Além disso, se falhar num desses testes, pode rolá-lo novamente. Se ainda assim falhar, no início de cada um de seus turnos pode rolar esse teste novamente, como uma ação livre e com um bônus cumulativo de +2, até se libertar."
     },
     {
       "name": "Magia Caótica Nimb",
