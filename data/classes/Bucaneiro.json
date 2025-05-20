@@ -57,6 +57,10 @@
       "description": "Você pode gastar um dia para encontrar e participar de uma mesa de wyrt ou outro jogo de azar. Escolha um valor e faça um teste de Jogatina contra a CD correspondente: T$ 100 (CD 15), T$ 200 (CD 20), T$ 400 (CD 25), T$ 800 (CD 30), T$ 1.600 (CD 35) e assim por diante. Se passar, você ganha o valor escolhido (ou um item ou favor equivalente, a critério do mestre). Se falhar, perde esse mesmo o valor. A critério do mestre, o lugar onde você está pode limitar ou impossibilitar o uso deste poder. Pré-requisito: treinado em Jogatina."
     },
     {
+      "name": "Ardil Afiado",
+      "description": "Você pode usar Audácia em testes de manobra. Se fizer isso contra um oponente desprevenido, soma o dobro do Carisma no teste. Pré-requisitos: Car 1, treinado em Enganação."
+    },
+    {
       "name": "Ataque Acrobático",
       "description": "Quando se aproxima de um inimigo com um salto ou pirueta (em termos de jogo, usando Atletismo ou Acrobacia para se mover) e o ataca no mesmo turno, você recebe +2 nesse teste de ataque e na rolagem de dano."
     },
@@ -67,6 +71,14 @@
     {
       "name": "Aventureiro Ávido",
       "description": "Uma vez por rodada, você pode gastar 5 PM para realizar uma ação padrão ou de movimento adicional. Se possuir o poder Surto Heroico, em vez disso seu custo diminui em –2 PM."
+    },
+    {
+      "name": "Bloqueio Desconcertante",
+      "description": "Quando uma criatura erra um ataque corpo a corpo contra você, ou quando você bloqueia um ataque com Aparar, você pode gastar 1 PM. Se você fizer isso, a criatura fica desprevenida contra seu próximo ataque feito até o fim do seu próximo turno. Pré-requisito: Esgrimista."
+    },
+    {
+      "name": "Bom de Trago",
+      "description": "Uma vez por rodada, você pode ingerir uma bebida, preparado ou poção que esteja empunhando como uma ação livre."
     },
     {
       "name": "Bravatas",
@@ -81,12 +93,44 @@
       "description": "Na primeira rodada de um combate, você pode jurar derrotar seus inimigos com uma restrição a sua escolha, como lutar com uma mão nas costas, de guarda aberta (em termos de jogo, desprevenido), de olhos vendados (cego) etc. Uma restrição só é válida se prejudicá-lo (por exemplo, lutar com uma mão nas costas só vale como restrição se você luta com duas armas). O mestre tem a palavra final sobre a validade de uma restrição. Você sofre a penalidade durante todo o combate, mas, se vencer, recebe +2 nos testes de ataque e na margem de ameaça até o fim da aventura."
     },
     {
+      "name": "Charme Cafajeste",
+      "description": "Você aprende e pode lançar Enfeitiçar (atributo- -chave Carisma). A CD para resistir a esta habilidade aumenta em +2 para criaturas inamistosas e em +5 para criaturas hostis. Esta não é uma habilidade mágica e provém de sua habilidade de cativar seus adversários (veja “Magias Simuladas”, p. 44). Pré-requisitos: treinado em Enganação, 3º nível de bucaneiro."
+    },
+    {
+      "name": "Cobrir de Pólvora",
+      "description": "Você pode gastar uma ação de movimento, 1 PM e uma bala de arma de fogo para cobrir uma criatura em alcance curto com uma pequena quantidade de pólvora. O alvo fica cego por 1 rodada (Ref CD Car evita) e, até o fim da cena, o próximo ataque contra ele causa +1d6 pontos de dano de fogo e deixa-o em chamas."
+    },
+    {
+      "name": "Cortejo de Espadas",
+      "description": "Quando você faz um teste de Acrobacia para passar por um inimigo, o espaço ocupado por esse inimigo não conta como terreno difícil e ele só pode usar Iniciativa para o teste oposto. Se você vencer esse teste, recebe +2 na Defesa e em Reflexos contra esse inimigo por 1 rodada. Pré-requisito: treinado em Acrobacia."
+    },
+    {
+      "name": "Dançar nas Cordas",
+      "description": "Se você usar Ataque Acrobático tendo vencido um teste oposto para passar pelo espaço de um inimigo, os bônus fornecidos por esse poder aumentam para +5 e se aplicam a todos os seus ataques contra esse inimigo nessa rodada. Pré-requisito: Ataque Acrobático."
+    },
+    {
       "name": "En Garde",
       "description": "Você pode gastar uma ação de movimento e 1 PM para assumir postura de luta. Até o fim da cena, se estiver usando uma arma corpo a corpo leve ou ágil, você recebe +2 na margem de ameaça com essas armas e +2 na Defesa. Pré-requisito: Esgrimista."
     },
     {
+      "name": "Entrada Triunfal",
+      "description": "Se um combate começar e você for o primeiro na iniciativa, recebe uma quantidade de PV temporários igual à metade de seus PV máximos."
+    },
+    {
+      "name": "Esgrima Sambur",
+      "description": "Se estiver empunhando duas armas corpo a corpo leves ou ágeis e fizer a ação agredir, você pode gastar 1 PM para fazer dois ataques, um com cada arma (se tiver Ambidestria ou Estilo de Duas Armas, em vez disso não sofre penalidade para usá-los). Além disso, se tiver o poder Aparar, pode usá-lo uma segunda vez na rodada. Pré-requisito: Esgrimista."
+    },
+    {
       "name": "Esgrimista",
       "description": "Quando usa uma arma corpo a corpo leve ou ágil, você soma sua Inteligência nas rolagens de dano (limitado pelo seu nível). Pré-requisito: Int 1."
+    },
+    {
+      "name": "Estampido Ensurdecedor",
+      "description": "Quando faz um ataque à distância com uma arma de fogo, você pode pagar 1 PM para deixar todas as criaturas adjacentes a você abaladas e surdas (Fort CD Car reduz a duração das condições para 1 rodada). Pré-requisito: Grudar o Cano."
+    },
+    {
+      "name": "Estocada no Flanco",
+      "description": "Uma vez por rodada, quando vence um teste oposto para passar por um inimigo, você pode gastar 2 PM para fazer um ataque contra ele. Se você acertar o ataque e causar dano de corte ou perfuração, o inimigo fica sangrando. Pré-requisito: Cortejo de Espadas."
     },
     {
       "name": "Flagelo dos Mares",
@@ -97,12 +141,44 @@
       "description": "Você sabe fazer amizades durante festas, de noitadas em tavernas a bailes na corte. Nesses locais, você recebe +2 em testes de perícias de Carisma e a atitude de todas as pessoas em relação a você melhora em uma categoria. Pré-requisito: Car 1."
     },
     {
+      "name": "Gole da Coragem",
+      "description": "Uma vez por cena, quando ingerir uma bebida, preparado ou poção, você recebe uma ação padrão adicional nesse turno."
+    },
+    {
+      "name": "Golpe Humilhante",
+      "description": "Você pode gastar 2 PM para humilhar uma criatura em alcance curto. Até o fim da cena, sempre que você acertar um ataque nessa criatura, ela sofre uma penalidade de –1 na Defesa. A penalidade é cumulativa, limitada pelo seu Carisma e dura até o fim da cena."
+    },
+    {
       "name": "Grudar o Cano",
       "description": "Quando faz um ataque à distância com uma arma de fogo contra um oponente adjacente, você não sofre a penalidade de –5 no teste de ataque e aumenta seu dano em um passo. Pré-requisitos: treinado em Luta, Pistoleiro."
     },
     {
+      "name": "Introdução Calorosa",
+      "description": "Na primeira rodada de um combate, você pode gastar uma ação a para se apresentar. Veja o quadro 1-17 da página 60 do suplemento Heróis de Arton para os tipos de ação que você pode gastar e seus respectivos benefícios. Você recebe todos os benefícios das ações anteriores e eles duram até o fim da cena."
+    },
+    {
+      "name": "Lobo do Mar",
+      "description": "Você já viu quase todo o mundo e almeja ver o resto. Quando você chega a um lugar no qual nunca esteve, pelo resto da aventura o custo de Audácia diminui em –1 PM e você pode usá-la em testes de ataque (ambos nesse lugar). Pré-requisito: 17º nível de bucaneiro."
+    },
+    {
+      "name": "Lorotas da Terra e do Mar",
+      "description": "Você pode gastar 10 minutos para contar uma mentira sobre seu passado. Escolha uma cena de uma de suas aventuras e reconte-a de forma “criativa” para um NPC que não a testemunhou. Então faça um teste de Enganação (CD 15 + 5 para cada vez que usou este poder na mesma aventura). Se passar, pode usar um poder qualquer cujos pré- -requisitos cumpra e que seja relacionado à sua mentira (a critério do mestre), até o fim do dia ou até usar este efeito novamente. Se falhar, não pode mais usar este efeito até o fim da aventura. Pré-requisitos: treinado em Enganação, 11º nível de bucaneiro."
+    },
+    {
+      "name": "Onda de Sangue",
+      "description": "Sempre que você deixa alguém sangrando, a perda de vida causada por sangramento aumenta em um passo (cumulativo até um máximo de d12) e a criatura falha automaticamente em seu próximo teste de Constituição para remover essa condição. Pré-requisito: Estocada no Flanco."
+    },
+    {
+      "name": "Passo Das Ondas",
+      "description": "Uma vez por rodada, quando acerta um ataque em um inimigo, você pode gastar 2 PM para se mover até a metade do seu deslocamento. Esse deslocamento ignora terreno difícil e não ativa reações dos inimigos (como pelo poder Ataque Reflexo). Pré-requisito: Pernas do Mar."
+    },
+    {
       "name": "Pernas do Mar",
       "description": "Você recebe +2 em Acrobacia e Atletismo. Além disso, quando está se equilibrando ou escalando, você não fica desprevenido e seu deslocamento não é reduzido à metade."
+    },
+    {
+      "name": "Pirouette",
+      "description": "Enquanto está sob efeito de En Garde, você pode gastar uma ação de movimento para receber +5 na Defesa por 1 rodada. Pré-requisito: En Garde."
     },
     {
       "name": "Pistoleiro",
@@ -113,8 +189,16 @@
       "description": "Você soma seu Carisma em Iniciativa e, se for o primeiro na iniciativa, ganha uma ação padrão extra na primeira rodada. Pré-requisitos: Car 1, 4º nível de bucaneiro."
     },
     {
+      "name": "Remise",
+      "description": "Enquanto está sob efeito de En Garde, uma vez por rodada, quando usa a ação agredir, você pode gastar 2 PM para realizar um ataque adicional. Pré-requisitos: En Garde, 7º nível de bucaneiro."
+    },
+    {
       "name": "Ripostar",
       "description": "Quando usa a habilidade aparar e evita o ataque, você pode gastar 1 PM. Se fizer isso, pode fazer um ataque corpo a corpo imediato contra o inimigo que o atacou (se ele estiver em alcance). Pré-requisitos: Aparar, 12º nível de bucaneiro."
+    },
+    {
+      "name": "Sucesso Atrai Sucesso",
+      "description": "Você pode gastar 2 PM para invocar uma onda de boa sorte. Sempre que fizer um acerto crítico em um inimigo, você recebe um bônus cumulativo de +2 nas rolagens de dano (limitado pelo seu Carisma) até o fim da cena."
     },
     {
       "name": "Touché",
