@@ -132,16 +132,16 @@
       "description": "Você recebe um item mágico menor a sua escolha, como um presente ou uma herança de família. No início de cada aventura, você pode substituir esse item por outro. A partir do 14º nível, quando substitui o item pode escolher um item mágico médio e, a partir do 17º nível, um item mágico maior. Pré-requisito: 11º nível de nobre."
     },
     {
+      "name": "Liderar pelo Exemplo",
+      "description": "Você pode gastar 2 PM para servir de inspiração. Até o início de seu próximo turno, sempre que você passar em um teste de perícia, aliados em alcance curto que fizerem um teste da mesma perícia podem usar o resultado do seu teste em vez de fazer o seu próprio. Pré-requisito: 6º nível de nobre."
+    },
+    {
       "name": "Líder Enérgico",
       "description": "Você soma seu Carisma em Iniciativa. Além disso, se for o primeiro na iniciativa, em seu primeiro turno você pode usar uma habilidade de nobre com execução de ação de movimento ou padrão como ação livre. Pré-requisito: treinado em Iniciativa."
     },
     {
       "name": "Líder Impiedoso",
       "description": "Sempre que um aliado sob efeito da sua habilidade Gritar Ordens fizer um acerto crítico ou reduzir um inimigo para 0 PV ou menos, você recupera 1 PM. Pré-requisito: 5º nível de nobre."
-    },
-    {
-      "name": "Liderar pelo Exemplo",
-      "description": "Você pode gastar 2 PM para servir de inspiração. Até o início de seu próximo turno, sempre que você passar em um teste de perícia, aliados em alcance curto que fizerem um teste da mesma perícia podem usar o resultado do seu teste em vez de fazer o seu próprio. Pré-requisito: 6º nível de nobre."
     },
     {
       "name": "Língua de Ouro",
