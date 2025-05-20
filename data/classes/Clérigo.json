@@ -124,7 +124,7 @@
     },
     {
       "name": "Mestre Celebrante",
-      "description": "O número de pessoas que você afeta com uma missa aumenta em dez vezes e os benefícios que elas recebem dobram. Pré-requisitos: qualquer poder de Missa, 12º nível de clérigo."
+      "description": "O número de pessoas que você afeta com uma missa aumenta em dez vezes e os benefícios que elas recebem dobram. Abaixo detalhamos como isso se aplica.\n• Se a Missa fornece um bônus numérico que se aplica por toda sua duração, como o de Mente Abençoada, esse bônus é dobrado.\n• Se fornece uma quantidade de PV ou PM, como Elevação do Espírito, essa quantidade é dobrada.\n• Se permite usar uma habilidade ou receber um benefício uma vez, como Compartilhar Milagre, esse efeito pode ser usado uma vez adicional pela duração da Missa. Pré-requisitos: qualquer poder de Missa, 12º nível de clérigo."
     },
     {
       "name": "Missas",

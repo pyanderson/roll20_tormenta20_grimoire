@@ -29,27 +29,31 @@
   "abilities": [
     {
       "name": "Devoto Fiel",
-      "description": " Você se torna devoto de um deus disponível para druidas (Allihanna, Megalokk ou Oceano). Veja as regras de devotos na página 96. Ao contrário de devotos normais, você recebe dois poderes concedidos por se tornar devoto, em vez de apenas um."
+      "description": "Você se torna devoto de um deus disponível para druidas (Allihanna, Megalokk ou Oceano). Veja as regras de devotos na página 96. Ao contrário de devotos normais, você recebe dois poderes concedidos por se tornar devoto, em vez de apenas um."
     },
     {
       "name": "Empatia Selvagem",
-      "description": " Você pode se comunicar com animais por meio de linguagem corporal e vocalizações. Você pode usar Adestramento com animais para mudar atitude e persuasão (veja a página 118)."
+      "description": "Você pode se comunicar com animais por meio de linguagem corporal e vocalizações. Você pode usar Adestramento com animais para mudar atitude e persuasão (veja a página 118)."
     },
     {
       "name": "Magias",
-      "description": " Escolha três escolas de magia. Uma vez feita, essa escolha não pode ser mudada. Você pode lançar magias divinas de 1º círculo que pertençam a essas escolas. À medida que sobe de nível, pode lançar magias de círculos maiores (2º círculo no 6º nível, 3º círculo no 10º nível e 4º círculo no 14º nível). Você começa com duas magias de 1º círculo. A cada nível par (2º, 4º etc.), aprende uma magia de qualquer círculo e escola que possa lançar. Seu atributo-chave para lançar magias é Sabedoria e você soma sua Sabedoria no seu total de PM. Veja o Capítulo 4 para as regras de magia."
+      "description": "Escolha três escolas de magia. Uma vez feita, essa escolha não pode ser mudada. Você pode lançar magias divinas de 1º círculo que pertençam a essas escolas. À medida que sobe de nível, pode lançar magias de círculos maiores (2º círculo no 6º nível, 3º círculo no 10º nível e 4º círculo no 14º nível). Você começa com duas magias de 1º círculo. A cada nível par (2º, 4º etc.), aprende uma magia de qualquer círculo e escola que possa lançar. Seu atributo-chave para lançar magias é Sabedoria e você soma sua Sabedoria no seu total de PM. Veja o Capítulo 4 para as regras de magia."
+    },
+    {
+      "name": "Arma Tradicional",
+      "description": "Quando faz um ataque com uma foice, você pode gastar 2 PM para lançar uma magia de ácido, eletricidade, fogo ou frio com execução de movimento, padrão ou completa como ação livre. Considere que a mão da arma está livre para lançar essa magia. Pré-requisitos: druida de Arton, 5º nível de druida."
     },
     {
       "name": "Aspecto do Inverno",
-      "description": " Você aprende e pode lançar uma magia de convocação ou evocação, arcana ou divina, de qualquer círculo que possa lançar. Além disso, recebe redução de frio 5 e suas magias que causam dano de frio causam +1 ponto de dano por dado."
+      "description": "Você aprende e pode lançar uma magia de convocação ou evocação, arcana ou divina, de qualquer círculo que possa lançar. Além disso, recebe redução de frio 5 e suas magias que causam dano de frio causam +1 ponto de dano por dado."
     },
     {
       "name": "Aspecto do Outono",
-      "description": " Você aprende e pode lançar uma magia de necromancia, arcana ou divina, de qualquer círculo que possa lançar. Além disso, pode gastar 1 PM para impor uma penalidade de –2 nos testes de resistência de todos os inimigos em alcance curto até o início do seu próximo turno."
+      "description": "Você aprende e pode lançar uma magia de necromancia, arcana ou divina, de qualquer círculo que possa lançar. Além disso, pode gastar 1 PM para impor uma penalidade de –2 nos testes de resistência de todos os inimigos em alcance curto até o início do seu próximo turno."
     },
     {
       "name": "Aspecto da Primavera",
-      "description": " Você aprende e pode lançar uma magia de encantamento ou ilusão, arcana ou divina, de qualquer círculo que possa lançar. Além disso, escolha uma quantidade de magias igual ao seu Carisma (mínimo 1). O custo dessas magias é reduzido em −1 PM."
+      "description": "Você aprende e pode lançar uma magia de encantamento ou ilusão, arcana ou divina, de qualquer círculo que possa lançar. Além disso, escolha uma quantidade de magias igual ao seu Carisma (mínimo 1). O custo dessas magias é reduzido em −1 PM."
     },
     {
       "name": "Aspecto do Verão",
@@ -57,111 +61,195 @@
     },
     {
       "name": "Aumento de Atributo",
-      "description": " Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
+      "description": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
+    },
+    {
+      "name": "Auspício do Crepúsculo",
+      "description": "Você pode gastar 1 PM para cobrir uma de suas armas com sombras até o fim da cena. A arma causa +1d6 pontos de dano de trevas. Se você estiver sob efeito de escuridão, sempre que acertar um ataque com ela em combate, recebe 5 PV temporários cumulativos. Pré-requisito: druida de Tenebra."
+    },
+    {
+      "name": "Auspício da Madrugada",
+      "description": "Você pode gastar 1 PM para impor uma penalidade de –1 em testes de perícia e na CD de habilidades de criaturas a sua escolha em alcance curto por 1 rodada. Se você estiver sob efeito de escuridão, a penalidade se torna –2. Pré-requisito: druida de Tenebra."
+    },
+    {
+      "name": "Auspício da Meia-Noite",
+      "description": "Você pode gastar uma ação de movimento e 2 PM para aumentar a CD das suas habilidades de druida em +1 até o fim da cena. Se você usar este poder sob efeito de escuridão, o bônus na CD se torna +2. Pré-requisito: druida de Tenebra."
+    },
+    {
+      "name": "Banquete Selvagem",
+      "description": "Se você estiver em forma selvagem e gastar uma ação padrão para devorar um pedaço de uma criatura inconsciente que esteja com 0 PV ou menos (exceto construtos e seres incorpóreos), recebe +2 em Força, +5 em Intimidação e 2 PV temporários por nível até o fim da cena. Se a criatura é do tipo lacaio, ela morre. Pré-requisitos: druida de Megalokk, Forma Selvagem."
+    },
+    {
+      "name": "Ciclo da Vida",
+      "description": "Uma vez por cena, você pode gastar uma ação padrão para fazer um cadáver em alcance curto se decompor instantaneamente. Se fizer isso, você recebe +2 pontos de mana por ND que a criatura tinha em vida. Esses PM adicionais duram até o fim do dia."
+    },
+    {
+      "name": "Companheiro Aberrante",
+      "description": "Escolha um de seus companheiros animais. Ele recebe o tipo aberrante, ganhando os bônus de seu nível. Um parceiro aberrante fornece os benefícios a seguir. Iniciante: uma vez por rodada, você pode gastar 1 PM para disparar um pulso mental contra uma criatura em alcance curto; ela sofre 2d6 pontos de dano psíquico ou perde 1d4 PM, a sua escolha. Veterano: você também pode gastar 2 PM para causar 4d6 pontos de dano ou fazer a criatura perder 2d4 PM. Mestre: você também pode gastar 4 PM para causar 6d6 pontos de dano ou fazer a criatura perder 3d4 PM. Pré-requisitos: druida de Aharadak, Companheiro Animal, 6º nível de druida."
     },
     {
       "name": "Companheiro Animal Detalhes",
-      "description": " Um companheiro animal é um amigo valoroso e fiel. Você decide de qual espécie é seu companheiro. Vocês têm um vínculo mental, sendo capazes de entender um ao outro. Seu companheiro animal obedece a você, mesmo que isso arrisque a vida dele. Em termos de jogo, seu companheiro animal é um parceiro ajudante, assassino, atirador, combatente, fortão, guardião, perseguidor, ou uma montaria, do nível iniciante. No 7º nível ele muda para veterano e, no 15º nível, para mestre (se tiver mais de um tipo, todos mudam de nível). Se o companheiro animal morrer, você fica atordoado por uma rodada. Você pode invocar um novo companheiro após um dia inteiro de prece e meditação. A seguir, alguns exemplos de animais (mas você é livre para escolher outros). Veja a página 260 para as regras de parceiros.\n• Ajudante. Corvo, macaco, raposa, serpente ou outro animal ágil ou esperto.\n• Assassino. Lince, onça ou outro animal treinado para abater presas.\n• Atirador. Águia, falcão ou outro animal capaz de mergulhar rapidamente nos alvos de seus ataques à distância.\n• Fortão. Crocodilo, javali, leão, lobo ou outro animal capaz de lutar ao seu lado.\n• Guardião. Alce, cão, coruja, tartaruga, urso ou outro animal pesado ou atento.\n• Perseguidor. Gambá, sabujo ou outro animal farejador."
+      "description": "Um companheiro animal é um amigo valoroso e fiel. Você decide de qual espécie é seu companheiro. Vocês têm um vínculo mental, sendo capazes de entender um ao outro. Seu companheiro animal obedece a você, mesmo que isso arrisque a vida dele. Em termos de jogo, seu companheiro animal é um parceiro ajudante, assassino, atirador, combatente, fortão, guardião, perseguidor, ou uma montaria, do nível iniciante. No 7º nível ele muda para veterano e, no 15º nível, para mestre (se tiver mais de um tipo, todos mudam de nível). Se o companheiro animal morrer, você fica atordoado por uma rodada. Você pode invocar um novo companheiro após um dia inteiro de prece e meditação. A seguir, alguns exemplos de animais (mas você é livre para escolher outros). Veja a página 260 para as regras de parceiros.\n• Ajudante. Corvo, macaco, raposa, serpente ou outro animal ágil ou esperto.\n• Assassino. Lince, onça ou outro animal treinado para abater presas.\n• Atirador. Águia, falcão ou outro animal capaz de mergulhar rapidamente nos alvos de seus ataques à distância.\n• Fortão. Crocodilo, javali, leão, lobo ou outro animal capaz de lutar ao seu lado.\n• Guardião. Alce, cão, coruja, tartaruga, urso ou outro animal pesado ou atento.\n• Perseguidor. Gambá, sabujo ou outro animal farejador."
     },
     {
       "name": "Companheiro Animal",
-      "description": " Você recebe um companheiro animal. Veja o quadro para detalhes. Você pode escolher este poder quantas vezes quiser, mas deve escolher companheiros diferentes e ainda está sujeito ao limite de parceiros que pode ter (veja a página 260). Pré-requisitos: Car 1, treinado em Adestramento."
+      "description": "Você recebe um companheiro animal. Veja o quadro para detalhes. Você pode escolher este poder quantas vezes quiser, mas deve escolher companheiros diferentes e ainda está sujeito ao limite de parceiros que pode ter (veja a página 260). Pré-requisitos: Car 1, treinado em Adestramento."
     },
     {
       "name": "Companheiro Animal Aprimorado",
-      "description": " Escolha um de seus companheiros animais. Ele recebe um segundo tipo, ganhando os bônus de seu nível. Por exemplo, se você tiver um companheiro guardião veterano, pode adicionar o tipo fortão a ele, tornando-o um guardião fortão veterano que concede +3 na Defesa e +1d12 em uma rolagem de dano corpo a corpo. Pré-requisitos: Companheiro Animal, 6º nível de druida."
+      "description": "Escolha um de seus companheiros animais. Ele recebe um segundo tipo, ganhando os bônus de seu nível. Por exemplo, se você tiver um companheiro guardião veterano, pode adicionar o tipo fortão a ele, tornando-o um guardião fortão veterano que concede +3 na Defesa e +1d12 em uma rolagem de dano corpo a corpo. Pré-requisitos: Companheiro Animal, 6º nível de druida."
     },
     {
       "name": "Companheiro Animal Lendário",
-      "description": " Escolha um de seus companheiros animais. Esse animal passa a dobrar os bônus concedidos de seu tipo original. Pré-requisitos: Companheiro Animal, 18º nível de druida."
+      "description": "Escolha um de seus companheiros animais. Esse animal passa a dobrar os bônus concedidos de seu tipo original. Pré-requisitos: Companheiro Animal, 18º nível de druida."
     },
     {
       "name": "Companheiro Animal Mágico",
-      "description": " Escolha um de seus companheiros animais. Ele recebe um segundo tipo diferente, entre adepto, destruidor, magivocador ou médico, ganhando os bônus de seu nível. Pré-requisitos: Companheiro Animal, 8º nível de druida."
+      "description": "Escolha um de seus companheiros animais. Ele recebe um segundo tipo diferente, entre adepto, destruidor, magivocador ou médico, ganhando os bônus de seu nível. Pré-requisitos: Companheiro Animal, 8º nível de druida."
+    },
+    {
+      "name": "Companheiro Elemental",
+      "description": "Escolha um de seus companheiros animais. Ele recebe o tipo destruidor, ganhando os bônus de seu nível. Se você possuir o suplemento Ameaças de Arton, em vez disso ele pode se tornar também um parceiro aquin’ne, t’peel, pakk ou terrier (também ganhando o bônus de seu nível). Pré-requisitos: druida de Arton, Companheiro Animal."
     },
     {
       "name": "Coração da Selva",
-      "description": " A CD para resistir a seus efeitos de veneno aumenta em +2 e estes efeitos causam +1 de perda de vida por dado."
+      "description": "A CD para resistir a seus efeitos de veneno aumenta em +2 e estes efeitos causam +1 de perda de vida por dado."
+    },
+    {
+      "name": "Erupção Elemental",
+      "description": "Se você estiver em forma elemental, pode gastar uma ação de movimento e 2 PM. Se fizer isso, seu próximo ataque com uma arma natural realizado nessa cena afeta todas as criaturas em um cone de 6m (faça um único ataque corpo a corpo e compare o resultado com a Defesa de cada criatura na área) e causa dois dados de dano extras. Pré-requisito: Forma Elemental."
     },
     {
       "name": "Espírito dos Equinócios",
-      "description": " Você pode gastar 4 PM para ficar em equilíbrio com o mundo. Até o final da cena, quando rola um dado, pode rolar novamente qualquer resultado 1. Pré-requisitos: Aspecto da Primavera, Aspecto do Outono, 10º nível de druida. e"
+      "description": "Você pode gastar 4 PM para ficar em equilíbrio com o mundo. Até o final da cena, quando rola um dado, pode rolar novamente qualquer resultado 1. Pré-requisitos: Aspecto da Primavera, Aspecto do Outono, 10º nível de druida. e"
     },
     {
       "name": "Espírito dos Solstícios",
-      "description": " Você transita entre os extremos do mundo natural. Quando lança uma magia, pode gastar +4 PM para maximizar os efeitos numéricos variáveis dela. Por exemplo, uma magia Curar Ferimentos aprimorada para curar 5d8+5 PV irá curar automaticamente 45 PV, sem a necessidade de rolar dados. Uma magia sem efeitos variáveis não pode ser afetada por este poder. Pré-requisitos: Aspecto do Inverno, Aspecto do Verão, 10º nível de druida."
-    },
-    {
-      "name": "Força dos Penhascos",
-      "description": " Você recebe +2 em Fortitude. Quando sofre dano enquanto em contato com o solo ou uma superfície de pedra, pode gastar uma quantidade de PM limitada por sua Sabedoria. Para cada PM gasto, reduz esse dano em 10. Pré-requisito: 4º nível de druida."
-    },
-    {
-      "name": "Forma Primal",
-      "description": " Quando usa Forma Selvagem, você pode se transformar em uma fera primal. Você recebe os benefícios de dois tipos de animais (bônus iguais não se acumulam; use o que você quiser de cada tipo). Pré-requisito: 18º nível de druida."
-    },
-    {
-      "name": "Forma Selvagem",
-      "description": " Você pode se transformar em animais (veja a seguir)."
-    },
-    {
-      "name": "Forma Selvagem Aprimorada",
-      "description": " Quando usa Forma Selvagem, você pode gastar 6 PM ao todo para assumir uma forma aprimorada. Pré-requisitos: Forma Selvagem, 6º nível de druida."
-    },
-    {
-      "name": "Forma Selvagem Superior",
-      "description": " Quando usa Forma Selvagem, você pode gastar 10 PM ao todo para assumir uma forma superior. Pré-requisitos: Forma Selvagem Aprimorada, 12º nível de druida."
-    },
-    {
-      "name": "Liberdade da Pradaria",
-      "description": " Você recebe +2 em Reflexos. Se estiver ao ar livre, sempre que lança uma magia, pode gastar 1 PM para aumentar o alcance dela em um passo (de toque para curto, de curto para médio ou de médio para longo)."
-    },
-    {
-      "name": "Magia Natural",
-      "description": " Em forma selvagem, você pode lançar magias e empunhar catalisadores e esotéricos. Pré-requisito: Forma Selvagem."
-    },
-    {
-      "name": "Presas Afiadas",
-      "description": " A margem de ameaça de suas armas naturais aumenta em +2."
-    },
-    {
-      "name": "Segredos da Natureza",
-      "description": " Você aprende duas magias de qualquer círculo que possa lançar. Elas devem pertencer às escolas que você sabe usar, mas podem ser arcanas ou divinas. Você pode escolher este poder quantas vezes quiser."
-    },
-    {
-      "name": "Tranquilidade dos Lagos",
-      "description": " Você recebe +2 em Vontade. Se estiver portando um recipiente com água (não precisa estar empunhando), uma vez por rodada, quando faz um teste de resistência, pode pagar 1 PM para refazer a rolagem."
-    },
-    {
-      "name": "Caminho dos Ermos",
-      "description": " No 2º nível, você pode atravessar terrenos difíceis sem sofrer redução em seu deslocamento e a CD para rastreá-lo aumenta em +10. Esta habilidade só funciona em terrenos naturais."
+      "description": "Você transita entre os extremos do mundo natural. Quando lança uma magia, pode gastar +4 PM para maximizar os efeitos numéricos variáveis dela. Por exemplo, uma magia Curar Ferimentos aprimorada para curar 5d8+5 PV irá curar automaticamente 45 PV, sem a necessidade de rolar dados. Uma magia sem efeitos variáveis não pode ser afetada por este poder. Pré-requisitos: Aspecto do Inverno, Aspecto do Verão, 10º nível de druida."
     },
     {
       "name": "Força da Natureza",
-      "description": " No 20º nível, você diminui o custo de todas as suas magias em –2 PM e aumenta a CD delas em +2. Os bônus dobram (–4 PM e +4 na CD) se você estiver em terrenos naturais."
+      "description": "Se estiver em forma selvagem, você pode gastar 4 PM para se cobrir de terra e raízes, como um elemental da própria terra, até o fim da cena. Nesse estado, você recebe +4 em um atributo a sua escolha. Pré-requisitos: Forma Selvagem Superior, 17º nível de druida."
+    },
+    {
+      "name": "Força dos Penhascos",
+      "description": "Você recebe +2 em Fortitude. Quando sofre dano enquanto em contato com o solo ou uma superfície de pedra, pode gastar uma quantidade de PM limitada por sua Sabedoria. Para cada PM gasto, reduz esse dano em 10. Pré-requisito: 4º nível de druida."
+    },
+    {
+      "name": "Forma Aberrante",
+      "description": "Quando usa Forma Selvagem, você pode gastar +2 PM para assumir uma forma aberrante. Nessa forma, você conta como se tivesse dois poderes da Tormenta adicionais (exceto para perda de Carisma). Pré-requisitos: druida de Aharadak, Forma Selvagem."
+    },
+    {
+      "name": "Forma de Cardume",
+      "description": "Quando usa Forma Selvagem, você pode gastar +1 PM para assumir a forma de um cardume de criaturas anfíbias com duração sustentada. Você recebe imunidade a manobras de combate, sofre apenas metade do dano de armas, pode entrar nos espaços ocupados por inimigos e criaturas no mesmo espaço que você ficam em condição ruim para lançar magias. Pré-requisitos: druida de Oceano, Forma Selvagem."
+    },
+    {
+      "name": "Forma Elemental",
+      "description": "Quando usa Forma Selvagem, você pode gastar +2 PM para assumir uma forma elemental. Escolha entre ácido, eletricidade, fogo ou frio. Você recebe imunidade ao tipo de dano escolhido e vulnerabilidade ao tipo oposto. Além disso, o alcance de suas armas naturais aumenta em +1,5m e elas causam dano do tipo escolhido (em vez de seu dano normal). Pré-requisitos: druida de Arton, Forma Selvagem."
+    },
+    {
+      "name": "Forma Esquelética",
+      "description": "Quando usa Forma Selvagem, você pode gastar +2 PM para assumir uma forma esquelética. Seu tipo muda para morto-vivo e você recebe redução de corte, frio e perfuração 5 e imunidade a efeitos de cansaço, metabólicos e de veneno. Por fim, você sofre dano por efeitos mágicos de cura de luz (Vontade CD do efeito reduz à metade) e recupera PV com dano de trevas. Pré-requisitos: druida de Tenebra, Forma Selvagem."
+    },
+    {
+      "name": "Forma Primal",
+      "description": "Quando usa Forma Selvagem, você pode se transformar em uma fera primal. Você recebe os benefícios de dois tipos de animais (bônus iguais não se acumulam; use o que você quiser de cada tipo). Pré-requisito: 18º nível de druida."
     },
     {
       "name": "Forma Selvagem",
-      "description": " Você pode gastar uma ação completa e 3 PM para adquirir a forma de uma criatura selvagem. Em termos de jogo, quando usa esta habilidade você adquire os modificadores de uma das formas abaixo. Se ganhar uma arma natural, escolha seu tipo de dano entre corte, impacto e perfuração. Características não mencionadas não mudam. Na forma selvagem você não pode falar, empunhar itens ou lançar magias. Seu equipamento desaparece (mas você mantém os benefícios de quaisquer itens vestidos), ressurgindo quando você volta ao normal. Outras criaturas podem fazer um teste de Percepção oposto pelo seu teste de Enganação para perceber que você não é um animal comum (você recebe +10 neste teste). Cada transformação dura pelo tempo que você quiser, mas você reverte à forma normal se ficar inconsciente ou morrer."
+      "description": "Você pode se transformar em animais (veja a seguir)."
+    },
+    {
+      "name": "Forma Vegetal",
+      "description": "Quando usa Forma Selvagem, você pode gastar +2 PM para assumir uma forma vegetal. Você recebe RD 5/corte ou fogo e Natureza Vegetal (fica imune a atordoamento e metamorfose, mas é afetado por efeitos que afetem plantas monstruosas — se o efeito não tiver um teste de resistência, você tem direito a um teste de Fortitude). Pré-requisitos: druida de Allihanna, Forma Selvagem."
+    },
+    {
+      "name": "Forma Selvagem Aprimorada",
+      "description": "Quando usa Forma Selvagem, você pode gastar 6 PM ao todo para assumir uma forma aprimorada. Pré-requisitos: Forma Selvagem, 6º nível de druida."
+    },
+    {
+      "name": "Forma Selvagem Superior",
+      "description": "Quando usa Forma Selvagem, você pode gastar 10 PM ao todo para assumir uma forma superior. Pré-requisitos: Forma Selvagem Aprimorada, 12º nível de druida."
+    },
+    {
+      "name": "Instinto Venenoso",
+      "description": "Você pode usar Sab como atributo-chave de venenos (em vez de Int). Além disso, em Forma Selvagem, pode aplicar venenos de contato em suas armas naturais como ação livre. Pré-requisito: Coração da Selva."
+    },
+    {
+      "name": "Liberdade da Pradaria",
+      "description": "Você recebe +2 em Reflexos. Se estiver ao ar livre, sempre que lança uma magia, pode gastar 1 PM para aumentar o alcance dela em um passo (de toque para curto, de curto para médio ou de médio para longo)."
+    },
+    {
+      "name": "Magia Natural",
+      "description": "Em forma selvagem, você pode lançar magias e empunhar catalisadores e esotéricos. Pré-requisito: Forma Selvagem."
+    },
+    {
+      "name": "Metamorfose Instantânea",
+      "description": "Uma vez por rodada, quando usa Forma Selvagem, você pode gastar +2 PM para usar essa habilidade como ação livre. Pré-requisitos: Forma Selvagem, 11º nível de druida."
+    },
+    {
+      "name": "Oráculo da Natureza",
+      "description": "Você pode gastar uma ação de movimento para se conectar com as energias naturais do mundo. Enquanto você permanecer no mesmo lugar, a CD para resistir a suas magias aumenta em +2 e, sempre que você lança uma magia, recebe 2 PM para gastar em aprimoramentos. Se você estiver em um ambiente urbano, a ação necessária para usar este poder muda para completa. Pré-requisitos: Xamã Místico, 11º nível de druida."
+    },
+    {
+      "name": "Orador dos Elementos",
+      "description": "Você aprende e pode lançar uma magia de dano de ácido, eletricidade, fogo ou frio, arcana ou divina, de qualquer círculo que possa lançar. Além disso, você pode aprender magias arcanas de ácido, eletricidade, fogo ou frio como se fossem divinas."
+    },
+    {
+      "name": "Presas Afiadas",
+      "description": "A margem de ameaça de suas armas naturais aumenta em +2."
+    },
+    {
+      "name": "Proteção Fúngica",
+      "description": "Você pode gastar 1 PM para cobrir seu corpo de esporos com duração sustentada. Nesse estado, sempre que você sofrer um ataque corpo a corpo de uma criatura adjacente, ela perde 1d8 PV. A cada quatro níveis acima do 1º, você pode gastar +1 PM quando usa este poder para aumentar a perda de vida em +1d8. Veneno. Pré-requisito: Coração da Selva."
+    },
+    {
+      "name": "Segredos da Natureza",
+      "description": "Você aprende duas magias de qualquer círculo que possa lançar. Elas devem pertencer às escolas que você sabe usar, mas podem ser arcanas ou divinas. Você pode escolher este poder quantas vezes quiser."
+    },
+    {
+      "name": "Tranquilidade dos Lagos",
+      "description": "Você recebe +2 em Vontade. Se estiver portando um recipiente com água (não precisa estar empunhando), uma vez por rodada, quando faz um teste de resistência, pode pagar 1 PM para refazer a rolagem."
+    },
+    {
+      "name": "Transformação Repugnante",
+      "description": "Quando usa Forma Selvagem, você pode gastar +2 PM. Se fizer isso, inimigos em alcance curto sofrem 1d6 pontos de dano psíquico para cada poder da Tormenta que você possui e ficam alquebrados e frustrados (Vontade CD Sab reduz à metade e evita as condições). Pré-requisito: Forma Aberrante."
+    },
+    {
+      "name": "Xamã Místico",
+      "description": "Você recebe +1 PM por nível de druida, pode aprender e lançar magias de uma escola adicional e a CD para resistir a suas magias aumenta em +1. Prérequisito: não possuir Forma Selvagem."
+    },
+    {
+      "name": "Caminho dos Ermos",
+      "description": "No 2º nível, você pode atravessar terrenos difíceis sem sofrer redução em seu deslocamento e a CD para rastreá-lo aumenta em +10. Esta habilidade só funciona em terrenos naturais."
+    },
+    {
+      "name": "Força da Natureza",
+      "description": "No 20º nível, você diminui o custo de todas as suas magias em –2 PM e aumenta a CD delas em +2. Os bônus dobram (–4 PM e +4 na CD) se você estiver em terrenos naturais."
+    },
+    {
+      "name": "Forma Selvagem",
+      "description": "Você pode gastar uma ação completa e 3 PM para adquirir a forma de uma criatura selvagem. Em termos de jogo, quando usa esta habilidade você adquire os modificadores de uma das formas abaixo. Se ganhar uma arma natural, escolha seu tipo de dano entre corte, impacto e perfuração. Características não mencionadas não mudam. Na forma selvagem você não pode falar, empunhar itens ou lançar magias. Seu equipamento desaparece (mas você mantém os benefícios de quaisquer itens vestidos), ressurgindo quando você volta ao normal. Outras criaturas podem fazer um teste de Percepção oposto pelo seu teste de Enganação para perceber que você não é um animal comum (você recebe +10 neste teste). Cada transformação dura pelo tempo que você quiser, mas você reverte à forma normal se ficar inconsciente ou morrer."
     },
     {
       "name": "Forma Ágil",
-      "description": " Você recebe Destreza +2 e duas armas naturais que causam 1d6 pontos de dano e possuem margem de ameaça 19. Quando usa a ação agredir, pode atacar com ambas, mas sofre –2 em todos os testes de ataque até o seu próximo turno.\n• Aprimorada. Você recebe Destreza +4, deslocamento +3m e duas armas naturais (como acima, mas com dano de 1d8). Seu tamanho muda para Grande (–2 em Furtividade, +2 em testes de manobra).\n• Superior. Você recebe Destreza +6, deslocamento +6m e duas armas naturais (como acima, mas com dano de 1d10). Seu tamanho muda para Grande (–2 em Furtividade, +2 em testes de manobra)."
+      "description": "Você recebe Destreza +2 e duas armas naturais que causam 1d6 pontos de dano e possuem margem de ameaça 19. Quando usa a ação agredir, pode atacar com ambas, mas sofre –2 em todos os testes de ataque até o seu próximo turno.\n• Aprimorada. Você recebe Destreza +4, deslocamento +3m e duas armas naturais (como acima, mas com dano de 1d8). Seu tamanho muda para Grande (–2 em Furtividade, +2 em testes de manobra).\n• Superior. Você recebe Destreza +6, deslocamento +6m e duas armas naturais (como acima, mas com dano de 1d10). Seu tamanho muda para Grande (–2 em Furtividade, +2 em testes de manobra)."
     },
     {
       "name": "Forma Feroz",
-      "description": " Você recebe Força +3, +2 na Defesa e uma arma natural que causa 1d8 pontos de dano.\n• Aprimorada. Você recebe Força +5, +4 na Defesa e uma arma natural que causa 2d6 pontos de dano. Seu tamanho muda para Grande (–2 em Furtividade, +2 em testes de manobra).\n• Superior. Você recebe Força +10, +6 na Defesa e uma arma natural que causa 4d6 pontos de dano. Seu tamanho muda para Enorme (–5 em Furtividade, +5 em testes de manobra)."
+      "description": "Você recebe Força +3, +2 na Defesa e uma arma natural que causa 1d8 pontos de dano.\n• Aprimorada. Você recebe Força +5, +4 na Defesa e uma arma natural que causa 2d6 pontos de dano. Seu tamanho muda para Grande (–2 em Furtividade, +2 em testes de manobra).\n• Superior. Você recebe Força +10, +6 na Defesa e uma arma natural que causa 4d6 pontos de dano. Seu tamanho muda para Enorme (–5 em Furtividade, +5 em testes de manobra)."
     },
     {
       "name": "Forma Resistente",
-      "description": " Você recebe +5 na Defesa, redução de dano 5 e uma arma natural que causa 1d6 pontos de dano.\n• Aprimorada. Você recebe Força +3, +8 na Defesa, redução de dano 8 e uma arma natural que causa 1d8 pontos de dano. Seu tamanho muda para Grande (–2 em Furtividade, +2 em testes de manobra).\n• Superior. Você recebe Força +5, +10 na Defesa, redução de dano 10 e uma arma natural que causa 2d6 pontos de dano. Seu tamanho muda para Enorme (–5 em Furtividade, +5 em testes de manobra)."
+      "description": "Você recebe +5 na Defesa, redução de dano 5 e uma arma natural que causa 1d6 pontos de dano.\n• Aprimorada. Você recebe Força +3, +8 na Defesa, redução de dano 8 e uma arma natural que causa 1d8 pontos de dano. Seu tamanho muda para Grande (–2 em Furtividade, +2 em testes de manobra).\n• Superior. Você recebe Força +5, +10 na Defesa, redução de dano 10 e uma arma natural que causa 2d6 pontos de dano. Seu tamanho muda para Enorme (–5 em Furtividade, +5 em testes de manobra)."
     },
     {
       "name": "Forma Sorrateira",
-      "description": " Você recebe Destreza +2 e uma arma natural que causa 1d4 pontos de dano. Seu tamanho muda para Pequeno (+2 em Furtividade, –2 em testes de manobra).\n• Aprimorada. Você recebe Destreza +4. Seu tamanho muda para Minúsculo (+5 em Furtividade, –5 em testes de manobra).\n• Superior. Você recebe Destreza +6 e deslocamento de voo 18m. Seu tamanho muda para Minúsculo (+5 em Furtividade, –5 em testes de manobra)."
+      "description": "Você recebe Destreza +2 e uma arma natural que causa 1d4 pontos de dano. Seu tamanho muda para Pequeno (+2 em Furtividade, –2 em testes de manobra).\n• Aprimorada. Você recebe Destreza +4. Seu tamanho muda para Minúsculo (+5 em Furtividade, –5 em testes de manobra).\n• Superior. Você recebe Destreza +6 e deslocamento de voo 18m. Seu tamanho muda para Minúsculo (+5 em Furtividade, –5 em testes de manobra)."
     },
     {
       "name": "Forma Veloz",
-      "description": " Você recebe Destreza +2, uma arma natural que causa 1d6 pontos de dano e um dos benefícios a seguir: deslocamento 15m, deslocamento de escalada 9m ou deslocamento de natação 9m.\n• Aprimorada. Você recebe Destreza +4, uma arma natural que causa 1d6 pontos de dano e um dos benefícios a seguir: deslocamento 18m, deslocamento de escalada 12m ou deslocamento de natação 12m.\n• Superior. Você recebe Destreza +6, uma arma natural que causa 1d6 pontos de dano e um dos benefícios a seguir: deslocamento de natação 18m ou deslocamento de voo 24m."
+      "description": "Você recebe Destreza +2, uma arma natural que causa 1d6 pontos de dano e um dos benefícios a seguir: deslocamento 15m, deslocamento de escalada 9m ou deslocamento de natação 9m.\n• Aprimorada. Você recebe Destreza +4, uma arma natural que causa 1d6 pontos de dano e um dos benefícios a seguir: deslocamento 18m, deslocamento de escalada 12m ou deslocamento de natação 12m.\n• Superior. Você recebe Destreza +6, uma arma natural que causa 1d6 pontos de dano e um dos benefícios a seguir: deslocamento de natação 18m ou deslocamento de voo 24m."
     }
   ]
 }
