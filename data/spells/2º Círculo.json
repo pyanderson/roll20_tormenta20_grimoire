@@ -348,6 +348,41 @@
     {
       "area": "",
       "circle": "2",
+      "description": "Lisandra de Galrasia foi a primeira a manifestar uma armadura fibrosa, mas hoje outros podem fazer o mesmo. Esta magia transforma o alvo em uma couraça arbórea. Se for uma armadura, seu bônus na Defesa aumenta em +2 e se for um vestuário, passa a fornecer +2 na Defesa (não cumulativo com armadura). Os efeitos desta magia contam como um bônus de encanto e ela só pode ser lançada em terrenos naturais. Dahllan recebem 1 PM para usar em aprimoramentos ao lançá-la.",
+      "duration": "cena",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+1 PM",
+          "description": "aumenta a Defesa em +1 (bônus máximo limitado pelo círculo máximo de magia que você pode lançar)."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "além do normal, suas magias de evocação e transmutação custam –1 PM."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "o alvo é recoberto por folhas e galhos. Você recebe +5 em testes de Furtividade e pode se esconder mesmo sem camuflagem ou cobertura disponível."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "além do normal, o alvo fornece o mesmo bônus em testes de resistência. Requer 3° círculo."
+        },
+        {
+          "cost": "+3 PM",
+          "description": "além do normal, o alvo é recoberto esporos de cogumelo. Quando uma criatura faz um ataque corpo a corpo contra você, ela deve fazer um teste de Fortitude (CD da magia). Se falhar, fica paralisada por 1 rodada (apenas uma vez por cena) e lenta. Se passar, fica lenta por 1 rodada. Requer 3° círculo."
+        }
+      ],
+      "name": "Couraça de Allihanna",
+      "range": "toque",
+      "resistance": "",
+      "target": "1 armadura ou vestuário",
+      "type": "Divina 2 (Abjuração)"
+    },
+    {
+      "area": "",
+      "circle": "2",
       "description": "Esta magia cria um crânio envolto em energia negativa. Quando atinge o alvo, causa 4d8+4 pontos de dano de trevas e se desfaz emitindo um som horrendo, deixando abalado o alvo e todos os inimigos num raio de 3m dele (criaturas já abaladas ficam apavoradas por 1d4 rodadas). Passar no teste de resistência diminui o dano à metade e evita a condição (as demais criaturas na área também tem direito ao teste de resistência, para evitar a condição).\nAbalado\nApavorado",
       "duration": "instantânea",
       "effect": "",
@@ -915,6 +950,37 @@
     {
       "area": "",
       "circle": "2",
+      "description": "Por meio de um brado poderoso, entoando um dogma de sua religião, você inflige dano a devotos de divindades adversárias.\nEsta magia causa 6d8 pontos de dano de impacto a devotos de deuses que canalizam energia oposta a seu deus. Assim, se sua divindade canaliza energia positiva, a magia afeta devotos de deuses que canalizem energia negativa, e vice-versa. Devotos de deuses que canalizam qualquer energia ou criaturas que não sejam devotas sofrem apenas metade do dano.\nA magia afeta celestiais e abissais como se fossem devotos, respectivamente, de deuses de energia positiva e negativa, enquanto suraggel são afetados conforme sua herança. Nesses casos, a natureza planar se sobrepõe à devoção (um aggelus devoto de Tenebra ainda é considerado de energia positiva).",
+      "duration": "instantânea",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+1 PM",
+          "description": "muda o alvo para 1 espírito ou morto-vivo."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "aumenta o dano em +2d8."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "muda o alvo para 1 criatura."
+        },
+        {
+          "cost": "+3 PM",
+          "description": "muda o alvo para criaturas escolhidas. Requer 3° círculo."
+        }
+      ],
+      "name": "Punição do Profano",
+      "range": "curto",
+      "resistance": "Vontade reduz à metade",
+      "target": "1 humanoide",
+      "type": "Divina 2 (Evocação)"
+    },
+    {
+      "area": "",
+      "circle": "2",
       "description": "Você purifica a criatura tocada, removendo uma condição dela entre abalado, Apavorado, Alquebrado, Atordoado, Cego, Confuso, Debilitado}, Surdo.",
       "duration": "instantânea",
       "effect": "",
@@ -1301,6 +1367,60 @@
       "resistance": "Fortitude reduz à metade",
       "target": "1 criatura",
       "type": "Arcana 2 (Necromancia)"
+    },
+    {
+      "area": "",
+      "circle": "2",
+      "description": "Provavelmente ofertada por Sszzaas, esta magia amaldiçoa uma arma contra seu usuário. Quando faz um ataque com a arma, o usuário deve passar em um teste de Vontade. Se falhar, a arma se retorce como uma serpente, ou muda sua trajetória em pleno voo; o agressor se torna o alvo do próprio ataque! Após esse ataque, bem- -sucedido ou não, a magia descarrega e a arma volta ao normal.",
+      "duration": "cena, até ser descarregada",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+1 PM",
+          "description": "em vez do usuário, a arma se volta para outra criatura em alcance curto que você possa perceber, a sua escolha."
+        },
+        {
+          "cost": "+1 PM",
+          "description": "muda o alvo para 1 arma e a duração para 1 dia, até ser descarregada. Requer 3° círculo."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "aumenta o número de alvos em +1."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "adiciona componente material (uma dose de veneno). Além do normal, o ataque envenena o usuário com o veneno utilizado como componente (a CD desse veneno é a CD da própria magia)."
+        }
+      ],
+      "name": "Traição da Lâmina",
+      "range": "curto",
+      "resistance": "Vontade (veja texto)",
+      "target": "1 arma em posse de uma criatura",
+      "type": "Divina 2 (Abjuração)"
+    },
+    {
+      "area": "",
+      "circle": "2",
+      "description": "Esta magia desestabiliza outras magias ativas no alvo, fazendo com que elas causem uma súbita descarga de energia mística. Para cada círculo das magias afetando o alvo, ele sofre 1d8 pontos de dano de essência. Um alvo sob efeito de Velocidade e Voo (2º e 3º círculos) sofre 5d8 pontos de dano.",
+      "duration": "instantânea",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+3 PM",
+          "description": "muda o alvo para criaturas escolhidas. Requer 3º círculo."
+        },
+        {
+          "cost": "+3 PM",
+          "description": "muda a resistência para nenhuma. Requer 3º círculo."
+        }
+      ],
+      "name": "Traição Mágica",
+      "range": "curto",
+      "resistance": "Vontade reduz à metade",
+      "target": "1 criatura",
+      "type": "Universal 2 (Abjuração)"
     },
     {
       "area": "",
