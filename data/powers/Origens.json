@@ -505,6 +505,156 @@
       "source": "",
       "name": "Um com os Kami (Tamu-ra)",
       "description": "Você pode usar Sabedoria como atributo-chave de Misticismo (em vez de Inteligência). Além disso, é acompanhado por um kami incorpóreo e invisível. Ele é um parceiro especial, que permite que você veja criaturas incorpóreas invisíveis e afete criaturas com seus ataques e habilidades como se fossem mágicos, e não conta em seu limite de parceiros. Além disso, uma vez por rodada você pode gastar 1 PM para executar o equivalente a uma ação de movimento que só pode ser usada para manipular um objeto solto em alcance curto. O kami não pode se afastar além de alcance curto de você. Se for destruído por qualquer efeito, o kami desaparece, retornando no início da próxima cena."
+    },
+    {
+      "source": "",
+      "name": "Bacharel",
+      "description": "Você é treinado em Conhecimento, Diplomacia e Nobreza. Além disso, uma vez por cena pode usar Diplomacia para mudar atitude como uma ação livre."
+    },
+    {
+      "source": "",
+      "name": "Boticário",
+      "description": "Você é treinado em Cura e Ofício (alquimista). Além disso, pode fabricar poções de duas fórmulas de 1º círculo a sua escolha, como se tivesse o poder Alquimista Iniciado (Tormenta20, p. 68)."
+    },
+    {
+      "source": "",
+      "name": "Caçador de Ratos",
+      "description": "Você é treinado em Furtividade, Investigação e Sobrevivência, e recebe +2 em testes de perícias contra criaturas de duas categorias de tamanho menor que a sua (mínimo Minúsculas)."
+    },
+    {
+      "source": "",
+      "name": "Cão de Briga",
+      "description": "Na primeira vez a cada cena em que você faz a ação agredir, pode fazer um ataque extra."
+    },
+    {
+      "source": "",
+      "name": "Carcereiro",
+      "description": "Você recebe +2 em testes contra efeitos mentais, Enganação, Furtividade e Intimidação."
+    },
+    {
+      "source": "",
+      "name": "Carpinteiro de Guilda",
+      "description": "Você é treinado em Ofício (artesão). Além disso, recebe redução de corte 2 e, em suas mãos, armas de corte ignoram 5 pontos de redução de dano."
+    },
+    {
+      "source": "",
+      "name": "Catador da Catástrofe",
+      "description": "Você é treinado em Fortitude e Percepção. No início de cada aventura, pode fazer um teste de Percepção (CD 15 + metade do seu nível). Se passar, encontra um tesouro correspondente a seu próprio ND, escolhido pelo mestre ou rolado nas colunas Dinheiro e Itens da Tabela 8-1: Tesouro por Nível de Desafio (Tormenta20, p. 328)."
+    },
+    {
+      "source": "",
+      "name": "Chef Hynne",
+      "description": "Você é treinado em Ofício (cozinheiro). Quando prepara um prato especial, seu benefício dura mais 1 dia (se for um benefício com um uso diário, ele pode ser usado novamente nesse dia)."
+    },
+    {
+      "source": "",
+      "name": "Cirurgião-Barbeiro",
+      "description": "Você é treinado em Cura e Ofício (barbeiro). Além disso, pode gastar uma ação completa e 2 PM para remover uma das seguintes condições de uma criatura adjacente: abalado, alquebrado, apavorado, atordoado, cego, confuso, debilitado, enjoado, envenenado, esmorecido, exausto, fascinado, fatigado, fraco, frustrado, lento, ofuscado, paralisado, pasmo e surdo. Contudo, a criatura também perde 1d6 pontos de vida."
+    },
+    {
+      "source": "",
+      "name": "Citadino Abastado",
+      "description": "Você é treinado em Nobreza e em um Ofício a sua escolha. Se estiver em uma cidade grande (a critério do mestre), pode gastar tibares para aprender algum conhecimento local útil. O custo é T$ 10 x seu nível. Se fizer isso, escolha um poder de combate, de destino ou de uma de suas classes cujos pré-requisitos você cumpra (o mestre determina se um poder está disponível na cidade). Até o fim da aventura, ou até usar esta habilidade novamente, você pode usar o poder escolhido por uma cena."
+    },
+    {
+      "source": "",
+      "name": "Cocheiro",
+      "description": "Você é treinado em Adestramento e Pilotagem e, quando está conduzindo um veículo, você e o veículo recebem +2 na Defesa e em testes de resistência."
+    },
+    {
+      "source": "",
+      "name": "Construtor",
+      "description": "Você é treinado em Fortitude e Ofício (pedreiro). Além disso, sabe encontrar pontos fracos em construções e estruturas. Pode pagar 2 PM para que você ou um aliado em alcance curto ignore 5 pontos da redução de dano de uma criatura ou objeto em alcance curto por uma cena."
+    },
+    {
+      "source": "",
+      "name": "Contrabandista",
+      "description": "Você é treinado em Enganação e Ladinagem, e recebe +5 em testes de Ladinagem para ocultar itens em si mesmo ou em veículos. Além disso, sua capacidade de carga aumenta em 2 espaços."
+    },
+    {
+      "source": "",
+      "name": "Coureiro",
+      "description": "Você é treinado em Fortitude e Ofício (coureiro). Além disso, pode gastar 10 minutos e T$ 10 para trabalhar em uma armadura de couro (incluindo couro batido, gibão de peles e brunea), aumentar a Defesa dela em +1 e reduzir sua penalidade de armadura em –2 por um dia."
+    },
+    {
+      "source": "",
+      "name": "Escriba",
+      "description": "Você é treinado em Conhecimento e Ofício (escriba) e recebe o poder de bardo Lendas e Histórias (Tormenta20, p. 45). Se receber esse poder novamente, em seu lugar recebe um bônus de +5 ao rolar novamente um teste usando seu efeito."
+    },
+    {
+      "source": "",
+      "name": "Espião",
+      "description": "Você é treinado em Enganação e Ladinagem. Além disso, escolha uma de suas perícias (exceto Luta ou Pontaria). Você pode usar Carisma como atributo-chave dessa perícia (em vez do atributo original)."
+    },
+    {
+      "source": "",
+      "name": "Ferreiro Militar",
+      "description": "Você é treinado em Ofício (armeiro). Além disso, recebe +2 em rolagens de dano com martelos e marretas de qualquer tipo."
+    },
+    {
+      "source": "",
+      "name": "Freira",
+      "description": "Você é treinada em Cura. Quando faz um teste para ajudar, você pode gastar 1 PM para aumentar o bônus da ajuda em +1d4 e, quando usa um efeito de cura, pode gastar 1 PM para aumentar esse efeito em +1 dado do mesmo tipo."
+    },
+    {
+      "source": "",
+      "name": "Goradista",
+      "description": "Você é treinado em Ofício (cozinheiro) e, quando prepara um prato especial, pode gastar T$ 10 a mais para adicionar cobertura de gorad a ele. Além de seus benefícios normais, um prato especial com cobertura de gorad fornece 2 PM temporários por patamar do comensal."
+    },
+    {
+      "source": "",
+      "name": "Insciente",
+      "description": "Você é treinado em Sobrevivência e recebe resistência a magia +5."
+    },
+    {
+      "source": "",
+      "name": "Interrogador",
+      "description": "Você é treinado em Intimidação e Investigação, e recebe +1 na margem de ameaça contra criaturas feridas (PV abaixo do total), pois aprendeu a bater onde mais dói."
+    },
+    {
+      "source": "",
+      "name": "Ladrão de Túmulos",
+      "description": "Você é treinado em Ladinagem e Sobrevivência, e recebe +2 na Defesa e em testes de perícia contra mortos-vivos. Além disso, recebe redução de trevas 5 (ou, se for um morto-vivo, recupera +1 PV por dado de dano de trevas)."
+    },
+    {
+      "source": "",
+      "name": "Menestrel",
+      "description": "Você é treinado em Atuação e recebe um poder de Música de bardo, escolhido entre Balada Fascinante, Canção Assustadora e Melodia Curativa."
+    },
+    {
+      "source": "",
+      "name": "Mensageiro",
+      "description": "Você recebe +3m em seu deslocamento e +2 em testes de resistência."
+    },
+    {
+      "source": "",
+      "name": "Náufrago",
+      "description": "Você recebe +5 PV e +2 PM. Além disso, uma vez por cena pode gastar 2 PM para receber um dos seguintes benefícios até o fim da cena: treinamento em uma perícia; proficiência com uma arma, armadura ou escudo; usar uma ferramenta no lugar de outra."
+    },
+    {
+      "source": "",
+      "name": "Padeiro",
+      "description": "Você é treinado em Ofício (cozinheiro). Além disso, sua profissão fortificou seus braços! Você recebe +1 em rolagens de dano com armas de impacto e pode substituir testes de Atletismo por testes de Ofício (cozinheiro)."
+    },
+    {
+      "source": "",
+      "name": "Pedinte",
+      "description": "Você é muito discreto, recebendo +2 em Enganação e Furtividade. Além disso, aprendeu a aproveitar o máximo de cada recurso e a partilhar do pouco que tinha com seus companheiros em dificuldades. Quando você usa um alimento, preparado alquímico ou poção, pode rolar seu efeito duas vezes e usar o melhor resultado (se o efeito for aleatório), ou pode dividir o item com um aliado adjacente (ele também gasta a ação para consumi-lo e recebe o benefício normal, mas você gasta apenas um item)."
+    },
+    {
+      "source": "",
+      "name": "Pescador",
+      "description": "Você é treinado em Ofício (pescador) e Sobrevivência. Além disso, você sabe aguardar o instante exato de puxar o anzol. Recebe +2 em Iniciativa e, sempre que prepara uma ação (Tormenta20, p. 234), recebe +2 em testes para executá-la."
+    },
+    {
+      "source": "",
+      "name": "Servo",
+      "description": "Você é treinado em Diplomacia e Ofício (serviçal). Além disso, recebe +2 em testes de Diplomacia e Enganação contra alvos que tenham status ou posição superior à sua (ou que acreditam ter), e pode substituir testes de Nobreza por testes de Ofício (serviçal)."
+    },
+    {
+      "source": "",
+      "name": "Suporte de Tropas",
+      "description": "Sempre que você faz um teste para ajudar, o bônus que fornece aumenta em +2. Além disso, quando flanqueia um inimigo, o bônus que você e seus aliados recebem em testes de ataque aumenta para +4."
     }
   ]
 }
