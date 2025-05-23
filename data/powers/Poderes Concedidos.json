@@ -18,16 +18,40 @@
       "description": "Você recebe +10 em testes de resistência contra efeitos da Tormenta, de suas criaturas e de devotos de Aharadak. Além disso, seu primeiro poder da Tormenta não conta para perda de Carisma."
     },
     {
+      "name": "Água da Vida Nerelim",
+      "description": "Uma vez por dia, você pode transformar um jarro (ou outro recipiente equivalente que ocupe 0,5 espaço) de água doce em uma poção mágica. Beber essa água mágica é uma ação padrão e recupera 2d8+2 PV e 1d4+1 PM. A água mantém suas propriedades mágicas por 1 semana ou até ser bebida."
+    },
+    {
+      "name": "Alcançar os Céus Hydora",
+      "description": "Você pode gastar uma quantidade de PM limitada por sua Sabedoria (mínimo de 1) para receber deslocamento de voo até o fim do seu turno. Esse deslocamento é igual a 12m, +3m para cada PM gasto além do primeiro."
+    },
+    {
       "name": "Alimentar-se do Pavor Kallyadranoch, Megalokk",
       "description": "Quando uma criatura em alcance curto sob efeito de uma condição de medo morre, você recebe pontos de vida temporários iguais ao dobro do seu ND, que duram até o fim da cena."
+    },
+    {
+      "name": "Alimento da Alma Sunnary",
+      "description": "Você recebe treinamento em Ofício (cozinheiro) e aprende e pode lançar Abençoar Alimentos. Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
     },
     {
       "name": "Alma de Mudança Thwor , Valkaria",
       "description": "No início de cada aventura, você pode trocar uma quantidade de poderes (limitada por sua Sabedoria) por poderes diferentes cujos pré-requisitos cumpra. Você não pode trocar este poder."
     },
     {
+      "name": "Alma em Erupção Kurur Lianth",
+      "description": "Você recebe redução de fogo 10 e, quando causa dano, pode perder 2 pontos de vida (exceto PV temporários) para causar +1d8 pontos de dano de fogo."
+    },
+    {
       "name": "Almejar o Impossível Thwor, Valkaria",
       "description": "Quando faz um teste de perícia, um resultado de 19 ou mais no dado sempre é um sucesso, não importando o valor a ser alcançado."
+    },
+    {
+      "name": "Âmago de Escultor Granto",
+      "description": "Você paga 20% a menos em aposentos e mobílias de bases e construções de domínios. Além disso, pode construir um aposento ou construção acima do limite definido pelo tamanho da base ou nível do domínio."
+    },
+    {
+      "name": "Amor ao Machado Goharom",
+      "description": "Você pode gastar uma ação padrão e 3 PM para tocar um machado e colocar nele um encanto de arma a sua escolha. O encanto não pode ter pré-requisitos e dura até o fim da cena ou até você usar este poder novamente."
     },
     {
       "name": "Andarilho Carregado Valkaria",
@@ -62,8 +86,20 @@
       "description": "Para você, armas naturais são armas favoritas de Megalokk. Você recebe +2 em rolagens de dano com elas, pode usar Abençoar Arma (Tormenta20, p. 57) nelas e, quando usa esse poder ou a magia Armamento da Natureza, pode aplicar seus benefícios a todas as suas armas naturais (sem custo adicional)."
     },
     {
-      "name": "Arsenal das profundezas Oceano",
+      "name": "Armas e Espólios Dunsark",
+      "description": "Você recebe uma proficiência a sua escolha entre armaduras pesadas, armas de fogo, armas marciais ou escudos. Se já tiver proficiência com armas marciais, pode escolher armas exóticas. Além disso, quando rolar um tesouro, como na tabela de Tesouro por Nível de Desafio (Tormenta20, p. 328), você pode rolar duas vezes para cada coluna apropriada e escolher entre os dois resultados."
+    },
+    {
+      "name": "Arsenal das Profundezas Oceano",
       "description": "Você recebe +2 nas rolagens de dano com azagaias, lanças e tridentes e seu multiplicador de crítico com essas armas aumenta em +1."
+    },
+    {
+      "name": "Arsenal do Oceano Tessalus",
+      "description": "Você recebe proficiência em tridente e recebe +1 em testes de ataque e na margem de ameaça com essa arma. Se já for proficiente em tridente, seu dano aumenta em um passo."
+    },
+    {
+      "name": "Artista das Armas Rhond",
+      "description": "Você pode infundir armas com uma fagulha divina. Gaste uma semana e T$ 100 e faça um teste de Ofício (armeiro) com CD igual à de fabricação da arma. Se passar, a arma se torna mágica e recebe uma melhoria cujos pré-requisitos cumpra (exceto material especial), que não conta em seu limite de melhorias."
     },
     {
       "name": "Astúcia da Serpente Sszzaas",
@@ -102,6 +138,10 @@
       "description": "Uma vez por cena, você pode pedir a Wynna o conhecimento de uma magia que tenha visto sendo lançada nessa aventura e que seja de um círculo a que você tenha acesso. Gaste uma ação padrão e faça um teste de Religião (CD 15 + custo em PM da magia). Se passar, você pode lançar essa magia até o fim do seu próximo turno (pagando seus custos normais)."
     },
     {
+      "name": "Bênção do Frio Beluhga",
+      "description": "Você recebe redução de frio 5. Além disso, se terminar o seu turno adjacente a um ou mais inimigos, eles ficam enredados por cristais de gelo por 1 rodada. Se já estavam enredados dessa forma, em vez disso ficam imóveis por 1 rodada (Fortitude evita a condição imóvel)."
+    },
+    {
       "name": "Bênção do Mana Wynna",
       "description": "Você recebe +1 PM a cada nível ímpar."
     },
@@ -110,12 +150,28 @@
       "description": "Você recebe uma perícia treinada. A cada patamar de jogo (Tormenta20, p. 35) acima de iniciante, recebe mais uma perícia treinada."
     },
     {
+      "name": "Bolha Hídrica Piscigeros",
+      "description": "Uma vez por rodada, quando você ou um aliado em alcance curto faz um teste de resistência ou sofre dano, você pode gastar 2 PM para cuspir uma bolha de água protetora que fornece +5 nesse teste de resistência ou RD 15 contra esse dano. Estes benefícios são dobrados contra efeitos de fogo."
+    },
+    {
       "name": "Cancioneiro da Esperança Marah",
       "description": "Você pode gastar uma ação padrão e 2 PM para entoar uma canção de superação e paz. Criaturas escolhidas (limitadas por seu Carisma) em alcance curto recebem +2 em testes (exceto testes de ataque) e +3m de deslocamento até o fim da cena. Se uma criatura afetada for executar uma ação hostil, perde esses bônus."
     },
     {
+      "name": "Canção Divina Canora",
+      "description": "Você pode usar Sabedoria para Atuação (em vez de Carisma) e como atributo-chave de suas magias de bardo (se as tiver). Além disso, aprende e pode lançar a magia Despedaçar. Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
+    },
+    {
+      "name": "Canção dos Mares Ayllana",
+      "description": "Você adquire a habilidade Canção dos Mares das sereias/tritões (Tormenta20, p. 30). Se já tiver essa habilidade, você pode escolher outras magia da lista da habilidade, ou as mesmas para diminuir seu custo."
+    },
+    {
       "name": "Carícia Sombria Tenebra",
       "description": "Você pode gastar 1 PM e uma ação padrão para cobrir sua mão com energia negativa e tocar uma criatura em alcance corpo a corpo. A criatura sofre 2d6 pontos de dano de trevas (Fortitude CD Sab reduz à metade) e você recupera PV iguais à metade do dano causado. Você pode aprender Toque Vampírico como uma magia divina. Se fizer isso, o custo dela diminui em –1 PM."
+    },
+    {
+      "name": "Casco de Tartaruga Tamagrah",
+      "description": "Uma vez por rodada, quando sofre dano, você pode gastar 2 PM para receber RD 20 contra esse dano."
     },
     {
       "name": "Centelha Mágica Wynna",
@@ -124,6 +180,10 @@
     {
       "name": "Cerimonialista Divino Lin-Wu",
       "description": "Uma vez por dia, você pode gastar 1 hora para executar uma cerimônia tradicional que afeta até 1 + seu Carisma criaturas por 1 dia. Faça um teste de Religião com um bônus igual ao seu Carisma. Para cada 10 pontos do resultado, cada criatura afetada recebe um dado de auxílio. Quando faz um teste de atributo ou perícia (exceto Enganação, Furtividade e Ladinagem), a criatura pode gastar um deles para receber +1d6 de bônus no teste. Para criaturas que gastarem T$ 25 em oferendas no ritual, esse bônus muda para +1d8."
+    },
+    {
+      "name": "Chamado da Colmeia Apis",
+      "description": "Você pode gastar 1 PM e uma ação padrão para invocar um enxame de abelhas Grande com duração sustentada, que surge em um espaço a sua escolha em alcance médio. O enxame pode passar pelo espaço de outras criaturas e não impede que outras criaturas entrem no espaço dele. No final de seus turnos, o enxame causa 2d6 pontos de dano de perfuração a qualquer criatura em seu espaço (Reflexos CD Sab reduz à metade). Você pode gastar uma ação de movimento para mover o enxame 12m. A cada patamar além de iniciante, você pode gastar +1 PM quando invoca o enxame para aumentar seu dano em +2d6."
     },
     {
       "name": "Chamado Monstruoso Megalokk",
@@ -148,6 +208,10 @@
     {
       "name": "Conjurar Arma Arsenal",
       "description": "Você pode gastar 1 PM para invocar uma arma corpo a corpo ou de arremesso com a qual seja proficiente. A arma surge em sua mão, fornece +1 em testes de ataque e rolagens de dano, é considerada mágica e dura pela cena. Você não pode criar armas de disparo, mas pode criar 20 munições."
+    },
+    {
+      "name": "Conjurar Cristal O Deus Cristal de Urielka",
+      "description": "Você pode gastar uma ação de movimento e 3 PM para conjurar um cristal azul, verde ou vermelho. Conforme a cor do cristal, você pode quebrá-lo para gerar um efeito: azul (recebe RD 20 contra um dano recém-sofrido); verde (rola novamente um teste de resistência recém-realizado); vermelho (ganha uma ação de movimento nesse turno). O cristal dura até o fim da cena, até ser usado ou até você conjurar outro cristal."
     },
     {
       "name": "Convicção Ambiciosa Valkaria",
@@ -182,8 +246,16 @@
       "description": "Para você, dormir ao relento conta como condição de descanso confortável."
     },
     {
+      "name": "Despertar do Gigante Teldiskan",
+      "description": "Você pode gastar uma ação de movimento e 3 PM para se tornar fisicamente mais imponente. Até o fim da cena você recebe +1 em Força e é considerado uma categoria de tamanho maior para modificadores de manobra de combate."
+    },
+    {
       "name": "Discurso Conciliador Marah",
       "description": "Quando faz um teste de Diplomacia para mudar atitude, você pode rolar dois dados e usar o melhor resultado ou ambos (como se tivesse usado mudar atitude duas vezes). Se passar em ambos, as mudanças de atitude são cumulativas."
+    },
+    {
+      "name": "Disparo Sublime Cette",
+      "description": "Você pode gastar uma ação de movimento e 2 PM para fazer um teste de Percepção (CD 15 + ND da criatura) contra uma criatura em alcance médio. Se passar no teste e acertar um ataque com arco contra o alvo na mesma rodada, esse ataque é um acerto crítico automático. Se for o paladino de Cette, você pode usar Golpe Divino com ataques com arco à distância."
     },
     {
       "name": "Dom da Esperança Marah",
@@ -214,8 +286,20 @@
       "description": "Você recebe +2 em Vontade e, uma vez por cena, quando passa em um teste de Vontade contra um efeito de um inimigo ou de um perigo apresentado pelo mestre, recebe 1d4 PM temporários."
     },
     {
+      "name": "Dom de Armadilheiro Canastra",
+      "description": "Você recebe um poder de Armadilha do caçador a sua escolha e a CD de todas as suas armadilhas aumenta em +2. Além disso, você pode aprender Conjurar Armadilha (Heróis de Arton, p. 252) como uma magia divina."
+    },
+    {
       "name": "Dom dos Segredos Sszzaas",
       "description": "Você pode gastar uma ação padrão e 2 PM para suplicar a Sszzaas por um segredo místico. Faça um teste de Carisma (CD 10, +2 para cada vez que usou este poder no mesmo dia). Se passar, você aprende e pode lançar uma magia de 1º círculo até o fim da cena (atributo-chave Car ou o seu atributo de conjuração, se houver)."
+    },
+    {
+      "name": "Domínio do Medo O Deus do Medo",
+      "description": "Você recebe +2 em Intimidação e na CD de seus efeitos de medo, e pode escolher poderes relacionados a efeitos de medo sem necessidade de cumprir pré-requisitos de classe ou devoção. Por fim, pode aprender magias de medo como magias divinas."
+    },
+    {
+      "name": "Ego Sckhar",
+      "description": "Quando faz um teste, você pode gastar 1 PM para receber +5 nesse teste. Se fizer isso e falhar no teste, até o fim da cena você sofre uma penalidade de –2 em testes e não pode usar este poder."
     },
     {
       "name": "Égide dos Mares Oceano",
@@ -238,6 +322,10 @@
       "description": "Você pode gastar 1 PM para fazer uma arma corpo a corpo de corte que esteja empunhando causar +1d6 de dano por fogo até o fim da cena."
     },
     {
+      "name": "Espadachim Divino A Espada-Deus",
+      "description": "Você recebe +1 nas rolagens de dano e no multiplicador de crítico com espadas e, para você, todas as espadas marciais são armas simples."
+    },
+    {
       "name": "Espalhar a Corrupção Aharadak",
       "description": "Quando chega em uma comunidade, você pode gastar um dia e fazer um teste de Religião (CD 20). Se passar, você planta a semente da corrupção no coração das pessoas em uma área equivalente a uma aldeia, um castelo ou um bairro de uma cidade grande. Por uma semana, ou até você partir do lugar, a categoria de atitude dessas pessoas em relação umas às outras piora em um passo, à medida que o senso moral delas se deteriora e seus piores desejos vêm à tona. Isso pode ser útil para gerar conflitos entre elas, embora caiba a você descobrir exatamente como se aproveitar deles."
     },
@@ -246,12 +334,20 @@
       "description": "Você pode gastar uma ação de movimento e 2 PM para conjurar um espírito animal que o envolve e luta com você. Até o fim da cena, você não pode ser flanqueado e recebe 10 PV temporários e uma arma natural (dano 1d6, crítico x2, tipo a sua escolha entre corte, impacto ou perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com essa arma. Quando usa este poder, você pode gastar PM adicionais (custo total limitado por sua Sabedoria). Para cada PM adicional, os PV temporários aumentam em +5."
     },
     {
+      "name": "Espírito da Alcateia Akok",
+      "description": "Você pode se comunicar livremente com todos os tipos de cães e lobos, como se estivesse sob efeito da magia Voz Divina. Além disso, quando ataca um inimigo que você esteja flanqueando, você recebe +2 na rolagem de dano."
+    },
+    {
       "name": "Espírito do Conhecimento Tanna-Toh",
       "description": "Você pode gastar uma ação padrão e 2 PM para invocar uma manifestação do saber em um espaço desocupado em alcance curto. Ela é um espírito Minúsculo que tem deslocamento de voo 6m, Força nula, Defesa 15, 1 PV, visão no escuro e falha em qualquer teste oposto. No início de seus turnos, ela pode usar a ação movimentar-se uma vez. Você pode perceber tudo que a manifestação for capaz de perceber e pode lançar magias a partir dela (exceto magias de alcance pessoal com alvo você). A manifestação desaparece quando morre ou no fim da cena."
     },
     {
       "name": "Estouro da Trobada Allihanna",
       "description": "Você pode gastar uma ação completa e 2 PM para convocar uma manada de trobos (ou outro animal da região) em um ponto desocupado a sua escolha em alcance curto com duração sustentada. A manada é Enorme e pode passar pelo espaço de outras criaturas. Você pode gastar uma ação de movimento para mover a manada 12m em linha reta. Criaturas pelas quais ela passar sofrem 3d6 pontos de dano de impacto e ficam caídas (Fort CD Sab reduz à metade e evita a condição)."
+    },
+    {
+      "name": "Etiqueta a Toda Hora Jandra",
+      "description": "Uma vez por cena, você pode gastar uma ação de movimento e 1 PM para fazer um teste de Nobreza para ajudar. Cada aliado em alcance curto pode usar o bônus de ajuda fornecido por este teste em um de seus testes de perícia feito até o fim da cena."
     },
     {
       "name": "Exaltar Honra Lin-Wu",
@@ -286,6 +382,10 @@
       "description": "Uma vez por dia, você pode gastar 1 hora e T$ 10 por item para abençoar uma quantidade de itens limitada por sua Sabedoria. Armas abençoadas dessa forma fornecem +2 em rolagens de dano, e armaduras e escudos fornecem RD 2. Se o usuário de um item abençoado for derrotado em combate, o item é destruído. Os efeitos da bênção duram 1 dia."
     },
     {
+      "name": "Fisgar Corações Irione",
+      "description": "Você aprende e pode lançar a magia Enfeitiçar (atributo-chave Carisma) usando apenas concentração, sem necessidade de gestos ou palavras (como se sob efeito do poder Magia Discreta). Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
+    },
+    {
       "name": "Forma de Macaco Hyninn",
       "description": "Você pode gastar uma ação completa e 2 PM para se transformar em um macaco. Você adquire tamanho Minúsculo (o que fornece +5 em Furtividade e –5 em testes de manobra) e recebe deslocamento de escalar 9m. Seu equipamento desaparece (e você perde seus benefícios) até você voltar ao normal, mas suas outras estatísticas não são alteradas. A transformação dura indefinidamente, mas termina caso você faça um ataque, lance uma magia ou sofra dano."
     },
@@ -294,8 +394,16 @@
       "description": "Você recebe redução de frio e trevas 5. Além disso, quando é alvo de um ataque você pode gastar 1 PM para emitir um clarão solar que deixa o atacante ofuscado por uma rodada."
     },
     {
+      "name": "Furacão de Lâminas Lamashtu",
+      "description": "Uma vez por rodada, quando erra um ataque corpo a corpo, você pode gastar 2 PM para fazer um novo ataque (com a mesma arma) contra outra criatura ao seu alcance."
+    },
+    {
       "name": "Fúria Divina Thwor",
       "description": "Você pode gastar 2 PM para invocar uma fúria selvagem, tornando-se temível em combate. Até o fim da cena, você recebe +2 em testes de ataque e rolagens de dano corpo a corpo, mas não pode executar nenhuma ação que exija paciência ou concentração (como usar a perícia Furtividade ou lançar magias). Se usar este poder em conjunto com a habilidade Fúria, ela também dura uma cena (e não termina se você não atacar ou for alvo de uma ação hostil)."
+    },
+    {
+      "name": "Ginete Altivo Hippion",
+      "description": "Enquanto está montado sobre um cavalo, você recebe +2 em testes de ataque e em Cavalgar. Além disso, você passa automaticamente em testes de Cavalgar para não cair do cavalo quando sofre dano e não sofre penalidades para atacar à distância ou lançar magias quando montado em cavalos. Este poder conta como o poder Ginete para efeitos de pré-requisitos de outras habilidades.\nSe você é um centauro, os benefícios deste poder mudam para: você pode fazer investidas em terreno difícil e não sofre a penalidade de –2 na Defesa por fazer uma investida. Por fim, recebe +2 nas rolagens de dano com armas em investidas."
     },
     {
       "name": "Golpe Semântico Tanna-Toh",
@@ -318,6 +426,10 @@
       "description": "Você recebe redução de fogo 10 e pode pagar 1 PM para criar água pura e potável suficiente para um odre (ou outro recipiente pequeno)."
     },
     {
+      "name": "Igual ao Lar Gratissa",
+      "description": "Uma vez por dia, você pode gastar alguns minutos para transformar um espaço de descanso em um lar provisório por um dia. Todas as criaturas que descansarem nesse local aumentam sua recuperação de PV ou PM em +1 por nível (a escolha da criatura) e, enquanto estiverem nesse lar, recebem +1 em testes de perícias."
+    },
+    {
       "name": "Imolação Sagrada Azgher, Thyatis",
       "description": "Você pode gastar uma ação padrão e 1 PM para cobrir seus braços com chamas com duração sustentada. Nesse estado, seus ataques corpo a corpo causam +1d6 pontos de dano de fogo."
     },
@@ -330,6 +442,26 @@
       "description": "Seus ataques e habilidades causam +1d6 pontos de dano contra mortos-vivos. Quando você usa um efeito que gera luz, o alcance da iluminação dobra."
     },
     {
+      "name": "Inimigo dos Deuses Sartan",
+      "description": "Você recebe resistência a magia divina +5 e, contra devotos de outros deuses, recebe +2 em testes de ataque e na CD de suas habilidades."
+    },
+    {
+      "name": "Inspiração Concedida Anilatir",
+      "description": "Você pode gastar 2 PM para evocar o poder da criatividade. Até o fim da cena, sempre que fizer um teste de perícia, você recebe um bônus cumulativo de +1 nesse teste (ou seja, +1 no primeiro teste, +2 no segundo teste, +3 no terceiro e assim por diante). Esse bônus dura até o fim da cena ou até você fazer um teste de uma perícia que já tenha usado nesta cena."
+    },
+    {
+      "name": "Investida Tempestade Benthos",
+      "description": "Quando faz uma investida, você pode gastar 2 PM para cobrir seu corpo com eletricidade. Se fizer isso, seu ataque causa +2d8 pontos de dano de eletricidade. Além disso, criaturas adjacentes ao caminho que você percorre na investida sofrem 2d8 pontos de dano de eletricidade e ficam ofuscadas por 1 rodada (Ref CD Sab reduz à metade e evita a condição)."
+    },
+    {
+      "name": "Irmão da Coragem Zakharov",
+      "description": "Você se torna imune a medo (se já for imune, em vez disso recebe +2 em Vontade). Além disso, uma vez por cena envolvendo um perigo, você pode substituir um teste de perícia por um teste de Vontade."
+    },
+    {
+      "name": "Jogada Decisiva Champarr",
+      "description": "Uma vez por dia, quando faz um teste, você pode gastar 1 PM para somar +2 por patamar no teste."
+    },
+    {
       "name": "Júbilo na Dor Aharadak",
       "description": "Quando causa ou sofre dano, você recebe redução de dano 1. Esse efeito é cumulativo e limitado por sua Sabedoria e termina se você passar 1 rodada sem causar ou sofrer dano."
     },
@@ -340,6 +472,10 @@
     {
       "name": "Kiai Divino Lin-wu",
       "description": "Uma vez por rodada, quando faz um ataque corpo a corpo, você pode pagar 3 PM. Se acertar o ataque, causa dano máximo, sem necessidade de rolar dados."
+    },
+    {
+      "name": "Liberdade das Montanhas Altair",
+      "description": "Quando faz um teste de Atletismo para escalar, você rola dois dados e usa o melhor resultado. Além disso, se você estiver em terreno elevado, recebe +2 em testes de perícia contra criaturas em terreno inferior."
     },
     {
       "name": "Liberdade Divina Valkaria",
@@ -362,6 +498,10 @@
       "description": "Suas magias com resistência Fortitude recebem o seguinte aprimoramento. +1 PM: além do normal, criaturas que falharem perdem 1d12 PV por veneno, ou 1d6 se passarem na resistência."
     },
     {
+      "name": "Manha da Cidade O Deus das Cidades",
+      "description": "Quando está em uma comunidade, você soma sua Sabedoria (mínimo de 1) em testes de Conhecimento, Investigação, Ladinagem e Nobreza, e pode fazer testes dessas perícias mesmo sem ser treinado. Além disso, em comunidades pode fazer testes para interrogar sem precisar falar com pessoas ou gastar tibares, questionando a própria cidade."
+    },
+    {
       "name": "Manto Ardiloso Sszzaas",
       "description": "Você aprende a magia Disfarce Ilusório (CD Car). Na primeira vez que interage com alguém enquanto está sob efeito dessa magia, você recebe +10 no teste de Diplomacia para mudar a atitude dela. Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
     },
@@ -370,8 +510,20 @@
       "description": "Você aprende e pode lançar Escuridão. Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
     },
     {
+      "name": "Manutenção Sagrada Klangor",
+      "description": "Uma vez por dia, você pode gastar 10 minutos ajustando sua própria armadura. Faça um teste de Ofício (armeiro) para ajudar. Enquanto estiver trajando esta armadura, você recebe um bônus na Defesa igual ao bônus de ajuda fornecido pelo teste. Entretanto, a cada vez que você for atingido por um ataque, esse bônus diminui em 1 (até um mínimo de 0)."
+    },
+    {
+      "name": "Mar Aberto Marina",
+      "description": "Você aprende e pode lançar Caminhos da Natureza. Você só pode lançar essa magia em ambientes aquáticos, mas pode aplicar seu bônus em deslocamento em qualquer embarcação em que esteja. Caso aprenda novamente essa magia, pode usá-la em qualquer ambiente e seu custo diminui em –1 PM."
+    },
+    {
       "name": "Mar Revolto Oceano",
       "description": "Você pode gastar 1 PM para gerar uma aura de 6m de raio com duração sustentada. No início de seus turnos, criaturas a sua escolha na área devem passar em um teste de Acrobacia (CD Sab, +5 se a criatura estiver dentro da água) para não cair."
+    },
+    {
+      "name": "Máscara Mística Blinar",
+      "description": "Se estiver usando uma máscara, você pode lançar as magias Disfarce Ilusório e Proteção Divina (mas apenas em você mesmo). Caso aprenda uma dessas magias, seu custo diminui em –1 PM enquanto você estiver de máscara."
     },
     {
       "name": "Mediador da Tempestade Aharadak",
@@ -398,6 +550,14 @@
       "description": "Você recebe uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Suas presas são retráteis e podem armazenar até 2 doses de veneno de contato. Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida. Se acertar, pode inocular uma das doses de veneno no alvo."
     },
     {
+      "name": "Na Ponta da Língua Garanaam",
+      "description": "Sempre que fizer um teste de Vontade para resistir a uma habilidade de uma criatura inteligente (Int –3 ou maior), você pode gastar 2 PM para propor uma charada a ela. Faça um teste de Enganação, oposto pelo Conhecimento ou Intuição da criatura. Se você vencer o teste, passa automaticamente no teste de Vontade. Caso contrário, faça o teste de Vontade normalmente."
+    },
+    {
+      "name": "Natureza Gloriosa Zadbblein",
+      "description": "Você pode gastar 2 PM para que uma parte de seu corpo assuma uma forma animalesca até você ficar inconsciente ou escolher encerrá-la (uma ação livre). Quando faz isso, você recebe dois benefícios a sua escolha entre os seguintes: uma arma natural à sua escolha (dano 1d6, crítico x2, a sua escolha entre corte, impacto ou perfuração); +1 passo de dano em uma de suas armas naturais; +2 na Defesa; +6m de deslocamento; deslocamento de natação 9m; faro; ou +5 em Atletismo e Fortitude."
+    },
+    {
       "name": "Navegador Sagrado Oceano",
       "description": "Você pode usar Sabedoria para Pilotagem (em vez de Destreza) e, enquanto estiver em uma embarcação aquática, suas magias divinas custam –2 PM."
     },
@@ -418,6 +578,18 @@
       "description": "Você aprende e pode lançar Amedrontar. Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
     },
     {
+      "name": "Olhar Atordoante Escamandra",
+      "description": "Você pode gastar uma ação de movimento e 1 PM para forçar uma criatura em alcance curto a fazer um teste de Fortitude (CD Car). Se falhar, a criatura fica atordoada por 1 rodada (apenas uma vez por cena). Se você já tiver esta habilidade, em vez disso ela passa a afetar criaturas a sua escolha em alcance curto e a CD para resistir a ela aumenta em +2."
+    },
+    {
+      "name": "Olhos do Vigia Betsumial",
+      "description": "Você recebe +2 em Percepção, não fica surpreendido e desprevenido contra inimigos que não possa perceber e nunca acerta o alvo errado ao atacar alguém envolvido na manobra agarrar. Quando erra um ataque devido a camuflagem, pode rolar mais uma vez o dado da chance de falha."
+    },
+    {
+      "name": "Oprimir Escolhas Yasshara",
+      "description": "Quando uma criatura em alcance curto faz um teste de perícia, você pode gastar 2 PM para forçar essa criatura a escolher 10 nesse teste (mesmo que isso não seja possível). A criatura tem direito a um teste de Vontade (CD Sab) para resistir a esse efeito. Você só pode usar este poder uma vez por criatura em cada cena."
+    },
+    {
       "name": "O Sol que nos Aquece Allihanna, Azgher",
       "description": "Você pode gastar uma ação padrão e 2 PM para projetar uma aura de luz solar em um raio de 6m. Nessa área, habilidades mágicas de fogo ou luz e relacionadas a plantas (como Controlar Plantas) custam –1 PM (cumulativo com outras reduções) e criaturas com sensibilidade a luz e mortos-vivos ficam vulneráveis."
     },
@@ -430,8 +602,16 @@
       "description": "Você aprende e pode lançar Comando. Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
     },
     {
+      "name": "Passo do Caçador Lupan",
+      "description": "Você recebe +2 em Sobrevivência e soma sua Sabedoria em Furtividade. Além disso, contra criaturas desprevenidas ou surpreendidas, seus ataques causam +1d6 pontos de dano."
+    },
+    {
       "name": "Passo Sombrio Tenebra",
       "description": "Uma vez por rodada, você pode gastar 2 PM para se teleportar para um espaço desocupado em alcance curto. Se tanto você quanto esse espaço estiverem sob escuridão, o custo deste poder diminui em –1 PM. Você não pode usar este poder se estiver imóvel."
+    },
+    {
+      "name": "Pé na Estrada Laan",
+      "description": "Você pode gastar 3 PM para fornecer o dom da caminhada a criaturas escolhidas em alcance curto. Até o fim da cena, as criaturas afetadas recebem +3m em deslocamento, ficam imunes às condições imóvel e lento e passam automaticamente em testes de Fortitude para marcha forçada (Tormenta20, p. 270)."
     },
     {
       "name": "Perceber Farsas Tanna-Toh",
@@ -450,6 +630,10 @@
       "description": "Você pode gastar 2 PM para receber +2 na Defesa e redução de dano 5 até o fim da cena ou até encerrar este poder (uma ação livre). Enquanto esse efeito estiver ativo, seu deslocamento é reduzido à metade."
     },
     {
+      "name": "Poder da Amizade Artaphan",
+      "description": "Escolha um personagem para ser seu amigo de fé. Se estiver em alcance médio dele e vocês puderem pelo menos trocar olhares, você recebe +2 em todos os testes de perícia e o custo de suas habilidades que tenham ele como alvo diminui em –1 PM (cumulativo com outras reduções). Entretanto, se ele morrer, seus pontos de mana máximos diminuem em 1 por nível até o fim da aventura. Se perder seu amigo de fé, você pode escolher outro entre os demais personagens no início da próxima aventura."
+    },
+    {
       "name": "Poder do Vínculo Wynna",
       "description": "Você pode gastar uma ação de movimento e uma quantidade de PM (limitada ao círculo de magias a que tem acesso) para tocar em uma criatura capaz de lançar magias. O custo em PM da próxima magia que ela lançar diminui em um valor igual aos PM que você gastou."
     },
@@ -462,6 +646,10 @@
       "description": "A CD e os limites de PM de suas habilidades (exceto magias e habilidades que as simulem) aumentam em um valor igual ao seu patamar."
     },
     {
+      "name": "Pólvora Sagrada Garth",
+      "description": "Você recebe proficiência com armas de fogo. Além disso, pode gastar 1 PM para abençoar até 10 balas. Até o fim da cena, estas balas fornecem +1 na margem de ameaça e +2 nas rolagens de dano (cumulativo com outros bônus de itens)."
+    },
+    {
       "name": "Presas Primordiais Kallyadranoch, Megalokk",
       "description": "Você pode gastar 1 PM para transformar seus dentes em presas afiadas até o fim da cena. Você recebe uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir com outra arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida. Se já possuir outro ataque natural de mordida, em vez disso, o dano desse ataque aumenta em dois passos."
     },
@@ -472,6 +660,10 @@
     {
       "name": "Proeminência Solar Azgher",
       "description": "Suas magias que causam dano de fogo e que têm um teste de resistência recebem o seguinte aprimoramento: +1 PM: criaturas que falhem na resistência ficam em chamas e lentas até apagarem as chamas."
+    },
+    {
+      "name": "Pureza Corporal Caerdellach",
+      "description": "Você pode gastar uma ação de movimento e 1 PM para cobrir sua mão com luz e tocar uma criatura em alcance corpo a corpo. A criatura recupera 2d6+2 PV. Além disso, aprende e pode lançar a magia Purificação. Se aprender essa magia novamente, o custo dela diminui em –1 PM."
     },
     {
       "name": "Quebrar Encanto Khalmyr",
@@ -498,6 +690,14 @@
       "description": "Você pode gastar 2 PM para gerar uma aura de luz solar com 9m de raio que dura até o fim da cena. Além de sofrer os efeitos de exposição à luz, criaturas dentro da aura perdem toda camuflagem por escuridão e efeitos semelhantes (como da cobertura de sombras do aprimoramento da magia Escuridão)."
     },
     {
+      "name": "Revoada de Texugos Tukala",
+      "description": "Você pode gastar uma ação de movimento e 3 PM para invocar uma revoada de 1d4+1 texugos alados espirituais que ficam ao seu redor até o fim da cena. Enquanto estiverem ao seu redor, os texugos fornecem +2 em rolagens de dano corpo a corpo e na Defesa. Além disso, quando sofre dano, você pode “gastar” um dos texugos alados para receber RD 5 contra esse dano."
+    },
+    {
+      "name": "Salto Anurídeo Inghlblhpholstgt",
+      "description": "Você pode gastar uma ação de movimento e 2 PM para saltar 9m em qualquer direção. Se terminar o salto em alcance corpo a corpo de uma criatura e atacá-la no mesmo turno, você recebe os benefícios e as penalidades de uma investida e sua arma causa um dado extra de dano do mesmo tipo durante esse ataque. Você pode aprender Primor Atlético como uma magia divina. Se fizer isso, o custo dela diminui em –1 PM."
+    },
+    {
       "name": "Sangue de Ferro Arsenal",
       "description": "Você pode pagar 3 PM para receber +2 em rolagens de dano e redução de dano 5 até o fim da cena."
     },
@@ -510,12 +710,28 @@
       "description": "Você pode gastar 1 PM para sacar ou guardar uma arma como uma ação livre. Se sacar sua arma e fizer um ataque corpo a corpo no mesmo turno, você recebe +2 nesse teste de ataque e seu dano aumenta em dois passos (apenas uma vez contra cada criatura por cena)."
     },
     {
+      "name": "Selo Impedidor Dahriol",
+      "description": "Você pode gastar uma ação padrão e 3 PM para impedir uma criatura em alcance curto de usar uma habilidade a sua escolha até o fim da cena (Von CD Sab evita). Você só pode escolher uma habilidade que tenha visto a criatura usar ou que tenha identificado com um teste de perícia (como um teste de Misticismo para identificar criatura). Você não pode escolher a habilidade Magias (ou habilidades equivalentes), mas pode escolher uma magia específica. Uma mesma criatura só pode ser afetada por este poder uma vez por cena."
+    },
+    {
+      "name": "Selvageria Marcial Hurlaagh",
+      "description": "Você pode usar Sobrevivência no lugar de Guerra. Além disso, se passar em um teste para analisar terreno, além das vantagens descobertas, você fornece um bônus de +1 em testes de ataque e rolagens de dano de seus aliados em alcance curto até o fim da cena."
+    },
+    {
       "name": "Servos do Dragão Kally",
       "description": "Você pode gastar uma ação completa e 2 PM para invocar 2d4+1 kobolds capangas em espaços desocupados em alcance curto. Você pode gastar uma ação de movimento para fazer os kobolds andarem (eles têm deslocamento 9m) ou uma ação padrão para fazê-los causar dano a criaturas adjacentes (1d6–1 pontos de dano de perfuração cada). Os kobolds têm For –1, Des 1, Defesa 12, 1 PV e falham automaticamente em qualquer teste de resistência ou oposto. Eles desaparecem quando morrem ou no fim da cena. Os kobolds não agem sem receber uma ordem. Usos criativos para capangas fora de combate ficam a critério do mestre."
     },
     {
       "name": "Só os Loucos Sabem Nimb",
       "description": "Role duas perícias na Tabela 6-6 (Tormenta20, p. 279). Você se torna treinado nelas (se já for, recebe +3 nessa perícia). No começo de cada dia, você pode gastar 3 PM para rolar novas perícias."
+    },
+    {
+      "name": "Sombras Venenosas Mzzileyn",
+      "description": "Você pode gastar uma ação de movimento e 1 PM para envenenar uma arma que esteja usando. A arma causa perda de 1d12 PV por veneno. O veneno dura até você acertar um ataque ou até o fim da cena (o que acontecer primeiro). Além disso, se você estiver em uma área de escuridão, a CD para resistir aos seus venenos aumenta em +2 e a perda de vida deles aumenta em +2 por dado."
+    },
+    {
+      "name": "Sono Reparador Neruíte",
+      "description": "Se descansar (dormindo) em condições normais ou melhores, você pode melhorar sua recuperação de PV ou PM em um passo. Alternativamente, você pode ter um sonho inspirador: ao despertar, recebe +1d6 em um teste de perícia a sua escolha realizado até o fim do dia."
     },
     {
       "name": "Sopro do Mar Oceano",
@@ -546,8 +762,16 @@
       "description": "Até uma magia de cada círculo que você aprender poderá ser escolhida entre magias divinas (se você for um conjurador arcano) ou entre magias arcanas (se for um conjurador divino). Pré-requisito: habilidade de classe Magias."
     },
     {
+      "name": "Toque de Esmeralda Esmeralda",
+      "description": "Se fabricar um item que possa receber as melhorias banhado a ouro ou cravejado de joias, você pode gastar T$ 100 para aplicar uma dessas melhorias automaticamente, sem aumento na CD e sem que ela conte como uma melhoria. Sempre que você encontra uma riqueza aleatória (Tormenta20, p. 330), pode rolar duas vezes na tabela e escolher o melhor valor."
+    },
+    {
       "name": "Toque de Não Vida Tenebra",
       "description": "Você pode gastar uma ação de movimento e 2 PM para fornecer a si mesmo ou a uma criatura adjacente 2d12 PV temporários (que são sempre os primeiros a serem perdidos) e, enquanto os PV temporários durarem, camuflagem leve."
+    },
+    {
+      "name": "Toque Pestilento Luvithy",
+      "description": "Você aprende e pode lançar Infligir Ferimentos e, quando você usa essa magia, se o alvo falhar no teste de resistência, ele também é exposto à doença maldição pegajosa (Tormenta20, p. 318) e sofre seu efeito inicial imediadamente. Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
     },
     {
       "name": "Tradição de Lin-Wu Lin-Wu",
@@ -566,8 +790,16 @@
       "description": "Você aprende e pode lançar a magia Caminhos da Natureza. Se aprender essa magia, o custo dela diminui em –1 PM."
     },
     {
+      "name": "Trilhar das Árvores Antigas Ur",
+      "description": "Uma vez por rodada, você pode gastar 1 PM para entrar em uma árvore adjacente de tamanho igual ou maior que o seu e sair em outra árvore em alcance longo (também de tamanho igual ou maior que o seu). Você não precisa de linha de visão para a árvore de saída, mas deve estar ciente de sua existência."
+    },
+    {
       "name": "Tropas Duyshidakk Thwor",
       "description": "Você pode gastar uma ação completa e 2 PM para invocar 1d4+1 goblinoides capangas em espaços desocupados em alcance curto. Você pode gastar uma ação de movimento para fazer os goblinoides andarem (eles têm deslocamento 9m) ou uma ação padrão para fazê-los causar dano a criaturas adjacentes (1d6+1 pontos de dano de corte cada). Os goblinoides têm For 1, Des 1, Defesa 15, 1 PV e falham automaticamente em qualquer teste de resistência ou oposto. Eles desaparecem quando morrem ou no fim da cena. Os goblinoides não agem sem receber uma ordem. Usos criativos para capangas fora de combate ficam a critério do mestre."
+    },
+    {
+      "name": "Um Contra Um Drumak",
+      "description": "Você pode gastar 2 PM para escolher um oponente em alcance curto e receber +2 em testes de ataque e rolagens de dano contra ele até o fim da cena. Se atacar outro oponente, o bônus termina. Se tiver a habilidade Duelo, em vez disso seu custo diminui em –1 PM."
     },
     {
       "name": "Urro Divino Megalokk",
@@ -576,6 +808,14 @@
     {
       "name": "Ushultt Thwor",
       "description": "Escolha um de seus aliados como seu ushultt. Enquanto estiverem em alcance curto um do outro, vocês recebem +2 em testes de ataque e rolagens de dano (esse bônus aumenta para +3 se o ushultt também for duyshidakk). Você pode trocar seu ushultt uma vez por aventura."
+    },
+    {
+      "name": "Vanglória Elrophin",
+      "description": "Uma vez por cena, quando faz um teste de perícia, você pode gastar 1 PM para somar +1d6 como um bônus no teste. Se rolar o valor máximo nesse dado de bônus, role um segundo d6 e adicione ao resultado. Você não pode usar esta habilidade em testes de ataque."
+    },
+    {
+      "name": "Véu de Toris Toris",
+      "description": "Você recebe +5 em Furtividade e não sofre penalidade de armadura em testes dessa perícia. Além disso, você sempre sabe em que direção está Jallar, sendo capaz de encontrar o pequeno reino mesmo com a magia de proteção contra detecção invocada pela deusa."
     },
     {
       "name": "Visão nas Trevas Tenebra",
