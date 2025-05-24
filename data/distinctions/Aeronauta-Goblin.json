@@ -1,0 +1,30 @@
+{
+    "name": "Aeronauta Goblin",
+    "admission": "Para se tornar um aeronauta goblin, primeiramente é preciso... ser um goblin. Embora membros de outras raças possam aprender a construir e operar máquinas voadoras, a combinação de audácia, capacidade de improviso e mentalidade caótica necessária para ser um aeronautas só pode ser encontrada entre os goblins.\nUm goblin que deseje ser um aeronauta deve começar construindo uma máquina voadora. De início, pode ser simples — um balão, um planador —, mas deve ser feita com suas próprias mãos. O candidato deve testar a aeronave. Se ela voar da maneira que ele visualizou, o verdadeiro processo para se tornar um aeronauta goblin pode começar. A partir daqui, as coisas ficam divertidas!\nO candidato já aprendeu o básico, agora precisa inovar. Ele deve projetar e construir mais três máquinas voadoras, testando cada uma pessoalmente. As aeronaves precisam aumentar em complexidade e funcionalidade a cada nova criação — por exemplo, sendo mais rápidas, capazes de manobras mais arrojadas, com um teto de voo mais alto... É importante que todas essas três máquinas falhem enquanto o candidato as está testando, provocando quedas, explosões e outros desastres! Isso porque o candidato não deve ir pelo caminho seguro, mas levar suas aeronaves até o limite, aprendendo até onde pode forçar suas criações.\nDepois de construir, testar e destruir as três máquinas, o candidato deve criar sua aeronave definitiva (pelo menos por enquanto). Deve incorporar todas as inovações das máquinas anteriores: a velocidade da primeira, a manobrabilidade da segunda, a resistência da terceira... Deve levar todas as inovações até o limite, testar a nova aeronave... e dessa vez não cair.\nApenas através de um processo de aprendizado, pilotagem, quedas e aperfeiçoamento na prática o candidato pode aprender. Quando estiver singrando os céus com sua obra-prima, desafiando toda a lógica dos povos presos ao chão, ele terá se tornado um legítimo aeronauta goblin.",
+    "abilities": [
+        {
+            "name": "Combate Aéreo",
+            "description": "Você recebe uma ação de movimento extra por rodada, que só pode ser usada para pilotar sua aeronave, e não sofre penalidades para atacar à distância ou lançar magias por estar a bordo de uma aeronave."
+        },
+        {
+            "name": "Cabeça nas Nuvens",
+            "description": "Quando está pilotando uma aeronave, você recebe +1 em testes de perícia, rolagens de dano e na CD das suas habilidades e itens. Esse bônus aumenta em +1 para cada dois outros poderes da distinção que você possui. Pré-requisitos: Int 2, treinado em Ofício (artesão) e Pilotagem."
+        },
+        {
+            "name": "Engenharia Aeronáutica",
+            "description": "Você pode fabricar ornitópteros superiores (veja adiante) e acoplar até duas engenhocas neles, seguindo as regras normais de engenhocas. Elas não contam em seu limite de engenhocas e não precisam ser empunhadas ou vestidas, mas só podem ser ativadas se você estiver pilotando o ornitóptero. Pré-requisitos: Cabeça nas Nuvens, Engenhoqueiro."
+        },
+        {
+            "name": "Estou Bem, Pessoal!",
+            "description": "Você recebe redução de fogo e impacto 5 e sofre apenas metade do dano de quedas. Pré-requisito: Cabeça nas Nuvens."
+        },
+        {
+            "name": "Manobras Defensivas",
+            "description": "Você soma sua Inteligência na Defesa de qualquer aeronave que estiver pilotando. Além disso, quando você ou a aeronave que você está pilotando sofre dano, você pode gastar 2 PM para fazer um teste de Pilotagem e subtrair o resultado do dano sofrido. Pré-requisitos: treinado em Reflexos, Estou Bem, Pessoal!."
+        },
+        {
+            "name": "Senhor dos Céus",
+            "description": "Uma vez por rodada, enquanto está pilotando uma aeronave, você pode gastar 3 PM para realizar uma ação padrão adicional. Pré-requisitos: Manobras Defensivas, derrotar cinco aeronaves e/ou inimigos voadores enquanto pilota uma aeronave."
+        }
+    ]
+}

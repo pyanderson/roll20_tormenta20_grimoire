@@ -20,7 +20,13 @@ def convert_to_book_folder(d):
     return {
         "type": "folder",
         "name": d["name"],
-        "items": [
+        "items": ([
+            {
+                "name": "Admissão",
+                "description": d["admission"],
+                "type": "item"
+            }
+        ] if "admission" in d else [] ) + [
             {
                 **item,
                 "spellType": item.get("type"),
@@ -37,6 +43,7 @@ races = load_folder("data/races")
 classes = load_folder("data/classes")
 powers = load_folder("data/powers")
 spells = load_folder("data/spells")
+distinctions = load_folder("data/distinctions")
 equipments = load_folder("data/equipments")
 
 # fill the book
@@ -45,6 +52,7 @@ for name, source in [
     ("Classes", classes),
     ("Poderes", powers),
     ("Magias", spells),
+    ("Distinções", distinctions)
 ]:
     book.append(
         {
@@ -60,6 +68,7 @@ book_folders_order = [
     "Condições",
     "Raças",
     "Classes",
+    "Distinções",
     "Origens",
     "Deuses",
     "Perícias",
@@ -79,6 +88,7 @@ abilities_and_powers = OrderedDict()
 entries = (
     sorted(races, key=itemgetter("name"))
     + sorted(classes, key=itemgetter("name"))
+    + sorted(distinctions, key=itemgetter("name"))
     + sorted(powers, key=itemgetter("name"))
 )
 for entry in entries:
