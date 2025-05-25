@@ -1,0 +1,34 @@
+{
+    "name": "Mago da Ordem do Vazio",
+    "admission": "A Ordem do Vazio lida com a individualidade e, embora ela possa ser incentivada, não pode ser ensinada. Um candidato pode desvendar este método especial de conjuração através de experimentos extensos usando o componente alternativo escolhido — que não pode ser o mesmo de outro mago do Vazio.\nNos tempos da sede isso acontecia com orientação de outro mago, mas hoje deve ocorrer por iniciativa do próprio candidato. Todo candidato deve, antes de mais nada, ser um arcanista experiente. Então deve buscar um componente tão único quanto possível e concentrar sua pesquisa e energia arcana nele.\nO candidato deve replicar o feito dos três magos do Vazio originais, redescobrindo esta forma de magia do zero. Deve buscar indícios de outros magos com o mesmo componente que ele, sempre esperando não encontrar nenhum. Se houver outro mago do Vazio com o mesmo componente, o candidato deve recomeçar seu treinamento autodidata do início.\nDe uma forma ou outra, dominar o componente especial não é uma tarefa fácil. Depois de decidir adotá-lo, o mago deve passar a lançar todas as suas magias usando seu componente como um catalisador que não traz nenhum benefício — mas o impede usar outros catalisadores! Aos poucos, usar o componente passa a se tornar natural. Isso é um processo que costuma durar alguns meses, e se conclui quando o candidato vence três desafios arcanos avançados. Durante todo esse processo, se o candidato lançar qualquer magia sem o componente, deve escolher um componente novo e recomeçar o treinamento.\nQuando tiver vencido os três desafios, o candidato terá finalmente dominado seu componente especial. A partir desse ponto, consegue retirar dele efeitos positivos, transformando-o em uma vantagem. Torna-se digno de ser considerado um mago da Ordem do Vazio.",
+    "abilities": [
+        {
+            "name": "Componentes Especiais",
+            "description": "Os magos da Ordem do Vazio empregam componentes especiais para canalizar seu mana na forma de magias. Um componente especial é um material mundano, como retalhos de tecido, pedaços de queijo ou fios de cabelo. Esse componente deve ser empunhado da mesma forma que um componente material (o mago pode usar a mesma mão para ambos) e é consumido da mesma maneira. Cada mago da Ordem do Vazio possui seu próprio componente especial, determinado quando ele ingressa na Ordem.\nUm componente especial é algo de preço insignificante, que pode ser encontrado no meio ambiente. Uma vez por dia, você consegue reunir um punhado de seu componente especial enquanto executa suas outras tarefas. Se dedicar um dia inteiro para reunir seu componente especial, em vez disso encontra 1d3+1 punhados. Um punhado de componente especial ocupa 1 espaço e é suficiente para 5 magias. A critério do mestre, pode não ser possível encontrar seu componente especial em determinados lugares (um mago da Ordem do Vazio que usa sementes de maçã, por exemplo, poderia ter dificuldade de encontrá-las em uma masmorra abandonada)."
+        },
+        {
+            "name": "Componente Especial",
+            "description": "Para lançar magias arcanas, você precisa gastar um componente especial, que funciona como um componente material. Se não tiver seu componente especial, você não consegue lançar suas magias. Contudo, quando lança uma magia usando seu componente especial, a CD para resistir a ela aumenta em +2."
+        },
+        {
+            "name": "Magia Experimental",
+            "description": "Quando lança uma magia, você pode fazer um teste de Misticismo (CD 15 + o custo em PM da magia) para alterar seu funcionamento. Se passar, a magia recebe um dos benefícios a seguir, a sua escolha (ou dois, se o resultado for 20 natural):\n• Escolha um poder de aprimoramento que você não possui. Você aplica os efeitos desse poder à magia, pagando seu custo adicional em PM.\n• Escolha um poder de aprimoramento que você possui. Você aplica os efeitos desse poder à magia, sem custo adicional.\n• O custo da magia diminui em –1 PM (cumulativo com outras reduções de custo).\nSe você falhar no teste de Misticismo, entretanto, a magia não tem efeito, mas você paga o custo dela mesmo assim. Se o resultado do teste for 1 natural, além disso você gera uma explosão arcana que atinge um raio de 9m; criaturas e objetos soltos nessa área sofrem 2d8 pontos de dano de essência por círculo da magia (Reflexos CD da magia reduz à metade; você mesmo não tem direito ao teste de resistência!). Pré-requisitos: habilidade de classe Magias, treinado em Misticismo, um poder de aprimoramento."
+        },
+        {
+            "name": "Conhecimento Obscuro",
+            "description": "Quando vai fazer um teste de perícia, você pode gastar 2 PM para substituí-la por Misticismo (isso permite fazer testes de perícias que exijam treinamento mesmo sem ser treinado nelas). A cada vez que usar este poder novamente na mesma cena, você fica fatigado (essa condição é cumulativa e o afeta mesmo que você seja imune a ela). Pré-requisito: Magia Experimental."
+        },
+        {
+            "name": "Exercitar os Músculos Arcanos",
+            "description": "Você pode executar uma rápida série de exercícios mágicos, evocando o treinamento de seus fundamentos arcanos. O custo da sua próxima magia lançada nessa cena diminui em –1 PM (cumulativo com outras reduções de custo). A cada vez que usar este poder novamente na mesma cena, você fica fatigado (essa condição é cumulativa e o afeta mesmo que você seja imune a ela). Pré-requisito: Magia Experimental."
+        },
+        {
+            "name": "Ingrediente Secreto",
+            "description": "Quando lança uma magia de dano que permita um teste de resistência, você pode gastar PM (limitados pelo número de poderes da distinção que você possui) para infundi-la com mana em estado bruto. Para cada PM gasto, cada criatura que falhar no teste de resistência sofre +2d6 pontos de dano de essência. Pré-requisito: Magia Experimental."
+        },
+        {
+            "name": "Inovação Particular",
+            "description": "Quando uma criatura tenta anular ou dissipar suas magias (como uma contramágica ou Dispersar as Trevas), ela precisa fazer um teste de Vontade (CD da sua magia, +2 para cada poder da distinção que você possui). Se falhar, o efeito que ela estava usando para isso falha. Pré-requisito: Magia Experimental."
+        }
+    ]
+}

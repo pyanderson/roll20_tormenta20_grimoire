@@ -1,0 +1,30 @@
+{
+    "name": "Mosqueteiro de Rishantor",
+    "admission": "Um candidato a Mosqueteiro de Rishantor deve se apresentar no palácio, requisitando treinamento e serviço no batalhão. Isso é mais difícil do que parece. Como os Mosqueteiros são desprezados em Rishantor, o candidato muitas vezes é levado ao local errado, ou escuta mentiras, dizendo que este grupo não existe mais. Alguns guardas inventam motivos para prender os candidatos ou mandam-nos esperar do lado de fora, em tavernas de baixa reputação, onde podem ser atacados por bandidos. Nenhum artifício é baixo demais para desencorajar um candidato a se alistar nos Mosqueteiros.\nQuando o candidato consegue desenredar essa teia de mentiras, ou quando um Mosqueteiro o encontra, ele então é levado aos alojamentos do batalhão — uma ala escura e pouco ventilada do palácio, que fede a mofo e é frequentemente usada como depósito de materiais tóxicos. Lá, é recebido pelos demais Mosqueteiros. Deve então se apresentar e aguardar o extenso processo de aprovação.\nAo longo dos anos, muitos capangas da nobreza já tentaram se infiltrar nos Mosqueteiros de Rishantor. Por isso, cada candidato passa por uma sabatina e diversos questionários destinados a testar sua ética e moral. Agentes são enviados a sua terra natal para avaliar sua reputação e desencavar quaisquer histórias de desonestidade. Apenas candidatos com histórico exemplar são aceitos. Já houve casos em que um candidato promissor foi rejeitado por ter pago a menos numa taverna cinco anos antes...\nEntão começa o treinamento em si: alguns meses de rotina excruciante em que o candidato serve como guarda nos corredores de Rishantor ao mesmo tempo em que realiza exercícios intensos e estuda esgrima, além de aprender sobre a orgulhosa história dos Mosqueteiros. Durante todo esse tempo, também há testes de honra e escolhas morais. Além disso, os guardas e nobres tentam a todo custo corromper um candidato a Mosqueteiro. Qualquer um que seja descoberto em conluio com esses facínoras é sumariamente expulso do programa.\nNo fim, o candidato deve duelar contra três Mosqueteiros experientes. A ideia não é que ele seja capaz de vencer os três duelos, mas avaliar sua coragem e postura frente a um desafio impossível. Candidatos que saibam se portar são então recebidos por todos os Mosqueteiros presentes, numa noite de festa e bebedeira. Na manhã seguinte, o novo Mosqueteiro faz seu juramento e recebe seu chapéu, seu tabardo e sua espada. A essa altura, está tão envolvido na cultura do batalhão que provavelmente nunca mais vai deixar de ostentar essa indumentária.",
+    "abilities": [
+        {
+            "name": "Equipamento Real",
+            "description": "Você recebe um tabardo, um florete ou rapieira e um chapéu emplumado (veja o Capítulo 3). Enquanto você estiver usando esses itens, recebe um bônus de +1 Diplomacia, testes de ataque, rolagens de dano e na Defesa. Você não pode ser devoto de divindades capazes de canalizar energia negativa e deve seguir algum código de conduta (como Código de Honra). Se violá-lo, além das consequências normais, não poderá usar seus poderes de mosqueteiro até recuperar seus PM."
+        },
+        {
+            "name": "Mestre Esgrimista",
+            "description": "Seu multiplicador de crítico com florete e rapieira aumenta em +1. Além disso, quando faz um ataque com uma dessas armas, você pode gastar 1 PM para rolar dois dados e usar o melhor resultado. Pré-requisitos: proficiência com armas marciais, Estilo de Uma Arma."
+        },
+        {
+            "name": "Heroísmo Galante",
+            "description": "Quando um aliado adjacente é alvo de um ataque, você pode gastar 1 PM para se tornar o alvo do ataque, que então é resolvido normalmente. Se você tiver todos os poderes da distinção, quando um aliado em alcance curto é alvo de um ataque, você pode gastar 3 PM para se deslocar até um espaço adjacente a ele e ao atacante (desde que tenha um caminho desimpedido) e se tornar o alvo do ataque. Você só pode usar este poder uma vez por rodada e ele requer liberdade de movimentos; você não pode usá- -lo se estiver de armadura pesada ou na condição imóvel. Pré-requisitos: treinado em Reflexos, Mestre Esgrimista."
+        },
+        {
+            "name": "Todos Por Um",
+            "description": "Quando você usa Duelo, pode gastar +1 PM para cada aliado a sua escolha em alcance curto (limitado pelo seu Carisma). Aliados escolhidos também recebem os benefícios de Duelo contra o alvo (mas perdem-no se atacarem outro oponente). Pré-requisitos: Duelo, Um por Todos."
+        },
+        {
+            "name": "Um por Todos",
+            "description": "Quando você faz um teste para ajudar (exceto para ataques), o bônus que você fornece aumenta em +2. Além disso, uma vez por rodada, quando acerta um ataque de florete ou rapieira em um inimigo, você pode usar o resultado desse ataque como um teste para ajudar um ataque de um aliado feito contra esse inimigo até a próxima rodada. Pré-requisito: Mestre Esgrimista."
+        },
+        {
+            "name": "Valentia",
+            "description": "Você pode lançar Heroísmo, mas apenas sobre si mesmo. Esta não é uma habilidade mágica e provém de sua galanteria, panache e ousadia altaneira (veja “Magias Simuladas”, p. 44). Pré-requisitos: Mestre Esgrimista, dois outros poderes da distinção."
+        }
+    ]
+}

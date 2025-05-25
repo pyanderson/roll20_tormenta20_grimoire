@@ -1,0 +1,34 @@
+{
+    "name": "Cavaleiro Feérico",
+    "admission": "No auge do povo élfico, a honra e o dever de se tornar um cavaleiro feérico eram entregues pessoalmente por Glórienn em um sonho. Após receber essa convocação onírica, o candidato precisava visitar a Morada do Eterno Valor e treinar entre seus pares por oito invernos. Durante esse período, era iniciado nos caminhos da espada e entrava em harmonia com a floresta, trabalhando diligentemente até que a semente de sua perfeição germinasse.\nNão existindo mais uma ordem formal, um candidato a cavaleiro feérico precisa encontrar um mestre. As circunstâncias encurtam o período de treinamento, mas ainda é necessário um inverno inteiro. Durante essa estação, o candidato é educado nas artes da guerra, na história dos elfos e nos caminhos das fadas. O treinamento ocorre sempre em um local isolado, onde mestre e discípulo convivem apenas um com o outro e com a floresta. Na Pondsmânia, isso pode significar que o candidato tem contato com animais falantes, árvores inteligentes e outras maravilhas. Em terras mais mundanas, a solidão é ainda maior. De qualquer forma, ao fim do treinamento o candidato deve dominar as técnicas e conhecimentos que estudou, além de demonstrar harmonia com a natureza.\nContudo, ainda está longe de ser admitido.\nO candidato deve retornar a seu mentor no próximo inverno, trazendo uma oferenda digna — a cabeça de um inimigo poderoso, no caso de mentores vingativos; uma armadura élfica, no caso de mentores saudosistas; uma flor única, no caso de mentores que valorizam a beleza... Cabe ao candidato escolher a oferenda. O mentor pode ou não aceitá-la. Caso ela seja recusada, o candidato deve voltar no inverno seguinte e tentar de novo.\nCom a oferenda aceita, uma cerimônia de iniciação é conduzida em uma clareira na floresta. O candidato coloca sua oferenda no centro de um círculo de flores. Enquanto isso, seu mentor prepara e bebe um chá tradicional feito com ervas de Lamnor, oferecendo ao candidato uma xícara. A cada gole do aprendiz, o mestre faz uma pergunta.\n“Sua espada é tão elegante quanto o trote de um gamo?”\n“Sua magia é tão refinada quanto o canto de um pássaro?”\n“Sua arte é tão poderosa quanto o clamor do trovão?”\nO candidato deve beber o chá em três goles e responder a todas as perguntas com “Ainda não, mas sigo em busca da perfeição”. Caso o faça, o cavaleiro o chama pelo nome e o abraça como um igual, declarando-o um cavaleiro feérico, “Em nome de Glórienn e Lenórienn, por este inverno e por todos os outros que estão por vir”.",
+    "abilities": [
+        {
+            "name": "Conexão Feérica",
+            "description": "Você recebe a habilidade Empatia Selvagem (Tormenta20, p. 21) e +1 PM para cada poder da distinção que possuir."
+        },
+        {
+            "name": "Arte Élfica",
+            "description": "Uma vez por rodada, quando acerta um ataque com espada longa ou florete, você pode gastar 2 PM para ativar uma Música de bardo ou lançar uma magia arcana com execução de ação de movimento ou padrão como uma ação livre. O círculo máximo de magias que você pode lançar com este poder é limitado pela quantidade de poderes da distinção que possui. Pré-requisitos: habilidade de classe Magias, treinado em Atuação e Luta, Foco em Arma (espada longa ou florete)."
+        },
+        {
+            "name": "Arma da Floresta",
+            "description": "Você pode gastar 1 PM para invocar elementos naturais, como madeira, folhas ou pólen, para cobrir uma espada longa ou florete. O dano da arma é considerado mágico e aumenta em um passo até o fim da cena. Caso você use este poder em uma floresta, o efeito dura 1 dia — ou até você sair dela. Pré-requisito: Arte Élfica."
+        },
+        {
+            "name": "Armadura da Floresta",
+            "description": "Você recebe uma armadura completa feita de madeira levíssima, folhas e flores. Essa armadura não reduz seu deslocamento, e com ela você pode somar sua Destreza na Defesa e lançar magias arcanas sem necessidade de testes de Misticismo. A cada dois outros poderes da distinção que você possui, a armadura recebe uma melhoria a sua escolha, cujos pré-requisitos ela cumpra (exceto material especial). Se outra criatura tentar vestir essa armadura, ela murcha e morre em instantes. Se a armadura for destruída, renasce ao seu redor em 1 dia. Pré-requisito: Arte Élfica."
+        },
+        {
+            "name": "Flagelo dos Duyshidakk",
+            "description": "Você soma seu total de poderes da distinção em rolagens de dano contra bandos, enxames e duyshidakk. Além disso, uma vez por rodada, quando reduz um oponente a 0 PV ou menos com um ataque corpo a corpo, você pode gastar 2 PM para percorrer até o seu deslocamento e fazer um ataque corpo a corpo contra outro inimigo. Pré-requisito: Arte Élfica."
+        },
+        {
+            "name": "Lâminas Feéricas",
+            "description": "Para você, espadas longas são armas ágeis. Além disso, quando usa uma espada longa ou um florete, você soma o círculo máximo de magias que pode lançar ao dano e aumenta sua margem de ameaça em +1 para cada dois poderes da distinção. Pré-requisito: Arte Élfica."
+        },
+        {
+            "name": "Montaria Feérica",
+            "description": "Você recebe um parceiro montaria veterano, escolhido entre cavalo de guerra, trobo ou outra criatura que, a critério do mestre, tenha uma natureza feérica. Caso já possua uma montaria fornecida por outra habilidade, em vez disso essa montaria se torna também um parceiro combatente iniciante. Você recebe +5 em testes de Cavalgar para correr e saltar com sua montaria. Caso perca sua montaria, você pode treinar outra com uma semana de trabalho. Pré-requisitos: treinado em Cavalgar, Arte Élfica."
+        }
+    ]
+}

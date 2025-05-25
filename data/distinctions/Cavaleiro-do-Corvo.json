@@ -1,0 +1,42 @@
+{
+    "name": "Cavaleiro do Corvo",
+    "admission": "Ser um Cavaleiro do Corvo significa abrir mão de seu senso de honra, de parte de sua individualidade e de seu próprio nome para fazer parte de uma ordem sinistra, mas eficiente. O primeiro passo é achar o Ninho do Corvo, nas Montanhas Lannestul — uma provação por si só. Originalmente, apenas Cavaleiros da Luz eram admitidos, mas esse requisito caiu há anos. Hoje em dia, qualquer artoniano pode se tornar um Cavaleiro do Corvo... se sobreviver.\nTendo localizado o Ninho do Corvo, o candidato pode se apresentar para ser treinado. Contudo, esse é um caminho sem volta. Uma vez que o candidato se voluntarie para o treinamento, irá completá-lo ou morrer tentando — algo que acontece com frequência. Todos que chegam ao Ninho do Corvo devem fazer um juramento de segredo sobre a localização da fortaleza e o que está prestes a acontecer. Um candidato pode chegar ao Ninho do Corvo acompanhado por um grupo de aventureiros que não passarão pelo treinamento, mas todos devem fazer o juramento de segredo. Isso significa que é melhor manter longe paladinos, devotos de Tanna-Toh e outros heróis honestos demais…\nUma vez que tenha compreendido e aceitado os termos, o candidato passa por um ritual de iniciação, no qual os Corvos mais experientes submetem-no a horrores que simulam a corrupção pela Tormenta. Então começa o treinamento em si.\nAo longo de meses, o candidato treina com uma pequena turma de outros aspirantes, passando por sucessivos desafios. Muitos candidatos morrem tentando escalar paredões, afogam-se ao nadar de armadura em rios caudalosos, são devorados por monstros... Por isso não há um teste de aptidão: o próprio treinamento é o teste; aqueles que não estão prontos nunca saem vivos.\nAo longo do treinamento, o candidato também deve cumprir missões, como incursões em busca de recursos. Seu grupo de aventureiros pode ajudá-los nessas missões. Contudo, invariavelmente seus companheiros notam que o candidato está mudando. Parece mais próximo dos outros recrutas do que de seus antigos amigos. Parece ser... menos ele mesmo.\nSe sobreviver a tudo isso, o candidato recebe um codinome dado por seus superiores. O codinome, que quase sempre tem a ver com algo ocorrido durante o treinamento, nunca é algo intimidador ou pomposo, mas também nunca é humilhante. É um lembrete, muitas vezes cheio de humor mórbido, dos horrores pelos quais o candidato passou e dos colegas que viu morrer. Ele agora não é mais o mesmo. É um Cavaleiro do Corvo. Para sempre, das trevas, trará a luz.",
+    "abilities": [
+        {
+            "name": "A Língua dos Corvos",
+            "description": "Composta por uma combinação de jargões, expressões e gestos, a Língua dos Corvos foi criada para transmitir informações e comandos de forma silenciosa e discreta em qualquer cenário de missão. Você pode gastar uma ação de movimento e 1 PM para transmitir informações para um aliado em alcance curto. Isso funciona como o efeito básico da magia Aviso, mas você não precisa falar (comunica-se por gestos) e o alvo deve ser capaz de vê-lo."
+        },
+        {
+            "name": "Não Tenho Nome",
+            "description": "Você aprende a Língua dos Corvos (veja o quadro) e recebe imunidade a medo. Além disso, perde a habilidade Código de Honra (caso a tenha)."
+        },
+        {
+            "name": "Reconhecimento e Infiltração",
+            "description": "Seu deslocamento aumenta em +3m, você não sofre penalidade por armadura e a penalidade que você sofre por fazer uma ação chamativa quando usa Furtividade muda para –10. Pré-requisitos: treinado em Furtividade e Guerra, proficiência com armaduras pesadas."
+        },
+        {
+            "name": "A Qualquer Custo",
+            "description": "Você pode declarar um determinado objetivo como sua missão. Esse objetivo deve ser algo específico, como “eliminar o dragão da Floresta dos Cem Olhos” ou “resgatar o sacerdote capturado pelos bandidos de estrada”. A preparação para a missão leva 1 dia, exige o gasto de T$ 500 em materiais e serviços (mapas, informantes etc.) e fornece um dos benefícios abaixo. Para cada outros dois poderes da distinção, fornece um benefício adicional diferente.\n• Busca e Destruição. Uma de suas armas se torna uma arma anticriatura contra um tipo a sua escolha.\n• Guerra Não Convencional. Você se torna treinado em duas perícias a sua escolha.\n• Inteligência Militar. Você pode usar Guerra no lugar de duas perícias a sua escolha entre Conhecimento, Intuição, Investigação, Percepção e Sobrevivência.\nVocê só pode ter uma missão de cada vez. Pré-requisito: Reconhecimento e Infiltração."
+        },
+        {
+            "name": "Atrás das Linhas Inimigas",
+            "description": "Você recebe imunidade a atordoamento e cansaço e sua recuperação por descanso nunca é inferior a normal. Pré-requisito: Reconhecimento e Infiltração."
+        },
+        {
+            "name": "Das Trevas",
+            "description": "Quando ataca um oponente desprevenido ou que você esteja flanqueando, e que você tenha escolhido como alvo da habilidade Duelo, os bônus dessa habilidade contra esse oponente aumentam em +2. Pré-requisitos: Duelo, Atrás das Linhas Inimigas."
+        },
+        {
+            "name": "Ferramenta de Morte",
+            "description": "Você pode gastar uma ação de movimento e uma quantidade de PM a sua escolha (limitada pela sua Inteligência) para coordenar um ataque contra um oponente em alcance curto. Até o início do seu próximo turno, você e seus aliados recebem um bônus igual ao total de PM gastos em testes de ataque e rolagens de dano e na margem de ameaça contra esse oponente. Este poder só pode ser usado uma vez contra a mesma criatura em cada cena. Pré-requisitos: A Qualquer Custo, deve ter liderado um grupo de aventureiros em pelo menos dois combates vitoriosos (para efeitos deste requisito, liderar significa participar do combate apenas auxiliando seus aliados, como com testes para ajudar ou usando habilidades que forneçam bônus aos testes deles)."
+        },
+        {
+            "name": "Postura de Combate: Tomada Furtiva",
+            "description": "Você pode realizar a ação mirar como ação livre, não sofre penalidade em testes de Furtividade por se mover ao seu deslocamento normal e recebe +2 em testes de ataque e rolagens de dano com ataques à distância. Esse bônus aumenta em +1 para cada dois outros poderes da distinção. Pré-requisitos: treinado em Pontaria, Reconhecimento e Infiltração."
+        },
+        {
+            "name": "Trazemos a Luz",
+            "description": "Uma vez por combate, você pode gastar uma ação de movimento e 3 PM para fazer um teste de Guerra. Você recebe uma quantidade de PV temporários igual ao resultado desse teste e, para cada 10 pontos no resultado, recebe +1 em testes de ataque e rolagens de dano. Além disso, se o resultado for 30 ou mais, você ignora a imunidade a acertos críticos e ataques furtivos de seus inimigos. Esses efeitos duram até o fim da cena. Pré-requisito: Das Trevas."
+        }
+    ]
+}

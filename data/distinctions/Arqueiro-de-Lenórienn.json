@@ -1,0 +1,38 @@
+{
+    "name": "Arqueiro de Lenórienn",
+    "admission": "Para se tornar um arqueiro de Lenórienn, o candidato deve antes de mais nada atrair a atenção de um mentor. Isso não é apenas uma questão de encontrá-lo e pedir para ser treinado: o candidato deve provar aptidão nas artes da arquearia e da magia arcana, além de (talvez o mais importante) demonstrar que conhece e respeita os valores élficos.\nO que são exatamente “valores élficos” varia de mentor para mentor. Alguns podem considerar que o reconhecimento da raça como a mais perfeita entre os mortais é a única forma de abraçar a cultura élfica. Outros pensam que apenas devotos de Glórienn (mesmo depois da queda da deusa) entendem o que significa ser elfo. Outros, mais abertos ao mundo, acreditam que apreciar a arte e alcançar tranquilidade de espírito são feitos muito mais importantes do que apenas reverenciar os elfos.\nUma constante, porém, é não aceitar aprendizes goblinoides. Não se conhece nenhum arqueiro de Lenórienn pertencente a uma dessas raças e até mesmo os mentores menos tradicionalistas consideram que ensinar esta disciplina a um goblinoide seria o mesmo que pervertê-la.\nAssim como no ápice de Lenórienn, a etapa inicial do treinamento envolve a Provação das Três Setas. Um alvo é colocado a uma grande distância do candidato, que recebe de seu mentor um arco e duas flechas. Sem usar nenhum equipamento além desses objetos e sem se deslocar, o candidato precisa atingir o alvo três vezes.\nAlém disso, alguns mentores são particularmente rígidos, exigindo que o candidato encontre a listagem de todos os arqueiros de Lenórienn na época de sua queda e recite-os de memória enquanto completa a provação. Outros, mais flexíveis, complementam a provação com desafios adicionais: o mais comum é propor três provas, uma que deve ser superada com arco, outra que deve ser superada com magia e, por fim, uma que deve ser superada com a combinação de ambos.\nCom esse desafio vencido, começa o treinamento. O candidato deve ficar pelo menos uma estação estudando em isolamento completo com seu mentor, obedecendo a todas as suas ordens e cumprindo todas as tarefas que ele designa, não importa o quão absurdas pareçam. Qualquer interrupção durante esse período (ataque de monstros, emergência familiar, escapadinha para ir à taverna...) significa que o treinamento está perdido. A maior parte dos mentores se recusa a retomá-lo, exigindo que o candidato procure um novo mentor e recomece do zero, repetindo a Provação das Três Setas e todo o resto.\nCom o fim do treinamento, o candidato recebe seu último desafio. Cada desafio é único, proposto pelo mentor, mas todos têm algo em comum: devem servir ao povo élfico. Pode ser o resgate de um prisioneiro elfo, a recuperação de um tesouro élfico, a eliminação de um antigo inimigo... A personalidade do mentor transparecerá pela última vez aqui.\nUma vez que o desafio seja cumprido, o candidato está imerso nas técnicas e na mentalidade dos maiores campeões élficos. Ele é agora, para sempre, um arqueiro de Lenórienn, detentor de uma tradição que remonta ao início do primeiro povo.",
+    "abilities": [
+        {
+            "name": "O Arco Arcano",
+            "description": "Seu arco se transforma em um arco arcano. Além de seus benefícios normais, ele conta como um item esotérico de um tipo a sua escolha e pode receber melhorias e encantos tanto de armas quanto de esotéricos (respeitando os limites normais). Se receber um desses benefícios que se aplique tanto a armas quanto a esotéricos, você deve escolher a qual dos dois ele será aplicado. Se perder seu arco arcano, você pode transformar outro com um ritual que dura 1 dia e consome T$ 100 em componentes."
+        },
+        {
+            "name": "Energizar Arco",
+            "description": "Você aprende a magia Arma Mágica e pode lançá-la em seu arco arcano como uma ação de movimento (em vez de uma ação padrão). Se aprender novamente essa magia, seu custo diminui em –1 PM. Pré-requisitos: treinado em Misticismo e Pontaria, habilidade de classe Magias, Foco em Arma (qualquer arco)."
+        },
+        {
+            "name": "Chuva de Flechas",
+            "description": "Você pode gastar uma ação padrão e 2 PM para multiplicar seu disparo. Faça um ataque à distância com seu arco e compare-o com a Defesa de um número de inimigos a sua escolha, no alcance do arco, limitado por seu atributo-chave para magias arcanas. Então faça uma única rolagem de dano e aplique-a a cada inimigo atingido. Você gasta apenas uma munição. Pré-requisitos: Energizar Arco, lançar magias arcanas de 3º círculo."
+        },
+        {
+            "name": "Encantar Flechas",
+            "description": "Você recebe 20 flechas mágicas menores a sua escolha e passa a poder fabricar flechas mágicas menores. Se tiver acesso a magias arcanas de 3º círculo, você pode fabricar flechas mágicas médias e, se tiver acesso a magias arcanas de 4º círculo, pode fabricar flechas maiores. Se você disparar todo o pacote de flechas, a energia mística imbuída nelas volta para você e você recupera os PM sacrificados para fabricá-las. Pré-requisitos: treinado em Ofício (armeiro), Energizar Arco, lançar magias arcanas de 2º círculo."
+        },
+        {
+            "name": "Flecha da Morte",
+            "description": "Você pode gastar 1 dia e T$ 100 para criar uma flecha mágica chamada flecha da morte. Ela causa 1 dado extra de dano, fornece +2 na margem de ameaça e, se for usada em conjunto com Flecha de Toque ou Flecha Explosiva, aumenta a CD para resistir às magias em +2. Para cada dois outros poderes da distinção que você possui, esses bônus, e a quantidade de dados extras de dano, aumentam em +1. Você pode ter um máximo de flechas da morte igual ao total de poderes da distinção que possui (se criar uma além do seu limite, a flecha mais antiga perde seu poder). Pré-requisitos: Encantar Flechas, deve ter feito um acerto crítico com um arco em uma criatura de cada tipo (Tormenta20, p. 284)."
+        },
+        {
+            "name": "Flecha de Toque",
+            "description": "Quando lança uma magia que permite fazer um ataque corpo a corpo como parte de sua execução (como Infligir Ferimentos ou Toque Chocante aprimoradas), você pode substituir esse ataque por um ataque à distância com seu arco arcano. Pré-requisito: Energizar Arco."
+        },
+        {
+            "name": "Flecha Explosiva",
+            "description": "Suas magias de área recebem um novo aprimoramento. +2 PM: como parte da execução da magia, você faz um ataque à distância com seu arco arcano contra uma criatura ou objeto. Se acertar, causa o dano do ataque e o efeito da magia (o centro desse efeito é o alvo atingido). Pré-requisito: Flecha de Toque."
+        },
+        {
+            "name": "Flecha Fantasma",
+            "description": "Quando faz um ataque com arco, você pode gastar 2 PM para transformar sua flecha em uma munição etérea. Uma flecha etérea fornece +5 no teste de ataque e ignora cobertura leve e 20 pontos da redução de dano do alvo. Pré-requisitos: Energizar Arco, Forma Etérea."
+        }
+    ]
+}

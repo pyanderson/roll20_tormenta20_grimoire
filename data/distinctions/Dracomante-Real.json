@@ -1,0 +1,34 @@
+{
+    "name": "Dracomante Real",
+    "admission": "Um candidato a dracomante real deve antes de mais nada ser um mago. Não importa como aprendeu sua magia ou o que fez até agora. Seu objetivo é poder, e ele deve ter algum poder arcano para sequer começar a trilhar o caminho.\nComo nenhum dracomante real ensina outro, é preciso esconder essa ambição de ouvidos curiosos, principalmente daqueles que têm alguma proximidade com este caminho. Um dracomante real que fique sabendo de um candidato tentando seguir esta trilha fará de tudo para matá-lo, mesmo que esteja estudando um Dragão-Real diferente. Na verdade, a mera sugestão de que alguém poderia seguir outro DragãoReal é um insulto digno de retaliação! Todo dracomante real acha que seu mestre é superior a todos os outros, e é tomado por fúria ao imaginar que possa ter desperdiçado seu tempo estudando uma criatura que não seja suprema.\nExceto por isso, o caminho de um candidato a dracomante real é simples.\nSimples, mas nada fácil.\nEm primeiro lugar, o candidato precisa ter contato direto com um efeito de uma magia do DragãoReal que deseja estudar. Não basta ver ela ser lançada: ele precisa analisar o dano causado, coletar resíduos, pesquisar a fundo tudo que ficou para trás dessa conjuração. Por exemplo, um dracomante real que busca estudar Sckhar poderia viajar até uma aldeia devastada por uma Bola de Fogo do Dragão-Rei (não de sua baforada), então coletar amostras do solo calcinado, recolher ossos de vítimas, sentir a aura mágica deixada para trás...\nO segundo e último passo é ter contato direto com o próprio Dragão-Real. Isso mata a maior parte dos candidatos.\n“Contato direto” significa estar a poucos passos do Dragão-Real, enquanto o mestre está na forma dracônica. O candidato não precisa necessariamente ser notado pelo mestre (na verdade, é melhor para sua saúde passar despercebido), mas precisa enxergar suas escamas com clareza, sentir seu cheiro, vislumbrar sua glória. Candidatos a dracomantes reais de Beluhga podem ter contato com seu esquife nas Uivantes, mas não basta apenas ver o corpo da Dragoa-Rainha e prestar seus respeitos. É preciso ter contato com alguma presença viva dela — sua voz espiritual, algum efeito mágico que ela manifeste ou um elemento parecido.\nCumprindo esses dois requisitos, o candidato se torna um dracomante real. Mas, com forças poderosas querendo seu fracasso e sua morte, poucos chegam a trilhar este caminho.",
+    "abilities": [
+        {
+            "name": "Benthos e a Magia",
+            "description": "Benthos, o Dragão-Rei dos Mares, não domina a magia arcana — pelo menos até onde se sabe. Mesmo assim, o poder de um Dragão-Real é tamanho que um dracomante pode se dedicar a ele, e assim adquirir suas capacidades. Contudo, isso leva a uma pergunta: como um candidato pode “ter contato direto” com uma magia de Benthos, se elas não existem?\nA admissão para dracomante real do Dragão-Rei dos Mares é ao mesmo tempo mais simples e mais desafiadora. O candidato precisa invocar Benthos de seu covil subaquático — um feito que aconteceu apenas algumas vezes na história de Arton — e lidar com as consequências disso. Se o candidato vai convencer os xamãs de Khubar a realizar o ritual que chama Benthos ou vencer essa etapa de alguma outra forma, cabe a ele mesmo descobrir."
+        },
+        {
+            "name": "Mestre Dracônico",
+            "description": "Escolha um Dragão-Real para ser seu mestre, entre Behluga (escolha entre frio ou luz), Benthos (ácido), Hydora (eletricidade), Mzzileyn (trevas), Sckhar (fogo), Tarso (trevas) e Zadbblein (veneno). Uma vez feita, essa escolha não pode ser mudada. Quando você lança uma magia de dano ou perda de PV do mesmo tipo da essência de seu mestre, ela causa +2 pontos de dano ou perda de PV."
+        },
+        {
+            "name": "Afinidade Dracônica",
+            "description": "Você recebe +2 na CD de suas magias que causam dano do tipo da essência dracônica do seu mestre e, para cada poder da distinção, recebe redução 3 contra esse tipo de dano. Pré-requisito: 5º nível de Mago."
+        },
+        {
+            "name": "Dracomancia",
+            "description": "Quando lança uma magia, você recebe redução de dano 5 e resistência a magia +5 até o início de seu próximo turno. Pré-requisito: Afinidade Dracônica."
+        },
+        {
+            "name": "Majestade Elemental",
+            "description": "Suas magias que causam dano do mesmo tipo da essência dracônica do seu mestre ignoram até 20 pontos de RD e, contra criaturas imunes, ainda causam metade do dano. Pré-requisitos: lançar magias arcanas de 3º círculo, Dracomancia."
+        },
+        {
+            "name": "Memória Dracônica",
+            "description": "Você pode memorizar um número de magias adicionais por dia igual ao total de poderes da distinção que possui, mas só pode memorizar dessa forma magias que causam dano do mesmo tipo que a essência dracônica de seu mestre. Prérequisito: Dracomancia."
+        },
+        {
+            "name": "Verdadeiro Poder",
+            "description": "Você aprende e pode lançar Metamorfose e, enquanto estiver sob efeito dessa magia, pode lançar magias normalmente. Alternativamente, se tiver o suplemento Ameaças de Arton, em vez disso aprende e pode lançar Transformação em Dragão (p. 405) e não precisa de componente material para se transformar em um dragão do tipo da essência dracônica de seu mestre. Se você aprender a magia fornecida por este poder novamente, seu custo diminui em –1 PM. Pré-requisitos: lançar magias arcanas de 4º círculo, quatro poderes da distinção."
+        }
+    ]
+}

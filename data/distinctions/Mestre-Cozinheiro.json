@@ -1,0 +1,34 @@
+{
+    "name": "Mestre Cozinheiro",
+    "admission": "Um candidato a mestre cozinheiro deve, antes de mais nada, saber cozinhar muito bem. Também precisa ter familiaridade com vários tipos de criaturas, incluindo sua anatomia. Só então estará pronto para começar sua jornada na culinária fantástica.\nO primeiro passo são os experimentos. A culinária monstruosa do mestre cozinheiro exige ingredientes nunca encontrados em mercados, bazares ou mercearias. Devem ser coletados em masmorras e outros lugares perigosos, habitados por monstros — ou seja, acessíveis apenas a aventureiros. Antes de ser considerado um mestre cozinheiro, um candidato (com ou sem grupo) deve explorar pelo menos três masmorras, abater pelo menos seis monstros diferentes e usar suas partes para cozinhar refeições.\nDepois disso, o candidato deve adquirir uma cópia do Tomo Divino de Deauvorimm. Nenhum mestre cozinheiro se separa de sua própria cópia, nem a empresta — o Tomo Divino é considerado místico, quase sagrado para estes chefs. Assim, o candidato deve conseguir seu Tomo por outros meios: comprando-o em um leilão clandestino, achando-o no fundo de uma masmorra, roubando-o de um mestre cozinheiro desavisado...\nPor último, o candidato deve fazer um banquete usando apenas ingredientes fantásticos — nem mesmo uma pitada de sal ou um pouco de farinha, nada mundano pode ser usado! Deve oferecer o banquete a no mínimo cinco pessoas, muitas vezes a seu próprio grupo. Se todos os convivas acharem a refeição deliciosa, ficarem plenamente satisfeitos e não tiverem nenhum problema estomacal depois, o candidato já pode se considerar um verdadeiro mestre cozinheiro. Obrigado, chef!",
+    "abilities": [
+        {
+            "name": "Ingredientes Monstruosos",
+            "description": "Cauda de escorpião, musgo tóxico, larvas misteriosas do fundo de cavernas… Para um mestre cozinheiro, esses são insumos sofisticados — ingredientes monstruosos, que nenhum outro cozinheiro imaginaria usar.\nQuando usados em um prato especial, ingredientes monstruosos adicionam efeitos especiais aos benefícios fornecidos pelo prato. Os efeitos de ingredientes monstruosos diferentes são cumulativos.\nIngredientes monstruosos podem ser adquiridos em ambientes habitados por monstros. Encontrar um ingrediente monstruoso exige 1 dia de trabalho e um teste de Ofício (cozinheiro) contra CD 20. Se passar, você encontra um ingrediente, +1 para cada 10 pontos que o teste exceder a CD. O mestre tem a palavra final sobre quais ingredientes podem ser encontrados em terrenos variados. Um ingrediente monstruoso ocupa 0,5 espaço.\n• Carne Monstruosa. A carne de qualquer monstro. O prato fornece +5 PV temporários para cada poder da distinção que você possui.\n• Ervas Aromáticas. Ervas conhecidas por seu efeito calmante, que ajudam no foco. O prato fornece +1d4 em um teste de Misticismo, Ofício, Percepção ou Vontade realizado até o fim do dia. A cada outro poder da distinção que você possui, esse dado de bônus aumenta em um passo.\n• Especiarias Picantes. Tão ardidas que fazem bárbaros chorar, são encontradas em planícies e terrenos urbanos. O prato fornece +1d4 em um teste de Acrobacia, Atletismo, Iniciativa ou Reflexos realizado até o fim do dia. A cada outro poder da distinção que você possui, esse dado de bônus aumenta em um passo.\n• Núcleo de Temperatura. Encontrados em terrenos de temperaturas extremas, estes minerais emitem frio ou calor capazes de amplificar as propriedades dos alimentos. Os bônus numéricos e em dados do prato aumentam em +1.\n• Raízes Curativas. Encontradas em pântanos e subterrâneos, estas ervas fornecem +1d4 em um teste de resistência. A cada outro poder da distinção que você possui, esse dado de bônus aumenta em um passo.\n• Sal Azul. Encontrado em montanhas e terreno aquático, este ingrediente misterioso armazena energias místicas. O prato fornece +1 PM temporário. Esse bônus aumenta em +1 PM para cada outro poder da distinção que você possui."
+        },
+        {
+            "name": "Panela de Estimação",
+            "description": "Você recebe uma arma ou escudo com o qual seja proficiente, que pode ser usado como instrumentos de cozinheiro e fornece +2 em Ofício (cozinheiro). Se perder esse item, você pode comprar ou produzir outro com 1 dia e o gasto de T$ 100."
+        },
+        {
+            "name": "Tudo que Há de Bom",
+            "description": "Você pode coletar e usar ingredientes monstruosos em seus pratos (veja o quadro). Quando você fabrica um prato especial, pode adicionar 1 ingrediente monstruoso à receita, +1 ingrediente diferente para cada dois outros poderes da distinção que possui. Pré-requisito: Foco em Perícia (Ofício [cozinheiro])."
+        },
+        {
+            "name": "À Moda da Casa",
+            "description": "Você pode preparar pratos especiais que combinam os efeitos de dois pratos diferentes — por exemplo, um caldo com os efeitos combinados de um prato de aventureiro e uma sopa de peixe. Fazer isso demora o mesmo tempo que um prato normal, mas consome os ingredientes de ambos e usa a mais alta CD para fabricar entre eles. Além disso, sempre que uma receita pedir um ingrediente específico, você pode substituí-lo por um ingrediente monstruoso. Pré-requisito: Tudo que Há de Bom."
+        },
+        {
+            "name": "Banquete de Aventureiros",
+            "description": "Uma vez por tempo entre aventuras, você pode gastar uma quantidade de ingredientes monstruosos igual ao número de poderes da distinção que possui para preparar um banquete para seu grupo. Os participantes desse banquete recebem, durante a próxima aventura, uma quantidade de dados de auxílio (d6) igual à quantidade de ingredientes gastos no banquete. Sempre que fizer um teste de perícia, você pode gastar 1 dado de auxílio e adicionar o resultado como bônus no teste. Se 3 ou mais ingredientes diferentes forem usados no banquete, os dados de auxílio tornam-se d8. Pré-requisitos: três poderes da distinção."
+        },
+        {
+            "name": "Guardar num potinho",
+            "description": "Quando prepara um prato especial, você pode gastar 1 ingrediente monstruoso adicional. Se fizer isso, ao fim da refeição você pode embalar os restos do prato na forma de um lanche — que pode ser consumido com uma ação padrão e fornece os mesmos benefícios do prato original. Lanches duram 1 dia por poder da distinção. Pré-requisito: À Moda da Casa."
+        },
+        {
+            "name": "Mise en Place",
+            "description": "Você pode usar Ofício (cozinheiro) para identificar criaturas, exceto construtos e mortos-vivos, e para extrair itens de criaturas mortas. Além disso, quando você passa num teste para extrair itens consumíveis de uma criatura morta, extrai 1 item adicional para cada 10 pontos pelos quais o resultado do teste supera a CD. Pré-requisito: Tudo que Há de Bom."
+        }
+    ]
+}

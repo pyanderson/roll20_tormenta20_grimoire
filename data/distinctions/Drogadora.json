@@ -1,0 +1,34 @@
+{
+    "name": "Drogadora",
+    "admission": "Tornar-se uma drogadora não é um caminho simples. Criaturas sem um metabolismo natural, como construtos e mortos-vivos, são incapazes de desenvolver as habilidades de drogadora. Em geral, apenas mulheres humanoides aprendem estas técnicas, mas pode haver exceções.\nO primeiro passo é ser aceita em uma comunidade thera que possua drogadoras. Cada raça apresenta dificuldades únicas: voracis são muito agressivas, pteros são inacessíveis, ceratops são fechados em suas famílias, velocis são ariscos. Uma vez que a candidata seja aceita, precisa se mostrar digna de uma das maiores honrarias entre a comunidade. Ou seja, precisa se provar mais digna do que aquelas que nasceram nesses povos. Quase todas as comunidades exigem grandes serviços ou missões para que uma candidata a drogadora alcance esse status. Por fim, de nada adianta tudo isso se a drogadora da comunidade não aceitar a candidata.\nE os obstáculos não acabam aí. Aventureiras que desejem seguir o caminho da drogadora devem demonstrar que, por alguma razão, vale a pena treinar alguém que não vai ficar na comunidade, exercendo o papel de curandeira. Isso muitas vezes envolve debates sobre as tradições thera, profecias ou mesmo duelos até a morte.\nSe tudo isso for feito, a candidata pode começar o treinamento. Normalmente, é um processo que demora vários anos. Candidatas que tenham pressa podem terminar o treinamento em uma estação, mas precisam sobreviver a provações físicas extremas (já que seu organismo se altera numa velocidade muito maior que o normal), além de demonstrar a sua mentora tudo que aprenderam, por meio de testes.\nDurante o treinamento, a candidata é exposta a todo tipo de fórmulas alquímicas, de venenos e toxinas a remédios e tônicos. Ela estuda essas fórmulas e as aplica em si mesma, a fim de aprender seus efeitos no corpo. Durante essa etapa, também é esperado que a aprendiz prepare um poderoso antídoto para seu rito de iniciação — um preparado único, que pode exigir ingredientes especiais ou raros, ou um processo de preparação em circunstâncias complexas, como durante uma tempestade de raios.\nApenas quando a mentora acredita que a mente e o corpo da aprendiz estão prontos a candidata passa pelo ritual secreto de iniciação. Esse rito envolve vários dias de reclusão, durante os quais a candidata é submetida a drogas especiais que ampliam sua consciência e causam as últimas alterações em seu corpo. É uma experiência tão traumática que os relatos da cerimônia são muito diferentes entre si. Algumas candidatas se lembram de alucinações vívidas, enxergando sua tribo com novos olhos. Outras se veem no limite entre a vida e a morte, vislumbrando os mundos dos deuses em seus sonhos. Há ainda as que não se lembram de nada, removendo da memória qualquer detalhe sobre a experiência. Contudo, o rito é descrito como uma experiência profundamente dolorosa. Nesse período, apenas a mentora tem contato com a candidata.\nNa última noite do rito, a candidata ingere o antídoto que ela mesma preparou, que irá concluir seu processo de transformação. Na manhã seguinte, emerge de sua reclusão ostentando as características marcas em sua pele. Agora é uma drogadora completa.",
+    "abilities": [
+        {
+            "name": "Receitas da Drogadora",
+            "description": "Quando adquire o poder Remédios da Floresta, você aprende suas primeiras receitas. Uma receita é uma magia divina ou arcana que pode ser usada para fabricar poções com esse poder.\nVocê começa com uma quantidade de receitas de 1º círculo igual à sua Sabedoria. Para cada poder da distinção, você aprende uma receita adicional, que pode ser de até 2º círculo. Suas receitas são aprendidas como parte da tradição oral das drogadoras e não dependem de um livro ou outra forma de registro."
+        },
+        {
+            "name": "Tradição da Cura",
+            "description": "Você pode usar Sabedoria como atributo-chave de Ofício (alquimista) em vez de Inteligência. Se já faz isso por outro efeito, em vez disso recebe +2 nessa perícia."
+        },
+        {
+            "name": "Curandeira Exímia",
+            "description": "Seu corpo conta como uma maleta de medicamentos e instrumentos de Ofício (alquimista) e fornece um bônus nessas perícias igual ao total de poderes da distinção que você possui. Além disso, quando usa um preparado de cura que você mesma tenha fabricado, você soma sua Constituição no total de pontos de vida recuperados pelo item. Pré-requisitos: treinada em Cura e Ofício (alquimista), Vitalidade."
+        },
+        {
+            "name": "Aspersão Curativa",
+            "description": "Você pode gastar uma ação padrão e 3 PV (que não podem ser temporários) para secretar um líquido curativo sobre outra criatura adjacente. A criatura cura 3d6+3 pontos de vida ou uma de suas condições entre abalado, apavorado, alquebrado, atordoado, cego, confuso, debilitado, enjoado, envenenado, esmorecido, exausto, fascinado, fatigado, fraco, frustrado, lento, ofuscado, paralisado, pasmo ou surdo. Para cada outros dois poderes da distinção, você pode gastar mais 3 PV quando usa este poder para curar mais 3d6+3 PV ou mais uma condição (em qualquer combinação de efeitos). Pontos de vida gastos dessa forma só podem ser recuperados com descanso. Pré-requisito: Curandeira Exímia."
+        },
+        {
+            "name": "Laboratório Natural",
+            "description": "Um número de vezes por dia igual ao seu número de poderes da distinção, você pode fazer um teste de Ofício (alquimista) para fabricar um item alquímico ou uma poção, sem gastar tempo (mas você ainda gasta as matérias-primas). Pré-requisito: Remédios da Floresta."
+        },
+        {
+            "name": "Perfume Intoxicante",
+            "description": "Você recebe +2 em Adestramento e Diplomacia e, quando você sofre um ataque corpo a corpo (sendo acertada ou não), o atacante é marcado por seus feromônios até o fim da cena. Você e seus aliados ignoram a camuflagem de criaturas marcadas dessa forma e recebem +2 em testes de ataque corpo a corpo ou à distância em alcance curto contra elas. Para cada dois outros poderes da distinção, todos os bônus fornecidos por este poder aumentam em +1. Pré-requisito: Curandeira Exímia."
+        },
+        {
+            "name": "Remédios da Floresta",
+            "description": "Você aprende suas primeiras receitas de drogadora (veja o quadro acima) e pode gastar uma ação padrão para fabricar uma poção com essas receitas instantaneamente. Você não paga seu custo em tibares, mas gasta uma quantidade de PV (que não podem ser temporários) igual ao custo em PM da magia, e a poção só dura até o fim da cena. Pontos de vida perdidos dessa forma só podem ser recuperados por descanso. Pré-requisito: Curandeira Exímia."
+        }
+    ]
+}

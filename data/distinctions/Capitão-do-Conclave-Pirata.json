@@ -1,0 +1,34 @@
+{
+    "name": "Capitão do Conclave Pirata",
+    "admission": "Qualquer um pode subir em um navio e se chamar de pirata, mas apenas um verdadeiro lobo do mar pode ser um capitão do Conclave. O candidato precisa antes de mais nada adquirir seu próprio navio. A origem não importa: pode ser roubado, comprado, recebido de presente, construído com as próprias mãos… nenhum membro do Conclave vai julgá-lo! Contudo, um navio sozinho não serve para nada. É preciso uma tripulação leal — ou pelo menos obediente — para hastear as velas e preparar os canhões. Candidatos que sejam parte de um grupo de aventureiros podem convencer os colegas a colaborar, mas a tripulação é muito maior que um mero bando.\nCom o surgimento da Frota Áurea no Mar do Dragão-Rei, e a campanha constante do herói Nargom incentivando ações independentes, o Conclave Pirata passou a recrutar ativamente seus membros. Dessa forma, um candidato pode atrair a atenção de um capitão experiente, especialmente se estiver atuando no Mar Negro e enfrentando puristas. De fato, se um bucaneiro participar da derrota de um vilão purista particularmente vil, pode receber um convite do Conclave para se juntar a eles — desde que consiga navio e tripulação. Nessas situações, Izzy costuma dizer uma frase clássica, mas muito efetiva: “É de pessoas como você que precisamos”. De qualquer forma, o candidato precisa no mínimo cruzar o Mar Negro com seu navio e sua tripulação, provando que pode enfrentar seus perigos.\nDepois de conquistar sua nau tripulada e cruzar o Mar Negro, o candidato recebe a localização do Sentença e deve viajar até o navio-fortaleza. Lá deve abaixar sua bandeira e pedir uma audiência com a Dupla Coroa. Na presença de Izzy Tarante e Sidrius Tirallis, o candidato jura lealdade ao Conclave Pirata e promete seguir suas leis: fornecer um mínimo de dez por cento do que saqueia para a operação e ampliação do Sentença, sempre ajudar outros membros e caçar todo e qualquer purista — inclusive em terra —, investigando sobretudo aqueles que desertaram e assumiram vida nova sob outra identidade.\nContudo, mesmo tendo jurado lealdade, o candidato ainda não é um capitão reconhecido. Deve partir com sua nau (sem uma bandeira) e buscar algum saque significativo em alto mar, que deve tomar de inimigos do Conclave, então entregar inteiramente para a ampliação do Sentença. A Dupla Coroa decide o que é saque suficiente. Já houve casos de candidatos que tomaram riquezas de navios que não eram inimigos do Conclave e fingiram ter cumprido esse requisito... Mas todos acabaram nos calabouços do Sentença.\nContudo, se o saque for aceito, finalmente o candidato pode hastear a bandeira do Conclave Pirata — espadas cruzadas com duas coroas, uma sobre a outra, em um fundo negro — junto da sua. A partir daí, pode singrar os mares como um orgulhoso capitão do Conclave Pirata.",
+    "abilities": [
+        {
+            "name": "Solidariedade Pirata",
+            "description": "Uma vez por aventura, você pode solicitar ajuda ao Conclave Pirata através de uma rede de comunicação envolvendo pássaros, informantes e mensageiros mágicos. Uma mensagem enviada terá resposta em 1d3 dias. O Conclave pode oferecer ajuda na forma de pessoal (até quatro parceiros iniciantes ou um parceiro veterano, de tipos a sua escolha), equipamento (valor máximo igual a T$ 1.000 x seu nível) ou informações (efetivamente escolher 20 em um teste para interrogar). Essa ajuda não é gratuita: a contrapartida é ajudar outros capitães nos mesmos termos quando eles precisarem.\nÉ possível solicitar a ajuda do próprio Sentença. Nesse caso, o pedido será avaliado por Izzy e Sirius. Somente as mais terríveis ameaças e os mais desprezíveis puristas justificam uma resposta positiva, mas nessas situações a quantidade e qualidade de recursos disponibilizados costumam ser mais do que suficientes para virar a maré a favor do capitão solicitante. É claro, depois de um feito como esse, a Dupla Coroa exigirá uma retribuição de seu capitão. Isso costuma vir na forma de uma missão de extrema importância e dificuldade. O que exatamente deve ser feito depende das necessidades do Conclave Pirata e das habilidades do capitão específico, mas nunca é algo simples ou rápido."
+        },
+        {
+            "name": "Membro do Conclave",
+            "description": "Você recebe +2 em Acrobacia e Pilotagem e não sofre as penalidades por atacar à distância ou lançar magias a bordo de um veículo (veja p. 243). Além disso, pode recorrer à Solidariedade Pirata (veja o quadro)."
+        },
+        {
+            "name": "Içar A Bandeira Preta",
+            "description": "Uma vez por cena, você pode gastar uma ação de movimento e 5 PM para motivar seus aliados e assustar seus inimigos. Aliados em alcance curto recebem 5 PV e 1 PM temporários para cada poder da distinção que você possui, que duram até o fim da cena. Inimigos em alcance curto ficam abalados por 1d4 rodadas (Vontade CD Car evita). Caso sua bandeira já esteja visível no começo da cena, você pode usar este poder gastando apenas uma ação livre e 3 PM. Pré-requisitos: treinado em Intimidação e Pilotagem, Audácia."
+        },
+        {
+            "name": "Língua Afiada",
+            "description": "Quando vence um teste oposto de Enganação contra uma criatura inteligente (Int –3 ou maior), para cada poder da distinção que possuir você também pode causar 2d6 pontos de dano psíquico não letal a ela (apenas uma vez por cena). Além disso, se você usar Audácia em testes de Enganação, Diplomacia ou Intimidação, seu custo diminui em –1 PM. Pré-requisito: Içar a Bandeira Preta."
+        },
+        {
+            "name": "Lutar Sujo",
+            "description": "Você pode fazer um teste de manobra (Tormenta20, p. 234) para executar um truque sujo contra um inimigo. Se vencer, o inimigo sofre uma condição a sua escolha entre cego, enjoado, lento ou surdo por 1 rodada — ou até ele usar uma ação padrão para se recompor. Pré-requisito: Içar a Bandeira Preta."
+        },
+        {
+            "name": "Sentença de Bolso",
+            "description": "Você recebe +2 em Intimidação e na margem de ameaça com armas de fogo, e causa +2d6 pontos de dano com armas de fogo em oponentes desprevenidos. Pré-requisitos: proficiência com armas de fogo, Içar a Bandeira Preta."
+        },
+        {
+            "name": "Vento em Popa",
+            "description": "Uma vez por rodada, você pode gastar 2 PM para realizar uma ação de movimento adicional em seu turno. Se tiver o poder Velocidade Ladina, em vez disso o custo para usá-lo diminui em –1 PM. Em ambos os casos, o custo diminui em –1 PM (cumulativo com este poder) se você estiver a bordo de um veículo aquático. Por fim, se você usar Audácia em testes de Acrobacia, Atletismo ou Pilotagem, seu custo diminui em –1 PM. Pré-requisitos: treinado em Pilotagem, Içar a Bandeira Preta, Pernas do Mar."
+        }
+    ]
+}

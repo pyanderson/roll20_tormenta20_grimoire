@@ -1,0 +1,34 @@
+{
+    "name": "Amazona",
+    "admission": "Existem dois caminhos para se tornar uma amazona: um para quem nasce entre esse povo, outro para quem o busca espontaneamente. Ambos são exigentes e perigosos. Ambos só estão disponíveis para mulheres. Contudo, raça, origem ou a fase da vida em que a candidata se descobriu mulher não importam.\nPara aquelas que nascem numa nação amazona, o primeiro passo é, paradoxalmente, abandonar seu povo. Qualquer irmã pode permanecer a vida toda dentro de sua nação nômade, vivendo no ambiente familiar e seguro que conheceu desde nascer. Saberá cavalgar e lutar, como todas as outras. Contudo, aquelas que desejam ascender ao topo das habilidades amazonas devem se testar. Precisam viver alguns anos entre as outras sociedades artonianas, experimentando seus costumes, luxos e estranhezas. Isso porque, independente do nascimento, ser uma amazona é uma escolha. Assim, é preciso que a candidata conheça as alternativas.\nO tempo de exílio varia entre as nações amazonas. Algumas exigem que suas filhas passem dez anos afastadas antes de serem aceitas de volta, outras permitem que elas retornem após um ou dois anos. Outras ainda não impõem um período fixo, mas certa quantidade de experiências: de nada vale passar vinte anos longe sem aprender nada.\nUma vez que a exilada seja aceita de volta entre suas irmãs, passa por uma série de desafios. As demais amazonas, em especial as anciãs e líderes do povo, reúnem-se e decidem quem desafiará a candidata, e de que forma. Esses desafios representam as habilidades necessárias a uma amazona: a melhor ginete irá desafiá-la para uma corrida a cavalo, a melhor guerreira vai enfrentá-la em combate, a melhor arqueira vai propor uma competição de tiro ao alvo, entre outras modalidades. A candidata não precisa vencer esses desafios — na verdade, em geral será derrotada em todos eles. Contudo, após cada desafio deve relatar a sua adversária o que aprendeu na prova. Se a resposta for satisfatória, a candidata passa ao próximo desafio. Caso contrário, será desafiada de novo e de novo da mesma forma, até aprender o que deve. Existem muitos casos de candidatas que nunca passam dessa fase, nunca alcançando seu pleno potencial.\nPara aquelas que nascem fora das nações amazonas, o primeiro passo é localizar um desses povos. A candidata deve estar sozinha e ter sua própria montaria. Quando um grupo de amazonas nota que há uma candidata em seu encalço, primeiro tenta descobrir se a forasteira apenas busca refúgio ou se deseja o treinamento especial. Caso ela deseje se tornar uma “amazona entre as amazonas”, as outras fazem de tudo para despistá-la! A candidata precisa mostrar resiliência, perseguindo o grupo até que as demais a aceitem.\nComeça então um período de provações dolorosas, durante o qual a candidata deve recriar as condições pelas quais as amazonas ancestrais passaram. Ela não pode usar nenhum tipo de arma, armadura ou equipamento sofisticado, limitando-se a trapos, couro curtido e talvez uma lança. Não pode tocar os pés no chão, ficando sempre sobre sua montaria ou usando outros truques (como ficar sobre galhos de árvores). Não pode carregar consigo mais do que uma ração de viagem, caçando e coletando sua comida a cada dia. Enquanto faz isso, deve acompanhar o resto do grupo em todas as suas atividades, sendo um membro tão produtivo quanto todas as outras. Esse período pode durar algumas semanas, alguns meses ou até mais de um ano.\nO próximo passo é igual para candidatas nativas ou estrangeiras. A candidata deve desafiar uma amazona do grupo — e dessa vez vencê-la. A natureza do desafio é escolhida pela candidata: pode ser desde um duelo até um concurso de charadas. Tendo vencido o desafio, a candidata passa ao último estágio. Deve localizar uma mulher que precise de ajuda, então libertá-la de uma situação de opressão.\nQuando todos esses requisitos são cumpridos, a nova amazona é celebrada por suas irmãs. Ela pode ser treinada por suas mestras ao longo de anos, pode voltar à nação amazona periodicamente para mais ensinamentos ou pode apenas aprender novas técnicas por si mesma, em suas aventuras. Algumas amazonas têm contato com suas mestras em sonhos, recebendo lições dessa forma. Seja como for, a amazona agora é um exemplo para suas irmãs, alguém que vai inspirar futuras gerações de mulheres a lutar pela liberdade.",
+    "abilities": [
+        {
+            "name": "Armadura das Amazonas",
+            "description": "Se não estiver usando armadura pesada, você recebe +2 na Defesa."
+        },
+        {
+            "name": "Predadora",
+            "description": "Você pode gastar uma ação de movimento e 2 PM para analisar um inimigo em alcance médio. Até o fim da cena, você recebe +1 em testes de perícia e rolagens de dano contra esse inimigo e outras criaturas do mesmo tipo. Para cada outro poder da distinção, você pode gastar +1 PM para aumentar esses bônus em +1. Pré-requisito: treinada em Sobrevivência."
+        },
+        {
+            "name": "Arquearia Montada",
+            "description": "Enquanto está montada, você pode aplicar quaisquer bônus em testes de ataque e rolagens de dano fornecidos pela montaria em seus ataques à distância. Pré-requisito: Bênção de Hippion."
+        },
+        {
+            "name": "Bênção de Hippion",
+            "description": "Você recebe um cavalo de guerra parceiro veterano. Caso já possua uma montaria fornecida por outra habilidade, em vez disso essa montaria fornece +2 em sua Destreza. Você e sua montaria possuem um vínculo emocional, sendo sempre capazes de entender um ao outro (não é preciso fazer testes de Adestramento). Caso perca sua montaria, você pode treinar outra com uma semana de trabalho. Prérequisitos: Ginete, Predadora."
+        },
+        {
+            "name": "Estilo da Amazona",
+            "description": "Uma vez por rodada, quando faz um ataque corpo a corpo, se uma de suas mãos estiver livre ou empunhando um escudo leve, você pode gastar 2 PM para fazer um ataque adicional com uma arma de arremesso com essa mão. Pré-requisitos: Estilo de Arremesso, Predadora."
+        },
+        {
+            "name": "Nunca Ceder",
+            "description": "Quando falha em um teste de resistência contra um efeito de um inimigo, você pode gastar 2 PM para repetir esse teste, com um bônus igual ao total de poderes da distinção que você possui. Você só pode usar este poder uma vez por efeito. Pré-requisito: Estilo da Amazona."
+        },
+        {
+            "name": "Rainha Amazona",
+            "description": "Você recebe +1 em Carisma e, quando usa Predadora, aplica o bônus recebido como RD contra criaturas desse tipo. Pré-requisitos: Arquearia Montada, Nunca Ceder, ter realizado um grande feito ou missão em nome das amazonas."
+        }
+    ]
+}

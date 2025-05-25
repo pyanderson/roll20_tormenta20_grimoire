@@ -1,0 +1,34 @@
+{
+    "name": "Infiltrador de Wynlla",
+    "admission": "Infiltradores de Wynlla são treinados exclusivamente no Reino da Magia. Ali estão sediadas todo tipo organizações secretas, apadrinhadas por famílias nobres, guildas poderosas ou pelo próprio Conselho. Nenhuma dessas instituições existe oficialmente — na verdade, a maioria dos figurões da magocracia fingirá não saber nada sobre agentes secretos arcanos em sua terra.\nAssim, aqueles que não são naturais de Wynlla precisam, antes de mais nada, passar tempo suficiente no reino para conquistar a confiança de um desses patronos. Ser capaz de usar magia arcana é um requisito básico — um candidato nunca será respeitado se não possuir essa capacidade fundamental.\nDepois de estar bem-posicionado no Reino da Magia, o candidato deve efetivamente encontrar uma organização que esteja disposta a aceitar novos membros. Pode ser alguma casa nobre com quem já teve contato anteriormente, mas muitos candidatos acabam trocando suas lealdades durante essa fase. Afinal, depois de algum contato com Wynlla, podem ter uma noção melhor sobre as intrigas que acontecem no reino. Vários boatos e informações desconexas são espalhadas para qualquer um que tente descobrir sobre qualquer organização, tanto para proteção, quanto para filtrar apenas os candidatos realmente capazes. É necessário tanto uma investigação profunda para procurar pistas e interrogar pessoas quanto uma boa intuição para perceber as mentiras.\nApós encontrar uma organização, é necessário provar seus talentos, tanto nas artes mágicas quanto nas habilidades furtivas e de enganação. Os testes variam, mas geralmente envolvem invadir locais protegidos por armadilhas mágicas. O patrono da organização muitas vezes dita o tipo de teste: um candidato pode receber a ordem de assassinar um alvo inocente, enquanto outro pode apenas ter a tarefa de descobrir algum segredo. Às vezes outra organização aborda um candidato promissor durante os testes. Isso pode ou não ser mais um teste!\nUma vez que seja aceito, o candidato recebe um pequeno conjunto de missões, que devem ser cumpridas fora de Wynlla. Cada missão deve lhe ensinar um aspecto da vida de espionagem: trato social e etiqueta, furtividade, arrombamento, fuga... Todas as missões devem ser cumpridas usando magia arcana. O candidato pode ser acompanhado por colegas aventureiros, mas não é saudável revelar muito sobre seu patrono a eles. Afinal, as organizações podem decidir que eles sabem demais...\nQuando o candidato termina de cumprir todas as missões, deve se apresentar em Wynlla mais uma vez. Ele é reconhecido (em particular) como um novo infiltrador, leal a quem o treinou. O patrono, contudo, nunca vai admitir ter qualquer contato com o infiltrador, preferindo deixar que ele seja executado a admitir que emprega espiões. Em troca, o infiltrador tem liberdade para usar seus novos conhecimentos como quiser... Mas periodicamente receberá propostas de trabalhos lucrativos.",
+    "abilities": [
+        {
+            "name": "Ladinagem Mágica",
+            "description": "Você cria um fluxo de energia capaz de manipular pequenos itens próximos. Você pode gastar uma ação de movimento para mover um objeto em alcance curto até 9m em qualquer direção (você só pode mover objetos que poderia manusear com uma mão). Além disso, pode gastar 1 PM para fazer um teste de Ladinagem para abrir fechaduras, ocultar itens, punga ou sabotar em alcance curto."
+        },
+        {
+            "name": "Trapaça Arcana",
+            "description": "Você pode lançar magias arcanas de 1º círculo. Se tiver pelo menos três poderes da distinção, pode lançar também magias de 2º círculo. Você começa com duas magias de 1º círculo e, a cada outro poder da distinção, aprende uma magia de qualquer círculo que possa lançar. Você pode lançar essas magias vestindo armaduras leves sem precisar de testes de Misticismo. Seu atributo-chave para essas magias é Inteligência. Pré-requisitos: treinado em Enganação, Ladinagem e Misticismo, capacidade de lançar pelo menos uma magia arcana."
+        },
+        {
+            "name": "Conjuração Furtiva",
+            "description": "Criaturas desprevenidas sofrem uma penalidade de –5 em testes de resistência contra suas habilidades mágicas. Pré-requisitos: treinado em Furtividade, Magia Traiçoeira."
+        },
+        {
+            "name": "Criar Armadilha Mágica",
+            "description": "Você aprende a magia Conjurar Armadilha (p. 252) como uma de suas magias arcanas. Se aprender essa magia novamente, seu custo diminui em –1 PM. Pré-requisito: Trapaça Arcana."
+        },
+        {
+            "name": "Disfarce Mental",
+            "description": "Você pode usar Inteligência no lugar de Carisma para Enganação. Quando usa Disfarce Ilusório em si mesmo, você pode usar Inteligência no lugar do atributo-chave de uma perícia a sua escolha, adequada ao disfarce escolhido, e recebe +5 em testes de resistência contra efeitos mágicos de adivinhação. Pré-requisitos: Trapaça Arcana, Disfarce Ilusório."
+        },
+        {
+            "name": "Enganar Item Mágico",
+            "description": "Quando lança uma magia através de um item mágico que só permite o uso de aprimoramentos caso você conheça a magia, você pode usá-los mesmo sem conhecê-la. Além disso, pode ativar itens mágicos sem cumprir requisitos de raça, classe e devoção. Pré-requisito: Trapaça Arcana."
+        },
+        {
+            "name": "Magia Traiçoeira Aprimoramento",
+            "description": "Quando lança uma magia de dano em um ou mais alvos desprevenidos, você pode usar seu ataque furtivo com ela em um deles. Custo: +2 PM. Pré-requisitos: Ataque Furtivo 3d6, Disfarce Mental."
+        }
+    ]
+}

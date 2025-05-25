@@ -1,0 +1,30 @@
+{
+    "name": "Engenhoqueiro Goblin",
+    "admission": "Para se tornar um engenhoqueiro goblin, é preciso ser um goblin (o que você esperava?) que tenha coragem de colocar seus inventos à prova. Isso significa que, independente do que tenha feito antes, o candidato deve embarcar em uma jornada que abrace os riscos e resultados imprevisíveis das engenhocas goblins.\nDurante pelo menos duas estações, o candidato deve construir engenhocas sem utilizar nenhuma medida de segurança. Isso significa que, se uma engenhoca funcionaria de um certo modo, mas poderia ter um efeito mais espetacular e mais arriscado de outro, o candidato precisa sempre optar pelo segundo. Por exemplo, em vez de construir um canhão que dispara bolas de fogo de tamanho mediano, mas tem pouca chance de enguiçar, deve fabricar um canhão que cospe bolas de fogo imensas, mesmo que a chance de enguiçar seja igualmente imensa!\nContudo, isso é apenas o começo. Nenhum engenhoqueiro goblin já existente vai respeitar um candidato que nunca tenha passado por pelo menos uma explosão. Assim, uma das engenhocas ou inventos do candidato durante essas duas estações deve falhar de maneira absolutamente desastrosa. Embora a explosão seja o maior clássico, outras falhas igualmente espetaculares são possíveis: o candidato e seus companheiros podem ser transportados para outro Plano, toda a corte do duque local pode ficar com a pele azul, a taverna pode flutuar até outra cidade... Não importa, desde que a falha seja estrondosa, literal ou figurativamente. Mas não pode ser uma falha proposital! O candidato precisa apenas testar seus limites ao máximo, sem medo do que pode acontecer. Além disso, a falha também não pode ser fruto de mero acaso, ou orquestrada por algum poder maior. Tudo deve derivar da criatividade desenfreada do candidato.\nTambém durante essas estações, o candidato deve fabricar pelo menos uma engenhoca sem os materiais normalmente necessários, improvisando e usando qualquer sucata, destroço ou refugo que encontrar por aí. Essa engenhoca improvisada pode explodir, cumprindo dois requisitos de uma só vez!\nPor fim, o candidato deve construir uma engenhoca impressionante... que funcione. Deve criar algum grande invento, apresentá-lo para um ou mais engenhoqueiros goblins, então testá-lo na frente deles. Se a geringonça funcionar, seus novos colegas vão parabenizá-lo e reconhecê-lo como um novo engenhoqueiro goblin. Se depois disso a engenhoca explodir, tarde demais: o candidato já é um engenhoqueiro!",
+    "abilities": [
+        {
+            "name": "Engenhocaria Goblinoide",
+            "description": "Você gasta 1 dia e metade do custo em tibares para fabricar uma engenhoca. Entretanto, você nunca pode escolher 0, 10 ou 20 para ativar uma engenhoca e, se falhar no teste de ativação por 5 ou mais (ou se rolar 1 no dado), a engenhoca explode e causa 2d6 pontos de dano de impacto por círculo da magia em você e todas as criaturas a até 3m (Reflexos CD da engenhoca reduz à metade)."
+        },
+        {
+            "name": "Aprimorar Bugiganga",
+            "description": "Você pode gastar 1 hora de trabalho e T$ 100 para instalar uma das gambiarras a seguir em uma de suas engenhocas. Cada engenhoca pode ter uma gambiarra para cada poder da distinção que você possui. Por sua natureza experimental, cada gambiarra aumenta o valor de falha automática da engenhoca em 1 (uma engenhoca com duas gambiarras falha automaticamente se você rolar 1, 2 ou 3 no teste de ativação). Gambiarras iguais não se acumulam, mas seus efeitos se acumulam com os de aparatos (veja p. 235). O efeito de cada gambiarra é rolado a cada uso da engenhoca. Pré-requisitos: Engenhoqueiro, Vitalidade.\n• Bateria Potente. A CD para resistir à engenhoca aumenta em +1d4.\n• Bobina Poderosa. Aumenta os dados de cura ou de dano da engenhoca em um passo (até um máximo de d12).\n• Cristal Canalizador. Aumenta o limite de PM que você pode gastar em aprimoramentos da engenhoca em +1d4.\n• Etiqueta de Instruções. A CD do teste para ativar a engenhoca diminui em –1d10.\n• Luneta Aproximadora. Aumenta o alcance da engenhoca em 1d3 –1 passos (de curto para médio, de médio para longo)."
+        },
+        {
+            "name": "Abandonar Geringonça",
+            "description": "Quando falha na ativação de uma engenhoca por 5 ou mais (ou rola uma falha automática), você pode gastar 1 PM para arremessar a engenhoca em um ponto em alcance curto antes que ela exploda. Pré-requisito: Aprimorar Bugiganga, deve ter sofrido dano de uma de suas engenhocas que falhou em ativar pelo menos uma vez."
+        },
+        {
+            "name": "Autodestruição",
+            "description": "Você pode gastar uma ação completa e uma quantidade de PM limitada pelo total de poderes da distinção que possui para forçar uma falha crítica em uma engenhoca (veja Engenhocaria Goblnoide) e arremessá-la em um ponto em alcance curto para que exploda. A explosão atinge uma esfera com 1d4 x 1,5m de raio e seu dano aumenta em +2d6 pontos por PM gasto. Pré-requisito: Abandonar Geringonça."
+        },
+        {
+            "name": "Enjambração",
+            "description": "Você pode gastar uma ação completa para fabricar uma engenhoca com uma magia qualquer de até um círculo abaixo do círculo máximo de engenhocas que você pode fabricar. Você não gasta tibares para fabricar essa engenhoca, mas gasta os PM da magia para ativá-la (mesmo se falhar no teste de ativação). A engenhoca não conta em seu limite, dura até o fim da cena e sua chance de falha automática aumenta em +1d6. Pré-requisitos: Aprimorar Bugiganga, outro poder da distinção."
+        },
+        {
+            "name": "Manutenção Precária",
+            "description": "Você pode usar um tempo entre aventuras (Tormenta20, p. 276) para fabricar um número de engenhocas igual a 1d3 + o número de poderes da distinção que você possui. Você precisa pagar os custos normais e fazer os testes normais para fabricá-las. Essas engenhocas não contam no seu limite de engenhocas e deixam de funcionar no fim da próxima aventura. Pré-requisito: Aprimorar Bugiganga."
+        }
+    ]
+}

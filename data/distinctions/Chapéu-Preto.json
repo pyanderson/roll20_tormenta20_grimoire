@@ -1,0 +1,42 @@
+{
+    "name": "Chapéu-Preto",
+    "admission": "Para se tornar um chapéu-preto, uma pessoa deve ter experimentado o mal, a perda e a crueldade. Seguir este caminho nem sempre é uma escolha consciente; alguns candidatos se tornam chapéus-pretos como resultado de suas próprias decisões, enquanto outros simplesmente dão azar, sendo forçados a testemunhar tanta maldade que sua própria alma se torna cinzenta, amargurada e cruel.\nPor escolha ou por destino, o caminho do chapéu-preto é marcado por uma profunda intimidade com o pior que o mundo tem a oferecer. O candidato deve testemunhar pelo menos três atos de maldade marcante, do tipo que fica gravado em sua alma e é revivido em pesadelos todas as noites. Mais do que isso, pelo menos um desses atos deve ter uma relação direta com o candidato. Isso pode ser algo que lhe causou uma perda, como a morte de um ente querido, a destruição de algo importante ou uma derrota marcante. Também pode ser algo que o próprio candidato causou, seja uma maldade deliberada, seja um ato movido por boas intenções (como matar inocentes acreditando que se tratavam de criminosos ou monstros).\nDe qualquer forma, os três atos devem causar prejuízos significativos: o candidato deve ficar sem dormir direito por um mês, estando constantemente cansado e exaurido enquanto se aventura. Deve precisar abrir mão de relações que lhe traziam benefícios, como ser expulso de uma guilda que o patrocinava ou deserdado pela família. Deve ter sofrido um ferimento que o torne assustador para outras pessoas ou que afete sua habilidade de lutar, lançar magias ou realizar outra tarefa importante. Conta-se de um bardo que vagava pelas planícies, carregando seu alaúde num estojo. Suas mãos foram horrivelmente feridas por tiros e ele nunca mais pôde tocar um instrumento, tornando-se um chapéu-preto e escondendo armas de fogo no estojo. Embora esses prejuízos sejam os mais comuns nas histórias de horror que acompanham estes bandidos, pode haver outros.\nApós presenciar todo esse mal, o candidato deve renegar quaisquer laços com organizações ou entidades que poderiam ser consideradas justas ou bondosas. Isso inclui devoção a divindades e até mesmo um grupo de aventureiros dedicado a causas justas. Mesmo que o candidato se torne membro de outro grupo mais tarde, deve virar as costas a quem o conhecia antes de sua “transformação”.\nUma vez que todo esse sofrimento tenha se manifestado, a maldição também se manifesta. O candidato acorda com um objeto que é uma marca de tudo pelo que passou — um item que vai acompanhá-lo para sempre a partir de agora. Ele é um chapéu-preto e seu futuro será tão amargo quanto seu passado.",
+    "abilities": [
+        {
+            "name": "A Maldição do Chapéu Preto",
+            "description": "Todo chapéu-preto possui um objeto que é a marca de sua maldição. Esse objeto está sempre visível em sua pessoa e é imediatamente reconhecível como maligno ou sinistro. Pode ser um colar, uma fivela, um anel, uma arma… Contudo, as histórias de Smokestone geralmente identificam esse objeto como um chapéu de pistoleiro. Assim, seja o que for, é chamado de “chapéu preto”.\nO chapéu nunca fica longe do personagem por muito tempo. Se for perdido, roubado ou destruído, surge no corpo do personagem na cena seguinte. Nem mesmo uma magia Purificação é capaz de separar o chapéu do personagem permanentemente. Habilidades como Forma Selvagem e magias como Disfarce Ilusório também não escondem o chapéu preto. Se o personagem puder ser visto, o chapéu preto também poderá.\nA critério do mestre, o portador de um chapéu preto pode empreender uma jornada de redenção para se livrar da maldição. Se for bem-sucedido, ele se livra da maldição e do chapéu. Nesse caso, perde a distinção e todos os poderes de chapéu-preto que possui, mas pode usar as regras de treinamento para adquirir outros em seu lugar."
+        },
+        {
+            "name": "Esse Maldito Chapéu",
+            "description": "Você recebe um “chapéu preto”, um item que representa sua maldição (veja o quadro). Você recebe +2 em Intimidação e na CD dos seus efeitos de medo, mas sofre –2 em Adestramento, Atuação e Diplomacia."
+        },
+        {
+            "name": "Coração Duro",
+            "description": "Você recebe +2 em rolagens de dano com armas e imunidade a medo (ou +2 em Vontade, se já for imune a medo). Este poder não elimina fobias raciais, como o medo de altura dos minotauros. Pré-requisitos: treinado em Luta ou Pontaria, Presença Aterradora."
+        },
+        {
+            "name": "Bala nas Costas",
+            "description": "Sempre que atacar um oponente pela primeira vez na cena, você pode gastar 1 PM para receber +10 na margem de ameaça desse ataque. Pré-requisitos: Coração Duro, dois outros poderes da distinção."
+        },
+        {
+            "name": "Congelar o Inferno",
+            "description": "Quando usa um efeito de medo, você pode gastar 2 PM para ignorar quaisquer imunidades a medo e efeitos mentais dos alvos. Pré-requisitos: Coração Duro, dois outros poderes da distinção."
+        },
+        {
+            "name": "Dance!",
+            "description": "Quando faz um teste de Intimidação, você pode gastar 2 PM para fazer uma demonstração de habilidade com sua arma como parte desse teste. Se fizer isso, você recebe um bônus em seu teste de Intimidação igual ao atributo-chave de ataque com a arma que está usando. Pré-requisito: Coração Duro."
+        },
+        {
+            "name": "Olhos de Chumbo",
+            "description": "Você projeta uma aura de medo com 9m de raio. Todas as criaturas a sua escolha nessa aura sofrem –2 em rolagens de dano e na Defesa. Essa penalidade aumenta em –1 para cada dois outros poderes da distinção que você possuir. Medo. Pré-requisitos: Coração Duro, ser procurado pelas autoridades por um crime."
+        },
+        {
+            "name": "Rápido ou Morto",
+            "description": "Você recebe +2 em Iniciativa e +3m em seu deslocamento. Esses bônus aumentam respectivamente em +1 e +1,5m para cada dois outros poderes da distinção que você possuir. Pré-requisitos: treinado em Iniciativa, Coração Duro."
+        },
+        {
+            "name": "Tiro à Traição",
+            "description": "O dano de seus ataques com armas contra alvos desprevenidos ou sob alguma condição de medo aumenta em um passo. Pré-requisitos: Coração Duro, ter feito pelo menos três acertos críticos em alvos desprevenidos."
+        }
+    ]
+}

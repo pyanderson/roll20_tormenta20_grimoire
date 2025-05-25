@@ -1,0 +1,30 @@
+{
+    "name": "Gigante Furioso",
+    "admission": "O processo para se tornar um gigante furioso é relativamente simples, mas perigoso e violento. Impossível saber quantos candidatos já morreram tentando conquistar esta capacidade — aqueles que perecem tentando invariavelmente são brutos evitados por quase todos, esquecidos assim que morrem.\nO primeiro passo é ouvir falar do ritual. Isso, por si só, pode ser um desafio para alguns candidatos rejeitados ou proscritos de seus povos. Difícil ter contato com lendas locais quando todos fogem ao vê-lo! Contudo, xamãs de Megalokk ou sábios que preservam histórias pela tradição oral podem ser a fonte de algum boato que motive o candidato. Alguns teólogos afirmam que certos candidatos conhecem por instinto a existência do ritual — seriam inspirados por Megalokk para se aproximar dos monstros que um dia dominaram Arton.\nEm seguida, começa o ritual em si: o candidato deve derrotar um gigante em combate corporal. Ele pode ser auxiliado por seus companheiros, mas o gigante deve representar um perigo real para todo o grupo, e o próprio candidato deve ser um dos maiores responsáveis pela vitória. Alguns gigantes furiosos dizem que conquistaram seus poderes matando outro monstro. Não se sabe se isso é verdade, mas de qualquer forma a criatura abatida deve ser muito maior que o candidato.\nEntão vem a parte crucial (e mais revoltante): o candidato deve devorar o coração do gigante morto. O órgão deve estar cru e ainda quente, deve ser consumido inteiro e o candidato não pode vomitá-lo logo em seguida. Isso é mais difícil do que parece: mesmo para um selvagem, o coração é um alimento revoltante. Caso o candidato não consiga fazer isso, deve matar outro gigante e tentar de novo.\nO último passo é duvidoso. O candidato deve se apresentar a um clérigo ou druida de Megalokk, com o restante do corpo da presa. O xamã irá avaliá-lo e decidir se ele merece a bênção.\nSe o candidato for aceito, o xamã irá realizar um ritual sangrento para transferir o poder do gigante derrotado. O ritual é longo e fisicamente exigente; o candidato será levado ao extremo de suas capacidades físicas, seja pelo esforço místico do processo, seja pelas criaturas que Megalokk enviará para confrontá-lo, como uma etapa final do processo de admissão. Se o candidato sobreviver, sua fúria se intensificará magicamente e ele se tornará um gigante furioso.\nContudo, diz-se que esse último passo pode vir do próprio Megalokk! Alguns candidatos não levam o cadáver a nenhum xamã, mas de repente se veem atacados por todo tipo de monstros, ao longo de dias. A provação é a mesma — apenas ainda mais selvagem.",
+    "abilities": [
+        {
+            "name": "Desprezar os Pequenos",
+            "description": "Contra atacantes menores que você, você recebe redução de dano 2 por categoria de tamanho de diferença entre os dois (por exemplo, se for Enorme, você recebe RD 6 contra ataques de criaturas Pequenas)."
+        },
+        {
+            "name": "Fúria dos Gigantes",
+            "description": "Quando entra em fúria, você pode gastar 2 PM para aumentar seu tamanho em uma categoria; isso aumenta sua Força em +2 e faz com que seu equipamento aumente para o tamanho adequado. O aumento de tamanho dura até sua fúria terminar. Para cada dois outros poderes da distinção, você pode gastar +2 PM para aumentar seu tamanho em uma categoria adicional, aumentando o bônus na Força em +2. Seu tamanho com este poder nunca pode ser maior que o da maior criatura que você já matou. Pré-requisitos: Con 3, treinado em Fortitude, Fúria."
+        },
+        {
+            "name": "Arremesso de Rochas",
+            "description": "Enquanto estiver em fúria, você pode gastar uma ação de movimento e 1 PM para arrancar uma rocha do chão e arremessá-la contra seus oponentes. Trate essa rocha como uma arma de arremesso com alcance médio (dano 1d12 impacto, crítico x2) que atinge todas as criaturas em um quadrado com 4,5m de lado. Para atacar com a rocha, faça um ataque à distância e compare-o com a Defesa de cada criatura na área. Então faça uma única rolagem de dano e aplique-a em cada inimigo atingido. Para cada categoria de tamanho que você tiver acima de Médio, o dano da rocha aumenta em +1d12. Pré-requisito: Fúria dos Gigantes."
+        },
+        {
+            "name": "Golpes Pesados",
+            "description": "Quando faz um ataque corpo a corpo em fúria, você pode gastar 1 PM. Se fizer isso e acertar o ataque, além do dano você faz uma manobra empurrar contra o alvo como uma ação livre (use o resultado do ataque como o teste de manobra). Se houver uma parede ou outro objeto sólido (não uma criatura) no caminho do alvo, ele sofre 1d12 pontos de dano de impacto para cada 3m que for empurrado. Se você possuir o poder Ataque Pesado e usá-lo nesse ataque para empurrar, você executa uma única manobra, mas recebe +5 no teste de manobra. Pré-requisito: Fúria dos Gigantes."
+        },
+        {
+            "name": "Salto Tectônico",
+            "description": "Quando usa Terremoto da Fúria, como parte da ação para usar esse poder você pode saltar, aterrissando em um ponto qualquer em alcance médio e desencadeando uma onda de choque que fortalece o terremoto. Faça um teste de Atletismo (CD 10). Se passar, você aumenta o raio do terremoto em +3m e seu dano em +2d12. Além disso, para cada 10 pontos em que o resultado superar a CD, o raio do terremoto aumenta em +3m. Pré-requisitos: treinamento em Atletismo, Terremoto da Fúria."
+        },
+        {
+            "name": "Terremoto da Fúria",
+            "description": "Quando está em fúria, você pode gastar uma ação de movimento e 3 PM para pisotear o chão, gerando uma onda de choque em um raio de 9m ao seu redor. Criaturas na área sofrem dano de impacto igual a 1d12 + sua Força e ficam caídas (Fort CD For reduz à metade e evita a condição). Para cada categoria de tamanho acima de Médio que você tiver, o dano aumenta em +1d12. Pré-requisito: Fúria dos Gigantes."
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "name": "Armadilheiro Mestre",
+    "admission": "O primeiro passo para se tornar um armadilheiro mestre é encontrar informações específicas sobre a fabricação e uso das mais diversas armadilhas. Isso pode ser feito encontrando um armadilheiro veterano ou outro mentor que tenha um profundo conhecimento de técnicas que possam ser empregadas em armadilhas (como um engenhoqueiro ou um artesão particular mente habilidoso). Alternativamente, o candidato pode pesquisar em bibliotecas ou outras fontes de conhecimento — mas esses registros quase nunca estão em locais de boa reputação. Esse passo por si só já é perigoso: muitas vezes o candidato precisa de permissão especial de uma guilda de ladrões, ou no mínimo vai dever um favor para alguém pouco confiável.\nDe posse desse conhecimento, o candidato deve invadir uma masmorra protegida por um número considerável de armadilhas complexas e desafiadoras. Pode estar acompanhado por um grupo de aventureiros, mas deve ele mesmo (sem ajuda) encontrar e desarmar todas as armadilhas do complexo. A masmorra deve ser grande o suficiente para que sua exploração exija mais de um dia. Nenhuma armadilha pode ser desarmada por magia, força bruta, sorte ou apenas sendo disparada. O candidato deve usar seu conhecimento em cada uma delas.\nTendo feito isso, a situação se inverte. O candidato deve preparar uma área (masmorra, clareira, ala de castelo...) com no mínimo dez armadilhas, então atrair pelo menos cinco vítimas para ela. As vítimas não podem ser aliados do candidato, nem podem estar colaborando com ele de qualquer forma — devem ser intrusos com o objetivo real de vencer as armadilhas e chegar ao que quer que elas estejam protegendo. Apenas quando cinco vítimas forem mortas, capturadas ou afugentadas pelas armadilhas o aprendizado está completo.\nTendo visto suas criações operando de maneira tão engenhosa, eficiente e cruel, o candidato agora é um armadilheiro mestre. E talvez não queira abandonar essa posição de segurança para se aventurar nos ermos...",
+    "abilities": [
+        {
+            "name": "Armadilhas de Armadilheiro",
+            "description": "As armadilhas a seguir fazem parte do arsenal de um armadilheiro mestre.\n• Atordoante. A criatura sofre 4d8 pontos de dano de impacto e fica atordoada por 1 rodada (Fortitude CD Int evita a condição). Uma criatura só pode ser atordoada por esta armadilha uma vez por cena.\n• Barril de Óleo. Criaturas na área ficam vulneráveis a fogo até se limparem (o que exige uma ação completa).\n• Buraco Portátil. Um fosso se abre na área. Queda de 6m causa 4d6 pontos de dano de impacto (Atletismo CD 20 para escalar de volta, Reflexos CD Int evita e move para fora da área).\n• Constrangedora. A criatura sofre um efeito constrangedor, como ser coberta de piche e penas. A vítima fica pasma por 1 rodada e frustrada (Vontade CD Int evita a condição pasmo). Uma criatura só pode ficar pasma por esta armadilha uma vez por cena.\n• Fumaça. Uma nuvem de fumaça espessa obscurece toda a visão na área e dura até o fim da cena. Criaturas a até 1,5m têm camuflagem leve e criaturas a partir de 3m têm camuflagem total.\n• Luz. Criaturas na área ficam cegas por 1d4 rodadas e depois ofuscadas (Reflexos CD Int evita a condição cego).\n• Mola. A criatura é empurrada 9m na direção oposta ao centro da armadilha e fica caída (Reflexos CD Int evita o empurrão). Se colidir com algum obstáculo no caminho do empurrão, a vítima sofre 2d6 pontos de dano de impacto.\n• Mina. Criaturas na área sofrem 4d6 pontos de dano de impacto e são empurradas 3m na direção oposta ao centro da armadilha (Reflexos CD Int reduz à metade e evita o empurrão).\n• Substância Enervante. Criaturas na área são cobertas por substâncias enervantes que impedem que elas façam quaisquer ações que exijam calma ou concentração (como lançar magias) até se limparem (uma ação padrão)."
+        },
+        {
+            "name": "Armadilheiro Experiente",
+            "description": "Você recebe +2 em testes de perícia relacionados a armadilhas, incluindo testes para encontrar, desarmar e resistir a seus efeitos. Além disso, sempre que desarma uma armadilha que não seja sua, você recupera 1 PM."
+        },
+        {
+            "name": "Armadilha Instantânea",
+            "description": "Escolha duas armadilhas entre as de armadilheiro e as de caçador. Uma vez feita, essa escolha não pode ser mudada. Você pode preparar as armadilhas escolhidas conforme as regras de Armadilhas (Tormenta20, p. 51), mas não precisa estar em um ambiente propício (porque usa seus próprios materiais) e pode usar Inteligência como atributo-chave da CD para encontrar, desarmar e evitar essas armadilhas. A cada novo poder da distinção, você pode escolher uma nova armadilha. Pré-requisitos: treinado em Ladinagem e Ofício (artesão)."
+        },
+        {
+            "name": "Armadilha Distante",
+            "description": "Quando prepara uma armadilha, você pode gastar 1 PM para preparar essa armadilha em qualquer espaço desocupado em alcance curto. Pré-requisitos: Des 1, Armadilha Instantânea."
+        },
+        {
+            "name": "Armadilha Furtiva",
+            "description": "A CD para encontrar, desarmar e resistir às suas armadilhas aumenta em +5 e você adiciona o dano de seu Ataque Furtivo ao dano que elas causam. Este poder não funciona contra criaturas que não fiquem desprevenidas ou surpreendidas. Pré-requisitos: Armadilha Instantânea, Ataque Furtivo."
+        },
+        {
+            "name": "Armadilha Recarregável",
+            "description": "Quando uma de suas armadilhas em alcance médio é disparada, você pode gastar 1 PM. Se fizer isso, a armadilha é rearmada automaticamente no início do seu próximo turno. Pré-requisito: Armadilha Instantânea."
+        },
+        {
+            "name": "Aumentar Complexidade",
+            "description": "Você soma sua Inteligência no dano e na CD de suas armadilhas (cumulativo) e elas passam a ocupar uma área de 4,5m de lado. Além disso, se você estiver em alcance médio de uma de suas armadilhas, pode dispará-la como uma ação livre. Pré-requisito: Armadilha Instantânea."
+        },
+        {
+            "name": "Tripla Ameaça",
+            "description": "Você pode gastar 10 PM para preparar até 3 armadilhas ao mesmo tempo. Cada uma aparece em um ponto diferente em alcance curto. Pré-requisito: Aumentar Complexidade."
+        }
+    ]
+}

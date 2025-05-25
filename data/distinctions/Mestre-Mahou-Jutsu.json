@@ -1,0 +1,30 @@
+{
+    "name": "Mestre Mahou-Jutsu",
+    "admission": "Para desvendar os segredos do mahou-jutsu, um candidato precisa encontrar um mestre. São raríssimos os praticantes em Arton, sendo apenas dois conhecidos: Mestre Chibi, sílfide residente na Academia Arcana, e Mestre Masaru Yudai, atualmente residente em Vectora. Há ainda rumores de um gênio das trevas desafiando dojos no Reino de Lin-Wu e demonstrando uma variante extremamente agressiva do mahou-jutsu.\nDepois de encontrar seu mestre, seja um desses ou algum outro ainda desconhecido, o candidato deve convencê-lo de que merece o treinamento. Até hoje, ninguém consegue dizer com certeza quais são os critérios de Chibi para aceitar um novo pupilo. Ele envia alguns em jornadas a lugares inóspitos, para outros dá tarefas banais. Masaru, por outro lado, é devotado ao combate contra a Tormenta. Realizar uma missão contra a Tempestade Rubra ou derrotar um lefeu poderoso podem convencê-lo do valor de um discípulo. Cada mestre tem seus parâmetros, mas uma coisa é certa: um candidato precisa provar sua aptidão com combate desarmado e com o caminho arcano. Tradicionalmente, isso é feito com dois desafios preparados pelo próprio mestre — um que deve ser superado apenas com os punhos e outro apenas com magia.\nA prova mais tradicional para os candidatos se chama círculo de luz. O aluno é colocado no centro de dois círculos concêntricos formados por velas apagadas, em uma sala escura, com dois mashin de fogo — um imune a magia, outro imune a ataques físicos. Os autômatos disparam jatos de chamas no aluno; enquanto tenta evitar ser carbonizado, ele precisa derrotar ambos. Se todas as velas ficarem acesas e os mashin ainda estiverem de pé, o candidato falha e precisa realizar outra tarefa antes de poder tentar mais uma vez.\nUm candidato que tenha vencido o desafio é considerado digno de ser treinado. O treinamento em si pode demorar semanas, meses ou anos... Tudo depende do mestre e do discípulo. Candidatos que demonstrem muita aptidão recebem mais cobranças, mas completam o treinamento de forma mais rápida. Candidatos menos competentes podem receber mais auxílio do mestre — ou podem ser expulsos!\nAo fim do treinamento, o candidato deve mais uma vez vencer um desafio duplo de combate desarmado e magia. Contudo, agora deve usar apenas os punhos no desafio arcano e apenas magia no desafio físico. Cabe a ele mesmo descobrir como fazer isso.\nCaso vença o desafio, o candidato recebe de seu mestre o mais raro dos prêmios: um cumprimento. Ele é agora um mestre mahou-jutsu, e haverá muitos outros incentivando-o a manter a chama da arte marcial viva.",
+    "abilities": [
+        {
+            "name": "Palma Mística",
+            "description": "Enquanto tiver pelo menos uma mão livre, você recebe +2 em testes de ataque realizados como parte de magias (como o aprimoramento de Toque Chocante) e na CD de suas magias arcanas contra alvos em seu alcance corpo a corpo."
+        },
+        {
+            "name": "Mahou-Jutsu",
+            "description": "Uma vez por rodada, quando usa uma ação agredir para fazer dois ou mais ataques desarmados, você pode gastar 2 PM para lançar uma magia arcana com execução de ação de movimento ou padrão como ação livre. O círculo máximo de magias que você pode lançar com este poder é limitado pela quantidade de poderes da distinção que possui. Pré-requisitos: lançar magias arcanas, treinado em Misticismo, Briga ou Estilo Desarmado."
+        },
+        {
+            "name": "Defesa da Magia",
+            "description": "Quando lança uma magia arcana, você recebe PV temporários iguais a 5x o círculo da magia lançada. Esses PV duram até o início do seu próximo turno. Pré-requisito: Mahou-Jutsu."
+        },
+        {
+            "name": "Determinação da Dor",
+            "description": "Você soma sua Constituição nos testes de Vontade para concentração em magias (Tormenta20, p. 170). Além disso, quando sofre dano, você soma sua Constituição no seu limite de PM para magias arcanas até o fim do seu próximo turno. Pré-requisitos: Con 1, Mahou-Jutsu."
+        },
+        {
+            "name": "Esplendor Vitorioso Inigualável",
+            "description": "Quando lança uma magia de dano, você pode gastar 10 PV para infundi-la com sua própria força vital. Se fizer isso, você soma sua Constituição à CD da magia e o dano básico de seu ataque desarmado ao dano dela. Pré-requisitos: lançar magias arcanas de 2º círculo, Punho Arcano."
+        },
+        {
+            "name": "Punho Arcano",
+            "description": "Uma vez por rodada, quando lança uma magia arcana com alcance de toque e execução de ação de movimento ou padrão, você pode gastar 2 PM para fazer um ataque desarmado contra o alvo da magia como ação livre. Se acertar esse ataque, a CD da magia aumenta em +1. Para cada dois outros poderes da distinção que você possui, a CD aumenta em +1. Pré-requisito: Mahou-Jutsu."
+        }
+    ]
+}

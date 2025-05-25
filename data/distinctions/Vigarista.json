@@ -1,0 +1,30 @@
+{
+    "name": "Vigarista",
+    "admission": "Não existe nenhuma organização de vigaristas, e normalmente não há camaradagem suficiente para que um deles ensine o ofício a um candidato. Não costuma haver treinamento formal — a vocação de vigarista simplesmente acaba acontecendo, por necessidade ou malícia.\nNo entanto, aqueles que acham que podem se tor - nar vigaristas espontaneamente, apenas com seu ta - lento natural, invaria - velmente acabam do outro lado de algum golpe, ou vários. São os espertalhões que garantem que dessa vez vão enrique - cer rápido, os malandros que acham estar passan - do a perna naquela velhinha desavisada...\nPara ser um vigarista, o can - didato precisa antes de mais nada aceitar que, por enquanto, é um otário. Quem acha que já está por cima nunca vai aprender. O candidato deve buscar um ou mais golpistas e tentar aprender seus truques da única forma possível: caindo ne - les. Não é incomum que clérigos de Hyninn aca - bem fazendo o favor de enganar o candidato e ti - rar dele tudo que tem.\nO candidato deve realmente cair em vários gol - pes, de um ou mais golpistas. Não basta fingir que está caindo, entregar dinheiro voluntariamente — ele só vai entender como funciona a vigarice ao vê-la na prática. Em determinado momento, o próprio candidato deve julgar que está pronto para o próximo passo. Deve pensar com cuida - do se ainda é um otário que se acha esperto ou se já passou para o outro lado. É uma linha que precisa ser cruzada para que um mero trapaceiro se transforme em um vigarista de verdade.\nNa teoria, é muito simples. O can - didato deve aplicar um grande golpe. Esse esquema normalmente tem vá - rias etapas e envolve muitas pessoas, com de - talhes variando imensamente de vigaris - ta para vigarista. Talvez ele convença uma cidade in - teira da existência de uma divindade e fuja levando todo o dinheiro das oferendas. Quem sabe prepare uma bolsa cheia de contas coloridas e venda para uma escola de magia, fingindo serem os Rubis da Virtude. Pode ainda convencer suas vítimas a ven - derem os mesmos produtos falsos para outras ví - timas, sempre comprando da fonte — o próprio candidato. As possibilidades são infinitas.\nSe o candidato tiver sucesso, torna-se um vigarista. Caso contrário, ele acha que se tornou um vigarista, mas isso é falso. Nos próximos dias, vai perder seus “lucros” (como parte de um golpe de outro vigarista) e terá ainda mais prejuízo em cima. Ele mesmo deve perceber que ainda não estava pronto e recomeçar o processo do zero.\nMas não se preocupe, isso não vai acontecer com você. Você é inteligente demais, esperto demais, não é como os outros. Você é um herói aventureiro, não?\nEu nunca mentiria para você.",
+    "abilities": [
+        {
+            "name": "Tirar Leite de Pedra",
+            "description": "Quando está em qualquer tipo de comunidade, você pode usar Enganação para fazer testes de sustento (Tormenta20, p. 128) com pequenos golpes: vendendo poções falsas, lixo como relíquias sagradas ou qualquer outro produto enganoso. Você leva 1 dia, em vez de uma semana, para fazer esse teste, e recebe um bônus de +2 em cidades, +5 em vilas e +10 em aldeias. Se falhar em um teste, não pode tentar de novo na mesma comunidade durante um mês… e, se rolar 1 natural no teste, é desmascarado pela população!"
+        },
+        {
+            "name": "Aquele Papinho",
+            "description": "Você recebe +1 em Diplomacia, Enganação e Intuição e na CD de suas habilidades (exceto magias) baseadas em Carisma. Esses bônus aumentam em +1 para cada outro poder da distinção que você possuir. Pré-requisitos: treinado em Enganação, Aparência Inofensiva."
+        },
+        {
+            "name": "Calma Lá",
+            "description": "Você não sofre a penalidade de –10 por fazer um teste de Diplomacia para mudar atitude como uma ação completa e, quando a primeira rodada de combate se inicia, pode fazer um desses testes antes de todos os participantes agirem. Se mudar a atitude de algum inimigo para indiferente ou melhor dessa forma, em vez disso ele fica pasmo por 1 rodada. Pré-requisito: Aquele Papinho."
+        },
+        {
+            "name": "Efeito Placebo",
+            "description": "Para cada poder da distinção, escolha uma magia de 1º círculo, arcana ou divina, que possa ser transformada em poção. Você pode gastar uma ação completa e 3 PM para transformar um de seus misteriosos elixires de água com açúcar em uma poção de uma dessas magias instantaneamente (atributo-chave Carisma). O custo do item é reduzido à metade e você não precisa fazer o teste de Ofício (alquimista), mas a poção só dura até o fim da cena. Pré-requisito: Aquele Papinho."
+        },
+        {
+            "name": "Na Cara Não!",
+            "description": "Quando usa Rolamento Defensivo, você recebe um uso adicional de Aparência Inofensiva nessa cena. Pré-requisitos: Aquele Papinho, Rolamento Defensivo."
+        },
+        {
+            "name": "Relíquias Sagradas",
+            "description": "Você pode enfeitar um item mundano com motivos religiosos para que ele se pareça com um acessório mágico menor a sua escolha. Fazer isso gasta 1 hora de trabalho e 1/100 do preço do acessório. Para usar a “relíquia” primeiro você precisa empunhá-la (ou vesti-la) e gastar uma ação de movimento e 2 PM para professar seus poderes em voz alta. Se fizer isso, ela funciona como se fosse verdadeira até o fim da cena, ou até você ativar outra de suas relíquias. Você pode ter até uma relíquia sagrada por poder da distinção que possuir. Pré-requisitos: Calma Lá, Efeito Placebo."
+        }
+    ]
+}

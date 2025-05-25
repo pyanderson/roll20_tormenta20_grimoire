@@ -1,0 +1,34 @@
+{
+    "name": "Senador",
+    "admission": "Para se tornar senador, o candidato deve primeiro ser reconhecido como um cidadão do Império de Tauron dotado de plenos direitos políticos. Isso significa que, em geral, estrangeiros não são aceitos. Candidatos não minotauros podem ser senadores, embora sejam poucos e muitas vezes desprezados pelos demais.\nO candidato deve passar por alguns estágios antes de poder se candidatar a senador do Império. Em primeiro lugar, deve servir em alguma legião. Não precisa ser um soldado profissional, ou mesmo ter lutado em alguma guerra. Basta que tenha prestado serviço na legião por alguns meses. Em seguida, deve exercer algum cargo burocrático no Império de Tauron — talvez como um funcionário público, talvez como assistente de um senador ou nobre. Candidatos que tenham passado muito tempo na legião e progredido em suas fileiras podem cumprir esse requisito dessa forma. Membros de famílias muito prestigiosas, ou candidatos reconhecidos como heróis no Império de Tauron, também podem “pular” essa etapa.\nDepois disso, o candidato será literalmente um candidato. Para se tornar um senador, é preciso vencer uma eleição.\nO candidato deve passar pelo menos alguns meses em Tiberus, angariando uma base de eleitores e fazendo uma campanha. Deve conseguir favores (ou ao menos evitar inimizade) de nobres, senadores tradicionais e outras figuras importantes. Deve discursar ao povo e gastar dinheiro considerável com arautos, patrocínio de jogos, presentes... Mas, mesmo que se dedique totalmente à campanha, o candidato nunca terá certeza sobre o resultado da eleição. Isso sempre é uma incógnita, até o último voto ser contado.\nCaso o candidato seja eleito, será empossado como um senador do Império de Tauron. Terá mais honra e estará envolvido em mais tramoias do que quase qualquer nobre do continente.",
+    "abilities": [
+        {
+            "name": "O Curso de Honra",
+            "description": "No Império de Tauron, a vida pública é exatamente isso — uma vida inteira a serviço do povo. Existe uma trajetória que pode levar aos postos mais altos do Império, chamada “Curso de Honra”. Espera-se que qualquer minotauro ou cidadão com aspirações políticas o siga, como uma demonstração de respeito às tradições e à Tarvica de Goratikis.\n\nServiço Militar. Nenhum cidadão pode ingressar na vida pública sem ter servido nas legiões. Plebeus começam como legionários e devem progredir até um posto de liderança, como centurião. Nobres podem começar por baixo (o que muitas vezes é visto como mostra de força e coragem), mas também têm a permissão de servir como tribunos (assistentes do general).\n\nServiço Público. Já fora da legião, o cidadão pode agora ingressar na vida pública, servindo num posto burocrático. Isso inclui a cobrança de impostos, a distribuição de rações ao povo, a organização de jogos na Arena e até mesmo o clericato em templos oficiais. Esses cargos são indicados pelos chefes de cada departamento ou órgão, e representam uma grande honra — um servidor público deste tipo é o equivalente a um nobre ou cavaleiro em termos de prestígio.\n\nSenado. O posto burocrático dá ao cidadão uma chance de demonstrar seu valor ao povo e à nobreza. Depois desse posto, ele pode se candidatar a uma vaga ao Senado. Nem sempre existem novas vagas — às vezes, é preciso esperar que um senador veterano morra ou se aposente para que haja uma chance de eleição, o que já deu origem a muitos atos traiçoeiros… Nem todo o povo vota em todas as vagas: algumas eleições são reservadas a nobres, outras a plebeus, outras a membros de determinadas dinastias e assim por diante.\n\nGoverno. Senadores ambiciosos e bem relacionados podem se tornar governadores de uma região ou província — Tragematum, Petrynia, Fortuna ou Lomatubar. Como o posto de governador é vitalício e escolhido pelo Triunvirato, ascender a este cargo normalmente é o ponto culminante de uma vida. Ser um governador provincial equivale a ser um rei no Reinado.\n\nTriunvirato. Para aqueles de ambição e capacidade extremas, pode restar uma última honraria, um último posto: membro do Triunvirato, um dos governantes do Império de Tauron. Para se tornar membro do Triunvirato, um senador ou nobre deve contar com o apoio do Senado em peso, além de boa parte da população do Império, das principais legiões e de diversos nobres. Ser um membro do Triunvirato equivale em poder e prestígio a ser um rei-imperador do Reinado."
+        },
+        {
+            "name": "Retórica Impecável",
+            "description": "Você recebe +2 em Nobreza e pode usar Carisma como atributo-chave dessa perícia (em vez de Inteligência)."
+        },
+        {
+            "name": "Cofres Fundos",
+            "description": "Uma vez por aventura, você pode receber fundos do Senado. Faça um teste de Carisma com um bônus de +4 por poder da distinção. Você recebe um número de tibares de ouro igual ao resultado do teste. Se tiver pelo menos três poderes da distinção, também pode requisitar um item mágico menor, que deve ser devolvido (ou reembolsado) ao Senado no fim da aventura. Se tiver cinco poderes da distinção, o item requisitado pode ser médio. O uso deste poder é condicionado ao local onde você se encontra e a sua possibilidade de contactar o Senado ou seus representantes. Pré-requisitos: treinado em Diplomacia e Nobreza."
+        },
+        {
+            "name": "Apoio Popular",
+            "description": "Você pode usar o poder Autoridade Feudal (Tormenta20, p. 79). Se já o possui, pode conclamar dois parceiros pagando os custos de cada um. Para cada dois outros poderes da distinção, o nível desses parceiros aumenta em um (de iniciante para veterano, de veterano para mestre). Pré-requisito: Um Minotauro de Bem."
+        },
+        {
+            "name": "Deliberação Desnorteante",
+            "description": "Quando usa uma habilidade que exige um teste de Vontade, você pode gastar 1 PM. Se fizer isso, as criaturas que falharem nesse teste ficam pasmas por 1 rodada (uma vez por cena). Pré-requisito: Cofres Fundos."
+        },
+        {
+            "name": "Inocência Convicta",
+            "description": "Quando falha em um teste de resistência, você pode gastar 2 PM para rolar novamente, usando Nobreza em vez da perícia original, com um bônus igual ao total de poderes da distinção que você possui. Pré-requisito: Um Minotauro de Bem."
+        },
+        {
+            "name": "Um Minotauro de Bem",
+            "description": "Você recebe +1 em testes de perícias baseadas em Carisma e na CD dos testes de Vontade para resistir às suas habilidades. Para cada outro poder da distinção, esses bônus aumentam em +1. Pré-requisito: Cofres Fundos."
+        }
+    ]
+}

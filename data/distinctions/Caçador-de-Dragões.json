@@ -1,0 +1,30 @@
+{
+    "name": "Caçador de Dragões",
+    "admission": "Nenhum caçador de dragões aprende suas técnicas sozinho, ou por meio de livros. Nem mesmo com um mentor ou através de magia. Um candidato a caçador de dragões deve necessariamente procurar uma organização que possa treiná-lo. Apenas uma equipe de instrutores, o conhecimento acumulado em várias gerações e os recursos de uma guilda ou ordem são suficientes para formar um caçador.\nCada organização tem requisitos próprios para entrada — sempre há algum tipo de teste de aptidão, além de algum juramento de lealdade. Pode haver também algum ritual. Algumas exigem compromissos longos, como as Lanças de Sckharshantallas: um caçador treinado nessa unidade serve nela pelo menos durante alguns anos. Outras, como os Escamas Vivas, não tolhem a liberdade do candidato, mas aceitam apenas aqueles já comprometidos com sua ideologia. E ainda outras, como o Bando da Lança Rubra, podem treinar novos caçadores em troca de serviços, mas não controlar a vida do candidato.\nO período de treino é longo, mas a maioria dos candidatos pode aprender o básico em seis meses. E, embora essa prática seja árdua, poucas organizações exigem que o candidato passe seis meses seguidos isolado do mundo. Em geral, é possível sair periodicamente.\nContudo, ninguém pode chamar a si mesmo de caçador de dragões sem... caçar um dragão. Ao fim do período de seis meses vem o teste real. Não um teste da organização, mas do candidato contra seus inimigos jurados.\nO candidato deve localizar um dragão específico — aprender seu nome, a localização de seu covil, seus hábitos, seu histórico... O alvo deve ser aprovado pela organização. Dragões muito fracos ou inofensivos não são alvos válidos. O candidato deve então estudar as fraquezas e poderes de sua presa, algo que muitas vezes pode exigir jornadas a locais distantes e obtenção de registros perdidos. Deve elaborar um plano de aproximação e ataque. De nada vale apenas chegar no covil do dragão e brandir uma espada. Mesmo que o candidato tenha sucesso, isso é mera sorte ou força bruta, não técnica.\nDe posse do planejamento, o candidato deve caçar e matar o dragão, trazendo um troféu (cabeça, chifres, couro...) para a organização que o treinou. O candidato pode estar acompanhado de aliados na caça, desde que ele seja o líder e os demais obedeçam ao plano que ele traçou. O troféu fica com a organização, que vai exibi-lo junto a várias outras provas do triunfo de seus membros.\nPois agora o candidato é um verdadeiro caçador de dragões, trilhando um caminho de sangue e glória.",
+    "abilities": [
+        {
+            "name": "Escama da Honra",
+            "description": "Você recebe um amuleto de escama da honra, um item de vestuário que não ocupa espaço nem conta em seu limite de itens vestidos. Enquanto estiver usando esse amuleto, uma vez por rodada, quando causa dano com um ataque corpo a corpo, você pode causar +1d6 pontos de dano de um tipo escolhido entre os dos sopros dos dragões que você já derrotou. Se perder seu amuleto, você pode confeccionar outro em um processo que demora 1 dia e exige uma escama de um dragão que você tenha matado há menos de 30 dias."
+        },
+        {
+            "name": "Destemor Inflamado",
+            "description": "Você é imune a medo (exceto fobias raciais). Além disso, quando um inimigo usa um efeito de medo contra você, você recebe +2 em testes de perícia e rolagens de dano até o fim da cena. Para cada dois outros poderes da distinção que você possuir, esse bônus aumenta em +1. Pré-requisito: treinado em Vontade."
+        },
+        {
+            "name": "Alçar aos Céus",
+            "description": "Você pode gastar 2 PM e uma ação completa para fazer uma investida saltando sobre uma criatura em alcance médio. Esse ataque causa um dado extra de dano, mais um dado extra para cada dois outros poderes da distinção. Se o alvo for um dragão, esses dados extras são dobrados. Após o ataque, você aterrissa em um espaço desocupado adjacente à criatura. Se a criatura for maior que você, você pode pode aterrissar sobre ela (nas costas, no dorso etc.) enquanto faz o ataque. Pré-requisitos: treinado em Atletismo, Destemor Inflamado."
+        },
+        {
+            "name": "Danificar as Asas",
+            "description": "Quando você faz um ataque, pode gastar 2 PM para machucar as asas ou outro membro locomotor do alvo. Se você acertar o ataque, o alvo fica caído e lento (Fort CD For ou Des reduz para lento por 1 rodada e a criatura não pode mais ser afetada por este poder nessa cena). Para cada poder da distinção, a CD aumenta em +1. Esse aumento é dobrado contra dragões. Pré-requisito: Destemor Inflamado."
+        },
+        {
+            "name": "Entortar Escamas",
+            "description": "Quando faz um acerto crítico, você enfraquece as defesas do alvo. Até o fim da cena, a criatura sofre –2 na Defesa e sua redução de dano diminui em –5. Se você tiver cinco poderes da distinção, em vez disso a criatura sofre –5 na Defesa e sua redução de dano diminui em –10. Pré-requisitos: Destemor Inflamado, outro poder da distinção."
+        },
+        {
+            "name": "Evasão do Caçador",
+            "description": "Quando sofre um efeito que permite um teste de Reflexos para reduzir o dano à metade, você não sofre dano nenhum se passar e sofre apenas metade do dano se falhar. Além disso, uma vez por rodada, quando passa em um teste de Reflexos, você pode percorrer até metade do seu deslocamento. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver na condição imóvel. Pré-requisitos: treinado em Reflexos, Destemor Inflamado."
+        }
+    ]
+}
