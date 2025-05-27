@@ -1,0 +1,66 @@
+{
+    "name": "Bufão de Hyninn",
+    "admission": "Para se tornar um bufão de Hyninn, o candidato deve, antes de mais nada, ser um devoto do Deus dos Ladrões. Além disso, deve ser um bufão — ou seja, deve ter trabalhado como bobo da corte. Candidatos que não tenham essa experiência podem cumpri-la atuando como bobo da corte para um nobre por um mês. Não basta se apresentar em uma taverna, exibir-se em palcos e feiras como um comediante ou mesmo vagar de castelo em castelo entretendo a aristocracia. O candidato deve permanecer como o bufão de um senhor específico, testando os limites da zombaria com uma pessoa que tem poder sobre ele mesmo, falando as verdades dolorosas que nenhum nobre gosta de ouvir.\nDepois disso, começa o verdadeiro teste. Não há nenhum grupo organizado de bufões de Hyninn capaz de treinar um candidato ou mesmo explicar a ele como proceder. Cada um deve seguir o caminho do bufão por si só, guiado por uma vontade incontrolável de levar o humor às últimas consequências de crueldade. Boatos afirmam que, em algum lugar do continente, existe um culto secreto capaz de treinar bufões de Hyninn. Isso pode ser apenas uma piada destinada a levar candidatos em buscas fúteis, muitas vezes ao custo de sua própria vida.\nDe qualquer forma, o candidato deve pregar três “peças”, cada uma com uma vítima diferente, cada uma mais elaborada e perigosa que a anterior. As vítimas devem ser criaturas inteligentes e não monstruosas. A primeira peça deve provocar um ferimento sério ou um prejuízo econômico significativo à vítima. A segunda deve provocar alguma perda irremediável à vítima — separação de um esposo ou esposa, expulsão de uma ordem, transformação permanente etc. A terceira deve custar a vida da vítima. Em todas as três, o candidato deve fazer alguém que não seja ele mesmo ou a vítima rir.\nTendo sido capaz de arrancar gargalhadas com sangue, desgraça e morte de suas vítimas, o candidato recebe a maior bênção do Deus da Trapaça. Agora é um verdadeiro bufão de Hyninn, dançando sobre as ruínas do mundo.",
+    "abilities": [
+        {
+            "name": "Chapéu do Bobo",
+            "description": "Você recebe um gorro com guizos, um item de vestuário que não ocupa espaços nem conta em seu limite de itens vestidos. Ele permite usar Músicas de Bardo sem precisar empunhar um instrumento musical e fornece +2 em Atuação e Enganação, mas impõe –2 em Diplomacia e Intimidação e só funciona com você."
+        },
+        {
+            "name": "Cabriolas de Bobo",
+            "description": "Escolha duas cabriolas (veja o quadro). Uma vez feita, essa escolha não pode ser mudada. A cada outro poder da distinção você pode escolher uma nova cabriola. Pré-requisitos: devoto de Hyninn, treinado em Acrobacia e Atuação."
+        },
+        {
+            "name": "Cabriolas de Bobo (Quadro)",
+            "description": "Cambalhotas, brincadeiras e bobagens em geral que podem ser empregadas por um bufão de Hyninn para gerar vários efeitos mágicos. Cabriolas contam como Música de Bardo e seguem suas regras (Tormenta20, p. 45)."
+        },
+        {
+            "name": "Deboche Mágico",
+            "description": "Escolha uma criatura no alcance e faça um teste de Atuação. Até o fim da cena, na próxima vez que usar uma habilidade mágica, a criatura deve passar em um teste de Vontade (CD igual ao resultado do seu teste de Atuação). Se ela falhar, a habilidade não funciona e quaisquer custos pagos são perdidos. Mental."
+        },
+        {
+            "name": "Humor Macabro",
+            "description": "Escolha uma criatura no alcance. Até o fim da cena, na próxima vez que você ou um aliado causar dano a essa criatura, outra criatura pode fazer um ataque corpo a corpo contra ela como uma reação."
+        },
+        {
+            "name": "Humor Macabro em Massa",
+            "description": "Como Humor Macabro, mas afeta cada criatura a sua escolha no alcance. Pré-requisito: Humor Macabro."
+        },
+        {
+            "name": "Imitação Irritante",
+            "description": "Faça um teste de Atuação oposto ao teste de Vontade de uma criatura no alcance. Se você vencer, até o início do seu próximo turno o alvo sofre uma penalidade de –5 em quaisquer testes de perícia que já tenha usado nessa cena. Mental."
+        },
+        {
+            "name": "Passo Hilariante",
+            "description": "Faça um teste de Atuação oposto ao teste de Vontade de uma criatura no alcance. Se você vencer, ela fica pasma por 1 rodada (apenas uma vez por cena) e vulnerável por 1d4+1 rodadas. Se você perder, ela fica vulnerável por 1 rodada."
+        },
+        {
+            "name": "Passo Hilariante em Massa",
+            "description": "Como Passo Hilariante, mas afeta cada criatura a sua escolha no alcance. Pré-requisito: Passo Hilariante."
+        },
+        {
+            "name": "Pirueta Desajeitada",
+            "description": "Faça um teste de Atuação oposto pelo teste de Vontade de cada criatura a sua escolha no alcance. Alvos que percam ficam enredados (nos próprios pés) por 1d4+1 rodadas e caídos. Alvos que passem ficam enredados por 1 rodada. Movimento."
+        },
+        {
+            "name": "Rir da Desgraça Alheia",
+            "description": "Faça um teste de Atuação oposto ao teste de Vontade de uma criatura no alcance. Se você vencer, até o fim da cena, sempre que ela falhar em um teste de perícia, sofre uma penalidade cumulativa de –1 nessa perícia até o fim da cena (limitada por seu total de poderes da distinção). Mental."
+        },
+        {
+            "name": "Arremedar",
+            "description": "Uma vez por rodada, quando uma criatura em alcance curto que você possa ver faz um teste de perícia, você pode imitá-la da forma mais ridícula possível. Faça um teste de Atuação para ajudar, mas em vez de fornecer um bônus, você impõe uma penalidade ao teste da criatura. Pré-requisito: Cabriolas de Bobo."
+        },
+        {
+            "name": "Piada Mortal",
+            "description": "Você pode gastar uma ação completa e 6 PM para contar uma piada tão hilária que o resto da vida parece perder o sentido. Faça um teste de Atuação oposto pela Vontade de uma criatura inteligente (Int –3 ou maior) em alcance curto. Se você vencer, a criatura deve gastar sua próxima ação padrão para atacar a si mesma da maneira mais eficiente possível. Uma criatura só pode ser alvo deste poder uma vez por cena. Mental. Pré-requisitos: Cabriolas de Bobo, Canção Assustadora."
+        },
+        {
+            "name": "Quem Ri Por Último…",
+            "description": "Enquanto você for o último na ordem de iniciativa, você recebe +1 em testes de perícia e na CD de suas habilidades contra criaturas que já tenham agido na rodada. Esses bônus aumentam em +1 para cada dois outros poderes da distinção que você possui. Pré-requisito: Cabriolas de Bobo."
+        },
+        {
+            "name": "Rir de Tudo",
+            "description": "Uma vez por cena, quando fizer um teste de resistência contra uma habilidade de um inimigo, você pode gastar 3 PM para usar Atuação no lugar da perícia apropriada. Se fizer isso e passar no teste, você reverte o efeito: qualquer dano ou perda de vida se torna pontos de vida temporários (que desaparecem ao fim da cena) e qualquer penalidade numérica se torna um bônus equivalente até o fim da cena. Pré-requisito: Arremedar."
+        }
+    ]
+}

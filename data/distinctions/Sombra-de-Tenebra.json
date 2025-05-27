@@ -1,0 +1,34 @@
+{
+    "name": "Sombra de Tenebra",
+    "admission": "Os candidatos a sombra de Tenebra são escolhidos a dedo pela própria deusa. Caprichosa como ela é, seus motivos para a escolha de um candidato específico nunca são claros, e ela sempre tem o objetivo de avançar seus planos pessoais. Todos os escolhidos da deusa até hoje (pelo menos até onde se sussurra nos cultos) foram seus devotos, além de dominarem a furtividade e as técnicas de assassinato mesmo antes de seu toque. Se existe algo em comum além disso, ninguém sabe. Alguns dizem que todos são voluntários, rezando todas as noites em súplica por essa bênção — ou seja, um candidato precisaria antes de mais nada ficar sabendo da existência dos sombras. Outros afirmam o contrário: Tenebra prefere aqueles que não idolatram os sombras, pois acha que serão mais frios em seu dever.\nSeja como for, os escolhidos são contactados em sonho pela deusa, que sussurra uma missão em suas mentes sonolentas. Essa missão pode ser um desígnio simples ou uma aventura longa e extenuante, mas sempre existe uma exigência: a missão deve ser completada inteiramente na calada da noite, sem que o candidato seja tocado pelo sol até que ela seja cumprida. Azgher é o eterno vigilante e tudo que sua luz toca é conhecido por ele. Assim, o candidato deve manter sua demanda oculta do adversário de Tenebra.\nÀs vezes, a missão é só uma, mas já houve casos de candidatos que precisaram cumprir várias missões sob essas condições. Alguns sugerem que Tenebra exige mais dos candidatos com mais potencial — afinal, qual seria a graça de ter um devoto poderoso e não testá-lo? Sejam quantas missões forem, uma falha é algo que nenhum candidato ousa imaginar. Não existem segundas chances: ao falhar, o candidato nunca mais pode tentar. Alguns que falham morrem dormindo...\nDepois de concluir essa etapa, o candidato é contactado novamente pela deusa em um sonho. Ela então revela o nome de um templo, longe da vista de Azgher e de qualquer claridade. O candidato deverá viajar até esse local sozinho, sem ser tocado pelos raios de Azgher nenhuma vez. Chegando lá, deve meditar na escuridão até que a deusa se revele novamente. Diz-se que Tenebra surge fisicamente para o candidato nesse momento e lhe faz uma proposta. Ninguém nunca recusou. Se a proposta é aceita, o candidato pode, finalmente, existir sob o sol de novo. Ele amanhece com olheiras fundas e devoção renovada, tendo se tornado um sombra de Tenebra.",
+    "abilities": [
+        {
+            "name": "Ameaça das Sombras",
+            "description": "Se estiver em uma área de escuridão, você pode usar a habilidade Ataque Furtivo +1d6. Se já possui a habilidade, o bônus é cumulativo."
+        },
+        {
+            "name": "Caminhar nas Trevas",
+            "description": "Você aprende e pode lançar Manto de Sombras. Caso aprenda novamente essa magia, seu custo diminui em –1 PM. Para cada dois outros poderes da distinção que você possui, a ação necessária para lançar essa magia diminui em um passo (de padrão para movimento e de movimento para livre). Pré-requisitos: treinado em Acrobacia e Furtividade, Passo Sombrio, deve ser capaz de enxergar no escuro."
+        },
+        {
+            "name": "Clone Sombrio",
+            "description": "Você pode gastar uma ação padrão e 3 PM para criar um clone de sombras em um espaço desocupado em alcance curto. Ele é uma criatura com características iguais às suas, mas tem Evasão, é imune a efeitos mentais e tem 1 PV. No início dos seus turnos, ele pode usar a ação movimentar-se uma vez. Uma vez por rodada, você pode gastar uma ação de movimento para fazer o clone causar, em uma criatura adjacente, 1d6 pontos de dano de frio por poder da distinção que você possui, ou executar uma manobra de combate. Para cada dois outros poderes da distinção que possui, você pode pagar +3 PM para invocar um clone adicional. Pré-requisitos: treinado em Misticismo, Miragem das Sombras."
+        },
+        {
+            "name": "Forma de Sombra",
+            "description": "Enquanto estiver sob efeito de Manto de Sombras, você causa +1 ponto de dano por dado de dano de trevas. Além disso, quando faz um ataque, você pode gastar 1 PM para cobrir sua arma de sombras. Se fizer isso, esse ataque pode afetar uma criatura normal e, se for um ataque furtivo, o dano extra dessa habilidade se torna dano de trevas. Pré-requisitos: Ataque Furtivo, Sombra Espreitadora."
+        },
+        {
+            "name": "Miragem de Sombras",
+            "description": "Você aprende a magia Criar Ilusões (CD Int). Se possuir três outros poderes da distinção, a magia recebe o seguinte aprimoramento. +2PM: suas ilusões emanam uma aura de 3m que concede camuflagem leve por escuridão a criaturas adjacentes a elas. Pré-requisito: Caminhar nas Trevas."
+        },
+        {
+            "name": "Moldar Sombra",
+            "description": "Você pode gastar uma ação de movimento e 2 PM para criar uma arma corpo a corpo ou de arremesso com a qual seja proficiente, ou uma ferramenta. O item surge em sua mão e dura até o fim da cena ou até passar 1 rodada sem ser empunhado por você. Armas criadas dessa forma causam dano de trevas em vez do seu tipo normal e ferramentas fornecem +1 em testes das respectivas perícias (cumulativo com quaisquer bônus já fornecidos pela ferramenta). Para cada dois outros poderes da distinção que você possui, o bônus fornecido pela ferramenta aumenta em +1. Pré-requisito: Miragem de Sombras."
+        },
+        {
+            "name": "Sombra Espreitadora",
+            "description": "Sempre que usar Passo Sombrio para alcançar um espaço adjacente a uma criatura, você pode fazer um teste de Acrobacia oposto ao teste de Percepção ou Reflexos dela. Se você passar, essa criatura fica desprevenida contra seu próximo ataque e esse ataque causa +1 ponto de dano de trevas por dado de dano. Pré-requisitos: Caminhar nas Trevas, Passo Sombrio."
+        }
+    ]
+}

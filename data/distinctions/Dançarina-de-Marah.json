@@ -1,0 +1,30 @@
+{
+    "name": "Dançarina de Marah",
+    "admission": "O processo para se tornar uma dançarina de Marah é exigente, extenuante e rigoroso. Se a dançarina do grupo nunca falou sobre isso, ou se apenas conta histórias engraçadas e picantes sobre seu tempo de aprendizado, é porque faz parte de sua disciplina esconder o suor e a dor, deixando apenas a alegria e a graça aparecerem.\nA candidata (ou candidato) precisa ser devota de Marah — nada menos que uma vida dedicada à Paz pode gerar uma dançarina. Algumas dançarinas já experientes vagam por tavernas e cortes em todo o continente, como olheiras, buscando devotas que demonstrem potencial para a dança extenuante. Nesse caso, a candidata é contactada pela dançarina, então recebe um convite para fazer um teste num convento. Beleza física nos padrões impostos por terceiros não entra nessa consideração: uma vez que tenha sido treinada, a candidata será envolvente e encantadora, por seu charme pessoal e técnicas.\nAlgumas candidatas são descobertas por acaso, ao encontrar uma dançarina de Marah na estrada. Embora essas não sejam olheiras, têm faro para boas futuras irmãs. Ou, o que é mais comum, uma candidata que tenha ouvido falar das dançarinas apenas procura um convento e se apresenta, pedindo para ser treinada.\nO que se segue é um teste que a maioria das ordens de cavalaria acharia exagerado e excessivamente punitivo. A candidata deve dançar para uma banca de juízes, precisando ser capaz de mudar sua coreografia para se adequar a diferentes estilos de dança que a banca exige. Essa performance pode durar vários minutos, ou até mais de uma hora! Segue-se uma prova de cultura (focada em arte e religião), além de uma sabatina sobre os preceitos de Marah. O fim do teste é uma prova de resistência: a candidata deve ser capaz de sustentar o próprio corpo em posições difíceis ou desconfortáveis por bastante tempo, sem fraquejar. Se passar no teste, a candidata deve se mudar imediatamente para o convento — que, ela vai descobrir, é um misto de templo, internato e academia de dança.\nA candidata permanece no convento por uma estação inteira, sem contato com o mundo exterior — vivendo e respirando dança e Paz a cada instante de cada dia. Quase todas as candidatas travam grandes amizades com as outras aprendizes durante esse período. Ao fim da estação, a candidata deve empreender uma grande missão a sua escolha: resolver algum conflito significativo (rusga entre barões, ameaça de invasão de humanoides, disputa entre famílias nobres...) com uma apresentação de dança. Mesmo ainda sem possuir os poderes de uma dançarina, deve demonstrar aos brigões a beleza da Paz através de sua arte.\nPor fim, ela deve voltar ao convento, então se apresentar para seus mestres com uma coreografia de sua autoria, que conte a história do conflito que ela resolveu. Dependendo da nota que a banca dê a sua performance, a candidata é aprovada, tornando-se então uma verdadeira dançarina de Marah.",
+    "abilities": [
+        {
+            "name": "Graça de Marah",
+            "description": "Você soma sua Sabedoria em Atuação. Além disso, pode substituir testes de Diplomacia por testes de Atuação."
+        },
+        {
+            "name": "Transe Dançante",
+            "description": "Você pode gastar 3 PM para entrar em um transe dançante que gera uma aura de 9m de raio. Para manter esse transe, em cada um dos seus turnos você precisa se deslocar pelo menos 6m, sem passar pelos mesmos quadrados. Você e seus aliados dentro da aura podem executar uma ação de movimento adicional por turno e recebem +2 em testes de resistência e na Defesa. Para cada dois outros poderes da distinção que você possui, esse bônus aumenta em +1. Pré-requisitos: Foco em Perícia (Atuação), dois poderes concedidos de Marah."
+        },
+        {
+            "name": "Contrapasso do Espírito",
+            "description": "Enquanto estiver em Transe Dançante, no início de cada um dos seus turnos, você e seus aliados dentro da aura recebem uma quantidade de PV temporários igual a 5 + seu Carisma. Pré-requisito: Transe Dançante."
+        },
+        {
+            "name": "Dança Hipnótica",
+            "description": "Se estiver em Transe Dançante, no início de cada um dos seus turnos, a categoria de atitude de cada inimigo dentro da aura melhora em um passo (apenas uma vez por cena) e ele fica fascinado (Vontade CD Car evita os efeitos e a criatura fica imune a esta habilidade até o fim da cena). Pré-requisitos: Êxtase da Dançarina, três poderes concedidos de Marah."
+        },
+        {
+            "name": "Êxtase da Dançarina",
+            "description": "Enquanto estiver em Transe Dançante, você soma o bônus do seu Transe na CD dos testes de Vontade das suas habilidades contra criaturas dentro da aura. Pré-requisito: Transe Dançante."
+        },
+        {
+            "name": "No Ritmo da Magia",
+            "description": "Enquanto está em Transe Dançante, você pode lançar a magia Salto Dimensional (Tormenta20, p. 205). Caso aprenda essa magia, durante o Transe o custo dela diminui em –1 PM. Pré-requisito: Transe Dançante."
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Taumaturgista",
+    "admission": "Nunca se deve falar abertamente sobre o desejo de ser um taumaturgista. Na melhor das hipóteses, o candidato pode ser ouvido por um taumaturgista já experiente — então manipulado, talvez oferecido como moeda de troca para entidades extraplanares gananciosas. Na pior, isso pode chegar aos ouvidos de uma turba supersticiosa, que vai caçar o candidato com ancinhos e tochas. Na verdade, existe uma hipótese ainda pior: se o candidato for ouvido por um extraplanar, pode receber a oferta de aprender imediatamente tudo que deseja, basta assinar um documento...\nO caminho do taumaturgista é solitário, soturno e macabro, mesmo para aqueles com as melhores intenções. Antes de mais nada, o candidato deve obter tomos raríssimos, encontrados apenas nas bibliotecas de taumaturgistas poderosos ou em ruínas perdidas. É impossível concluir essa etapa sem obter pelo menos um tomo de origem nardmyr — o primeiro império humano, que existiu em Lamnor muitos séculos atrás, possuía grande conhecimento sobre magias planares. Ou seja, o candidato precisa empreender uma expedição a Lamnor e explorar ruínas até achar o que deseja.\nDepois de estudar esses tomos, começa a parte perigosa. O candidato deve invocar um extraplanar de poder considerável, então firmar um acordo com ele, levando a melhor. Ou seja, deve enganá-lo, convencê-lo a entregar algo por um preço muito baixo ou intimidá-lo até que ceda. Isso tudo antes de possuir as capacidades de um taumaturgista! Muitos candidatos não passam dessa fase, pois acabam entregando sua alma ou concordando em servir ao extraplanar sem perceber. Outros tentam enganar extraplanares estúpidos ou fracos, apenas para descobrir que atraíram a atenção de seus mestres mais astutos e poderosos.\nPor fim, o candidato deve visitar o Plano do extraplanar com quem firmou o contrato. Deve procurar seu superior ou mestre — e negociar com ele em seu território, onde a vantagem é dele. Essa negociação tem como objetivo trazer o extraplanar menos poderoso a Arton, como um servo ou aliado. Ou seja, não é do interesse de seu mestre. O candidato deve mais uma vez levar a melhor na negociação, saindo dos domínios da entidade com seu novo “amigo” e sem perder nada valioso.\nSe fizer o extraplanar assinar o contrato que o prejudica, o candidato estará conquistando o título de taumaturgista. O contrato é algo físico, de que ele pode se orgulhar — e que pode atrair a ira e o medo de certas pessoas...",
+    "abilities": [
+        {
+            "name": "Auxiliar Divino",
+            "description": "Você aprende e pode lançar uma das magias a seguir como uma de suas magias divinas: Conjurar Monstro, Montaria Arcana ou Servos Invisíveis. A cada dois poderes da distinção, você aprende e pode lançar outra dessas magias (caso aprenda novamente uma delas, seu custo diminui em –1 PM)."
+        },
+        {
+            "name": "Amigo de Outro Mundo",
+            "description": "Você tem um amigo de outro mundo, uma criatura extraplanar que você pode invocar em momentos de necessidade. Escolha um parceiro entre os parceiros básicos (Tormenta20, p. 260) ou entre um pilly, luminar, pégaso e ou dragonete (veja o Capítulo 4). Uma vez feita, essa escolha não pode ser mudada. Você pode gastar uma ação de movimento e 2 PM para invocar seu amigo de outro mundo, que aparece com um brilho de luz mágica ao seu lado e permanece até o fim da cena ou até ser destruído (um amigo destruído não pode ser invocado novamente por 1 dia). Seu amigo é um parceiro iniciante mas, para cada dois outros poderes da distinção, sobe um nível (de iniciante para veterano, de veterano para mestre). Pré-requisitos: treinado em Religião, capacidade de lançar magias divinas de 3° círculo, Servo Divino."
+        },
+        {
+            "name": "Barganha Planar",
+            "description": "Escolha um dos efeitos a seguir (uma vez feita, essa escolha não pode ser alterada). Quando invoca seu amigo de outro mundo ele traz uma fração de poder extraplanar do tipo escolhido.\n\n• Abissal. Quando seu amigo é invocado, criaturas a sua escolha em um raio de 6m dele sofrem 2d8+2 pontos de dano de trevas e ficam abaladas por 1 rodada (Vontade CD Sab reduz à metade e evita a condição).• Celestial. Quando seu amigo é invocado, criaturas a sua escolha em um raio de 6m dele recebem 4d8+4 PV temporários.\n\n• Elemental. Escolha um elemento entre ácido, eletricidade, fogo ou frio. Quando seu amigo é invocado, criaturas a sua escolha em um raio de 6m dele sofrem 2d12+2 pontos de dano do tipo escolhido (Reflexos CD Sab reduz à metade).\n\n• Feérico. Quando seu amigo é invocado, criaturas a sua escolha em um raio de 6m dele sofrem –2 em testes de Vontade por 1 rodada.\n\nPré-requisito: Amigo de Outro Mundo."
+        },
+        {
+            "name": "Contrato Planar",
+            "description": "Você tem um segundo amigo de outro mundo. Escolha um efeito de Barganha Planar para esse segundo amigo. Se escolher um igual, ele é cumulativo. Pré-requisito: Barganha Planar."
+        },
+        {
+            "name": "Invocação Corrompida",
+            "description": "Um ou mais dos seus amigos de outro mundo se tornam corrompidos pela Tormenta. Quando esse amigo é invocado, criaturas a sua escolha em um raio de 6m dele perdem 2d4 PM (CD Sab reduz à metade). Se isso zerar seus PM, a criatura fica confusa. Além disso, enquanto esse amigo estiver presente, você recebe +5 em Percepção e não pode ser flanqueado. Pré-requisitos: Amigo de Outro Mundo, dois poderes da Tormenta."
+        },
+        {
+            "name": "Titereiro Planar",
+            "description": "Quando lança Conjurar Monstro, você pode dar ordens ao monstro como uma ação de movimento (em vez de uma ação padrão) e a magia não conta no limite de magias que você pode sustentar em um turno. Pré-requisitos: Conjurar Monstro, Amigo de Outro Mundo."
+        }
+    ]
+}

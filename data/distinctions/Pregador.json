@@ -1,0 +1,34 @@
+{
+    "name": "Pregador",
+    "admission": "Às vezes parece que um candidato a pregador sempre foi um pregador — ou ao menos um candidato! Pergunte a seu pai e a sua mãe, que ficaram com cabelos brancos antes da hora. Pergunte ao alto sacerdote de seu templo, que chegou muito perto de perder a fé. Pergunte às pessoas que ele curou esperando gorjeta…\nEnquanto outros caminhos heroicos podem exigir a admissão em alguma organização, o pregador — pelo contrário — deve abandonar qualquer igreja formal à qual pertença. Ele não pode recorrer a recursos da ordem, nem receber qualquer benefício ou ajuda de outros devotos da mesma fé. Se estiver na estrada e cruzar com um séquito de devotos de seu deus, não deve pedir ajuda. Vai esperar uma carona na carroça e passar fome como todos os outros. Se chegar a uma aldeia com um clérigo da mesma religião, não vai falar com ele. Melhor dormir no estábulo e aguentar algumas pulgas e ratos!\nNada disso conta se o candidato desfrutar de outros privilégios, como títulos nobres ou fama. A ideia é que o candidato entenda (ou lembre) como as outras pessoas vivem — principalmente pessoas pobres ou excluídas. Isso deve durar por uma estação inteira. Depois desse período, se o candidato tiver títulos nobres, fama ou coisa do gênero, pode desfrutar à vontade! Afinal, ele não está tentando ingressar numa ordem de ascetas!\nDurante esse tempo, o candidato deve aos poucos forçar os limites dos dogmas de seu deus, descobrindo o que tecnicamente conta e não conta como uma quebra de seus votos. Isso envolve ser punido algumas vezes. Se não for punido, o candidato não está forçando o suficiente!\nDepois disso, o candidato deve encontrar um grupo ou comunidade (seu próprio grupo de aventureiros não conta) não servido por nenhum outro clérigo ou frade. Ele então atuará ali como conselheiro espiritual, cuidando do rebanho, pregando a palavra de seu deus. Isso pode levar meses ou mesmo anos, a menos que algum grande milagre consiga impressionar todos. Quando a maior parte da comunidade aceitar seu patrono como divindade principal, o candidato se torna um pregador.\nContudo, ainda há um truque. O candidato deve descumprir algum dos requisitos listados aqui, justificando que tecnicamente, ou por uma ótima razão, na verdade fez a coisa certa. Não, não vamos oferecer nenhum exemplo. Você que se entenda com seu deus.",
+    "abilities": [
+        {
+            "name": "Vista Grossa",
+            "description": "Sempre que violar as Obrigações & Restrições de uma divindade que precisa cumprir, você pode fazer um teste de Religião (CD 10, +5 para cada outra vez que usou este poder na mesma aventura). Se passar, não sofre nenhuma consequência por essa violação."
+        },
+        {
+            "name": "Sincretismo Oportuno",
+            "description": "Você pode gastar uma ação padrão e 3 PM para orar a uma divindade que não seja a sua. Se fizer isso, recebe um poder concedido dela, mas passa a ser considerado seu devoto para efeitos de Obrigações & Restrições. Esse efeito dura até o fim da cena ou até você usá-lo novamente. Se violar as Obrigações & Restrições da divindade, você perde o poder obtido e não pode ganhar poderes dessa divindade até o fim da aventura. Prérequisitos: treinado em Enganação e Religião, Devoto Fiel."
+        },
+        {
+            "name": "Abusar da Paciência",
+            "description": "Você pode fazer um teste de Religião (CD 15, +5 para cada outra vez que usou este poder no mesmo dia) para incomodar um deus qualquer em troca de poder mágico. Se passar, até o fim da cena pode lançar uma magia divina que não conheça, de qualquer círculo a que tenha acesso, pagando seus custos normalmente. Se falhar, não pode mais usar este poder até o fim do dia. Pré-requisitos: Está nas Escrituras, capacidade de lançar magias divinas de 2º círculo."
+        },
+        {
+            "name": "Está nas Escrituras",
+            "description": "Quando falha em um teste de Enganação ou Religião, você pode gastar 1 PM para repetir esse teste usando a outra perícia (Enganação para um teste de Religião e vice-versa). Pré-requisito: Sincretismo Oportuno."
+        },
+        {
+            "name": "Não Fui Eu",
+            "description": "Quando é alvo de uma ação hostil de uma criatura inteligente (Int –3 ou maior), você pode gastar 2 PM e fazer um teste de Enganação oposto pelo teste de Vontade dessa criatura. Se o alvo for devoto de uma divindade da qual você é considerado devoto, você recebe +5 nesse teste. Se passar, a ação hostil falha e a criatura perde a ação. Você só pode usar este poder uma vez por criatura por cena. Pré-requisito: Está nas Escrituras."
+        },
+        {
+            "name": "Releitura Conveniente",
+            "description": "Você pode gastar 1 PM para considerar uma característica de uma divindade como parte das características do seu deus. Você pode escolher entre Arma Preferida, Canalizar Energia ou ser considerado devoto desse deus para cumprir requisitos de usar habilidades e itens. Esse efeito dura até o fim da cena ou até você usá-lo novamente. Pré-requisito: Sincretismo Oportuno."
+        },
+        {
+            "name": "Vender Indulgências",
+            "description": "Quando um aliado em alcance curto faz um teste de perícia, ele pode gastar 3 PM para rolar novamente esse teste. Se ele fizer isso, você recebe 1 PM temporário cumulativo. Você pode ganhar um máximo de PM temporários por cena igual ao total de poderes da distinção que possui. Esses pontos temporários desaparecem no fim da cena. Pré-requisito: Sincretismo Oportuno."
+        }
+    ]
+}

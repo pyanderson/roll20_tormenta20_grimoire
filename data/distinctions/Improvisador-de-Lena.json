@@ -1,0 +1,34 @@
+{
+    "name": "Improvisador de Lena",
+    "admission": "Ao se deparar com um improvisador de Lena experiente, um candidato provavelmente vai ouvir palavras de incentivo e otimismo. É claro que ele pode se tornar um improvisador! Basta não ter medo de meter o nariz onde não é chamado, ler alguns livros, fazer alguns experimentos...\nNa verdade, adquirir essas capacidades de improviso não é tão fácil. Apenas humanos podem se tornar improvisadores de Lena. Membros de outras raças devem passar pelo menos seis meses em uma comunidade humana, imersos em qualquer cultura humana, para entender como essas criaturas apressadas e ambiciosas pensam. Caso o candidato, seja da raça que for, tenha crescido em uma cultura humana, já cumpriu esse requisito. Viu só? Qualquer um consegue!\nAlém disso, o candidato deve ser um artesão, pesquisador, engenheiro ou coisa parecida — de preferência, deve ser um pouco de tudo isso. Um improvisador precisa de pelo menos uma base sobre a qual trabalhar sua criatividade. Contudo, nenhum candidato, por mais motivado que seja, adota este caminho sem algum evento que o faça rejeitar o uso de armas. Talvez seja algo em sua infância — o candidato viu sua aldeia ser destruída por um senhor da guerra, ou brincou com o machado de sua mãe e feriu outra criança. Talvez seja algo recente — um de seus colegas aventureiros foi cravejado de flechas, ou morreu ao enfrentar um gigante com suas armas mais poderosas. Não precisa ser algo que tenha acontecido diretamente com ele, nem nada necessariamente trágico: talvez o candidato fique comovido com os relatos da Guerra Artoniana ou testemunhe um devoto de Lena resolvendo uma situação com diplomacia. Seja como for, não basta uma mera decisão para impulsionar alguém a se tornar um improvisador.\nExceto por esses requerimentos, não há um método tradicional para aprender as técnicas dos improvisadores de Lena. Cada um descobre sua vocação de forma única e, muitas vezes, surpreende-se ao encontrar outros com o mesmo ideal. Em comum, todos cultivam respeito pela vida, criatividade incessante e um desejo intenso de ir além da violência. Ferir qualquer ser não traz nenhuma realização. Afinal, como humanos, é nossa responsabilidade encontrar alternativas melhores, certo?\nDepois do evento motivado, começa a verdadeira jornada. O improvisador deve vencer dois combates desafiadores sem ferir ninguém — e sem que seus companheiros usem de violência! Isso inclui ferimentos não letais. Para não impor suas próprias convicções a seu grupo, muitos candidatos passam por essa fase sozinhos. Exemplos de como vencer um combate sem causar ferimentos incluem prender um inimigo numa gaiola, enganá-lo para que se entregue, convencê-lo a desistir, fazê-lo desmaiar com um gás... A criatividade é importante aqui: não basta, por exemplo, usar uma magia que deixe o inimigo desacordado.\nDepois disso, vem o teste final: o candidato deve resolver uma situação de vida ou morte que exija equipamentos... sem equipamentos! Por exemplo, deve desarmar uma armadilha com um graveto, fechar um portal dimensional com uma estalactite ou curar uma maldição com uma combinação de pólen e gorad. Mais uma vez, a criatividade é a chave. Nada que envolva a maneira de pensar “padrão” de qualquer aventureiro (ou seja, magias, força bruta, conhecimentos aprendidos previamente...) conta para esse teste.\nUma vez que o candidato tenha feito isso, vai perceber que realmente era muito fácil, bem como o improvisador experiente falou! Agora só precisa de um barbante e um símbolo sagrado de Tenebra para desestabilizar essa viga e causar um desabamento, que...",
+    "abilities": [
+        {
+            "name": "Código da Paz",
+            "description": "Você não acredita na morte como solução de conflitos. Por isso, não aceita matar, nem empregar violência verdadeira (em termos de jogo, causar dano letal). Se violar o código, você perde todos os seus PM e só pode recuperá-los a partir do próximo dia."
+        },
+        {
+            "name": "Código do Improvisador",
+            "description": "Você segue o Código da Paz (p. 116). Além disso, uma vez por cena, pode gastar uma ação de movimento para, a partir de itens do ambiente, improvisar uma ferramenta especial que ocupa 1 espaço. Até o fim da cena, você pode gastar essa ferramenta para receber +2 em um teste de perícia ou para reduzir em –1 PM o custo de uma de suas habilidades."
+        },
+        {
+            "name": "Gambiarra Mestra",
+            "description": "Você pode gastar uma ação de movimento e 3 PM para improvisar algum tipo de gambiarra para uma tarefa específica. Escolha uma perícia. Até o fim da cena, você pode usar sua gambiarra para substituir testes da perícia escolhida por testes de Ofício. Prérequisitos: treinado em Investigação e Ofício."
+        },
+        {
+            "name": "Efeito Cenográfico",
+            "description": "Quando causa dano não letal a uma criatura viva, você pode gastar 2 PM para desferir um golpe cenográfico. A vítima deve fazer um teste de Fortitude (CD Int, +1 por poder da distinção que você possui). Se falhar, ela fica inconsciente (se for um capanga) ou atordoada por 1 rodada (apenas uma vez por cena) se for de outro tipo. Pré-requisito: Poder Improvisado."
+        },
+        {
+            "name": "Habilidade Improvisada",
+            "description": "Você pode gastar uma ação padrão e 3 PM para improvisar uma forma de executar uma tarefa. Escolha uma habilidade de uma classe (exceto Magias) que não seja a sua. Até o fim da cena, ou até usar este poder novamente, você pode utilizar essa habilidade como um personagem de nível igual ao seu total de poderes da distinção. Pré-requisito: Poder Improvisado."
+        },
+        {
+            "name": "Magia Improvisada",
+            "description": "Você pode gastar uma ação completa para improvisar uma forma de simular um feito místico. Escolha uma magia de 1º círculo e faça um teste de Inteligência (CD 10, +2 para cada vez que usou este poder no mesmo dia). Se passar, até o fim da cena, você pode lançar a magia escolhida uma única vez, pagando seu custo normal (atributo-chave Inteligência). Esta não é uma habilidade mágica e provém de sua elevada capacidade de improvisação (veja “Magias Simuladas”, em Heróis de Arton, Capítulo 1: Campeões de Arton). Pré-requisitos: treinado em Misticismo, Poder Improvisado."
+        },
+        {
+            "name": "Poder Improvisado",
+            "description": "Você pode gastar uma ação padrão e 3 PM para pensar em uma solução criativa para um problema a sua frente. Escolha um poder de classe ou geral (exceto poderes concedidos e da Tormenta) cujos pré-requisitos você cumpra. Para efeitos desse poder, considere que seu nível em qualquer classe é igual ao seu total de poderes da distinção. Até o fim da cena, ou até usar este poder novamente, você pode utilizar o poder escolhido. Pré-requisito: Gambiarra Mestra."
+        }
+    ]
+}
