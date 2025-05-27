@@ -28,7 +28,47 @@
         },
         {
             "name": "Implantes",
-            "description": "Implantes são enxertos de partes de outras criaturas que concedem habilidades especiais ao seu receptor. Para receber um implante, é necessário visitar a clínica do Grêmio dos Médicos Monstros e se submeter à cirurgia apropriada. Além, é claro, de pagar o preço do implante (que inclui o custo da cirurgia). Alguns aventureiros preferem levar suas próprias partes de criaturas para serem implantadas. Nesse caso, o preço é reduzido pela metade.\nA cirurgia de enxerto demora um dia. Já a recuperação é um teste estendido de Fortitude (CD 25, 3 sucessos), em que cada teste representa um dia. Em uma falha total, o corpo rejeita o implante, que deve ser removido (o que o destrói) ou levará à morte do paciente.\nImplantes conferem uma aparência monstruosa e desconcertante, e podem fragilizar a saúde do paciente. Para cada implante, você sofre uma penalidade de –2 em Adestramento, Diplomacia e Fortitude. O máximo de implantes que você pode receber é igual à sua Constituição (mínimo 1).\nOs implantes disponíveis no Grêmio são descritos a seguir. Implantes contam como poderes para todos os efeitos.\n\nAsas. Asas monstruosas de tamanho correspondente ao paciente. Você pode voar com deslocamento igual ao seu deslocamento base mas, enquanto estiver voando dessa forma, fica vulnerável. Preço T$ 20.000.\n\nBraço de Ogro. Um enorme braço pertencente a uma criatura humanoide maior que o paciente. Você recebe +2 em Força e, com este braço, seu alcance natural aumenta em +1,5m. Este implante substitui um dos braços do paciente. Preço T$ 36.000.\n\nCauda com Ferrão. Você recebe uma arma natural de ferrão (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com o ferrão. Quando causa dano com ele, você pode gastar 1 PM para inocular veneno na vítima, que perde 1d12 PV. Preço T$ 27.000.\n\nEscamas. Extraídas de vários monstros, formam uma armadura leve e poderosa. Fornecem +2 na Defesa. É possível enxertar este implante uma segunda vez, para aumentar o bônus na Defesa para +5. Preço T$ 12.000.\n\nGarras. Suas mãos se transformam em armas naturais de garra (dano 1d6 cada, crítico x2, corte). Uma vez por rodada, quando usa a ação agredir para atacar com uma arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com uma das garras, desde que ela esteja livre e não tenha sido usada para atacar nesse turno. Como alternativa, se tiver habilidades que exijam uma arma secundária (como Estilo de Duas Armas), você pode usá-las com suas garras. Preço T$ 27.000.\n\nOlho Anulador. Extraído de tiranos oculares e implantado no peito do paciente, este olho projeta um campo antimagia. Você pode lançar Dissipar Magia, mas apenas em um cone de 9m e usando Vontade no lugar do teste de Misticismo. Preço T$ 30.000.\n\nOlho Desintegrador. Também retirado de um tirano ocular, este olho monstruoso fica na ponta de uma haste carnosa, em geral implantada nas costas do paciente. Você pode lançar a magia Desintegrar (atributo-chave Constituição). Preço T$ 50.000.\n\nOlho Petrificante. Um olho amarelo reptiliano, extraído de um basilisco. Você recebe a habilidade Olhar Atordoante (Tormenta20, p. 29). Caso já tenha essa habilidade, a CD para resistir a ela aumenta em +2. Preço T$ 18.000.\n\nPatas de Aranha. Extraídos de uma aranha gigante, estes dois pares de patas são implantados no tronco. Não servem para atacar, mas fornecem deslocamento de escalada igual ao seu deslocamento base. Se já tiver um deslocamento de escalada, ele aumenta em +6m. Preço T$ 12.000.\n\nTentáculo com Garras. Extraído de monstros como otyughs e tigres-de-Hyninn, fornece uma arma natural de tentáculo (dano 1d4, crítico x2, impacto) com a qual seu alcance natural aumenta em +1,5m. Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com o tentáculo. Preço T$ 27.000."
+            "description": "Implantes são enxertos de partes de outras criaturas que concedem habilidades especiais ao seu receptor. Para receber um implante, é necessário visitar a clínica do Grêmio dos Médicos Monstros e se submeter à cirurgia apropriada. Além, é claro, de pagar o preço do implante (que inclui o custo da cirurgia). Alguns aventureiros preferem levar suas próprias partes de criaturas para serem implantadas. Nesse caso, o preço é reduzido pela metade.\nA cirurgia de enxerto demora um dia. Já a recuperação é um teste estendido de Fortitude (CD 25, 3 sucessos), em que cada teste representa um dia. Em uma falha total, o corpo rejeita o implante, que deve ser removido (o que o destrói) ou levará à morte do paciente.\nImplantes conferem uma aparência monstruosa e desconcertante, e podem fragilizar a saúde do paciente. Para cada implante, você sofre uma penalidade de –2 em Adestramento, Diplomacia e Fortitude. O máximo de implantes que você pode receber é igual à sua Constituição (mínimo 1).\nOs implantes disponíveis no Grêmio são descritos a seguir. Implantes contam como poderes para todos os efeitos."
+        },
+        {
+            "name": "Implante de Asas",
+            "description": "Asas monstruosas de tamanho correspondente ao paciente. Você pode voar com deslocamento igual ao seu deslocamento base mas, enquanto estiver voando dessa forma, fica vulnerável. Preço T$ 20.000."
+        },
+        {
+            "name": "Implante de Braço de Ogro",
+            "description": "Um enorme braço pertencente a uma criatura humanoide maior que o paciente. Você recebe +2 em Força e, com este braço, seu alcance natural aumenta em +1,5m. Este implante substitui um dos braços do paciente. Preço T$ 36.000."
+        },
+        {
+            "name": "Implante de Cauda com Ferrão",
+            "description": "Você recebe uma arma natural de ferrão (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com o ferrão. Quando causa dano com ele, você pode gastar 1 PM para inocular veneno na vítima, que perde 1d12 PV. Preço T$ 27.000."
+        },
+        {
+            "name": "Implante de Escamas",
+            "description": "Extraídas de vários monstros, formam uma armadura leve e poderosa. Fornecem +2 na Defesa. É possível enxertar este implante uma segunda vez, para aumentar o bônus na Defesa para +5. Preço T$ 12.000."
+        },
+        {
+            "name": "Implante de Garras",
+            "description": "Suas mãos se transformam em armas naturais de garra (dano 1d6 cada, crítico x2, corte). Uma vez por rodada, quando usa a ação agredir para atacar com uma arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com uma das garras, desde que ela esteja livre e não tenha sido usada para atacar nesse turno. Como alternativa, se tiver habilidades que exijam uma arma secundária (como Estilo de Duas Armas), você pode usá-las com suas garras. Preço T$ 27.000."
+        },
+        {
+            "name": "Implante de Olho Anulador",
+            "description": "Extraído de tiranos oculares e implantado no peito do paciente, este olho projeta um campo antimagia. Você pode lançar Dissipar Magia, mas apenas em um cone de 9m e usando Vontade no lugar do teste de Misticismo. Preço T$ 30.000."
+        },
+        {
+            "name": "Implante de Olho Desintegrador",
+            "description": "Também retirado de um tirano ocular, este olho monstruoso fica na ponta de uma haste carnosa, em geral implantada nas costas do paciente. Você pode lançar a magia Desintegrar (atributo-chave Constituição). Preço T$ 50.000."
+        },
+        {
+            "name": "Implante de Olho Petrificante",
+            "description": "Um olho amarelo reptiliano, extraído de um basilisco. Você recebe a habilidade Olhar Atordoante (Tormenta20, p. 29). Caso já tenha essa habilidade, a CD para resistir a ela aumenta em +2. Preço T$ 18.000."
+        },
+        {
+            "name": "Implante de Patas de Aranha",
+            "description": "Extraídos de uma aranha gigante, estes dois pares de patas são implantados no tronco. Não servem para atacar, mas fornecem deslocamento de escalada igual ao seu deslocamento base. Se já tiver um deslocamento de escalada, ele aumenta em +6m. Preço T$ 12.000."
+        },
+        {
+            "name": "Implante de Tentáculo com Garras",
+            "description": "Extraído de monstros como otyughs e tigres-de-Hyninn, fornece uma arma natural de tentáculo (dano 1d4, crítico x2, impacto) com a qual seu alcance natural aumenta em +1,5m. Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com o tentáculo. Preço T$ 27.000."
         }
     ]
 }

@@ -4,7 +4,23 @@
     "abilities": [
         {
             "name": "Conjuração Magibélica (Quadro)",
-            "description": "Desenvolvidas pelos Magos de Batalha de Wynlla, estas técnicas permitem modificar magias de formas únicas. Para fazer uma conjuração magibélica, ao lançar uma magia faça um teste de Misticismo (CD 10 + custo em PM da magia +5 por teste anterior na mesma cena). Se passar, você aplica uma de suas técnicas conhecidas à magia. Se falhar, fica fatigado até o fim da cena (essa condição é cumulativa e o afeta mesmo que você seja imune a ela).\nLançar uma magia com conjuração magibélica é mais demorado; o tempo de conjuração da magia aumenta em um passo (de livre para movimento, de movimento para padrão e de padrão para completa). Não é possível aplicar uma conjuração magibélica a magias com tempo de conjuração de reação ou maior que padrão, e esse aumento é aplicado após quaisquer reduções (como a de Magia Acelerada).\n• Expandir. A área da magia aumenta em +3m (de raio ou lado), +3m para cada dois outros poderes da distinção que você possui.\n• Fortalecer. A magia causa um dado de dano adicional do mesmo tipo, mais um dado para cada dois outros poderes da distinção que você possui.\n• Intensificar. A magia ignora até 5 pontos da redução de dano dos alvos. Esse valor aumenta em 5 para cada dois outros poderes da distinção que você possui.\n• Potencializar. O limite de PM da magia aumenta em +2, +1 para cada dois outros poderes da distinção que você possui (esses PM adicionais não aumentam a CD para usar este poder)."
+            "description": "Desenvolvidas pelos Magos de Batalha de Wynlla, estas técnicas permitem modificar magias de formas únicas. Para fazer uma conjuração magibélica, ao lançar uma magia faça um teste de Misticismo (CD 10 + custo em PM da magia +5 por teste anterior na mesma cena). Se passar, você aplica uma de suas técnicas conhecidas à magia. Se falhar, fica fatigado até o fim da cena (essa condição é cumulativa e o afeta mesmo que você seja imune a ela).\nLançar uma magia com conjuração magibélica é mais demorado; o tempo de conjuração da magia aumenta em um passo (de livre para movimento, de movimento para padrão e de padrão para completa). Não é possível aplicar uma conjuração magibélica a magias com tempo de conjuração de reação ou maior que padrão, e esse aumento é aplicado após quaisquer reduções (como a de Magia Acelerada)."
+        },
+        {
+            "name": "Conjuração Magibélica Expandir",
+            "description": "A área da magia aumenta em +3m (de raio ou lado), +3m para cada dois outros poderes da distinção que você possui.\n• Fortalecer. A magia causa um dado de dano adicional do mesmo tipo, mais um dado para cada dois outros poderes da distinção que você possui.\n• Intensificar. A magia ignora até 5 pontos da redução de dano dos alvos. Esse valor aumenta em 5 para cada dois outros poderes da distinção que você possui.\n• Potencializar. O limite de PM da magia aumenta em +2, +1 para cada dois outros poderes da distinção que você possui (esses PM adicionais não aumentam a CD para usar este poder)."
+        },
+        {
+            "name": "Conjuração Magibélica Fortalecer",
+            "description": "A magia causa um dado de dano adicional do mesmo tipo, mais um dado para cada dois outros poderes da distinção que você possui.\n• Intensificar. A magia ignora até 5 pontos da redução de dano dos alvos. Esse valor aumenta em 5 para cada dois outros poderes da distinção que você possui.\n• Potencializar. O limite de PM da magia aumenta em +2, +1 para cada dois outros poderes da distinção que você possui (esses PM adicionais não aumentam a CD para usar este poder)."
+        },
+        {
+            "name": "Conjuração Magibélica Intensificar",
+            "description": "A magia ignora até 5 pontos da redução de dano dos alvos. Esse valor aumenta em 5 para cada dois outros poderes da distinção que você possui.\n• Potencializar. O limite de PM da magia aumenta em +2, +1 para cada dois outros poderes da distinção que você possui (esses PM adicionais não aumentam a CD para usar este poder)."
+        },
+        {
+            "name": "Conjuração Magibélica Potencializar",
+            "description": "O limite de PM da magia aumenta em +2, +1 para cada dois outros poderes da distinção que você possui (esses PM adicionais não aumentam a CD para usar este poder)."
         },
         {
             "name": "Armamento Esotérico",
