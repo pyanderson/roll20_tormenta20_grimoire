@@ -187,8 +187,23 @@
             },
             {
               "type": "item",
+              "name": "Desbalanceada",
+              "description": "Impõe uma penalidade de –2 em testes de ataque."
+            },
+            {
+              "type": "item",
               "name": "Dupla",
               "description": "Pode ser usada com Estilo de Duas Armas (e poderes similares) para fazer ataques adicionais, como se fosse uma arma de uma mão e uma arma leve. Cada “ponta” conta como uma arma separada para efeitos de melhorias e encantos."
+            },
+            {
+              "type": "item",
+              "name": "Ocultável",
+              "description": "O tamanho e/ou formato da arma tornam mais fácil escondê-la. Ela fornece +5 em testes de Ladinagem para ocultá-la. A adaga (Tormenta20, p. 146) é uma arma ocultável."
+            },
+            {
+              "type": "item",
+              "name": "Surpreendente",
+              "description": "Uma vez por cena, se você sacar a arma como ação livre e usá-la para atacar no mesmo turno, o oponente fica desprevenido contra esse ataque."
             },
             {
               "type": "item",
@@ -295,6 +310,208 @@
                   "type": "item",
                   "name": "Zarabatana",
                   "description": "Pequeno tubo oco usado para disparar dardos. Causa dano mínimo, mas é excelente para inocular venenos; a CD para resistir ao veneno dos dardos aumenta em +2. Um pacote de munição contém 20 dardos, custa T$ 2 e ocupa 0,5 espaço."
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Heróis de Arton",
+              "items":
+              [
+                {
+                  "type": "item",
+                  "name": "Adaga Oposta",
+                  "description": "Muito usada por espadachins como arma secundária, esta adaga possui uma guarda elaborada que a torna mais apropriada para bloqueios. Quando usa uma habilidade que permite fazer um teste de ataque para evitar ou reduzir dano (como o poder Aparar), você recebe +2 nesse teste."
+                },
+                {
+                  "type": "item",
+                  "name": "Agulha de Ahlen",
+                  "description": "Esta arma covarde só poderia ter sido inventada no Reino da Intriga. Consiste em uma adaga com ponta fina e lâmina oca, que pode armazenar uma dose de veneno de contato. Aplicar um veneno nesta arma segue as regras de venenos (Tormenta20, p. 161), mas o veneno permanece até você acertar um ataque (não acaba ao fim da cena) e a a CD para resistir a ele aumenta em +2."
+                },
+                {
+                  "type": "item",
+                  "name": "Arco de Guerra",
+                  "description": "Este arco robusto possui braços grossos e resistentes, capazes de disparos poderosos. Como um arco longo, permite que você aplique sua Força às rolagens de dano e não pode ser usado se você estiver montado. A força exigida para puxar o arco de guerra o torna uma arma desbalanceada."
+                },
+                {
+                  "type": "item",
+                  "name": "Arco Montado",
+                  "description": "Este arco combina materiais resistentes em uma estrutura mais curta, tornando-o próprio para ser disparado por um arqueiro montado. Você não sofre a penalidade em ataques à distância devido ao balanço de sua montaria (Tormenta20, p. 262). Se você já possui uma habilidade que elimina essa penalidade, em vez disso ela fornece +2 nas rolagens de dano com este arco enquanto você está montado."
+                },
+                {
+                  "type": "item",
+                  "name": "Balestra",
+                  "description": "Uma versão mais robusta da besta pesada, que utiliza um sistema de catracas reguláveis para armar seu arco. Esse sistema permite que usuários mais fortes apliquem mais tensão à arma; ao contrário de outras armas de disparo, você aplica sua Força às rolagens de dano com uma balestra. Esta arma é muito pesada e complexa para ser usada sem treinamento especial, por isso é uma arma exótica. Recarregar uma balestra é uma ação padrão."
+                },
+                {
+                  "type": "item",
+                  "name": "Bastão Lúdico",
+                  "description": "A aristocracia de Deheon, Namalkah e outros reinos vem recentemente redescobrindo um esporte dos povos originais do continente, que consiste em arremessar e rebater bolas duras. Existem variações: em algumas modalidades, é preciso derrubar alvos no chão; em outras, o objetivo é correr até um marco antes que o adversário consiga devolver a bola ao ponto de origem. Seja como for, os bastões usados nesses jogos vêm se tornando populares como armas elegantes, ainda que simples. Um bastão lúdico causa dano não letal. Além disso, se for proficiente com armas marciais, você pode usar o bastão para rebater objetos arremessados em sua direção. Uma vez por rodada, quando é atingido por uma arma de arremesso, você pode fazer um teste de ataque com o bastão lúdico. Se o resultado desse teste for maior que o do oponente, você evita o ataque."
+                },
+                {
+                  "type": "item",
+                  "name": "Besta de Mão",
+                  "description": "Esta besta pequena e discreta é bastante popular entre assassinos de várias partes do Reinado e além. Ela é uma arma surpreendente e recarregá-la é uma ação de movimento."
+                },
+                {
+                  "type": "item",
+                  "name": "Besta de Repetição",
+                  "description": "Esta besta possui uma caixa acoplada com espaço para armazenar até 10 virotes e um sistema de recarga automática. Por seu funcionamento complexo, a besta de repetição é uma arma exótica. Porém, se você for proficiente com esta arma, pode recarregar cada virote como uma ação livre (carregar toda a caixa demora 1 minuto) e, sempre que fizer um ataque com ela, pode gastar 5 virotes para disparar uma saraivada. Se fizer isso, pode atacar até três alvos adjacentes (faça um único teste de ataque e compare com a Defesa de cada alvo) ou causar um dado de dano extra em único alvo."
+                },
+                {
+                  "type": "item",
+                  "name": "Besta Dupla",
+                  "description": "Esta besta possui dois arcos sobrepostos, cada um capaz de armazenar um virote. Isso permite que você use o poder Disparo Rápido. Se já o possui, em vez disso você pode usá-lo sem penalidade nos testes de ataque. Recarregar uma besta dupla é uma ação completa."
+                },
+                {
+                  "type": "item",
+                  "name": "Bico de Corvo",
+                  "description": "Também chamada de “martelo sambur”, esta arma consiste em uma haste de madeira de 2m de comprimento com uma ponta de lança em sua extremidade. Na base da ponta de lança há um gancho afiado de um lado e uma cabeça quadrada do outro. O bico de corvo é um martelo alongado e versátil, que fornece +2 em testes para derrubar e quebrar."
+                },
+                {
+                  "type": "item",
+                  "name": "Boleadeira",
+                  "description": "Esta arma de arremesso típica de Namalkah pode se enrolar nos tornozelos de um inimigo, derrubando-o. A boleadeira pode ser usada para executar uma manobra derrubar à distância."
+                },
+                {
+                  "type": "item",
+                  "name": "Canhão Portátil",
+                  "description": "Uma versão menor dos canhões utilizados em embarcações, esta arma possui uma grossa alça de couro que permite carregá-la ao lado do corpo. Um canhão portátil é uma arma desbalanceada. Além disso, se sua Força for menor que 4, sempre que faz um ataque com esta arma você é arrastado 3m para trás. O canhão usa bolas de ferro como munição; recarregá-lo é uma ação completa."
+                },
+                {
+                  "type": "item",
+                  "name": "Chakram",
+                  "description": "Um disco de metal com bordas afiadas, usado para arremesso. Sempre que acerta um ataque com o chakram, você pode fazer com que ele retorne à sua mão (pegá-lo é uma reação) ou ricocheteie contra outro alvo; nesse caso, você faz um novo ataque à distância com uma penalidade cumulativa de –5. Você pode continuar atacando novos alvos até recuperar o chakram ou errar um ataque. Por seu desenho e forma de manuseio, o chakram exige treinamento especial, sendo uma arma exótica."
+                },
+                {
+                  "type": "item",
+                  "name": "Cinquedea",
+                  "description": "Também conhecida como “adaga língua de vaca”, esta arma é um meio-termo entre uma espada curta e uma adaga. Sua lâmina triangular, que termina numa ponta muito fina, é feita apenas para estocar, nunca cortar, e causa ferimentos graves. Contra uma criatura desprevenida ou que você esteja flanqueando, a cinquedea causa um dado de dano extra do mesmo tipo. Dizem que o apelido se originou entre os rebeldes do Império de Tauron, que usam esta arma para apunhalar seus senhores e deixá-los estrebuchando com a língua para fora…"
+                },
+                {
+                  "type": "item",
+                  "name": "Clava-Grão",
+                  "description": "Esta arma possui cabo fino e delgado e uma extremidade larga e arredondada. Clavas-grão não são “fabricadas”, mas cultivadas por druidas a partir de sementes específicas que emitem uma energia natural. Essa energia, por sua vez, permite que o usuário da clava-grão estabeleça um elo com a arma. Quando ataca com uma clava-grão, você pode aplicar sua Sabedoria às rolagens de dano (se já faz isso por outra habilidade, em vez disso você recebe +2 nas rolagens de dano, cumulativo com outros efeitos de itens). Por sua afinidade natural, druidas podem usar a clava-grão como uma arma simples."
+                },
+                {
+                  "type": "item",
+                  "name": "Desmontador",
+                  "description": "À primeira vista, o desmontador pode nem parecer uma arma. É uma haste longa, com dois pedaços de metal recurvados na ponta. As partes metálicas possuem um mecanismo de mola, abrindo-se quando as extremidades são pressionadas contra algo, então se fechando. O desmontador é usado para prender pescoços de inimigos, então puxá-los de uma montaria (daí o nome), mantê-los presos à distância ou derrubá-los ao chão. Por isso pode ser usado para agarrar. Um desmontador é uma arma alongada e versátil, fornecendo +2 em testes para agarrar, derrubar e empurrar."
+                },
+                {
+                  "type": "item",
+                  "name": "Dirk",
+                  "description": "Este punhal longo e delgado parece uma arma feita para assassinato e ataques traiçoeiros, mas é parte da indumentária de nobres e oficiais em vários reinos artonianos. Se estiver atacando com um dirk, você pode atacar um oponente pelas costas, caído, desprevenido ou incapaz de lutar sem violar seu Código de Honra (Tormenta20, p. 53) — a tradição dita que seus usuários são honrados e sabem o que estão fazendo!"
+                },
+                {
+                  "type": "item",
+                  "name": "Espada Canora",
+                  "description": "Esta arma possui frestas na lâmina que produzem um som gracioso quando ela é brandida. Conta como um instrumento musical para bardos. Uma espada canora é uma arma ágil."
+                },
+                {
+                  "type": "item",
+                  "name": "Espada de Execução",
+                  "description": "Esta espada pesada não foi projetada para combate, mas para decapitar condenados à morte — presumivelmente parados. Sua lâmina é muito afiada, mas é difícil usá-la em batalha: você sofre –5 em testes de ataque com esta arma, a menos que gaste uma ação de movimento para prepará-la (isso elimina essa penalidade em seu próximo ataque feito nesse turno). Contudo, um golpe certeiro pode significar uma execução, mesmo em combate…"
+                },
+                {
+                  "type": "item",
+                  "name": "Espada Larga",
+                  "description": "Esta arma usada por bárbaros e mercenários tem a lâmina menos afiada, mas mais larga e pesada, que a da espada longa."
+                },
+                {
+                  "type": "item",
+                  "name": "Espada-Gadanho",
+                  "description": "À primeira vista, esta espada parece um sabre, talvez com lâmina um pouco mais recurvada que o normal. Contudo, o grande truque da espada-gadanho está em seu fio: ela é afiada na parte de dentro, não de fora, pegando muitos inimigos de surpresa. Ela é uma arma ágil e surpreendente. Devido ao seu gume invertido, a espada-gadanho exige treinamento especial para ser empunhada, por isso é uma arma exótica."
+                },
+                {
+                  "type": "item",
+                  "name": "Espadim",
+                  "description": "Esta espada cerimonial é usada entre os nobres de algumas nações como um símbolo de status marcial e, frequentemente, é a primeira arma com a qual têm contato em seus treinos de esgrima. Se for treinado em Nobreza, você recebe +1 em testes de ataque e rolagens de dano com um espadim, cumulativo com outros efeitos de itens."
+                },
+                {
+                  "type": "item",
+                  "name": "Garrucha",
+                  "description": "Esta pequena arma de fogo, do tamanho de uma mão espalmada, pode ser facilmente escondida em uma manga ou nas dobras de uma veste. Uma garrucha é uma arma ocultável e surpreendente; recarregá-la é uma ação padrão."
+                },
+                {
+                  "type": "item",
+                  "name": "Kimbata",
+                  "description": "Esta faca em formato de meia-lua possui uma pequena argola na extremidade do cabo. Essa argola permite movimentos rápidos, capazes de surpreender qualquer oponente. A kimbata é uma arma ocultável e surpreendente, mas é muito pequena para ser usada efetivamente sem treinamento adequado, por isso é uma arma exótica. Quando ataca uma criatura desprevenida com esta arma, você pode usar Furtividade no lugar de Luta para o teste de ataque."
+                },
+                {
+                  "type": "item",
+                  "name": "Khopesh",
+                  "description": "Usada em eras antigas, especialmente nos impérios de Zarkhass e Nardmyr, esta espada curva sobreviveu ao teste do tempo e pode ser encontrada até hoje, sobretudo entre mercenários oriundos do Deserto da Perdição. A curvatura de sua lâmina forma um gancho que pode ser usado para desestabilizar os oponentes. A khopesh é uma arma versátil, fornecendo +2 em testes para derrubar."
+                },
+                {
+                  "type": "item",
+                  "name": "Lança de Falange",
+                  "description": "Esta lança de infantaria é muito empregada por tropas treinadas para lutar em formação fechada. Ela é uma arma alongada que pode ser arremessada. Entretanto, é muito grande para ser usada com uma mão sem treinamento especial, por isso é uma arma exótica. Ela pode ser usada como uma arma marcial de duas mãos."
+                },
+                {
+                  "type": "item",
+                  "name": "Lança de Justa",
+                  "description": "Esta lança montada é feita para esporte, não combate real. Teoricamente, justas deveriam ser disputadas sempre com estas lanças, nunca com as versões de batalha — mas nem todos os torneios exigem tanto espírito esportivo. Além disso, alguns cavaleiros encontram bons usos para lanças de justa em combate real. Uma lança de justa funciona como uma lança montada (Tormenta20, p. 148), mas causa dano não letal. Em compensação, se fizer uma investida montada com esta arma e acertar o ataque, você pode fazer a manobra derrubar como uma ação livre. A lança de justa é feita para se estilhaçar com grande impacto, para delírio da torcida; se você acertar o alvo, há 50% de chance de que ela se quebre."
+                },
+                {
+                  "type": "item",
+                  "name": "Maça-Estrela",
+                  "description": "Uma maça com cravos, esta arma exige mais treinamento para ser empunhada, mas desfere golpes mais perigosos. Por seu peso e pontas proeminentes, causa dano de impacto e perfuração ao mesmo tempo."
+                },
+                {
+                  "type": "item",
+                  "name": "Machado de Haste",
+                  "description": "Desenvolvida pelos anões para auxiliar suas formações fechadas em Doherimm, esta arma é essencialmente uma pequena cabeça de machado montada em um cabo longo. O machado de haste é uma arma adaptável e alongada. É muito grande para ser usado com uma só mão sem treinamento especial, por isso é uma arma exótica. Ele pode ser usado como uma arma marcial de duas mãos."
+                },
+                {
+                  "type": "item",
+                  "name": "Malho",
+                  "description": "Uma ferramenta para uso em construções, este martelo possui uma cabeça de madeira dura e pesada, que o torna apropriado para enterrar estacas no chão. Não é tão eficiente quanto os martelos projetados para guerra, mas seu peso excessivo pode desequilibrar os oponentes. O malho é uma arma versátil, fornecendo +2 em testes para derrubar ou empurrar. Por ser feito basicamente de madeira, pode ser fabricado de madeira Tollon."
+                },
+                {
+                  "type": "item",
+                  "name": "Marrão",
+                  "description": "Uma versão mais pesada da marreta de guerra, esta arma possui uma cabeça de metal capaz de partir pedra, aço e ossos. Um marrão é muito grande para ser usado sem treinamento especial, por isso é uma arma exótica. Além disso, por seu peso, também é uma arma desbalanceada."
+                },
+                {
+                  "type": "item",
+                  "name": "Martelo Leve",
+                  "description": "Geralmente fabricado de uma única peça de metal, este martelo é muito apreciado por anões como arma secundária. Pode ser arremessado."
+                },
+                {
+                  "type": "item",
+                  "name": "Martelo Longo",
+                  "description": "Uma haste de madeira com 2m de comprimento, esta arma possui uma ponta de metal afiada ao lado de uma cabeça densa e pesada. Combinando o alcance de uma alabarda com a contundência de um martelo, é uma arma alongada."
+                },
+                {
+                  "type": "item",
+                  "name": "Montante Cinético",
+                  "description": "Esta espada tem minúsculas esferas de adamante untadas com óleo no interior de sua lâmina. O movimento das esferas faz com que a espada tenha seu peso e impacto aumentados várias vezes, mas a torna imprevisível para um combatente destreinado. Você pode usar um montante cinético como uma arma marcial, mas, nesse caso, se rolar um resultado 1 ou 2 em um teste de ataque com esta arma, erra e atinge a si mesmo, sofrendo o dano do ataque."
+                },
+                {
+                  "type": "item",
+                  "name": "Rapieira",
+                  "description": "A lâmina fina e alongada desta espada de um gume a torna mais precisa, mas exige treinamento especial para ser manuseada de forma equilibrada. A rapieira é uma arma ágil."
+                },
+                {
+                  "type": "item",
+                  "name": "Serrilheira",
+                  "description": "Este facão possui gume serrilhado e várias rebarbas dispostas ao longo de sua lâmina. Sempre que acerta um ataque com um resultado que ultrapassa a Defesa do alvo por 5 ou mais, você deixa a vítima vulnerável por 1 rodada e sangrando. A aparência agressiva da serrilheira, mesmo para uma arma, impõe –2 em Diplomacia e Enganação, cumulativo com outros efeitos de itens."
+                },
+                {
+                  "type": "item",
+                  "name": "Sifão Cáustico",
+                  "description": "A origem deste estranho engenho é controversa. Há quem diga que foi criado por um inventor anão para combater os finntroll, enquanto outros alegam que veio de algum lugar distante, como Moreania. Um sifão cáustico é formado por um cilindro metálico conectado por uma mangueira a uma mochila (que armazena sua munição). Quando acionado, o cilindro dispersa ácido em um cone de 6m (seu alcance máximo). Para atacar, faça um ataque à distância e compare-o com a Defesa de cada criatura na área. O sifão usa ácido como munição (Tormenta20, p. 160); seu reservatório pode armazenar duas doses de ácido, cada uma suficiente para 5 ataques, e carregá-lo é uma ação completa. Se você possuir habilidades que forneçam bônus em rolagens de dano com itens alquímicos, pode aplicar esse bônus com o sifão cáustico. Pela forma como é carregado, o sifão cáustico ocupa também o espaço de um item vestido."
+                },
+                {
+                  "type": "item",
+                  "name": "Tai-Tai",
+                  "description": "Este dispositivo hynne é uma catapulta em miniatura presa ao antebraço, usada para disparar pedras polidas. Na falta de munição adequada, pode disparar pedras comuns, como uma funda, mas o dano é reduzido em um passo. Amarrar ou desamarrar um tai-tai no braço é uma ação completa e recarregá-lo é uma ação de movimento. Você pode segurar objetos com a mão do braço ao qual o tai-tai está amarrado, mas não pode dispará-lo enquanto faz isso. Se você tiver a habilidade Arremessador, o dano de seus ataques com um tai-tai aumenta em um passo."
+                },
+                {
+                  "type": "item",
+                  "name": "Tan-Korak",
+                  "description": "Esta curiosa arma de duas mãos é raríssima em Arton, usada apenas pela milícia da cidade de Gorendill, em Deheon. O fundador da milícia, Marcus Dubeau, afirma que aprendeu a usá-la com um monge nativo de Tamu-ra — mas, estranhamente, não há notícias de nenhum tamuraniano usando esta arma. Um tan-korak é um bastão metálico de formato peculiar, com ganchos e reentrâncias, e um anel na extremidade. É uma arma versátil, fornecendo +2 em testes para derrubar ou desarmar, e pode ser usada para causar dano letal ou não letal, a sua escolha."
                 }
               ]
             },
@@ -510,6 +727,32 @@
           "name": "Munições",
           "items": [
             {
+              "type": "folder",
+              "name": "Heróis de Arton",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Bola de Ferro",
+                  "description": "Estas esferas metálicas com pólvora são a munição de canhões portáteis. Diferente de outras munições, são vendidas individualmente."
+                },
+                {
+                  "type": "item",
+                  "name": "Flechas Assobiadoras",
+                  "description": "Estas flechas simulam o canto de um pássaro quando disparadas. Artesãos élficos criavam flechas que faziam sons específicos, reconhecidos por suas sentinelas. Por exemplo, o crocitar de um falcão indicava um ataque, enquanto que o chiado de uma coruja significava um avanço furtivo. Um grupo pode usar estas flechas para se comunicar à distância (ainda que de forma rudimentar). Além disso, o som distrativo desta flecha permite que ela seja usada para fazer uma finta contra qualquer alvo dentro do alcance dela (normalmente, uma finta só pode ser feita contra alvos em alcance curto)."
+                },
+                {
+                  "type": "item",
+                  "name": "Flechas de Caça",
+                  "description": "Estas flechas possuem cabeças chatas e pesadas, criadas para atordoar presas pequenas em vez de destruí-las completamente, como outros tipos de flechas fariam. Uma flecha de caça causa dano de impacto não letal."
+                },
+                {
+                  "type": "item",
+                  "name": "Flechas/Virotes Pesados",
+                  "description": "Estas munições são versões de ponta mais pesada e afiada das flechas ou virotes normais. Você sofre –2 em testes de ataque com estas flechas, mas ignora 5 pontos da RD dos alvos."
+                }
+              ]
+            },
+            {
               "type": "item",
               "name": "Munições",
               "description": "Projéteis usados em armas de disparo. Munição é vendida em pacotes com projéteis suficientes para 20 ataques. Sempre que você faz um ataque com uma arma de disparo, a munição é perdida, independentemente de o ataque acertar ou não.\n\nPacotes de munições podem receber melhorias e encantos como armas (mas bônus de munições não acumulam com bônus da arma de disparo). O aumento no preço de um pacote de munição superior ou mágico é metade do aumento de uma arma (uma munição com uma melhoria, por exemplo, custa +T$ 150, em vez de +T$ 300)."
@@ -527,7 +770,7 @@
             {
               "type": "item",
               "name": "Pedras",
-              "description": "Um saco de couro com 20 pedras polidas. Recar­ regar uma funda com uma pedra de qualquer tipo é uma ação de movimento."
+              "description": "Um saco de couro com 20 pedras polidas. Recarregar uma funda com uma pedra de qualquer tipo é uma ação de movimento."
             },
             {
               "type": "item",
