@@ -629,6 +629,82 @@
               ]
             },
             {
+              "type": "folder",
+              "name": "Heróis de Arton",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Armadura de Chumbo",
+                  "description": "Esta armadura extremamente pesada e desajeitada faz o usuário parecer mais uma estátua do que um cavaleiro... No entanto, é a preferida de alguns infelizes que já sofreram nas mãos de arcanistas. Uma armadura de chumbo é mais pesada e incômoda do que uma armadura completa, sem oferecer a mesma proteção. No entanto, fornece redução de dano 2/mundano e resistência a magia +2, cumulativo com outros efeitos de itens."
+                },
+                {
+                  "type": "item",
+                  "name": "Armadura de Engenhoqueiro Goblin",
+                  "description": "Esta armadura, digamos, “peculiar” foi originalmente desenvolvida por engenhoqueiros goblins para guardar todos os equipamentos, peças, partes semidestruídas e tralhas em geral que são necessários para seu ofício. Uma armadura de engenhoqueiro goblin recobre o corpo inteiro e é feita de pedaços desencontrados de couro, rebites e até cota de malha. Mas essa base logo fica enterrada sob camadas sucessivas de objetos, pois a armadura possui incontáveis ganchos, bolsos, tiras, prendedores e outros lugares para guardar ou pendurar itens. Você pode levar até 2 espaços em itens guardados na armadura, em vez de em sua carga normal. Além disso, pode levar até mais 8 espaços dessa forma (para um total de 10), mas se fizer isso, sua penalidade de armadura aumenta em –1 para cada espaço extra (indo até –10). Por ser feita especialmente para engenhoqueiros, esta armadura não aplica sua penalidade em testes para ativar engenhocas. Por outro lado, por sua natureza enjambrada, ela não pode ter sua penalidade reduzida por quaisquer efeitos (como a melhoria ajustada) e causa –5 em testes de Furtividade."
+                },
+                {
+                  "type": "item",
+                  "name": "Armadura de Folhas",
+                  "description": "Esta armadura é um traje de tecido leve sobre o qual são costuradas várias camadas de folhas especialmente preparadas com óleos naturais. É uma armadura leve que fornece pouca defesa, mas permite que o usuário se mantenha conectado com as forças da natureza. Se for treinado em Sobrevivência, você recebe +2 PM com esta armadura (somente após 1 dia de uso), cumulativo com outros efeitos de itens."
+                },
+                {
+                  "type": "item",
+                  "name": "Armadura de Hussardo Alado",
+                  "description": "Alguns dos reinos mais avançados (e menos tradicionalistas) de Arton começaram a equipar seus cavaleiros com estas armaduras vistosas e impressionantes. Uma armadura de hussardo alado é uma armadura completa com um adicional: duas hastes longas nas costas, cobertas de penas, que parecem asas! Quando você avança a galope, as “asas” zunem ao vento, criando um som desconcertante e amedrontador. Quando faz uma investida montada, você pode fazer um teste de Intimidação para assustar o alvo de sua investida. Esse efeito só funciona uma vez por cena com cada oponente."
+                },
+                {
+                  "type": "item",
+                  "name": "Armadura de Justa",
+                  "description": "Esta meia armadura é feita especialmente para ser usada por cavaleiros em justas. Assim, é toda feita de placas de metal, bastante adornada, e tem aparência aristocrática e tradicional. Seu grande diferencial, contudo, é a proteção extra no lado do peito do usuário que provavelmente será atingido pela lança do oponente — o lado em que ele próprio não empunha sua lança. A armadura de justa fornece +5 em testes para resistir a ser derrubado enquanto montado (cumulativo com outros efeitos de itens) e, contra armas de perfuração, seu bônus na Defesa aumenta em +2. Contudo, devido a seu peso e estrutura, sua penalidade de armadura aumenta em 2 se você não estiver montado."
+                },
+                {
+                  "type": "item",
+                  "name": "Armadura de Pedra",
+                  "description": "Esta armadura completa foi originalmente projetada por facções tradicionalistas da Guilda dos Armeiros de Doherimm, apenas em tamanho anão. Recentemente, anões rebeldes e interessados em lucro começaram a fabricar versões utilizáveis pelas demais raças artonianas. Além de sua defesa elevada, uma armadura de pedra fornece redução de dano 2 (cumulativo com outros efeitos de itens). Contudo, toda essa proteção tem um custo: seu deslocamento é reduzido pela metade por essa armadura pesada, em vez de em 3m. A armadura de pedra não pode receber a melhoria material especial."
+                },
+                {
+                  "type": "item",
+                  "name": "Armadura Sensual",
+                  "description": "As histórias de heróis estão repletas de guerreiros que vestem armaduras pouco práticas — feitas para revelar quase tudo do corpo do usuário, ressaltando seus músculos e curvas, rendendo imagens provocantes para capas de livros e iluminuras em pergaminhos. Nunca foram pensadas para uso na vida real... Mas alguém, em algum momento, achou que isso seria boa ideia. Uma armadura sensual é feita de pedaços (minúsculos) de cota de malha, (pouquíssimas) escamas ou tiras (extremamente finas) de metal. A armadura sensual não oferece muita proteção, mas permite usar o poder Atraente. Se você já tiver esse poder, em vez disso o bônus fornecido por ele aumenta para +5. Note que, em muitos lugares de Arton, uma armadura sensual não é um traje apropriado para bailes, reuniões diplomáticas ou mesmo para andar na rua! O usuário pode ser barrado desses lugares ou o bônus da armadura pode ser transformado em penalidade, a critério do mestre. As únicas ocasiões em que esses bônus nunca são anulados são combates."
+                },
+                {
+                  "type": "item",
+                  "name": "Brigantina",
+                  "description": "Também chamada de “brigandina”, esta armadura é uma opção para combatentes que não podem comprar armaduras de placas. À primeira vista, a brigantina só tem vantagens — feita de uma vestimenta de couro com pequenas placas metálicas rebitadas, é mais flexível que armaduras metálicas comuns, ainda fornecendo a proteção do aço. Contudo, a brigantina tem um defeito: embora as múltiplas pequenas placas protejam bem contra armas de corte e impacto, é fácil para uma arma de perfuração penetrar entre elas. Contra armas de perfuração, o bônus na Defesa de uma brigantina diminui em –2."
+                },
+                {
+                  "type": "item",
+                  "name": "Broquel",
+                  "description": "Este escudo parece pequeno demais para ter qualquer uso, protegendo apenas a mão e o pulso (o que impede o uso dessa mão). Contudo, ele não é como outros escudos: em vez de atuar como uma barreira fixa entre o usuário e seus inimigos, ajuda a bloquear os ataques contra ele. Você não recebe o bônus na Defesa por um broquel, como normal. Em vez disso, uma vez por rodada, quando é atingido por um ataque, você pode fazer um teste de ataque corpo a corpo. Para cada 10 pontos do resultado desse teste, você reduz o dano sofrido em 2 pontos. Um broquel pode ser usado para atacar como um escudo leve."
+                },
+                {
+                  "type": "item",
+                  "name": "Cota de Moedas",
+                  "description": "O cúmulo da ostentação, esta armadura se assemelha a uma brunea, com um diferencial — em vez de discos metálicos, a malha é formada por tibares entrelaçados! Você recebe +2 em Diplomacia (cumulativo com melhorias da armadura). O mestre pode mudar o bônus para uma penalidade de –2 contra pessoas que desprezam ostentação."
+                },
+                {
+                  "type": "item",
+                  "name": "Colete Fora da Lei",
+                  "description": "Diz-se que este colete metálico único foi desenvolvido por uma quadrilha de Smokestone — um bando com muita criatividade e pouco caráter. A forma arredondada da armadura e as ranhuras em sua superfície redirecionam projéteis, tornando-a ideal para proteger o usuário contra balas e flechas. Muito útil quando todos ao seu redor levam pistolas na cintura! Contra armas de disparo, o bônus na Defesa de um colete fora da lei aumenta em +2."
+                },
+                {
+                  "type": "item",
+                  "name": "Escudo de Vime",
+                  "description": "Este escudo é grande e desajeitado, mas extremamente leve devido a seu material. Parece não proteger muito, pois existem pequenas “falhas” entre as fibras de vime. À primeira vista, apenas um louco usaria este tipo de proteção — mas, justamente por ser leve, volumoso e com uma trama aberta, pode ser movido com facilidade para confundir os inimigos. Não é preso ao braço, mas precisa ser empunhado com as duas mãos, impedindo que você empunhe uma arma ou qualquer outro item (um parceiro capaz de empunhar escudos pode segurar o escudo para você, mas não poderá fornecer seus benefícios enquanto faz isso) e é muito desajeitado para ser empunhado montado ou usado para atacar. Além de seus bônus na Defesa, o escudo de vime fornece camuflagem leve. Além disso, em seu turno, se estiver usando o escudo, você pode escolher um aliado adjacente. Se fizer isso, fornece seu bônus na Defesa e camuflagem a ele. Contudo, caso você ou o aliado sofram um acerto crítico, o escudo é destruído."
+                },
+                {
+                  "type": "item",
+                  "name": "Escudo Torre",
+                  "description": "Este escudo grande e retangular é feito de madeira e reforçado com aço e couro. É preso ao antebraço como um escudo pesado mas, devido a seu tamanho, não pode ser usado para atacar, ou por um personagem montado. Você pode gastar uma ação de movimento para tirar o escudo e fixá-lo chão, transformando-o em uma barreira que pode fornecer cobertura leve (conforme o normal para cobertura; veja Tormenta20, p. 239). Recolocar o escudo, desafixando-o do chão, também é uma ação de movimento."
+                },
+                {
+                  "type": "item",
+                  "name": "Sagna",
+                  "description": "Desenvolvido por devotos de Oceano e muito comum em regiões praianas, este grande escudo de madeira também pode ser usado para deslizar pelas ondas. Enquanto você o usa dessa forma, a penalidade de armadura deste escudo e de sua armadura para natação não são aplicadas. Além disso, quando passa em um teste para natação, você avança seu deslocamento normal (em vez de metade); se você já tiver deslocamento de natação, em vez disso ele aumenta em +3m. Um sagna pode ser usado para atacar como um escudo pesado."
+                }
+              ]
+            },
+            {
               "type": "item",
               "name": "Armadura Acolchoada",
               "description": "Uma túnica almofadada feita em linho ou lã. É a armadura mais leve, mas protege todo o corpo, fornecendo +2 em Fortitude."
