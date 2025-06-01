@@ -74,6 +74,7 @@ book_folders_order = [
     "Perícias",
     "Poderes",
     "Equipamento",
+    "Bases",
     "Magias",
     "Testes",
     "Habilidades",
