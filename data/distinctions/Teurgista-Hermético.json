@@ -1,0 +1,30 @@
+{
+    "name": "Teurgista Hermético",
+    "admission": "Um candidato a teurgista hermético precisa, mais do que qualquer coisa, estudar. Estudar muito, estudar com afinco, estudar o que muitos consideram as partes mais tediosas da disciplina mística. O conhecimento necessário para ser um teurgista não vem espontaneamente, não surge à medida que o candidato adquire mais poder ou experiência.\nEle está em livros. Em palestras. Em aulas.\nO candidato precisa ser aceito em uma instituição de ensino de magia arcana. Contudo, não pode ser qualquer instituição: seu estudo não vai envolver a prática da magia, mas a teoria e a filosofia. Assim, apenas os maiores e mais prestigiosos institutos vão oferecer o que ele busca. A Academia Arcana é o maior exemplo, mas também pode-se achar bons cursos de filosofia arcana em Wynlla e Ubani. O candidato deve se dedicar unicamente a isso enquanto o curso durar (em geral, um ou dois meses), sem se aventurar ou se dedicar a outras atividades. Deve também, é claro, passar em quaisquer testes e provas que o curso exija.\nEssa é a parte simples.\nMunido dessa filosofia, o candidato precisa ser aceito num templo de Wynna ou Kallyadranoch, como estudante de teoria mística e filosofia. Embora possa parecer igual ao passo anterior, esse é muito mais difícil — a exuberância frenética da Deusa da Magia e a tirania dominante do Deus do Poder significam que pouquíssimos templos dessas divindades possuem centros de estudo teórico. Muitos candidatos passam meses ou anos apenas buscando um templo que se dedique a estudar a teoria da magia divina. Uma vez que encontre um templo e seja aceito, o candidato deve ficar pelo menos mais um mês imerso em estudos, cumprindo quaisquer tarefas que os sacerdotes exijam.\nMunido de todo esse conhecimento, o candidato deve colocá-lo em uso. Deve elaborar uma teoria sobre a origem da magia arcana, uma hipótese que una os dois lados, e apresentá-la para um grupo de estudiosos. A plateia deve ser capaz de entendê-lo, ninguém deve dormir durante a palestra e ele não pode ser chamado de charlatão ou herege.\nSe tiver cumprido isso, o candidato terá se tornado um teurgista hermético. E talvez perdido alguns amigos.",
+    "abilities": [
+        {
+            "name": "Princípio Hermético",
+            "description": "Você é considerado um conjurador tanto arcano quanto divino, e suas magias são consideradas tanto arcanas quanto divinas."
+        },
+        {
+            "name": "Conjuração Unificada",
+            "description": "Escolha um entre seus atributos-chave de magias. Você pode usar esse atributo como atributo-chave de todas as suas magias e habilidades relacionadas a elas, exceto cálculo de PM. Entretanto, restrições que afetem qualquer um de seus tipos de magias (como o uso de armaduras e magias arcanas) passam a afetar ambos os tipos. Pré-requisitos: treinado em Misticismo e Religião, habilidade Magias (arcanas), habilidade Magias (divinas)."
+        },
+        {
+            "name": "Conhecimento Adaptável",
+            "description": "Quando falha em um teste de Misticismo ou Religião, você pode gastar 1 PM para repetir esse teste usando a outra perícia (Misticismo para um teste de Religião e vice-versa). Pré-requisito: Conjuração Unificada."
+        },
+        {
+            "name": "Teurgia Aplicada",
+            "description": "Escolha duas de suas classes com a habilidade Magias, uma para magias arcanas e outra para magias divinas. Você soma seu total de poderes da distinção no seu nível de cada uma dessas classes (até o limite de seu nível de personagem) para determinar o total de PM que pode gastar nessas magias e os círculos máximos de magia a que tem acesso. Pré-requisito: Conjuração Unificada."
+        },
+        {
+            "name": "Vontade Sobre Matéria",
+            "description": "Quando lança uma magia, você pode pagar +1 PM para que ela ignore imunidades e resistências baseadas em sua escola ou tipo (arcana ou divina). Pré-requisito: Teurgia Aplicada."
+        },
+        {
+            "name": "Zênite Teúrgico",
+            "description": "Quando lança uma magia que causa dano, você pode aplicar a ela efeitos específicos de um tipo de dano como se ela fosse de todos os tipos. Por exemplo, você pode usar um cetro elemental (fogo) com uma magia Adaga Mental. Pré-requisitos: Conhecimento Adaptável, Teurgia Aplicada."
+        }
+    ]
+}

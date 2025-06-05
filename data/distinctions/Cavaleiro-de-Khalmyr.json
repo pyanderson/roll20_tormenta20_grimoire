@@ -1,0 +1,38 @@
+{
+    "name": "Cavaleiro de Khalmyr",
+    "admission": "Tornar-se um cavaleiro de Khalmyr é uma das tarefas mais difíceis de Arton. Exige sacrifício, esforço e fé. A recompensa é mais sacrifício, mais esforço, a exigência de ainda mais fé.\nTodos podem se candidatar, embora nobres tenham algumas restrições. Um candidato deve viajar até as Montanhas Lannestul, perto da aldeia de Willen, onde fica o Mosteiro de Khalmyr. Isso por si só já é uma provação, pois a cordilheira não pertence a nenhum reino, é infestada de monstros e esconde uma área de Tormenta.\nNo Mosteiro de Khalmyr, o candidato deve se apresentar a um Líder de Destacamento, um comandante dentro da Ordem. Os Destacamentos são grupos de cavaleiros unidos por traços de personalidade ou maneiras de lutar. Têm nomes como Destacamento Thomasson Sijurlyd, em homenagem a um antigo cavaleiro, ou Destacamento da Garra do Grifo, invocando a ferocidade dessas criaturas. O candidato deve escolher o Destacamento que mais lhe parece adequado — segundo a crença da Ordem, Khalmyr o inspira nessa decisão. O Líder então o submete a uma série de testes. Alguns impõem escolhas morais, outros exigem meditação ou provas físicas. Isso decidirá se ele pode continuar tentando. Uma vez que o candidato seja rejeitado por um Líder de Destacamento, não pode tentar com outro. A decisão de seu Destacamento é final e definirá boa parte de sua vida.\nApós passar nesses testes, o candidato recebe instrução de combate e lições de teologia durante um mês. Após esse tempo, o candidato recebe a Primeira Bênção. Ele agora tem todos os deveres de um cavaleiro de Khalmyr, mas nenhum privilégio. Ainda não é considerado membro da Ordem.\nNessa fase, o candidato deve abrir mão de seu sobrenome e título de nobreza, se os tiver, assim como de todas as posses materiais que não puder carregar sobre um cavalo. Ele recebe da Ordem uma armadura pesada, um robe monástico, um escudo, uma espada e um cavalo. Deve então partir em uma peregrinação de um ano, durante a qual irá se aventurar e combater o mal. O candidato pode estar acompanhado por um grupo de aventureiros.\nAo fim de um ano, o candidato deve mais uma vez se apresentar no Mosteiro de Khalmyr, agora frente à Alta Cúpula — doze cavaleiros que respondem apenas ao Comandante-Mor Thallen Kholdenn Devendeer. A Alta Cúpula ouve suas façanhas e testa o que ele aprendeu. Um candidato que seja aprovado nessa fase recebe a Segunda Bênção.\nO candidato então é levado a seu novo catre, onde uma banheira de água gelada o espera. Ele deve se banhar e passar um dia e uma noite em meditação profunda. Ao raiar do sol, o candidato deve se vestir em um robe simples e se dirigir ao pátio central do Mosteiro, onde a Alta Cúpula o espera. Ele é sagrado cavaleiro de Khalmyr e pode começar sua longa jornada de servidão.",
+    "abilities": [
+        {
+            "name": "A Cerimônia de Sagração",
+            "description": "A iniciação na Ordem de Khalmyr é um rito secreto. Apenas cavaleiros, o candidato e quaisquer companheiros que tenham estado com ele durante o ano de peregrinação podem assistir. O candidato deve se ajoelhar no meio do pátio central do Mosteiro. Um membro da Alta Cúpula então recita:\n“Arton te rejeita. Os mortais te odeiam. Para ti todas as portas estarão fechadas, todas as armas estarão erguidas. Teu suplício não acabará com a morte, nem haverá para ti nenhuma recompensa. Aceita esse destino?”\nEm caso afirmativo, o cavaleiro pressiona a ponta de sua espada contra o coração do candidato.\n“De ti Khalmyr demanda força e resiliência. Humildade e pobreza. Obediência e austeridade. Khalmyr julgará cada um de teus atos. Khalmyr exigirá de ti mais do que de qualquer outro. Khalmyr tomará teu sangue, tua vida, tua alma, sem nada oferecer. Aceita esse fardo?”\nEm caso afirmativo, o cavaleiro ergue a espada, então pousando-a delicadamente sobre a cabeça do candidato.\n“Eu te recebo na Ordem de Khalmyr. Ergue-te, Irmão/Irmã (nome do candidato/a). Tua vida seja tua espada e tua espada seja tua vida.”"
+        },
+        {
+            "name": "Código da Norma",
+            "description": "Um cavaleiro de Khalmyr deve sempre manter sua palavra e nunca pode mentir, trapacear, roubar ou recusar o pedido de ajuda de um inocente. Também é proibido de possuir qualquer título (como a habilidade de cavaleiro e nobre), itens mágicos criados por não devotos de Khalmyr e qualquer objeto fora aquilo que for capaz de carregar consigo ou em sua montaria. Além disso, também não é permitido fixar residência por mais de 30 dias em uma comunidade (cidade, vila, aldeia...), não podendo receber benefícios de estruturas (como bases e domínios). Se violar o código, você perde todos os seus PM e só pode recuperá-los a partir do próximo dia."
+        },
+        {
+            "name": "Seguir a Norma",
+            "description": "Você segue o Código da Norma (veja o quadro) e recebe +2 em Fortitude e Vontade."
+        },
+        {
+            "name": "Vitória da Ordem",
+            "description": "Quando faz um ataque corpo a corpo, você pode gastar 2 PM para concentrar sua fé em seu golpe. Você soma sua Sabedoria no teste de ataque (se já faz isso, em vez disso recebe +2 no teste de ataque) e +1d8 na rolagem de dano. Pré-requisitos: devoto de Khalmyr, treinado em Luta."
+        },
+        {
+            "name": "Campeão Abnegado",
+            "description": "Os bônus concedidos por Ao Sabor do Destino são dobrados. Além disso, você pode usar itens litúrgicos fabricados por devotos de Khalmyr sem perder os benefícios do poder. Pré-requisitos: Ao Sabor do Destino, Vitória da Ordem."
+        },
+        {
+            "name": "Corcel Santificado",
+            "description": "Você recebe um cavalo de guerra parceiro veterano. Caso já possua uma montaria fornecida por outra habilidade, em vez disso essa montaria se torna também um parceiro guardião iniciante. Caso perca sua montaria, você pode receber outra visitando o Mosteiro de Khalmyr. Pré-requisitos: treinado em Cavalgar, Vitória da Ordem."
+        },
+        {
+            "name": "Graça de Khalmyr",
+            "description": "Quando faz um teste de resistência ou sofre um ataque, você pode gastar uma quantidade de PM a sua escolha (limitada pela sua Sabedoria). Para cada PM que gastar, recebe +2 no teste ou na Defesa contra esse ataque. Pré-requisito: Sab 2, Vitória da Ordem."
+        },
+        {
+            "name": "Manto da Justiça",
+            "description": "Você pode gastar 3 PM para projetar uma aura de ordem com 9m de raio e duração sustentada. Dentro da aura, você se torna imune a efeitos de medo e mentais, você e seus aliados recebem redução de dano igual à sua Sabedoria e inimigos que comecem seus turnos dentro da aura ficam enjoados por 1d6 rodadas (Vontade CD Sab evita e a criatura fica imune a esta habilidade por 1 dia). Pré-requisitos: Vitória da Ordem e dois outros poderes da distinção."
+        }
+    ]
+}

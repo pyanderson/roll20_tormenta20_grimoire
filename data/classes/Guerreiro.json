@@ -36,8 +36,16 @@
       "description": "Se estiver empunhando duas armas (e pelo menos uma delas for leve) e fizer a ação agredir, você pode fazer dois ataques, um com cada arma. Se fizer isso, sofre –2 em todos os testes de ataque até o seu próximo turno. Pré-requisito: Des 2."
     },
     {
+      "name": "Análise Tática",
+      "description": "Você recebe +2 em Guerra e pode fazer testes dessa perícia para identificar criatura contra humanoides (veja Misticismo em Tormenta20, p. 121). Pré-requisito: treinado em Guerra."
+    },
+    {
       "name": "Arqueiro",
       "description": "Se estiver usando uma arma de ataque à distância, você soma sua Sabedoria em rolagens de dano (limitado pelo seu nível). Pré-requisito: Sab 1."
+    },
+    {
+      "name": "Arremesso de Investida",
+      "description": "Quando faz uma investida, você pode gastar 1 PM para realizar um ataque à distância adicional com uma arma de arremesso contra o alvo da investida."
     },
     {
       "name": "Ataque Reflexo",
@@ -52,8 +60,28 @@
       "description": "Quando faz uma investida, você pode continuar se movendo após o ataque, até o limite de seu deslocamento. Se gastar 2 PM, pode fazer uma investida sobre terreno difícil e sem sofrer a penalidade de Defesa."
     },
     {
+      "name": "Bloqueio Brutal",
+      "description": "Uma vez por rodada, quando é atingido por um ataque, você pode gastar 2 PM para fazer uma rolagem de dano corpo a corpo e subtrair o resultado dessa rolagem do dano causado pelo ataque. Pré-requisito: For 5."
+    },
+    {
+      "name": "Corte Ágil",
+      "description": "Uma vez por rodada, quando faz um ataque com uma arma ágil ou leve, você pode gastar 1 PM para se mover até metade do seu deslocamento antes ou depois de fazer o ataque. Esse movimento não ativa reações dos inimigos (como de Ataque Reflexo). Pré-requisito: Des 1."
+    },
+    {
+      "name": "Criar Oportunidade",
+      "description": "Quando você ou um aliado em alcance curto atacar uma criatura sob efeito do seu Xadrez de Batalha, você pode gastar 1 PM para que esse ataque cause +1d10 pontos de dano. Pré-requisito: Xadrez de Batalha."
+    },
+    {
+      "name": "Defesa Estratégica",
+      "description": "Você soma sua Inteligência na Defesa, limitada pelo seu nível. Pré-requisito: Int 1."
+    },
+    {
       "name": "Destruidor",
       "description": "Quando causa dano com uma arma corpo a corpo de duas mãos, você pode rolar novamente qualquer resultado 1 ou 2 da rolagem de dano da arma. Pré-requisito: For 1."
+    },
+    {
+      "name": "Determinação Inabalável",
+      "description": "Enquanto estiver com metade dos seus pontos de vida ou menos, você recebe +2 em testes de resistência e o custo de sua habilidade Durão diminui em –1 PM. Pré-requisito: 11º nível de guerreiro."
     },
     {
       "name": "Esgrimista",
@@ -66,6 +94,18 @@
     {
       "name": "Especialização em Armadura",
       "description": "Você recebe redução de dano 5 se estiver usando uma armadura pesada. Pré-requisito: 12º nível de guerreiro."
+    },
+    {
+      "name": "Estrategista Inspirador",
+      "description": "Em seu primeiro turno de um combate, você pode gastar uma ação padrão e fazer um teste de Guerra. Se fizer isso, para cada 10 pontos no resultado do teste, você e seus aliados em alcance curto recebem 1 PM temporário. Esses PM temporários desaparecem no fim da cena. Pré-requisito: treinado em Guerra."
+    },
+    {
+      "name": "Executor",
+      "description": "Você recebe +1d6 nas rolagens de dano contra criaturas que estejam com menos da metade dos pontos de vida. A cada quatro níveis além do 1º, esse dano extra aumenta em um passo."
+    },
+    {
+      "name": "Fender Defesas",
+      "description": "Quando você acerta um ataque usando Ataque Especial, a criatura sofre uma penalidade na Defesa igual ao total de PM gastos nessa habilidade por 1 rodada."
     },
     {
       "name": "Golpe de Raspão",
@@ -84,16 +124,52 @@
       "description": "Você pode gastar 1 PM para aumentar seu deslocamento em +6m por uma rodada."
     },
     {
+      "name": "Inércia do Aço",
+      "description": "Quando acerta um ataque com uma arma de duas mãos em uma criatura, você pode gastar 3 PM para causar metade do dano desse ataque a cada inimigo adjacente a essa criatura. Pré-requisito: 5º nível de guerreiro."
+    },
+    {
+      "name": "Investida Ricochete",
+      "description": "Uma vez por rodada, quando faz uma investida e acerta o ataque, você pode gastar 2 PM para atacar outra criatura que você consiga alcançar como parte dessa investida. Pré-requisito: Bater e Correr, 5º nível de guerreiro."
+    },
+    {
+      "name": "Manobra Dupla",
+      "description": "Uma vez por rodada, quando faz uma manobra de combate usando uma arma versátil, você pode pagar 1 PM para executar uma manobra diferente extra."
+    },
+    {
+      "name": "Mente Disciplinada",
+      "description": "Sempre que você é afetado por uma habilidade de um aliado que fornece um bônus numérico em testes de perícia, rolagens de dano ou na Defesa, para você esse bônus aumenta em +1. Pré-requisito: 6º nível de guerreiro."
+    },
+    {
       "name": "Mestre em Arma",
       "description": "Escolha uma arma. Com esta arma, seu dano aumenta em um passo e quando faz um teste de ataque você pode gastar 2 PM para rolá-lo novamente. Pré-requisitos: Especialização em Arma com a arma escolhida, 12º nível de guerreiro."
+    },
+    {
+      "name": "Operações Combinadas",
+      "description": "Quando usa Ordens de Engajamento, você pode gastar +3 PM. Se fizer isso, pode atacar junto do aliado e, se um de vocês usar habilidades com custo em PM que forneçam bônus a esse ataque ou a seu dano, o outro também é afetado (apenas se isso for aplicável ao ataque). Pré-requisitos: Ordens de Engajamento, 14º nível de guerreiro."
+    },
+    {
+      "name": "Ordens de Engajamento",
+      "description": "Uma vez por rodada, quando acerta um ataque em uma criatura sob efeito do seu Xadrez de Batalha, você pode gastar 2 PM para que um aliado em alcance curto possa fazer um ataque contra essa criatura. Pré-requisitos: Criar Oportunidade, Xadrez de Batalha, 11º nível de guerreiro."
     },
     {
       "name": "Planejamento Marcial",
       "description": "Uma vez por dia, você pode gastar uma hora e 3 PM para escolher um poder de guerreiro ou de combate cujos pré-requisitos cumpra. Você recebe os benefícios desse poder até o próximo dia. Pré-requisitos: treinado em Guerra, 10º nível de guerreiro."
     },
     {
+      "name": "Recuperar Fôlego",
+      "description": "Uma vez por cena, se estiver com 0 PM, você pode gastar uma ação de movimento para recuperar 1d8 PM."
+    },
+    {
+      "name": "Resiliência Marcial",
+      "description": "Sempre que sofrer dano letal, você recebe redução de dano 1 cumulativa (limitada pelo seu nível). Esse efeito dura até o fim da cena ou até você recuperar pontos de vida de qualquer forma. Pré-requisito: 4º nível de guerreiro."
+    },
+    {
       "name": "Romper Resistências",
       "description": "Quando faz um Ataque Especial, você pode gastar 1 PM adicional para ignorar 10 pontos de redução de dano."
+    },
+    {
+      "name": "Soldado de Infantaria",
+      "description": "Você recebe +3m em seu deslocamento e seu limite de carga aumenta em 6 espaços."
     },
     {
       "name": "Solidez",
@@ -106,6 +182,14 @@
     {
       "name": "Valentão",
       "description": "Você recebe +2 em testes de ataque e rolagens de dano contra oponentes caídos, desprevenidos, flanqueados ou indefesos."
+    },
+    {
+      "name": "Velho de Guerra",
+      "description": "Seus olhos já viram muito e você não se abala facilmente. Você recebe +5 em Intimidação e imunidade a medo. Além disso, uma vez por cena pode gastar 5 PM para evitar completamente um efeito qualquer (ataque, magia etc.) usado contra você por outra criatura. Se o efeito for de área ou tiver outros alvos, continua funcionando normalmente contra eles. Pré-requisito: 17º nível de guerreiro."
+    },
+    {
+      "name": "Xadrez de Batalha",
+      "description": "Você pode gastar uma ação de movimento e 1 PM para analisar um oponente em alcance curto. Se fizer isso, você recebe +2 na Defesa e em testes de Reflexos contra essa criatura até o fim da cena. Esse bônus aumenta em +1 para cada outro poder que você possua que tenha Xadrez de Batalha como pré-requisito. Pré-requisito: treinado em Guerra."
     },
     {
       "name": "Durão",
@@ -121,7 +205,7 @@
     },
     {
       "name": "Efeitos do Golpe Pessoal",
-      "description": "• Amplo (+3 PM). Seu ataque atinge todas as criaturas em alcance curto (incluindo aliados, mas não você mesmo). Faça um único teste de ataque e compare com a Defesa de cada criatura.\n• Atordoante (+2 PM). Uma criatura que sofra dano do ataque fica atordoada por uma rodada (apenas uma vez por cena; Fortitude CD For anula).\n• Brutal (+1 PM). Fornece um dado extra de dano do mesmo tipo.\n• Conjurador (Custo da Magia + 1 PM). Escolha uma magia de 1º ou 2º círculos que tenha como alvo uma criatura ou que afete uma área. Se acertar seu golpe, você lança a magia como uma ação livre, tendo como alvo a criatura atingida ou como centro de sua área o ponto atingido pelo ataque (atributo-chave é um mental a sua escolha). Considere que a mão da arma está livre para lançar esta magia.\n• Destruidor (+2 PM). Aumenta o multiplicador de crítico em +1.\n• Distante (+1 PM). Aumenta o alcance em um passo (de corpo a corpo para curto, médio e longo). Outras características não mudam (um ataque corpo a corpo com alcance curto continua usando Luta e somando sua Força no dano).\n• Elemental (+2 PM). Causa +2d6 pontos de dano de ácido, eletricidade, fogo ou frio. Você pode escolher este efeito mais vezes para aumentar o dano em +2d6 (do mesmo tipo ou de outro), por +2 PM a cada vez. e\n• Impactante (+1 PM). Empurra o alvo 1,5m para cada 10 pontos de dano causado (arredondado para baixo). Por exemplo, 3m para 22 pontos de dano.\n• Letal (+2 PM). Aumenta a margem de ameaça em +2. Você pode escolher este efeito duas vezes para aumentar a margem de ameaça em +5.\n• Penetrante (+1 PM). Ignora 10 pontos de RD.\n• Preciso (+1 PM). Quando faz o teste de ataque, você rola dois dados e usa o melhor resultado.\n• Qualquer Arma (+1 PM). Você pode usar seu Golpe Pessoal com qualquer tipo de arma.\n• Ricocheteante (+1 PM). A arma volta pra você após o ataque. Só pode ser usado com armas de arremesso.\n• Teleguiado (+1 PM). Ignora penalidades por camuflagem ou cobertura leves.\n• Lento (–2 PM). Seu ataque exige uma ação completa para ser usado.\n• Perto da Morte (–2 PM). O ataque só pode ser usado se você estiver com um quarto de seus PV ou menos.\n• Sacrifício (–2 PM). Sempre que usa seu Golpe Pessoal, você perde 10 PV."
+      "description": "• Amplo (+3 PM). Seu ataque atinge todas as criaturas em alcance curto (incluindo aliados, mas não você mesmo). Faça um único teste de ataque e compare com a Defesa de cada criatura.\n• Atordoante (+2 PM). Uma criatura que sofra dano do ataque fica atordoada por uma rodada (apenas uma vez por cena; Fortitude CD For anula).\n• Avanço (+1 PM). Você pode percorrer até o seu deslocamento em linha reta antes de desferir o golpe.\n• Brando (+0 PM). Seu golpe causa dano não letal.\n• Brutal (+1 PM). Fornece um dado extra de dano do mesmo tipo.\n• Carregado (+1 PM). Você pode gastar uma ação padrão para energizar seu ataque. Se você fizer isso e atacar até a próxima rodada, seu ataque causa +2d8 pontos de dano.\n• Conjurador (Custo da Magia + 1 PM). Escolha uma magia de 1º ou 2º círculos que tenha como alvo uma criatura ou que afete uma área. Se acertar seu golpe, você lança a magia como uma ação livre, tendo como alvo a criatura atingida ou como centro de sua área o ponto atingido pelo ataque (atributo-chave é um mental a sua escolha). Considere que a mão da arma está livre para lançar esta magia.\n• Destruidor (+2 PM). Aumenta o multiplicador de crítico em +1.\n• Distante (+1 PM). Aumenta o alcance em um passo (de corpo a corpo para curto, médio e longo). Outras características não mudam (um ataque corpo a corpo com alcance curto continua usando Luta e somando sua Força no dano).\n• Elemental (+2 PM). Causa +2d6 pontos de dano de ácido, eletricidade, fogo ou frio. Você pode escolher este efeito mais vezes para aumentar o dano em +2d6 (do mesmo tipo ou de outro), por +2 PM a cada vez. e\n• Impactante (+1 PM). Empurra o alvo 1,5m para cada 10 pontos de dano causado (arredondado para baixo). Por exemplo, 3m para 22 pontos de dano.\n• Letal (+2 PM). Aumenta a margem de ameaça em +2. Você pode escolher este efeito duas vezes para aumentar a margem de ameaça em +5.\n• Penetrante (+1 PM). Ignora 10 pontos de RD.\n• Preciso (+1 PM). Quando faz o teste de ataque, você rola dois dados e usa o melhor resultado.\n• Qualquer Arma (+1 PM). Você pode usar seu Golpe Pessoal com qualquer tipo de arma.\n• Ricocheteante (+1 PM). A arma volta pra você após o ataque. Só pode ser usado com armas de arremesso.\n• Sequencial (+2 PM). Seu golpe causa +1d6 pontos de dano. A cada vez que você acerta o golpe na mesma cena, esse bônus aumenta em um passo.\n• Sifão (+2 PM). Você recebe 1 PM temporário para cada 10 pontos da rolagem de dano. Você pode receber um máximo de PM temporários por cena igual ao seu nível e eles desaparecem no fim da cena.\n• Teleguiado (+1 PM). Ignora penalidades por camuflagem ou cobertura leves.\n• Golpe de Abertura (–2 PM). Seu golpe só pode ser usado em seu primeiro turno do combate.\n• Lento (–2 PM). Seu ataque exige uma ação completa para ser usado.\n• Perto da Morte (–2 PM). O ataque só pode ser usado se você estiver com um quarto de seus PV ou menos.\n• Sacrifício (–2 PM). Sempre que usa seu Golpe Pessoal, você perde 10 PV.\n• Truque Secreto (–2 PM). Seu golpe só pode ser usado uma vez contra cada alvo por cena."
     }
   ]
 }

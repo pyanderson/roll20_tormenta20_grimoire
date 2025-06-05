@@ -1,0 +1,30 @@
+{
+    "name": "Caçador de Cabeças",
+    "admission": "Apenas duyshidakk podem ser caçadores de cabeças. Assim, um candidato que não tenha nascido entre esse povo deve antes de mais nada ser aceito por eles. Não há uma fórmula para isso. Contudo, a palavra “duyshidakk” pode ser traduzida como “nós que sofremos juntos” — no mínimo, é preciso se sacrificar pelos duyshidakk, sofrer como eles sofreram, para ser aceito.\nO primeiro passo para que um duyshidakk se torne um caçador de cabeças é localizar um caçador de cabeças mais experiente. Isso não é tarefa fácil quando o alvo é justamente alguém furtivo e rápido ao extremo! Mesmo que o paradeiro de um combatente habilidoso seja conhecido, muitas vezes é difícil saber se ele possui as habilidades certas. Um candidato precisa reunir histórias, ouvir boatos, tentar discernir o que é verdade e o que é mentira sobre as façanhas do pretenso mestre. A única caçadora de cabeças realmente notória é a própria Maryx. Ela não aceita discípulos, mas isso não impede alguns de tentar...\nUma vez que o mestre seja encontrado, o candidato precisa convencê-lo a ensinar o que sabe. Nenhum caçador de cabeças adquire suas habilidades porque gosta de agir em grupo. Um discípulo quase sempre será um estorvo. Assim, deve demonstrar a necessidade de ser treinado. Não sua própria necessidade — isso pouco interessa ao mestre. O treinamento deve colaborar de alguma forma com a criação do Mundo Como Deve Ser. Fica a cargo do candidato provar isso.\nSe mais essa barreira for vencida, o treinamento começa. Mestre e discípulo passam um longo período isolados nas florestas de Lamnor. O que acontece durante esse tempo depende do mestre. Alguns candidatos são escravizados por seus mestres, seus corpos tatuados como sua propriedade. Outros são postos em situações perigosas repetidamente, precisando provar seu valor de novo e de novo. Esse isolamento pode durar meses ou anos.\nO próprio candidato então decide quando está pronto e deseja ser testado. O primeiro teste envolve algum “truque”: o candidato deve fabricar uma bomba de fumaça, um veneno, uma armadilha engenhosa ou outra ferramenta inusitada do arsenal do caçador de cabeças. O segundo teste é de furtividade: o candidato deve permanecer oculto um dia inteiro, enquanto seu mestre tenta achá-lo. Se for encontrado antes disso, terá falhado. Por último, o mestre designa um alvo que o candidato deve assassinar, trazendo sua cabeça como prova do sucesso. Sendo bem-sucedido nos três testes, o candidato demonstra possuir todas as habilidades de um caçador de cabeças.\nComo o próprio candidato escolhe quando deseja ser testado, isso abre margem para que alguns tentem apressar o processo. Contudo, não há segundas chances! Qualquer falha nos testes significa que o treinamento é interrompido e o discípulo é descartado. Alguns mestres chegam ao extremo de matar alunos fracassados, para que suas técnicas não estejam nas mãos de incompetentes. Da mesma forma, adiar os testes indefinidamente também é considerado uma falha.\nBons candidatos sabem exatamente quando devem ser testados. Sentem a sutil mudança dentro de si mesmos, o momento em que se tornam caçadores de cabeças e os testes passam a ser mera formalidade. Afinal, acima de tudo, durante seu aprendizado descobrem como confiar em si mesmos.",
+    "abilities": [
+        {
+            "name": "Terror de Lamnor",
+            "description": "Você recebe +2 em Furtividade e +2 na margem de ameaça de ataques contra criaturas desprevenidas."
+        },
+        {
+            "name": "Predador Alfa",
+            "description": "Uma vez por rodada, você pode gastar uma ação de movimento e 2 PM para fazer um teste de Furtividade oposto à Percepção de uma criatura em alcance curto. Se vencer o teste, você “surge” adjacente ao alvo e é considerado invisível contra ele até o início do seu próximo turno. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel. Pré-requisitos: treinado em Furtividade, Lobo Solitário, ser duyshidakk."
+        },
+        {
+            "name": "Arsenal do Caçador",
+            "description": "Você soma sua Sabedoria na CD e nas rolagens de dano (ou de perda de vida) dos preparados alquímicos e venenos que usa, e o alcance em que pode arremessá-los aumenta em uma categoria (de curto para médio e de médio para longo). Além disso, se o item exigir uma ação de movimento para ser preparado (como acender o pavio de uma bomba ou aplicar um veneno em sua arma), você pode fazer isso como uma ação livre. Pré-requisitos: Predador Alfa, Saque Rápido."
+        },
+        {
+            "name": "Camuflagem do Caçador",
+            "description": "Quando você está sob camuflagem, seus inimigos aplicam a chance de erro por camuflagem a qualquer efeito contra você (não apenas ataques). Pré-requisitos: Camuflagem, Predador Alfa."
+        },
+        {
+            "name": "Exterminar Presa",
+            "description": "Quando usa Marca da Presa, para cada poder da distinção você recebe 1 PM temporário que só pode ser usado contra a criatura marcada. Além disso, se fizer um acerto crítico contra essa criatura, seu dano adicional por Marca da Presa também é multiplicado. Pré-requisitos: Espreitar, Predador Alfa."
+        },
+        {
+            "name": "Sentidos de Caçada",
+            "description": "Você enxerga perfeitamente no escuro, incluindo escuridão mágica, e ignora camuflagem por fumaça ou névoa. Pré-requisitos: Predador Alfa, Sentidos Aguçados."
+        }
+    ]
+}

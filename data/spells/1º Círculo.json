@@ -170,6 +170,33 @@
     {
       "area": "",
       "circle": "1",
+      "description": "Esta magia ofertada por Lin-Wu transfere temporariamente para uma arma as qualdades místicas do jade, um raro material de Tamu-ra. A arma é considerada mágica, pode ser sacada e guardada como ação livre e fornece +1 nos testes de ataque e rolagens de dano (isso conta como um bônus de encanto). Contra espíritos, os bônus fornecidos pela magia são dobrados.",
+      "duration": "cena",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+1 PM",
+          "description": "a arma causa +1d4 de dano de eletricidade."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "aumenta o bônus de ataque e dano em +1 (bônus máximo limitado pelo círculo máximo de magia que você pode lançar)."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "(Apenas Devotos de LinWu): muda o bônus de dano do aprimoramento acima para +2d4."
+        }
+      ],
+      "name": "Arma de Jade",
+      "range": "toque",
+      "resistance": "",
+      "target": "1 arma",
+      "type": "Divina 1 (Transmutação)"
+    },
+    {
+      "area": "",
+      "circle": "1",
       "description": "Você invoca a arma preferida de sua divindade (se tiver uma), que surge flutuando a seu lado. Uma vez por rodada, quando você sofre um ataque corpo a corpo, pode usar uma reação para que a arma cause automaticamente 2d6 pontos de dano do tipo da arma — por exemplo, uma espada longa causa dano de corte — no oponente que fez o ataque. Esta magia se dissipa se você morrer.",
       "duration": "cena",
       "effect": "",
@@ -263,6 +290,33 @@
     {
       "area": "",
       "circle": "1",
+      "description": "Escolha um tipo de energia entre ácido, eletricidade, fogo ou frio. Uma aura faiscante dessa energia emana de seu corpo — sempre que uma criatura adjacente acertar um ataque corpo a corpo em você, ela sofre 2d6 pontos de dano do tipo escolhido.",
+      "duration": "cena",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+2 PM",
+          "description": "muda o alcance para toque e o alvo para 1 criatura. Requer 2º círculo."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "aumenta o dano em +1d6 (total de dados limitado pelo círculo máximo de magia que você pode lançar). Requer 3º círculo."
+        },
+        {
+          "cost": "+3 PM",
+          "description": "muda a energia para essência. Requer 2º círculo."
+        }
+      ],
+      "name": "Armadura Elemental",
+      "range": "pessoal",
+      "resistance": "",
+      "target": "você",
+      "type": "Arcana 1 (Evocação)"
+    },
+    {
+      "area": "",
+      "circle": "1",
       "description": "Você fortalece uma arma mundana primitiva (sem custo em T$, como bordão, clava, funda ou tacape), uma arma natural ou um ataque desarmado. O dano da arma aumenta em um passo e ela é considerada mágica. Ao lançar a magia, você pode mudar o tipo de dano da arma (escolhendo entre corte, impacto ou perfuração).",
       "duration": "cena",
       "effect": "",
@@ -290,6 +344,47 @@
       "resistance": "",
       "target": "1 arma (veja texto)",
       "type": "Divina 1 (Transmutação)"
+    },
+    {
+      "area": "",
+      "circle": "1",
+      "description": "Outrora chamada Armamento de Allihanna, esta magia recentemente recebeu um novo nome — com implicações curiosas. Utilizada pela primeira vez por Lisandra de Galrasia, diz-se que a verdadeira origem da magia estaria relacionada a seu pai, Arsenal, então mortal.\nVocê invoca uma arma a sua escolha, em uma versão de madeira mágica que fornece +1 nos testes de ataque e rolagens de dano (isso conta como um bônus de encanto) e conta como uma arma primitiva para efeitos como a magia Armamento da Natureza. Se for uma arma de disparo, ela produz sua própria munição (mas você pode usar munição normal, se quiser). Arsenal de Allihanna não cria armas complexas (como bestas ou armas de fogo) e seus efeitos só funcionam em suas mãos.",
+      "duration": "cena",
+      "effect": "arma criada em sua mão",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+2 PM",
+          "description": "aumenta o bônus em +1 (bônus máximo limitado pelo círculo máximo de magia que você pode lançar)."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "a arma, ou sua munição, é recoberta de espinhos. Ela causa +1d6 pontos de dano e o alvo do ataque fica sangrando."
+        },
+        {
+          "cost": "+3 PM",
+          "description": "(Apenas Devotos de Allihanna ou Dahllan): muda o alvo para uma planta e o alcance para toque. A planta manifesta uma arma corpo a corpo simples de madeira Tollon e uma armadura de couro batido reforçada. Se você tiver o suplemento Ameaças de Arton, ela pode manifestar uma espada espinhenta ou um fruto da espada-mãe (p. 245). Se estiver apto, você empunha/veste os itens como ação livre e eles desaparecem quando a magia acaba. Requer 2º círculo."
+        }
+      ],
+      "name": "Arsenal de Allihanna",
+      "range": "pessoal",
+      "resistance": "",
+      "target": "",
+      "type": "Divina 1 (Transmutação)"
+    },
+    {
+      "area": "",
+      "circle": "1",
+      "description": "Esta estranha magia conjura um grupo de criaturas agressivas que imediatamente atacam quem está por perto… Inclusive o conjurador e seus aliados!\nAs criaturas são feitas de energia e representam um encontro, preparado pelo mestre, de ND igual ao nível do conjurador. Elas surgem em alcance curto e agem imediatamente após o turno do conjurador, atacando quem estiver por perto (decida aleatoriamente). As criaturas lutam até a morte ou até 1 minuto, quando então desaparecem, e não deixam corpos nem tesouro.\nA função original da magia é incerta. Estudiosos acreditam ser fruto de um experimento falho, ou uma tentativa de conjurar alguma criatura específica. De qualquer forma, hoje é utilizada para treinar aventureiros ou causar distrações em situações específicas.\nComponente Material: miniaturas em metal de criaturas (T$ 25 por nível do conjurador).",
+      "duration": "especial",
+      "effect": "grupo de criaturas conjuradas",
+      "execution": "padrão",
+      "implements": [],
+      "name": "Assobio Perigoso",
+      "range": "pessoal",
+      "resistance": "",
+      "target": "",
+      "type": "Arcana 1 (Convocação)"
     },
     {
       "area": "",
@@ -344,6 +439,41 @@
       "resistance": "",
       "target": "Aliados",
       "type": "Divina 1 (Encantamento)"
+    },
+    {
+      "area": "",
+      "circle": "1",
+      "description": "Uma mão mágica surge diante do alvo e o esbofeteia na face, ou em outra parte vulnerável, desaparecendo em seguida. O golpe não causa dano, mas é bastante humilhante. Se o alvo falhar na resistência, fica desprevenido por 1 rodada e vulnerável; se passar, fica apenas vulnerável por 1 rodada.",
+      "duration": "instantânea",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+1 PM",
+          "description": "alvos que falhem na resistência ficam vulneráveis pela cena."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "muda o alvo para 1 criatura."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "em vez do normal, a mão dá leves tapinhas que acalmam os alvos e anulam uma condição entre abalado, alquebrado, apavorado e frustrado. Requer 2° círculo."
+        },
+        {
+          "cost": "+3 PM",
+          "description": "alvos que falhem na resistência ficam desprevenidos por 1d4+1 rodadas, em vez de apenas 1."
+        },
+        {
+          "cost": "+5 PM",
+          "description": "(Apenas Devotos de Nimb): afeta todos os alvos válidos a sua escolha dentro do alcance."
+        }
+      ],
+      "name": "Bofetada de Nimb",
+      "range": "curto",
+      "resistance": "Vontade parcial",
+      "target": "1 humanoide",
+      "type": "Divina 1 (Evocação)"
     },
     {
       "area": "",
@@ -713,6 +843,33 @@
     {
       "area": "",
       "circle": "1",
+      "description": "Você analisa uma criatura em busca de pontos fracos e outras características. Para isso, como parte do efeito da magia, você faz um teste de Misticismo para identificar criatura contra o alvo (independente do tipo dele) com um bônus de +10.",
+      "duration": "instantânea",
+      "effect": "",
+      "execution": "movimento",
+      "implements": [
+        {
+          "cost": "+1 PM",
+          "description": "aumenta o bônus no teste em +5."
+        },
+        {
+          "cost": "+1 PM",
+          "description": "além do normal, sua próxima rolagem de dano contra a criatura nessa cena ignora 10 pontos da redução de dano dela. Requer 2° círculo."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "além do normal, você recebe +2 em testes contra a criatura até o fim da cena. Requer 2° círculo."
+        }
+      ],
+      "name": "Descobrir Fraqueza",
+      "range": "curto",
+      "resistance": "Vontade evita",
+      "target": "1 criatura",
+      "type": "Arcana 1 (Adivinhação)"
+    },
+    {
+      "area": "",
+      "circle": "1",
       "description": "Esta magia emite um som alto e agudo. O alvo sofre 1d8+2 pontos de dano de impacto (ou o dobro disso e ignora RD se for um construto ou objeto mundano) e fica Atordoado por uma rodada (apenas uma vez por cena). Um teste de Fortitude reduz o dano à metade e evita o atordoamento. Despedaçar anula Transmutar Objetos.",
       "duration": "instantânea",
       "effect": "",
@@ -775,6 +932,33 @@
     {
       "area": "",
       "circle": "1",
+      "description": "Esta magia torna a aparência do alvo desinteressante, como se ele fosse parte da paisagem, algo perdido na bagunça ou mais um na multidão. O alvo não se torna invisível, ainda é percebido como uma criatura ou objeto; o encantamento apenas desvia a atenção dos observadores para outras pessoas ou elementos ao redor. Testes de Investigação e Percepção contra o alvo sofrem uma penalidade de –10.\nEm combate, enquanto Discrição estiver ativa, todos os inimigos que iniciarem seus turnos a até 9m do alvo devem fazer um teste de Vontade. Se falharem, qualquer ação hostil que realizarem ignora a criatura. Esta magia se dissipa se você causar dano a qualquer criatura.",
+      "duration": "cena",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+1 PM",
+          "description": "muda o alvo para 1 criatura. Requer 2º círculo."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "aumenta a penalidade em testes para –15. Requer 2º círculo."
+        },
+        {
+          "cost": "+3 PM",
+          "description": "além do normal, o alvo não pode ser detectado por magias de adivinhação. Requer 4° círculo."
+        }
+      ],
+      "name": "Discrição",
+      "range": "pessoal ou toque",
+      "resistance": "Vontade anula",
+      "target": "você ou 1 objeto",
+      "type": "Universal 1 (Encantamento)"
+    },
+    {
+      "area": "",
+      "circle": "1",
       "description": "Você muda a aparência do alvo, incluindo seu equipamento. Isso inclui altura, peso, tom de pele, cor de cabelo, timbre de voz etc. O alvo recebe +10 em testes de Enganação para disfarce. O alvo não recebe novas habilidades (você pode ficar parecido com outra raça, mas não ganhará as habilidades dela), nem modifica o equipamento (uma espada longa disfarçada de bordão continua funcionando e causando dano como uma espada).",
       "duration": "cena",
       "effect": "",
@@ -810,6 +994,37 @@
     {
       "area": "",
       "circle": "1",
+      "description": "Esta magia busca algo de grande interesse pessoal (uma pessoa, um item, uma lembrança...) na memória do alvo e produz uma breve ilusão disso, visível a todos os presentes. Não é necessário que você conheça o interesse do alvo, a própria magia faz essa revelação. A magia, entretanto, não é capaz de revelar detalhes minuciosos (como o nome de uma pessoa ou item desejado), produzindo uma versão “genérica” do objeto de interesse.\nNão importando a natureza da distração, se falhar em seu teste de Vontade, o alvo fica desprevenido durante 1 rodada.",
+      "duration": "instantânea",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+1 PM",
+          "description": "além do normal, se falhar no teste de Vontade o alvo também sofre –5 em testes de Diplomacia e Intimidação até o fim da cena."
+        },
+        {
+          "cost": "+1 PM",
+          "description": "muda o alvo para 1 criatura. Requer 2º círculo."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "em vez de desprevenido, o alvo fica atordoado (apenas uma vez por cena)."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "afeta todos os alvos válidos a sua escolha dentro do alcance. Requer 2º círculo."
+        }
+      ],
+      "name": "Distração Fugaz",
+      "range": "curto",
+      "resistance": "Vontade anula",
+      "target": "1 humanoide",
+      "type": "Arcana 1 (Ilusão)"
+    },
+    {
+      "area": "",
+      "circle": "1",
       "description": "O alvo fica enfeitiçado (veja a página 394). Um alvo hostil ou que esteja envolvido em um combate recebe +5 em seu teste de resistência. Se você ou seus aliados tomarem qualquer ação hostil contra o alvo, a magia é dissipada e o alvo retorna à atitude que tinha antes (ou piorada, de acordo com o mestre).",
       "duration": "cena",
       "effect": "",
@@ -833,6 +1048,37 @@
       "resistance": "Vontade anula",
       "target": "1 humanóide",
       "type": "Arcana 1 (Encantamento)"
+    },
+    {
+      "area": "",
+      "circle": "1",
+      "description": "Por um breve instante, você adquire uma agilidade espantosa para se esquivar de algum perigo súbito. Você recebe +5 em um teste de Ladinagem para desarmar armadilhas ou de Reflexos.",
+      "duration": "instantânea",
+      "effect": "",
+      "execution": "reação",
+      "implements": [
+        {
+          "cost": "+2 PM",
+          "description": "muda o alcance para curto e o alvo para 1 criatura. Requer 2º círculo."
+        },
+        {
+          "cost": "+5 PM",
+          "description": "muda a execução para padrão e a duração para cena. Em vez do normal, o bônus se aplica a todos os testes destas perícias pela duração. Requer 3º círculo."
+        },
+        {
+          "cost": "+3 PM",
+          "description": "(Apenas Devotos de Hyninn): além do normal, o alvo pode usar Evasão (Tormenta20, p. 73)."
+        },
+        {
+          "cost": "+7 PM",
+          "description": "(Apenas Devotos de Hyninn): além do normal, o alvo pode usar Evasão Aprimorada (Tormenta20, p. 75). Requer 4° círculo."
+        }
+      ],
+      "name": "Escapatória de Hyninn",
+      "range": "pessoal",
+      "resistance": "",
+      "target": "você",
+      "type": "Divina 1 (Abjuração)"
     },
     {
       "area": "",
@@ -905,6 +1151,95 @@
       "type": "Universal 1 (Necromancia)"
     },
     {
+      "area": "",
+      "circle": "1",
+      "description": "Esta magia invoca um pequeno espírito feito de energia com aparência a sua escolha em um espaço desocupado. O espírito é fixo, permanecendo no lugar onde foi invocado. No começo dos seus turnos, o espírito dispara um projétil mágico contra o inimigo mais próximo em alcance médio, causando 1d6+1 pontos de dano de perfuração. O espírito não realiza outras ações e dispara projéteis a cada rodada, até que a magia termine, não existam mais inimigos no alcance ou o espírito seja destruído.\nO espírito tem Defesa igual à sua e 20 pontos de vida. Ele é imune a efeitos que pedem um teste de Fortitude ou Vontade e falha automaticamente em testes de Reflexos.",
+      "duration": "sustentada",
+      "effect": "1 criatura conjurada",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+2 PM",
+          "description": "aumenta o dano em um dado do mesmo tipo (total de dados limitado pelo círculo máximo de magia que você pode lançar)."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "muda o número de espíritos para dois. Requer 2º círculo."
+        },
+        {
+          "cost": "+5 PM",
+          "description": "muda o número de espíritos para três. Requer 3º círculo."
+        },
+        {
+          "cost": "+3 PM",
+          "description": "(Apenas Golem [energia elemental], Qareen ou Kallyanach): muda o dado de dano para d8 e o tipo de dano para o o tipo escolhido para sua habilidade racial elemental."
+        }
+      ],
+      "name": "Espírito Balístico",
+      "range": "curto",
+      "resistance": "",
+      "target": "",
+      "type": "Arcana 1 (Convocação)"
+    },
+    {
+      "area": "",
+      "circle": "1",
+      "description": "Esta magia enche o alvo de disposição, apagando o medo (e bom senso) em seu coração e impedindo-o de ser intimidado por desafios árduos.\nO alvo se torna imune a medo e recebe +1 em testes de ataque quando luta em desvantagem (um encontro contra o dobro de inimigos que seu grupo, ou com ND maior que o do grupo).",
+      "duration": "cena",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+2 PM",
+          "description": "aumenta o bônus em testes de ataque em +1 (bônus máximo limitado pelo círculo máximo de magia que você pode lançar)."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "muda a execução para reação e a duração para 1 rodada. Em vez do normal, o alvo recebe imunidade a medo e +5 em Vontade. Requer 2° círculo."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "muda o alvo para área de esfera com 3m de raio. Você e todos os aliados na área são afetados pela magia. Requer 2º círculo."
+        },
+        {
+          "cost": "+1 PM",
+          "description": "(Apenas Devotos de Valkaria): muda o alcance para toque e o alvo para 1 criatura."
+        }
+      ],
+      "name": "Euforia de Valkaria",
+      "range": "pessoal",
+      "resistance": "",
+      "target": "você",
+      "type": "Divina 1 (Encantamento)"
+    },
+    {
+      "area": "",
+      "circle": "1",
+      "description": "Se acertar seu próximo ataque no alvo, ele se torna um acerto crítico. Se for um crítico naturalmente, em vez disso seu multiplicador aumenta em +1.",
+      "duration": "1 rodada",
+      "effect": "",
+      "execution": "movimento",
+      "implements": [
+        {
+          "cost": "+2 PM",
+          "description": "muda o alvo para 1 criatura. Requer 2º círculo."
+        },
+        {
+          "cost": "+5 PM",
+          "description": "em vez do normal, a magia afeta 1 alvo sob efeito de uma condição mental. Requer 3º círculo."
+        },
+        {
+          "cost": "+7 PM",
+          "description": "(Apenas Devotos de Thwor): se o ataque for um acerto crítico naturalmente, em vez do normal ele causa o efeito de um golpe de misericórdia (Tormenta20, p. 235). Requer 5º círculo."
+        }
+      ],
+      "name": "Execução de Thwor",
+      "range": "curto",
+      "resistance": "Vontade anula",
+      "target": " 1 humanoide sob efeito de uma condição de medo",
+      "type": "Divina 1 (Necromancia)"
+    },
+    {
       "area": "Cone de 6m",
       "circle": "1",
       "description": "Um leque de chamas irrompe de suas mãos, causando 2d6 pontos de dano de fogo às criaturas na área.",
@@ -930,6 +1265,157 @@
       "resistance": "Reflexos reduz à metade",
       "target": "",
       "type": "Arcana 1 (Evocação)"
+    },
+    {
+      "area": "",
+      "circle": "1",
+      "description": "Ao lançar esta magia, você descobre se existe algum tesouro em alcance longo. Para este efeito, “tesouro” é qualquer acúmulo de itens valiosos (acima do dinheiro inicial de um personagem do seu nível) que não estejam sendo carregados ou vestidos por uma criatura inteligente.\nVocê sabe se há tesouros na área, mas não recebe nenhuma outra informação a respeito, como a direção ou localização do tesouro, seu valor exato, obstáculos no caminho... nada disso é informado pela magia.",
+      "duration": "cena",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+1 PM",
+          "description": "muda o alcance para toque, o alvo para um item recém-encontrado e a duração para instantânea. Em vez do normal, você recebe +5 em testes de perícia para identificar o item."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "além do normal, você recebe +5 em testes de perícia para localizar o tesouro."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "em vez do normal, quando você rola qualquer dado para definir um tesouro, pode rolar dois dados e escolher qual resultado usar."
+        }
+      ],
+      "name": "Farejar Fortuna",
+      "range": "pessoal",
+      "resistance": "",
+      "target": "você",
+      "type": "Arcana 1 (Adivinhação)"
+    },
+    {
+      "area": "",
+      "circle": "1",
+      "description": "Esta magia lança uma flecha luminosa contra o alvo, que sofre 2d8+2 pontos de dano de luz e fica ofuscado por 1 rodada. Passar no teste de resistência reduz o dano à metade e evita a condição.",
+      "duration": "instantânea",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+1 PM",
+          "description": "muda o alvo para uma criatura que tenha causado dano a você ou a seus aliados na última rodada e os dados de dano da magia para d10."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "aumenta o dano em +1d8+1."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "aumenta o número de alvos em +1 (número de alvos adicionais limitado pelo círculo máximo de magia que você pode lançar)."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "(Apenas Arcanos): alvos que falhem na resistência ficam cegos por 1 rodada e então ofuscados. Requer 2º círculo."
+        },
+        {
+          "cost": "+3 PM",
+          "description": "(Apenas Arqueiros de Lenórienn): muda o alcance para pessoal, o alvo para seu arco arcano, a duração para sustentada e a resistência para nenhuma. Em vez do normal, o alvo emite luz como uma tocha e causa +2d8+2 pontos de dano de luz. Criaturas que sofram dano do arco ficam ofuscadas (veja Arqueiro de Lenórienn em Heróis de Arton)."
+        },
+        {
+          "cost": "+1 PM",
+          "description": "(Apenas Elfos): muda o alvo para 1 duyshidakk ou 1 devoto de Aharadak, Tauron ou Thwor. Muda os dados de dano para d10."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "(Apenas Divinos): além do normal, para cada alvo que falhar na resistência, o próximo aliado que causar dano a ele recebe uma quantidade de PV temporários igual à metade do dano causado pela magia. Requer 2º círculo."
+        }
+      ],
+      "name": "Flecha de Luz",
+      "range": "médio",
+      "resistance": "Reflexos parcial",
+      "target": "1 criatura",
+      "type": "Universal 1 (Evocação)"
+    },
+    {
+      "area": "raio de 9m",
+      "circle": "1",
+      "description": "Você emana uma aura refrescante, que envolve você e aliados na área. A aura purifica o ar ao redor, eliminando todo tipo de fumaça, poeira, gás nocivo, nuvem ácida ou veneno de inalação, exceto se forem gerados por magias de 2º círculo ou maior.",
+      "duration": "instantânea",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+2 PM",
+          "description": "aumenta em 1 o círculo de magia afetado (limitado pelo círculo máximo de magia que você pode lançar)."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "muda o alcance para toque, a área para alvo (1 criatura) e a duração para 1 dia. Em vez do normal, suprime uma doença do alvo. Requer 2° círculo."
+        },
+        {
+          "cost": "+3 PM",
+          "description": "(Apenas Devotos de Lena): como acima, mas quando faz o teste da doença nesse dia, o alvo recebe um bônus de +5. Requer 3° círculo."
+        },
+        {
+          "cost": "+9 PM",
+          "description": "(Apenas Devotos de Lena): muda o alcance para toque, a área para alvo (1 criatura) e adiciona componente material (ervas no valor de T$ 1.000). O alvo recupera 1 ponto de atributo perdido por uma doença. Requer 4° círculo."
+        }
+      ],
+      "name": "Frescor de Lena",
+      "range": "pessoal",
+      "resistance": "",
+      "target": "",
+      "type": "Divina 1 (Abjuração)"
+    },
+    {
+      "area": "",
+      "circle": "1",
+      "description": "Para aqueles devotados a Lin-Wu, respeito aos ancestrais é algo levado muito a sério — pois no além-vida, eles podem julgar suas ações e trazer fortuna ou desgraça. Esta magia invoca a alma de um antepassado da vítima para acusá-la de erros passados e trazer punição. O alvo sofre 1d6 pontos de dano psíquico e 1d6 pontos de dano de luz e fica pasmo por 1 rodada (apenas na primeira vez que é alvo desta magia na cena). Se passar no teste de resistência, sofre apenas metade do dano e evita a condição.",
+      "duration": "instantânea",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+2 PM",
+          "description": "aumenta o número de alvos em +1. Requer 2° círculo."
+        },
+        {
+          "cost": "+4 PM",
+          "description": "aumenta o dano psíquico e de luz em +1d6 cada."
+        },
+        {
+          "cost": "+0 PM",
+          "description": "(Apenas Devotos de Lin-Wu): muda o alvo para 1 criatura inteligente (Int –3 ou maior)."
+        }
+      ],
+      "name": "Fúria dos Antepassados",
+      "range": "curto",
+      "resistance": "Vontade parcial",
+      "target": "1 humanoide",
+      "type": "Divina 1 (Evocação)"
+    },
+    {
+      "area": "",
+      "circle": "1",
+      "description": "Esta magia permite enxergar todas as possibilidades e consequências de um evento muito recente, ainda a tempo de escolher o melhor caminho. O alvo recebe +2 em um teste cujo dado já rolou, mas cujo resultado o mestre ainda não tenha declarado.",
+      "duration": "instantânea",
+      "effect": "",
+      "execution": "reação",
+      "implements": [
+        {
+          "cost": "+2 PM",
+          "description": "muda o alcance para curto e o alvo para 1 criatura. Requer 2º círculo."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "(Apenas Devotos de Thyatis): muda o bônus para 1d4+2."
+        }
+      ],
+      "name": "Futuro Melhor",
+      "range": "pessoal",
+      "resistance": "",
+      "target": "você",
+      "type": "Divina 1 (Adivinhação)"
     },
     {
       "area": "",
@@ -1023,6 +1509,64 @@
       "resistance": "Fortitude reduz à metade",
       "target": "1 criatura",
       "type": "Divina 1 (Necromancia)"
+    },
+    {
+      "area": "",
+      "circle": "1",
+      "description": "Esta maldição menor reduz a resiliência da vítima, tornando-a mais suscetível a efeitos nocivos. O alvo sofre –2 em testes de sua resistência originalmente mais baixa.",
+      "duration": "cena",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+1 PM",
+          "description": "além do normal, a vítima perde imunidade a venenos até o fim da próxima rodada. Requer 2° círculo."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "aumenta a penalidade em –1 (penalidade máxima limitada pelo círculo máximo de magia que você pode lançar)."
+        },
+        {
+          "cost": "+3 PM",
+          "description": "(Apenas Devotos de Sszzaas): além do normal, quando o alvo morre, deixa para trás um pequeno cristal com memórias e segredos. Ao resolver uma busca (Tormenta20, p. 278), um personagem pode quebrar um desses cristais para receber +2 em um teste de perícia. Requer 3° círculo."
+        }
+      ],
+      "name": "Infortúnio de Sszzaas",
+      "range": "curto",
+      "resistance": "Vontade anula",
+      "target": "1 criatura",
+      "type": "Divina 1 (Necromancia)"
+    },
+    {
+      "area": "",
+      "circle": "1",
+      "description": "Invocando a proteção de Khalmyr, você resiste a agressões potencialmente perigosas. Quando sofre dano não mágico, você recebe RD 10 contra esse dano.",
+      "duration": "instantânea",
+      "effect": "",
+      "execution": "reação",
+      "implements": [
+        {
+          "cost": "+1 PM",
+          "description": "muda a RD para 20. Requer 2° círculo."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "além do normal, para cada 10 pontos de dano que a magia reduzir em um turno, sua próxima rolagem de dano feita até a próxima rodada causa +1d6 pontos de dano de essência."
+        },
+        {
+          "cost": "+1 PM",
+          "description": "(Apenas Devotos de Khalmyr): muda a execução para padrão e a duração para cena, até ser descarregada. Em vez do normal, quando sofre dano não mágico, você pode receber RD 10 contra esse dano. A magia é descarregada após você usar este efeito pela terceira vez. Requer 3º círculo."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "(Apenas Devotos de Khalmyr): muda o alcance para toque e o alvo para 1 criatura."
+        }
+      ],
+      "name": "Instante Estoico",
+      "range": "pessoal",
+      "resistance": "",
+      "target": "você",
+      "type": "Divina 1 (Abjuração)"
     },
     {
       "area": "linha de 9m",
@@ -1120,6 +1664,52 @@
     {
       "area": "",
       "circle": "1",
+      "description": "Esta magia surgiu com o objetivo de invocar a força estupenda e estapafúrdia de certo bárbaro lendário, capaz de alcançar dimensões colossais. Infelizmente (ou talvez felizmente) seus efeitos reais são muito mais brandos, pouco se aproximando do poder descomunal e descabido do bruto em questão. Melhor assim.\nAo lançar a magia, você adquire uma fantástica Força +10. Um relevante efeito colateral, contudo, é que sua Inteligência cai para acachapantes –3. Não, não uma penalidade de –3; um valor –3! Penalidades no atributo são aplicadas após isso.\nPela duração de Maaais Klunc, você não pode lançar magias, nem é capaz de interromper esta magia de forma voluntária — nem mesmo soletrar essa palavra. O mestre pode (vai) exigir testes de Inteligência mesmo para as tarefas mentais mais simplórias, como achar a saída de um aposento vazio, diferenciar aliados de inimigos ou determinar qual extremidade da arma vai na direção do adversário.",
+      "duration": "cena",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+2 PM",
+          "description": "muda o alcance para toque e o alvo para 1 criatura voluntária (por que alguém seria voluntário?). Requer 2º círculo."
+        },
+        {
+          "cost": "+5 PM",
+          "description": "muda o alcance para curto e o alvo para 1 criatura involuntária (Vontade evita). Requer 3º círculo. Espera, o quê!?"
+        }
+      ],
+      "name": "Maaais Klunc",
+      "range": "pessoal",
+      "resistance": "",
+      "target": "você",
+      "type": "Arcana 1 (Transmutação)"
+    },
+    {
+      "area": "",
+      "circle": "1",
+      "description": "Não é comum descrever uma divindade maior do Panteão como “maluquinha”. Contudo, há ocasiões em que Wynna faz por merecer — como quando oferece estas dádivas caóticas. No início de seu turno, role 1d4. Em um resultado 4, você recebe 1 PM temporário que só pode ser gasto em aprimoramentos de magias. A magia é descarregada quando você recebe um total de 4 PM temporários. Você só pode lançar esta magia uma vez por cena.",
+      "duration": "cena, até ser descarregada",
+      "effect": "",
+      "execution": "movimento",
+      "implements": [
+        {
+          "cost": "+1 PM",
+          "description": "muda o alcance para curto e o alvo para 1 criatura. Requer 3° círculo."
+        },
+        {
+          "cost": "+0 PM",
+          "description": "(Apenas Devotos de Wynna): muda a execução para padrão, o ganho para +2 PM temporários e o limite para descarregar para +8 PM."
+        }
+      ],
+      "name": "Magia Dadivosa",
+      "range": "pessoal",
+      "resistance": "",
+      "target": "você",
+      "type": "Divina 1 (Transmutação)"
+    },
+    {
+      "area": "",
+      "circle": "1",
       "description": "Uma névoa espessa eleva-se de um ponto a sua escolha, obscurecendo toda a visão — criaturas a até 1,5m têm camuflagem e criaturas a partir de 3m têm camuflagem total. Um vento forte dispersa a névoa em 4 rodadas e um vendaval a dispersa em 1 rodada. Esta magia não funciona sob a água.",
       "duration": "cena",
       "effect": "nuvem com 6m de raio e 6m de altura",
@@ -1159,6 +1749,29 @@
     {
       "area": "",
       "circle": "1",
+      "description": "O suposto desaparecimento do Oceano se mostra particularmente misterioso pelo fato de que seus devotos ainda podem lançar magias. Você cria um globo protetor de água salgada que ocupa 1 quadrado e o acompanha, fornecendo a você camuflagem leve e cobertura leve.",
+      "duration": "sustentada",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+4 PM",
+          "description": "muda a duração para cena. Requer 3º círculo."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "(Apenas Devotos de Oceano): além do normal, você é considerado submerso. Isso exige que você prenda a respiração (a menos que possa respirar debaixo d’água), mas faz com que sofra apenas a metade do dano de armas de corte e impacto que não sejam armas naturais e é considerado submerso para benefícios de suas habilidades que dependam dessa situação."
+        }
+      ],
+      "name": "Orbe do Oceano",
+      "range": "pessoal",
+      "resistance": "",
+      "target": "você",
+      "type": "Divina 1 (Abjuração)"
+    },
+    {
+      "area": "",
+      "circle": "1",
       "description": "Em seu próximo teste de perícia, o alvo pode rolar dois dados e ficar com o melhor resultado",
       "duration": "1 rodada",
       "effect": "",
@@ -1186,6 +1799,79 @@
     {
       "area": "",
       "circle": "1",
+      "description": "Esta magia confere resistência extraordinária ao esqueleto, evitando ataques que causam fraturas graves. O alvo recebe redução de impacto 5 e fortificação 25%.\nDevido à rigidez do esqueleto, o corpo do alvo se torna incapaz de mudar de forma (como usar ou encerrar a habilidade Forma Selvagem). Se sofrer um efeito de metamorfose, em vez de mudar de forma o alvo perde 1d6 PV por PM gasto no efeito e fica lento. Essa condição não pode ser removida enquanto Ossos de Adamante estiver em efeito. Esta magia não afeta construtos.",
+      "duration": "cena",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+2 PM",
+          "description": "muda a redução de impacto para RD 5 e a fortificação para 50%. Requer 2º círculo."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "muda o alcance para toque e o alvo para 1 criatura viva."
+        }
+      ],
+      "name": "Ossos de Adamante",
+      "range": "pessoal",
+      "resistance": "",
+      "target": "você",
+      "type": "Arcana 1 (Transmutação)"
+    },
+    {
+      "area": "",
+      "circle": "1",
+      "description": "Você é cercado por uma aura de magnetismo pessoal que o torna mais interessante e atraente aos olhos dos demais. Você recebe +2 em perícias originalmente baseadas em Carisma (exceto Intimidação).",
+      "duration": "cena",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+2 PM",
+          "description": "muda o alcance para curto e o alvo para 1 criatura."
+        },
+        {
+          "cost": "+1 PM",
+          "description": "(Apenas Devotos de Marah): além do normal, o alvo recebe +1 em Carisma. Esse aumento não oferece PV ou PM adicionais."
+        },
+        {
+          "cost": "+3 PM",
+          "description": "(Apenas Devotos de Marah): muda a duração para 1 dia. Requer 2º círculo."
+        }
+      ],
+      "name": "Paixão de Marah",
+      "range": "pessoal",
+      "resistance": "",
+      "target": "você",
+      "type": "Divina 1 (Encantamento)"
+    },
+    {
+      "area": "",
+      "circle": "1",
+      "description": "Esta magia faz o conjurador adquirir, por algum tempo, a estranha percepção de tempo dos lefeu — que permite ver alguns momentos no futuro. O alvo recebe +1 em testes de ataque, em Reflexos e na Defesa.",
+      "duration": "cena",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+1 PM",
+          "description": "muda o alcance para curto e o alvo para 1 criatura."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "(Apenas Devotos de Aharadak): aumenta o bônus em +1 (bônus máximo limitado pelo círculo máximo de magia que você pode lançar)."
+        }
+      ],
+      "name": "Percepção Rubra",
+      "range": "pessoal",
+      "resistance": "",
+      "target": "você",
+      "type": "Universal 1 (Adivinhação)"
+    },
+    {
+      "area": "",
+      "circle": "1",
       "description": "Amaldiçoa os alvos, que recebem –1 em testes de ataque e rolagens de dano. Perdição anula Bênção.",
       "duration": "cena",
       "effect": "",
@@ -1201,6 +1887,83 @@
       "resistance": "nenhuma",
       "target": "Criaturas Escolhidas",
       "type": "Divina 1 (Necromancia)"
+    },
+    {
+      "area": "",
+      "circle": "1",
+      "description": "Com a proteção de Tenebra, você emana uma aura de sombras com 6m de raio. As sombras se movem de formas estranhas, com rangidos e gemidos sem explicação, vultos fugidios nas janelas e faces macabras urrando para sumir no instante seguinte. As demais criaturas na área sofrem –5 em testes de Percepção. Medo.",
+      "duration": "cena",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+2 PM",
+          "description": "muda o efeito para aura de 9m."
+        },
+        {
+          "cost": "+5 PM",
+          "description": "muda o alcance para toque e o alvo para 1 criatura ou objeto. O alvo emana a aura."
+        },
+        {
+          "cost": "+5 PM",
+          "description": "você pode escolher quais criaturas são afetadas pela aura. Requer 2º círculo."
+        },
+        {
+          "cost": "+9 PM",
+          "description": "muda o alcance para curto, o alvo para área (esfera de 6m de raio), a execução para 1 hora, a duração para permanente e adiciona componente material (incenso e óleos no valor de T$ 1.000). Requer 5° círculo."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "(Apenas Devotos de Tenebra): adiciona resistência (Vontade parcial). Além do normal, criaturas que comecem seu turno dentro da área ficam abaladas. Passar no teste de resistência evita a condição e impede que a criatura seja abalada por esta magia até o fim da cena. Requer 2° círculo."
+        }
+      ],
+      "name": "Perturbação Sombria",
+      "range": "pessoal",
+      "resistance": "",
+      "target": "você",
+      "type": "Divina 1 (Ilusão)"
+    },
+    {
+      "area": "",
+      "circle": "1",
+      "description": "Por um breve momento, você manifesta uma pequena parte da força e majestade das grandes feras dracônicas: a capacidade de criar elementos em sua forma mais pura. Até o fim do seu turno, a CD para resistir às suas habilidades mágicas que causam dano de ácido, eletricidade, fogo ou frio aumenta em +2.",
+      "duration": "1 turno",
+      "effect": "",
+      "execution": "movimento",
+      "implements": [
+        {
+          "cost": "+2 PM",
+          "description": "aumenta a CD em +1 (bônus máximo limitado pelo círculo máximo de magias que você pode lançar). Requer 3° círculo."
+        },
+        {
+          "cost": "+1 PM",
+          "description": "(Apenas Devotos de Kallyadranoch): além do normal, criaturas que falhem nos testes de resistência contra suas habilidades mágicas sofrem uma condição baseada no tipo de dano. Ácido: vulnerável até o fim da cena. Eletricidade: atordoado por 1 rodada (apenas uma vez por cena). Fogo: em chamas e vulnerável enquanto estiver em chamas. Frio: lento até o fim da cena. Requer 2° círculo."
+        }
+      ],
+      "name": "Poder de Kallyadranoch",
+      "range": "pessoal",
+      "resistance": "",
+      "target": "você",
+      "type": "Divina 1 (Evocação)"
+    },
+    {
+      "area": "",
+      "circle": "1",
+      "description": "Esta magia cria um vínculo poderoso entre você e seus pertences, dificultando sua perda ou roubo. Você recebe +5 em testes contra as manobras desarmar e quebrar, e de Percepção contra punga (veja Ladinagem) para roubá-lo. Além disso, se tiver o item tirado de você involuntariamente e ele estiver em alcance curto, você pode invocá-lo às suas mãos com uma ação livre.",
+      "duration": "1 dia",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+2 PM",
+          "description": "(Apenas Devotos de Arsenal): além do normal, você também pode convocar uma arma à sua mão mesmo se ela tiver sido arremessada voluntariamente."
+        }
+      ],
+      "name": "Posse de Arsenal",
+      "range": "pessoal",
+      "resistance": "",
+      "target": "1 item empunhado",
+      "type": "Divina 1 (Convocação)"
     },
     {
       "area": "",
@@ -1263,6 +2026,33 @@
     {
       "area": "",
       "circle": "1",
+      "description": "Esta antiga magia ofertada pelo Deus da Força ainda pode ser lançada mesmo após sua morte, preservada por divindades simpatizantes em honra a seu aspecto como protetor dos fracos. Quando a magia é lançada, luz sagrada envolve o alvo, que se torna um “protegido”; ele recebe +2 na Defesa e, quando se move em sua direção, o deslocamento dele é dobrado. Além disso, você sabe a direção e distância do alvo, e também se ele está ferido ou afetado por qualquer condição, independentemente da distância. Você não pode lançar esta magia enquanto for o “protegido” de outra criatura.",
+      "duration": "cena",
+      "effect": "",
+      "execution": "movimento",
+      "implements": [
+        {
+          "cost": "+2 PM",
+          "description": "além do normal, você pode usar habilidades mágicas com alcance de toque no alvo como se elas tivessem alcance curto."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "aumenta o bônus na Defesa em +2 (bônus máximo limitado ao dobro do círculo máximo de magia que você pode lançar). Requer 2º círculo."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "(Apenas Minotauros): além do normal, uma vez por rodada, quando uma criatura faz uma ação hostil contra o protegido, você pode gastar 1 PM para fazer um ataque corpo a corpo contra ela, desde que ela esteja em seu alcance pessoal."
+        }
+      ],
+      "name": "Proteção de Tauron",
+      "range": "curto",
+      "resistance": "",
+      "target": "1 criatura que não você",
+      "type": "Divina 1 (Abjuração)"
+    },
+    {
+      "area": "",
+      "circle": "1",
       "description": "Esta magia cria uma barreira mística invisível que fornece ao alvo +2 em testes de resistência.",
       "duration": "cena",
       "effect": "",
@@ -1290,6 +2080,33 @@
       "resistance": "",
       "target": "1 criatura",
       "type": "Divina 1 (Abjuração)"
+    },
+    {
+      "area": "",
+      "circle": "1",
+      "description": "Esta magia transforma uma de suas mãos em mitral, tornando-a prateada como esse metal. A mão continua capaz de realizar movimentos normais e segurar objetos — mas também pode golpear ou esmagar. Se não estiver segurando nada com essa mão, você recebe +1 em testes de ataque e na margem de ameaça com ataques desarmados, e pode causar dano letal ou não letal com eles. Por fim, você pode manipular venenos com essa mão sem chance de se envenenar acidentalmente.",
+      "duration": "cena",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+2 PM",
+          "description": "muda o bônus em testes de ataque e na margem de ameaça para +2."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "muda o alcance para toque e o alvo para 1 criatura. Requer 2º círculo."
+        },
+        {
+          "cost": "+5 PM",
+          "description": "além do normal, se você estiver empunhando uma arma ou um item esotérico com essa mão, ele recebe os benefícios do material especial mitral (mesmo que já possua outro material especial). Requer 2° círculo."
+        }
+      ],
+      "name": "Punho de Mitral",
+      "range": "pessoal",
+      "resistance": "",
+      "target": "você",
+      "type": "Arcana 1 (Transmutação)"
     },
     {
       "area": "",
@@ -1437,6 +2254,64 @@
     {
       "area": "",
       "circle": "1",
+      "description": "Ofertada pelo Deus dos Segredos, esta magia é utilizada por todos que buscam preservar a própria privacidade. Pela duração da magia, quaisquer criaturas que fizerem testes de perícia para obter alguma informação a seu respeito sofrem –5 nesses testes. Isso inclui testes de Percepção para notá- -lo, Conhecimento e Investigação para descobrir algo sobre você, Intuição para discernir suas mentiras e disfarces, e assim por diante.",
+      "duration": "1 dia",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+2 PM",
+          "description": "muda o alcance para toque e o alvo para 1 criatura. Requer 2º círculo."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "adiciona resistência (Vontade evita). Além do normal, criaturas que usem habilidades mágicas de detecção, como a magia Vidência, devem fazer um teste de Vontade. Se falharem, a habilidade não funciona e, pela duração da magia, novas tentativas de usar a mesma habilidade feitas pela mesma criatura falham automaticamente. Requer 2º círculo."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "(Apenas Devotos de Sszzaas): muda a penalidade para –10."
+        }
+      ],
+      "name": "Sigilo de Sszzaas",
+      "range": "pessoal",
+      "resistance": "",
+      "target": "você",
+      "type": "Divina 1 (Abjuração)"
+    },
+    {
+      "area": "",
+      "circle": "1",
+      "description": "Invocando a fúria do Deus-Sol, você cria uma breve e focada tempestade de areia, capaz de esfolar a carne dos ossos! Criaturas afetadas sofrem dano de corte conforme seu grau de proteção: 3d6 se estiverem sem armadura, 2d6 se estiverem com armadura leve e 1d6 se estiveren com armadura pesada.",
+      "duration": "instantânea",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+1 PM",
+          "description": "aumenta o dano em +1d6."
+        },
+        {
+          "cost": "+1 PM",
+          "description": "muda o tipo de dano para luz."
+        },
+        {
+          "cost": "+1 PM",
+          "description": "muda o alcance para pessoal e o alvo para área (cone de 9m). Requer 2° círculo."
+        },
+        {
+          "cost": "+1 PM",
+          "description": "(Apenas Devotos de Azgher): além do normal, criaturas que falhem na resistência ficam em chamas e sangrando."
+        }
+      ],
+      "name": "Siroco de Azgher",
+      "range": "curto",
+      "resistance": "Reflexos reduz à metade",
+      "target": "1 criatura",
+      "type": "Divina 1 (Evocação)"
+    },
+    {
+      "area": "",
+      "circle": "1",
       "description": "Um cansaço místico recai sobre o alvo. Se falhar na resistência, ele fica inconsciente e caído ou, se estiver envolvido em combate ou outra situação perigosa, fica Exausto por 1 rodada, depois fatigado. Em ambos os casos, se passar, o alvo fica Fatigado por 1d4 rodadas.",
       "duration": "cena",
       "effect": "",
@@ -1460,6 +2335,37 @@
       "resistance": "Vontade parcial",
       "target": "1 humanoide",
       "type": "Arcana 1 (Encantamento)"
+    },
+    {
+      "area": "",
+      "circle": "1",
+      "description": "Variantes desta magia, com diferentes nomes, são concedidas por Nimb, Hyninn, Sszzaas, Valkaria e até Thyatis. O objetivo, contudo, é sempre o mesmo: trapacear em jogos. Sorriso da Fortuna permite manipular os resultados de um jogo de azar. Quando fizer um teste de Jogatina (ou relacionado a algum jogo, a critério do mestre) você pode rolar dois dados e usar o melhor resultado. A magia é descarregada após você usar esse efeito três vezes.\nEsta magia afeta apenas jogos e itens mundanos, não mágicos. Além disso, embora funcione bem em pequenas tavernas, grandes cassinos empregam vigilantes atentos ao uso desta magia e suas variações.",
+      "duration": "1 dia, até ser descarregada",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+2 PM",
+          "description": "aumenta em +1 o total de usos antes de a magia ser descarregada."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "muda a execução para reação, o alcance para curto e o alvo para 1 criatura. Além disso, você lança a magia usando apenas concentração (Tormenta20, p. 170). Em vez do normal, a magia confunde um dos jogadores presentes, que rola seu teste de Jogatina com dois dados e usa o pior resultado."
+        },
+        {
+          "cost": "+3 PM",
+          "description": "além do normal, você pode escolher um “número da sorte”. Se o número da sorte for rolado em qualquer um dos dados, o resultado conta como um 20 natural. Requer 2° círculo."
+        },
+        {
+          "cost": "+1 PM",
+          "description": "(Apenas Devotos de Hyninn): muda a execução para reação e a duração para instantânea. Em vez do normal, quando faz seu primeiro teste de uma perícia em uma cena, você pode rolar dois dados e usar o melhor resultado."
+        }
+      ],
+      "name": "Sorriso da Fortuna",
+      "range": "pessoal",
+      "resistance": "",
+      "target": "você",
+      "type": "Divina 1 (Evocação)"
     },
     {
       "area": "",
@@ -1533,6 +2439,68 @@
       "resistance": "Fortitude reduz à metade",
       "target": "1 criatura",
       "type": "Arcana 1 (Evocação)"
+    },
+    {
+      "area": "",
+      "circle": "1",
+      "description": "Criaturas de Allihanna seguem leis naturais. Monstros existem para violar essas leis. Após deformações horrendas, você se transforma em uma criatura do tipo monstro. Nessa forma, você recebe +5 em Intimidação, mas sofre –5 nas demais perícias baseadas em Carisma. Além disso, recebe uma arma natural de um tipo a sua escolha entre chifre, ferrão e mordida (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com essa arma natural.",
+      "duration": "cena",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+1 PM",
+          "description": "a margem de ameaça de suas armas naturais aumenta em +1."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "o dano de suas armas naturais aumenta em um passo. Requer 3° círculo."
+        },
+        {
+          "cost": "+5 PM",
+          "description": "(Apenas Devotos de Megalokk): além do normal, você recebe redução de dano 5.Requer 2º círculo."
+        }
+      ],
+      "name": "Toque de Megalokk",
+      "range": "pessoal",
+      "resistance": "",
+      "target": "você",
+      "type": "Divina 1 (Transmutação)"
+    },
+    {
+      "area": "",
+      "circle": "1",
+      "description": "A magia melhora a precisão da arma, aumentando seu alcance em um passo (de curto para médio e de médio para longo). Se o alcance da arma já é longo, ele é dobrado. Os efeitos desta magia contam como um bônus de encanto.",
+      "duration": "cena",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+1 PM",
+          "description": "a arma ignora camuflagem leve e penalidades por cobertura leve."
+        },
+        {
+          "cost": "+1 PM",
+          "description": "além do normal, a arma fornece +1 em testes de ataque e rolagens de dano feitos dentro do seu alcance original."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "aumenta o bônus do aprimoramento acima em +1 (bônus máximo limitado pelo círculo máximo de magia que você pode lançar)."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "a margem de ameaça da arma aumenta em +1. Requer 2° círculo."
+        },
+        {
+          "cost": "+5 PM",
+          "description": "muda o alvo para uma arma de arremesso e a duração para sustentada. Em vez do normal, a arma recebe o benefício do encanto dançarina. Requer 3° círculo."
+        }
+      ],
+      "name": "Toque do Horizonte",
+      "range": "toque",
+      "resistance": "",
+      "target": "1 arma de ataque à distância",
+      "type": "Arcana 1 (Transmutação)"
     },
     {
       "area": "",
@@ -1680,6 +2648,29 @@
       "resistance": "",
       "target": "você",
       "type": "Arcana 1 (Necromancia)"
+    },
+    {
+      "area": "",
+      "circle": "1",
+      "description": "Iluminada por Tanna-Toh, sua mente transborda de argumentos e informações. Você recebe +5 em Conhecimento, Diplomacia e Intimidação.",
+      "duration": "cena",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+2 PM",
+          "description": "muda o bônus para +10. Requer 2º círculo."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "(Apenas Devotos de Tanna-Toh): além do normal, você recebe +5 em Intuição e em testes de Investigação para interrogar."
+        }
+      ],
+      "name": "Voz da Razão",
+      "range": "pessoal",
+      "resistance": "",
+      "target": "você",
+      "type": "Divina 1 (Encantamento)"
     },
     {
       "area": "Quadrado de 3m ou 1 objeto",

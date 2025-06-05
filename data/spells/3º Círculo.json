@@ -200,6 +200,33 @@
     {
       "area": "",
       "circle": "3",
+      "description": "Manipulando energias necromânticas, você concentra sua força vital em uma parte específica do seu corpo. Você recebe fortificação 100% e imunidade a sangramento.",
+      "duration": "cena",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+2 PM",
+          "description": "muda a duração para 1 dia."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "aumenta a cura do aprimoramento abaixo para +10 PV."
+        },
+        {
+          "cost": "+4 PM",
+          "description": "adiciona componente material (um coração de pedra no valor de T$ 100). Além do normal, quando seus pontos de vida são reduzidos a 0 ou menos, você cura 30 PV e a magia se encerra. Você só pode ser curado por este aprimoramento uma vez por dia."
+        }
+      ],
+      "name": "Coração Imortal",
+      "range": "pessoal",
+      "resistance": "",
+      "target": "você",
+      "type": "Universal 3 (Necromancia)"
+    },
+    {
+      "area": "",
+      "circle": "3",
       "description": "Você desperta a consciência de um animal ou planta. O alvo se torna um parceiro veterano de um tipo a sua escolha entre ajudante, combatente, fortão, guardião, médico, perseguidor ou vigilante. Se usar esta magia em um parceiro que já possua, o nível de poder de um de seus tipos aumenta em um passo (iniciante para veterano, veterano para mestre). Se já for um parceiro mestre, recebe o bônus de outro tipo de parceiro iniciante (entre as escolhas acima). O alvo se torna uma criatura racional, com Inteligência –1, e pode falar",
       "duration": "1 dia",
       "effect": "",

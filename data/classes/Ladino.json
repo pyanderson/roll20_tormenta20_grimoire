@@ -43,12 +43,36 @@
       "description": "A partir do 2º nível, quando sofre um efeito que permite um teste de Reflexos para reduzir o dano à metade, você não sofre dano algum se passar. Você ainda sofre dano normal se falhar no teste de Reflexos. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel."
     },
     {
+      "name": "Ameaça Brutal",
+      "description": "Se fizer um teste de Intimidação para assustar uma criatura na qual tenha causado dano desde a última rodada, você recebe +5 no teste e ela fica apavorada se você passar por 5 ou mais (em vez de 10 ou mais)."
+    },
+    {
       "name": "Assassinar",
       "description": "Você pode gastar uma ação de movimento e 3 PM para analisar uma criatura em alcance curto. Até o fim de seu próximo turno, seu primeiro Ataque Furtivo que causar dano a ela tem seus dados de dano extras dessa habilidade dobrados. Pré-requisito: 5º nível de ladino."
     },
     {
+      "name": "Assassino em Série",
+      "description": "Você pode gastar 2 PM para usar Ataque Furtivo uma segunda vez na rodada. Pré-requisito: 11º nível de ladino."
+    },
+    {
+      "name": "Ataque Furtivo Letal",
+      "description": "Quando você faz um ataque furtivo, sempre que rolar o resultado máximo ou um ponto abaixo em um dado da habilidade (por exemplo, um 5 ou 6 ao rolar 1d6), role um dado extra. Pré-requisito: 5º nível de ladino."
+    },
+    {
       "name": "Aumento de Atributo",
       "description": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
+    },
+    {
+      "name": "Bombardeiro Furtivo",
+      "description": "Você pode usar Ataque Furtivo ao utilizar preparados alquímicos de dano. Pré-requisito: treinado em Ofício (alquimista)."
+    },
+    {
+      "name": "Chefe de Gangue",
+      "description": "Seus capangas podem usar Ataque Furtivo +1d6 e Evasão, e podem fazer testes de Reflexos usando o seu valor nessa perícia. Pré-requisito: 5º nível de ladino."
+    },
+    {
+      "name": "Conhecimento Anatômico",
+      "description": "Contra humanoides, os dados do seu Ataque Furtivo aumentam em um passo. Pré-requisito: treinado em Cura."
     },
     {
       "name": "Contatos no Submundo",
@@ -59,8 +83,16 @@
       "description": "Na primeira rodada de cada combate, você pode gastar 2 PM para executar uma ação padrão adicional em seu turno. Pré-requisito: treinado em Furtividade."
     },
     {
+      "name": "Enganar os Olhos",
+      "description": "Quando você faz um teste de Acrobacia para passar por inimigo, a criatura o considera invisível por 1 rodada (Reflexos CD Des evita)."
+    },
+    {
       "name": "Escapista",
       "description": "Você recebe +5 em testes de Acrobacia para escapar, passar por espaço apertado e passar por inimigo e em testes para resistir a efeitos de movimento."
+    },
+    {
+      "name": "Finta Acrobática",
+      "description": "Você soma sua Destreza em testes de Enganação para fintar. Pré-requisitos: treinado em Acrobacia e Enganação."
     },
     {
       "name": "Fuga Formidável",
@@ -69,6 +101,14 @@
     {
       "name": "Gatuno",
       "description": "Você recebe +2 em Atletismo. Quando escala, não fica desprevenido e avança seu deslocamento normal, em vez de metade dele."
+    },
+    {
+      "name": "Improvisação Arcana",
+      "description": "Quando passa em um teste de Misticismo para lançar uma magia arcana que não conhece de um pergaminho, para cada 2 pontos pelos quais seu teste superar a CD, você pode gastar 1 PM em aprimoramentos da magia. Pré-requisito: treinado em Misticismo."
+    },
+    {
+      "name": "Investida Rasteira",
+      "description": "Se você acertar um ataque corpo a corpo contra uma criatura que sofreu uma investida desde a última rodada, ela fica desprevenida por 1 rodada e caída (Reflexos CD Des evita)."
     },
     {
       "name": "Ladrão Arcano",
@@ -87,8 +127,28 @@
       "description": "Você soma sua Inteligência em Ladinagem e Furtividade. Pré-requisito: Int 1."
     },
     {
+      "name": "Mestre Assassino",
+      "description": "Quando usa Assassinar, você pode gastar +2 PM para:\n• Usar esse poder como uma ação livre.\n• Rolar dois dados no teste de ataque contra a criatura analisada e usar o melhor resultado.\n• Ignorar a imunidade a acertos críticos da criatura analisada.\nVocê pode usar quantos desses modificadores quiser (desde que pague por eles!). Assim, se gastar +6 PM, você usa Assassinar como ação livre, rola dois dados no teste de ataque e afeta criaturas imunes. Pré-requisitos: treinado em Cura e Percepção, Assassinar, Ataque Furtivo Letal, 11º nível de ladino."
+    },
+    {
+      "name": "Mestre Envenenador",
+      "description": "Quando afeta uma criatura com um veneno, você pode gastar +2 PM para:\n• Aumentar quaisquer efeitos do veneno em mais um dado do mesmo tipo.\n• Aumentar a CD para resistir ao veneno em +5.\n• Ignorar a imunidade a venenos da criatura.\nVocê pode usar quantos desses modificadores quiser. Pré-requisitos: treinado em Cura, Veneno Persistente, 11º nível de ladino."
+    },
+    {
+      "name": "Papo Furado",
+      "description": "Quando você passa em um teste de Diplomacia contra uma criatura, se passar também em um teste de Enganação contra ela até o fim do seu próximo turno, a atitude da criatura em relação a você melhora em uma categoria. Pré-requisitos: treinado em Diplomacia e Enganação."
+    },
+    {
+      "name": "Precisão Furtiva",
+      "description": "O alcance do seu Ataque Furtivo aumenta em uma categoria (de curto para médio e de médio para longo). Além disso, quando você ataca uma criatura desprevenida ou que você esteja flanqueando, sua margem de ameaça aumenta em +2. Pré-requisitos: treinado em Pontaria, Ataque Furtivo."
+    },
+    {
       "name": "Oportunismo",
       "description": "Uma vez por rodada, quando um inimigo adjacente sofre dano de um de seus aliados, você pode gastar 2 PM para fazer um ataque corpo a corpo contra este inimigo. Pré-requisito: 6º nível de ladino."
+    },
+    {
+      "name": "Rei do Crime",
+      "description": "Você é uma lenda dos becos e das tavernas, e todos querem lhe servir para ter uma chance de progredir no submundo. Uma vez por cena, você pode gastar 6 PM para invocar 2d4+2 assassinos capangas em espaços desocupados em alcance curto. Os assassinos possuem deslocamento 9m, Defesa 17, dano 1d6+5 de corte cada e Ataque Furtivo +4d6. Uma vez por rodada, quando você é alvo de um efeito, pode sacrificar um capanga adjacente para ignorar o efeito. Veja “Capangas”, p. 240. Pré-requisitos: Chefe de Gangue, Contatos no Submundo, Mente Criminosa, 17º nível de ladino."
     },
     {
       "name": "Rolamento Defensivo",
@@ -99,12 +159,28 @@
       "description": "Quando você causa dano com um ataque furtivo, para cada 1d6 de dano de seu ataque furtivo, você recebe 1 PM temporário e a criatura perde 1 ponto de mana (se tiver). Você só pode usar este poder uma vez por cena contra uma mesma criatura. Pré-requisitos: Truque Mágico, 7º nível de ladino."
     },
     {
+      "name": "Sabotagem Corrosiva",
+      "description": "Quando faz um teste de Ladinagem para abrir fechaduras ou sabotar, você pode gastar um ácido para receber um bônus de +5 nesse teste. Além disso, pode gastar uma ação de movimento e um ácido para fazer um teste de Ladinagem oposto ao teste de Reflexos de uma criatura em alcance curto. Se você vencer o teste oposto, a criatura fica desprevenida e sofre –5 em testes de ataque por 1 rodada."
+    },
+    {
       "name": "Saqueador de Tumbas",
       "description": "Você recebe +5 em testes de Investigação para encontrar armadilhas e em testes de resistência contra elas. Além disso, gasta uma ação padrão para desabilitar mecanismos, em vez de 1d4 rodadas (veja a perícia Ladinagem)."
     },
     {
+      "name": "Senhor do Submundo",
+      "description": "Você é uma figura sombria e sua mera presença incita medo e respeito. Você recebe +5 em Intimidação e imunidade a medo. Além disso, quando você fica adjacente a outra criatura (independente de quem tenha se movido), você pode deixá-la apavorada e desprevenida por 1 rodada. Uma mesma criatura só pode ser afetada por este poder uma vez por cena. Pré-requisitos: treinado em Intimidação, 17º nível de ladino."
+    },
+    {
       "name": "Sombra",
       "description": "Você recebe +2 em Furtividade, não sofre penalidade em testes de Furtividade por se mover no seu deslocamento normal e reduz a penalidade por atacar e fazer outras ações chamativas para –10. Pré-requisito: treinado em Furtividade."
+    },
+    {
+      "name": "Truque de Palco",
+      "description": "Escolha três magias arcanas de 1º círculo que possuam o aprimoramento truque. Você aprende e pode lançar essas magias (atributo-chave Inteligência), mas apenas com esse aprimoramento. Esta não é uma habilidade mágica — os efeitos provêm de prestidigitação (veja “Magias Simuladas”, p. 44). Pré-requisito: treinado em Atuação."
+    },
+    {
+      "name": "Truque do Chapéu",
+      "description": "Uma vez por rodada, você pode gastar uma ação de movimento para tirar e arremessar um item que esteja vestindo em uma criatura em alcance curto. Se fizer isso, você pode fazer um ataque com uma arma de arremesso, ou arremessar um preparado alquímico ou poção contra ela como parte dessa ação. Pré-requisito: treinado em Enganação."
     },
     {
       "name": "Truque Mágico",
@@ -121,6 +197,10 @@
     {
       "name": "Veneno Potente",
       "description": "A CD para resistir aos venenos que você usa aumenta em +5. Pré-requisito: treinado em Ofício (alquimista)."
+    },
+    {
+      "name": "Vestido Para a Ocasião",
+      "description": "Se estiver usando um traje da corte ou de viajante, você pode gastar uma ação completa e 1 PM para transformar esse item em outro item de vestuário mundano até o fim da cena. Isso fornece +5 em testes de Enganação para disfarce, além dos benefícios do novo item. Pré-requisito: treinado em Enganação."
     },
     {
       "name": "Esquiva Sobrenatural",

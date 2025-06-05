@@ -1,0 +1,38 @@
+{
+    "name": "Pistoleiro de Smokestone",
+    "admission": "Para se tornar um pistoleiro de Smokestone, o primeiro passo é encontrar Smokestone. Candidatos que nasceram na Cidade dos Fora da Lei e sobreviveram até agora já passaram por desgraças suficientes para estarem liberados desse requisito. Se você acha isso injusto, problema seu. Todo mundo sabe que pessoas de Smokestone são melhores, em todos os aspectos, do que todos os outros. Nasça no lugar certo da próxima vez!\nCerto, o candidato chegou a Smokestone. E agora?\nSua tarefa é permanecer vivo por pelo menos um ou dois meses na cidade e ser aceito pelos locais. Isso inclui conhecer e respeitar as leis não escritas de Smokestone. Não sabe que leis são essas? Aprender sobre elas faz parte da admissão! O candidato não precisa se preocupar. Caso ele descumpra alguma lei, mesmo sem saber, alguém vai educá-lo por meio de um duelo até a morte, ou então uma multidão vai prendê-lo num barril cheio de pólvora na praça central, para apedrejá-lo até que o infeliz exploda e pare de incomodar. Se nada disso acontecer, o candidato vai saber que está sendo aceito pelos locais quando começar a reclamar sobre forasteiros e não levar uns sopapos pela audácia.\nÉ claro, nem todo mundo pode sequer tentar se tornar um pistoleiro de Smokestone. O candidato não pode usar armaduras pesadas ou armas idiotas como espadas, lanças e arcos. Não pode usar magia arcana. Não pode ter um título de nobreza ou qualquer posição de autoridade — incluindo aquela condecoração que a baronesa concedeu como prêmio por uma missão bem-sucedida e que abre certas portas na corte. Smokestone não trata esses tipinhos com gentileza. Não pode cultuar nenhum deus. Candidatos que já tenham cometido o erro de ter títulos ou cultuar deuses devem renegá-los de forma pública e absoluta para ter chance de se tornar pistoleiros de Smokestone.\nPor fim, o candidato deve desafiar outro pistoleiro tão ou mais experiente que ele mesmo para um duelo e vencer. Repare que, segundo as leis de Smokestone, um duelo só é válido segundo certos parâmetros. Não sabe quais são? Passe mais tempo em Smokestone até aprender! Neste caso, “vencer o duelo” significa “matar o desgraçado”. Desnecessário dizer, o duelo deve ser travado com pistolas e nenhuma outra arma. Candidatos que encontram algum truque para burlar as limitações de um duelo logo acabam no barril, explodindo para a felicidade geral do povo.\nDizem que, na noite após esse duelo, há um requisito adicional. Há séculos corre o boato de que a invenção das armas de fogo tem influência demoníaca, e que o fundador de Smokestone fez um pacto com abissais. A última exigência viria na forma de um estranho que visita o candidato, pedindo para que ele assine um contrato com sangue. Ninguém sabe o que esse contrato diz, e o estranho nunca mais surge. Mas é claro que os pistoleiros de Smokestone não vendem a própria alma em troca de mira certeira e rapidez no gatilho…\nOu vendem?",
+    "abilities": [
+        {
+            "name": "O Código do Pistoleiro",
+            "description": "Há muitos tipos de pistoleiros no mundo, cada um com suas próprias crenças e costumes. Mas todos, sem exceção, acreditam em duas coisas: honra e pólvora. Certo, eles também acreditam que um verdadeiro pistoleiro não se rende a certas firulas, cultos e subordinações. Enfim, um pistoleiro não usa armaduras pesadas e escudos, nem armas que não sejam pistolas ou outras armas de fogo leves ou de uma mão (uma honrosa exceção é feita para versões híbridas dessas armas e adagas). Você pode mentir e trapacear à vontade, mas uma vez que tenha dado sua palavra ou feito uma promessa, ela é lei. Por fim, nada de cultuar deuses, seguir organizações formais ou ter qualquer tipo de título ou honraria oficial. Ah, e nada de lançar magias! Seus disparos são toda a mágica de que você precisa.\nA essa altura você já sabe como a banda toca, certo? Se pisar fora da linha e violar o código, seus PM vão-se embora mais rápido que uma bala e você só vai vê-los no dia seguinte."
+        },
+        {
+            "name": "Honra do Pistoleiro",
+            "description": "Você recebe +2 em rolagens de dano com armas de fogo leves e de uma mão. Contudo, você passa a seguir o Código do Pistoleiro."
+        },
+        {
+            "name": "Rápido no Gatilho",
+            "description": "Você recebe +2 em Iniciativa para cada poder da distinção que possui e, se for o primeiro na iniciativa, seus inimigos ficam desprevenidos contra você nessa rodada. Além disso, seu multiplicador de crítico contra criaturas desprevenidas aumenta em +1. Pré-requisitos: proficiência com armas de fogo, Saque Rápido."
+        },
+        {
+            "name": "Balada do Pistoleiro",
+            "description": "Se estiver empunhando uma ou mais armas de fogo, você pode gastar uma ação completa e uma quantidade de PM a sua escolha (limitada pela quantidade de munição dessas armas) para desferir uma série de disparos com elas. Faça um ataque à distância contra cada inimigo a sua escolha, até um limite de inimigos igual ao total de PM gastos. Então faça uma única rolagem de dano com um dado extra de dano do mesmo tipo e aplique-a em cada inimigo atingido. Pré-requisito: Morrer Não É Muita Vida."
+        },
+        {
+            "name": "Buscar Cobertura",
+            "description": "Uma vez por rodada, você pode gastar 1 PM para se mover até uma cobertura que possa alcançar com seu deslocamento (desde que tenha um caminho desimpedido até ela). Pré-requisito: Rápido no Gatilho."
+        },
+        {
+            "name": "Fornecedor de Smokestone",
+            "description": "Quando chega em uma comunidade equivalente a uma vila ou maior, você pode gastar 2 PM para fazer um teste de Carisma (CD 10). Se passar, enquanto estiver nessa comunidade, pode comprar armas de fogo de qualquer tipo e suas munições com 20% de desconto (não cumulativo com barganha e outros descontos) e pode conseguir qualquer cuidado ou manutenção necessários para essas armas. Pré-requisito: Rápido no Gatilho."
+        },
+        {
+            "name": "Morrer Não é Muita Vida",
+            "description": "Você aprendeu a se defender com o que tem. Quando se move 6m ou mais, você recebe +2 na Defesa e em Reflexos. Além disso, carrega um amuleto da sorte, como um tibar ou uma garrafinha de metal, que já salvou sua vida mais de uma vez. Uma vez por cena, quando sofre dano que o levaria a 0 PV ou menos, você pode ignorar esse dano. Pré-requisito: Buscar Cobertura."
+        },
+        {
+            "name": "Viajante das Planícies",
+            "description": "Você recebe um cavalo de guerra parceiro veterano. Caso já possua uma montaria fornecida por outra habilidade, em vez disso essa montaria se torna também um parceiro vigilante iniciante. Em ambos os casos, nessa montaria você não sofre a penalidade em testes de ataque à distância enquanto montado. Caso perca sua montaria, você pode treinar outra com uma semana de trabalho. Pré-requisitos: treinado em Cavalgar, Rápido no Gatilho."
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "name": "Pacificador",
+    "admission": "A jornada para se tornar um pacificador é feita de autoconhecimento. Ninguém ensina outra pessoa a ser um pacificador, nem mesmo em mosteiros de Lena, Marah ou Thyatis. Na verdade, em muitos lugares um candidato com essa ambição será alvo de chacotas, desconfiança ou desprezo. Em um quartel, será visto como um tolo ingênuo. Em um hospital, como um sanguinário que deseja apaziguar sua consciência. Apenas o próprio candidato pode entender seus motivos.\nTudo começa com uma decisão. O candidato deve anunciar a seus companheiros, ou a alguém de sua confiança, que está embarcando nessa jornada. As outras pessoas não precisam entender seus motivos, apenas saber que ele está tentando — para que também saibam se ele fraquejar ou fracassar.\nA partir desse momento, o candidato tem um compromisso consigo mesmo. Deve passar pelo menos algumas horas a cada dia treinando seu corpo e sua mente para o combate. Não basta simplesmente combater, ler tomos teóricos ou praticar golpes enquanto viaja: todos os dias, ele deve se dedicar unicamente à prática. Não há um período determinado para esse treinamento intensivo; ele dura até que o candidato se torne um pacificador. Se o treinamento falhar um dia sequer, pelo motivo que for, o candidato deve recomeçar todo o processo (incluindo a próxima parte) do zero.\nDurante o período de treinamento, o candidato deve participar de dez combates sob certas condições: deve estar na linha de frente, golpeando os inimigos e sofrendo golpes, sem nunca recuar. Não deve acabar o combate desacordado, caído, preso ou fora de ação por outro motivo. Deve ter a opção de matar um inimigo (ou seja, desferir o golpe final) e não fazê-lo, poupando sua vida. Por fim, ninguém, aliado ou inimigo, deve morrer nesses combates. Se o candidato fracassar em um desses combates (por exemplo, ficando desacordado), não há consequências negativas; ele apenas não conta o combate para o total de dez. Se, no entanto, ele deixar de treinar por um dia enquanto está travando esses combates, seu número total volta a zero.\nQuando cumpre esse requisito, o candidato deve se retirar para uma meditação profunda. No entanto, não é uma meditação serena e plácida: o candidato deve meditar sobre tudo que aprendeu enquanto treina arduamente, durante pelo menos doze horas. Se falhar, pode tentar no dia seguinte, mas ainda deve treinar em separado, ou tudo voltará à estaca zero. No fim desse período, caso seu corpo tenha aguentado o esforço e sua mente tenha absorvido os ensinamentos, ele se torna um pacificador. Não é um caminho glorioso... mas, para ele, é o único possível.",
+    "abilities": [
+        {
+            "name": "Código da Paz",
+            "description": "Você não acredita na morte como solução de conflitos. Por isso, não aceita matar, nem empregar violência verdadeira (em termos de jogo, causar dano letal). Se violar o código, você perde todos os seus PM e só pode recuperá-los a partir do próximo dia."
+        },
+        {
+            "name": "Armas da Paz",
+            "description": "Você adota o Código da Paz (veja o quadro) e se torna proficiente com qualquer arma que não cause dano ou que tenha a habilidade inata de causar dano não letal. Além disso, recebe +1 em testes de ataque e rolagens de dano com ataques que causam dano não letal."
+        },
+        {
+            "name": "Combate Pacífico",
+            "description": "Quando é atingido por um ataque corpo a corpo, você pode gastar 1 PM para fazer um teste de manobra. Se o resultado do seu teste for maior que o do atacante, você evita o ataque. Além disso, quando uma criatura atacá-lo e errar, você pode gastar 1 PM para fazer uma manobra contra essa criatura (desde que ela esteja em seu alcance). Você pode usar cada um desses efeitos uma vez por rodada. Pré-requisito: treinado em Luta."
+        },
+        {
+            "name": "Dor Sem Morte",
+            "description": "Quando faz um ataque que causa dano não letal, você pode gastar 1 PM. Se fizer isso e acertar o ataque, o oponente sofre uma condição a sua escolha entre fraco, frustrado ou lento (Fortitude CD For ou Des evita). Para cada poder da distinção que você possui, a CD para resistir a este efeito aumenta em +1. Pré-requisito: Combate Pacífico."
+        },
+        {
+            "name": "Golpe Paralisante",
+            "description": "Você pode gastar uma ação padrão e 3 PM para interromper o fluxo de energia corporal de uma criatura adjacente. A vítima fica paralisada (Fortitude CD For ou Des reduz para lenta). A cada rodada, a criatura pode gastar uma ação completa para fazer um novo teste de Fortitude. Se passar, liberta-se do efeito. Para cada poder da distinção que você possui, a CD para resistir a este efeito aumenta em +1. Metabolismo. Pré-requisito: Dor sem Morte."
+        },
+        {
+            "name": "Pacificação",
+            "description": "Sempre que derrotar um inimigo sem matá-lo, você recebe +10 PV e +2 PM cumulativos até o fim da aventura. A cada aventura, você pode receber esse benefício um número de vezes igual ao total de poderes da distinção que possui. Pré-requisito: Presença do Bem."
+        },
+        {
+            "name": "Presença do Bem",
+            "description": "Você pode gastar uma ação de movimento e 1 PM para fornecer +2 na Defesa e em testes de resistência a você e todos os aliados adjacentes até o fim da cena. O bônus se encerra para uma criatura se ela causar dano letal. Pré-requisito: Combate Pacífico."
+        }
+    ]
+}

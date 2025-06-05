@@ -1,0 +1,30 @@
+{
+    "name": "Sumo-Sacerdote",
+    "admission": "A escolha de um sumo-sacerdote é envolta em mistério. Muitos acreditam que os deuses tomam a decisão diretamente, mas há quem questione essa ideia, apontando ocasiões em que sumo-sacerdotes pareciam agir de maneiras contrárias aos valores da divindade. Tais contradições alimentam debates entre teólogos e fiéis.\nMesmo assim, existem pessoas com a ambição suprema (ou exagerada, diriam alguns) de se tornar um sumo-sacerdote. Isso não é um feito menor que conquistar a coroa de um grande reino, ou que derrotar um dos maiores vilões do mundo. Na verdade, a maior parte dos reis e rainhas tem influência muito menor que um sumo-sacerdote; a maior parte dos grandes heróis procura os sumo-sacerdotes em busca de conselhos ou ajuda. É a jornada de uma vida inteira, um objetivo grandioso que deve ocupar cada ato, cada decisão do candidato.\nPara aqueles que almejam isso ativamente, a busca pelo título é marcada por intensa competição, pois representa o maior reconhecimento possível de devoção e fé. Ao longo da história, os postos têm sido ocupados por inúmeros indivíduos de valor, cada um deixando sua marca permanente. Alguns mantiveram o título por décadas, enquanto outros o perderam rapidamente, apenas para lutar e recuperá-lo mais tarde. Outros são eternos — tirá-los do posto seria algo tão assombroso quanto expulsar a Tormenta de Arton!\nA maior parte dos teólogos diria que um candidato a sumo-sacerdote deve, antes de mais nada, ter um conhecimento profundo de sua religião, além de fé inabalável. Muitos também argumentariam que, sendo essa uma busca de anos ou décadas, o candidato deve abraçar o sacerdócio muito cedo e nunca se desviar desse caminho. Contudo, outros teólogos apresentariam vários exemplos de sumo-sacerdotes que não foram ou fizeram nada disso...\nExceto em casos muito raros (por exemplo, quando Azgher teve dois sumo-sacerdotes, evento que terminou muito mal...), apenas uma pessoa pode ocupar o cargo por vez. O candidato deve chamar a atenção da divindade com um ato ou vários de extrema relevância para as crenças da religião. Isso pode significar um desafio ao atual sumo-sacerdote, em combate ou outra forma de disputa, ou a resolução de algum conflito que o atual sumo-sacerdote falhou em resolver. Para aqueles que buscam este posto, entender o que a divindade exige faz parte da jornada.\nQualquer ato que motive um deus a escolher um novo sumo-sacerdote será sentido por toda Arton. O processo só ocorre discretamente quando o escolhido não almeja o posto, quando é alguém humilde que pode guiar os fiéis com sua simplicidade. Um candidato que realize tal ato pode ser iluminado pelo deus, tomado por uma compreensão súbita, elevado num facho de luz, aclamado por multidões ou até recebido pela divindade em seu reino. Para vultos dessa magnitude, não existem padrões.",
+    "abilities": [
+        {
+            "name": "Autoridade Divina",
+            "description": "Você é a autoridade máxima em uma igreja reconhecida pelos outros membros de sua fé. Você recebe o poder Autoridade Eclesiástica para sua divindade. Se já tiver esse poder, em vez disso recebe +2 em Religião e na CD de suas magias divinas."
+        },
+        {
+            "name": "Proteção Divina",
+            "description": "Você passa automaticamente em testes de resistência contra magias divinas lançadas por devotos de sua divindade. Pré-requisitos: treinado em Religião, devoto de um deus maior."
+        },
+        {
+            "name": "Bênção do Patrono",
+            "description": "Você recebe um poder concedido de seu deus, desde que cumpra seus pré-requisitos. Além disso, pode gastar uma ação de movimento para trocar um de seus poderes concedidos por outro. Para cada outro poder da distinção, você recebe um novo poder concedido. Este poder afeta apenas poderes recebidos por sua devoção. Pré-requisito: Proteção Divina."
+        },
+        {
+            "name": "Evolução Espiritual",
+            "description": "Para cada poder da distinção, você recebe +5 PV e +2 PM, e a CD de suas magias divinas e de seus poderes concedidos por sua divindade aumenta em +1. Pré-requisito: Proteção Divina."
+        },
+        {
+            "name": "Presente dos Deuses",
+            "description": "Você recebe a habilidade Magias, como um clérigo de nível igual ao dobro dos poderes da distinção que você possui. Se já possui essa habilidade, em vez disso soma sua Sabedoria no limite de PM que pode gastar em magias divinas e em seu total de PM (cumulativo com efeitos que já o fazem). Pré-requisito: Bênção do Patrono."
+        },
+        {
+            "name": "Punição Divina",
+            "description": "O sumo-sacerdote pode gastar uma ação padrão para cancelar as magias divinas e os poderes concedidos de um devoto de sua divindade em sua linha de visão (Von CD Sab, +1 por poder da distinção, evita e o devoto não pode mais ser punido por 1 dia). A punição pode ser revertida com uma ação padrão do sumo-sacerdote ou com uma missão sagrada realizada como parte de um rito (veja Religião em Tormenta20, p. 122). Pré-requisito: Bênção do Patrono."
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Médico de Salistick",
+    "admission": "Um médico de Salistick precisa ser certificado pelo Colégio Real de Médicos de Salistick, um processo que normalmente leva quase uma década de estudo intenso. É possível que um candidato sem todo esse tempo (como um aventureiro) consiga a certificação, mas isso exige dedicação ainda maior. A certificação, mais do que um diploma, é o resultado do conhecimento acumulado do candidato — assim, não existem médicos de Salistick sem o diploma.\nO candidato não pode ser devoto de nenhum deus. Embora o Colégio Real não tente controlar a vida do candidato após deixar a instituição, não aceita aqueles que, de antemão, confiam em forças invisíveis. O candidato deve então se apresentar ao Colégio Real, em Salistick, e solicitar uma audiência de avaliação. A audiência custa T$ 5.000 e possui duas etapas. A primeira é uma série de provas teóricas e práticas, aplicadas ao longo de uma semana. O Colégio conduz duas audiências a cada ano, em Pomo e Contenda, que costumam reunir dezenas de candidatos.\nCandidatos que sejam aprovados são convidados à segunda etapa: a elaboração de um trabalho acadêmico relacionado a algum tópico médico de interesse do candidato. A elaboração desse trabalho geralmente envolve pesquisa teórica e viagens a campo, e muitas vezes se torna o centro de alguma aventura do candidato (e potencialmente de seus companheiros). Uma vez que o trabalho seja concluído, ele deve ser apresentado a uma banca de avaliação no Colégio, em uma data a ser combinada entre o candidato e a própria banca. Se o trabalho for aprovado, o candidato é aceito como aluno iniciante do Colégio Real, e pode começar a última etapa de seu processo de admissão.\nUm aluno iniciante deve frequentar um conjunto de disciplinas obrigatórias, que ocupam um semestre, ministradas presencialmente no Colégio Real, em Salistick. Durante esse período, o candidato vai passar a maior parte de seu tempo em salas de aula, laboratórios e hospitais, onde terá contato com as técnicas médicas científicas desenvolvidas pelo Colégio Real. O candidato pode se ausentar por breves períodos para atender a assuntos pessoais, incluindo missões curtas, mas deverá obter uma autorização formal do corpo docente. Muitas vezes, a carga de trabalho é tão avassaladora que mesmo candidatos aventureiros não conseguem se afastar dos estudos. Afinal, estão tentando concentrar quase dez anos de informações, prática e familiaridade com a medicina em apenas seis meses!\nNo fim desse semestre vem uma das maiores provações da vida do candidato: a semana de provas. Descrita como “mais terrível que uma eternidade num Plano infernal”, “a razão pela qual uma batalha contra um lich parece divertida” e “uma área de Tormenta” por médicos veteranos, a semana de provas é uma série de testes incrivelmente difíceis, que medem o que o candidato aprendeu ao longo do semestre. Caso o candidato não passe em uma única prova, deve repetir o semestre inteiro. Candidatos que falhem duas vezes perdem a opção de fazer todo o curso em um semestre: devem passar o período normal de quase dez anos no Colégio Real ou procurar uma profissão menos exigente, como arquimago.\nContudo, aqueles que emergem vitoriosos da semana de provas ostentam algo além de trauma: a certificação de um médico de Salistick.",
+    "abilities": [
+        {
+            "name": "Ciências Médicas",
+            "description": "Você pode usar Inteligência como atributo-chave de Cura (em vez de Sabedoria). Se já faz isso por outro efeito, em vez disso recebe +2 nessa perícia."
+        },
+        {
+            "name": "Medicina Avançada",
+            "description": "Cada dado de cura de seu poder Medicina aumenta para d10. Além disso, para cada dois outros poderes da distinção que você possui, pode usar esse poder mais uma vez por criatura a cada dia. Pré-requisitos: Foco em Perícia (Cura), Medicina."
+        },
+        {
+            "name": "Acompanhamento Médico",
+            "description": "Para você, a ação necessária para prestar primeiros socorros e usar itens alquímicos que recuperam PV, PM ou condições é reduzida em um passo (até um mínimo de ação de movimento). Além disso, você pode gastar 5 PM e uma ação completa para fazer um teste de Cura (CD 30) em uma criatura adjacente que tenha morrido há até uma rodada. Se você passar, a criatura é ressuscitada com 1 PV. Você pode usar esse efeito uma vez por dia por criatura. Pré-requisitos: Medicina Avançada."
+        },
+        {
+            "name": "Medicina Preventiva",
+            "description": "Você pode gastar 1 hora para cuidar da saúde de um número de pessoas igual ao seu nível. Para cada poder da distinção que você possui, cada pessoa atendida recebe 5 PV temporários e +1 em testes de resistência por 1 dia. Este poder pode ser usado ao mesmo tempo que cuidados prolongados (veja Cura, Tormenta20, p. 117) se você aplicar ambos às mesmas pessoas. Pré-requisito: Medicina Avançada."
+        },
+        {
+            "name": "Remédios",
+            "description": "Quando você usa um preparado alquímico que fornece PV ou PM (temporários ou por cura), esse efeito aumenta em +1 por dado. Além disso, você pode fabricar preparados com esses efeitos em 10 minutos (em vez de 1 dia), mas eles duram apenas até o fim da cena. Pré-requisitos: treinado em Ofício (alquimista), Medicina Avançada."
+        },
+        {
+            "name": "Saúde Perfeita",
+            "description": "Você recebe +1 em Constituição e imunidade a veneno. Além disso, recebe +2 PM por poder da distinção que possui. Pré-requisitos: treinado em Fortitude, Acompanhamento Médico."
+        }
+    ]
+}

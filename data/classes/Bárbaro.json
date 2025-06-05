@@ -34,12 +34,44 @@
       "description": "Quando entra em fúria, você recebe uma quantidade de pontos de vida temporários igual a seu nível + sua Força."
     },
     {
+      "name": "Alma Inabalável",
+      "description": "Quando faz um teste de resistência, você pode gastar 1 PM para substituir a perícia normal por Intimidação. Se você passar no teste e a fonte do efeito for uma criatura, ela fica abalada por 1d4 rodadas (Vontade CD igual ao resultado do teste de Intimidação evita). Pré-requisito: treinado em Intimidação."
+    },
+    {
+      "name": "Ampliar Brado",
+      "description": "O alcance de seus brados aumenta para médio e a CD para resistir a eles aumenta em +2."
+    },
+    {
+      "name": "Arremesso Violento",
+      "description": "Enquanto você está em fúria, o dano e o alcance de suas armas de arremesso aumenta em um passo (de curto para médio e de médio para longo) e a penalidade em ataques que você sofre por arremessar armas sem alcance diminui para –2. Pré-requisito: Fúria da Savana."
+    },
+    {
       "name": "Aumento de Atributo",
       "description": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
     },
     {
+      "name": "Beberrão Selvagem",
+      "description": "Você pode gastar uma ação de movimento para ingerir um preparado alquímico que cause dano e tenha uma criatura como alvo. Se fizer isso, armazena o equivalente a 3 cargas do preparado em sua boca. Até o fim da cena, sempre que acerta um ataque corpo a corpo, você pode gastar uma carga para que o ataque cause dano adicional igual ao do preparado. Pré-requisito: Con 3."
+    },
+    {
+      "name": "Brado: Assombroso",
+      "description": "Você pode gastar uma quantidade de PM limitada pela sua Constituição. Para cada PM que gastar, você causa 1d6 pontos de dano psíquico em todos os inimigos no alcance do brado (Von CD Con reduz à metade). Medo. Pré-requisito: Brado Assustador."
+    },
+    {
       "name": "Brado Assustador",
       "description": "Você pode gastar uma ação de movimento e 1 PM para soltar um berro feroz. Todos os inimigos em alcance curto ficam vulneráveis até o fim da cena. Pré-requisito: treinado em Intimidação. Medo."
+    },
+    {
+      "name": "Brado: Retardante",
+      "description": "Você dá um berro que faz seus inimigos hesitarem. Criaturas a sua escolha no alcance do brado ficam lentas por 1 rodada. Medo."
+    },
+    {
+      "name": "Brado: Sísmico",
+      "description": "Você emite um brado que faz o chão tremer. Criaturas no alcance do brado ficam vulneráveis por 1d4 rodadas e caídas (Fort CD For reduz para vulneráveis por 1 rodada). Criaturas que já estavam vulneráveis, inclusive por este efeito, ficam desprevenidas pelo mesmo tempo. Pré-requisito: outro poder de brado."
+    },
+    {
+      "name": "Brado Vitorioso",
+      "description": "Quando faz um acerto crítico ou reduz um inimigo a 0 ou menos PV enquanto está em fúria, você pode usar um dos seus poderes de brado como ação livre. Pré-requisitos: Brado Assustador, Sangue dos Inimigos."
     },
     {
       "name": "Crítico Brutal",
@@ -50,8 +82,16 @@
       "description": "Quando causa dano com uma arma corpo a corpo de duas mãos, você pode rolar novamente qualquer resultado 1 ou 2 das rolagens de dano da arma. Pré-requisito: For 1."
     },
     {
+      "name": "Enigma do Aço",
+      "description": "Após tantas lutas e matanças, você descobriu que a verdadeira força não reside na arma, mas na mão de quem a empunha. Se estiver empunhando uma arma mundana, você recebe +5 em testes de ataque e causa dois dados extras de dano do mesmo tipo. Pré-requisito: 17º nível de bárbaro."
+    },
+    {
       "name": "Espírito Inquebrável",
       "description": "Enquanto está em fúria, você não fica inconsciente por estar com 0 PV ou menos (você ainda morre se chegar em um valor negativo igual à metade de seus pontos de vida máximos). Pré-requisito: Alma de Bronze."
+    },
+    {
+      "name": "Espiritualista",
+      "description": "Você recebe +1 PM a cada nível ímpar. Além disso, aprende e pode lançar uma magia adicional definida pelo seu animal totêmico (atributo-chave Sabedoria) e pode lançá-la e sustentá-la mesmo em fúria. As magias são: Coruja (Augúrio), Corvo (Voz Divina), Falcão (Mapear), Grifo (Físico Divino), Lobo (Localização), Raposa (Camuflagem Ilusória), Tartaruga (Vestimenta da Fé), Urso (Soco de Arsenal). Pré-requisitos: Sab 2, Totem Espiritual, 6º nível de bárbaro."
     },
     {
       "name": "Esquiva Sobrenatural",
@@ -66,8 +106,16 @@
       "description": "Uma vez por rodada, se estiver em fúria e usar a ação agredir para fazer um ataque corpo a corpo ou com uma arma de arremesso, você pode gastar 2 PM para fazer um ataque adicional."
     },
     {
+      "name": "Fúria Bestial",
+      "description": "Enquanto você está em fúria, o dano das suas armas naturais aumenta em dois passos e o multiplicador de crítico delas aumenta em +1."
+    },
+    {
       "name": "Fúria da Savana",
       "description": "Seu deslocamento aumenta em +3m. Quando usa Fúria, você aplica o bônus em ataque e dano também a armas de arremesso."
+    },
+    {
+      "name": "Fúria Elemental",
+      "description": "Escolha um elemento entre ácido, eletricidade, fogo ou frio. Uma vez feita, essa escolha não pode ser mudada. Enquanto está em fúria e faz um ataque em que aplique seus benefícios, você causa +1d12 pontos de dano do tipo escolhido. Pré-requisitos: Totem Espiritual, 11º nível de bárbaro."
     },
     {
       "name": "Fúria Raivosa",
@@ -82,8 +130,20 @@
       "description": "Você pode gastar 1 PM para aumentar seu deslocamento em +6m por uma rodada."
     },
     {
+      "name": "Impiedoso",
+      "description": "Você recebe +2 em testes de ataque, rolagens de dano e na CD de suas habilidades contra criaturas vulneráveis."
+    },
+    {
       "name": "Investida Imprudente",
       "description": "Quando faz uma investida, você pode aumentar sua penalidade na Defesa pela investida para –5 para receber um bônus de +1d12 na rolagem de dano deste ataque."
+    },
+    {
+      "name": "Invocar os Ancestrais",
+      "description": "Você pode gastar uma ação completa e 2 PM para invocar 1d4+1 ancestrais capangas em espaços desocupados em alcance curto. Eles têm Defesa igual à sua, 1 PV, são incorpóreos e falham automaticamente em qualquer teste de resistência ou oposto. Você pode gastar uma ação de movimento para fazê-los se mover (deslocamento 9m). Cada ancestral fornece um bônus cumulativo de +2 em rolagens de dano a um personagem adjacente e, uma vez por rodada, quando faz a ação agredir, você pode gastar um ancestral pra fazer um ataque adicional. Pré-requisitos: Totem Espiritual, 11º nível de bárbaro."
+    },
+    {
+      "name": "Manifestar Totem",
+      "description": "Escolha um tipo de parceiro entre assassino, atirador, combatente, fortão, guardião, perseguidor ou montaria. Uma vez feita, essa escolha não pode ser mudada. Você pode gastar 3 PM e uma ação de movimento para invocar uma manifestação espiritual de seu animal totêmico até o fim da cena. Ele é um parceiro veterano do tipo escolhido. Pré-requisitos: Totem Espiritual, 7º nível de bárbaro."
     },
     {
       "name": "Pele de Aço",
@@ -94,8 +154,32 @@
       "description": "Você recebe +4 na Defesa, mas apenas se não estiver usando armadura pesada."
     },
     {
+      "name": "Poderes de Brado",
+      "description": "Poderes de brado compartilham as seguintes regras.\n• Emitir um brado gasta uma ação de movimento e 1 PM, a menos que a descrição diga o contrário.\n• Brados têm alcance curto.\nA critério do mestre, habilidades raciais baseadas em gritos, como o Rugido Imponente do moreau do leão (Ameaças de Arton, p. 305), podem ser consideradas poderes de brado para um bárbaro."
+    },
+    {
+      "name": "Recuperação Gutural",
+      "description": "Quando usa um brado enquanto está em fúria, você recebe uma quantidade de PV temporários igual à metade do seu nível + sua Força. Pré-requisitos: Alma de Bronze, um poder de brado."
+    },
+    {
+      "name": "Regeneração Sobrenatural",
+      "description": "Enquanto está em fúria e com menos da metade de seus PV máximos, você tem Cura Acelerada 5. Pré-requisitos: Con 5, Vigor Primal, 5º nível de bárbaro."
+    },
+    {
+      "name": "Revide",
+      "description": "Uma vez por rodada, quando sofre dano de um ataque corpo a corpo enquanto está em fúria, você pode gastar 2 PM para fazer um ataque corpo a corpo contra a criatura que o atacou, desde que ela esteja em seu alcance. Pré-requisitos: Frenesi, 11º nível de bárbaro."
+    },
+    {
+      "name": "Rigidez Selvagem",
+      "description": "Enquanto está em fúria, você soma o bônus da fúria na Defesa, em Fortitude e em RD."
+    },
+    {
       "name": "Sangue dos Inimigos",
       "description": "Enquanto está em fúria, quando faz um acerto crítico ou reduz um inimigo a 0 PV, você recebe um bônus cumulativo de +1 em testes de ataque e rolagens de dano, limitado pelo seu nível, até o fim da cena."
+    },
+    {
+      "name": "Sede Sanguinária",
+      "description": "Enquanto está em fúria, quando faz um acerto crítico ou reduz um inimigo a 0 PV ou menos, você recupera 10 PV e 2 PM. Pré-requisitos: Sangue dos Inimigos, 5º nível de bárbaro."
     },
     {
       "name": "Superstição",

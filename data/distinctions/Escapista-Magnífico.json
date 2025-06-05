@@ -1,0 +1,30 @@
+{
+    "name": "Escapista Magnífico",
+    "admission": "Um candidato a escapista não escolhe ser treinado. Pelo menos não sem ser ele mesmo escolhido. A Guilda sem Nome, uma sociedade secreta de infiltradores e ladrões de Valkaria, seleciona candidatos a escapistas com base em seus próprios parâmetros. Não basta o candidato ser furtivo, engenhoso ou habilidoso: ele deve possuir algum tipo de “defeito” muito evidente, algo que o torne comum, ordinário e discreto. Isso pode ser um ferimento permanente, uma categoria de idade (como criança ou velho) ou apenas algo muito incômodo (como uma roupa com guizos).\nUma vez que um candidato com essas características atraia a atenção da Guilda, recebe a oportunidade de ser treinado. Se aceitar, será acolhido por um grupo de instrutores, um mais excêntrico que o outro, e passará por um longo e exaustivo treinamento, que poderá exigir um grande pagamento em dinheiro ou serviços.\nO treinamento completo é muito longo — talvez mais de dez anos! Contudo, para aprender o básico sobre ser um escapista magnífico, o candidato precisa passar apenas seis meses na sede da Guilda, em Valkaria. Além disso, esses seis meses podem ser divididos. O mais importante (além do pagamento, do “defeito” e de ser escolhido) é que o candidato nunca revele a ninguém seu treinamento. Nem mesmo seus companheiros de grupo podem ficar sabendo da existência da Guilda sem Nome ou que o candidato está aprendendo a ser “invisível”. Ninguém sabe como a Guilda sem Nome mantém vigilância sobre os candidatos. O fato é que, se o treinamento for descoberto por terceiros, será imediatamente interrompido (e o dinheiro não será devolvido). O candidato nunca mais vai encontrar a sede da Guilda ou seus antigos professores. Em caso de traições mais graves, o candidato pode “sofrer um acidente” e acabar morto, coitado...\nAlém disso, o candidato nunca pode “corrigir” seu aparente defeito. Se tiver um ferimento permanente, não pode buscar uma cura. Se for muito pobre, não pode usar equipamento caro. Se usar uma roupa com guizos, deve usá-la sempre. Abrir mão do “defeito” significa perder automaticamente todas as capacidades já adquiridas. Não se sabe se isso é alguma maldição ou apenas efeito da mentalidade necessária para ser um escapista magnífico.",
+    "abilities": [
+        {
+            "name": "Vantagem Secreta",
+            "description": "Escolha uma de suas fontes de penalidades (como uma habilidade racial, um poder da Tormenta ou uma complicação). Você não sofre as penalidades da fonte escolhida."
+        },
+        {
+            "name": "Não Há Ninguém Aqui",
+            "description": "Você pode gastar 2 PM para se esconder mesmo sem camuflagem ou cobertura disponível. Se tiver o poder Camuflagem, além disso a penalidade em Furtividade para se esconder quando realiza uma ação chamativa é reduzida à metade (aplicado depois de outras reduções). Pré-requisitos: Aparência Inofensiva, Escapista."
+        },
+        {
+            "name": "Aparência Insignificante",
+            "description": "Você soma seu total de poderes da distinção na CD para resistir ao seu poder Aparência Inofensiva. Além disso, a cada cena, pode usar esse poder uma vez contra cada inimigo (em vez de apenas uma vez). Pré-requisito: Não Há Ninguém Aqui."
+        },
+        {
+            "name": "Fujão",
+            "description": "Quando é atingido por um ataque ou um efeito que exija um teste de resistência, você pode gastar 2 PM para fazer uma pirueta defensiva. Faça um teste de Acrobacia para escapar e use esse resultado no lugar de sua Defesa contra esse ataque, ou do teste de resistência contra o efeito. Pré-requisito: treinado em Acrobacia, Não Há Ninguém Aqui."
+        },
+        {
+            "name": "Mão Leve",
+            "description": "Quando faz a manobra desarmar, você pode gastar 2 PM para substituir o teste de Luta por Ladinagem. Se vencer o teste de manobra e estiver com ao menos uma mão livre, pode ficar com o item na mão. Pré-requisito: Não Há Ninguém Aqui."
+        },
+        {
+            "name": "Peguei um Bobo",
+            "description": "Você pode gastar uma ação padrão e 2 PM para gerar o efeito da magia Comando (CD Car, +1 para cada dois outros poderes da distinção), ignorando a restrição de tipo de criatura. Este não é um efeito de encantamento ou mental, nem uma habilidade mágica, e provém da sua capacidade de enganar outras pessoas (veja “Magias Simuladas”, p. 44). Pré-requisito: Aparência Insignificante."
+        }
+    ]
+}

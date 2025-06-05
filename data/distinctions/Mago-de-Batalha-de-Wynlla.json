@@ -1,0 +1,50 @@
+{
+    "name": "Mago de Batalha de Wynlla",
+    "admission": "Obviamente, apenas pessoas capazes de lançar magias arcanas podem tentar se tornar Magos de Batalha de Wynlla. Além disso, quase todos os candidatos são naturais do Reino da Magia. Um candidato estrangeiro deve primeiro conseguir autorização especial para ter direito a fazer o teste para começar o treinamento. Conjuradores com algum poder muitas vezes são aceitos, mas aqueles considerados meros amadores nas artes arcanas costumam ser mandados embora. Em todo caso, estrangeiros sempre passam por um teste mais rigoroso do que nativos de Wynlla.\nPara tentar ingressar no treinamento, um candidato precisa se apresentar no renomado Centro de Treinamento Arcano Militar, em Sophand. O Centro aceita novos recrutas algumas vezes por ano. Aqueles que se apresentam fora dessas janelas são sumariamente rejeitados.\nUma vez que tenha se apresentado, um candidato deve passar por uma peneira inicial, para demonstrar aptidão. Isso envolve um dia inteiro de exercícios físicos, provas arcanas, lutas com armas, exames de conhecimento e até testes de coragem e disciplina. Cerca de um décimo dos candidatos que se apresentam é aceito. Caso o candidato seja reprovado nesse teste inicial, pode tentar novamente quando o Centro estiver aceitando novos recrutas.\nDepois que o candidato passa na peneira, começa o treinamento básico. Qualquer candidato que faça parte de um grupo de aventureiros precisa se desligar temporariamente, pois irá passar seis meses dentro do Centro de Treinamento Arcano Militar, aprendendo novas técnicas, aprimorando corpo e mente a cada dia. As únicas saídas do prédio são por meios mágicos, sob a supervisão dos instrutores. Durante esses seis meses, cerca de metade dos candidatos acaba sendo rejeitada por não conseguir acompanhar o ritmo dos colegas. Candidatos rejeitados dessa forma nunca mais podem tentar se tornar Magos de Batalha.\nAo fim dos seis meses, o candidato é um Mago de Batalha pleno, com o treinamento básico — considerado avançado em quase qualquer lugar do mundo! Contudo, ainda não está livre. Precisa servir por dois anos no exército de Wynlla, não tendo liberdade para se aventurar ou viajar por Arton. Candidatos que desejem maior autonomia devem passar por um teste adicional depois do treinamento básico, envolvendo dilemas morais e, no fim, duelos arcanos sucessivos contra cinco instrutores. O candidato não precisa vencer todos os duelos, mas deve demonstrar raciocínio rápido e, acima de tudo, lealdade para com aqueles que o treinaram.\nCandidatos que sejam aprovados em mais esse teste ainda são considerados membros do exército de Wynlla por dois anos, mas têm dispensa especial para se aventurar como quiserem. Periodicamente podem ser chamados para cumprir alguma missão para a magocracia, talvez acompanhados de seus colegas aventureiros. De qualquer forma, podem ostentar o título de Mago de Batalha independente, uma das maiores honrarias arcanas de Arton.",
+    "abilities": [
+        {
+            "name": "Conjuração Magibélica (Quadro)",
+            "description": "Desenvolvidas pelos Magos de Batalha de Wynlla, estas técnicas permitem modificar magias de formas únicas. Para fazer uma conjuração magibélica, ao lançar uma magia faça um teste de Misticismo (CD 10 + custo em PM da magia +5 por teste anterior na mesma cena). Se passar, você aplica uma de suas técnicas conhecidas à magia. Se falhar, fica fatigado até o fim da cena (essa condição é cumulativa e o afeta mesmo que você seja imune a ela).\nLançar uma magia com conjuração magibélica é mais demorado; o tempo de conjuração da magia aumenta em um passo (de livre para movimento, de movimento para padrão e de padrão para completa). Não é possível aplicar uma conjuração magibélica a magias com tempo de conjuração de reação ou maior que padrão, e esse aumento é aplicado após quaisquer reduções (como a de Magia Acelerada)."
+        },
+        {
+            "name": "Conjuração Magibélica Expandir",
+            "description": "A área da magia aumenta em +3m (de raio ou lado), +3m para cada dois outros poderes da distinção que você possui.\n• Fortalecer. A magia causa um dado de dano adicional do mesmo tipo, mais um dado para cada dois outros poderes da distinção que você possui.\n• Intensificar. A magia ignora até 5 pontos da redução de dano dos alvos. Esse valor aumenta em 5 para cada dois outros poderes da distinção que você possui.\n• Potencializar. O limite de PM da magia aumenta em +2, +1 para cada dois outros poderes da distinção que você possui (esses PM adicionais não aumentam a CD para usar este poder)."
+        },
+        {
+            "name": "Conjuração Magibélica Fortalecer",
+            "description": "A magia causa um dado de dano adicional do mesmo tipo, mais um dado para cada dois outros poderes da distinção que você possui.\n• Intensificar. A magia ignora até 5 pontos da redução de dano dos alvos. Esse valor aumenta em 5 para cada dois outros poderes da distinção que você possui.\n• Potencializar. O limite de PM da magia aumenta em +2, +1 para cada dois outros poderes da distinção que você possui (esses PM adicionais não aumentam a CD para usar este poder)."
+        },
+        {
+            "name": "Conjuração Magibélica Intensificar",
+            "description": "A magia ignora até 5 pontos da redução de dano dos alvos. Esse valor aumenta em 5 para cada dois outros poderes da distinção que você possui.\n• Potencializar. O limite de PM da magia aumenta em +2, +1 para cada dois outros poderes da distinção que você possui (esses PM adicionais não aumentam a CD para usar este poder)."
+        },
+        {
+            "name": "Conjuração Magibélica Potencializar",
+            "description": "O limite de PM da magia aumenta em +2, +1 para cada dois outros poderes da distinção que você possui (esses PM adicionais não aumentam a CD para usar este poder)."
+        },
+        {
+            "name": "Armamento Esotérico",
+            "description": "Quando você usa um item esotérico para lançar uma magia, a CD para resistir a ela aumenta em +1."
+        },
+        {
+            "name": "Conjurador Encouraçado",
+            "description": "Você recebe proficiência com armaduras pesadas e pode lançar magias arcanas de armadura sem fazer testes de Misticismo. Para cada outro poder da distinção que possui, você recebe +1 na Defesa com armaduras pesadas. Pré-requisitos: habilidade de classe Magias, lançar magias arcanas de 2º círculo, treinado em Misticismo, Arcano de Batalha."
+        },
+        {
+            "name": "Arsenal Arcano",
+            "description": "Você recebe proficiência com armas marciais e pode usar armas como se fossem itens esotéricos. Quando usa uma arma dessa forma, você pode somar o bônus de dano de melhorias e encantos da arma ao de seu poder Arcano de Batalha. Além disso, o material especial da arma afeta suas magias com seu efeito de esotérico. Por fim, você pode trocar o atributo de dano da arma por seu atributo-chave de magias. Pré-requisitos: treinado em Luta ou Pontaria, Conjurador Encouraçado."
+        },
+        {
+            "name": "Conjuração Magibélica",
+            "description": "Escolha uma técnica de conjuração magibélica (veja o quadro). Uma vez feita, essa escolha não pode ser mudada. Para cada outro poder da distinção diferente (exceto Conjurador Encouraçado), você pode escolher uma técnica diferente. Pré-requisito: Conjurador Encouraçado."
+        },
+        {
+            "name": "Guarda Mágica",
+            "description": "Quando lança uma magia arcana, você recebe uma quantidade de PV temporários, que duram até o início do seu próximo turno, igual ao total de PM gastos na magia. Pré-requisitos: treinado em Fortitude, Conjurador Encouraçado."
+        },
+        {
+            "name": "Infantaria Arcana",
+            "description": "Se lançar uma magia empunhando um item esotérico, você soma o número de poderes da distinção que possui ao bônus de dano de seu poder Arcano de Batalha. Além disso, criaturas que rolem um resultado 1 no teste de resistência de uma magia de dano sua sofrem +50% de dano da magia. Pré-requisitos: treinado em Guerra, Conjurador Encouraçado, vencer dez combates usando um item esotérico pelo menos uma vez em cada um."
+        }
+    ]
+}

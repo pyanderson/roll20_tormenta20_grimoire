@@ -1,0 +1,30 @@
+{
+    "name": "Campeão de Dojo",
+    "admission": "Ao contrário de outras especializações de aventureiros, esta começa desde muito cedo. Para se tornar um campeão de dojo, o candidato deve ter treinado em um dojo tradicional tamuraniano durante toda sua vida (ou ao menos boa parte dela), sem se desviar do caminho do estilo ou aprender técnicas que não sejam ensinadas no dojo.\nMesmo que seja um aventureiro errante, o candidato deve, de tempos em tempos, voltar ao dojo, relatar a seu mestre suas façanhas, treinar com os demais alunos. Cada dojo exige uma regularidade mínima de visitas para que alguém continue sendo considerado um discípulo, mas candidatos honrados não costumam ter problemas. Seus atos trazem orgulho ao dojo.\nAo longo de sua carreira, o candidato não pode avaliar a si mesmo quanto ao domínio do seu estilo. Apenas o mestre pode fazer isso, nas visitas do candidato ao dojo. Quando o candidato alcança a graduação máxima no estilo, pode finalmente tentar ser um campeão de dojo.\nO processo para se tornar um campeão de dojo é exatamente o que parece: vencer um campeonato contra todos os alunos graduados do dojo. O candidato deve se apresentar ao mestre e pedir permissão de desafiar o dojo inteiro. Se o mestre concordar, o desafio começa imediatamente. Em um mesmo dia, com uma pausa de poucos minutos entre cada luta, o candidato deve vencer todos os seus colegas (desde que tenham habilidade comparável a ele mesmo), usando apenas as técnicas do estilo. Ao fim de cada luta, depois de cumprimentar e agradecer ao oponente, deve relatar ao mestre uma lição que aprendeu durante o embate. Por exemplo, um colega pode ser lento demais para fazer frente ao candidato, mas sua tenacidade e espírito guerreiro podem ensinar a ele sobre perseverança.\nUma vez que todos os colegas sejam vencidos e todas as lições sejam aprendidas, o candidato deve vencer seu próprio mestre. Essa costuma ser a luta mais feroz da vida do mestre — nenhum deles deseja que o campeão de seu dojo tenha conquistado o título sem merecer. Se o dojo já tiver um campeão, o candidato deve vencê-lo também.\nUma vez que todos os adversários tenham sido vencidos, o mestre confere o título de campeão de dojo ao candidato. Então os colegas aplaudem e o abraçam, iniciando uma imensa comemoração que pode se estender noite adentro.\nContudo, sempre é preciso defender o título de campeão de dojo. O campeão deve continuar visitando o dojo regularmente e, se um novo candidato desafiá-lo, deve vencer a luta. Caso contrário, deixa de ser um campeão de dojo.",
+    "abilities": [
+        {
+            "name": "Foco Marcial",
+            "description": "Você pode gastar uma ação de movimento para receber +1d8 na rolagem de dano de seu próximo ataque desarmado feito nessa rodada."
+        },
+        {
+            "name": "Golpe Concentrado",
+            "description": "Você pode gastar uma ação de movimento e 2 PM para se concentrar em seus golpes. Quando faz isso, até o fim da cena você recebe +1d8 em suas rolagens de dano desarmado. Pré-requisitos: Sab 2, Briga."
+        },
+        {
+            "name": "Caminho da Mão Armada",
+            "description": "Escolha três armas corpo a corpo com as quais tenha proficiência. Para você, essas armas contam como ataques desarmados para efeitos que interagem com eles de qualquer forma e, quando ataca com uma delas, você pode usar o dano básico da arma ou seu dano desarmado, o que for melhor. Pré-requisito: Golpe Concentrado."
+        },
+        {
+            "name": "Caminhar do Dragão",
+            "description": "Você recebe +5 em Atletismo e pode gastar 1 PM para “correr no ar” por 1 rodada, como se tivesse deslocamento de voo igual ao seu deslocamento base. Você deve terminar seu movimento sobre o chão ou outra superfície firme, ou cairá ao solo. Pré-requisitos: treinado em Atletismo, Golpe Concentrado."
+        },
+        {
+            "name": "Controlar a Respiração",
+            "description": "Você pode gastar uma ação de movimento e uma quantidade de PM limitada por sua Sabedoria. Para cada PM que gastar, recupera 2d6 pontos de vida. Para cada dois outros poderes da distinção que você possui, cada dado de cura aumenta em um passo. Pré-requisito: Golpe Concentrado."
+        },
+        {
+            "name": "Sentidos do Tigre",
+            "description": "Você soma sua Sabedoria na Defesa e em Reflexos. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel. Pré-requisitos: Golpe Concentrado."
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Professor de Magia",
+    "admission": "A posição de professor de magia é considerada um dos ápices da carreira dos arcanistas em Arton. Embora talvez não tenham tanto poder quanto aqueles que vivem para se aventurar, são respeitados por todos. Na época em que Talude ainda era reitor da Academia Arcana, até mesmo seu rival Vectorius chegou a consultá-lo ao se deparar com enigmas cuja resposta não sabia.\nUm candidato deve ter feito um curso completo na Academia Arcana. Caso não tenha se formado lá, deve se apresentar na instituição e passar por uma série de provas, demonstrando que seu saber arcano é equivalente ao de alguém formado na Academia. Isso envolve não só poder e capacidade de lançar magias, mas também teoria e conhecimento sobre como manipular e alterar magias já existentes.\nUma vez que esse passo tenha sido completado, o candidato pode começar o treinamento. A Academia Arcana notoriamente abre suas portas para a maioria dos candidatos, mesmo aqueles que desejam obter formação avançada e integrar o corpo docente. O candidato deve permanecer na Academia por seis meses, sem se ausentar por nenhum dia e sem fazer nada que não seja estudar. Durante esse semestre, ele vai assistir a aulas avançadas não só sobre magia, mas sobre a história da instituição, a ética do ensino arcano, a devoção a Wynna, a pedagogia específica para instrução mágica e outros tópicos. O candidato deve conhecer todas as disciplinas ministradas na Academia. Assim, deve também assistir a aulas sobre exploração de masmorras e ermos, combate a monstros, fabricação de itens etc., mesmo que tudo isso passe longe de sua especialidade. Durante esse semestre, o candidato não tem tempo para nenhuma atividade lucrativa. Assim, precisa ter economizado o suficiente para se sustentar.\nNo fim do semestre, o candidato deve ser aprovado em provas de todas as disciplinas. Se fizer isso, começa um estágio probatório. Deve montar um currículo sobre uma disciplina mágica a sua escolha e passar um semestre ministrando aulas para uma turma na Academia Arcana, sob supervisão de um professor sênior.\nIsso é tempo demais para a maioria dos aventureiros ficar parada... Assim, muitos candidatos saem para se aventurar e levam suas turmas consigo! Nesse caso, sempre são turmas pequenas, de quatro ou cinco alunos, e a supervisão é feita por meio de comunicação mágica. No fim do semestre, todos os alunos devem ser aprovados... e estar vivos.\nCaso isso aconteça, o candidato deve voltar à Academia Arcana, onde será formalmente admitido no corpo docente, com uma cerimônia em sua honra. Será bem recompensado e terá muito, muito trabalho... Talvez o melhor trabalho do mundo.",
+    "abilities": [
+        {
+            "name": "Pena e Pergaminho",
+            "description": "Você aprende e pode lançar uma magia de adivinhação, arcana ou divina, a sua escolha, de qualquer círculo a que tenha acesso."
+        },
+        {
+            "name": "Pedagogia Mágica",
+            "description": "Você pode gastar 1 hora e 1 PM para lecionar para uma quantidade de alunos igual à sua Inteligência. Escolha uma de suas magias de 1º círculo. Até o próximo dia, cada aluno pode lançar essa magia uma única vez, pagando seu custo normal (atributo-chave Inteligência). Para cada outros dois poderes da distinção que você possui, cada aluno pode lançar a magia “aprendida” uma vez adicional no mesmo dia. Se o aluno já conhecia essa magia, pode lançá-la esse número de vezes com custo diminuído em –1 PM. Pré-requisitos: lançar magias de 2° círculo, Foco em Perícia (Misticismo)."
+        },
+        {
+            "name": "Introdução à Magia",
+            "description": "Você e seus aliados em alcance curto recebem +2 em Misticismo e Vontade. Além disso, sempre que você lança uma magia, o custo das magias de seus aliados diminui em –1 PM por 1 rodada. Pré-requisito: Pedagogia Mágica."
+        },
+        {
+            "name": "Demonstrações Práticas",
+            "description": "Quando um inimigo falha em um teste de resistência contra uma de suas magias, você pode fazer um teste de Misticismo para ajudar. Até a próxima rodada, cada aliado em alcance curto recebe um bônus em Misticismo e na CD de suas magias igual ao bônus fornecido por essa ajuda."
+        },
+        {
+            "name": "Notório Saber Arcano",
+            "description": "Você recebe um assistente, um parceiro veterano a sua escolha entre adepto e magivocador. Além disso, o custo adicional de seus poderes de aprimoramento diminui em –1 PM (somente com magias arcanas). Pré-requisitos: Orgulho do Mestre, dois poderes de aprimoramento."
+        },
+        {
+            "name": "Orgulho do Mestre",
+            "description": "Sempre que um inimigo falha em um teste de resistência contra uma magia de um aliado em alcance curto, se essa magia custou pelo menos 1 PM, você recebe 1 PM temporário cumulativo. Você pode ganhar um máximo de PM temporários por cena igual ao dobro do número de poderes da distinção que possui, e eles desaparecem no fim da cena. Pré-requisito: Demonstrações Práticas."
+        }
+    ]
+}

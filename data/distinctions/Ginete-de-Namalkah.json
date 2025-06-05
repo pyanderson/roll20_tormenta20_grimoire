@@ -1,0 +1,34 @@
+{
+    "name": "Ginete de Namalkah",
+    "admission": "Apenas nativos do reino de Namalkah ou pessoas que tenham passado seus anos formativos lá podem se tornar ginetes de Namalkah, recebendo seu irmão cavalo ainda na infância. Os próprios namalkahnianos consideram isso algo triste, mas a ligação profunda com o cavalo, desenvolvida desde a infância, é essencial para ser um verdadeiro ginete.\nUma vez que decida trilhar este caminho, o candidato deve encontrar um ginete mais experiente, que será seu mentor, e se juntar ao seu tropel, tornando-se um membro ativo da caravana, ajudando em sua proteção e sustento. Ele deve acompanhar o tropel enquanto cruza o território de Namalkah, e passar por todos os principais pontos de interesse do reino.\nTodo ginete é alguém profundamente ligado à liberdade e à ânsia de percorrer o mundo. O candidato também deve sair de Namalkah e, junto a seu cavalo, viver pelo menos uma longa aventura e passar por ao menos três outros reinos ou territórios além-Reinado, antes de voltar para sua terra.\nDurante o tempo em que percorre Namalkah e além, o candidato deve enfrentar três desafios: vencer uma corrida em cancha reta, domar um animal poderoso e xucro e derrotar um monstro poderoso. Em sua jornada, o candidato pode ser auxiliado por seus companheiros, mas é imprescindível que esteja com seu cavalo no percurso e em todos os desafios. Um grupo pode ajudá-lo a derrotar o monstro, mas o próprio candidato deve vencer a corrida e domar o animal, sem ajuda. Desnecessário falar, o irmão cavalo não pode morrer nesse processo.\nTendo cumprido esses requisitos, o candidato deve voltar a Namalkah, encontrar seu mentor e, em volta de uma fogueira, contar a ele sobre seus feitos. Não apenas os feitos do candidato serão avaliados, mas também sua postura. Um candidato que demonstre arrogância ou que não leve a sério tudo pelo que passou pode receber a instrução de começar de novo — ainda terá muito a amadurecer. Mas, se tudo estiver “nos conformes”, o mentor apenas ouvirá em silêncio. Talvez com uma risada curta ou uma exclamação de “Eia!”. Então, ao fim do relato, dará ao candidato um objeto mundano (geralmente um lenço) que representa o fim de seu ciclo formativo e sua ligação com as Veneráveis Hostes de Namalkah.",
+    "abilities": [
+        {
+            "name": "Irmão Cavalo",
+            "description": "Parte fundamental da cultura dos ginetes de Namalkah, um irmão cavalo é um parceiro montaria com quem o ginete possui um forte vínculo fraterno. Esse cavalo pode ter sido adquirido com uma habilidade (como Montaria ou Montaria Sagrada) ou como parte da história. A companhia do irmão cavalo é um elemento fundamental da admissão nesta distinção e, por isso, ele deve ser adquirido antes que o candidato possa cumpri-la.\nSe perder seu irmão cavalo, você pode transformar outro parceiro cavalo em seu irmão com uma ação entre aventuras."
+        },
+        {
+            "name": "Amalkhan",
+            "description": "Você e seu irmão cavalo desenvolvem um profundo laço de irmandade. Ele passa a fornecer +1 na Defesa e em Reflexos, além de seus outros benefícios."
+        },
+        {
+            "name": "Irmão Campestre",
+            "description": "Quando faz um teste de perícia enquanto está montado em seu irmão cavalo, você pode gastar 1 PM para receber um bônus de +2 nesse teste. Para cada nível de parceiro da montaria acima de iniciante, você pode gastar +1 PM para aumentar esse bônus em +2. Pré-requisitos: Ginete, ter um irmão cavalo."
+        },
+        {
+            "name": "Caminho das Coxilhas",
+            "description": "O nível de parceiro de seu irmão cavalo aumenta em um (de iniciante para veterano ou de veterano para mestre). Se ele já for um parceiro mestre, esse aumento se aplica a outro de seus tipos. Além disso, enquanto estiver montando seu irmão cavalo, você pode substituir testes de perícias originalmente baseadas em Destreza por testes de Cavalgar. Prérequisito: Cavaleiro Rústico."
+        },
+        {
+            "name": "Cavaleiro Rústico",
+            "description": "Você soma sua Sabedoria na Defesa e seu irmão cavalo recebe os benefícios de um parceiro guardião iniciante. Este poder exige liberdade de movimentos; você não pode usá-lo se estiver de armadura pesada ou imóvel. Pré-requisitos: Sab 1, Irmão Campestre."
+        },
+        {
+            "name": "Coice",
+            "description": "Enquanto estiver montado em seu irmão cavalo, você pode usar uma arma natural de cascos (1d8, crítico x2, impacto). Uma vez por rodada, quando usa as ações agredir ou investida montada para atacar com outra arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com os cascos. O dano dos cascos aumenta em um passo para cada nível do irmão cavalo acima de iniciante. Pré-requisitos: treinado em Luta ou Pontaria, Irmão Campestre."
+        },
+        {
+            "name": "Irmãos Inseparáveis",
+            "description": "O nível de parceiro de seu irmão cavalo aumenta em um (de veterano para mestre). Se ele já for um parceiro mestre, esse aumento se aplica a outro de seus tipos. Além disso, a conexão entre vocês permite que se comuniquem telepaticamente enquanto estiverem em alcance longo um do outro. Pré-requisito: Caminho das Coxilhas."
+        }
+    ]
+}

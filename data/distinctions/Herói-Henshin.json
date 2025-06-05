@@ -1,0 +1,66 @@
+{
+    "name": "Herói Henshin",
+    "admission": "É impossível definir exatamente como alguém pode se tornar um herói henshin. Alguns sábios afirmam que, na verdade, é impossível tentar ser um destes campeões. A transformação é algo que deve “acontecer” com o candidato. Contudo, existem certos passos a serem cumpridos.\nCada herói henshin é único, surge a partir de algum evento extraordinário. Contudo, uma vez que esse evento ocorra, todos partilham algo em comum — sua identidade dupla. Uma destinada à vida cotidiana, relações sociais, convívio com amigos e familiares. Outra para aventuras e combate. O candidato também precisa ser acompanhado por uma montaria fiel ou talvez um veículo extraordinário, que apenas ele mesmo saiba operar. Não se sabe se esses requisitos são parte de algum ritual que move as forças do destino, ou se é tudo uma grande coincidência.\nSeja como for, o candidato deve encontrar algo que promova sua transformação, então aceitar o chamado. Esse “algo” pode ser um bracelete mágico, o fantasma de um mago ancestral com uma missão importante, uma organização secreta capaz de alterar seu corpo, uma entidade do éter divino em busca de um representante em Arton...\nNo momento em que encontra essa força, o candidato será testado — não fisicamente, mas moralmente. Deverá provar seu coração puro e seus motivos altruístas, sem saber que está fazendo isso. Existem casos de candidatos que aparentemente passaram pelo teste, então receberam a chance de se vangloriar de sua retidão mortal... E falharam no teste verdadeiro.\nSe passar por esse teste, o candidato tem acesso à transformação, mas a nenhum poder. Sua forma comum, entretanto, ficará mais fraca do que era antes! Ele será testado mais duas vezes, em circunstâncias diferentes. Deverá salvar inocentes, abrir mão de tesouros, sacrificar-se pelo bem de estranhos, oferecer conselhos a crianças órfãs... Uma boa maneira de passar nesses testes é ativamente procurar pessoas e comunidades que estejam precisando de ajuda, envolvendo-se em seus problemas e indo embora antes de receber qualquer recompensa. Também durante essa fase é comum que o candidato seja atacado por inimigos da força que lhe concedeu a transformação. Deverá lutar com toda a honra e abnegação que se espera de um herói henshin, sem nenhuma vantagem.\nEm geral, o fim dos testes é uma surpresa para o candidato. Subitamente, ao se transformar, ele se vê mais poderoso do que antes, com acesso às primeiras capacidades de sua forma heroica. Então os vilões devem tremer, pois um novo campeão do bem acaba de despertar... Um herói henshin!",
+    "abilities": [
+        {
+            "name": "Armadura Especial",
+            "description": "Você transforma uma armadura ou um item de vestuário em seu traje de combate. Para você, esse item fornece +1 na Defesa (ou aumenta o bônus na Defesa fornecido em +1) e sua penalidade de armadura (se houver) é reduzida em –1. Se perder seu traje de combate, você pode transformar outra armadura ou item de vestuário com um dia de trabalho e T$ 100."
+        },
+        {
+            "name": "Sequência de Transformação",
+            "description": "Escolha uma arma, escudo ou esotérico. Esse item e seu traje de combate recebem, cada um, uma melhoria a sua escolha (exceto material especial) que não conta em seu limite de melhorias. Além disso, você pode gastar uma ação de movimento para executar uma sequência de transformação; quando faz isso, sua armadura surge vestida em você e o item escolhido aparece em sua mão. Esse efeito funciona independentemente de onde os itens estiverem. Pré-requisito: Vontade de Ferro."
+        },
+        {
+            "name": "Forma Final",
+            "description": "Quando usa sua Sequência de Transformação, você pode gastar 5 PM. Se fizer isso, os itens invocados pela sequência recebem um encanto cada, que não contam em seu limite de encantos e que duram até o fim da cena. Pré-requisito: quatro outros poderes da distinção."
+        },
+        {
+            "name": "Pose de Combate",
+            "description": "Escolha uma pose de combate (veja o quadro). Uma vez feita, essa escolha não pode ser alterada. A cada outro poder da distinção você recebe outra pose a sua escolha. Pré-requisitos: treinado em Luta, Sequência de Transformação."
+        },
+        {
+            "name": "Pose de Combate (Quadro)",
+            "description": "Poses de combate são técnicas especiais desenvolvidas pelo herói henshin. Para assumir uma destas técnicas, você deve estar vestindo seu traje de combate e gastar uma ação de movimento e 2 PM. Os efeitos de uma pose duram até o fim da cena ou até você assumir outra pose."
+        },
+        {
+            "name": "Acrobacia Espalhafatosa",
+            "description": "Quando você assume esta pose, todos os inimigos em alcance curto ficam vulneráveis por 1 rodada (uma criatura só pode ser afetada por esta pose uma vez por cena). Seu deslocamento aumenta em 3m e você recebe +5 em Acrobacia."
+        },
+        {
+            "name": "Calor do Combate",
+            "description": "Você recebe +2 em testes de ataque e rolagens de dano, mas sofre uma penalidade de –2 na Defesa. Para cada outros dois poderes da distinção, esses bônus aumentam em +1."
+        },
+        {
+            "name": "Coordenação de Coreografia",
+            "description": "Quando assume esta pose, você se torna o último na iniciativa. Em seu turno, para cada aliado que fez pelo menos um ataque desde o seu turno anterior, você recebe +1 em suas rolagens de dano."
+        },
+        {
+            "name": "Defender o Sonho",
+            "description": "Seus aliados recebem +2 em testes de perícia (exceto testes de ataque). Para cada outros dois poderes da distinção, esse bônus aumenta em +1."
+        },
+        {
+            "name": "Julgamento Heroico",
+            "description": "Ao assumir esta pose, escolha um inimigo em alcance curto. Suas rolagens de dano contra esse inimigo recebem +1d8 de luz, mas você sofre –2 em testes de ataque contra outras criaturas. Para cada dois outros poderes da distinção, esse dado de dano de luz aumenta em um passo."
+        },
+        {
+            "name": "Poder da Amizade",
+            "description": "Quando você assume esta pose, e no início de cada um dos seus turnos, seus aliados recebem uma quantidade de PV temporários igual a 5 + o total de poderes da distinção que você possui."
+        },
+        {
+            "name": "Terror dos Injustos",
+            "description": "Qualquer criatura em alcance curto que faça uma ação hostil contra você ou um de seus aliados fica abalada (Von CD Car evita e a criatura não pode mais ser afetada por esta pose por 1 dia)."
+        },
+        {
+            "name": "Montaria Especial",
+            "description": "Você pode gastar uma ação de movimento e 2 PM para invocar sua montaria especial. Ela aparece com um brilho de luz dourada ao seu lado e fica até o fim da cena, quando retorna magicamente para o lugar de onde veio. Ela é um parceiro montaria veterano de um tipo a sua escolha e aprovado pelo mestre, ou um birrotor henshin (veja o quadro). Caso já possua uma montaria fornecida por outra habilidade, em vez disso você pode invocá-la com este poder e ela se torna também uma montaria iniciante de outro tipo a sua escolha e aprovado pelo mestre. Pré-requisitos: treinado em Cavalgar ou Pilotagem, Sequência de Transformação."
+        },
+        {
+            "name": "Pose Complexa",
+            "description": "Você pode ativar duas poses de combate ao mesmo tempo. Pré-requisitos: duas poses de combate."
+        },
+        {
+            "name": "Birrotor Henshin",
+            "description": "Este veículo exclusivo de heróis henshin possui uma engenharia sagrada inexplicável que lhe permite se mover sem a necessidade de uma fonte de tração. Tem formato similar ao de um cavalo, mas com duas rodas colineares que exigem equilíbrio do piloto para se manter sobre ele. Se estiver conduzindo um birrotor henshin, você pode fazer investidas como se estivesse montado. Um birrotor henshin tem tamanho Grande, deslocamento 15m, Defesa 10 (+Des do Condutor), PV iguais à metade dos seus e pode carregar até 2 criaturas Médias ou 40 espaços. Veículo."
+        }
+    ]
+}

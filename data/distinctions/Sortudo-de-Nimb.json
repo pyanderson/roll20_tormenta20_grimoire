@@ -1,0 +1,34 @@
+{
+    "name": "Sortudo de Nimb",
+    "admission": "Não existe forma concreta de se encontrar com a sorte. Ela é volúvel, caótica, caprichosa… Mas existem formas de fazer ela olhar para você com um pouco mais de carinho.\nUm candidato a sortudo de Nimb não pode ser muito bom em nada. Se ele se destacar de qualquer forma, se houver grande planejamento em sua carreira de aventureiro, se ele aprender as técnicas certas para se tornar mais poderoso, nunca vai conseguir ser um sortudo. Os outros aventureiros devem olhar para o candidato e perguntar: “Por que diabos você dedicou seu tempo a aprender essa coisa inútil?”.\nBem, esta distinção tem a ver com Nimb, então vamos quebrar padrões aqui. Vamos falar em termos de regras. Se você, jogador, quer que seu personagem seja um sortudo de Nimb, não pode fazer um personagem poderoso ou muito eficiente. Nada de combos! O mestre tem a palavra final sobre o que constitui um “combo”. Ah, e você deve manter sua ficha assim, “malfeita”, até que seja tarde demais para mudar de ideia e começar a escolher poderes com sinergia entre si. Treinar para trocar os poderes ruins? Você só pode estar brincando. No exato instante em que você planejar sua ficha, perde a distinção, espertinho!\nDepois disso, você vai precisar vencer três desafios que possam matar seu personagem usando apenas sorte. Ou seja, rolando os dados “secos”, sem modificadores, sem alterar o resultado com nenhuma habilidade. Esse requisito é mais normal, não? Poderia ser descrito falando sobre o personagem, então vamos adicionar uma coisa mais divertida.\nSe já fez tudo isso, você, jogador, vai fazer uma aposta com o mestre. Vocês dois vão rolar um d20 três vezes. Se o mestre rolar mais alto duas vezes, dê adeusinho à distinção: a sorte não gosta de você! Pelo lado bom, você agora pode treinar para trocar seus poderes, ou rasgar essa ficha maluca e fazer um personagem mais normal. Se você vencer, contudo, parabéns! Pode pegar esta distinção. Seu grupo vai odiá-lo por ter conseguido, seus colegas vão reclamar na internet sobre esta admissão, o mestre vai questionar se tudo isso não é esquisito ou galhofa demais, mas não importa. Você agora é um sortudo de Nimb.",
+    "abilities": [
+        {
+            "name": "Sorte Boba",
+            "description": "Quando usa uma habilidade que permite rolar qualquer dado novamente, você rola dois dados desse tipo e usa o melhor resultado."
+        },
+        {
+            "name": "Sorte Visitante",
+            "description": "No início de cada cena, role 1d8. Em um resultado 1, até o fim da cena você pode rolar novamente qualquer teste recém-feito. A cada dois outros poderes da distinção, esse d8 diminui em um passo. Pré-requisitos: Sortudo ou Sorte dos Loucos, devoto de Nimb."
+        },
+        {
+            "name": "Bênção de Nimb",
+            "description": "Sempre que faz um teste ou rola um dado em uma tabela ou para determinar a ocorrência de um evento (como o dado de confusão das Obrigações & Restrições de Nimb), você rola duas vezes e escolhe qual resultado usar. A critério do mestre, este poder pode se aplicar a outras rolagens de eventos aleatórios, como a chance de ocorrer um encontro. Pré-requisito: Sorte Visitante."
+        },
+        {
+            "name": "Caminhada Descuidada",
+            "description": "Quando um ataque ou habilidade causa dano a você, você pode gastar 2 PM para fazer um teste de Vontade com CD igual ao resultado do teste de ataque ou à CD para resistir à habilidade. Se passar nesse teste, você não sofre dano e, se passar por 10 ou mais, uma criatura a sua escolha dentro do alcance do ataque ou da habilidade sofre o dano que seria causado. Pré-requisito: Bênção de Nimb."
+        },
+        {
+            "name": "50/50",
+            "description": "Você pode gastar 5 PM e uma ação de movimento para gerar uma aura com 9m de raio de sorte e azar absolutos, com duração sustentada. Dentro dessa aura, todos os testes são resolvidos com uma rolagem de 1d2; resultados 1 são falhas e 2 são sucessos. Sempre que um teste dentro da aura for um sucesso, você recupera 2 PM e, sempre que for uma falha, você perde 2 PM. Pré-requisito: Sorte É o Que Se Faz."
+        },
+        {
+            "name": "Olha Só, Quem Diria?",
+            "description": "Uma vez por cena, você pode gastar uma ação completa e 6 PM para fazer um item mágico menor, a sua escolha, surgir em um espaço desocupado em alcance curto. Você não pode escolher itens únicos ou artefatos. O item desaparece ao fim da cena, ou se passar ao controle de outra pessoa. Quando isso acontece, quaisquer benefícios concedidos pelo item desaparecem. Pré-requisito: 50/50."
+        },
+        {
+            "name": "Sorte é o Que Se Faz",
+            "description": "Uma vez por rodada, quando uma criatura em alcance curto faz um teste de perícia, você pode gastar 3 PM para influenciar a sorte, ou o azar, dela. Se fizer isso, role 1d20. Você pode trocar os resultados das duas rolagens (a criatura usa o resultado do seu d20 e você fica com o resultado do d20 dela). Até o fim da cena, você pode usar o resultado trocado como a rolagem de um de seus testes de perícia. Você só pode usar este poder uma vez por teste de perícia na mesma cena para cada criatura. Pré-requisito: Bênção de Nimb."
+        }
+    ]
+}

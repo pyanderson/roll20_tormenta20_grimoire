@@ -1,0 +1,30 @@
+{
+    "name": "Mestre Bêbado",
+    "admission": "Um candidato a mestre bêbado tem um longo e (mais uma vez) tortuoso caminho pela frente. Apenas pessoas hábeis em combate desarmado e acrobacias podem tentar aprender estas técnicas. Infelizmente, candidatos que não possam ficar bêbados (como osteon) não podem embarcar nesta jornada. Candidatos que não tenham sido treinados em uma escola tamuraniana precisam primeiro passar um mês numa dessas escolas, familiarizando-se com os métodos do Império de Jade. Então é preciso achar um mestre.\nEsse é o primeiro grande desafio, pois não existem escolas inteiras do estilo do bêbado. O mestre sempre é alguém isolado que parece um bêbado imprestável. O candidato deve de alguma forma descobrir, entre os incontáveis tipos alcoolizados em tavernas ou estradas por aí, quem está escondendo técnicas marciais sutis e poderosas. Boa sorte.\nO próximo passo é convencer o mestre a treiná-lo. Mesmo que o candidato tenha certeza de que seu pretenso mentor se trata de um mestre bêbado (e não de um bêbado comum), o mestre fará de tudo para convencê-lo do contrário. Vai fugir de combates, será roubado por bandoleiros, causará problemas para o candidato... Será impossível determinar se isso é realmente um teste ou apenas o comportamento de um bêbado impertinente e covarde.\nUma vez que o mestre esteja satisfeito com a perseverança do candidato, o treinamento começa. O que se segue é uma série de tarefas e treinos, ao longo de meses, que podem ou não ter função real. O candidato pode receber a ordem de escalar a montanha mais alta da região, apenas para descobrir que seu único objetivo lá era colher uma fruta que o mestre estava com vontade de comer. Ou pode passar um dia inteiro de cabeça para baixo, sentindo-se um imbecil, então descobrir que com isso aprendeu uma técnica nova. O treinamento dura meses e exige o foco total do candidato. É impossível se aventurar e ao mesmo tempo seguir as instruções de um mentor imprevisível.\nNo fim do período de treinamento, o candidato deve tomar três porres: um de cerveja anã, um de saquê de Tamu-ra e um de dilínio de Lamnor. Alguns mentores trocam essas exigências para outras bebidas — principalmente se eles mesmos quiserem um golinho...\nEntão o candidato deve vencer um combate desafiador, estando realmente bêbado! Depois de fazer isso, seu mentor vai olhá-lo com seriedade pela primeira vez... Então desatar a rir.\nE o candidato saberá que atingiu seu objetivo. É só um palhaço, só alguém embriagado e alvo de chacotas.\nUm verdadeiro mestre bêbado.",
+    "abilities": [
+        {
+            "name": "Felicidade Engarrafada",
+            "description": "Você possui um recipiente (uma garrafa, odre ou equivalente) que ocupa 0,5 espaço e comporta 5 goles de bebida, +2 goles para cada poder da distinção que você possuir. Se estiver empunhando o recipiente, você pode gastar uma ação de movimento para tomar um gole da bebida e ganhar 1 PM temporário. Seu recipiente recupera todos os goles de bebida ao amanhecer, apesar de você nunca se lembrar de como conseguiu mais bebida… Essa bebida não provoca penalidades, mas também não conta como água para saciar fome e sede (Tormenta20, p. 319). A critério do mestre, essa bebida pode ser compartilhada com outros personagens em situações de interpretação, mas não fornece nenhum bônus para eles e não pode ser alterada de nenhuma forma."
+        },
+        {
+            "name": "Lógica Alcoólica",
+            "description": "No início de cada rodada, você recebe um dos benefícios a seguir, que dura por 1 rodada. Role 1d6: 1) +2 em testes de ataque; 2) +2 em rolagens de dano; 3) +3m de deslocamento; 4) +2 na Defesa; 5) +2 na margem de ameaça com ataques desarmados; 6) +2 em testes de resistência. Para cada dois outros poderes da distinção, esses bônus aumentam em +1 (ou +1,5m). Pré-requisitos: treinado em Fortitude e Luta, Briga ou Estilo Desarmado."
+        },
+        {
+            "name": "Bafo de Dragão",
+            "description": "Uma vez por rodada, você pode gastar uma ação de movimento e beber um número de goles do seu recipiente (limitado pelo número de poderes da distinção que você possui) para desferir um sopro flamejante num cone de 9m. Criaturas na área sofrem 2d6 pontos de dano de fogo por gole e ficam em chamas (Reflexos CD Con + número de poderes da distinção que você possui reduz à metade e evita a condição). Pré-requisitos: Con 3, Bafo de Troll."
+        },
+        {
+            "name": "Bafo de Troll",
+            "description": "Você pode gastar uma ação padrão e tomar um gole do seu recipiente para expelir um hálito horrível contra uma criatura adjacente. O alvo fica enjoado por 1d4+1 rodadas (Fort CD Con + número de poderes da distinção que você possui reduz para 1 rodada). Criaturas com Faro sofrem –5 no teste de Fortitude. Pré-requisito: Lógica Alcoólica."
+        },
+        {
+            "name": "Bebida Revigorante",
+            "description": "Você pode gastar uma ação de movimento e tomar um gole do seu recipiente para recuperar 4d6 PV ou remover uma condição entre abalado, alquebrado, apavorado, atordoado, cego, confuso, enfeitiçado, esmorecido, exausto, fatigado, frustrado, pasmo ou surdo. Quando usa este poder, você pode beber goles adicionais (limitados pelo número de poderes da distinção que você possui) para remover uma condição adicional ou aumentar a cura em +2d6 PV. Pré-requisito: Lógica Alcoólica."
+        },
+        {
+            "name": "Luta Ridícula",
+            "description": "Quando passa em um teste para fintar contra uma criatura inteligente (Int –3 ou maior), além do normal, você faz essa criatura subestimá-lo por 1 rodada. Enquanto o está subestimando, a criatura não pode fazer ações hostis contra você, exceto a ação agredir — mas não pode fazer nenhum ataque adicional ao usá-la! Você pode beber um gole ao fintar para somar o número de poderes da distinção que possui no teste da finta. Pré-requisitos: treinado em Enganação, Lógica Alcoólica."
+        }
+    ]
+}

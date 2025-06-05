@@ -1,0 +1,34 @@
+{
+    "name": "Guardião da Realidade",
+    "admission": "O primeiro requisito para se tornar um guardião da realidade é estar completamente livre da mácula da Tormenta. Não se sabe de nenhum lefou ou pessoa tocada pela Tempestade Rubra que tenha se tornado um destes heróis.\nOriginalmente, candidatos a guardiões da realidade precisavam demonstrar sua bravura e pujança em combate derrotando um ou mais lefeu. Depois disso, peregrinavam em templos de todas as divindades jurando dar sua vida, alma e honra para proteger Arton da Tormenta. Não se tratava de uma questão de devoção: cada guardião da realidade era (e ainda é) livre para ter suas próprias crenças e se dedicar pessoalmente a uma divindade. Mas o combate contra a Anticriação exige deixar diferenças de lado e garantir o apoio dos seres mais poderosos na Criação. Os deuses e seus servos compreendem essa relação melhor do que ninguém. O Panteão é composto pelos pilares da realidade. A Tormenta é sua antítese.\nOu, pelo menos, costumava ser.\nCom a ascensão de Aharadak, o Deus da Tormenta, o processo para se tornar um guardião da realidade se tornou nebuloso. Agora, um representante do inimigo faz parte do cerne de Arton. Ainda assim, um herói que deseje esta função não se deixa abater por nada.\nA parte da jornada para se tornar um guardião que envolve combate pouco mudou: um candidato a guardião da realidade ainda precisa conquistar uma vitória significativa contra os lefeu. Isso significa participar ativamente de um combate contra um ou mais lefeu que representem um grande desafio para o candidato e seus companheiros. Durante essa vitória, o candidato precisa se colocar como um protetor de seus aliados, sangrar em nome deles, estar na linha de frente, sofrendo os ataques lefeu tanto quanto possível. Também tem que destruir com suas próprias armas (ou mãos) o lefeu mais poderoso que o grupo esteja enfrentando. Não se trata de buscar glória — o candidato precisa mostrar a si mesmo, ao Panteão, à própria Arton que, além de disposição, tem a força necessária para assumir este papel.\nEntretanto, agora parece impossível cumprir a segunda parte da jornada — a bênção de todos os vinte deuses. Assim, apoio do vigésimo deus tem sido substituído por outras demonstrações de habilidade e dedicação, como a remoção da corrupção da Tormenta de um inocente ou a eliminação de uma célula de culto a Aharadak. Estudiosos dos deuses teorizam em sussurros que qualquer um desses métodos apenas chama a atenção do deus da Tormenta e ele próprio concede o apoio necessário, permitindo que o candidato se torne um guardião da realidade. É muito difícil corroborar ou negar essa tese, já que os motivos dos lefeu são inescrutáveis. Existem até mesmo guardiões da realidade que afirmam que “remover a corrupção da Tormenta” é uma falácia, apenas mais um ardil de Aharadak para que os artonianos aceitem essa aberração. A verdade é desconhecida.\nMas sabe-se que, mesmo com um deus da Tormenta nas fileiras do Panteão, ainda existem guardiões da realidade.",
+    "abilities": [
+        {
+            "name": "Efeitos da Tormenta",
+            "description": "Certas habilidades do guardião da realidade, bem como outras habilidades em Tormenta20, mencionam “efeitos da Tormenta”. Isso significa qualquer efeito gerado por áreas de Tormenta e suas criaturas, lefeu, lefou e tanto devotos quanto templos de Aharadak."
+        },
+        {
+            "name": "Escudo da Realidade",
+            "description": "Você recebe +5 em testes de resistência. Contra efeitos da Tormenta, esse bônus aumenta em +1 por poder da distinção."
+        },
+        {
+            "name": "Destruir Anticriação",
+            "description": "Quando faz um ataque corpo a corpo, você pode gastar 2 PM para canalizar a realidade em seu golpe. Você soma seu Carisma ao teste de ataque e +1d8 à rolagem de dano e, se o alvo for uma criatura da Tormenta, ignora sua imunidade a acertos críticos. Se possuir a habilidade Golpe Divino, em vez disso ela causa dois dados extras de dano e ignora a imunidade a acertos críticos de criaturas da Tormenta. Pré-requisitos: treinado em Luta, Vontade de Ferro."
+        },
+        {
+            "name": "Detectar Anticriação",
+            "description": "Você soma seu Carisma em Intuição e Percepção. Além disso, está permanentemente sob o efeito da magia Detectar Ameaças, com todos os seus aprimoramentos, mas apenas para efeitos da Tormenta. Pré-requisitos: treinado em Percepção, Destruir Anticriação."
+        },
+        {
+            "name": "Herói de Arton",
+            "description": "Uma vez por rodada, você pode gastar 2 PM para transformar um acerto crítico que tenha recém sofrido em um acerto normal, para repetir um teste de resistência recém realizado, ou para reduzir à metade o dano causado por uma fonte da Tormenta. Pré-requisito: Herói dos Reinos."
+        },
+        {
+            "name": "Herói dos Reinos",
+            "description": "Na primeira rodada de cada combate, você recebe uma quantidade de PM temporários igual ao seu Carisma. Além disso, uma vez por rodada, quando você usa uma habilidade contra um efeito da Tormenta, o custo dessa habilidade é reduzido em –1 PM (cumulativo com outras reduções). Pré-requisito: Detectar Anticriação."
+        },
+        {
+            "name": "Herói da Realidade",
+            "description": "Você projeta uma aura de realidade constante com 9m de raio. Criaturas a sua escolha nessa aura são protegidas dos seguintes efeitos de áreas de Tormenta e de templos de Aharadak (Ameaças de Arton, p. 60): ao entrar nesses locais elas não ficam frustradas e seus itens mágicos encantados não perdem encantos. O aumento de custo de suas habilidades por estar nesses locais diminui em 1 (+0 PM para templos e +1 PM para áreas). Por fim, dano contra criaturas da Tormenta a sua escolha dentro da aura ignora uma quantidade de RD igual ao seu Carisma e dentro da aura elas sofrem uma penalidade em rolagens de dano igual ao seu Carisma. Pré-requisito: Herói de Arton."
+        }
+    ]
+}

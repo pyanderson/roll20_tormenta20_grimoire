@@ -1,0 +1,34 @@
+{
+    "name": "Detetive de Tanna-Toh",
+    "admission": "Naturalmente, apenas devotos da Deusa do Conhecimento podem se tornar detetives de Tanna-Toh. A bênção da deusa é tratada pelos detetives como a verdade fundamental. Mesmo que nada mais seja comprovável, o fato de que há algo a ser descoberto implica que o conhecimento existe. A entidade que o personifica deve ser a base de todo pensamento.\nPara se tornar um detetive de Tanna-Toh, o candidato precisa dominar algumas disciplinas: conhecimento das leis, funcionamento das principais organizações criminosas, técnicas como punga e arrombamento, furtividade, observação de suspeitos, interrogatório, alquimia e lógica pura. É comum que um candidato passe algum tempo em diversas organizações ou com professores, estudando cada um desses assuntos: a guarda da cidade, um espião aposentado, um laboratório de alquimistas ou até uma guilda de ladrões.\nEntão só resta ao candidato solucionar um caso. Deve ser um mistério real — por isso, muitos escolhem casos antigos, considerados insolúveis. De nada vale obter uma confissão por meios brutais ou apenas achar uma pista. É preciso juntar peças, cruzar informações, fazer deduções. Por fim, é preciso obter provas materiais do que aconteceu e apontar o culpado às autoridades. Mesmo que o responsável já esteja morto ou preso, o que importa é a dedução. Uma vez que isso tenha sido alcançado, o candidato se torna um detetive de Tanna-Toh, sentindo a bênção da deusa de formas totalmente novas… e totalmente lógicas.",
+    "abilities": [
+        {
+            "name": "Informantes (Quadro)",
+            "description": "Um informante é um NPC que auxilia o detetive de Tanna-Toh com conhecimento especializado. Ao contrário de parceiros, informantes não são aventureiros; eles não possuem a inclinação para se envolver em missões arriscadas, preferindo oferecer sua ajuda do conforto (e segurança) de seus lares ou locais de trabalho.\nO benefício de um informante só pode ser usado se o detetive puder visitá-lo ou tiver meios para contatá-lo. Uma vez por aventura, o detetive pode trocar a localização de seus informantes (isso significa que ele fez arranjos para realocar o informante, ou que simplesmente estabeleceu novos contatos no lugar de seus antigos).\n\nAristocrata. Alguém com laços nas camadas mais elevadas da sociedade. Você pode usar o poder Favor (Tormenta20, p. 79). Se já tiver esse poder, em vez disso recebe +5 no teste de Diplomacia para obter o favor.\n\nArmeiro. Um artesão especialista em armas. Você pode usar Investigação no lugar de Ofício para identificar armas. Além disso, uma vez por aventura um de seus itens recebe uma melhoria a sua escolha que dura até o fim da aventura.\n\nBoticário. Um alquimista e comerciante de preparados. Você pode usar Investigação no lugar de Ofício para identificar itens alquímicos e poções. Além disso, uma vez por aventura, recebe itens alquímicos e poções a sua escolha com preço total de até T$ 200 por poder da distinção que possui.\n\nCurandeiro. Alguém versado em medicina. Você pode usar Investigação no lugar de Cura para necropsia e, uma vez por aventura, recebe três doses de um preparado alquímico experimental que duram até serem gastos ou até o fim da aventura. Usar esse preparado é uma ação de movimento e fornece cura acelerada 5 por um número de rodadas igual ao nível do usuário.\n\nErudito. Um acadêmico capaz de auxiliá-lo em pesquisas e estudos. Uma vez por aventura, para cada poder da distinção você recebe 4d4 dados de consulta que duram até serem gastos ou até o fim da aventura. Sempre que fizer um teste de perícia baseada em Inteligência ou Sabedoria, você pode gastar até 2d4 e adicionar o resultado como um bônus no teste. Você pode usar esses dados após ter rolado o dado, mas antes de o mestre dizer ser passou ou não.\n\nEstalajadeiro. Uma estalagem pode ser um porto seguro e uma fonte de informações. Nela você tem descanso luxuoso e, quando faz um teste de Investigação para interrogar, rola dois dados e usa o melhor resultado."
+        },
+        {
+            "name": "Nada Além de Fatos",
+            "description": "Você recebe +5 em Intuição e Investigação."
+        },
+        {
+            "name": "Traçar Perfil",
+            "description": "Você pode usar Investigação para identificar criaturas (veja Misticismo, em Tormenta20, p. 121) em quaisquer criaturas inteligentes (Int –3 ou maior). Quando identifica uma criatura dessa forma, além das informações recebidas, você pode gastar 2 PM para traçar seu perfil: até o fim da cena, você recebe +1 em testes de perícia e na CD de suas habilidades contra ela para cada poder da distinção que você possui. Pré-requisitos: devoto de Tanna-Toh, Investigador, Mente Analítica."
+        },
+        {
+            "name": "Classificar como Suspeito",
+            "description": "Quando usa Traçar Perfil, você pode classificar o alvo como um suspeito. Se fizer isso, os bônus fornecidos por esse poder duram até o fim da aventura e, quando faz um teste de Investigação ou Intuição contra essa criatura, você rola dois dados e usa o melhor resultado. Você pode ter um máximo de suspeitos por aventura igual ao total de poderes da distinção que possui. Você pode remover um suspeito de sua lista (para abrir espaço para outros), mas apenas se reunir provas que o eliminem como tal. Pré-requisito: Traçar Perfil."
+        },
+        {
+            "name": "Elementar",
+            "description": "Você pode gastar 10 minutos para analisar a cena de um evento ocorrido há no máximo dois dias por poder da distinção que possui. Se fizer isso, você pode fazer um teste de Investigação para identificar criatura contra o responsável pelo evento (CD Int da criatura) como se ele estivesse presente — e pode usar Traçar Perfil contra ele como o normal —, mas não descobre sua identidade automaticamente. Se o evento foi cometido por mais de uma criatura, considere apenas o líder delas. Você só pode usar este poder uma vez por cena de crime. Pré-requisito: Traçar Perfil."
+        },
+        {
+            "name": "Informantes",
+            "description": "Você possui um informante (veja o quadro) a sua escolha. A cada outro poder da distinção, você recebe um informante adicional. Pré-requisito: Traçar Perfil."
+        },
+        {
+            "name": "Sequência Dedutiva",
+            "description": "Sempre que você passa em um teste de Investigação e sempre que você (o jogador) deduz uma informação relevante (a critério do mestre) sobre a aventura em questão, você recebe um bônus cumulativo de +1 em testes de perícias baseadas em Inteligência, Sabedoria e Carisma relacionados à aventura (limitado pelo total de poderes da distinção que você possui). Esses bônus diminuem em –1 se você falhar em um teste de Investigação e desaparecem no fim da aventura. Pré-requisito: Traçar Perfil."
+        }
+    ]
+}

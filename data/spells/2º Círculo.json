@@ -139,6 +139,29 @@
     {
       "area": "esfera com 6m de raio",
       "circle": "2",
+      "description": "Uma aura de frio necrótico emana a partir do seu corpo, alimentando-se de sua própria força vital. Quando você lança a magia, e no início de cada um dos seus turnos, você perde 1d6 pontos de vida e cada outra criatura na área perde 2d8 pontos de vida.",
+      "duration": "cena",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+1 PM",
+          "description": "aumenta a perda de vida para outras criaturas em +1d8 (número de dados de perda de vida máximos limitados pelo círculo máximo de magia que você pode lançar). Requer 3º círculo."
+        },
+        {
+          "cost": "+3 PM",
+          "description": "adiciona resistência (Fortitude parcial). Além do normal, outras criaturas que percam pontos de vida pela magia devem fazer um teste de Fortitude. Se falharem, não podem recuperar PV por 1 rodada. Requer 3º círculo."
+        }
+      ],
+      "name": "Aura de Morte",
+      "range": "pessoal",
+      "resistance": "",
+      "target": "",
+      "type": "Arcana 2 (Necromancia)"
+    },
+    {
+      "area": "esfera com 6m de raio",
+      "circle": "2",
       "description": "Esta famosa magia de ataque cria uma poderosa explosão, causando 6d6 pontos de dano de fogo em todas as criaturas e objetos livres na área.",
       "duration": "instantânea",
       "effect": "",
@@ -247,6 +270,41 @@
     {
       "area": "",
       "circle": "2",
+      "description": "Esta magia modifica o terreno e/ou a arquitetura de um ponto no alcance, transformando-o em uma armadilha de caçador (Tormenta20, p. 50) a sua escolha. A armadilha criada segue as mesmas regras de armadilhas, mas a CD dos testes para encontrá-la e resistir a ela é a da magia.\nEmbora seja produzida por magia, a armadilha ainda pode ser superada por meios mundanos normais. Depois de ativada, seja bem-sucedida ou não, a armadilha não volta a se reativar: fica inerte e inofensiva, devendo ser conjurada outra vez.",
+      "duration": "permanente",
+      "effect": "1 armadilha conjurada",
+      "execution": "completa",
+      "implements": [
+        {
+          "cost": "+1 PM",
+          "description": "seus poderes que afetam armadilhas também afetam a armadilha criada pela magia."
+        },
+        {
+          "cost": "+3 PM",
+          "description": "quando lança a magia, você pode escolher qualquer número de criaturas no alcance para não serem afetadas pela armadilha. Requer 2° círculo."
+        },
+        {
+          "cost": "+5 PM",
+          "description": "muda a execução para padrão. A armadilha pode ser conjurada diretamente em uma área ocupada por uma criatura, o que a aciona imediatamente. Requer 3º círculo."
+        },
+        {
+          "cost": "+1 PM",
+          "description": "(Apenas Armadilheiros Mestres e Caçadores): reduz o tempo de execução para movimento."
+        },
+        {
+          "cost": "+4 PM",
+          "description": "(Apenas Armadilheiross Mestres): em vez do normal, você pode conjurar uma das suas armadilhas de armadilheiro mestre."
+        }
+      ],
+      "name": "Conjurar Armadilha",
+      "range": "curto",
+      "resistance": "",
+      "target": "",
+      "type": "Arcana 2 (Transmutação)"
+    },
+    {
+      "area": "",
+      "circle": "2",
       "description": "Você conjura seis esqueletos capangas de tamanho Médio feitos de energia negativa em espaços desocupados dentro do alcance. Você pode gastar uma ação de movimento para fazer os mortos-vivos andarem (eles têm deslocamento 9m) ou uma ação padrão para fazê-los causar dano a criaturas adjacentes (1d6+2 pontos de dano de trevas cada). Os esqueletos têm For 2, Des 2, Defesa 18 e todos os outros atributos nulos; eles têm 1 PV e falham automaticamente em qualquer teste de resistência ou oposto, mas são imunes a atordoamento, cansaço, dano não letal, doença, encantamento, fadiga, frio, ilusão, paralisia, sono e veneno. Eles desaparecem quando são reduzidos a 0 PV ou no fim da cena. Os mortos- -vivos não agem sem receber uma ordem. Usos criativos para capangas fora de combate ficam a critério do mestre.\n \nSoterrado: como esqueletos, mas causam dano de frio. Além disso, criaturas atingidas por um soterrado devem passar num teste de Fortitude ou ficam enredadas por 1 rodada.\n \nCarniçal: como esqueletos, mas têm For 3, Des 3, Defesa 27 e causam 1d8+3 pontos de dano de trevas mais perda de 1d8 PV por veneno. Além disso, criaturas atingidas por um carniçal devem passar num teste de Fortitude ou ficam Paralisado por 1 rodada. Uma criatura que passe no teste de resistência fica imune à paralisia dos carniçais por um dia.\n \nFúria de Tauron: como esqueletos, mas têm tamanho Pequeno, deslocamento de voo 12m, a habilidade incorpóreo, Des 5, Defesa 18 e causam 1d6 pontos de dano de trevas mais 1d6 pontos de dano de fogo. Além disso, criaturas vivas atingidas ficam desprevenidas por 1 rodada e em chamas (Fort CD igual à da magia evita).\n \nGuerreiro Perpétuo: como esqueletos, mas têm For 5, Des 4, Defesa 33, a habilidade incorpóreo e causam 3d6 pontos de dano de impacto duas vezes por ação.\n \nZumbi Peçonha: como esqueletos, mas têm For 3, Des 1, Defesa 25 e causam 1d8+1 pontos de dano de trevas mais perda de 2d6 PV por veneno. Além disso, criaturas atingidas por um zumbi peçonha ficam atordoadas por 1 rodada (apenas uma vez por cena) e depois fracas (Fort reduz para fracas por 1 rodada).\n \nSombra: como esqueletos, mas têm Des 4, Defesa 35, a habilidade incorpóreo e causam 2d10 pontos de dano de trevas. Além disso, criaturas vivas atingidas por uma sombra devem passar num teste de Fortitude ou perdem 1d4 PM. Sombras perdem a habilidade incorpóreo quando expostas à luz do sol.",
       "duration": "sustentada",
       "effect": "6 mortos-vivos",
@@ -348,6 +406,41 @@
     {
       "area": "",
       "circle": "2",
+      "description": "Lisandra de Galrasia foi a primeira a manifestar uma armadura fibrosa, mas hoje outros podem fazer o mesmo. Esta magia transforma o alvo em uma couraça arbórea. Se for uma armadura, seu bônus na Defesa aumenta em +2 e se for um vestuário, passa a fornecer +2 na Defesa (não cumulativo com armadura). Os efeitos desta magia contam como um bônus de encanto e ela só pode ser lançada em terrenos naturais. Dahllan recebem 1 PM para usar em aprimoramentos ao lançá-la.",
+      "duration": "cena",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+1 PM",
+          "description": "aumenta a Defesa em +1 (bônus máximo limitado pelo círculo máximo de magia que você pode lançar)."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "além do normal, suas magias de evocação e transmutação custam –1 PM."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "o alvo é recoberto por folhas e galhos. Você recebe +5 em testes de Furtividade e pode se esconder mesmo sem camuflagem ou cobertura disponível."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "além do normal, o alvo fornece o mesmo bônus em testes de resistência. Requer 3° círculo."
+        },
+        {
+          "cost": "+3 PM",
+          "description": "além do normal, o alvo é recoberto esporos de cogumelo. Quando uma criatura faz um ataque corpo a corpo contra você, ela deve fazer um teste de Fortitude (CD da magia). Se falhar, fica paralisada por 1 rodada (apenas uma vez por cena) e lenta. Se passar, fica lenta por 1 rodada. Requer 3° círculo."
+        }
+      ],
+      "name": "Couraça de Allihanna",
+      "range": "toque",
+      "resistance": "",
+      "target": "1 armadura ou vestuário",
+      "type": "Divina 2 (Abjuração)"
+    },
+    {
+      "area": "",
+      "circle": "2",
       "description": "Esta magia cria um crânio envolto em energia negativa. Quando atinge o alvo, causa 4d8+4 pontos de dano de trevas e se desfaz emitindo um som horrendo, deixando abalado o alvo e todos os inimigos num raio de 3m dele (criaturas já abaladas ficam apavoradas por 1d4 rodadas). Passar no teste de resistência diminui o dano à metade e evita a condição (as demais criaturas na área também tem direito ao teste de resistência, para evitar a condição).\nAbalado\nApavorado",
       "duration": "instantânea",
       "effect": "",
@@ -396,6 +489,25 @@
       "type": "Divina 2 (Abjuração)"
     },
     {
+      "area": "",
+      "circle": "2",
+      "description": "Esta magia cria uma aura de influência de 9m ao redor do alvo. Outras criaturas que iniciarem seus turnos dentro da aura devem fazer um teste de Vontade. Se falharem, quaisquer ações hostis nesse turno devem ser feitas contra o alvo.",
+      "duration": "sustentada",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+3 PM",
+          "description": "muda o alvo para 1 criatura ou objeto. Requer 4° círculo."
+        }
+      ],
+      "name": "Desafio Corajoso",
+      "range": "curto",
+      "resistance": "Vontade anula",
+      "target": "1 criatura voluntária",
+      "type": "Arcana 2 (Encantamento)"
+    },
+    {
       "area": "Cone de 6m",
       "circle": "2",
       "description": "Humanoides na área são acometidos de grande tristeza, adquirindo as condições Fraco e Frustrado. Se passarem na resistência, adquirem essas condições por uma rodada.",
@@ -423,6 +535,33 @@
       "type": "Arcana 2 (Encantamento)"
     },
     {
+      "area": "esfera com 3m de raio",
+      "circle": "2",
+      "description": "Você desfaz os efeitos ativos de engenhocas, como se sua duração tivesse acabado (efeitos instantâneos não podem ser dissipados). Se lançar esta magia em uma criatura ou área, faça um teste de Misticismo; você dissipa os efeitos ativos de engenhocas com CD igual ou menor que o resultado do teste. Lançada diretamente contra uma engenhoca, aumenta a CD para ativá-la em +10 até o fim da cena. Lançada contra um construto, o teste é oposto à Vontade do alvo. Se você vencer, além do normal, o construto fica fraco e vulnerável (mesmo que seja imune a essas condições). A critério do mestre, esta magia pode afetar outras habilidades e itens similares a engenhocas.\nDizem que Desfazer Engenhoca foi ofertada aos mortais pela própria Wynna, ressentida em relação a inventos mundanos que imitam seus milagres mágicos. Por outro lado, alguns isentam a deusa, atribuindo sua criação a algum arcanista extremamente incomodado com esses inventores do diacho!",
+      "duration": "instantânea",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+2 PM",
+          "description": "além do normal, você recebe +5 no seu teste de Misticismo para dissipar uma engenhoca para cada vez que a viu ser usada na cena."
+        },
+        {
+          "cost": "+5 PM",
+          "description": "além do normal, a magia ignora qualquer efeito ativo gerado por engenhocas (por exemplo, um Campo Antimagia)."
+        },
+        {
+          "cost": "+12 PM",
+          "description": "muda a área para esfera com 9m de raio. Em vez do normal, cria um efeito de disjunção. Todos os efeitos de engenhocas na área são automaticamente dissipados e todas as engenhocas na área, exceto aquelas que você estiver carregando, enguiçam por uma cena (o usuário de engenhocas carregadas tem direito a um teste de Vontade para evitar isso; engenhocas soltas são itens mundanos e por isso não têm direito a testes, como normal). Requer 5º círculo."
+        }
+      ],
+      "name": "Desfazer Engenhoca",
+      "range": "médio",
+      "resistance": "",
+      "target": "ou 1 criatura ou engenhoca",
+      "type": "Universal 2 (Abjuração)"
+    },
+    {
       "area": "ou esfera com 3m de raio",
       "circle": "2",
       "description": "Você dissipa outras magias que estejam ativas, como se sua duração tivesse acabado. Note que efeitos de magias instantâneas não podem ser dissipados (não se pode dissipar uma Bola de Fogo ou Relâmpago depois que já causaram dano...). Se lançar essa magia em uma criatura ou área, faça um teste de Misticismo; você dissipa as magias com CD igual ou menor que o resultado do teste. Se lançada contra um item mágico, o transforma em um item mundano por 1d6 rodadas (Vontade anula).",
@@ -440,6 +579,25 @@
       "resistance": "",
       "target": "1 criatura ou 1 objeto mágico",
       "type": "Universal 2 (Abjuração)"
+    },
+    {
+      "area": "",
+      "circle": "2",
+      "description": "Pela duração de Emular Magia, você pode lançar uma única magia que tenha visto ser lançada em alcance curto desde sua última rodada. A magia deve ser de um tipo (arcana ou divina) e de um círculo a que você tenha acesso.",
+      "duration": "cena",
+      "effect": "",
+      "execution": "movimento",
+      "implements": [
+        {
+          "cost": "+1 PM",
+          "description": "a magia emulada pode ser de qualquer tipo, arcana ou divina."
+        }
+      ],
+      "name": "Emular Magia",
+      "range": "pessoal",
+      "resistance": "",
+      "target": "você",
+      "type": "Universal 2 (Evocação)"
     },
     {
       "area": "",
@@ -702,6 +860,33 @@
     {
       "area": "",
       "circle": "2",
+      "description": "Esta magia energiza a fonte de energia de um golem ou outro construto, sobrecarregando-a temporariamente. O alvo recebe +5 em Atletismo e Luta, mas perde 1d4 pontos de vida no fim de cada turno em que executar uma ação padrão.",
+      "duration": "cena",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+2 PM",
+          "description": "além do normal, os ataques corpo a corpo do alvo causam +1d6 pontos de dano."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "além do normal, o alvo recebe +2 na Defesa."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "aumenta o bônus na Defesa em +1."
+        }
+      ],
+      "name": "Máquina de Combate",
+      "range": "toque",
+      "resistance": "",
+      "target": "1 construto",
+      "type": "Arcana 2 (Transmutação)"
+    },
+    {
+      "area": "",
+      "circle": "2",
       "description": "Você toca uma criatura, gravando uma marca mística no corpo dela enquanto profere uma ordem, como “não ataque a mim ou meus aliados”, “siga-me” ou “não saia desta sala”. A criatura deve seguir essa ordem, gastando todas as ações de seu turno para isso. A ordem não pode ser genérica demais (como “ajude-me”, por exemplo), nem forçar o alvo a atos suicidas. A cada rodada, o alvo pode fazer um teste de Vontade. Se passar, a magia é dissipada.",
       "duration": "cena",
       "effect": "",
@@ -911,6 +1096,79 @@
       "resistance": "",
       "target": "todas as criaturas (veja texto)",
       "type": "Divina 2 (Encantamento)"
+    },
+    {
+      "area": "",
+      "circle": "2",
+      "description": "Pela duração da magia, você fica “piscando” entre o Plano material e o etéreo. Para quem o observa, é como se você ficasse visível e invisível várias vezes por segundo.\nQuaisquer ataques e habilidades (incluindo efeitos benéficos) de outras criaturas têm 50% de chance de não afetá-lo. Você recebe +2 em testes de ataque, pois é difícil ver de onde você está atacando. Contudo, seus próprios ataques e habilidades têm 25% de chance de não afetar outras criaturas, pois você não tem controle total sobre quando está em qual Plano.\nVocê pode interagir com criaturas etéreas, com as mesmas chances de falha.",
+      "duration": "cena",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+2 PM",
+          "description": "muda o alcance para toque e o alvo para 1 criatura voluntária. Requer 3º círculo."
+        }
+      ],
+      "name": "Piscar",
+      "range": "pessoal",
+      "resistance": "",
+      "target": "você",
+      "type": "Arcana 2 (Transmutação)"
+    },
+    {
+      "area": "",
+      "circle": "2",
+      "description": "Esta magia transforma o conteúdo de uma poção em uma substância volátil e explosiva. Quando é usada, em vez de ter seu efeito normal, a poção causa 2d6 pontos de dano de essência por círculo da magia que ela continha (outras características da magia, como alvos, área e testes de resistência, se mantêm). Se a poção for ingerida, ela causa dano máximo à criatura que a ingeriu, sem direito a teste de resistência.\nSe esta magia for lançada sobre uma poção carregada por uma criatura, a criatura tem direito a um teste de Reflexos para evitar esse efeito. Reconhecer uma poção adulterada dessa forma exige um teste de Misticismo ou Ofício (alquimista) com CD 25.",
+      "duration": "cena",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+5 PM",
+          "description": "você pode determinar uma palavra-chave que, pronunciada por qualquer pessoa em alcance curto, faz a poção explodir. Requer 3° círculo."
+        },
+        {
+          "cost": "+7 PM",
+          "description": "muda o alcance para pessoal e o alvo para área (esfera com 9m de raio). A magia afeta mesmo poções na área que estejam sendo carregadas. Requer 4° círculo."
+        }
+      ],
+      "name": "Poção Explosiva",
+      "range": "curto",
+      "resistance": "",
+      "target": "1 poção",
+      "type": "Arcana 2 (Transmutação)"
+    },
+    {
+      "area": "",
+      "circle": "2",
+      "description": "Por meio de um brado poderoso, entoando um dogma de sua religião, você inflige dano a devotos de divindades adversárias.\nEsta magia causa 6d8 pontos de dano de impacto a devotos de deuses que canalizam energia oposta a seu deus. Assim, se sua divindade canaliza energia positiva, a magia afeta devotos de deuses que canalizem energia negativa, e vice-versa. Devotos de deuses que canalizam qualquer energia ou criaturas que não sejam devotas sofrem apenas metade do dano.\nA magia afeta celestiais e abissais como se fossem devotos, respectivamente, de deuses de energia positiva e negativa, enquanto suraggel são afetados conforme sua herança. Nesses casos, a natureza planar se sobrepõe à devoção (um aggelus devoto de Tenebra ainda é considerado de energia positiva).",
+      "duration": "instantânea",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+1 PM",
+          "description": "muda o alvo para 1 espírito ou morto-vivo."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "aumenta o dano em +2d8."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "muda o alvo para 1 criatura."
+        },
+        {
+          "cost": "+3 PM",
+          "description": "muda o alvo para criaturas escolhidas. Requer 3° círculo."
+        }
+      ],
+      "name": "Punição do Profano",
+      "range": "curto",
+      "resistance": "Vontade reduz à metade",
+      "target": "1 humanoide",
+      "type": "Divina 2 (Evocação)"
     },
     {
       "area": "",
@@ -1305,6 +1563,87 @@
     {
       "area": "",
       "circle": "2",
+      "description": "Provavelmente ofertada por Sszzaas, esta magia amaldiçoa uma arma contra seu usuário. Quando faz um ataque com a arma, o usuário deve passar em um teste de Vontade. Se falhar, a arma se retorce como uma serpente, ou muda sua trajetória em pleno voo; o agressor se torna o alvo do próprio ataque! Após esse ataque, bem- -sucedido ou não, a magia descarrega e a arma volta ao normal.",
+      "duration": "cena, até ser descarregada",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+1 PM",
+          "description": "em vez do usuário, a arma se volta para outra criatura em alcance curto que você possa perceber, a sua escolha."
+        },
+        {
+          "cost": "+1 PM",
+          "description": "muda o alvo para 1 arma e a duração para 1 dia, até ser descarregada. Requer 3° círculo."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "aumenta o número de alvos em +1."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "adiciona componente material (uma dose de veneno). Além do normal, o ataque envenena o usuário com o veneno utilizado como componente (a CD desse veneno é a CD da própria magia)."
+        }
+      ],
+      "name": "Traição da Lâmina",
+      "range": "curto",
+      "resistance": "Vontade (veja texto)",
+      "target": "1 arma em posse de uma criatura",
+      "type": "Divina 2 (Abjuração)"
+    },
+    {
+      "area": "",
+      "circle": "2",
+      "description": "Esta magia desestabiliza outras magias ativas no alvo, fazendo com que elas causem uma súbita descarga de energia mística. Para cada círculo das magias afetando o alvo, ele sofre 1d8 pontos de dano de essência. Um alvo sob efeito de Velocidade e Voo (2º e 3º círculos) sofre 5d8 pontos de dano.",
+      "duration": "instantânea",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+3 PM",
+          "description": "muda o alvo para criaturas escolhidas. Requer 3º círculo."
+        },
+        {
+          "cost": "+3 PM",
+          "description": "muda a resistência para nenhuma. Requer 3º círculo."
+        }
+      ],
+      "name": "Traição Mágica",
+      "range": "curto",
+      "resistance": "Vontade reduz à metade",
+      "target": "1 criatura",
+      "type": "Universal 2 (Abjuração)"
+    },
+    {
+      "area": "",
+      "circle": "2",
+      "description": "Esta magia teletransporta duas criaturas, incluindo seu equipamento, fazendo com que troquem de lugar imediatamente.",
+      "duration": "instantânea",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+2 PM",
+          "description": "aumenta o número de alvos em +2. Você determina com quais criaturas cada alvo troca de lugar."
+        },
+        {
+          "cost": "+5 PM",
+          "description": "a troca não exige linha de efeito, mas os alvos ainda devem estar dentro do alcance. Requer 3º círculo."
+        },
+        {
+          "cost": "+5 PM",
+          "description": "muda o alvo para 2 criaturas do tipo lacaio e adiciona resistência (Vontade anula). Requer 4º círculo."
+        }
+      ],
+      "name": "Transposição",
+      "range": "curto",
+      "resistance": "",
+      "target": "2 criaturas voluntárias",
+      "type": "Arcana 2 (Convocação)"
+    },
+    {
+      "area": "",
+      "circle": "2",
       "description": "O alvo pode realizar uma ação padrão ou de movimento adicional por turno. Esta ação não pode ser usada para lançar magias e ativar engenhocas.",
       "duration": "sustentada",
       "effect": "",
@@ -1355,6 +1694,29 @@
       "resistance": "",
       "target": "1 armadura, escudo ou vestimenta",
       "type": "Divina 2 (Abjuração)"
+    },
+    {
+      "area": "",
+      "circle": "2",
+      "description": "Lançar esta magia faz você adormecer e abandonar seu corpo físico. Você se torna um espírito incorpóreo com deslocamento de voo 18m. Você pode ver e ouvir, mas não falar ou emitir qualquer som — nem realizar ataques, lançar magias ou interagir de qualquer forma com criaturas e objetos materiais. Você ainda pode ser visto, em forma translúcida, e pode ser afetado por qualquer efeito que afete criaturas incorpóreas.\nQuando a magia acaba, você retorna imediatamente para seu corpo e desperta. A magia também é cancelada caso seu corpo físico seja perturbado de qualquer forma. Você sofre uma penalidade de –10 em testes de Percepção para notar ruídos próximos de seu corpo adormecido.",
+      "duration": "cena",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+2 PM",
+          "description": "você pode falar em sua forma incorpórea. Requer 3º círculo."
+        },
+        {
+          "cost": "+5 PM",
+          "description": "você pode lançar magias em sua forma incorpórea. Requer 4º círculo."
+        }
+      ],
+      "name": "Viagem Onírica",
+      "range": "pessoal",
+      "resistance": "",
+      "target": "você",
+      "type": "Arcana 2 (Adivinhação)"
     },
     {
       "area": "",

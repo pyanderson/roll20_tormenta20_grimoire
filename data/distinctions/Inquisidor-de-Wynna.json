@@ -1,0 +1,30 @@
+{
+    "name": "Inquisidor de Wynna",
+    "admission": "O caminho para se tornar um inquisidor de Wynna é longo e exigente. Antes de mais nada, o candidato precisa ser um paladino — apenas guerreiros sagrados podem tentar ingressar nas fileiras dos inquisidores. Também precisa conhecer o básico sobre magia arcana, ao menos sua teoria. A capacidade de lançar magias arcanas simples é considerada uma vantagem.\nO candidato deve se apresentar em um dos templos dos inquisidores de Wynna — é difícil saber onde eles se localizam, já que estes campeões evitam a todo custo classificar a si mesmos como uma “Inquisição” única e formal. Sabe-se que existe um templo na Academia Arcana, embora hoje em dia haja controvérsias entre os inquisidores e os pesquisadores do Bureau Theuderulf. Também existe pelo menos um templo em Wynlla, o Reino da Magia, mas fica muito afastado da capital, em meio aos ermos imprevisíveis por seus efeitos mágicos. Não faltam aristocratas de Wynlla que desejam acabar com qualquer supervisão sobre “mau uso” de magia arcana. Outros templos existem em locais onde a deusa é amplamente cultuada.\nUm candidato que demonstre os requisitos básicos provavelmente será aceito para o treinamento. Inquisidores de Wynna são raros — quase nunca haverá turmas de alunos. Em vez disso, um único instrutor designado para cada candidato. Uma vez que seja designado a um mestre, o candidato vai entender a verdadeira dificuldade de se tornar um inquisidor.\nO candidato deve seguir o mestre por um período de tempo indefinido, decidido pelo próprio instrutor. Alguns exigem serem seguidos por anos! Caso o candidato desista no meio do percurso ou faça qualquer tipo de reclamação para o templo, o treinamento é interrompido e ele nunca mais pode tentar se tornar um inquisidor. Seu nome e seu rosto são espalhados pelos templos, garantindo que todas as portas estejam sempre fechadas. Segundo os inquisidores, Wynna concede sua dádiva a todos. Portanto, eles próprios devem ser rigorosos e inflexíveis, para que a deusa nunca precise ser. Felizmente, a maioria dos mestres inquisidores permite que um grupo de aventureiros também o acompanhe, caso o período de treinamento seja longo.\nDurante o treinamento, o instrutor impõe ao candidato incontáveis desafios e dilemas, às vezes sob condições arbitrárias. Frente a um elemental furioso, o mestre pode exigir que o candidato o enfrente sem se defender do elemento que o forma. Frente a um pergaminho desconhecido, pode mandar que o candidato o leia, para descobrir se é amaldiçoado. Frente a uma armadilha arcana, pode enviar o candidato para dispará-la de propósito! Os companheiros do candidato também estão sujeitos a essas limitações — caso um deles ajude o candidato de alguma forma, a tarefa é considerada uma falha.\nCada um desses desafios incompreensíveis deve ensinar uma lição ao candidato. No entanto, o mestre nunca diz qual lição seria essa! Cabe ao candidato, após cada lição, explicar ao mestre o que aprendeu.\nQuando o mestre considera que o treinamento chegou ao fim, o candidato deve identificar um local onde haja um problema arcano e presidir um tribunal, atuando como juiz. O mestre observa-o, verificando se o candidato tem a sabedoria e o conhecimento esperados de um inquisidor. Depois que o candidato dá a sentença, o mestre dá a sua própria. Se ambas coincidirem, o candidato é levado de volta ao templo, onde é iniciado como um verdadeiro inquisidor de Wynna.",
+    "abilities": [
+        {
+            "name": "Padroeira Adotiva",
+            "description": "Você recebe o poder Centelha Mágica, mas continua sendo um paladino e devoto de sua divindade original. Além disso, quando escolhe o poder Orar, você pode aprender também magias arcanas de 1º círculo como se fossem divinas."
+        },
+        {
+            "name": "Golpe Purificador",
+            "description": "Quando usa Golpe Divino, você pode gastar 2 PM para transformá-lo em um golpe purificador. Se acertar o ataque, além do dano, você causa um efeito semelhante à magia Dissipar Magia sobre o alvo, usando o resultado do teste de ataque no lugar do teste de Misticismo. Pré-requisitos: Abençoado, Golpe Divino."
+        },
+        {
+            "name": "Magia Sagrada",
+            "description": "Quando lança uma magia que causa dano, você pode gastar 2 PM para receber +2 na CD e +1d8 na rolagem de dano da magia. Para cada outro poder da distinção que possuir, você pode gastar +1 PM para aumentar o dano em +1d8. Pré-requisitos: Golpe Purificador, Orar."
+        },
+        {
+            "name": "Pira da Inquisição",
+            "description": "Enquanto sua Aura Sagrada estiver ativa, no início de seus turnos, você gera um efeito semelhante a Dissipar Magia (usando Vontade no lugar de Misticismo) em criaturas e objetos a sua escolha na área. Para cada círculo de magia dissipada dessa forma, seu conjurador sofre 1d8+1 pontos de dano de essência. Pré-requisitos: Aura Sagrada, Golpe Purificador."
+        },
+        {
+            "name": "Refletir Magia",
+            "description": "Quando passa em um teste de resistência contra uma habilidade mágica, você pode gastar 6 PM para refletir esse efeito de volta à sua fonte. Você não sofre nenhum efeito da habilidade (outros alvos são afetados normalmente) e a fonte é afetada por ela como se fosse um dos alvos originais (a fonte ainda tem direito a quaisquer testes de resistência contra a habilidade). Pré-requisitos: outros dois poderes da distinção."
+        },
+        {
+            "name": "Veredito Inquisitorial",
+            "description": "Quando usa Golpe Purificador, você pode gastar +6 PM. Se fizer isso e acertar o ataque, você atrapalha o fluxo de mana do alvo: até o fim da cena, a próxima vez que ele for executar uma ação com um custo em PM, deve fazer um teste de Vontade oposto ao resultado do seu teste de ataque. Se falhar, a ação não tem efeito (mas os PM são gastos mesmo assim). Pré-requisitos: quatro outros poderes da distinção."
+        }
+    ]
+}

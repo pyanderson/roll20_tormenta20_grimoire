@@ -1,0 +1,34 @@
+{
+    "name": "Tirano do Terceiro",
+    "admission": "Alguns tiranos do Terceiro dizem que a capacidade de ser um deles está no sangue. Se isso for verdade, um candidato deve antes de mais nada buscar a história de sua linhagem, na tentativa de determinar se existe alguma fagulha de Kallyadranoch em seu passado. Mas essas famílias são muito raras — assim, a maioria dos candidatos prefere acreditar que qualquer um com poder e determinação suficientes pode se tornar um tirano.\nApenas devotos de Kally podem sequer tentar. Existe somente um passo para se tornar um tirano, mas não é nada fácil: o candidato deve localizar um dragão jovem e convencê-lo a servir de montaria. Não basta firmar um acordo temporário ou implorar ao dragão por um favor. É preciso, de alguma forma, dobrar a vontade dele, domá-lo como se fosse um animal qualquer, forçá-lo a aceitar o candidato como seu cavaleiro e, de certa forma, seu mestre. Desnecessário dizer, o candidato deve cumprir essa façanha sem ajuda de companheiros.\nAlguns candidatos tentam fazer isso pela força bruta — é um feito quase impossível, mas alguns acreditam poder sobrepujar um dragão fisicamente, amarrá-lo e obrigá-lo a ser cavalgado. Outros enganam sua futura montaria, prendendo-a em juramentos sagrados ou dominando-a através de um item mágico. Também existem aqueles que abordam o dragão com uma proposta, então provam a ele que merecem ser obedecidos.\nSeja como for, uma vez que um candidato consiga fazer um dragão se dobrar, ele agora é um tirano do Terceiro. Cavaleiro e dragão formam um vínculo místico e inquebrável, tornando-se representantes de Kallyadranoch no mundo material. O dragão será a montaria do tirano até que um dos dois morra. Ao longo do tempo, ambos começarão a se parecer — ou, como os tiranos afirmam, uma face do Deus dos Dragões começará a se manifestar através da dupla.",
+    "abilities": [
+        {
+            "name": "Companheiro Dragão",
+            "description": "Você recebe um companheiro dragão jovem (de um tipo a sua escolha) que serve a você como um parceiro montaria iniciante (veja o quadro). Se o seu companheiro dragão morrer, você fica atordoado por 1 rodada. Um companheiro dragão morto pode ser substituído com uma ação entre aventuras."
+        },
+        {
+            "name": "Companheiro Dragão (Quadro)",
+            "description": "O companheiro dragão de um tirano do Terceiro é um parceiro montaria especial. Use as estatísticas de um grifo (Tormenta20, p. 262) destruidor iniciante, com o subtipo de criatura dragão. Alternativamente, se tiver o suplemento Ameaças de Arton, use um dragão jovem (p. 67). Em ambos os casos, conforme o poder do tirano aumenta, o mesmo acontece com seu companheiro.\nSe você tiver pelo menos três poderes da distinção, seu companheiro dragão se torna veterano e, se tiver todos os cinco poderes, ele se torna mestre. Além disso, ao se tornar mestre, seu companheiro dragão vira um dragão adulto; ele se torna uma criatura Enorme e, além de seus benefícios normais, fornece a habilidade Aura Aterradora (CD Car). Além disso, o companheiro dragão recebe a habilidade Metamorfose Dracônica. Assumir outras formas não altera as habilidades de parceiro do dragão e pode ser útil como disfarce mas, dependendo da forma adotada, pode impedi-lo de servir como montaria. Veja Tormenta20, p. 311, para essas habilidades dracônicas."
+        },
+        {
+            "name": "Aspecto de Kallyadranoch",
+            "description": "Você se torna imune à Aura Aterradora de dragões e recebe redução de dano 10 contra o tipo de dano do sopro do seu companheiro dragão. Além disso, se possuir o poder Escamas Dracônicas, os bônus fornecidos por ele aumentam para +5. Pré-requisitos: devoto de Kallyadranoch, treinado em Cavalgar."
+        },
+        {
+            "name": "Apoteose do Terceiro",
+            "description": "Se estiver com seu companheiro dragão e sob efeito de Ira Dracônica, você pode gastar uma ação completa e 10 PM para se fundir a ele com duração sustentada. Você continua recebendo os benefícios de seu dragão, mas seu tipo muda para monstro e seu tamanho muda para Grande, e você recebe imunidade contra o tipo de dano do seu parceiro, deslocamento de voo 18m e +2 em Força, Constituição, Inteligência e Carisma (esse aumento não oferece PV, PM ou perícias adicionais). Além disso, recebe uma arma natural de mordida (1d8, crítico x2, perfuração); uma vez por rodada, quando usa a ação agredir para atacar com outra arma, você pode gastar 1 PM para fazer um ataque corpo a corpo de mordida (se já possuir uma mordida, em vez disso seu dano aumenta em dois passos). Pré-requisitos: Dádivas do Dragão, Sopro Compartilhado."
+        },
+        {
+            "name": "Dádivas do Dragão",
+            "description": "Você aprende e pode lançar uma magia divina de 1º círculo a sua escolha (atributo-chave Sabedoria). A cada dois outros poderes da distinção, você aprende uma magia divina de 1º círculo adicional. Se for um conjurador divino, essas magias podem ser de qualquer círculo a que tenha acesso. Pré-requisitos: treinado em Religião, Ira Dracônica."
+        },
+        {
+            "name": "Ira Dracônica",
+            "description": "Você pode gastar 3 PM para invocar o aspecto combativo de Kallyadranoch até o fim da cena. Você recebe redução de dano 5 e +2 em testes de ataque, rolagens de dano e na CD de seu Sopro Compartilhado e de suas habilidades mágicas. Pré-requisitos: treinado em Luta, Aspecto de Kallyadranoch."
+        },
+        {
+            "name": "Sopro Compartilhado",
+            "description": "Você recebe o poder concedido Baforada Dracônica (p. 42) para o elemento do sopro de seu companheiro dragão. Se você já possui esse poder, seu dano total aumenta em mais dois dados e, quando usa seu sopro, você pode escolher entre afetar uma criatura em alcance médio ou todas as criaturas em um cone de 6m. Pré-requisito: Ira Dracônica."
+        }
+    ]
+}

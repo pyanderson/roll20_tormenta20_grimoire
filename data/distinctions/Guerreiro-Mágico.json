@@ -1,0 +1,30 @@
+{
+    "name": "Guerreiro Mágico",
+    "admission": "O caminho para se tornar um guerreiro mágico deve começar cedo. É impossível para um arcanista que nunca tenha empunhado uma arma ou para um guerreiro que nunca tenha lançado uma magia aprender esta disciplina. Assim, o candidato deve primeiro ser um arcanista experiente e um guerreiro capaz. Muitos descobrem que não há como burlar esse passo — não basta que um candidato tenha adquirido as capacidades de um bardo, por exemplo, ou desenvolvido um golpe pessoal que utiliza magia arcana. É preciso, em separado, estudar os caminhos arcanos e os caminhos da guerra, cada um de forma pura, sem combiná-los. Só então se pode começar o aprendizado.\nO candidato deve achar uma instituição de ensino. Isso não é tão difícil, já que algumas das mais prestigiosas escolas de magia de Arton formam guerreiros mágicos. Se escolher a Academia Arcana, o candidato deve passar pelos processos seletivos e cursar disciplinas introdutórias. Se optar por Wynlla ou Ubani, deve cumprir os requisitos para ser aceito em suas respectivas instituições. Então começa o treinamento.\nO curso básico não é demorado. Em geral, um mês na instituição de ensino basta. Contudo, é um mês extremamente intenso. Todo guerreiro mágico fala sobre a complexidade da matéria, o rigor do treino físico. As provas são tão difíceis que menos de um quarto dos alunos consegue passar na primeira tentativa. Caso o candidato falhe, deve ficar mais um mês na instituição, e mais um mês se for preciso, até finalmente ser aprovado. Aqueles que desistem nunca se tornam guerreiros mágicos — não porque não possuem um diploma ou título, mas porque as provas realmente medem sua compreensão da técnica.\nEmergindo do outro lado dessa educação avassaladora, o candidato finalmente consegue unir os dois lados do que aprendeu no início de sua carreira. Tudo finalmente faz sentido. Ele é um guerreiro mágico... Pronto para suportar golpes de inimigos e desprezo de tradicionalistas com igual empáfia.",
+    "abilities": [
+        {
+            "name": "Arma Arcana",
+            "description": "Quando lança uma magia empunhando uma arma corpo a corpo, você recebe +2 na rolagem de dano da magia e pode usar a mão que empunha a arma para executar os gestos dela."
+        },
+        {
+            "name": "Estilo de Combate Arcano",
+            "description": "Escolha um estilo de combate entre Encouraçado Místico e Dançarino Marcial. Uma vez feita, essa escolha não pode ser mudada. Se escolher Encouraçado Místico, você pode lançar magias arcanas vestindo armaduras sem precisar de testes de Misticismo e recebe +1 em testes de resistência se estiver de armadura. Se escolher Dançarino Marcial, você recebe +1 na Defesa e em rolagens de dano com armas. Em ambos os casos, os bônus aumentam em +1 para cada outro poder da distinção que você tiver. Pré-requisitos: habilidade de classe Magias, treinado em Luta."
+        },
+        {
+            "name": "Aparar Magia",
+            "description": "Uma vez por rodada, quando falha em um teste de resistência contra uma habilidade mágica, você pode gastar 2 PM para fazer um teste de ataque e usar seu resultado como o valor do teste de resistência. Se o resultado do ataque superar a CD do efeito por 10 ou mais, você evita totalmente o efeito e o reflete contra a fonte, que passa a ser afetada em seu lugar (outras partes do efeito, como outros alvos ou o resto de sua área, não são afetadas). Pré-requisito: Fogo e Aço."
+        },
+        {
+            "name": "Ataque Arcano",
+            "description": "Uma vez por rodada, quando faz um ataque corpo a corpo, você pode gastar 2 PM para desferir um ataque arcano. Se fizer isso e acertar o ataque, você pode lançar uma magia que tenha como alvo uma criatura ou que afete uma área como ação livre, tendo como alvo ou centro de sua área a criatura atingida. Apenas magias com execução de movimento ou padrão podem ser lançadas dessa forma. Pré-requisito: Fogo e Aço."
+        },
+        {
+            "name": "Fogo e Aço",
+            "description": "Quando lança uma magia, você recebe um bônus em testes de ataque e rolagens de dano com armas igual ao círculo da magia lançada até o fim do seu próximo turno. Pré-requisito: Estilo de Combate Arcano."
+        },
+        {
+            "name": "Preparação Veloz",
+            "description": "Na primeira rodada de um combate, você pode lançar uma magia com alcance pessoal como uma ação livre. Pré-requisito: Fogo e Aço."
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Tibarita",
+    "admission": "Obviamente, apenas devotos de Tibar podem tentar ser tibaritas. Contudo, a devoção é só o início. Poucos fiéis do Deus Menor do Comércio têm contato com esse lado da religião — assim, o candidato precisa encontrar um tibarita que o eduque ou, no mínimo, ler sobre o caminho do tibarita em algum texto sagrado. Então começa a provação real: para se tornar um tibarita, o candidato deve embarcar numa jornada única, que desencoraja e barra quase todos os que não compreendem os verdadeiros dogmas do esbanjamento.\nO candidato deve passar três meses gastando absolutamente tudo que ganha. Nenhum tibar, barra de ouro ou outro objeto com função principal de escambo (riquezas, joias etc.) pode permanecer com ele por mais de um dia. O candidato também não pode doar nada disso a seus companheiros ou a estranhos. É preciso realmente gastar, pagar por bens e serviços.\nE não são quaisquer bens e serviços que cumprem a jornada do tibarita. Ele tem a permissão de ficar com o equipamento que já tinha antes de embarcar nessa jornada. Contudo, ao fim dela não pode possuir nada novo que tenha utilidade em combate ou na vida de aventuras. Não pode fazer melhorias em armas, comprar novas armaduras, investir em um barco ou carroça, adquirir trajes nobres que facilitem uma investigação na corte... Em suma, o gasto diário do tibarita não pode ser utilitário, não pode ter uma finalidade prática. O candidato deve apenas aproveitar a vida.\nÉ possível, no fim da jornada, possuir vestidos de luxo que não tenham função aventuresca (sendo inadequados para bailes da nobreza ou apenas muito espalhafatosos), joias que só sirvam para atrair a cobiça de ladrões ou animais exóticos que passam a vida sendo admirados e paparicados. O objetivo é gastar e aproveitar, não pensar no futuro.\nE isso não é tudo. Durante sua jornada de três meses de gastos, o candidato deve ter uma experiência extravagante (como viajar pelos reinos dos deuses ou testemunhar a formação de Arton), adquirir uma obra de arte feita por um mestre (como uma escultura ou pintura) e provar uma comida ou bebida única (como carne de dragão ou dilínio envelhecido por mil anos). Todos esses itens precisam ser adquiridos com dinheiro, não conquistados com façanhas. Isso representa um problema, já que o tibarita não pode economizar! Faz parte do desafio descobrir como vencer essa limitação.\nAqueles que conseguem notam que o dinheiro pode comprar tudo... Até mesmo admissão em uma categoria exclusiva de devotos.",
+    "abilities": [
+        {
+            "name": "Poder Monetário",
+            "description": "Quando usa uma habilidade com um custo em PM, você pode consumir uma quantidade de tibares de ouro (limitada por seu Carisma). Cada TO consumido dessa forma paga 1 PM do custo da habilidade. Você pode consumir um número de TO por dia igual ao seu nível. Caso já possua essa habilidade, o limite de TO que você pode consumir por dia aumenta em +5."
+        },
+        {
+            "name": "O Preço do Sucesso",
+            "description": "Quando vai fazer um teste de perícia, você pode comprar um resultado em vez de rolar um dado. Você deve gastar T$ 100 por número desejado no dado (um 18, por exemplo, custa T$ 1.800). Contudo, um resultado comprado dessa forma não é um sucesso automático (deve superar a CD etc.). Pré-requisitos: devoto de Tibar, Car 3."
+        },
+        {
+            "name": "Faro para Tesouro",
+            "description": "Sempre que é feita uma rolagem para determinar a chance de você ganhar dinheiro e/ou a quantidade de dinheiro que será obtida (incluindo recompensas aleatórias e rolagens de tesouros), você rola duas vezes e você escolhe entre um dos resultados. Pré-requisito: O Preço do Sucesso."
+        },
+        {
+            "name": "Gostei, Vou Comprar!",
+            "description": "Quando uma criatura em alcance curto usa uma habilidade de classe que você possa ver, você pode gastar 6 PM para “comprar” essa habilidade. Até o fim da cena, você pode usá-la como uma habilidade de raça (se ela usar um atributo para algo, use seu Carisma). Se “comprar” outra habilidade, você perde a anterior. Habilidades de ameaças com o mesmo nome de habilidades de classe, bem como cada uma de suas magias, também podem ser “compradas” com este poder. Pré-requisitos: O Preço do Sucesso, deve ter gastado pelo menos T$ 100.000 ao longo de sua carreira de aventureiro."
+        },
+        {
+            "name": "Revirar os Bolsos",
+            "description": "A cada cena, o primeiro tibar de ouro que você consumir para pagar um custo em PM paga 1d4 PM desse custo. Pré-requisito: O Preço do Sucesso."
+        },
+        {
+            "name": "Saúde Comprada",
+            "description": "Você pode gastar uma ação completa e uma quantidade de tibares de ouro (limitada pelo seu Carisma) para “comprar” saúde para uma criatura adjacente. Para cada TO gasto, você recupera 3d8 PV da criatura ou remove uma de suas condições entre abalado, alquebrado, apavorado, atordoado, cego, confuso, enfeitiçado, esmorecido, exausto, fatigado, frustrado, pasmo e surdo. Pré-requisito: O Preço do Sucesso."
+        }
+    ]
+}

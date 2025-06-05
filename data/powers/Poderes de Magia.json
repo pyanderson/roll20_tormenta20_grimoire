@@ -2,6 +2,10 @@
   "name": "Poderes de Magia",
   "powers": [
     {
+      "name": "Barreira Mística",
+      "description": "Você usa a energia residual da conjuração de feitiços para materializar escudos capazes de protegê-lo de ataques físicos. Quando lança uma magia, você pode gastar 1 PM. Se fizer isso, você recebe +4 na Defesa até o início do seu próximo turno."
+    },
+    {
       "name": "Celebrar Ritual",
       "description": "Você pode lançar magias como rituais. Isso dobra seu limite de PM, mas muda a execução para 1 hora (ou o dobro, o que for maior) e exige um gasto de T$ 10 por PM gasto (em incensos, ofe­rendas...). Assim, um arcanista de 8º nível pode lançar uma magia de 16 PM gastando T$ 160. Pré-requisitos: treinado em Misticismo ou Religião, 8º nível de personagem. Magias lançadas como rituais não podem ser armazenadas em itens."
     },
@@ -10,12 +14,44 @@
       "description": "Você pode usar a perícia Ofício (escriba) para fabricar pergaminhos com magias que conheça. Veja a página 121 para a regra de fabricar itens e as páginas 333 e 341 para as regras de pergaminhos. De acordo com o mestre, você pode usar objetos similares, como runas, tabuletas de argila etc. Pré-requisitos: habilidade de classe Magias, treinado em Ofício (escriba)."
     },
     {
+      "name": "Esoterismo",
+      "description": "Quando lança uma magia, você pode pagar 2 PM para canalizá-la através de dois itens esotéricos diferentes simultaneamente, recebendo os benefícios de ambos. Pré-requisito: lançar magias de 2º círculo."
+    },
+    {
+      "name": "Estilo Esotérico",
+      "description": "Uma vez por rodada, quando faz a ação agredir em corpo a corpo enquanto empunha um item esotérico, você pode gastar 2 PM para lançar uma magia como uma ação livre. A magia precisa ter execução original de movimento, padrão ou completa. Pré-requisitos: treinado em Luta e Misticismo, 5º nível de personagem."
+    },
+    {
+      "name": "Encantar Itens Menores",
+      "description": "Você pode encantar itens mágicos menores permanentes. Fazer isso segue as mesmas regras para fabricar esses itens, mas você usa Misticismo (se lança magias arcanas) ou Religião (se lança magias divinas) no lugar de Ofício e precisa já possuir o item base (você não fabrica o item, apenas adiciona os efeitos mágicos a ele). Pré-requisitos: lançar magias de 3º círculo, treinado em Misticismo ou Religião."
+    },
+    {
+      "name": "Encantar Itens Médios",
+      "description": "Como Encantar Itens Menores, mas você pode encantar itens médios. Pré-requisitos: lançar magias de 4º círculo, Encantar Itens Menores."
+    },
+    {
+      "name": "Encantar Itens Maiores",
+      "description": "Como Encantar Itens Menores, mas você pode encantar itens maiores. Pré-requisitos: lançar magias de 5º círculo, Encantar Itens Médios."
+    },
+    {
+      "name": "Especialização em Magia",
+      "description": "Escolha uma magia que possa lançar. A CD para resistir a essa magia aumenta em +2. Pré-requisito: Foco em Magia com a magia escolhida."
+    },
+    {
+      "name": "Explosão Fulgente Aprimoramento",
+      "description": "Suas chamas mágicas emitem um brilho intenso. Um alvo que falhe no teste de resistência fica cego por 1 rodada (ou ofuscado, se já ficou cego por este aprimoramento nessa cena). Este aprimoramento só pode ser aplicado em magias que causam dano de fogo e permitem testes de resistência. Custo: +1 PM."
+    },
+    {
       "name": "Poderes de Aprimoramento",
       "description": "Estes poderes acrescentam melhorias às magias conhecidas pelo conjurador. Eles seguem todas as regras para aprimoramentos (veja o Capítulo 4: Magia). Você pode aplicar quantos aprimoramentos quiser, desde que não ultrapasse seu limite de PM."
     },
     {
       "name": "Foco em Magia",
       "description": "Escolha uma magia que possa lançar. Seu custo diminui em –1 PM (cumulativo com outras reduções de custo). Você pode escolher este poder outras vezes para magias diferentes."
+    },
+    {
+      "name": "Gênese Elemental Aprimoramento",
+      "description": "Além do normal, a magia cria 1d4 (+1 por círculo) capangas elementais Pequenos em espaços desocupados adjacentes ao alvo ou dentro da área de efeito da magia (deslocamento 9m, Defesa 15, dano 1d6+1 do tipo da magia, imunidade a atordoamento, cansaço, dano do seu elemento, dano não letal, efeitos de metabolismo e paralisia). Eles desaparecem quando são reduzidos a 0 PV ou no fim da cena. Custo: +3 PM. Pré-requisito: lançar magias de 2° círculo."
     },
     {
       "name": "Magia Acelerada Aprimoramento",
@@ -30,12 +66,32 @@
       "description": "Você lança a magia sem gesticular e falar, usando apenas concentração. Isso permite lançar magias com as mãos presas, amordaçado etc. Também permite lançar magias arcanas usando armadura sem teste de Misticismo. Outros personagens só percebem que você lançou uma magia se passarem num teste de Misticismo (CD 20). Custo: +2 PM."
     },
     {
+      "name": "Magia Dividida Aprimoramento",
+      "description": "A área da magia é dividida em duas, cada uma com metade do tamanho da original, que não podem se sobrepor. Por exemplo, uma Bola de Fogo (raio de 6m) pode ser dividida em duas áreas com 3m de raio. Custo: +2 PM. Pré-requisito: lançar magias de 2° círculo."
+    },
+    {
       "name": "Magia Ilimitada",
       "description": "Você soma seu atributo-chave no limite de PM que pode gastar numa magia. Por exemplo, um arcanista de 5º nível com Int 4 e este poder pode gastar até 9 PM em cada magia."
     },
     {
+      "name": "Magia Suspensa",
+      "description": "Quando lança uma magia com execução de ação de movimento ou padrão, você pode aumentar sua execução para uma ação completa ou para 2 ou 3 rodadas. Se fizer isso, a CD para resistir à magia aumenta respectivamente em +1, +2 ou +5."
+    },
+    {
+      "name": "Miasma Tóxico Aprimoramento",
+      "description": "A magia exala vapores nocivos. Um alvo que falhe no teste de resistência fica enjoado por 1 rodada. Este aprimoramento só pode ser aplicado em magias que causam dano de ácido e permitem testes de resistência. Custo: +1 PM."
+    },
+    {
       "name": "Preparar Poção",
       "description": "Você pode usar a perícia Ofício (alquimista) para fabricar poções com magias que conheça de 1º e 2º círculos. Veja a página 121 para a regra de fabricar itens e as páginas 333 e 341 para as regras de poções. Pré-requisitos: habilidade de classe Magias, treinado em Ofício (alquimista)."
+    },
+    {
+      "name": "Prisão Gélida Aprimoramento",
+      "description": "A magia cobre os alvos com cristais de gelo. Um alvo que falhe no teste de resistência fica enredado por 1 rodada. Este aprimoramento só pode ser aplicado em magias que causam dano de frio e permitem testes de resistência. Custo: +1 PM."
+    },
+    {
+      "name": "Trovão Retumbante Aprimoramento",
+      "description": "A magia emite um estrondo poderoso. Um alvo que falhe no teste de resistência fica caído (apenas uma vez por cena) e surdo. Este aprimoramento só pode ser aplicado em magias que causam dano de eletricidade e permitem testes de resistência. Custo: +1 PM."
     }
   ]
 }

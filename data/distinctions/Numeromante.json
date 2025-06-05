@@ -1,0 +1,30 @@
+{
+    "name": "Numeromante",
+    "admission": "Poucos, muito poucos, têm o que é necessário para ser um numeromante. Mesmo que se interesse por este caminho, a maioria dos candidatos acaba escolhendo uma profissão mais singela, como professor da Academia Arcana, especialista em outros Planos ou mago da corte de algum reino. A numeromancia é para quem está disposto a pensar muito, de forma contraintuitiva, o tempo todo, recebendo pouco reconhecimento por isso.\nUm candidato deve procurar uma das raras escolas que ensinam a numeromancia. Existe um instituto dentro da Academia Arcana e pelo menos um templo de Tanna-Toh que praticam a numeromancia. Contudo, alguns numeromantes dizem que a verdadeira instrução nessa disciplina só pode ser alcançada com os matemáticos sar-allan, na Cidade no Deserto. Segundo eles, a versão ensinada em outros reinos é diluída, fraca, simplificada para apedeutas que se contentam com aproximações e arredondamentos.\nSeja como for, antes de sequer começar o treinamento, o candidato deve conseguir um orientador — alguém que o guie na numeromancia, ajudando-o a montar seu próprio currículo e elaborar a tese que ele deve apresentar no fim do aprendizado. Nenhum orientador, não importa quão reles seja a instituição de ensino, jamais aceitará um candidato que não seja capaz de lançar magias arcanas e demonstre conhecimento avançado de matemática. Alguns orientadores têm seus próprios motivos escusos: podem apenas aceitar nobres ou descendentes de famílias arcanistas, por exemplo.\nUma vez que encontre um orientador, o candidato embarca num calvário de aulas e pesquisa. Embora não precise ficar o tempo todo na instituição de ensino, deve comparecer a pelo menos algumas aulas por mês. No fim de cada disciplina, deve fazer provas e trabalhos de conclusão — quanto menos aulas assistir, mais difícil será concluir cada disciplina. Isso pode demorar anos, embora certos candidatos se esforcem para concluir o curso em poucos meses.\nUma vez que as disciplinas sejam concluídas, o candidato precisa elaborar sua tese: um trabalho original sobre numeromancia, abordando alguma questão ou detalhe que não tenha sido esgotado. Durante essa fase, quando o orientador seria mais útil, ele costuma desaparecer. Ninguém sabe se isso é uma maldição ou mais um teste, mas em geral o candidato se vê sozinho... O orientador volta no último instante, para participar da banca que irá julgar a tese.\nO candidato deve, no mínimo, ser capaz de explicar com suas próprias palavras o assunto da tese. Então deve demonstrar a seus avaliadores os cálculos e provas. Se a tese for considerada boa o suficiente, ele se torna um numeromante. A essa altura, provavelmente é excêntrico e brilhante demais para qualquer outra especialização arcana...",
+    "abilities": [
+        {
+            "name": "Matemágica para Iniciantes",
+            "description": "Sempre que você lançar uma magia com um custo em PM igual a um quadrado perfeito (1, 4, 9, 16, 25, 36 etc.), o custo de sua próxima magia lançada até o fim da cena diminui em –1 PM."
+        },
+        {
+            "name": "Aplicar Constante M",
+            "description": "No início de cada cena, role 1d4 e anote o resultado. Esse número passa a ser sua Constante M. Suas magias com um teste de resistência ganham o seguinte aprimoramento. +2PM: criaturas que falhem no teste de resistência sofrem uma penalidade na Defesa e em testes de resistência igual a sua Constante M. Pré-requisitos: treinado em Conhecimento e Misticismo, capacidade de lançar magias arcanas de 2º círculo."
+        },
+        {
+            "name": "Correção do Desvio Padrão",
+            "description": "Suas magias com efeitos baseados em dados recebem o seguinte aprimoramento. +3PM: para cada dado do efeito que rolar menos da metade de seu valor máximo, você pode considerar o resultado como a metade de seu valor máximo (por exemplo, um d6 que role 2 é considerado 3). Pré-requisito: Magicometria."
+        },
+        {
+            "name": "Função Metamágica de M",
+            "description": "Você passa a rolar 1d6 para determinar sua Constante M (em vez de 1d4). Além disso, uma vez por rodada, se um ou mais dados forem rolados para definir o efeito de uma habilidade mágica usada em alcance médio e o resultado de um desses dados for sua Constante M, você pode lançar uma magia como ação livre (mas ainda limitado a uma magia como ação livre na rodada) até o fim de seu próximo turno. Pré-requisito: Magicometria."
+        },
+        {
+            "name": "Magicometria",
+            "description": "Quando uma habilidade mágica com efeito baseado em dados é usada em alcance médio, você pode fazer um teste de Misticismo (CD 15 + o custo em PM da habilidade). Se passar, você pode rolar novamente uma quantidade de dados do efeito igual a sua Constante M. Pré-requisito: Aplicar Constante M."
+        },
+        {
+            "name": "Matriz da Equação Final",
+            "description": "Suas magias que causam dano baseado em dados ganham o seguinte aprimoramento. +2PM: em vez de rolar todos os dados de dano da magia, você pode rolar um único dado e multiplicar seu resultado pela quantidade de dados original do efeito. Pré-requisitos: Correção do Desvio Padrão, dois poderes de magia."
+        }
+    ]
+}

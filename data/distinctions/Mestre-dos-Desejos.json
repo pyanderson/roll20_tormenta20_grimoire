@@ -1,0 +1,34 @@
+{
+    "name": "Mestre dos Desejos",
+    "admission": "Apenas qareen podem ser mestres dos desejos — é necessário ser pelo menos meio-gênio para se tornar um gênio completo!\nTornar-se um mestre dos desejos implica em uma abnegação extraordinária, um desapego total de seus próprios objetivos e interesses, priorizando os anseios e necessidades de terceiros. O primeiro passo é uma jornada de autorreflexão e, talvez, purificação. O candidato precisa encontrar três mortais que desejem muito algo que pareça inatingível, algo muito distante de sua atual posição. Exemplos incluem um aldeão miserável que deseja se tornar um duque, uma anã com medo de altura que deseja poder voar, uma nobre paparicada que deseja ser uma bárbara destruidora de monstros... O importante é que o desejo consuma o mortal, e que não pareça haver meio de torná-lo realidade. Então o candidato deve realizar cada um.\nO candidato pode se mostrar ao mortal no processo de realizar seu desejo, mas não deve pedir ou aceitar nada em troca. No final de cada processo, o mortal deve estar plenamente satisfeito. Não basta, por exemplo, usar equivalências ou jogos de palavras para “tecnicamente” realizar o desejo (como fazer o aldeão interpretar um duque numa companhia de teatro itinerante), nem realizá-los temporariamente (como levar a anã para voar num balão goblin), nem convencer o mortal a desejar algo “tão bom quanto” (como mostrar à nobre que ela destrói monstros ao patrocinar heróis aventureiros). Os desejos devem ser realizados em sua totalidade, provavelmente mudando vidas.\nA segunda fase da jornada para se tornar um mestre dos desejos envolve encontrar um gênio verdadeiro, de tipo correspondente a sua ascendência elemental. O candidato deve ajudar esse gênio a servir a seus amos, entendendo assim o poder e o significado de atender desejos para aqueles que realizaram desejos dos próprios deuses. O candidato pode fazer isso enquanto se aventura com um grupo, mas deve sempre ajudar o gênio e realizar as vontades de seus amos.\nPor fim, o último passo envolve realizar um desejo do próprio gênio que o candidato acompanhou. Ele deve descobrir algo que essa criatura deseja para si, então surpreendê-lo com a satisfação dessa vontade. Esse é o único passo no qual o candidato precisa estar sozinho, sem depender de mais ninguém.\nTendo realizado o desejo do gênio, o candidato adquire uma compreensão transcendental dos outros seres da Criação, e de como seus desejos afetam o mundo. Ele agora é um mestre dos desejos, pronto para ajudar Arton a realizar tudo que sempre sonhou.",
+    "abilities": [
+        {
+            "name": "Desejos Grandiosos",
+            "description": "Ao longo de sua carreira, um mestre dos desejos irá se deparar com muitos desejos simples ou práticos. Seja um companheiro pedindo por uma magia em combate, seja um camponês em busca de auxilio com uma dificuldade cotidiana, a maior parte dos desejos em seu caminho será, de certa forma, trivial para seus poderes.\nOcasionalmente, entretanto, o mestre poderá encontrar alguém com um desejo mais complexo ou profundo. Algo que irá afetar de forma dramática a vida de quem faz o pedido e daqueles ao seu redor. Pode ser um burgomestre que busca ajuda para derrotar um monstro que assola a vila, uma jovem artesã em busca de sua mãe desaparecida, um nobre cujos súditos foram afetados por uma doença que só pode ser curada com um remédio mágico exótico... Tais desejos exigem mais do que apenas algumas palavras mágicas ou um pouco de trabalho manual. Exigem todas as habilidades do mestre dos desejos e de seus companheiros.\nDesejos grandiosos são pedidos que têm um impacto profundo sobre quem os faz e exigem grande esforço para serem cumpridos. Geralmente, são o objetivo de uma aventura, ou ao menos uma missão secundária em uma busca mais complexa. Também podem ser desejos que necessitam de uma solução complexa ou elaborada para serem atendidos, o que pode demandar recursos e/ ou uma boa dose de criatividade do mestre dos desejos e de seus companheiros."
+        },
+        {
+            "name": "Desejo de Servir",
+            "description": "A CD para resistir às magias que você lança com sua habilidade Desejos aumenta em +2."
+        },
+        {
+            "name": "O Primeiro Desejo",
+            "description": "A redução de custo de suas magias lançadas com a habilidade Desejos muda para –2 PM. Pré-requisitos: treinado em Intuição e Misticismo."
+        },
+        {
+            "name": "O Segundo Desejo",
+            "description": "Uma vez por rodada, um aliado pode gastar uma ação livre para pedir que você lance uma magia arcana de 1° círculo que você não conheça. Até o fim do seu próximo turno, você pode lançar essa magia. Pré-requisito: O Primeiro Desejo."
+        },
+        {
+            "name": "O Último Desejo",
+            "description": "Uma vez por aventura, você pode lançar a magia Desejo sem pagar seu custo em PM (mas você ainda precisa pagar outros custos da magia, como sacrifício de PM). Você só pode usar esta habilidade em resposta a um pedido feito por um aliado desde seu último turno. Pré-requisitos: O Segundo Desejo, realizar três desejos grandiosos."
+        },
+        {
+            "name": "Gênio da Lâmpada",
+            "description": "Você recebe uma lâmpada mágica, um item Minúsculo com RD 10 e PV iguais à metade dos seus. Enquanto estiver de posse da lâmpada, você pode lançar a magia Refúgio sem pagar seu custo básico. Além disso, se for reduzido a 0 PV ou menos, você pode gastar 3 PM para ser transportado magicamente para dentro da lâmpada; isso interrompe qualquer perda de vida ou dano contínuo, mas o deixa inconsciente em um transe místico até você voltar a ter pelo menos 1 PV. Dentro da lâmpada, você recupera PV por descanso normalmente e pode ser afetado por efeitos mágicos de cura lançados sobre a lâmpada. Se perder sua lâmpada, você pode criar uma nova com uma semana de trabalho e T$ 100. Pré-requisitos: O Primeiro Desejo, Refúgio."
+        },
+        {
+            "name": "Sempre Disponível",
+            "description": "Você aprende e pode lançar a magia Salto Dimensional. Caso aprenda novamente essa magia, seu custo diminui em –1 PM. Além disso, se um aliado estiver empunhando sua lâmpada e gastar uma ação livre para esfregá-la, até o fim do seu próximo turno você pode lançar essa magia sem pagar seu custo básico, mas deve ter como destino um espaço adjacente à lâmpada. Pré-requisito: Gênio da Lâmpada."
+        }
+    ]
+}

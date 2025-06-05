@@ -1,0 +1,30 @@
+{
+    "name": "Forjador Litúrgico",
+    "admission": "Ser um forjador litúrgico não é um caminho fácil. Mesmo entre o clero, exige dedicação e perseverança incomuns.\nAntes de mais nada, o candidato deve ser devoto de Arsenal, além de um ferreiro e armeiro exímio. Ninguém sabe o que aconteceria com alguém que ousasse abordar a Ordem dos Forjadores Litúrgicos sem esses requisitos básicos. Provavelmente seria executado pela ofensa.\nApós satisfazer esses requisitos iniciais, o candidato deve procurar pela Ordem dos Forjadores Litúrgicos. Seus membros podem ser encontrados como parte do clero em grandes templos de Arsenal, ou peregrinando em campos de batalha como a Conflagração do Aço. Existem até mesmo forjadores litúrgicos em regiões não especialmente tomadas por guerra, mas ermas e cheias de perigos, como os Feudos de Trebuck.\nUma vez que um forjador litúrgico seja encontrado, o combate é inevitável. Se o candidato não for considerado digno pelo forjador, deverá continuar ganhando poder, até se mostrar um adversário à altura das armas de seu pretenso oponente. Quando enfim os dois duelarem, o candidato deve concordar com os termos do forjador, entregando suas armas em caso de derrota. Não se espera que um mero candidato seja capaz de vencer um forjador antes de sequer começar o treinamento — mas sua coragem, engenhosidade e disposição para a luta serão avaliadas. Se ele for considerado digno, será enviado para o principal templo da ordem. Isso, por si só, já é uma mostra de confiança: ninguém sabe ao certo onde essa base se localiza, embora corram boatos que seja em Valkaria, a capital do Reinado. Caso o candidato traia a confiança do forjador e revele o segredo, será caçado até a morte.\nUma vez no templo secreto, começam os testes e o aprendizado. Ao todo, o candidato deve passar seis meses e forjar seis armas no templo. Contudo, esse tempo pode ser dividido — é comum que candidatos passem um mês no templo, então partam para alguma aventura, voltem para passar mais um mês e assim por diante. Cada arma forjada durante esse período deve ser melhor que a arma anterior.\nQuando essa fase tiver acabado, vem o teste final: o candidato deve enfrentar um de seus professores, usando apenas as armas que forjou durante o treinamento. Se for vencido, o mestre toma dele a arma mais recente e o candidato deve passar mais um mês treinando e forjar mais uma arma, até que consiga vencer o desafio.\nQuando isso enfim acontece, ele toma as armas de seu professor, podendo fazer com elas o que quiser. Passa então por uma longa cerimônia, na qual é iniciado nos mistérios místicos das armas. Ao fim da cerimônia, recebe seu elmo — grande símbolo da ordem. Pode então ostentá-lo com orgulho, tendo se tornado um membro pleno da gloriosa Ordem dos Forjadores Litúrgicos.",
+    "abilities": [
+        {
+            "name": "Ferreiro Sagrado",
+            "description": "Você recebe +2 em Ofício (armeiro) e em rolagens de dano com armas que tenha fabricado."
+        },
+        {
+            "name": "Virtude do Forjador",
+            "description": "Você pode fabricar armas superiores com uma melhoria. Para cada outro poder da distinção que possuir, pode fabricar armas com uma melhoria adicional (até um máximo de 4 melhorias). Se aprender a fabricar armas superiores por outra habilidade, gasta metade do tempo para fabricá-las. Pré-requisitos: treinado em Luta e Ofício (armeiro), um poder concedido de Arsenal."
+        },
+        {
+            "name": "Armamento Sagrado",
+            "description": "O custo do seu poder Abençoar Arma diminui em –1 PM e você pode usá-lo com qualquer arma que tenha fabricado. Pré-requisitos: Abençoar Arma, Virtude do Forjador."
+        },
+        {
+            "name": "Armamento Trabalhado",
+            "description": "Quando usa Conjurar Arma, você pode gastar uma quantidade de PM adicionais igual ao dobro do total de poderes da distinção que possui. Para cada 2 PM gastos dessa forma, a arma recebe uma melhoria a sua escolha (até o máximo de 4 melhorias). Se pagar um total de 10 PM adicionais, além das melhorias a arma recebe um encanto a sua escolha. Pré-requisitos: Conjurar Arma, Forja Devocional."
+        },
+        {
+            "name": "Desprezo pelo Ordinário",
+            "description": "Sempre que sofre dano não mágico, você pode gastar 2 PM para reduzir esse dano à metade. Pré-requisito: Forja Devocional."
+        },
+        {
+            "name": "Forja Devocional",
+            "description": "Você consegue transplantar encantos de outras armas para aquelas que você fabricou. Para isso, gaste metade do tempo necessário para fabricar a arma mágica e faça um teste de Ofício (armeiro) com a CD de fabricação dela. Se passar, a arma perde seus encantos e eles são transferidos para uma arma que você tenha fabricado (essa arma deve atender aos pré-requisitos dos encantos e respeitar o limite de encantos que pode ter). Pré-requisito: Virtude do Forjador."
+        }
+    ]
+}
