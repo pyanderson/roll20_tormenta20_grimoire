@@ -17,23 +17,22 @@ def load_folder(source_path):
 
 def convert_to_book_folder(d):
     items = d.get("abilities", d.get("powers", d.get("spells")))
+    child_items = [
+        {
+            **item,
+            "spellType": item.get("type"),
+            "type": "item",
+        }
+        for item in items
+    ]
+    if "admission" in d:
+        child_items.insert(
+            0, {"name": "Admissão", "description": d["admission"], "type": "item"}
+        )
     return {
         "type": "folder",
         "name": d["name"],
-        "items": ([
-            {
-                "name": "Admissão",
-                "description": d["admission"],
-                "type": "item"
-            }
-        ] if "admission" in d else [] ) + [
-            {
-                **item,
-                "spellType": item.get("type"),
-                "type": "item",
-            }
-            for item in items
-        ],
+        "items": child_items,
     }
 
 
@@ -52,7 +51,7 @@ for name, source in [
     ("Classes", classes),
     ("Poderes", powers),
     ("Magias", spells),
-    ("Distinções", distinctions)
+    ("Distinções", distinctions),
 ]:
     book.append(
         {
