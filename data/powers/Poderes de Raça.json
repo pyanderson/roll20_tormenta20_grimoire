@@ -206,6 +206,94 @@
             "description": "Sua tatuagem mística é especialmente grande e chamativa, e contém ainda mais poder mágico que o normal. Você pode lançar uma magia de 1º círculo a sua escolha (atributo-chave Carisma), além daquela fornecida pela habilidade Tatuagem Mística e pode usar os aprimoramentos de ambas como se tivesse acesso aos mesmos círculos de magia que um feiticeiro do seu nível."
         },
         {
+            "name": " Herança de Al-Gazara (Habilidade de Suraggel)",
+            "description": "Devido à presença do puro caos primordial de Nimb em seu sangue, você recebe +1 em um atributo aleatório."
+        },
+        {
+            "name": "Herança de Arbória (Habilidade de Suraggel)",
+            "description": "Como parte do Grande Ciclo de Allihanna, você recebe a habilidade Forma Selvagem para uma única forma, escolhida entre Ágil, Sorrateira e Veloz. Caso adquira essa habilidade novamente, o custo dessa forma diminui em –1 PM."
+        },
+        {
+            "name": "Herança de Chacina (Habilidade de Suraggel)",
+            "description": "Pela ferocidade de Megalokk, você recebe a habilidade Forma Selvagem para uma única forma, escolhida entre Feroz e Resistente. Caso adquira essa habilidade novamente, o custo dessa forma diminui em –1 PM."
+        },
+        {
+            "name": "Herança de Deathok (Habilidade de Suraggel)",
+            "description": "A mudança constante faz parte de sua alma. Você recebe +2 em duas perícias a sua escolha. A cada manhã, você pode trocar essas perícias."
+        },
+        {
+            "name": "Herança de Drashantyr (Habilidade de Suraggel)",
+            "description": "Graças ao poder elemental dos dragões, você recebe +1 PM e redução de ácido, eletricidade, fogo, frio, luz e trevas 5."
+        },
+        {
+            "name": "Herança de Kundali (Habilidade de Suraggel)",
+            "description": "Pelo espírito protetor, mas também opressor, de Tauron, você recebe +2 na Defesa e em testes de manobras de combate."
+        },
+        {
+            "name": "Herança de Magika (Habilidade de Suraggel)",
+            "description": "Você aprende e pode lançar uma magia arcana de 1º círculo a sua escolha (atributo-chave Inteligência ou Carisma, a sua escolha). Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
+        },
+        {
+            "name": "Herança de Nivenciuén (Habilidade de Suraggel)",
+            "description": "Mesmo que o Reino de Glórienn tenha sofrido um destino terrível, a antiga soberania élfica ainda permeia seu sangue. Você recebe +2 em Misticismo e uma habilidade racial dos elfos entre Graça de Glórienn e Sangue Mágico."
+        },
+        {
+            "name": "Herança de Odisseia (Habilidade de Suraggel)",
+            "description": "Sua alma tocada por Valkaria está sempre preparada para problemas! Você recebe +2 em Iniciativa e Percepção, e sua capacidade de carga aumenta em 2 espaços."
+        },
+        {
+            "name": "Herança de Ordine (Habilidade de Suraggel)",
+            "description": "As forças da lei e ordem de Khalmyr afetam suas ações. Você recebe +2 em Intuição, em Investigação e em testes sem rolagens de dados (ao escolher 0, 10 ou 20)."
+        },
+        {
+            "name": "Herança de Pelágia (Habilidade de Suraggel)",
+            "description": "Mesmo nas situações mais desesperadoras, seu espírito se mantém plácido e imperturbável como o próprio Oceano. Escolha três perícias. Com elas, você pode gastar 1 PM para escolher 10 em qualquer situação, exceto testes de ataque."
+        },
+        {
+            "name": "Herança de Pyra (Habilidade de Suraggel)",
+            "description": "Em algum lugar dentro de você, sempre existe uma segunda chance. Quando faz um teste de resistência ou um teste de atributo para remover uma condição, você pode gastar 2 PM para rolá-lo novamente."
+        },
+        {
+            "name": "Herança de Ramknal (Habilidade de Suraggel)",
+            "description": "Escolha duas perícias entre Acrobacia, Enganação, Furtividade, Jogatina e Ladinagem. Quando faz um teste da perícia escolhida, você pode gastar 2 PM para receber +5 nesse teste."
+        },
+        {
+            "name": "Herança de Serena (Habilidade de Suraggel)",
+            "description": "Pela proteção de Marah, você recebe +2 na Defesa e em testes de resistência contra oponentes aos quais não tenha causado dano, perda de PV ou condições (exceto enfeitiçado, fascinado e pasmo) nessa cena."
+        },
+        {
+            "name": "Herança de Skerry (Habilidade de Suraggel)",
+            "description": "Você carrega a força de criatividade. Quando faz um teste de Ofício, pode gastar 1 PM para ser treinado na perícia em questão ou para rolar dois dados e usar o melhor resultado."
+        },
+        {
+            "name": "Herança de Solaris (Habilidade de Suraggel)",
+            "description": "Pelo poder de Azgher, durante o dia você recebe +1 em todos os testes de perícia. Se estiver diretamente sob a luz do sol, esse bônus aumenta para +2."
+        },
+        {
+            "name": "Herança de Sombria (Habilidade de Suraggel)",
+            "description": "Pelo poder de Tenebra, durante a noite você recebe +1 em todos os testes de perícia. Se estiver num local sem nenhuma iluminação artificial (como tochas ou magia), esse bônus aumenta para +2."
+        },
+        {
+            "name": "Herança de Sora (Habilidade de Suraggel)",
+            "description": "Os honrados espíritos ancestrais de Lin-Wu abençoam sua perseverança. Você recebe +2 em Nobreza, Vontade e em testes de perícia estendidos (incluindo contra perigos complexos)."
+        },
+        {
+            "name": "Herança de Terápolis (Habilidade de Suraggel)",
+            "description": "Você recebe +2 em Intuição e Vontade, e pode fazer testes dessas perícias contra ilusões automaticamente, sem precisar interagir com elas."
+        },
+        {
+            "name": "Herança de Venomia (Habilidade de Suraggel)",
+            "description": "Ser escorregadio como Sszzaas faz parte de sua natureza, mesmo que você não goste disso. Você recebe +2 em Enganação e em testes para evitar manobras de combate e efeitos de movimento."
+        },
+        {
+            "name": "Herança de Vitalia (Habilidade de Suraggel)",
+            "description": "A força da vida corre intensa em seu sangue. Você recebe +5 PV por patamar e sua recuperação de pontos de vida com descanso aumenta em uma categoria."
+        },
+        {
+            "name": "Herança de Werra (Habilidade de Suraggel)",
+            "description": "Você possui um conhecimento intuitivo para armas. Você recebe +1 em testes de ataque com armas e proficiência com armas marciais ou com duas armas exóticas."
+        },
+        {
             "name": "Herança Erudita (Eiradaan, Elfo, Kallyanach)",
             "description": "Seu sangue não carrega apenas a fagulha mágica que lhe dá poder, mas também conhecimento ancestral. Escolha uma perícia originalmente baseada em Inteligência. Você soma seu Carisma nessa perícia."
         },
