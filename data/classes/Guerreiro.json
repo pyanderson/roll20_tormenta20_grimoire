@@ -204,6 +204,34 @@
       "description": "No 20º nível, o dano de todos os seus ataques aumenta em um passo. Além disso, sempre que você faz um Ataque Especial ou um Golpe Pessoal e acerta o ataque, recupera metade dos PM gastos nele. Por exemplo, se fizer um Ataque Especial gastando 5 PM para ganhar +20 nas rolagens de dano e acertar o ataque, recupera 2 PM."
     },
     {
+      "name": "Do Bom e do Melhor (Inovador)",
+      "description": "Você começa o jogo com uma arma, armadura ou escudo superior a sua escolha, de até T$ 500. Entretanto, você é considerado não proficiente em qualquer arma, armadura ou escudo que não seja superior ou mágico."
+    },
+    {
+      "name": "Sequência Especial (Inovador)",
+      "description": "Você pode gastar 2 PM para iniciar uma sequência de movimentos inovadores. Quando faz isso, a cada vez que ataca com uma arma que ainda não tenha usado nessa sequência, você recebe um bônus de +1 em testes de ataque e rolagens de dano (cumulativo até +2). A cada 4 níveis, você pode gastar +1 PM para aumentar o limite desses bônus em +2. A sequência termina ao fim da cena ou se você ficar 1 rodada sem trocar pelo menos uma arma."
+    },
+    {
+      "name": "Bombardeio Sequencial (Inovador)",
+      "description": "No 2º nível, você pode usar sua Sequência Especial ao usar itens alquímicos ou poções (nesse caso, aplica o bônus de ataque acumulado à CD para resistir ao item)."
+    },
+    {
+      "name": "Acrobacia Defensiva (Inovador)",
+      "description": "A partir do 3º nível, quando sofre dano, você pode gastar 2 PM para executar uma pirueta defensiva. Você faz um teste de Acrobacia e subtrai o resultado desse teste do dano sofrido."
+    },
+    {
+      "name": "Domínio Excêntrico (Inovador)",
+      "description": "A partir do 4° nível, sempre que passar pelo menos uma semana carregando uma arma exótica ou de fogo superior ou mágica, você recebe proficiência nela."
+    },
+    {
+      "name": "Técnica Revolucionária (Inovador)",
+      "description": "A partir do 7° nível, você pode gastar 2 PM para, até o fim do combate, usar armas que esteja empunhando como se elas tivessem uma das seguintes habilidades de arma, a sua escolha: adaptável, ágil, alongada, dupla (use as estatísticas da arma em ambas as pontas) ou versátil (para uma manobra escolhida ao usar esta habilidade). Esse efeito termina se você ativar sua Técnica Revolucionária novamente."
+    },
+    {
+      "name": "Estilo Único (Inovador)",
+      "description": "No 20º nível, você consolida seu próprio estilo de combate. Escolha dois poderes de guerreiro ou de combate que possua. Para esses poderes, você ignora todos os requisitos e restrições relacionados a armas, incluindo propósito, empunhadura, características e habilidades das armas. Por exemplo, você pode usar Estilo de Duas Mãos com armas leves, Estilo de Arremesso com uma arma de duas mãos ou até Esgrimista com pistolas! O mestre tem a palavra final sobre como os poderes interagem entre si."
+    },
+    {
       "name": "Efeitos do Golpe Pessoal",
       "description": "• Amplo (+3 PM). Seu ataque atinge todas as criaturas em alcance curto (incluindo aliados, mas não você mesmo). Faça um único teste de ataque e compare com a Defesa de cada criatura.\n• Atordoante (+2 PM). Uma criatura que sofra dano do ataque fica atordoada por uma rodada (apenas uma vez por cena; Fortitude CD For anula).\n• Avanço (+1 PM). Você pode percorrer até o seu deslocamento em linha reta antes de desferir o golpe.\n• Brando (+0 PM). Seu golpe causa dano não letal.\n• Brutal (+1 PM). Fornece um dado extra de dano do mesmo tipo.\n• Carregado (+1 PM). Você pode gastar uma ação padrão para energizar seu ataque. Se você fizer isso e atacar até a próxima rodada, seu ataque causa +2d8 pontos de dano.\n• Conjurador (Custo da Magia + 1 PM). Escolha uma magia de 1º ou 2º círculos que tenha como alvo uma criatura ou que afete uma área. Se acertar seu golpe, você lança a magia como uma ação livre, tendo como alvo a criatura atingida ou como centro de sua área o ponto atingido pelo ataque (atributo-chave é um mental a sua escolha). Considere que a mão da arma está livre para lançar esta magia.\n• Destruidor (+2 PM). Aumenta o multiplicador de crítico em +1.\n• Distante (+1 PM). Aumenta o alcance em um passo (de corpo a corpo para curto, médio e longo). Outras características não mudam (um ataque corpo a corpo com alcance curto continua usando Luta e somando sua Força no dano).\n• Elemental (+2 PM). Causa +2d6 pontos de dano de ácido, eletricidade, fogo ou frio. Você pode escolher este efeito mais vezes para aumentar o dano em +2d6 (do mesmo tipo ou de outro), por +2 PM a cada vez. e\n• Impactante (+1 PM). Empurra o alvo 1,5m para cada 10 pontos de dano causado (arredondado para baixo). Por exemplo, 3m para 22 pontos de dano.\n• Letal (+2 PM). Aumenta a margem de ameaça em +2. Você pode escolher este efeito duas vezes para aumentar a margem de ameaça em +5.\n• Penetrante (+1 PM). Ignora 10 pontos de RD.\n• Preciso (+1 PM). Quando faz o teste de ataque, você rola dois dados e usa o melhor resultado.\n• Qualquer Arma (+1 PM). Você pode usar seu Golpe Pessoal com qualquer tipo de arma.\n• Ricocheteante (+1 PM). A arma volta pra você após o ataque. Só pode ser usado com armas de arremesso.\n• Sequencial (+2 PM). Seu golpe causa +1d6 pontos de dano. A cada vez que você acerta o golpe na mesma cena, esse bônus aumenta em um passo.\n• Sifão (+2 PM). Você recebe 1 PM temporário para cada 10 pontos da rolagem de dano. Você pode receber um máximo de PM temporários por cena igual ao seu nível e eles desaparecem no fim da cena.\n• Teleguiado (+1 PM). Ignora penalidades por camuflagem ou cobertura leves.\n• Golpe de Abertura (–2 PM). Seu golpe só pode ser usado em seu primeiro turno do combate.\n• Lento (–2 PM). Seu ataque exige uma ação completa para ser usado.\n• Perto da Morte (–2 PM). O ataque só pode ser usado se você estiver com um quarto de seus PV ou menos.\n• Sacrifício (–2 PM). Sempre que usa seu Golpe Pessoal, você perde 10 PV.\n• Truque Secreto (–2 PM). Seu golpe só pode ser usado uma vez contra cada alvo por cena."
     }

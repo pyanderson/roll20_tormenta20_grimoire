@@ -217,6 +217,98 @@
     {
       "name": "Bravura Final",
       "description": "No 20º nível, sua virtude vence a morte. Se for reduzido a 0 ou menos PV, pode gastar 3 PM para continuar consciente e de pé. Esta habilidade tem duração sustentada. Quando se encerra, você sofre os efeitos de seus PV atuais, podendo cair inconsciente ou mesmo morrer."
+    },
+    {
+      "name": "Jovem Pajem (Vassalo)",
+      "description": "Você inicia sua carreira como um pajem, servindo a um sir ou dame mais experiente. Você se torna treinado em Adestramento ou Ofício (armeiro)."
+    },
+    {
+      "name": "Suserano (Vassalo)",
+      "description": "Escolha um membro da nobreza aprovado pelo mestre. Você serve a esse nobre, sendo oficialmente reconhecido como parte de sua corte. Os efeitos de seu status ficam a cargo do mestre mas, como regra geral, você recebe +5 em testes de Diplomacia e Intimidação ao lidar com vassalos de seu suserano de nível inferior ao seu e, nas terras dele, pode obter alojamento e alimentação sem custo. Se deixar de servir a seu suserano por qualquer motivo, você perde todos os seus PM e só pode recuperá-los após ser aceito por outro suserano."
+    },
+    {
+      "name": "Valete (Vassalo)",
+      "description": "A partir do 2º nível, você já acompanha seu senhor na corte e nos salões nobres. Você se torna treinado em Diplomacia ou Nobreza e recebe um poder de cavaleiro a sua escolha."
+    },
+    {
+      "name": "Escudeiro Aprendiz (Vassalo)",
+      "description": "A partir do 3º nível, você ajuda seu senhor na batalha. Você se torna treinado em Cavalgar e recebe proficiência com armaduras pesadas. Se já tiver proficiência com armaduras pesadas, recebe +2 na Defesa enquanto usa uma armadura pesada."
+    },
+    {
+      "name": "Guarda do Castelo (Vassalo)",
+      "description": "No 4º nível, você já patrulha as muralhas do castelo sozinho. Você se torna treinado em Intuição e recebe um poder de cavaleiro a sua escolha."
+    },
+    {
+      "name": "Vigilante de Estradas (Vassalo)",
+      "description": "A partir do 5º nível, você expande suas responsabilidades para além do castelo. Você recebe a habilidade Montaria e se torna treinado em Percepção."
+    },
+    {
+      "name": "Cavaleiro do Reino (Vassalo)",
+      "description": "No 6º nível, você recebe o título de sir ou dame e atinge o grau mais baixo da nobreza. Você recebe uma arma, armadura ou escudo superior com duas melhorias a sua escolha e recebe um poder de cavaleiro a sua escolha."
+    },
+    {
+      "name": "Sargento do Reino (Vassalo)",
+      "description": "No 7º nível, você adquire uma posição no exército do reino. Você recebe um poder de cavaleiro ou de guerreiro a sua escolha (como um guerreiro de nível igual ao seu para propósitos de pré-requisitos)."
+    },
+    {
+      "name": "Capitão do Reino (Vassalo)",
+      "description": "No 8º nível, você se torna um oficial no exército, respeitado e prestigiado por militares, nobres e plebeus. Você recebe o poder Escudeiro e a habilidade Golpe Divino (Tormenta20, p. 82), como um paladino de nível igual ao seu. Esta não é uma habilidade mágica e provém de seu senso de justiça e determinação em combate (veja “Magias Simuladas”, p. 44)."
+    },
+    {
+      "name": "Lorde (Vassalo)",
+      "description": "No 9º nível você ascende dentro da nobreza, recebendo um feudo — e muitas responsabilidades. Você recebe o poder Autoridade Feudal. Se já possui esse poder, as pessoas convocadas passam a contar como um parceiro veterano. Além disso, escolha um dos caminhos a seguir.\n\n• Caminho do Soldado. Você recebe um poder de guerreiro (como um guerreiro de nível igual ao seu) a sua escolha.\n\n• Caminho do Governante. Você recebe um poder de nobre (como um nobre de nível igual ao seu) a sua escolha."
+    },
+    {
+      "name": "Barão (Vassalo)",
+      "description": "No 10º nível, você ascende dentro da nobreza e passa a receber impostos de seus plebeus. Você recebe o poder Título e um domínio de nível 1 (veja p. 314). Se já tiver um domínio, em vez disso ele recebe uma construção gratuita (cujos pré-requisitos seu domínio cumpra)."
+    },
+    {
+      "name": "Visconde (Vassalo)",
+      "description": "No 11º nível, você adquire um título mais alto. Se escolheu o Caminho do Soldado, recebe +1 PV por nível de vassalo. Se escolheu o Caminho do Governante, recebe +1 em Inteligência."
+    },
+    {
+      "name": "Conde (Vassalo)",
+      "description": "A partir do 12º nível, você é um alto nobre e tem acesso a equipamentos poderosos. No início de cada aventura, você recebe um “orçamento” de T$ 30.000 que pode gastar em itens mágicos. Esses itens devem ser devolvidos ou reembolsados no fim da aventura. Além disso, recebe um poder de cavaleiro ou geral a sua escolha."
+    },
+    {
+      "name": "Marquês (Vassalo)",
+      "description": "No 13º nível, seus feitos alçam-no a um título ainda mais alto. Se escolheu o Caminho do Soldado, você recebe redução de dano 5 e +2 na Defesa. Se escolheu o Caminho do Governante, você passa a somar seu Carisma em seus testes de resistência."
+    },
+    {
+      "name": "Duque (Vassalo)",
+      "description": "No 14º nível, você se tornou um dos mais altos nobres do reino. Quando você usa Autoridade Feudal, o nível do parceiro convocado aumenta em um passo. Além disso, você recebe um poder de cavaleiro a sua escolha."
+    },
+    {
+      "name": "Arquiduque (Vassalo)",
+      "description": "No 15º nível você atinge o mais alto grau da nobreza, possuindo uma aura que o distingue das pessoas normais e o torna quase intocável. Uma vez por rodada, quando uma criatura inteligente lhe causar dano, você pode gastar 5 PM para reduzir esse dano a 0."
+    },
+    {
+      "name": "Conselheiro Real (Vassalo)",
+      "description": "A partir do 16º nível, você se torna um dos conselheiros do rei e passa a partilhar do poder de Sua Majestade. Você recebe um poder de cavaleiro a sua escolha e aprende e pode lançar uma magia divina de até 4º círculo a sua escolha (atributo-chave Carisma)."
+    },
+    {
+      "name": "Rei Mercenário (Vassalo)",
+      "description": "No 17º nível, você dá seus primeiros passos rumo à majestade, e a terra responde às suas aspirações. Se escolheu o Caminho do Soldado, você recebe 3 pontos de atributo para distribuir como quiser em Força, Destreza e Constituição. Se escolheu o Caminho do Governante, recebe 3 pontos de atributo para distribuir como quiser em Inteligência, Sabedoria e Carisma."
+    },
+    {
+      "name": "Rei (Vassalo)",
+      "description": "No 18º nível, seu reino já não precisa mais do apoio de seu antigo lorde — mas vocês ainda são aliados. Você recebe +1 em Carisma e um poder de cavaleiro a sua escolha."
+    },
+    {
+      "name": "Alto Rei (Vassalo)",
+      "description": "No 19º nível, você se torna um alto rei, senhor de seu reino e do antigo reino de seu lorde. Tem a sua disposição seguidores e riquezas sem fim — seu “orçamento” de itens mágicos aumenta para T$ 100.000 e seu limite de parceiros aumenta em 2."
+    },
+    {
+      "name": "Imperador (Vassalo)",
+      "description": "No 20º nível, você chegou ao ápice político de Arton. Talvez tenha colonizado um continente desconhecido. Talvez tenha conquistado o Império de Tauron ou o Reinado. De qualquer forma, você agora é um grande imperador, respeitado e temido por todos. Sua fama não tem limites e as pessoas atribuem a você os mais variados poderes. Você recebe +1 em dois atributos diferentes a sua escolha e aprende e pode lançar uma magia divina de até 5º círculo a sua escolha (atributo- -chave Carisma). Você pode começar a pensar em dar terras a seu antigo escudeiro, formando mais um rei e continuando o nobre ciclo do cavaleiro vassalo."
+    },
+    {
+      "name": "Vassalo em Campanha (Vassalo)",
+      "description": "O vassalo é uma classe diferente. Em vez de oferecer muitos poderes abertos, que podem ser escolhidos pelo jogador, tem uma lista em grande parte fixa e imutável. Em vez de se encaixar em quase qualquer campanha, exige uma progressão narrativa para o personagem — determinando parcialmente os rumos da história. Como lidar com toda essa esquisitice?\nAntes de escolher um vassalo, o jogador deve conversar com o mestre, garantindo que essa variante tem espaço na campanha. Por sua vez, o mestre deve trabalhar com o jogador para que sua ascensão na aristocracia aconteça em jogo. Simulando o lado mais tradicional e até antiquado da nobreza de Arton, o vassalo também é uma variante mais estanque em termos de regras. Empurra o personagem e a campanha como um todo para um certo lado. Por isso, todos precisam estar de acordo para que ele funcione. Se você prefere um personagem mais solto, que tenha mais opções de poderes e liberdade na campanha, talvez um cavaleiro ou um nobre se encaixem mais com seu conceito.\nPara um exemplo de como um personagem vassalo funciona na mesa, você pode assistir à Guilda do Macaco — na campanha, Lothar Algherulff seguiu essa variante do 1º ao 17º nível. O sistema de jogo era outro, mas a classe era parecida e os ajustes necessários na campanha não dependeram de regras, mas de história."
+    },
+    {
+      "name": "O Treinamento de um Vassalo (Vassalo)",
+      "description": "Ao longo de sua carreira, o vassalo se torna treinado em diversas perícias. Sempre que receber um desses treinamentos por uma habilidade de vassalo, se já for treinado na perícia, em vez disso você recebe +2 nela."
     }
   ]
 }

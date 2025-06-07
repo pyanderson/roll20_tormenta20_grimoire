@@ -219,6 +219,22 @@
     {
       "name": "Sorte de Nimb",
       "description": "No 20º nível, você encara os piores desafios e ri na cara deles — pois sabe que tem a sorte ao seu lado. Quando faz um teste, você pode gastar 5 PM para rolá-lo novamente. Qualquer resultado 11 ou mais na segunda rolagem será considerado um 20 natural."
+    },
+    {
+      "name": "Escola de Duelo (Duelista)",
+      "description": "No 2º nível, escolha uma escola de duelo entre as seguintes. Uma vez feita, essa escolha não pode ser mudada.\n\n• Escola Ambidestra. Se estiver empunhando duas armas (e pelo menos uma delas for leve), você recebe +2 na Defesa e em Reflexos.\n\n• Escola Clássica. Se estiver usando uma arma corpo a corpo em uma das mãos e nada na outra, você recebe +2 em rolagens de dano com essa arma.\n\n• Escola de Tiro. Você recebe proficiência com armas de fogo leves e de uma mão. Caso receba essa proficiência novamente, com essas armas você pode usar suas habilidades de bucaneiro normalmente usadas com armas corpo a corpo leves ou ágeis."
+    },
+    {
+      "name": "Truques de Capa (Duelista)",
+      "description": "A partir do 4º nível, se estiver usando uma capa esvoaçante (ou outro item semelhante aprovado pelo mestre), você pode gastar 2 PM e a ação indicada para gerar um dos efeitos a seguir.\n\n• Capa Inoportuna (Livre). Reduz a ação necessária para fintar em um passo até o fim do seu turno.\n\n• Distração Oportuna (Reação). Quando faz um teste de Reflexos ou Vontade, você recebe +5 nesse teste.\n\n• Efeito Dramático (Livre). Você recebe +5 em um teste de perícia baseada em Carisma feito nesse turno.\n\n• Impulso (Livre). Você recebe deslocamento +9m e +5 em Acrobacia e Atletismo por 1 rodada.\n\n• Paraquedas (Reação). Quando cai, você reduz o dano da queda em 6d6.\n\n• Rasgar a Capa (Reação). Quando sofre dano, você reduz esse dano à metade. Fazer isso destrói a capa."
+    },
+    {
+      "name": "Técnica Avançada (Duelista)",
+      "description": "No 10º nível, você aprende uma técnica de combate conforme sua escola de duelo. Você só pode usar esta habilidade se estiver usando sua escola.\n\n• Escola Ambidestra. Uma vez por rodada, se uma criatura atacá-lo e errar, você pode gastar 1 PM para fazer um ataque corpo a corpo contra essa criatura (desde que ela esteja em seu alcance).\n\n• Escola Clássica. O dano de sua escola aumenta para +5. Além disso, uma vez por rodada, quando usa a ação agredir, você pode gastar 1 PM. Se fizer isso e pelo menos um de seus ataques for um acerto crítico, você pode fazer um ataque adicional nessa ação.\n\n• Escola de Tiro. Seu dano com armas de fogo aumenta em um passo e seu alcance com essas armas aumenta em uma categoria (de curto para médio, de médio para longo)."
+    },
+    {
+      "name": "Duelista Lendário (Duelista)",
+      "description": "No 20º nível, seu domínio de sua escola atinge o ápice. Quando faz um ataque utilizando sua escola de duelo, você pode gastar 1 PM para rolá-lo novamente. Quando um oponente o ataca enquanto você está usando sua escola de duelo, você pode gastar 1 PM para forçá-lo a rolar o teste novamente (apenas uma vez por ataque)."
     }
   ]
 }
