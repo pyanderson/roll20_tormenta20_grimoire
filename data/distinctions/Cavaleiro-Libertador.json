@@ -1,0 +1,30 @@
+{
+    "name": "Cavaleiro Libertador",
+    "admission": "Diz-se que o primeiro cavaleiro libertador surgiu entre os próprios Libertadores de Valkaria, recebendo esse título e poderes da própria deusa como recompensa. Para aqueles que viriam depois, contudo, a admissão não seria tão simples.\nAlém de ser um devoto de Valkaria, o primeiro passo é encontrar a sede da Ordem dos Libertadores, em Deheon. Para provar-se digno, o candidato precisa desafiar seus limites e realizar um ato de grandeza, seja derrubar um tirano que domina uma vila, acabar com a opressão de uma célula purista, ou proteger a liberdade de fazendeiros sendo sequestrados. Ele pode ser auxiliado por companheiros, mas seu feito deve representar perigo real para todo o grupo. Após a façanha, o candidato precisa espalhar a notícia de seus atos para inspirar todos em situação similar. Quando as notícias de seu feito chegam a Deheon, a Ordem irá julgar seu valor e poderá convocar o candidato para ser sagrado cavaleiro libertador.",
+    "abilities": [
+        {
+            "name": "Flâmula do Libertador",
+            "description": "Você recebe um tabardo aprimorado com as cores da Ordem, que conta também como um símbolo sagrado de Valkaria. Se usado em conjunto com uma armadura, ele não conta em seu limite de itens vestidos."
+        },
+        {
+            "name": "Inspirar Bravura",
+            "description": "Você pode gastar 2 PM para gerar uma aura com 9m de raio. Você e seus aliados dentro da área recebem +2 em rolagens de dano e em testes de resistência contra efeitos mentais, de medo e de movimento. Para cada dois outros poderes de cavaleiro libertador que você possui, quando ativa a aura você pode gastar +1 PM para aumentar os bônus em +1. Pré-requisitos: Car 2, treinado em Diplomacia, devoto de Valkaria."
+        },
+        {
+            "name": "Campeão da Deusa",
+            "description": "Você pode gastar uma ação de movimento e 2 PM para receber um poder concedido de Valkaria até o fim da cena ou até usar este poder novamente. Pré-requisitos: treinado em Religião, Inspirar Bravura."
+        },
+        {
+            "name": "Desafiar o Perigo",
+            "description": "Você recebe +1 em testes de perícia e na Defesa quando luta em desvantagem (contra um grupo pelo menos duas vezes maior que o seu) ou quando combate sozinho um adversário de ND igual ou superior ao seu nível. Esses bônus aumentam em +1 para cada dois outros poderes de cavaleiro libertador que você possui. Pré-requisitos: Coragem Total, Inspirar Bravura."
+        },
+        {
+            "name": "Habilidade de Herói",
+            "description": "Você recebe +1 em um atributo a sua escolha. Se possuir todos os cinco poderes de cavaleiro libertador, você recebe +1 em outro atributo a sua escolha. Pré-requisito: Inspirar Bravura."
+        },
+        {
+            "name": "Por Valkaria!",
+            "description": "Você pode gastar uma ação padrão e 2 PM para compartilhar uma bênção de Valkaria. Escolha um poder concedido de Valkaria que você possua e qualquer número de aliados em alcance curto. Esses aliados recebem o poder escolhido até o fim da cena (o efeito também termina se você perder o poder concedido). Pré-requisito: Habilidade de Herói."
+        }
+    ]
+}

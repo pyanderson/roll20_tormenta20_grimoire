@@ -525,6 +525,17 @@
       ]
     },
     {
+      "type": "folder",
+      "name": "Libertação de Valkaria",
+      "items": [
+        {
+          "type": "item",
+          "name": "Criação dos Deuses",
+          "description": "Você foi criado por um dos deuses maiores de Arton, mas deixou seu plano natal muito cedo. Talvez tenha sido um dos poucos escolhidos enviados em uma missão divina, ou tenha escapado de seu lar por um motivo qualquer.\n\nItens. Uma lembrança de seu plano natal (funciona como um símbolo sagrado do deus escolhido).\n\nBenefício. Escolha um deus maior (ou veja o quadro da p. 190). Você se torna um espírito, mas retém as características de seu tipo original (veja Tormenta20, p. 284) e recebe redução de dano 5 conforme o tipo de energia canalizada pelo deus: trevas para energia positiva, luz para energia negativa, ou à sua escolha entre estas se o deus canaliza ambas. Por fim, você recebe o poder Escolhido dos Deuses para a divindade escolhida."
+        }
+      ]
+    },
+    {
       "type": "item",
       "name": "Acólito",
       "description": "Neste mundo agraciado com tantos deuses e igrejas, muitos ingressam cedo em alguma ordem religiosa — o que, dependendo de quem é seu deus padroeiro, pode ser motivo de admiração ou repulsa. Talvez você tenha ouvido o chamado da fé, seguiu a tradição espiritual de sua família, ou apenas foi abandonado quando pequeno às portas de um templo ou mosteiro. Tenha ou não se tornado um devoto, suas lembranças são carregadas de orações, evangelhos e outros ensinamentos.\n\nItens. Símbolo sagrado, traje de sacerdote.\n\nBenefícios. Cura, Religião, Vontade (perícias); Medicina, Membro da Igreja, Vontade de Ferro (poderes)."
