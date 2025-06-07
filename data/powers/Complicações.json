@@ -216,6 +216,86 @@
         {
             "name": "Certinho Paladino",
             "description": "Você faz tudo do jeito correto e fica desconfortável quando um de seus companheiros não age dessa forma. Sempre que um aliado fizer algo que violaria seu Código do Herói, isso conta como uma violação sua — a menos que você não note, o que exige dele um teste de Enganação ou Furtividade contra a sua Percepção ou Intuição (o que for maior)."
+        },
+        {
+            "name": "O Peso da Idade",
+            "description": "Personagens adultos ou mais velhos precisam escolher uma complicação de idade por faixa etária — ou seja, uma para adultos, duas para maduros, três para velhos e quatro para anciões. Como a velhice não atinge todas as pessoas da mesma forma, esta mecânica representa melhor os efeitos do envelhecimento do que os modificadores de atributos da regra padrão. Complicações de idade funcionam como complicações normais (veja p. 282). Seus efeitos se acumulam!"
+        },
+        {
+            "name": "Abatido Idade",
+            "description": "Seu vigor se foi. Você recebe –2 PV por nível."
+        },
+        {
+            "name": "Catarata Idade",
+            "description": "Seus olhos já não são os mesmos. Você sofre –5 em Percepção e Pontaria."
+        },
+        {
+            "name": "Dedos Trêmulos Idade",
+            "description": "Você sofre –2 em Luta e Pontaria. Além disso, quando usa um item que esteja empunhando, role 1d4. Em um resultado 1, você derruba esse item."
+        },
+        {
+            "name": "Definhamento Idade",
+            "description": "A idade roubou seu peso, deixando-o um fiapo do que era antes. Você sofre –5 em Fortitude e em testes de manobras de combate."
+        },
+        {
+            "name": "Desatento Idade",
+            "description": "Você já não é mais tão atento quanto outrora. Na primeira rodada de qualquer cena de ação, role um dado. Em um resultado ímpar, você fica surpreendido (mesmo que um efeito possa evitar isso)."
+        },
+        {
+            "name": "“Devagar, Jovem!” Idade",
+            "description": "Você já não anda no mesmo ritmo que antes. Seu deslocamento diminui em –3m e você não pode correr ou fazer investidas."
+        },
+        {
+            "name": "Gota Idade",
+            "description": "Sempre que faz um teste de Destreza ou de perícias baseadas nesse atributo você perde 1d6 pontos de vida. Você só pode recuperar esses PV com descanso."
+        },
+        {
+            "name": "Juntas Duras Idade",
+            "description": "Suas articulações doem. Você sofre –5 em testes de Acrobacia e Reflexos."
+        },
+        {
+            "name": "Melancólico Idade",
+            "description": "Você já não tem mais tanta motivação para realizar grandes façanhas. Você perde 1 PM por nível."
+        },
+        {
+            "name": "Memórias Tristes Idade",
+            "description": "Você passou por um trauma, como a perda de um ente querido ou a culpa por um erro que cometeu e pelo qual nunca se perdoou. Sempre que rola um resultado 1 natural em qualquer teste, você fica pasmo por 1 rodada e frustrado até o fim do dia (cumulativo)."
+        },
+        {
+            "name": "“No Meu Tempo...” Idade",
+            "description": "Você se prende a visões idealizadas de um passado que nunca existiu e se torna presa fácil para manipulação. Você sofre –5 em Intuição e Vontade."
+        },
+        {
+            "name": "Pulmão Ruim Idade",
+            "description": "Quando corre ou prende a respiração, você precisa fazer testes de Fortitude para não ficar fatigado a partir da primeira rodada (normalmente, personagens só precisam fazer esses testes após um número de rodadas igual a sua Constituição +1). Além disso, sempre que faz uma investida, você fica fatigado até o fim da cena."
+        },
+        {
+            "name": "Rabugento Idade",
+            "description": "Você reclama de tudo. Você sofre –5 em testes de Carisma e de perícias baseadas nesse atributo, exceto Intimidação."
+        },
+        {
+            "name": "Recurvado Idade",
+            "description": "A idade dobrou suas costas. Você conta como uma categoria de tamanho menor para alcance natural, modificador de manobras e armas que pode empunhar (mas não para espaço ocupado, modificador de Furtividade ou dano de armas naturais)."
+        },
+        {
+            "name": "Sono Ruim Idade",
+            "description": "Você acorda várias vezes no meio da noite, o que atrapalha seu descanso. Sua recuperação de PM e PV é sempre uma categoria pior. Se a condição de descanso já é ruim, você recupera apenas 1 PM e 1 PV, independentemente do seu nível. Se já recupera apenas 1 PM e 1 PV, não recupera nada!"
+        },
+        {
+            "name": "Teimoso Idade",
+            "description": "Sempre que falha em um teste de atributo ou de perícia que possa tentar novamente, você é obrigado a tentar pelo menos mais uma vez (mesmo que isso possa prejudicá-lo). Teimoso é quem teima com você!"
+        },
+        {
+            "name": "Tosse Idade",
+            "description": "Em cenas de ação, role 1d6 no início de cada rodada. Num resultado 1, você tem uma crise de tosse e fica atordoado por 1 rodada. Em cenas de interpretação, role 1d6 sempre que fizer um teste de perícia baseada em Carisma. Num resultado 1, você tem uma crise de tosse e sofre uma penalidade de –5 nesse teste."
+        },
+        {
+            "name": "Turrão Idade",
+            "description": "Você faz tudo sempre do seu jeito e tem dificuldade de lidar com coisas nas quais não é perito. Você não recebe o bônus de metade do nível em perícias nas quais não é treinado."
+        },
+        {
+            "name": "Velha Ferida Idade",
+            "description": "Você tem um machucado antigo, que nunca cicatrizou direito. Sempre que você sofre um acerto crítico, o multiplicador de dano aumenta em +1 e você fica fraco (mesmo que seja imune, cumulativo)."
         }
     ]
 }
