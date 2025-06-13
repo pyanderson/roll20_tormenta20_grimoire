@@ -655,6 +655,11 @@
       "source": "",
       "name": "Suporte de Tropas",
       "description": "Sempre que você faz um teste para ajudar, o bônus que fornece aumenta em +2. Além disso, quando flanqueia um inimigo, o bônus que você e seus aliados recebem em testes de ataque aumenta para +4."
+    },
+    {
+      "source": "",
+      "name": "Criação dos Deuses",
+      "description": "Escolha um deus maior (ou veja o quadro da p. 190). Você se torna um espírito, mas retém as características de seu tipo original (veja Tormenta20, p. 284) e recebe redução de dano 5 conforme o tipo de energia canalizada pelo deus: trevas para energia positiva, luz para energia negativa, ou à sua escolha entre estas se o deus canaliza ambas. Por fim, você recebe o poder Escolhido dos Deuses para a divindade escolhida."
     }
   ]
 }

@@ -208,6 +208,30 @@
       "description": "No 20º nível, você pode usar Inspiração como uma ação livre. Enquanto estiver sob efeito de sua Inspiração, qualquer habilidade de bardo (incluindo magias) que você usar tem seu custo em PM reduzido pela metade (após aplicar quaisquer outras habilidades que reduzam o custo)."
     },
     {
+      "name": "Cadência Magimarcial (Magimarcialista)",
+      "description": "Sempre que lança uma magia de bardo você recebe uma carga arcana e, sempre que faz a ação agredir, recebe uma carga marcial. Você pode acumular um máximo de cargas de cada tipo igual ao seu Carisma e elas duram até o fim da cena."
+    },
+    {
+      "name": "Magificação (Magimarcialista)",
+      "description": "Se tiver pelo menos 1 carga arcana e 1 carga marcial, você recebe +2 em testes de ataque e rolagens de dano e é considerado sob Inspiração (Tormenta20, p. 44) para efeitos baseados nisso. A cada cinco níveis, esses bônus aumentam em +1."
+    },
+    {
+      "name": "Bravado Magimarcial (Magimarcialista)",
+      "description": "No 2º nível, quando lança uma magia, você pode gastar 1 carga marcial para reduzir seu custo em –1 PM (cumulativo com outras reduções) e, quando faz um ataque, pode gastar 1 carga arcana para receber +1d6 na rolagem de dano."
+    },
+    {
+      "name": "Dança Defensiva (Magimarcialista)",
+      "description": "No 3º nível, quando faz um teste de resistência, você pode gastar 1 carga marcial para receber +5 nesse teste e, quando sofre dano, pode gastar 1 carga arcana para receber redução de dano 10 contra esse dano."
+    },
+    {
+      "name": "Arte Sublime (Magimarcialista)",
+      "description": "A partir do 7º nível, quando usa Bravado Magimarcial ou Dança Defensiva, você pode gastar uma carga adicional do tipo exigido para dobrar seu efeito."
+    },
+    {
+      "name": "Crescendo Vitorioso (Magimarcialista)",
+      "description": "No 20° nível, no início de cada combate, você recebe 1 carga arcana e 1 carga marcial. Além disso, você soma seu total de cargas marciais na CD para resistir às suas habilidades de bardo e o total de suas cargas arcanas em seus testes de ataque e rolagens de dano."
+    },
+    {
       "name": "Músicas de Bardo",
       "description": "Alguns poderes do bardo são Músicas. Esses poderes compartilham as seguintes regras.\n• Para ativar uma música, você precisa ser treinado em Atuação e empunhar um instrumento musical (veja a página 158).\n• Ativar uma música gasta uma ação padrão e 1 PM.\n• Efeitos de músicas têm alcance curto."
     }

@@ -1,0 +1,30 @@
+{
+    "name": "Andarilho do Horizonte",
+    "admission": "O candidato deve ter desbravado cada um dos tipos de terreno (aquático, ártico, colina, deserto, floresta, montanha, pântano, planície, subterrâneo e urbano). Desbravar não significa apenas visitar; ele precisa viajar por tempo considerável em cada terreno e enfrentar as dificuldades de cada um deles. Como diretriz geral, o candidato precisa passar uma aventura em cada terreno — ou pelo menos passar uma semana e superar um perigo complexo relevante (como uma jornada pelos ermos) em cada terreno.\nAlém de explorar a geografia de Arton, o candidato deve ter visitado as terras além. Isso significa visitar pelo menos um outro plano de existência, desbravando esse plano de forma semelhante a desbravar os tipos de terrenos.",
+    "abilities": [
+        {
+            "name": "Trilheiro",
+            "description": "Uma vez por rodada você pode percorrer 1,5m usando qualquer forma de deslocamento que possua. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel."
+        },
+        {
+            "name": "Domínio de Terreno",
+            "description": "Escolha dois entre os tipos de terreno descritos a seguir. Você recebe os benefícios dos terrenos escolhidos mesmo que não esteja em terreno deste tipo. Você pode escolher este poder outras vezes para terrenos diferentes.\n\n• Aquático. Você recebe deslocamento de natação 9m e ignora a penalidade de armadura para nadar. Se já possui deslocamento de natação, ele aumenta em +3m.\n\n• Ártico. Você recebe redução de frio 5 e pode gastar 1 PM para fazer uma arma que esteja empunhando causar +1d6 pontos de dano por frio até o fim da cena.\n\n• Colina. Você recebe +2 em testes de ataque e, se estiver em posição elevada em relação a outras criaturas, recebe +2 na Defesa contra elas.\n\n• Deserto. Você recebe redução de fogo 5 e imunidade a cansaço.\n\n• Floresta. Você recebe +2 em Furtividade e, quando está sob cobertura, recebe camuflagem leve.\n\n• Montanha. Você recebe redução de eletricidade 5 e deslocamento de escalada 9m. Se já possui deslocamento de escalada, ele aumenta em +3m.\n\n• Pântano. Você recebe redução de ácido 5 e resistência a veneno +5.\n\n• Planície. Você recebe +2 em Atletismo e deslocamento +3m.\n\n• Subterrâneo. Você recebe visão no escuro. Se já possuir esta habilidade, seu alcance aumenta para médio.\n\n• Urbano. Você recebe redução de psíquico 5 e pode usar Sobrevivência no lugar de Diplomacia e Investigação.\n\nPré-requisitos: treinado em Conhecimento, Fortitude e Sobrevivência."
+        },
+        {
+            "name": "Domínio Planar",
+            "description": "Você aprende e pode lançar a magia Salto Dimensional. Além disso, se estiver em um terreno para o qual possua Domínio de Terreno, pode gastar oito horas para procurar um atalho para um plano específico. Faça um teste de Sobrevivência (CD 30); se passar, pode lançar Viagem Planar com esse destino. Pré-requisitos: três outros poderes de andarilho do horizonte."
+        },
+        {
+            "name": "Explorador do Horizonte",
+            "description": "Quando está em um terreno para o qual possua Domínio de Terreno e Explorador, o bônus fornecido por Explorador se aplica a todos os seus testes de perícia e aumenta em +1 para cada dois outros poderes de Andarilho do Horizonte que você possui. Pré-requisitos: Domínio de Terreno, Explorador."
+        },
+        {
+            "name": "Já Vi de Tudo",
+            "description": "Você pode usar Sobrevivência para identificar qualquer tipo de criatura como uma ação de movimento (em vez de padrão). Além disso, aprende e pode lançar Suporte Ambiental. Caso aprenda novamente a magia, seu custo diminui em –1 PM. Pré-requisito: Domínio de Terreno."
+        },
+        {
+            "name": "Lá Onde Não Há Horizonte",
+            "description": "Você recebe +5 em testes de resistência contra efeitos da Tormenta, suas criaturas e devotos de Aharadak. Além disso, sempre que perde PM por um efeito (como Insanidade da Tormenta), essa perda é reduzida em –1 PM; para cada dois outros poderes de andarilho do horizonte que possuir, a perda é reduzida em –1 adicional. Este poder conta como Domínio de Terreno (área de Tormenta). Pré-requisitos: Ter sobrevivido a uma incursão em uma área de Tormenta, quatro outros poderes de Andarilho do Horizonte."
+        }
+    ]
+}

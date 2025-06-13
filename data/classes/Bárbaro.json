@@ -206,6 +206,30 @@
       "description": "No 20º nível, o bônus que você recebe nos testes de ataque e rolagens de dano quando usa Fúria é dobrado. Por exemplo, se gastar 5 PM, em vez de um bônus de +5, recebe um bônus de +10."
     },
     {
+      "name": "Grunhidos (Machado de Pedra)",
+      "description": "Você conhece apenas o idioma rústico da pequena comunidade onde viveu e nenhum outro. Você não só é incapaz de compreender outros dialetos como não se importa com isso, comunicando-se com grunhidos e sons simples. Contudo, você conhece uma palavra no idioma valkar (o mais comum de Arton) por nível de machado de pedra."
+    },
+    {
+      "name": "Machado de Pedra (Machado de Pedra)",
+      "description": "Você não recebe proficiência com armas simples. Você sabe usar apenas adaga, azagaia, clava, funda, lança, machadinha e tacape. No 9° nível, aprende a usar uma arma simples ou marcial a sua escolha. Entretanto, quando ataca com uma arma natural, um ataque desarmado ou uma dessas armas, você recebe +1 no teste de ataque e na rolagem de dano."
+    },
+    {
+      "name": "Tanga de Peles (Machado de Pedra)",
+      "description": "Você não recebe proficiência com armaduras leves. Entretanto, se não estiver usando armadura, você soma sua Constituição na Defesa. Além disso, no 3º nível, e a cada quatro níveis seguintes, você recebe +1 na Defesa."
+    },
+    {
+      "name": "Fúria Primitiva (Machado de Pedra)",
+      "description": "A partir do 2º nível, se não estiver usando armadura e estiver empunhando uma das armas de sua habilidade Machado de Pedra, o custo de sua Fúria é reduzido em –1 PM. Além disso, uma vez por cena, quando entra em fúria, você recebe uma quantidade de PV temporários igual ao seu nível + sua Constituição."
+    },
+    {
+      "name": "Resiliência Primal (Machado de Pedra)",
+      "description": "A partir do 5º nível, graças a seu vigor e força de vontade, você ignora parte de seus ferimentos. Você recebe redução de dano 3. A cada três níveis, sua RD aumenta em 3, até um máximo de RD 15 no 17º nível."
+    },
+    {
+      "name": "Fúria Rústica (Machado de Pedra)",
+      "description": "No 20º nível, quando entra em fúria, você pode gastar 5 PM. Se fizer isso, durante a fúria você recebe Cura Acelerada 10 (cumulativo com outras Curas Aceleradas) e, quando faz a ação agredir, pode fazer um ataque desarmado adicional."
+    },
+    {
       "name": "Animais Totêmicos",
       "description": "A seguir está uma lista de animais venerados por tribos bárbaras de Arton.\n• Coruja. A sábia coruja guia seus discípulos. Você pode lançar Orientação.\n• Corvo. Um seguidor do corvo enxerga além do véu. Você pode lançar Visão Mística.\n• Falcão. Sempre atento, o falcão permite que você lance Detectar Ameaças.\n• Grifo. O mais veloz dos animais, o grifo permite que você lance Primor Atlético.\n• Lobo. O lobo é feroz e letal. Você pode lançar Concentração de Combate.\n• Raposa. A sagaz raposa nunca está onde se espera. Você pode lançar Imagem Espelhada.\n• Tartaruga. A tartaruga protege os seus. Você pode lançar Armadura Arcana.\n• Urso. O vigoroso urso permite que você lance Vitalidade Fantasma e possa usar seus aprimoramentos como se tivesse acesso aos mesmos círculos de magia que um druida de seu nível."
     }

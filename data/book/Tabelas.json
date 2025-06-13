@@ -121,6 +121,80 @@
           ]
         }
       ]
+    },
+    {
+      "type": "folder",
+      "name": "Deuses de Arton",
+      "items": [
+        {
+          "type": "folder",
+          "name": "Capítulo 1",
+          "items": [
+            {
+              "type": "table",
+              "name": "Tabela 1-3: Itens Gerais",
+              "content": "Item\tPreço\tEspaços\tItem\tPreço\tEspaços\nEquipamento de Aventura\t-\t-\tAlquímicos — Preparados\t-\t-\nÁgua benta concentrada\tT$ 60\t0,5\tGranada redentora\tT$ 60\t0,5\nAmuleto de Khalmyr\tT$ 30\t1\tSanta granada de mão\tT$ 150\t0,5\nAmuleto de Nimb\tT$ 30\t1\tIncenso\tT$ 12\t0,5\nApanhador de sonhos\tT$ 40\t1\tLucidílico\tT$ 30\t0,5\nAspersório\tT$ 50\t1\tAlquímicos — Catalisadores\t-\t-\nCajado de pastor\tT$ 12\t2\tÁgua benta\tT$ 10\t0,5\nCálice consagrado\tT$ 300\t1\tFavo de mel\tT$ 30\t0,5\nColar do suplicante\tT$ 100\t1\tFitilho consagrado\tT$ 30\t0,5\nEmblema religioso\tT$ 30\t1\tFlor de orlyn\tT$ 30\t0,5\nFérula\tT$ 100\t1\tLantejoula\tT$ 30\t0,5\nPanfleto de aforismos\tT$ 60\t1\tFrasco de luz\tT$ 30\t0,5\nPatuá\tT$ 50\t1\tPena de anjo\tT$ 30\t0,5\nTexto sagrado\tT$ 60\t1\tPedra de sombras\tT$ 30\t0,5\nFerramentas\t-\t-\tVela eclesiástica\tT$ 60\t0,5\nTrombeta do cruzado\tT$ 100\t1\tAlimentação\t-\t-\nVestuário\t-\t-\tAbraço da noite\tT$ 3\t—\nAnel eclesiástico\tT$ 50\t1\tAssado de entranhas\tT$ 2\t—\nCarcaça do predador primal\tT$ 150\t1\tBênção dos mares\tT$ 4\t—\nGarras do predador primal\tT$ 300\t1\tBolinho de jade\tT$ 4\t—\nHábito monástico\tT$ 30\t1\tBombas de saber\tT$ 4\t—\nHábito sacerdotal\tT$ 30\t1\tCaldo de Lena\tT$ 3\t—\nManto de alto sacerdote\tT$ 100\t1\tCoragem de sangue\tT$ 4\t—\nPenas do predador primal\tT$ 100\t1\tDeleite mágico\tT$ 18\t—\nPiercing de umbigo\tT$ 50\t1\tFrescor de Nimb\tT$ 1\t—\nSandálias\tT$ 9\t1\tJoia do deserto\tT$ 5\t—\nTonsura\tT$ 3\t—\tJustos de Khalmyr\tT$ 2\t—\nTúnica do Virtuoso\tT$ 25\t1\tJustos virtuosos\tT$ 6\t—\nEsotéricos\t-\t-\tManjar da paz\tT$ 7\t—\nAfiador solar\tT$ 100\t1\tOuro de dragão\tT$ 6\t—\nBáculo da retribuição\tT$ 200\t1\tOvos de raposa\tT$ 3\t—\nContas de oração\tT$ 500\t1\tPão de Thwor\tT$ 1\t—\nEstola\tT$ 150\t1\tPresente da terra\tT$ 3\t—\nFrasco purificador\tT$ 100\t1\tRenascer gentil\tT$ 30\t—\nMedalhão afiado\tT$ 900\t1\tSuflê rubro\tT$ 3\t—\nOstensório santificado\tT$ 750\t1\tTesouro de Valkaria\tT$ 2\t—\nRede de almas\tT$ 600\t1\tServiços\t-\t-\nTuríbulo ungido\tT$ 100\t1\tCasamento (por pessoa)\tT$ 150\t—\n-\t-\t-\tCerimônia religiosa\tT$ 20\t—\n-\t-\t-\tSacramento\tT$ 50\t—"
+            },
+            {
+              "type": "table",
+              "name": "Tabela 1-4: Melhorias",
+              "content": "Melhoria\tEfeito\nMelhorias para armas\nConduíte\tReduz em –1 PM o custo de Abençoar Arma\nMelhorias para armaduras, escudos, ferramentas e vestuários\nDiligente\tReduz em –1 PM o custo de Prece de Combate\nInscrito\tConta como símbolo sagrado\nMelhorias para todas as categorias acima\nCanônico\t+1 na CD para resistir a habilidades mágicas divinas\nDevotado\tReduz em –1 PM o custo de um poder concedido"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "Heróis de Arton",
+      "items": [
+        {
+          "type": "folder",
+          "name": "Capítulo 3",
+          "items": [
+            {
+              "type": "table",
+              "name": "Tabela 3-1: Armas",
+              "content": "Nome\tPreço\tDano\tCrítico\tAlcance\tTipo\tEspaços\nArmas Simples\nCorpo a Corpo — Leves\nBastão lúdico\tT$ 5\t1d6\tx2\t—\tImpacto\t1\nAtaque à Distância — Uma Mão\nBesta de mão\tT$ 30\t1d6\t19\tCurto\tPerfuração\t1\nVirotes (20)\tT$ 2\t—\t—\t—\t—\t1\nArmas Marciais\nCorpo a Corpo — Leves\nAdaga oposta\tT$ 12\t1d4\t19\t—\tPerfuração\t1\nAgulha de Ahlen\tT$ 10\t1d4\t19\t—\tPerfuração\t1\nCinquedea\tT$ 18\t1d4\t19\t—\tPerfuração\t1\nDirk\tT$ 15\t1d4\t19\t—\tPerfuração\t1\nMartelo leve\tT$ 2\t1d4\tx4\tCurto\tImpacto\t1\nCorpo a Corpo — Uma Mão\nEspada larga\tT$ 8\t2d4\tx2\t—\tCorte\t1\nEspadim\tT$ 300\t1d8\t20\t—\tCorte\t1\nMaça-estrela\tT$ 20\t2d4\tx2\t—\tImpacto e perfuração\t1\nSerrilheira\tT$ 25\t1d6\t19\t—\tCorte\t1\nCorpo a Corpo — Duas Mãos\nBico de corvo\tT$ 15\t1d8\tx3\t—\tImpacto/perfuração\t2\nDesmontador\tT$ 20\t—\t—\t—\t—\t2\nEspada de execução\tT$ 75\t2d6\t18/x4\t—\tCorte\t2\nLança de justa\tT$ 3\t1d8\tx2\t—\tPerfuração\t2\nMalho\tT$ 8\t1d10\tx2\t—\tImpacto\t2\nMartelo longo\tT$ 12\t2d4\tx4\t—\tImpacto/perfuração\t2\nTan-korak\tT$ 40\t1d8\tx2\t—\tImpacto\t2\nAtaque à Distância — Uma Mão\nTai-tai\tT$ 60\t2d4\tx2\tMédio\tImpacto\t2\nAtaque à Distância — Duas Mãos\nArco montado\tT$ 45\t1d6\tx3\tMédio\tPerfuração\t2\nFlechas (20)\tT$ 1\t—\t—\t—\t—\t1\nBesta dupla\tT$ 125\t1d8\t19\tMédio\tPerfuração\t2\nVirotes (20)\tT$ 2\t—\t—\t—\t—\t1\nArmas Exóticas\nCorpo a Corpo — Leves\nKimbata\tT$ 12\t1d4\t18\t—\tCorte\t1\nCorpo a Corpo — Uma Mão\nClava-grão\tT$ 90\t1d6\tx2\t—\tImpacto\t1\nEspada canora\tT$ 50\t1d6\t19\t—\tPerfuração\t1\nEspada-gadanho\tT$ 40\t1d6\t18\t—\tCorte\t1\nKhopesh\tT$ 20\t1d8\t19/x3\t—\tCorte\t1\nLança de falange\tT$ 15\t1d8\tx3\tCurto\tPerfuração\t1\nMachado de haste\tT$ 40\t1d8/1d10\tx3\t—\tCorte\t1\nRapieira\tT$ 50\t1d8\t18\t—\tPerfuração\t1\nCorpo a Corpo — Duas Mãos\nMarrão\tT$ 50\t4d4\tx2\t—\tImpacto\t2\nMontante cinético\tT$ 3.000\t2d6\t19/x4\t—\tCorte\t2\nAtaque à Distância — Uma Mão\nBoleadeira\tT$ 12\t1d4\tx2\tCurto\tImpacto\t1\nChakram\tT$ 15\t1d6\tx3\tCurto\tCorte\t1\nAtaque à Distância — Duas Mãos\nArco de guerra\tT$ 200\t1d12\tx3\tMédio\tPerfuração\t2\nFlechas (20)\tT$ 1\t—\t—\t—\t—\t1\nBalestra\tT$ 180\t1d12\t19\tMédio\tPerfuração\t2\nVirotes (20)\tT$ 2\t—\t—\t—\t—\t1\nBesta de repetição\tT$ 250\t1d8\t19\tMédio\tPerfuração\t2\nVirotes (20)\tT$ 2\t—\t—\t—\t—\t1\nArmas de Fogo\nAtaque à Distância — Leve\nGarrucha\tT$ 250\t2d4\t19/x3\tCurto\tPerfuração\t1\nBalas(20)\tT$ 20\t—\t—\t—\t—\t1\nAtaque à Distância — Duas Mãos\nCanhão portátil\tT$ 3.000\t4d10\t19/x3\tCurto\tImpacto\t2\nBola de ferro (1)\tT$ 5\t—\t—\t—\t—\t0,5\nSifão cáustico\tT$ 600\t4d6\tx2\tEspecial\tÁcido\t2"
+            },
+            {
+              "type": "table",
+              "name": "Tabela 3-2: Munições",
+              "content": "Item\tPreço\tEspaços\nBola de ferro (1)\tT$ 5\t0,5\nFlechas assobiadoras (20)\tT$ 20\t1\nFlechas de caça (20)\tT$ 10\t1\nFlechas pesadas (20)t\tT$ 10\t1\nVirotes pesados (20)\tT$ 20\t1"
+            },
+            {
+              "type": "table",
+              "name": "Tabela 3-3: Armaduras & Escudos",
+              "content": "Nome\tPreço\tDefesa\tPenalidade\tEspaços\nArmaduras Leves\nArmadura sensual\tT$ 55\t+1\t0\t2\nArmadura de folhas\tT$ 75\t+2\t0\t2\nArmadura de engenhoqueiro goblin\tT$ 85\t+3\t–2 a –10\t2\nCota de moedas\tT$ 350\t+4\t–3\t2\nColete fora da lei\tT$ 750\t+5\t–5\t2\nArmaduras Pesadas\nBrigantina\tT$ 75\t+6\t0\t5\nArmadura de chumbo\tT$ 750\t+7\t–5\t5\nArmadura de justa\tT$ 1.200\t+9\t–5\t5\nArmadura de hussardo alado\tT$ 4.500\t+10\t–6\t5\nArmadura de pedra\tT$ 5.500\t+12\t–5\t5\nEscudos\nBroquel\tT$ 25\t—\t–1\t0,5\nEscudo de vime\tT$ 15\t+2\t–2\t2\nEscudo torre\tT$ 45\t+2\t–4\t2\nSagna\tT$ 20\t+2\t–3\t2"
+            },
+            {
+              "type": "table",
+              "name": "Tabela 3-4: Itens Gerais",
+              "content": "Item\tPreço\tEspaços\tItem\tPreço\tEspaços\nEquipamento de Aventura\t-\t-\tFerramentas — Instrumentos Musicais (continuação)\t-\t-\nÁbaco\tT$ 45\t1\tGaita de foles\tT$ 500\t1\nAmpulheta\tT$ 45\t1\tLira de casco de tartaruga\tT$ 300\t1\nAparelho de chá\tT$ 30\t1\tMarionetes\tT$ 90\t1\nAstrolábio\tT$ 90\t1\tPandeiro das estradas\tT$ 200\t1\nArmação para mochila\tT$ 50\t—\tTamborete marcial\tT$ 80\t1\nAsas do texugo\tT$ 200\t2\tTrombeta tapistana\tT$ 300\t1\nBainha adornada\tT$ 100\t1\tViolino soprano\tT$ 300\t1\nBússola\tT$ 45\t1\tVestuário\t-\t-\nCinto de utilidades\tT$ 50\t1\tAvental de forja\tT$ 75\t1\nCondecoração militar\t—\t1\tCamisolão\tT$ 12\t1\nDente falso\tT$ 300\t—\tCapa com dragonas\tT$ 50\t1\nDiagrama anatômico\tT$ 75\t1\tCasaca de apetrechos\tT$ 75\t—\nEspelho refletor\tT$ 45\t1\tChapéu emplumado\tT$ 50\t1\nEstetoscópio\tT$ 60\t1\tElmo leve\tT$ 15\t1\nEstrepes (bolsa para 3m)\tT$ 5\t1\tElmo pesado\tT$ 200\t1\nFavor da pessoa amada\t—\t1\tJaqueta de couro\tT$ 15\t1\nLampião de foco\tT$ 15\t1\tLuva de falcoaria\tT$ 15\t1\nLeque\tT$ 3\t1\tLuva magnética\tT$ 20\t1\nLivro de métodos anti-Nimb\tT$ 100\t1\tMáscara bucal\tT$ 3\t1\nLupa\tT$ 30\t1\tMáscara completa\tT$ 15\t1\nMapa\tT$ 30\t1\tMáscara de baile\tT$ 25\t1\nMecanismo de mola\tT$ 25\t1\tMáscara de soldador\tT$ 50\t1\nMochila discreta\tT$ 20\t1\tMonóculo\tT$ 50\t1\nPrancheta\tT$ 5\t1\tÓculos de aeronauta\tT$ 15\t1\nSinete\tT$ 50\t1\tPalmar\tT$ 12\t1\nFerramentas — Gerais\t-\t-\tPeruca\tT$ 20\t1\nApito de caça\tT$ 6\t1\tRondel\tT$ 150\t1\nBaralho marcado\tT$ 15\t1\tRoupão elegante\tT$ 150\t1\nEspelho cirúrgico\tT$ 12\t1\tRufo\tT$ 25\t1\nEstandarte\tT$ 15\t1\tSapatos confortáveis\tT$ 6\t1\nEstandarte portátil\tT$ 20\t1\tSapatos de salto alto\tT$ 18\t1\nMolde pré-fabricado\tT$ 500\t1\tVeste acolchoada\tT$ 60\t1\nFerramentas — Instrumentos Musicais\t-\t-\tEsotéricos\t-\t-\nClarim deheoni\tT$ 150\t1\tCompasso místico\tT$ 600\t1\nCítara heptatônica\tT$ 250\t1\tFlauta convocadora\tT$ 300\t1\nCornamusa de Doherimm\tT$ 750\t2\tMandala onírica\tT$ 300\t1\nFlauta sar-allan\tT$ 150\t1\tVarinha armamentista\tT$ 600\t1\nTabela 3-4: Itens Gerais (Continuação)\nAlquímicos — Preparados\t-\t-\tAlimentação — Pratos Especiais (continuação)\t-\t-\nÁcido concentrado\tT$ 60\t0,5\tManjar de sombras\tT$ 20\t—\nAnálgésico\tT$ 60\t0,5\tAlimentação — Bebidas\t-\t-\nEstalinho Gury\tT$ 30\t0,5\tBaba de troll\tT$ 30\t0,5\nExtrato de gelo eterno\tT$ 60\t0,5\tBarba queimada\tT$ 45\t0,5\nExtrato de oxxdon\tT$ 180\t0,5\tCerveja deheoni\tT$ 15\t0,5\nFrasco abissal\tT$ 300\t0,5\tDilínio\tT$ 600\t0,5\nPó de cinza\tT$ 5\t0,5\tGrogue negro\tT$ 15\t0,5\nPó do aparecimento\tT$ 30\t0,5\tGrogue rubro\tT$ 45\t0,5\nVisco persistente\tT$ 25\t0,5\tHidromel uivante\tT$ 21\t0,5\nAlquímicos — Catalisadores\t-\t-\tLicor feérico\tT$ 450\t0,5\nCristal reflexivo\tT$ 30\t0,5\tSidra ahleniense\tT$ 45\t0,5\nEssência fantasmal\tT$ 30\t0,5\tVinho Pruss\tT$ 60\t0,5\nNoz saltadora\tT$ 90\t0,5\tVinho élfico\tT$ 90\t0,5\nPresa de Hyninn\tT$ 45\t0,5\tAnimais\t-\t-\nAlquímicos — Venenos\t-\t-\tArmadura de montaria leve\tT$ 600\t2\nBolor hemorrágico\tT$ 60\t0,5\tArmadura de montaria pesada\tT$ 3.000\t5\nFumaça onírica\tT$ 150\t0,5\tArreios namalkahnianos\tT$ 50\t1\nGás moroso\tT$ 60\t0,5\tCaparazão\tT$ 75\t1\nSeiva necrótica\tT$ 120\t0,5\tEstribos\tT$ 60\t1\nAparatos\t-\t-\tOrnamento\tT$ 50\t1\nCaptador de luz\tT$ 450\t*\tVeículos\t-\t-\nComutador\tT$ 300\t*\tBarcaça\tT$ 3.000\t—\nConversor-alimentador\tT$ 300\t*\tBiga de guerra\tT$ 250\t—\nEngenho de automação\tT$ 600\t*\tDirigível goblin\tT$ 1.200\t—\nEspera para melhorias\tT$ 150\t*\tJangada\tT$ 60\t—\nEstabilizador\tT$ 900\t*\tVeleiro\tT$ 10.000\t—\nEstimulador de sobrecarga\tT$ 750\t*\tServiços\t-\t-\nGatilho de corda\tT$ 1.500\t*\tBanho quente\tT$ 10\t—\nGiroscópio\tT$ 450\t*\tBigode encerado\tT$ 20\t—\nLigação de convergência\tT$ 300\t*\tInstrução marcial\tT$ 300\t—\nRemontagem de portabilidade\tT$ 300\t*\tMaquiagem profissional\tT$ 30\t—\nSequenciador de ativação\tT$ 600\t*\tMercenário (por cena)\t-\t-\nSistema de refrigeração\tT$ 900\t*\t  parceiro iniciante\tT$ 30\t—\nSupressor de segurança\tT$ 300\t*\t  parceiro veterano\tT$ 150\t—\nTransformador místico\tT$ 600\t*\t  capangas iniciantes\tT$ 90\t—\nAlimentação — Pratos Especiais\t-\t-\t  capangas veteranos\tT$ 300\t—\nBaga celeste cozida\tT$ 15\t—\tÓpera\tT$ 200\t—\nCozido de pimenta\tT$ 10\t—\tSarau informativo\tT$ 150\t—"
+            },
+            {
+              "type": "table",
+              "name": "Tabela 3-5: Novas Melhorias",
+              "content": "Melhoria\tEfeito\nMelhorias para armas\nFarpada\tAcertos críticos provocam sangramento\nFósforo\tMunição ofusca o alvo\nGuarda\t+1 na Defesa e em testes contra manobras\nIncendiária\tMunição causa dano por fogo e pode deixar em chamas\nPressurizada\t+2 em ataque e dano ao acionar mecanismo\nMelhorias para armaduras e escudos\nBalístico\tAtaques com escudo podem causar dano adicional\nInjetora\tUsa um efeito de preparado ou poção\nPrudente\tAtenua uma falha crítica\nMelhorias para esotéricos\nPotencializador\t+2 no limite de PM\nMelhorias para ferramentas e vestuário\nBrasonado\tUsa a perícia do item para mudar atitude\nUsado\tPode rolar novamente 1 natural\nMelhorias para qualquer das categorias acima\nDeslumbrante\t+1 na CD de habilidades baseadas em Carisma"
+            },
+            {
+              "type": "table",
+              "name": "Tabela 3-6: Características de Bases",
+              "content": "Porte\tCusto\tManutenção\tCômodos\nMínima\tT$ 1.000\tT$ 100\t0\nModesta\tT$ 3.000\tT$ 300\t3\nBásica\tT$ 6.000\tT$ 600\t6\nFormidável\tT$ 10.000\tT$ 1.000\t9\nGrandiosa\tT$ 15.000\tT$ 1.500\t12\nSuprema\tT$ 21.000\tT$ 2.100\t15"
+            },
+            {
+              "type": "table",
+              "name": "Tabela 3-7: Cômodos",
+              "content": "Cômodo\tBenefício\nAdega\tAumenta o efeito de preparados e poções\nAla dos criados\tPM temporários\nArmorial\tUma proficiência\nBiblioteca\t+1 em Conhecimento\nCalabouço\t+1 em Intimidação e CD de medo\nCâmara de meditação\t+1 em Vontade\nChapelaria\tVestir um item adicional\nCozinha\tLevar pratos para viagem\nDespensa\tCapacidade de carga +2\nEnfermaria\t+1 em Cura e testes para estancar\nEstábulo\tBônus para animais e monstros\nEstufa\t+1 na CD de preparados e poções\nGabinete místico\t+1 em Misticismo\nDomo protetor\tSegurança +2 e proteção ambiental\nLaboratório arcano\tReduz o custo de uma magia arcana\nGinásio\t+1 em Atletismo e dano desarmado\nGuarita\tSegurança +4\nCasa da guarda\tSegurança +4 e capangas\nQuarto do capitão\tSegurança +2 e parceiro\nJardim ornamental\t+1 em Enganação\nLavanderia\tAumenta bônus de vestuário\nMemorial\tBônus para próximo personagem\nObservatório\tRola dois dados em uma perícia\nOficina de trabalho\t+1 em Ofício\nForjaria\t+1 no dano de uma arma\nOratório\t+1 em Religião\nTabernáculo\tReduz o custo de uma magia divina\nPátio de treinamento\t+1 em ataques com uma arma\nSacada\t+1 em Diplomacia\nSala de estar\tEspaço para três mobílias\nSala de guerra\t+1 em Guerra e Iniciativa\nSala de jogos\t+1 em Jogatina e recuperação de PM\nSala de mapas\t+2 em buscas e jornadas\nSala do tesouro\t+5% em rolagens de tesouros\nSalão de baile\t+1 em Nobreza\nSauna\tPrevine condições de cansaço\nSistema de segurança\tSegurança +4 e bônus contra armadilhas\nSala de perigo\t+2 em testes de treinamento\nSuítes\t+3 PV e descanso confortável\nTablado\t+1 em Atuação\nVergel\t+1 em Sobrevivência"
+            },
+            {
+              "type": "table",
+              "name": "Tabela 3-8: Mobílias",
+              "content": "Mobília\tBenefício\nArmadura decorativa\t+1 na Defesa\nArmário de remédios\t+1 PV por dado de preparados e poções de cura\nBanheira\tRola dois dados em Fortitude\nBar\t+1 PM\nBaú reforçado\tMais espaço de carga\nBigorna\tBônus em Ofício ou dano\nColchão de penas exóticas\t+3 PV\nColmeia de pergaminhos\tAprende uma magia arcana\nCriatura empalhada\tBônus em rolagens de dano contra criaturas do mesmo tipo\nEngenho automatizado\tDiminui tempo de fabricação\nEspelho de corpo\tMais limite de vestuário ou bônus em perícias de Carisma\nGárgula animada\tSegurança +2 e parceiro\nÍdolo dourado\tMais bônus em perícia\nLareira\t+1 na CD de fogo e redução de fogo 2\nLustre de cristal\t+1 por dado em um efeito de luz\nMapa-múndi\tMelhora sala de guerra ou de mapas\nMesa de reuniões\tPermite trocar iniciativa\nObra de arte\tCura PM\nPlanetário\tMais um uso do observatório\nPrataria\tMais refeições para viagem\nPrateleiras reforçadas\tPerícia treinada\nQuadro de diagramas\tDiminui custo de fabricação\nRelíquia abençoada\tAprende uma magia divina, ou bônus em resistências\nRetratos\t+5 em testes para ajudar\nRoleta ahleniense\tRola novamente um teste"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
