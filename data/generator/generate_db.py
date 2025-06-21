@@ -79,7 +79,9 @@ book_folders_order = [
     "Habilidades",
     "Combate",
     "Tabelas",
+    "Regras Opcionais (Heróis de Arton)"
 ]
+
 book = sorted(book, key=lambda item: book_folders_order.index(item["name"]))
 
 a_and_p_group = OrderedDict()
