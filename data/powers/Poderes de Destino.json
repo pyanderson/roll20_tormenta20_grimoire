@@ -26,12 +26,20 @@
       "description": "A primeira criatura inteligente (Int –3 ou maior) que atacar você em uma cena deve fazer um teste de Vontade (CD Car). Se falhar, perderá sua ação. Este poder só funciona uma vez por cena; independentemente de a criatura falhar ou não no teste, poderá atacá-lo nas rodadas seguintes. Pré-requisito: Car 1."
     },
     {
+      "name": "Ás da Cozinha",
+      "description": "Você aprende três novas receitas. Quando atinge o patamar campeão, e novamente quando atinge o patamar lendário, aprende mais três novas receitas. Além disso, quando prepara um prato especial, você pode acumular os benefícios de dois pratos (bônus iguais não se acumulam). Por exemplo, pode preparar um sashimi com salada élfica que fornece +1 em testes de ataque à distância e +2 em rolagens de dano. A CD do teste de Ofício (cozinheiro) é igual à CD do prato mais difícil +5 e você deve gastar os ingredientes de ambos os pratos. Pré-requisitos: treinado em Ofício (cozinheiro), 5º nível de personagem, utilizar as regras de Culinária Avançada."
+    },
+    {
       "name": "Atlético",
       "description": "Você recebe +2 em Atletismo e +3m em seu deslocamento. Pré-requisito: For 2."
     },
     {
       "name": "Atraente",
       "description": "Você recebe +2 em testes de perícias baseadas em Carisma contra criaturas que possam se sentir fisicamente atraídas por você. Pré-requisito: Car 1."
+    },
+    {
+      "name": "Bom de Garfo",
+      "description": "Você recebe +3 PV por patamar e pode comer até dois pratos especiais por dia, recebendo os benefícios de ambos (bônus iguais não se acumulam). Pré-requisito: Con 1, utilizar as regras de Culinária Avançada."
     },
     {
       "name": "Carícias Revigorantes",

@@ -1,0 +1,1133 @@
+{
+    "type": "folder",
+    "name": "Regras Opcionais (Heróis de Arton)",
+    "items": [
+        {
+            "type": "folder",
+            "name": "Regras Mais Soltas",
+            "items": [
+                {
+                    "type": "item",
+                    "name": "Regras Mais Soltas",
+                    "description": "A seguir, algumas opções de mecânicas menos restritivas, para grupos que quiserem mais liberdade na construção de seus personagens."
+                },
+                {
+                    "type": "folder",
+                    "name": "Atributos Variados",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Atributos Variados",
+                            "description": "O livro básico traz duas opções para definir seus atributos: pontos ou rolagem. A seguir estão seis opções novas. Para todas que envolvem rolagens, consulte a tabela em Tormenta20, p. 17, para converter os resultados das rolagens em atributos."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Clássica",
+                            "description": "Como a rolagem padrão, mas rolando apenas 3d6 (em vez de 4d6 menos o menor). Este método gera personagens fracos — a maior parte dos atributos ficará entre –1 e 2, com valores 3 e 4 sendo raros — e desequilibrados entre si. É indicado para histórias mais realistas, com clima brutal, nas quais os heróis surgem do povo comum. Se quiser ser muito “raiz”, role os valores em ordem (ou seja, a primeira rolagem será sua Força, a segunda sua Destreza e assim por diante) e dê um jeito de jogar com o que sair!"
+                        },
+                        {
+                            "type": "item",
+                            "name": "Épica",
+                            "description": "Como a rolagem padrão, mas rolando 3d6+6 menos o menor. O oposto do anterior, este método gera personagens mais poderosos, quase certamente sem nenhum ponto fraco e com menos desequilíbrio entre si. É útil para emular histórias nas quais os heróis são “escolhidos” de algum tipo."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Valkaria",
+                            "description": "Cada atributo começa em 8 (calma! esse valor será convertido no final). Role 7d6 e aplique cada dado como quiser nos seis atributos. Converta o resultado final para gerar seus atributos, da mesma forma que outros métodos de rolagem, usando a tabela de Tormenta20, p. 17. Você só pode aplicar os dados inteiros (não pode “quebrá-los” em diferentes atributos) e, conforme a tabela, o valor máximo convertido de um atributo é 4, mesmo que o valor inicial seja maior que 18.\nExemplo: você rola 7d6 e obtém os resultados 2, 2, 3, 3, 4, 5 e 5. Você decide montar um bárbaro fortão, então aplica os dois 5 em sua Força, para somar 18. Aplica o 4 e o 2 em sua Destreza, para somar 14. Aplica dois 3 em sua Constituição, para somar 14. Por fim, aplica o segundo 2 em sua Sabedoria, para somar 10. Como seus dados acabaram, seus valores de Inteligência e Carisma ficam sendo apenas os 8 iniciais. Assim, seu personagem fica com Força 18 (valor convertido 4), Destreza 14 (2), Constituição 14 (2), Inteligência 8 (–1), Sabedoria 10 (0) e Carisma 8 (–1). Este método pode parecer maluco, mas dá boas chance de o jogador construir um personagem heroico e do jeito que ele quiser."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Khalmyr",
+                            "description": "Distribua os seguintes valores em seus atributos, sem rolar nada: 3, 3, 2, 1, 0 e –1. Isso gera personagens interessantes (com pontos fortes e fracos), mas completamente equilibrados entre si, já que todos do grupo terão os mesmos valores."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Nimb",
+                            "description": "Se o método Valkaria parecia maluco, este de fato é. Role 7d20 e descarte o menor. Então aplique cada um dos seis valores restantes em um atributo e converta-os usando a tabela, com as seguintes adições: resultados 1, 2 ou 3 geram um atributo –3 (sim, você será muito ruim em alguma coisa); resultados 18 ou 19 geram um atributo 4, e um resultado 20 gera um espantoso atributo 5 — um valor impossível de ser gerado em qualquer outro método. Este método pode gerar personagens muito poderosos (ou muito fracos!) e praticamente garante que o grupo será desequilibrado entre si. Use por sua conta e risco."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Pontos Variados",
+                            "description": "Por fim, você pode usar o método de pontos do livro básico, mas aumentando ou diminuindo a pontuação, para gerar personagens mais ou menos poderosos. Para campanhas “pé no chão”, use 5 pontos. Já para campanhas épicas e exageradas, 15 pontos."
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "Raças Abertas",
+                    "description": "Pela regra padrão, cada raça possui modificadores de atributos que representam as tendências desse povo. Por exemplo, os meios-gigantes galokk tendem a ser mais fortes que os pequeninos hynne, por isso a primeira raça tem um bônus de Força e a segunda, uma penalidade. Mas heróis artonianos são tudo, menos “padrão”! Com esta variante, você pode usar cada modificador de atributo de sua raça em qualquer atributo. Por exemplo, um anão (normalmente Con +2, Sab +1, Des –1) terá os modificadores +2, +1 e –1 para aplicar nos atributos que quiser, enquanto um aggelus (normalmente Sab +2 e Car +1) terá os modificadores +2 e +1. Você não pode aplicar mais de um modificador no mesmo atributo."
+                },
+                {
+                    "type": "item",
+                    "name": "Variantes Abertas: Usar ou Não?",
+                    "description": "No geral, sugerimos o uso das regras como apresentadas nos livros, pois ter certas “travas” garante que os personagens sejam diferentes entre si. Hynne e galokk terem a mesma Força não é apenas estranho em termos de história, é também mais pobre em termos mecânicos, pois facilita certas combinações. Isso pode parecer bom à primeira vista, mas faz com que você não precise pensar em soluções criativas. Devido à penalidade em Força de um hynne, construir um bárbaro dessa raça pode ser um desafio — mas, se você conseguir, terá um personagem único! Se puder simplesmente colocar um bônus de Força nele, terá um bárbaro eficaz… Mas será que ele vai ser memorável?"
+                },
+                {
+                    "type": "item",
+                    "name": "Devoções Abertas",
+                    "description": "Esta variante é simples: um personagem pode ser devoto de qualquer divindade, independente de sua raça ou classe. O Panteão está sempre imerso em conflitos, e faz sentido que um deus aceite qualquer devoto para ganhar poder sobre seus irmãos."
+                }
+            ]
+        },
+        {
+            "type": "folder",
+            "name": "Idades Variadas",
+            "items": [
+                {
+                    "type": "item",
+                    "name": "Idades Variadas",
+                    "description": "Personagens iniciantes em Tormenta20 normalmente são jovens, na casa dos 20 anos. Contudo, isso é apenas costume, não lei! Se você quiser, seu personagem pode ter uma idade diferente — a ficção está repleta de protagonistas mais novos ou mais velhos.\nVocê pode considerar a idade de seu personagem um fator puramente descritivo, sem efeito em jogo. Se não quiser complicar as coisas, esse é o melhor caminho. Contudo, na vida real a idade é um fator determinante para diversas características pessoais — uma criança dificilmente terá a mesma força física de um adulto, por exemplo. Se você quiser que sua faixa etária tenha consequências em jogo (ou se simplesmente quiser mais um elemento mecânico com o qual construir sua ficha), pode usar as regras opcionais desta seção. Estas regras substituem os modificadores de atributos para personagens mais velhos descritos no livro básico (Tormenta20, p. 108)."
+                },
+                {
+                    "type": "item",
+                    "name": "Personagens de Idades Variadas",
+                    "description": "Para criar um personagem de idade variada, escolha uma faixa etária para ele e aplique os efeitos dela. Existem sete faixas etárias: criança, adolescente, jovem, adulto, maduro, velho e ancião. A faixa etária padrão é jovem, a única que não altera sua ficha — todas as outras trazem benefícios e penalidades.\nOs efeitos de faixas etárias não são necessariamente equilibrados. No geral, crianças são menos poderosas que adultos, e os efeitos refletem isso. Se você quer um jogo balanceado, sugerimos que não use estas regras — elas são opcionais justamente por trazerem certo desequilíbrio!"
+                },
+                {
+                    "type": "item",
+                    "name": "Criança 9 a 12 anos",
+                    "description": "A menor faixa etária possível para personagens jogadores. Obviamente existem pessoas mais novas no mundo, mas não recomendamos jogar com personagens com menos de 9 anos.\nCrianças nasceram durante a Guerra Artoniana, ou logo antes, mas eram muito pequenas para terem participado do conflito — provavelmente nem lembram dele. Embora não tenham se envolvido diretamente, podem ter sofrido suas consequências. Por exemplo, podem ser órfãos da guerra ou filhos de refugiados. Ou, se tiverem sorte, filhos de soldados que enriqueceram com espólios, ou mesmo de nobres que ganharam terras com as mudanças políticas.\n\nForça –2, Constituição –1, Sabedoria –1. Crianças são fisicamente mais fracas e frágeis que adultos, além de menos capazes de entender as sutilezas do mundo.\n\nTamanho Menor. Você é uma categoria de tamanho menor que o padrão de sua raça (exceto se sua raça já for Minúscula; nesse caso, a mudança é apenas estética).\n\nSem Origem. Você não recebe benefícios de origem. Você está apenas começando a viver os anos que definirão quem você será!\n\nProtegido dos Deuses. Você recebe +2 na Defesa e +5 em todos os testes de resistência. Isso é uma mistura de sorte sobrenatural com o fato de que inimigos normalmente ignoram crianças, justamente por serem menos perigosas."
+                },
+                {
+                    "type": "item",
+                    "name": "Adolescente 13 a 17 anos",
+                    "description": "Muitos aventureiros começam suas carreiras nesta idade. Adolescentes viram a Guerra Artoniana, mas dificilmente terão participado dela. Esta é a categoria de idade mais velha para um personagem que nasceu em Tamu-ra após a libertação da ilha.\n\nSabedoria –1. Adolescentes são conhecidos por sua impetuosidade.\n\nÍmpeto Juvenil. Você recebe +3 pontos de mana. Adolescentes acham que podem fazer qualquer coisa, e essa confiança os torna mais heroicos.\n\nOrigem em Construção. Você recebe apenas um benefício de origem, em vez de dois (se sua origem possuir um único benefício, comece com uma perícia treinada a menos por sua classe)."
+                },
+                {
+                    "type": "item",
+                    "name": "Jovem 18 a 24 anos",
+                    "description": "A idade padrão. Heróis jovens usam as regras básicas de construção de personagem, sem modificadores.\nJovens podem ter participado da Guerra Artoniana, mas provavelmente em postos iniciais. Eles podem se lembrar de fatos históricos como as Guerras Táuricas, a Marcha de Arsenal, a batalha dos deuses em Tamura, a Libertação de Valkaria e a coroação de Shivara como Rainha-Imperatriz, mas serão muito novos para terem efetivamente participado desses eventos."
+                },
+                {
+                    "type": "item",
+                    "name": "Adulto 25 a 39 anos",
+                    "description": "Uma idade comum para aventureiros — pelo menos para aqueles que não morreram em sua primeira caverna infestada de glops! Um personagem adulto pode ter participado dos últimos grandes acontecimentos do mundo, como a Guerra Artoniana, a queda da Flecha de Fogo ou a rebelião de escravos no Império de Tauron. Mesmo que não tenha se envolvido diretamente, pode ter sofrido as consequências deles.\nUm personagem desta faixa etária também terá visto acontecimentos mais antigos, como a queda do Paladino de Arton, a primeira batalha contra a Tormenta em Trebuck e a Libertação de Valkaria, mas dificilmente terá participado deles.\n\nJá Vi Coisas. Você pode receber um poder geral. Nesse caso, também recebe uma complicação de idade (veja a seguir)."
+                },
+                {
+                    "type": "item",
+                    "name": "Maduro 40 a 59 anos",
+                    "description": "Muitas figuras de autoridade, como burgomestres e capitães da guarda, são desta faixa etária. Elas talvez não tenham o vigor de pessoas mais novas, mas compensam isso com experiência.\nUm personagem maduro já terá visto muitas coisas. Além de tudo descrito em “Adulto”, acima, ele poderá se lembrar de eventos como a chegada de Mestre Arsenal ao mundo de Arton, a guerra civil de Bielefeld e o surgimento da Tormenta no Império de Jade. Será muito novo para ter participado desses eventos, mas poderá ter lutado contra Arsenal ou nas Guerras Táuricas, e novamente na Guerra Artoniana, sendo um veterano de diversos grandes conflitos.\n\nVeterano Calejado. Você começa o jogo com um nível adicional em relação aos personagens mais novos do grupo. Por exemplo, se o grupo vai começar no 1º nível, você começa no 2º. Contudo, essa experiência tem seu preço — você recebe duas complicações de idade."
+                },
+                {
+                    "type": "item",
+                    "name": "Velho 60 a 79 anos",
+                    "description": "Num mundo de problemas como Arton, nem todos chegam a esta idade respeitável. Aqueles que a alcançam muitas vezes assumem posições de respeito, como mestres de guildas, alto sacerdotes ou conselheiros reais. Claro, nem todos atingem tamanha eminência. Alguns, ao chegar a esta idade, serão fazendeiros, artesãos ou estarão descansando em suas casas.\nUm artoniano velho terá muitas histórias para contar! Ele poderá se lembrar de eventos considerados lendários na era atual, como o eclipse solar no qual Thwor nasceu e a coroação do Rei-Imperador Thormy. Um personagem desta idade poderia até mesmo ter lutado no Dia dos Gigantes, em Valkaria, uma batalha hoje envolta em lendas e mistérios!\n\nAi Minhas Costas. Você começa o jogo com dois níveis adicionais. Contudo, perde 1 ponto em todos os atributos físicos (Força, Destreza e Constituição) e recebe três complicações de idade. Além disso, não pode escolher o poder Aumento de Atributo para nenhum atributo físico — infelizmente, os tempos de vigor ficaram para trás. A partir deste ponto, mesmo o mais saudável dos aventureiros começa a sentir que a idade é um caminho sem volta…"
+                },
+                {
+                    "type": "item",
+                    "name": "Ancião 80+ anos",
+                    "description": "A última faixa etária. Em Arton, poucas pessoas chegam até aqui — mesmo aqueles que não encontram um fim violento normalmente acabam morrendo de simples velhice antes de se tornarem anciões. Contudo, entre aqueles ricos o bastante para adquirir poções e magias milagrosas (ou tratamento médico de Salistick), atingir este patamar é mais comum.\nUm ancião é tão velho quanto o antigo ReiImperador Thormy. Ele terá visto diversas mudanças no mundo, como os primeiros contatos formais entre o Reinado e Tamu-ra e a chegada de Lorde Niebling a Arton. As histórias que um ancião escutava quando criança já foram praticamente esquecidas hoje, e falavam sobre o primeiro encontro de Talude e Vectorius, a fundação da Ordem da Luz e a luta contra um antigo deus chamado Sartan.\n\nO Inverno da Vida. Você começa o jogo com três níveis adicionais. Porém, perde 2 pontos em todos os atributos físicos (Força, Destreza e Constituição) e recebe quatro complicações de idade. Assim como velhos, você não pode escolher o poder Aumento de Atributo para atributos físicos."
+                },
+                {
+                    "type": "item",
+                    "name": "Idades das Raças",
+                    "description": "Os intervalos de idade das faixas etárias usam as idades humanas como referência. Contudo, certas raças envelhecem em ritmos diferentes.\nAnões, meios-elfos e qareen envelhecem mais lentamente que humanos. Multiplique os intervalos de idade deles a partir de adulto por 2. Já dahllan, duendes, eiradaan, elfos, golens, osteon, sátiros e sílfides envelhecem muito mais lentamente — multiplique os intervalos de idade deles a partir de adulto por 5. Assim, um anão se torna adulto aos 50 anos (25 x 2), enquanto um elfo se torna adulto apenas aos 125 anos (25 x 5)! Note que, embora essas raças sejam mais longevas, amadurecem no mesmo ritmo de humanos. Assim, tanto humanos quanto elfos serão crianças dos 9 aos 12 anos, adolescentes dos 13 aos 17 e jovens a partir dos 18. Apenas a partir daqui as diferenças surgem.\nJá goblins e trogs são menos longevos que humanos. Multiplique todos os intervalos de idade deles por 0,7 (arredonde para o valor mais próximo). Assim, um goblin é criança a partir dos 6 anos, adolescente a partir dos 9, jovem a partir dos 13, adulto a partir dos 18, maduro a partir dos 28, velho a partir dos 42 e ancião a partir dos 56 anos."
+                },
+                {
+                    "type": "item",
+                    "name": "Envelhecendo",
+                    "description": "Quando atinge uma faixa etária maior, você ajusta seus efeitos de idade de acordo. Assim, se for criança e se tornar adolescente, aumenta uma categoria de tamanho e recebe +2 em Força, +1 em Constituição, um benefício de origem e a habilidade Ímpeto Juvenil, mas perde a habilidade Protegido dos Deuses. Se mais tarde se tornar jovem, ganha +1 em Sabedoria e um benefício de origem (completando os dois habituais), mas perde a habilidade Ímpeto Juvenil.\n\nHistórias de Maioridade. Uma das coisas mais divertidas em uma campanha é acompanhar as mudanças do personagem — não apenas em regras, mas também em personalidade. E não há mudança maior do que a passagem da infância para a vida adulta. Assim, uma opção divertida envolvendo estas regras é começar uma campanha com personagens crianças então, depois de algumas aventuras, fazer um salto temporal, retomando a história com os mesmos heróis, agora crescidos. A personalidade deles pode ser influenciada pelos eventos que aconteceram na sua infância — como no histórico de muitos aventureiros. A diferença aqui é que esses eventos foram jogados!\n\nFonte da Juventude. Por padrão, personagens não morrem por causas naturais, mas se o mestre quiser ser mais realista (ou malvado) pode pedir que personagens velhos e anciões rolem 1d20 no início de cada aventura. Num resultado 1 para velhos, e de 1 a 3 para anciões, o tempo do personagem estará chegando ao fim. Durante essa aventura, ele sofre os efeitos de mais uma complicação de idade aleatória — e, após essa última chance de glória, partirá do mundo mortal. A perspectiva da mortalidade pode incentivar os personagens a buscarem a imortalidade. Normalmente, não nos preocupamos em morrer por velhice, mas se isso for uma possibilidade, uma aventura em busca de algum tipo de “fonte da juventude” se torna interessante — especialmente se o rejuvenescimento eliminar as penalidades da idade, mas não seus benefícios."
+                }
+            ]
+        },
+        {
+            "type": "folder",
+            "name": "Objetivos Heroicos",
+            "items": [
+                {
+                    "type": "item",
+                    "name": "Objetivos Heroicos",
+                    "description": "Com esta regra opcional, você pode escolher um objetivo heroico para seu personagem: ascender ao trono de um reino, vingar a morte de seu mestre, tornar-se o líder de uma guilda de ladrões ou outra coisa igualmente grandiosa. Um objetivo heroico deve ser algo que marca uma virada na vida do personagem e que o modificará para sempre.\nTodo objetivo heroico deve ser grandioso e específico. Ser admitido na Ordem da Luz não é um objetivo heroico. Tornar-se o Alto Comandante, sim. Da mesma forma, não basta dizer que você deseja “ascender à nobreza” ou “punir um grande vilão”. Você deseja ser o rei de Bielefeld ou prender Dee. Cumprindo um objetivo heroico, você será o líder ou maior expoente de algo, terá revolucionado algum aspecto de Arton. O mestre tem a palavra final sobre o que pode ser um objetivo heroico.\nVocê pode escolher seu objetivo durante a construção do personagem ou com a campanha já em andamento. Um objetivo heroico nunca pode começar já estando perto de ser cumprido. Por exemplo, você não pode esperar até estar em Lamnor para decidir que seu objetivo é ser o novo Ayrrak.\nEm termos de jogo, um personagem com um objetivo heroico recebe certos benefícios quando se aproxima de seu objetivo e sofre penalidades quando se afasta dele."
+                },
+                {
+                    "type": "item",
+                    "name": "Benefícios de Objetivo",
+                    "description": "No início de qualquer cena diretamente relacionada a seu objetivo, você recebe um benefício de acordo com seu objetivo. Esse benefício conta como uma habilidade e dura até o fim da cena.\nVocê só pode receber um benefício de objetivo por aventura. Você pode escolher não receber o benefício em uma cena se achar que a aventura terá outra cena relacionada ao objetivo, que seja mais importante.\nO que exatamente significa uma cena diretamente relacionada a seu objetivo fica a critério do mestre. Como regra geral, se ao término da cena você estiver mais perto de seu objetivo, a cena ativa o benefício."
+                },
+                {
+                    "type": "item",
+                    "name": "Penalidades de Objetivo",
+                    "description": "Se ao fim de uma cena você estiver mais longe de seu objetivo, sofre uma penalidade ditada por seu objetivo. Você sofre essa penalidade mesmo que seja imune a seu efeito.\nEmbora a maior parte das cenas não vá aproximá- -lo de seu objetivo, provavelmente também não vai afastá-lo. Assim, cenas não relacionadas ao objetivo não impõem penalidades. Por exemplo, caso seu objetivo seja casar com Vladislav Tpish, uma cena longe da Academia Arcana não o afasta de seu objetivo. Contudo, uma cena em que você briga com ele o afasta."
+                },
+                {
+                    "type": "item",
+                    "name": "Concluindo um Objetivo",
+                    "description": "Se você completar seu objetivo, recebe um benefício maior e permanente. A partir desse ponto, não recebe mais benefícios ou penalidades em cenas relacionadas ao objetivo. Você não pode escolher um novo objetivo — afinal, um objetivo heroico é algo que define toda uma vida."
+                },
+                {
+                    "type": "item",
+                    "name": "Abandonando um Objetivo",
+                    "description": "Uma vez que um personagem escolha um objetivo, deve se esforçar para cumpri-lo. Alguns objetivos oferecem benefícios significativos apenas por tentar cumprilos... Mas jogadores espertos podem escolhê-los sem nunca realmente almejar sua conclusão, apenas desfrutando os benefícios de tentar!\nSe o mestre julgar que o personagem não está se esforçando para cumprir o objetivo, pode definir que o objetivo foi abandonado. O jogador sofre a penalidade do objetivo por uma aventura, então o perde. Nenhum benefício ou penalidade se aplicam mais, mas ele não pode escolher um novo objetivo."
+                },
+                {
+                    "type": "item",
+                    "name": "Tipos de Objetivos",
+                    "description": "A seguir estão algumas categorias amplas nas quais seu objetivo pode se enquadrar. Se você quiser um objetivo que não se enquadre em nenhuma delas, você e o mestre podem criar uma nova categoria, usando estas como base.\n\nBenefício. Você recebe este benefício em cenas diretamente ligadas ao seu objetivo (mas apenas uma vez por aventura).\n\nPenalidade. Você sofre esta penalidade se, ao término de uma cena, estiver mais longe de seu objetivo. A penalidade dura até o fim da aventura.\n\nConclusão. Se alcançar seu objetivo, você recebe este benefício. Ele é permanente."
+                },
+                {
+                    "type": "item",
+                    "name": "Desafio",
+                    "description": "Você quer fazer algo muito difícil, apenas porque é difícil. Deseja escalar o Monte do Dragão Adormecido sem equipamento, sem magias e vendado; ou vencer Laan numa corrida a pé; ou derrotar Maquius em combate desarmado após ter bebido mais do que ele.\n\nBenefício. Você recebe +2d4 PM temporários.\n\nPenalidade. Você fica fatigado.\n\nConclusão. Você recebe +1 em dois atributos diferentes a sua escolha."
+                },
+                {
+                    "type": "item",
+                    "name": "Descoberta",
+                    "description": "Você deseja aprender um conhecimento específico, formular uma teoria ou desvendar um mistério: quer visitar todos os reinos dos deuses, descobrir como criar uma nova raça de seres vivos ou solucionar o assassinato do Rei de Salistick.\n\nBenefício. Você recebe um bônus de +2 em testes de Inteligência e de perícias baseadas nesse atributo.\n\nPenalidade. Você fica frustrado.\n\nConclusão. Você recebe +1 em Inteligência e um poder geral a sua escolha."
+                },
+                {
+                    "type": "item",
+                    "name": "Liderança",
+                    "description": "Você quer ascender socialmente e conquistar uma posição de destaque: Alto Comandante da Ordem da Luz, irmão mais velho da Companhia dos Irmãos ou o próximo Ayrrak de Lamnor. Você é movido pela ambição, ou talvez seja o legítimo herdeiro de algum título.\n\nBenefício. Você recebe +2 em testes de Carisma e de perícias baseadas nesse atributo.\n\nPenalidade. Você fica alquebrado.\n\nConclusão. Você recebe +1 em Carisma e uma estrutura ou benefício equivalente, a critério do mestre."
+                },
+                {
+                    "type": "item",
+                    "name": "Obra",
+                    "description": "Você deseja construir uma obra monumental, algo nunca visto em Arton. Por exemplo, uma estátua maior que a de Sckhar, uma ponte ligando os dois continentes ou uma embarcação capaz de cruzar o éter divino.\n\nBenefício. Você recebe +2 em testes de resistência e 1d4 PM temporários.\n\nPenalidade. Você fica abalado.\n\nConclusão. Você recebe +1 em Constituição e os benefícios de sua obra (provavelmente uma base, domínio, negócio ou veículo, a critério do mestre)."
+                },
+                {
+                    "type": "item",
+                    "name": "Riqueza",
+                    "description": "Você quer dinheiro, pura e simplesmente. Não é o mesmo que ascensão social, pois não envolve reconhecimento ou legitimidade. Para cumprir este objetivo, você deve acumular uma quantidade de tibares decidida pelo mestre (provavelmente um milhão!). Equipamento, patrimônio, domínios, propriedades e outros bens não contam para o cumprimento do objetivo, apenas dinheiro vivo!\n\nBenefício. O custo em PM de suas habilidades é reduzido em –1.\n\nPenalidade. Você fica alquebrado.\n\nConclusão. Escolha uma habilidade com custo em PM. O custo em PM para usá-la é reduzido em –2 PM (cumulativo com outras reduções). Além disso, agora você pode gastar o dinheiro guardado!"
+                },
+                {
+                    "type": "item",
+                    "name": "Salvação",
+                    "description": "Você deseja ajudar, encontrar ou resgatar uma pessoa necessitada, perdida ou aprisionada. Como alternativa, pode querer ajudar toda uma população. Por exemplo, quer libertar seu irmão da Fortaleza Hardof, devolver a divindade a Tilliann ou reformar toda a Favela dos Goblins.\n\nBenefício. Você recebe +2 na Defesa.\n\nPenalidade. Você fica vulnerável.\n\nConclusão. Você recebe +2 na Defesa e em testes de resistência, além de um parceiro mestre de um tipo a sua escolha."
+                },
+                {
+                    "type": "item",
+                    "name": "Vingança",
+                    "description": "Você quer matar, prender ou punir uma pessoa ou monstro que lhe fez um grande mal. Seja quem for, deve ser um vilão poderoso: Hermann Von Krauser, Ferren Asloth ou mesmo Gatzvalith!\n\nBenefício. Uma vez por rodada, você recebe +5 em uma rolagem de dano.\n\nPenalidade. Você fica fraco.\n\nConclusão. Você recebe +1 em Força e um poder de combate a sua escolha."
+                }
+            ]
+        },
+        {
+            "type": "folder",
+            "name": "Papéis no Grupo",
+            "items": [
+                {
+                    "type": "item",
+                    "name": "Papéis no Grupo",
+                    "description": "Grupos de Tormenta20 normalmente se organizam de forma natural e espontânea, de acordo com a personalidade de cada jogador. Cada pessoa na mesa cuida de seu personagem, incluindo tesouro, condições etc., enquanto o mestre fica responsável pelos NPCs e pelo mundo.\nContudo, essa forma de organização pode levar a alguns problemas. Um jogador que tenha dificuldade de ordenar suas anotações pode ignorar parte de seu tesouro, ou mesmo algum objetivo que já tinha planejado. Alguém com memória ruim e sem um sistema de controle pode se perder na duração de seus efeitos e nas condições (e bônus!) que afetam seu personagem. O próprio mestre pode se ver sobrecarregado por ter que lembrar de todos os eventos da campanha, além de todas as regras.\nPara resolver esse tipo de situação, os jogadores podem se dividir em papéis.\nPapéis são funções que cada jogador tem na mesa, auxiliando o bom andamento do jogo. Cada um fica responsável por uma parte “burocrática” ou específica da campanha, garantindo que ninguém acabe sobrecarregado e minimizando os erros. O mestre não tem um papel, já que normalmente cuida de muitos elementos que outros papéis tomam para si.\nExiste um número maior de papéis do que a média de jogadores em um grupo. Isso é proposital: provavelmente alguns desses papéis serão divididos entre todos ou ficarão a cargo do mestre. Nenhum jogador pode assumir mais de um papel. Contudo, caso o grupo decida usar esta regra opcional, todos precisam assumir um. Ninguém fica isento de responsabilidades. O grupo como um todo deve decidir quais papéis são necessários e qual jogador é mais adequado para cada um deles.\nEmbora os papéis digam respeito a tarefas da vida real, alguns podem se refletir nos personagens. Por exemplo, o cartógrafo pode interpretar um personagem que também mapeia o terreno — assim garantindo que os mapas existam dentro da campanha.\nA lista a seguir descreve os papéis disponíveis para personagens jogadores."
+                },
+                {
+                    "type": "item",
+                    "name": "Advogado",
+                    "description": "O papel do advogado é simples: ajudar o grupo com regras. Ao contrário de outros papéis, o jogador deve conhecer bem o sistema e saber onde encontrar a maior parte das informações. Faz parte de seu trabalho auxiliar jogadores novatos, achar regras no livro quando o mestre pede e até dar palpites (quando for solicitado) sobre otimização de fichas de seus colegas. Em suma, é um auxiliar de regras da mesa toda.\n\nSe for o advogado, você recebe +1 ponto de mana."
+                },
+                {
+                    "type": "item",
+                    "name": "Arquivista",
+                    "description": "O arquivista anota nomes de NPCs e lugares, acontecimentos importantes, objetivos que outros jogadores tenham declarado e que possam esquecer (“Se um dia formos a Valkaria, quero procurar Lorde Niebling!”), além das relações entre os coadjuvantes mais importantes. Em suma, ele ajuda o mestre e os jogadores a lembrar de informações da história, impedindo que sejam ignoradas ou confundidas.\n\nSe for o arquivista, você recebe +1 em Diplomacia."
+                },
+                {
+                    "type": "item",
+                    "name": "Bibliotecário",
+                    "description": "O bibliotecário é o guardião das informações que o grupo possui sobre o cenário. O jogador não precisa necessariamente conhecer muito sobre Arton. Contudo, assim que o grupo descobre algo digno de nota (por exemplo, a história da Revolta dos Três ou a estrutura dos exércitos da Supremacia Purista), o bibliotecário faz uma anotação sobre isso, com o livro e a página onde a informação pode ser encontrada para consulta. Grupos que estejam conhecendo o cenário aos poucos podem se beneficiar muito de um bibliotecário.\n\nSe for o bibliotecário, você recebe +1 em Conhecimento."
+                },
+                {
+                    "type": "item",
+                    "name": "Cartógrafo",
+                    "description": "O cartógrafo mapeia o terreno onde o grupo está — seja uma masmorra, sejam ermos em que eles possam se perder. Em grupos que não usam mapas de batalha, o cartógrafo deve manter um controle sobre onde cada personagem e NPC está num combate, além de suas posições relativas (para flanquear, por exemplo). Caso a campanha envolva longas viagens, o cartógrafo deve saber a distância aproximada dos principais pontos de interesse. Se o grupo calcular mantimentos de forma rígida, o cartógrafo pode auxiliar o tesoureiro a manter esse controle durante viagens.\n\nSe for o cartógrafo, você recebe +1 em Sobrevivência."
+                },
+                {
+                    "type": "item",
+                    "name": "Enfermeiro",
+                    "description": "O enfermeiro mantém o controle de condições e penalidades que afetam os membros do grupo, totais de PV e suprimentos de cura. Se houver personagens sangrando, ele lembra dos testes de Constituição. Além disso, alerta os demais sobre companheiros prestes a morrer.\n\nSe for o enfermeiro, você recebe +1 em Cura."
+                },
+                {
+                    "type": "item",
+                    "name": "Estrategista",
+                    "description": "O estrategista mantém o controle da iniciativa e das informações dos efeitos que afetam os personagens em combate. É dever dele lembrar os demais de bônus temporários (como pelo poder Comandar ou pela Aura Sagrada do paladino) e ter uma ideia geral dos principais poderes de combate de cada um, para que o grupo não ignore possibilidades em batalha.\n\nSe for o estrategista, você recebe +1 em Guerra."
+                },
+                {
+                    "type": "item",
+                    "name": "Teratólogo",
+                    "description": "O teratólogo mantém o controle sobre habilidades e fraquezas de monstros e inimigos que os personagens conheçam. Por exemplo, depois que o grupo encontra pela primeira vez um troll, o teratólogo pode anotar sua habilidade de regeneração, então lembrar a todos do que sabem da próxima vez. Não serve apenas para limitar as ações dos jogadores: também registra estratégias e vulnerabilidades. Este papel também pode ser útil para lembrar o mestre de habilidades e fraquezas de inimigos.\n\nSe for o teratólogo, você recebe +1 em Misticismo."
+                },
+                {
+                    "type": "item",
+                    "name": "Tesoureiro",
+                    "description": "Responsável por anotar os bens do grupo. Quando o grupo encontra um tesouro, o tesoureiro divide-o entre todos igualmente, tendo a palavra final sobre quem ficará com um item específico. Uma vez que o item esteja com um personagem, não é mais responsabilidade do tesoureiro.\nBens de propriedade coletiva são de responsabilidade do tesoureiro. Ele também mantém o controle sobre quanto cada um investiu em uma propriedade coletiva, para garantir que todos estejam contribuindo.\n\nSe for o tesoureiro, você recebe +1 em Nobreza ou em um Ofício."
+                },
+                {
+                    "type": "item",
+                    "name": "Xerife",
+                    "description": "Alguns grupos têm pouco tempo para jogar. Assim, qualquer indecisão exagerada (como demorar uma hora para abrir uma porta) pode prejudicar a sessão. Também podem sofrer outras limitações — jogam online com conexões ruins ou têm muitos jogadores. Outros grupos, mesmo sem nenhum desses problemas, são apenas indecisos demais. Seja pelo motivo que for, às vezes alguns grupos simplesmente perdem muito tempo sem que ninguém se divirta.\nO xerife é um jogador que o mestre pode contactar discretamente (pela internet, sussurrando ou por um bilhete) para ajudá-lo a empurrar o grupo para a frente. Não se trata de fazer a história acontecer de uma determinada maneira — apenas de fazê-la acontecer! Por exemplo, o mestre pode dizer ao xerife “Essa porta não tem nada de especial, chega de discutir sobre ela” ou “O velhinho dormindo num canto não é um avatar de Khalmyr”. Outras responsabilidades do xerife podem ser ajudar o mestre a conter o número de piadas (desde que isso não vá prejudicar a diversão do grupo) ou servir de “voz do bom senso”, evitando decisões absurdas ou que resultarão no fim da campanha. Em suma, o xerife é um auxiliar do mestre, alguém que abre mão de algumas surpresas e ajuda o jogo a “andar”.\n\nSe for o xerife, você recebe +1 em Iniciativa."
+                }
+            ]
+        },
+        {
+            "type": "folder",
+            "name": "Combate Avançado",
+            "items": [
+                {
+                    "type": "item",
+                    "name": "Combate Avançado",
+                    "description": "Esta seção traz diversas regras opcionais para combate. Cada uma altera o funcionamento desse tipo de cena de uma forma específica, deixando suas lutas mais táticas, brutais ou cinematográficas.\nAs mecânicas não são necessariamente relacionadas entre si, de modo que você pode usar apenas as que preferir."
+                },
+                {
+                    "type": "item",
+                    "name": "Ações Rápidas",
+                    "description": "Esta regra introduz um novo tipo de ação: rápida. Esta ação é algo simples, que ocupa apenas uma fração do seu movimento. Você não recebe ações rápidas automaticamente, mas pode usar suas ações de movimento para executá-las (cada movimento equivale a duas ações rápidas). Quando converte uma ação de movimento em ações rápidas, elas devem ser executadas em sequência (a menos que seu grupo esteja usando a regra opcional Movimento Intercalado).\nAs seguintes ações descritas em Tormenta20 (p. 234) são consideradas ações rápidas: levantar-se, manipular item, mirar e sacar ou guardar item. Além disso, você pode usar uma ação rápida para percorrer uma distância igual à metade do seu deslocamento. Se o grupo estiver usando a regra opcional Posicionamento, erguer escudo (p. 304) também é considerada uma ação rápida."
+                },
+                {
+                    "type": "item",
+                    "name": "Armas Leves e Ágeis",
+                    "description": "Com esta regra, você pode usar Destreza em vez de Força para testes de ataque corpo a corpo e na rolagem de dano com armas leves, ágeis e de arremesso. Se usar esta regra, ignore o pré-requisito de Acuidade com Arma em qualquer habilidade ou item."
+                },
+                {
+                    "type": "item",
+                    "name": "Ataques de Oportunidade",
+                    "description": "Nesta regra, os combatentes podem aproveitar brechas na defesa de seus inimigos para desferir ataques de oportunidade. Um ataque de oportunidade é um ataque corpo a corpo, feito como uma reação quando um inimigo em seu alcance, e que você possa perceber, executa uma das ações descritas a seguir.\n\n• Fazer um ataque à distância.\n\n• Levantar-se (a menos que o inimigo se levante como uma ação livre).\n\n• Lançar uma magia, exceto magias lançadas como reação ou ação livre (mas veja conjuração defensiva). Além disso, magias com alcance toque não provocam ataques de oportunidade de seu alvo (mas provocam de outras criaturas no alcance).\n\n• Sair de um quadrado ameaçado (mas veja as ações reposicionar e recuar).\n\nUsar itens complexos, como ativar uma engenhoca ou beber uma poção. A critério do mestre, outras ações complexas podem provocar ataques de oportunidade (sacar ou guardar um item não é uma ação complexa, mas recarregar uma arma com ação de movimento ou maior, sim).\n\n• Você só pode executar um ataque de oportunidade por rodada.\n\nAcrobacia e Oportunidade. Passar por um inimigo usando Acrobacia (Tormenta20, p. 115) não provoca ataques de oportunidade desse inimigo.\n\nNovas Ações. Esta regra introduz as seguintes novas ações para personagens.\n\n• Reposicionar (movimento). Você ajusta sua posição com cautela; você percorre apenas 1,5m, mas este deslocamento não provoca ataques de oportunidade. Você não pode se reposicionar se o seu deslocamento for menor do que 1,5m.\n\n• Recuar (completa). Você se move com cuidado; você percorre metade do seu deslocamento, mas este movimento não provoca ataques de oportunidade. Você não pode recuar se o seu deslocamento for menor do que 3m.\n\n• Conjuração defensiva. Você lança uma magia concentrado-se em sua defesa. Você não provoca ataques de oportunidade com essa magia, mas precisa passar em um teste de Vontade (CD 20 + custo em PM da magia). Se falhar, a magia é perdida, mas os PM são gastos mesmo assim.\n\nHabilidades Existentes. As seguintes habilidades possuem interações especiais ou clarificações sobre seu uso com ataques de oportunidade.\n\n• Ataque Reflexo e Piqueiro (Tormenta20, pp. 65 e 128). Os gatilhos pra usar estes poderes são diferentes das situações que causam ataques de oportunidade, por isso eles não se relacionam com esta regra. Você ainda pode usá-los mesmo que seu inimigo use as ações reposicionar ou recuar.\n\nBater e Correr e Carga de Cavalaria (Tormenta20, pp. 65 e 124). Seu movimento adicional após o ataque não provoca ataques de oportunidade.\n\n• Disparo Preciso (Tormenta20, p. 125). Seus ataques à distância não provocam ataques de oportunidade.\nA critério do mestre, habilidades com efeitos semelhantes podem ser modificadas da mesma forma.\n\nAmeaças. Ameaças podem realizar mais ataques de oportunidade por rodada do que personagens jogadores, conforme seu patamar (mas ainda estão limitadas a um ataque por instância do evento que lhes permitiu realizá-lo)."
+                },
+                {
+                    "type": "table",
+                    "name": "Tabela dos Ataques de Oportunidade de Ameaças",
+                    "content": "Patamar da Ameaça\tAtaques de Oportunidade/Rodada\nIniciante (ND 1 a 4)\t1\nVeterano (ND 5 a 10)\t2\nCampeão (ND 11 a 16)\t3\nLenda (ND 17 a 20)\t4\nS/S+\tIlimitados"
+                },
+                {
+                    "type": "item",
+                    "name": "Ataques Mirados",
+                    "description": "Com esta regra, sempre que faz um ataque, você pode mirar em uma parte específica do corpo do oponente para causar um efeito adicional. Se fizer isso, você sofre uma penalidade no teste de ataque de –5 para pernas, braços, tronco, asas e outros membros locomotores, e de –10 para cabeça ou equivalente (veja “Efeitos Críticos”, p. 298).\nSe o ataque acertar e causar dano, você impõe um efeito adicional ao alvo, equivalente ao efeito crítico de menor severidade (veja “Efeitos Críticos”, p. 298) para a parte do corpo atingida. Se o ataque for um acerto crítico, use a severidade seguinte (ou resolva como um efeito crítico normal, se estiver usando a regra opcional Efeitos Críticos)."
+                },
+                {
+                    "type": "item",
+                    "name": "Cobertura Leve e Efeitos",
+                    "description": "Nesta regra, cobertura leve fornece +5 em testes de Reflexos contra efeitos com alvo que tenham origem no lado oposto da cobertura e contra efeitos de área cujo centro esteja do lado oposto da cobertura."
+                },
+                {
+                    "type": "item",
+                    "name": "Defesa Épica",
+                    "description": "Com esta regra, sua Defesa aumenta em +1 para cada nível par (mesma progressão das perícias). Indicada para campanhas de ação exagerada!"
+                },
+                {
+                    "type": "item",
+                    "name": "Desafiando a Morte",
+                    "description": "Esta opção se inspira em conceitos narrativistas, colocando mais controle nas mãos dos jogadores. Com esta regra, os personagens não morrem. Simples assim. Caso um personagem “morra”, ou seja, alcance o limite de pontos de vida negativos, em vez disso fica fora do jogo até a próxima cena (mesmo que alguém tente curá-lo, ele estará muito ferido para voltar à ativa). Se o mestre quiser ser mais cruel, pode fazer com que cada personagem que “morra” em vez disso perca 1 ponto permanente num atributo (role 1d6, sendo 1 Força, 2 Destreza e assim por diante).\nA qualquer momento, um personagem pode declarar que está “desafiando a morte”. Quando faz isso, seu limite de gasto de pontos de mana aumenta em +2 e ele recebe 2d6 PM temporários por patamar que duram até o fim da cena. Porém, durante essa cena, se chegar ao limite de pontos de vida negativos, irá morrer de verdade. O jogador só pode “desafiar a morte” em uma cena na qual tenha uma chance real de morrer! O mestre pode vetar qualquer uso abusivo desta opção (como usá-la para ganhar PM em uma cena claramente inofensiva).\nEsta opção coloca o controle da vida e da morte de seus personagens nas mãos dos jogadores. Um jogador sempre poderá escolher entre lutar normalmente, tendo mais chance de ser derrotado e sofrer algum revés, como ser preso ou ver seu reino ser destruído, ou desafiar a morte para ter mais chance de vencer, mas arriscando ser morto caso tudo dê errado. Isso pode ser muito tentador numa luta contra um vilão odiado, ou caso um ente querido esteja em perigo — nesta regra, os personagens não podem morrer, mas não falamos nada de NPCs...\nEsta opção garante que os personagens não morram em cenas secundárias — nada de perder um herói querido para um ataque de glops aleatórios — ao mesmo tempo em que fornece a chance de os personagens realizarem feitos heroicos quando quiserem. É importante ter em mente o seguinte: um jogador nunca deve ser obrigado a desafiar a morte. Para que esta regra funcione, isso deve ser sempre uma escolha.\nSe o jogador arriscar, pode gravar sua marca no mundo. Se perder... bem, ele sabia dos riscos que estava correndo."
+                },
+                {
+                    "type": "item",
+                    "name": "Efeitos Críticos",
+                    "description": "Nesta regra, sempre que fizer um acerto crítico, além do dano extra, você causa um efeito adicional. Para determinar esse efeito, você faz duas rolagens de d10: uma para definar a localização e a outra para definir a severidade do ataque. Criaturas imunes a acertos críticos também são imunes a esse efeito.\n\nLocalização. Role 1d10 e consulte a tabela ao lado. Se estiver usando a regra Ataques Mirados e tiver mirado em uma parte específica, ignore esta etapa (a localização será aquela em que você mirou).\n\nSeveridade. Role 1d10 e some um modificador conforme o multiplicador de crítico do ataque: +0 para crítico x2, +2 para crítico x3, +3 para crítico x4 e +4 para crítico x5 ou maior.\n\nEfeito. Para descobrir o efeito, veja a coluna do tipo de dano causado (se o ataque causa mais de um tipo, escolha um deles) e a linha da severidade.\nEfeitos críticos são cumulativos com os das severidades inferiores (para condições, use a mais severa). Sangramentos causados por efeitos críticos também são cumulativos (resolva cada um individualmente). Por fim, condições iguais podem ter efeitos mais graves quando aplicadas a várias partes do corpo. Por exemplo, um personagem com Vagaroso em ambas as pernas fica imóvel, um personagem Maneta em ambos os braços não pode empunhar nenhum item e um personagem Caolho em ambos os olhos fica cego. O mestre tem a palavra final quanto à interação de complicações iguais.\nAlguns efeitos impõem complicações (veja a p. 282) com as seguintes gravidades.\n\n• Leve. Um ferimento superficial, que pode ser tratado facilmente. A complicação é removida quando o personagem recupera uma quantidade de PV igual ao dobro do seu nível.\n\n• Grave. Um ferimento severo, que requer mais cuidados para ser curado. A complicação é removida apenas com cura mágica capaz de recuperar uma quantidade de PV igual a quatro vezes o nível do personagem ou com uma cirurgia (um teste de Cura contra CD 30 que demora 1 dia).\n\nPermanente. Um ferimento profundo que deixa sequelas duradouras. Uma complicação permanente só pode ser removida com as magias Desejo ou Intervenção Divina."
+                },
+                {
+                    "type": "item",
+                    "name": "Escalando Criaturas",
+                    "description": "Com esta regra, um combatente audacioso pode escalar criaturas gigantes rumo à cabeça delas (ou outro ponto vulnerável, a critério do mestre). A criatura precisa ser Grande ou maior e pelo menos duas categorias de tamanho maiores que você.\nPara escalar uma criatura você precisa estar adjacente a ela, gastar uma ação de movimento e fazer um teste de Acrobacia ou Atletismo oposto pelo Reflexos da criatura (se você possuir deslocamento de escalada, recebe +5 nesse teste). Se você vencer, sobe rumo à cabeça da criatura. Se perder, não consegue subir. Se perder por 5 ou mais, você escorrega e cai (ou a criatura consegue derrubá-lo com um safanão ou balançando o próprio corpo), sofrendo 2d6 pontos de dano de impacto por avanço feito e ficando caído e adjacente à criatura.\nA quantidade de sucessos que você precisa acumular para chegar no topo da cabeça varia conforme o tamanho da criatura: um sucesso para Grande, dois para Enorme e quatro para Colossal. Uma vez na cabeça, você recebe camuflagem contra a criatura, ela conta como desprevenida contra você e seus ataques contra ela recebem +2 na margem de ameaça e +1 no multiplicador de crítico. No início de cada turno seu na cabeça da criatura, você deve fazer um teste contra ela, como se estivesse a escalando, mas como ação livre. Se perder por 5 ou mais, ela consegue derrubá-lo (veja o parágrafo anterior)."
+                },
+                {
+                    "type": "item",
+                    "name": "Falhas Críticas",
+                    "description": "A vida dos heróis não é feita apenas de triunfos. Mestres que desejam trazer um toque de desastre, tragédia ou até mesmo humor às suas campanhas podem aproveitar esta regra opcional. Sempre que um personagem rolar “1 natural” em um teste de ataque, sofrerá uma falha crítica. Nesse caso, além de errar automaticamente o ataque, o personagem deve rolar 1d100 na Tabela 4-6: Falhas Críticas (p. 302) para determinar o efeito que ocorrerá nessa rodada.\nNem todos os efeitos estão diretamente ligados ao ataque — muitos representam circunstâncias que emergem do caos do combate. O mestre deve adaptar as descrições da tabela para que se encaixem na cena.\nSempre que você rolar um efeito que não se encaixa na situação do personagem (por exemplo, um personagem que luta desarmado obtém um resultado que dita que sua arma se quebra), ignore a falha crítica — o ataque ainda é um erro, mas nada de pior acontece."
+                },
+                {
+                    "type": "item",
+                    "name": "Morte Alternativa",
+                    "description": "Esta regra muda a forma como personagens morrem. Ela tem como objetivo equilibrar a chance de esse evento trágico acontecer ao longo da campanha — em especial, diminui a chance de morte em níveis baixos e evita completamente a chance de morte instantânea em qualquer nível.\nNesta regra, não há pontos de vida negativos. Se um personagem for reduzido a 0 ou menos pontos de vida, fica com 0 PV, inconsciente e moribundo.\n\nMoribundo. No início de seu turno, e sempre que sofrer dano estando moribundo, você deve fazer um teste de Constituição e consultar a tabela abaixo. A CD é 10 +2 para cada vez além da primeira que você ficou moribundo nessa cena e +2 para cada teste desses que já realizou nessa cena (esses aumentos são cumulativos). Você perde essa condição se recuperar 1 ou mais PV ou se receber primeiros socorros (veja a perícia Cura, mas a CD do teste de perícia é igual à CD atual do teste de Constituição).\n\n• Lesão. Você sofre um ferimento mais profundo do que mera perda de vida. Uma lesão impõe uma penalidade cumulativa de –2 em testes de perícias. Lesões são recuperadas apenas com descanso — a cada noite de sono em condições normais ou melhores, você recupera uma lesão (ou duas, se tiver passado por cuidados prolongados; veja a perícia Cura)."
+                },
+                {
+                    "type": "item",
+                    "name": "Ferimento Permanente",
+                    "description": "Esta é uma “opção da opção”. Se estiver usando a regra de Morte Alternativa e quiser um clima mais brutal para seu jogo, substitua o resultado “Lesão” na tabela de efeitos de moribundo pelo resultado “Ferimento Permanente”.\n\n• Ferimento Permanente. Você perde 1 ponto permanente em um atributo (role 1d6, sendo 1 Força, 2 Destreza e assim por diante). A critério do mestre, isso pode ser substituído por uma complicação coerente. Um ferimento permanente pode ser curado pelas magias Desejo ou Intervenção Divina, mas um personagem só pode ter um ferimento permanente curado por cada uma dessas magias ao longo de sua vida.\nO objetivo desta regra é aumentar o risco e a tensão dos combates. Ela também transforma todas as lutas — mesmo aquelas fáceis, nas quais o grupo sabe que será vitorioso — em momentos emocionantes. Afinal, mesmo que os personagens vençam, ainda podem sair com um ferimento permanente. Isso tudo tem o efeito colateral de fazer os jogadores pensarem duas vezes antes de entrar num combate e, no geral, traz um clima mais brutal e realista para o jogo. Para campanhas que queiram essa sensação, é uma ótima regra. Mas, se você prefere um jogo mais épico e inconsequente, será melhor não usá-la."
+                },
+                {
+                    "type": "item",
+                    "name": "Lancinante Revisado",
+                    "description": "Esta regra muda o efeito do encanto lancinante.\n\nLancinante. A arma inflige ferimentos mortais. Quando você faz um acerto crítico, o bônus em dano fornecido pelo encanto dilacerante também é multiplicado. Por exemplo, um machado de batalha lancinante causa +30 pontos de dano em um acerto crítico. Pré-requisito: dilacerante."
+                },
+                {
+                    "type": "item",
+                    "name": "Lesões",
+                    "description": "Esta regra apresenta machucados mais profundos do que aqueles representados por dano. Sempre que os PV de um personagem são reduzidos a 0 ou menos, ele sofre uma lesão, que significa uma penalidade cumulativa de –2 em testes de perícias. Lesões são recuperadas apenas com descanso. A cada noite de sono, você recupera uma lesão (ou duas, se tiver passado por cuidados prolongados).\nLesões também aparecem na regra de Morte Alternativa. Esta opção é boa se você gosta da regra padrão de morte, mas quer mais consequências para as batalhas. Para ainda mais brutalidade e realismo, substitua lesões por ferimentos permanentes (p. 301)."
+                },
+                {
+                    "type": "item",
+                    "name": "Mais Armas Ágeis",
+                    "description": "Nesta regra, as seguintes armas recebem a habilidade de arma ágil: azagaia (quando empunhada corpo a corpo), bordão e lança."
+                },
+                {
+                    "type": "item",
+                    "name": "Movimento Intercalado",
+                    "description": "Com esta regra, você pode intercalar sua ação de movimento com uma outra ação. Por exemplo, se tiver deslocamento 9m, pode usar uma ação de movimento para percorrer 6m, executar uma ação padrão e então percorrer os 3m restantes."
+                },
+                {
+                    "type": "item",
+                    "name": "Posicionamento",
+                    "description": "Com esta regra, a orientação de cada combatente interfere em sua capacidade de defesa. Cada personagem possui uma fronte (o lado para o qual está voltado), uma retaguarda (o lado oposto a sua fronte) e dois flancos, direito e esquerdo (os lados restantes). No final de cada turno, o personagem deve declarar sua fronte. Isso é uma ação livre, mas a fronte se mantém a mesma até seu próximo turno.\n\nEscudos. Escudos só fornecem seus benefícios contra ataques sofridos pela fronte ou pelo flanco da mão empunhando o escudo (incluindo os quadrados das diagonais). Você pode gastar uma ação de movimento para erguer seu escudo. Isso faz com que você receba os benefícios do escudo contra ataques em um lado adicional (retaguarda ou flanco oposto) até o início do seu próximo turno.\n\nRetaguarda. Uma criatura fica vulnerável contra ataques em sua retaguarda, a menos que tenha erguido seu escudo para proteger este lado.\n\nEncurralar. Uma criatura adjacente a uma parede, ou outro obstáculo grande o suficiente para fornecer cobertura leve, fica vulnerável contra ataques desferidos contra seus flancos que não estejam voltados para essa cobertura.\n\nAtaques em Alturas Variadas. Para ataques desferidos de um quadrado diretamente acima ou abaixo do personagem (em uma linha vertical reta), considere que o ataque é contra a retaguarda."
+                },
+                {
+                    "type": "item",
+                    "name": "RD Combinada",
+                    "description": "Nesta regra, a redução de dano fornecida por armaduras e por escudos se acumulam. Por exemplo, se estiver usando uma armadura e um escudo pesados de adamante, você tem RD 7."
+                },
+                {
+                    "type": "item",
+                    "name": "Saque Rápido Limitado",
+                    "description": "Com esta regra, cada efeito que permite sacar ou guardar itens como ação livre só pode ser usado uma vez por rodada. Os efeitos se acumulam. Um personagem com o poder Saque Rápido e uma bandoleira de poções, por exemplo, pode sacar ou guardar um item qualquer e um item alquímico como ação livre na mesma rodada."
+                },
+                {
+                    "type": "item",
+                    "name": "Batalhas contra Chefes",
+                    "description": "Em videogames e jogos de tabuleiros existe o conceito de boss fight, ou “batalha contra chefe” — uma luta contra um vilão que é especialmente tensa e difícil. É possível emular esse clima selecionando regras opcionais desta seção que serão usadas apenas em certos combates. Por exemplo, o mestre pode usar as regras de Efeitos Críticos apenas em batalhas contra chefes, ou usar a regra de Morte Alternativa em toda a campanha; mas, durante batalhas contra chefes, usar a variante de ferimentos permanentes no lugar de lesões.\nUsar regras mais complexas apenas em certas batalhas pode parecer arbitrário, mas é uma ótima forma de destacar os combates mais importantes da história e manter os jogadores mais tensos e envolvidos nesses momentos, ao mesmo tempo em que torna os combates menos relevantes mais simples e rápidos.\nSe quiser usar batalhas contra chefes, avise aos jogadores no início da cena, para que eles possam se preparar de acordo."
+                },
+                {
+                    "type": "item",
+                    "name": "Mais Ataques, Mais Azar?",
+                    "description": "Alguns jogadores podem argumentar que a regra de Falhas Críticas penaliza mais os personagens que fazem mais ataques — justamente aqueles que, em teoria, são mais competentes. Embora seja verdade que quanto mais ataques um aventureiro faz, maiores são as chances de que ele role 1 natural, o fato é que um herói que faz mais ataques está se arriscando mais, tanto por se expor ao inimigo quanto por se colocar nas mãos de um destino cruel, capaz de maliciosamente posicionar tartarugas invisíveis imaginárias mortas sob seus pés.\nMas, se mesmo assim você acreditar que isso é injusto, pode limitar a regra de Falhas Críticas ao primeiro ataque de cada personagem em cada rodada. Assim, todos têm a mesma chance de serem atingidos por aquele meteoro perdido que caiu bem no meio do combate…"
+                }
+            ]
+        },
+        {
+            "type": "folder",
+            "name": "Culinária Avançada",
+            "items": [
+                {
+                    "type": "item",
+                    "name": "Culinária Avançada",
+                    "description": "Esta seção traz regras alternativas para culinária em Tormenta20, com mecânicas mais concretas e detalhadas para a fabricação de pratos especiais.\nUse estas regras se quiser que a culinária seja um aspecto importante de sua campanha. Caso contrário, as regras do livro básico funcionarão melhor, por serem mais simples. Independentemente de qual versão for usada, as mecânicas básicas se mantêm: um prato especial deve ser consumido ao ser comprado ou fabricado, seu efeito dura 1 dia e você só pode receber um bônus de alimentação por dia."
+                },
+                {
+                    "type": "item",
+                    "name": "Fabricando Pratos Especiais",
+                    "description": "Para preparar um prato especial, você precisa saber sua receita, gastar seus ingredientes e fazer um teste de Ofício (cozinheiro).\n\nReceitas. Quando se torna treinado em Ofício (cozinheiro), você aprende um número de receitas igual a 1 + sua Inteligência. É possível aprender novas receitas lendo livros ou estudando com outros cozinheiros. Via de regra, aprender um novo prato leva 1 dia e custa T$ 100, embora alguns cozinheiros possam estar dispostos a ensinar seus segredos em troca de serviços.\n\nIngredientes. Cada prato especial possui um número de ingredientes (normalmente, dois ou três). Veja mais na seção a seguir.\n\nTeste. Se você souber a receita e possuir os ingredientes, pode preparar o prato especial. Isso exige 1 hora de trabalho, o gasto dos ingredientes e um teste de Ofício (cozinheiro), cuja CD varia conforme o prato. Se passar, você prepara comida suficiente para seu grupo inteiro (isso difere da regra padrão, em que normalmente se prepara um prato para um indivíduo)."
+                },
+                {
+                    "type": "item",
+                    "name": "Ingredientes",
+                    "description": "A tabela a seguir lista os ingredientes existentes e seus respectivos preços. Alguns são comuns e podem ser comprados em qualquer feira por poucos tibares. Outros, mais raros, existem apenas em regiões específicas ou em grandes cidades, com empórios capazes de importar iguarias exóticas.\nOs preços da tabela consideram insumos de ótima qualidade, necessários para o preparo de pratos especiais. Insumos normais, para refeições cotidianas, podem ser mais baratos, mas não terão efeito em jogo. Cada ingrediente ocupa 0,5 espaço.\n\nAçúcar das Fadas. Um pó prateado, brilhante e doce. Alguns dizem que é tirado de frutas que nascem apenas na Pondsmânia; outros, que cai das asas de certas criaturas feéricas. Seja como for, é raro e caro.\n\nAve. Carne de aves comuns, como frango e ganso.\n\nAvelã de Norba. Um tipo específico de avelã, que apenas os esquilos de Norba (nas Repúblicas Livres de Sambúrdia) conseguem encontrar.\n\nCarne. De ovelha, gado ou trobo. Um alimento caro, pois esses animais são criados primariamente para outros usos — respectivamente, lã, leite e tração.\n\nCarne de Caça. De animais como cervo, javali e faisão, ou mesmo de monstros como urso-coruja, serpe e lobo-das-cavernas. É ainda mais cara que a carne de animais de criação, mas também é mais nutritiva e possui sabor mais pronunciado.\n\nCereal. A base da alimentação artoniana. Os mais comuns são o trigo, o centeio e a cevada, embora outros, como o arroz, o milho e a aveia, sejam consumidos em reinos e regiões específicos.\n\nCogumelo. Um alimento comum e acessível. Contudo, por sua ligação com a natureza e a magia, é visto com maus olhos em certos ambientes.\n\nEspeciarias. Pimentas, ervas, flores e outros tipos de temperos trazidos de terras distantes, ou até mesmo com origem mágica. São valorizadas por casas nobres, tanto por seu sabor quanto por serem um símbolo de poder e riqueza.\n\nFarinha. Pó obtido da moagem de certos cereais. Crucial para pães, mingaus e bolos, alimentos comuns entre camponeses artonianos.\n\nFruta. Das mais comuns, como maçãs, peras e pêssegos, às mais raras (do ponto de vista de um habitante do Reinado), como melões, tâmaras e figos, podem ser servidas cozidas, como acompanhamento, ou cruas, como sobremesa.\n\nGorad. Uma iguaria doce originária da pequena província de Tragematum, no Império de Tauron.\n\nLegume. Inclui cebola, alho, nabo, cenoura, ervilha, feijão e outros.\n\nLeite. Um alimento importante por si só, além de ser a base de manteigas e queijos.\n\nMolho Tamuraniano. Um molho escuro, salgado e forte, fabricado apenas no Império de Jade (e no bairro de Nitamu-ra, em Valkaria). O segredo do molho nunca foi revelado a estrangeiros, motivo pelo qual é raro e caro.\n\nÓleo. De origem vegetal, o óleo é usado para cozinhar, temperar e conservar alimentos.\n\nOvo de Monstro. Ovos de criaturas monstruosas, como grifos, serpes e ursos-corujas.\n\nPeixe. Consumidos frescos, salgados ou defumados. Os mais apreciados são o salmão, a enguia e a lampreia.\n\nPorco. A carne de açougue mais comum no Reinado — ao contrário de outros animais, o porco é criado primariamente para o abate.\n\nQueijo. Fortes ou suaves, com ou sem aromatizantes, são comuns tanto em tavernas quanto em banquetes nobres.\n\nVerdura. Inclui repolho, couve, urtiga, acelga, espinafre, alface e outras."
+                },
+                {
+                    "type": "item",
+                    "name": "Pratos Especiais",
+                    "description": "Os preços listados na tabela são para uma porção individual do prato pronto, mas se você cozinhar o prato gastando seus ingredientes, prepara comida suficiente para seu grupo inteiro (por volta de 5 pessoas). Obviamente, nem todos os pratos estarão disponíveis em toda taverna. O mestre pode se divertir construindo o cardápio de cada lugar!\n\nAssado de Carnes. Um prato muito apreciado no Reinado, mas mal visto no Império de Tauron. Pura proteína, deixa qualquer um mais forte. Você recebe +2 em rolagens de dano corpo a corpo.\n\nBalinhas. Balas coloridas e doces. Arcanistas gostam delas — dizem que o açúcar feérico usado nas balinhas potencializa suas magias. Claro… Apesar do ceticismo dos outros, você recebe +2 em rolagens de dano de magias.\n\nBanquete dos Heróis. Uma mesa repleta das melhores comidas que o dinheiro pode pagar. Você recebe +1 em um atributo a sua escolha. Esse aumento não oferece PV, PM e perícias adicionais.\n\nBatata Valkariana. Batatas cortadas em tiras e mergulhadas em óleo fervente. Gordurentas e pouco nutritivas, são o tipo de prato que só é servido numa metrópole como Valkaria. Apesar disso, são saborosas e deixam qualquer um empolgado. Você recebe +1d6 em um teste a sua escolha realizado até o fim do dia. Para não esquecer, deixe 1d6 em cima da sua ficha. De preferência, amarelo.\n\nBolo de Cenoura. Uma sobremesa simples, que “faz bem para a vista”, segundo anciões de todo o Reinado. Aparentemente, os anciões estão certos, pois o bolo de cenoura fornece +2 em testes de Percepção.\n\nBolo do Panteão. Uma sobremesa divina! Este bolo de gorad é preparado com os melhores ingredientes, por isso é caríssimo, servido apenas em banquetes reais — ou em tavernas que atendem aventureiros famosos. Comer uma fatia de um bolo do Panteão torna mais fácil dar o melhor de si, seja desferindo um golpe especial, seja lançando uma magia. Quando você come este prato, escolha uma habilidade. Seu custo para usar a habilidade escolhida diminui em –1 PM (mínimo 1).\n\nEnsopado Reforçado. Um prato nutritivo e pesado. Você recebe +20 PV temporários. Contudo, seu deslocamento diminui em –1,5m.\n\nEstrogonofe. Essa iguaria deliciosa foi inventada nas cortes do antigo Reino de Yudennach — dizem que é uma das poucas coisas boas a sair daquele lugar. Comer estrogonofe deixa você firme em suas convicções. Você recebe +2 em testes de Vontade.\n\nFutomaki. Criado no Império de Jade, este prato consiste em um rolo de arroz recheado com peixes, folhas e raízes. Uma refeição elegante, que deixa todos dispostos a dialogar. Você recebe +2 em testes de Diplomacia.\n\nGorad Quente. Gorad e leite, servidos fumegando. Não tem erro. O gorad ativa o cérebro, fornecendo +2 PM temporários.\n\nGorvelã. Gorad com avelã de Norba. É uma sobremesa cara, mas deliciosa. Fornece +5 PM temporários.\n\nJavali do Bosque Enevoado. Um ensopado de javali cozido em caldo de cerveja escura e mel, servido com pão rústico recheado de cogumelos. Quem experimenta este prato de sabor forte fica mais confiante para encarar qualquer luta. Você recebe +2 na Defesa.\n\nMacarrão de Yuvalin. Yuvalin é uma cidade mineradora em Zakharov, na fronteira com as Montanhas Uivantes. Seus habitantes criaram este prato reforçado (macarrão, bacon e creme de leite) para encarar suas árduas jornadas de trabalho nas minas. Deliciosa, a receita se espalhou por outras cidades e reinos. Você recebe +5 PV temporários.\n\nManjar dos Titãs. Pão de trigo fermentado com leveduras alquimicamente tratadas, recheado com pasta de nozes e queijo de leite de urso-coruja. Este prato robusto deixa qualquer um ousado e disposto. Você recebe +1d4 de bônus em testes de perícias baseadas em Força, Destreza ou Constituição.\n\nOvo de Monstro Frito. A receita é simples — o segredo está nos ingredientes. Feito com ovos de monstros, este ovo frito é extremamente nutritivo. Você recebe +10 PV temporários.\n\nPão de Queijo. Um bom pão de queijo deixa qualquer aventureiro bem nutrido e saudável. Você recebe +2 em testes de Fortitude.\n\nPavão Celestial. Feito de ave de caça marinada em vinho e acompanhada de um molho espesso de pêssegos e figos, este prato é extremamente elegante. Você recebe +1d4 de bônus em testes de perícias baseadas em Inteligência, Sabedoria e Carisma.\n\nPizza. Um disco de massa coberto com molho de tomate e queijo, este prato foi criado por Guido Venusto, um nobre de Ahlen que queria ascender socialmente. Inepto nas artes da intriga, Venusto resolveu manipular a corte pela barriga. Funcionou — o prato foi um sucesso e o nobre teve muita influência por anos. Certa noite, um espião conseguiu roubar a receita. O segredo da pizza se espalhou e, sem seu trunfo, Venusto foi assassinado logo depois. Comer uma pizza deixa-o pronto para encarar qualquer perigo: você recebe +1 em todos os testes de resistência.\n\nPorco Deheoni. Um prato típico e popular em Deheon, que já se alastrou pelo Reinado. Comer um porco assado deixa-o valente e brigão. Você recebe +1 em testes de ataque corpo a corpo.\n\nPrato do Aventureiro. Um cozido de frango com legumes, esta é uma refeição simples, mas mantém qualquer um bem alimentado. Em sua próxima noite de sono, você aumenta a sua recuperação de pontos de vida em +1 por nível.\n\nSalada de Salistick. Com folhas e carne de frango, esta salada foi criada no Reino sem Deuses, onde a saúde é uma grande preocupação. Uma alimentação leve, mas nutritiva, aumenta seu deslocamento em +1,5m.\n\nSalada Élfica. Esta salada vegetariana leva uma mistura de folhas, frutas e legumes. Segundo os relatos, a receita foi inventada em Lenórienn e passada aos reinos humanos de Lamnor, antes do isolamento dos povos. Felizmente, a salada se espalhou por Arton antes da queda do continente. Um prato leve e equilibrado, inspira disparos precisos. Fornece +1 em testes de ataque à distância.\n\nSalada Imperial. Uma mistura de folhas com bacon e queijo, esta salada é leve, mas empolgante. Fornece +2 em testes de Iniciativa.\n\nSashimi. Uma iguaria da culinária tamuraniana, este prato consiste de peixes e frutos do mar fatiados em pequenos pedaços e servidos com um molho do Império de Jade. Uma refeição refinada, leve e equilibrada, fornece +2 em rolagens de dano à distância.\n\nSopa de Cogumelos. Esta sopa expande sua percepção mística. Você recebe +2 em testes de Misticismo.\n\nSopa de Peixe. Um cozido de peixe com verduras, este é um prato humilde, mas garante descanso relaxante. Em sua próxima noite de sono, você aumenta a sua recuperação de pontos de mana em +1 por nível.\n\nTorta de Maçã. Dizem que, após uma bruxa usar uma maçã envenenada para matar uma princesa, Thantalla-Dhaedelin, a Rainha das Fadas, decretou que maçãs nunca mais fariam mal a ninguém. Se a lenda é verdade ou se maçãs são simplesmente saudáveis, ninguém sabe dizer, mas comer este prato fornece resistência a veneno +5.\n\nOutros Pratos. O mestre pode adaptar pratos de outros suplementos, como Ameaças de Arton e Deuses de Arton, para estas regras. Para isso, basta definir os ingredientes e a CD do teste de Ofício de cada um, usando a tabela da página 307 como referência."
+                },
+                {
+                    "type": "item",
+                    "name": "Tempero Especial",
+                    "description": "Um personagem treinado em Ofício (cozinheiro) pode dar um toque pessoal aos pratos que prepara. Isso exige gastar uma porção de especiarias (além dos ingredientes do prato) e aumenta a CD do teste em +5. Se você passar no teste e o prato especial fornecer um bônus numérico (incluindo rolagens de dados), esse bônus aumenta em +1. Se o prato fornecer PV ou PM temporários, esse valor aumenta em 50%. Outros efeitos de pratos especiais não são aprimorados por especiarias."
+                }
+            ]
+        },
+        {
+            "type": "folder",
+            "name": "Exploração de Masmorras",
+            "items": [
+                {
+                    "type": "item",
+                    "name": "Exploração de Masmorras",
+                    "description": "Esta seção traz regras opcionais para exploração de masmorras. Nesse tipo de aventura, o grupo percorre cavernas subterrâneas, calabouços amaldiçoados, castelos em ruínas e outros complexos enquanto enfrenta monstros, evita armadilhas e, é claro, busca tesouros.\nEste é um estilo de jogo clássico, emocionante e imprevisível. É menos abstrato que o jogo padrão e mais baseado em gerenciamento de recursos — aqui, cada tocha e cada ração de viagem contam para ajudar o grupo a chegar vivo à última sala.\nAs regras básicas para masmorras são apresentadas em Tormenta20, p. 263, junto de um guia simples para criar esse tipo de ambiente. A seguir, trazemos mecânicas adicionais para tornar as aventuras em masmorras ainda mais únicas."
+                },
+                {
+                    "type": "item",
+                    "name": "Percorrendo a Masmorra",
+                    "description": "O elemento mais básico de uma exploração de masmorra é, como o nome indica, a exploração do lugar. Ou seja, andar por suas salas e corredores. Uma masmorra bem construída apresenta vários caminhos, com pistas sutis de quais deles levam ao objetivo principal e quais levam a recompensas — e perigos — opcionais. A escolha de para onde ir muitas vezes será a decisão mais importante que os jogadores tomarão em sessões dentro desses ambientes.\nPara tornar a exploração divertida, é importante que cada sala tenha impacto no jogo, seja trazendo um novo risco, seja consumindo um recurso. Para isso, sugerimos o uso de regras específicas para encontros aleatórios, luz, barulho e escassez de recursos."
+                },
+                {
+                    "type": "item",
+                    "name": "Encontros Aleatórios",
+                    "description": "Sempre que os personagens entram numa sala ou corredor, devem fazer uma rolagem de encontro. Por padrão, a rolagem é de 1d6, sendo que um resultado 1 indica um encontro. Deixe os próprios jogadores rolarem, alternando entre eles a cada nova sala ou corredor, para tornar a rolagem mais envolvente. O dado pode mudar, aumentando ou diminuindo (o que, respectivamente, diminui ou aumenta a chance de encontro), conforme o barulho sendo feito pelos personagens (veja “Ruídos & Barulho”, a seguir).\nCaso um encontro aleatório aconteça, uma nova rolagem deve ser feita, numa tabela de encontros feita pelo mestre. Para criar a tabela, invente de 4 a 10 encontros diferentes, alternando entre criaturas e outros perigos (armadilhas, maldições etc.). É possível inserir encontros de interpretação ou benéficos (por exemplo, mercadores itinerantes ou parceiros perdidos), mas eles devem ser a minoria. Em seguida, divida os encontros em uma tabela, do mais fraco ao mais forte (encontros benéficos, se existirem, devem ser os primeiros) e determine um dado que será rolado pelos jogadores para decidir qual deles ocorre. Encontros hostis devem ter um ND de 1 a 3 pontos abaixo do nível do grupo. Em masmorras, é esperado que os aventureiros enfrentem muitos desafios, então cada um deles precisa ser mais fácil, ou a sobrevivência será quase impossível. Afinal, quanto mais combates, mais recursos gastos…"
+                },
+                {
+                    "type": "item",
+                    "name": "Luz & Escuridão",
+                    "description": "A maioria das masmorras é imersa em trevas. Assim, a menos que os personagens tenham uma fonte de luz, sofrerão os efeitos de escuridão (veja a condição cego, em Tormenta20, p. 394). A iluminação pode ser mundana, como tochas e lampiões, ou mágica, como a magia Luz. A maioria das fontes dura por uma cena — veja “Gerenciamento de Recursos”, a seguir, para regras de como controlar a duração de cenas durante explorações de masmorras.\nEm espaços de masmorra, as trevas são sobrenaturais, afetando até mesmo personagens com visão na penumbra ou visão no escuro — mas não os nativos da masmorra. Ou seja, em espaços de masmorra, mesmo aventureiros como anões e osteon precisam de uma fonte de luz para não ficarem no escuro. Quem disse que Hyninn é justo?\nAlém da questão mecânica, a escuridão deve afetar o clima geral do jogo. O mestre pode descrever o ambiente de forma mais misteriosa, com poucas informações, para manter os jogadores tão no “escuro” quanto seus personagens."
+                },
+                {
+                    "type": "item",
+                    "name": "Ruídos & Barulho",
+                    "description": "Masmorras costumam ser locais fechados, habitados por criaturas que conhecem intimamente sua morada. Intrusos podem ser percebidos de forma quase imediata, especialmente se estiverem fazendo barulho. Em termos de jogo, existem quatro categorias de barulho nas quais os personagens podem estar: silencioso, padrão, barulhento e estrondoso.\n\n• Silencioso. Os personagens estão sendo muito discretos. Não falam entre si, caminham com cuidado e não fazem nenhuma ação que possa gerar ruídos. Para atingir esta categoria, os personagens precisam todos avançar à metade de seu deslocamento e passar em um teste de Furtividade contra CD 20. Enquanto estiverem silenciosos, os personagens aumentam o dado de encontro em um passo (de d6 para d8), o que diminui a chance de um encontro.\n\n• Padrão. Os personagens estão sendo discretos. Conversam entre si, mas em tom baixo, e caminham fazendo barulho normal. Esta é a categoria padrão, na qual o grupo estará a menos que faça algo que os coloque em outra, e não possui modificadores.\n\n• Barulhento. Os personagens estão falando alto ou discutindo, usaram habilidades que geram som alto, como uma Música de bardo, tentaram arrombar uma porta ou baú na força bruta etc. Esta categoria diminui o dado de encontro em um passo (de d6 para d4), o que aumenta a chance de um encontro.\n\n• Estrondoso. Os personagens estão fazendo muito barulho — por exemplo, usando várias habilidades que geram som alto, ou um efeito que gere um ruído extremo, como uma uma Bola de Fogo para destruir uma porta trancada. Esta categoria diminui o dado de encontro em dois passos (de d6 para d3).\nA categoria de barulho deve ser checada no fim de cada sala ou corredor, afetando a rolagem de encontro do próximo local no qual os personagens entram. Por exemplo, os personagens estão na categoria padrão e entram em uma sala (rolagem de encontro de 1d6). Nessa sala, encontram um baú trancado. O ladino do grupo tenta destrancá-lo com Ladinagem, mas falha. O bárbaro então, sem querer perder um potencial tesouro, tenta destruir a tampa com uma machadada. O mestre estipula que isso aumenta a categoria de barulho do grupo para barulhento. Em sua próxima rolagem de encontro, o grupo deverá rolar 1d4. Após isso, a categoria volta para padrão — a menos, é claro, que os personagens continuem com seu comportamento descuidado."
+                },
+                {
+                    "type": "item",
+                    "name": "Objetivos de Masmorras",
+                    "description": "Masmorras não se resumem a matar todos os monstros ou derrotar um grande vilão. Na verdade, o objetivo pode ser definido pelos próprios jogadores. Eles querem desvendar segredos? Procurar riquezas? Resgatar alguém? Todas essas opções são válidas. Além disso, o mestre pode vincular a masmorra aos históricos dos personagens, tornando a experiência e as motivações mais pessoais."
+                },
+                {
+                    "type": "item",
+                    "name": "Gerenciamento de Recursos",
+                    "description": "Na maioria das aventuras, é possível conseguir recursos para o grupo — de alimentação e hospedagem a itens como essências de mana — simplesmente visitando uma cidade e gastando alguns tibares. Isso muda quando os aventureiros colocam os pés em uma masmorra. Esses são lugares fechados, nos quais os heróis não têm acesso fácil a recursos além daqueles que estão carregando. Por isso, nessas expedições todos os equipamentos que os personagens desejam levar devem estar anotados em sua ficha e seus espaços devem ser contabilizados. Isso inclui fontes de luz (como tochas), comida (como rações de viagem) e quaisquer outros recursos, como cordas, gazuas, poções de cura e essências de mana.\nA luz tem utilidade óbvia — como dito na seção “Luz & Escuridão”, acima, personagens sem uma fonte de iluminação ficam, na prática, cegos. A maioria das fontes de luz tem sua duração medida em cenas. Assim, no fim de cada cena, os personagens precisam acender outra tocha, gastar outra carga de óleo ou lançar outra magia de iluminação. Cobre dos jogadores manter um registro de quantos itens de iluminação estão carregando e contabilizar os espaços de cada um. Esse tipo de gerenciamento de recursos não é obrigatório em aventuras “normais”, mas em explorações de masmorras adiciona bastante tensão, à medida que os jogadores veem seus itens se esgotando. Veja a seção a seguir para um método de calcular a duração de cenas.\nA comida é usada quando os personagens quiserem acampar e dormir para recuperar PV e PM. Cada noite de sono exige que cada personagem consuma uma ração de viagem. Se não tiverem rações, precisarão lidar com os efeitos de inanição — veja “Fome e Sede”, em Tormenta20, p. 319. Caso os personagens possuam parceiros, precisarão alimentá-los também!\nPor fim, outros recursos também devem ser controlados de forma concreta e rígida durante essas expedições. Abrir portas e baús trancados é um clássico de masmorras e, para evocar o clima do gênero, avise os jogadores de que, em masmorras, falhar por 5 ou mais em um teste de Ladinagem para abrir fechaduras indica que a gazua se quebra (se o personagem não tiver uma gazua, a fechadura se quebra e não pode mais ser aberta com Ladinagem). Claro, nada impede que o ladino do grupo carregue várias gazuas, mas cada espaço ocupado por um desses itens é um espaço a menos para comida ou óleo. Da mesma forma, outros itens, como cordas, devem ser controlados. Se os personagens amarrarem uma corda para descer um fosso e deixarem a corda presa, não poderão usar a mesma corda mais tarde!\nUm detalhe importante: toda essa contagem não é responsabilidade do mestre, mas dos jogadores. Todos devem contribuir. Um jogador pode ficar responsável por administrar as tochas, outro pelas rações, outro pelas poções etc. O controle de recursos deve ser divertido, principalmente com o aumento da tensão sempre que um jogador disser que sua contagem está chegando ao fim e o recurso está acabando. Grande parte da diversão da masmorra está em planejar a exploração, adquirir suprimentos, fazer preparativos e especular sobre o que pode haver lá dentro."
+                },
+                {
+                    "type": "item",
+                    "name": "Duração de Cenas",
+                    "description": "Muitos itens e efeitos têm sua duração medida em cenas. Contudo, cenas por padrão têm duração abstrata — por exemplo, um combate pode durar poucos segundos, enquanto uma cena de interpretação em um baile pode durar uma noite inteira. Em masmorras, precisamos controlar a duração das cenas de forma mais concreta. Para isso, use a seguinte regra de controle de tempo.\nCada cena dura seis “segmentos”. Um dos jogadores deve ficar responsável por controlar a passagem de segmentos, anotando em uma folha um “risquinho” para cada segmento. Sempre que acumular 6 risquinhos, o jogador deve avisar o grupo (incluindo o mestre) de que uma cena se passou. Isso encerra qualquer efeito com duração de cena. No caso de fontes de iluminação que tenham terminado, os personagens precisarão gastar outras (acender outra tocha, gastar outra carga de óleo para o lampião, lançar outra magia…) para não ficarem no escuro.\nO mestre é responsável por avisar sempre que cada segmento de tempo se passa, de acordo com as ações que os personagens fazem e as seguintes linhas gerais.\n\nAção curta (1 segmento). Os personagens fazem uma ação que pode ser resolvida em poucos minutos. Ao fim dela, o mestre avisa que um segmento de tempo se passou. Exemplos: passar por um corredor (no caso, o tempo se passa quando os personagens saem do corredor), explorar um corredor (fazer testes de Investigação para procurar armadilhas ou tesouros, de Percepção para escutar atrás de uma porta, de Sobrevivência para procurar rastros etc.).\n\nAção longa (2 segmentos). Os personagens fazem uma ação que pode ser resolvida em vários minutos ou até uma hora. Ao fim dela, o mestre avisa que dois segmentos de tempo se passaram. Exemplos: passar uma por uma sala (novamente, o tempo se passa quando os personagens saem da sala), explorar uma sala (como acima, mas como salas são mais amplas que corredores, o tempo gasto é o dobro), outras ações longas, como usar a perícia Cura para cuidados prolongados, Misticismo para identificar um item mágico ou Sobrevivência para montar um acampamento.\n\nAção muito longa (6 segmentos). Uma ação que dura algumas horas ou uma parte do dia (uma manhã, tarde ou noite). Seis segmentos — ou seja, uma cena inteira — se passam."
+                },
+                {
+                    "type": "item",
+                    "name": "Sobrevivência em Masmorras",
+                    "description": "Nos ermos, a perícia Sobrevivência pode ser usada para conseguir alimento e abrigo para o grupo com um único teste. Em masmorras, isso não é tão simples. Afinal, esses são lugares escuros, frios ou mesmo amaldiçoados, cujos recursos naturais normalmente se limitam a musgos, insetos e coisas piores!\nPor padrão, não é possível usar Sobrevivência para conseguir alimento em masmorras. É possível fazer acampamentos, mas a CD varia de 25 para masmorras menos hostis (como complexos de cavernas) a 35 para lugares especialmente terríveis (templos amaldiçoados e outros onde o próprio lugar está contra os heróis). Tentar montar um acampamento consome tempo, como visto em “Duração de Cenas”, acima.\nAo dormir, os personagens precisam se alimentar, gastando uma ração de viagem cada um (como visto em “Gerenciamento de Recursos”, acima). Além disso, sempre que dormirem, os personagens precisam fazer duas rolagens de encontros. Por padrão, o dado usado é 1d6. Contudo, se os personagens estiverem em um corredor ou em uma sala com mais de uma abertura, o dado diminui em um passo para cada abertura além da primeira. Ou seja, se o grupo acampar em uma sala com três portas, a rolagem de encontro diminui para 1d3!\nOs personagens podem tomar medidas para diminuir a chance de serem encontrados. Um teste de Guerra ou Sobrevivência (mesma CD do acampamento) para montar barricadas ou defesas similares aumenta o dado de encontro em um passo. Esse efeito não é cumulativo — mais de um personagem pode tentar a ação (que conta como uma ação longa para propósitos de passagem de tempo), mas apenas o primeiro sucesso conta. Por fim, personagens podem fazer turnos de guarda para diminuir ainda mais a chance de encontros. Para cada aventureiro que fizer um turno de guarda, o dado aumenta em um passo (cumulativo). Porém, todos os membros de grupo que fizerem turnos devem fazer um teste de Fortitude (CD 20 +1 por dia anterior em que já tenham feito turnos de guarda). Um personagem que falhe diminui sua condição de descanso em uma categoria e fica fatigado pelo dia seguinte (criaturas imunes a efeitos de metabolismo em vez disso ficam alquebradas pelo dia seguinte)."
+                },
+                {
+                    "type": "item",
+                    "name": "Espaço de Masmorra",
+                    "description": "Masmorras não são ambientes lógicos. Um lugar repleto de monstros que não se atacam e só se alimentam quando conseguem devorar um aventureiro infeliz não é muito verossímil. Nos primórdios do RPG, realismo (ou mesmo coerência) não era exatamente um requisito para as aventuras. Porém, hoje em dia — especialmente em cenários com histórias mais detalhadas e profundas, como Arton —, muitos jogadores podem querer algo mais sólido. Por outro lado, não queremos perder a maluquice divertida das masmorras clássicas.\nEm Tormenta, resolvemos isso com o conceito de espaço de masmorra — lugares sobrenaturais, “abençoados” por Hyninn, o Deus da Trapaça, para serem sempre perigosos, mesmo que nem sempre isso faça sentido. Assim, ao chegar em um complexo de grutas e túneis, o grupo pode estar adentrando um lugar com um toque místico, que não precisa necessariamente seguir as leis da realidade do resto do mundo. Um lugar onde monstros podem esperar em suas salas, sem se alimentar e sem morrer de fome, até que o próximo aventureiro infeliz caia em suas garras.\nPara mais informações sobre espaços de masmorra, consulte os livros da Jornada Heroica: Fim dos Tempos."
+                }
+            ]
+        },
+        {
+            "type": "folder",
+            "name": "Domínios",
+            "items": [
+                {
+                    "type": "item",
+                    "name": "Domínios",
+                    "description": "Em Arton, a bravura é recompensada. Um herói que defenda uma aldeia do ataque de um monstro pode assumir a responsabilidade de protegê-la contra ameaças futuras, tornando-se senhor dessa terra. De forma similar, um aventureiro que realize um serviço valioso para um monarca pode ser recompensado com um título de nobreza e a autoridade sobre um feudo.\nTais recompensas conferem a esses indivíduos poder e influência. É claro que, com o poder, também vem a responsabilidade. Regentes precisam estar de prontidão para defender suas terras e seu povo, muitas vezes sacrificando seus interesses pelo bem comum."
+                },
+                {
+                    "type": "item",
+                    "name": "Tornando-se Regente",
+                    "description": "Um regente é o senhor de um domínio, responsável pela proteção de uma terra e do povo que lá habita, com autoridade sobre ambos. Há duas formas de se tornar um regente: criar um domínio ou conquistar um já existente. Ambas envolvem uma aventura — a ascensão de um personagem a regente pode mudar a dinâmica de uma campanha e não deve acontecer sem o envolvimento do mestre."
+                },
+                {
+                    "type": "item",
+                    "name": "Criando um Domínio",
+                    "description": "Para criar um domínio, você precisa possuir terras virgens — que pode conquistar como parte de uma aventura. Então deve gastar uma ação de domínio (veja a seguir), T$ 5.000 e fazer um teste de Nobreza (CD 20). Se passar, cria um domínio de nível 1, com corte inexistente, popularidade tolerável e sem tesouro ou construções. Se falhar, pode tentar novamente, gastando mais uma ação de domínio e T$ 5.000."
+                },
+                {
+                    "type": "item",
+                    "name": "Conquistando um Domínio",
+                    "description": "Você pode conquistar um domínio como parte de uma aventura. Por exemplo, se derrotou um tirano que escravizava seu povo, pode tomar o lugar dele como senhor dessas terras. As estatísticas de um domínio existente são definidas pelo mestre."
+                },
+                {
+                    "type": "item",
+                    "name": "Características dos Domínios",
+                    "description": "Um domínio é uma divisão política de terras, governada por um regente. Um domínio geralmente possui de 30 a 100 km de largura — o que significa que um viajante a pé leva de um a três dias para atravessá-lo —, mas suas dimensões exatas não são importantes. Domínios possuem as seguintes características.\n\nNome. Pode ser um nome próprio ou uma referência a uma característica do lugar.\n\nRegente. O nome do senhor do domínio.\n\nNível. Uma medida geral da população, do desenvolvimento e da prosperidade do domínio.\n\nTerreno. O tipo de terreno predominante no domínio.\n\nCorte. O tamanho e qualidade do centro de poder do domínio.\n\nPopularidade. A aceitação do regente entre a população do domínio.\n\nFortificação. A capacidade defensiva do domínio.\n\nTesouro. A riqueza do domínio, medida em lingotes de ouro (LO). Cada LO equivale a T$ 1.000. Embora o tesouro seja medido em lingotes, pode existir na forma de moedas, joias, tapeçarias, sacas de grãos etc. Você não pode usar LO para comprar itens comuns, tampouco pode usar tibares para gastos de domínio. Para converter dinheiro em lingotes e vice-versa, veja a ação finanças, na seção “Turnos de Domínio”.\n\nConstruções. Prédios e outras estruturas que fornecem benefícios ao regente ou ao domínio.\n\nUnidades Militares. Tropas usadas na defesa do domínio e do regente em aventuras."
+                },
+                {
+                    "type": "item",
+                    "name": "Níveis de Domínio",
+                    "description": "O nível de um domínio define quanto você ganha com impostos e seu máximo de construções, e opera em uma escala de 1 a 7. Você pode subir o nível do domínio com a ação governar (veja a p. 324).\n\nNível 0. Terras ermas, desertas ou abandonadas, sem população residente. Não constitui um domínio.\n\nNíveis 1 e 2. Terras esparsamente povoadas, com fazendas e aldeias. Os habitantes são camponeses, caçadores e outros tipos rústicos. As notícias chegam através de mercadores ambulantes — quando chegam. A aparição de um nobre ou de um grupo de aventureiros é um grande evento. Na verdade, até a feira da colheita é um grande evento! A população varia de 1.000 a 2.500 pessoas.\n\nNíveis 3 a 5. Terras povoadas, com mercados e oficinas. As notícias chegam mais rápido, através de arautos, bardos e viajantes. Nobres visitam com frequência e provavelmente haverá pelo menos um grupo de aventureiros residente. A população varia de 5 a 25 mil pessoas.\n\nNíveis 6 e 7. Terras densamente povoadas, com guildas e indústrias prósperas. Todos os tipos de pessoas podem ser encontrados, incluindo alquimistas, escribas e outros indivíduos mais refinados. Nobres e heróis famosos moram aqui e as pessoas estão acostumadas a interagir com eles. As notícias chegam através de emissários reais ou mesmo através de magos com bolas de cristal — embora mascates e bardos ainda sejam a melhor fonte de fofocas e rumores. A população varia de 50 a 100 mil pessoas."
+                },
+                {
+                    "type": "item",
+                    "name": "Terreno",
+                    "description": "O tipo de terreno mais comum no domínio. Outros tipos podem estar presentes, mas este será o principal. Por exemplo, um domínio de planície pode ter bosques e colinas, mas será principalmente plano e descampado, assim como um domínio de floresta pode ter clareiras, mas será em sua maioria tomado por árvores e vegetação.\nO terreno limita o nível máximo e o potencial mágico do domínio (veja a p. 325), além de ser um requisito para certas construções. A Tabela 4-9 lista os tipos de terrenos e os limites de cada um."
+                },
+                {
+                    "type": "item",
+                    "name": "Corte",
+                    "description": "O local de onde você governa seu domínio. É classificada em quatro categorias, que determinam sua qualidade (e o padrão de vida que ela proporciona). Categorias baixas impõem penalidades em testes de ações de domínio, enquanto categorias altas concedem acesso a conselheiros e ações extras. Cada categoria possui um custo de manutenção, que deve ser pago a cada turno de domínio.\n\nInexistente. Você governa o domínio de maneira improvisada, seja nos fundos de uma taverna, seja dentro de uma carroça. Conta com a ajuda de amigos ou, no máximo, servos pagos do seu próprio bolso. Manutenção: 0 LO. –2 em ações de domínio.\n\nPobre. Base de operações equivalente a um salão, com alguns servos, como criado, cozinheiro e escriba. Manutenção: 1 LO. Sem modificadores.\n\nComum. A corte possui uma estrutura completa, com salas de audiência, escritórios e diversos servos, incluindo músicos, tutores e caçadores. Pode sediar reuniões, cerimônias e eventualmente bailes. Os agentes e criados do regente são conhecidos pelo povo, e as pessoas comuns interagem mais com eles do que com o próprio regente em questões do dia a dia. Manutenção: 3 LO. Fornece um conselheiro.\n\nRica. Mais do que uma única sede, a corte é uma rede de prédios espalhados pelo domínio, com um exército de servos e sua própria burocracia. O povo trata os membros da corte como figuras de autoridade e interage com o regente apenas em situações extraordinárias. Manutenção: 5 LO. Fornece três conselheiros e uma ação de domínio extra por turno."
+                },
+                {
+                    "type": "item",
+                    "name": "Conselheiros",
+                    "description": "Se você possui uma corte comum ou rica, recebe um ou três conselheiros, respectivamente. Cada conselheiro permite que você faça testes de uma perícia como se fosse treinado nela (fornecendo o bônus de treinamento), mas apenas para ações de domínio. Quando sua corte atinge o nível necessário, você recebe automaticamente o(s) conselheiro(s).\nA seguir está a lista de conselheiros e suas respectivas perícias: bispo (Religião), capitão da guarda (Guerra), embaixador (Diplomacia), espião (Enganação), falcoeiro (Sobrevivência), magistrado (Investigação), mago da corte (Misticismo), menestrel (Atuação) e senescal (Nobreza)."
+                },
+                {
+                    "type": "item",
+                    "name": "Popularidade",
+                    "description": "Existem cinco categorias de popularidade. De acordo com a categoria, você pode receber um modificador em testes para ações de domínio.\n\nAdorado. Você é amado por seus súditos. Quando você caminha pelas ruas, as pessoas gritam seu nome e lhe presenteiam com bolos. +2 em ações de domínio.\n\nPopular. O povo tem grande apreço por você. Quando você caminha pelas ruas, as pessoas o cumprimentam com afeto e deferência. +1 em ações de domínio.\n\nTolerado. Os habitantes do domínio o tratam com o respeito devido. Quando você caminha pelas ruas, alguns agradecem pela última obra pública, enquanto outros reclamam dos impostos. Sem modificador.\n\nImpopular. As pessoas cumprem seus decretos de má vontade e fazem piadas com seu nome. Ao caminhar pelas ruas, você recebe reclamações e olhares descontentes. –2 em ações de domínio.\n\nOdiado. O povo considera-o um tolo, um tirano ou ambos. Caminhar pelas ruas não é boa ideia, pois as pessoas o xingarão e arremessarão ovos podres em você. –5 em ações de domínio. Se a popularidade baixar para menos do que odiado, uma revolta ocorre (veja a p. 327)."
+                },
+                {
+                    "type": "item",
+                    "name": "Fortificações",
+                    "description": "Uma medida das defesas do domínio contra bandidos, exércitos inimigos e monstros. É definida pela soma do valor de Fortificação de todas as construções defensivas do domínio, como torres de vigia, muralhas e castelos, e aplicada como um bônus nos testes de Guerra do regente feitos para defender o domínio de ataques. Veja mais na p. 327."
+                },
+                {
+                    "type": "item",
+                    "name": "Construções",
+                    "description": "Para erguer uma construção, veja a seção “Turnos de Domínio”, na p. 323. Você só pode erguer construções cujos pré-requisitos cumpra, e pode ter um número máximo de construções igual a três vezes o nível de seu domínio (assim, um domínio de nível 1 pode ter no máximo três construções, um domínio de nível 2 pode ter no máximo seis e assim por diante). A Tabela 4-10 lista a perícia necessária e o custo para cada construção."
+                },
+                {
+                    "type": "folder",
+                    "name": "Lista de Construções",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Abadia",
+                            "description": "Um centro de estudos repleto de livros sagrados que podem lhe ensinar os mistérios da fé. Você aprende uma magia divina de sua lista."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Adega",
+                            "description": "Um espaço no porão com barris e garrafas de vinhos selecionados. Usufruir de uma adega fornece +3 pontos de mana."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Altar",
+                            "description": "Esta mesa de pedra esculpida com um símbolo sagrado é o centro do culto em um templo, o lugar por onde a energia divina é focalizada. Quando usa a habilidade Canalizar Energia, o tipo de dado que você rola muda para d8. Pré-requisito: templo."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Antro de Jogatina",
+                            "description": "Uma sala discreta, onde muito ouro pode ser ganho e muito mais que ouro pode ser perdido. Frequentá-la melhora seus blefes, fornecendo +2 em Enganação. Pré-requisito: taverna."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Aqueduto",
+                            "description": "Este canal construído sobre arcos de pedra com dezenas de metros de altura traz água para o coração do domínio. Quando você rola encontros aleatórios, rola duas vezes e escolhe um resultado."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Arena Arcana",
+                            "description": "Com espelhos capazes de conter efeitos destrutivos, esta sala é feita para treinar ataques mágicos. Você recebe +1 no dano de cada dado de seu Raio Arcano. Pré-requisito: salão dos mistérios."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Arena Clandestina",
+                            "description": "Localizada no porão de uma taverna, num celeiro abandonado ou em outro lugar discreto, esta arena abriga lutas ilegais, nas quais a única regra é que não há regras. Frequentá-la ensina muito sobre golpes baixos, fornecendo Ataque Furtivo +1d6 (cumulativo). Pré-requisito: taverna."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Armorial",
+                            "description": "Esta sala repleta de brasões heráldicos e livros de genealogia ensina a importância de linhagens distintas. O custo de Orgulho diminui em –1 PM. Pré-requisito: forte."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Banhos Públicos",
+                            "description": "Estas fontes termais trazem conforto e higiene aos habitantes do domínio. Você recebe +5 em testes da ação governar."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Bazar",
+                            "description": "Uma loja de artigos variados, como peles, sacas de grãos e ferramentas. Quando compra ou vende itens mundanos (não superiores e não mágicos), você muda o preço em 10% a seu favor."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Biblioteca",
+                            "description": "Com uma coleção de pergaminhos, livros e tomos variados, este lugar tem muito a ensinar. Você se torna treinado em uma perícia."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Bosque Sagrado",
+                            "description": "Esta mata isolada possui árvores entalhadas com runas. Se você possuir um ou mais companheiros animais, um deles não conta em seu limite de parceiros. Pré-requisito: santuário."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Botica",
+                            "description": "Esta cabana de madeira possui diversas ervas medicinais, que fortalecem sua saúde ao serem consumidas com sabedoria. Fornece +1 em Fortitude."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Cabana de Caça",
+                            "description": "Esta choupana permite que você passe dias nos ermos, treinando suas habilidades de caça. O dano de sua Marca da Presa aumenta em um passo (por exemplo, de 1d12 para 3d6)."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Cadafalso",
+                            "description": "Um palanque de madeira para a execução de condenados. Fornece +2 em Intimidação — todos levam a sério um regente acostumado a executar pessoas em praça pública."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Campo de Treinamento",
+                            "description": "Um descampado próximo, onde camponeses podem treinar manobras militares básicas. Permite recrutar milícias."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Canil",
+                            "description": "Em troca de pulgas e cheiro forte, esta construção fornece companheiros tão ferozes quanto leais. Permite recrutar cães de guerra."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Capela",
+                            "description": "Uma pequena construção voltada para preces. Fornece +2 em Religião."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Câmara Mística",
+                            "description": "Uma sala onde espirais de puro poder flutuam, esperando para serem invocadas. Uma vez por aventura, você pode usar um poder de magia de aprimoramento, mesmo que não o possua, sem pagar PM por isso. Pré-requisito: torre de estudos."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Caravançará",
+                            "description": "Um pátio cercado de hospedarias e armazéns, onde caravanas se formam. Você pode gastar uma ação de domínio e até 1d4 LO por nível de domínio para criar uma caravana. Na sua próxima etapa de impostos, faça um teste de Nobreza contra CD 20 + a quantidade de dados gastos (por exemplo, se você gastou 3d4 LO na caravana, a CD será 23). Se você passar, a caravana volta e você recebe 1d4+1 LO por dado gasto. Se passar por 5 ou mais, recebe 1d6+1 LO por dado. Se passar por 10 ou mais, recebe 2d4+1 LO por dado. Se você falhar, a caravana se perdeu e você não recebe nada. Pré-requisitos: bazar, estrada."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Casa de Prazeres",
+                            "description": "Um lugar onde sonhos podem ser comprados, pelo menos por algumas horas. Uma vez por aventura, você pode usar a habilidade Favor (Tormenta 20, p. 79). Se já possuí-la, recebe +5 no teste de Diplomacia para usá-la. Pré-requisito: taverna."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Castelo",
+                            "description": "Esta construção imponente é protegida por fossos, muralhas e torres. Normalmente, seu pátio e térreo são abertos ao público, enquanto os andares superiores servem de residência para o regente, sua família e seus conselheiros. Muda o bônus de fortificação do forte para +5. Pré-requisito: forte."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Catedral",
+                            "description": "Esta igreja grandiosa sedia grandes ritos. Uma vez por dia, os efeitos de uma de suas Missas são dobrados. Pré-requisito: templo."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Celeiro",
+                            "description": "Este depósito garante que sua produção agrícola não se perca. Elimina a penalidade no ganho da fazenda (torna-se 1d6 LO, ou 1d8 LO, se você possuir um moinho). Pré-requisito: fazenda."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Círculo de Pedras",
+                            "description": "Um círculo de pedras dispostas de forma a canalizar os poderes da natureza. Quando você usa Forma Selvagem, aumenta um dos bônus de atributo em +2. Pré-requisito: santuário."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Círculo de Poder",
+                            "description": "Um círculo de runas esculpidas no chão. A CD para resistir às suas magias arcanas aumenta em +1."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Corte de Lei",
+                            "description": "Uma sala ou prédio onde o regente julga disputas entre seus súditos. Fazer isso torna-o mais capaz de discernir o certo do errado. Quando faz um teste de resistência contra um efeito mental, você rola dois dados e usa o melhor resultado."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Curtume",
+                            "description": "Este estabelecimento fornece couro curtido, útil para a produção de armaduras. Seus capangas (incluindo aqueles invocados por poderes) recebem +2 na Defesa."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Docas",
+                            "description": "Aqui marujos se reúnem, contando histórias de aventuras. Sejam verdadeiras, exageradas ou mentirosas, alimentam a sede de façanhas de quem as escuta. Seu bônus de Audácia aumenta em +1 e pode ser usado em testes de ataque. Pré-requisito: porto."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Empório",
+                            "description": "Uma grande loja onde tudo pode ser encontrado — com exceção, talvez, de negócios justos. Uma vez por aventura, você pode comprar ou vender um item superior e mudar o preço em 10% a seu favor. Pré-requisito: bazar."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Esconderijo",
+                            "description": "Um covil de bandoleiros. Permite que você recrute bandidos."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Estalagem",
+                            "description": "Uma lugar onde lendas e canções são compartilhadas, fazendo com que todos se sintam mais heroicos. Uma vez por aventura, você pode realizar uma ação padrão adicional. Pré-requisito: estrada."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Estante de Pergaminhos",
+                            "description": "Esta coleção de textos místicos permite que você descubra novos mistérios. Você aprende uma magia arcana."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Estátua",
+                            "description": "Este monumento de um herói do passado — ou do próprio regente, se ele não for modesto — o impulsiona a atos impressionantes. O máximo de pontos de mana que você pode gastar em uma habilidade passa a ser seu nível +1."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Estrada",
+                            "description": "Este caminho de terra cruza todo o domínio, conta com marcadores de distância e possui valetas para que não vire um lamaçal. O costume de viajar o torna habituado a reagir rapidamente. Fornece +2 em Iniciativa."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Estrebaria",
+                            "description": "Aqui os melhores animais são selecionados e treinados, garantindo que você sempre tenha uma montaria a sua altura. Você recebe um cavalo de guerra veterano. Caso já possua um, ele muda para mestre ou, se já o for, recebe os benefícios de outro tipo de parceiro iniciante (aprovado pelo mestre)."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Fazenda",
+                            "description": "Este campo arado aumenta a produção agrícola do domínio e, consequentemente, a arrecadação de impostos. Fornece 1d6–2 LO por turno de domínio. Como secas, tempestades e pestes podem estregar a colheita, é possível que a fazenda dê prejuízo (mas veja a construção celeiro)."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Feira",
+                            "description": "Um espaço no centro da comunidade onde, uma vez por semana, fazendeiros trazem suas verduras, artesãos trazem seus produtos e todos trazem seu dinheiro — uma parte do qual, graças aos impostos, fica com você. Fornece 1d4 LO por turno de domínio."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Forja",
+                            "description": "Possuir uma forja garante que as armas de suas tropas estejam sempre afiadas. Seus capangas recebem +1 nas rolagens de dano."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Forte",
+                            "description": "Uma torre de madeira erguida em uma posição elevada. O forte é um símbolo de poder, a sede da corte, a residência do regente e, acima de tudo, o lugar para onde todos correm em caso de ataque. Fornece +2 em Fortificação."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Liças",
+                            "description": "Um campo de areia onde combates brutais são travados. Seja por diversão, seja por treinamento, participar das liças torna qualquer um mais feroz. O bônus que você recebe nos testes de ataque e rolagens de dano quando usa Fúria ou Fúria Divina aumenta em +1. Pré-requisito: pátio de treinamento."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Linhas Místicas",
+                            "description": "Você acessa linhas de energia que cruzam a terra e as canaliza para seu domínio, mantendo um fluxo constante de poder mágico. Sempre que você descansa, sua recuperação de pontos de mana aumenta em +1 por nível."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Madeireira",
+                            "description": "Um campo encravado na mata para extração de madeira. Fornece 1d8 LO por turno de domínio, mas pode enfurecer animais e espíritos da natureza — impõe –10% nas rolagens de eventos aleatórios. Pré-requisito: terreno floresta."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Masmorra",
+                            "description": "Um conjunto de túneis, salas e armadilhas, normalmente construído para proteger um tesouro. Planejar a masmorra faz com que você pense sobre como melhor derrotar invasores e fornece +2 na CD de suas habilidades (exceto magias)."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Mercado",
+                            "description": "Como uma feira, mas com mais produtos e dinheiro circulando. Além disso, está sempre aberto, exceto em dias sagrados. Muda o ganho da feira para 1d8 LO. Pré-requisito: feira."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Mina",
+                            "description": "Esta construção pode ser de superfície (um grande buraco no chão) ou subterrânea (com túneis chamados de “galerias”) e tem como objetivo extrair minérios valiosos da terra. Fornece espantosos 1d12 LO por turno de domínio, mas pode atrair monstros do subterrâneo — impõe –20% nas rolagens de eventos aleatórios. Pré-requisito: terreno montanha ou subterrâneo."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Moinho",
+                            "description": "Um engenho movido por vento ou água para moer grãos. Permite a produção de farinha e, consequentemente, melhor aproveitamento da colheita. O ganho da fazenda aumenta para 1d8–2 LO (ou 1d8 LO, se você também tiver um celeiro). Pré-requisito: fazenda."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Mosteiro",
+                            "description": "Uma habitação onde monges vivem em isolamento. Passar um tempo vivendo com os monges, de forma humilde e abnegada, fortalece sua fé. Você recebe +3 pontos de mana, mas apenas se for um conjurador divino (como um clérigo ou druida)."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Muralha",
+                            "description": "Um muro alto formado por grandes blocos de pedra. Possui um passadiço no topo, protegido por merlões e ameias. Muda o bônus de Fortificação da paliçada para +5. Pré-requisito: paliçada."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Obra de Arte",
+                            "description": "Um quadro, escultura ou outra criação inspiradora. Fornece +1 em Vontade."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Oficina",
+                            "description": "Um galpão repleto de bancadas de trabalho e ferramentas, onde pessoas — incluindo o próprio regente — podem trabalhar nas melhores condições. Fornece +2 em Ofício (qualquer)."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Ordem de Cavalaria",
+                            "description": "A sede de uma irmandade devotada à honra e à justiça. Estar perto de pessoas tão exemplares motiva-o a defender o bem. O custo de Baluarte diminui em –1 PM. Pré-requisito: forte."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Palácio",
+                            "description": "Esta construção luxuosa é feita para ostentar o poder do regente, influenciando as pessoas a segui-lo. Aumenta seu limite de parceiros em +1."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Palco",
+                            "description": "Um tablado elevado para espetáculos artísticos. Apresentar-se com frequência mantém suas habilidades afiadas, fornecendo +2 em Atuação."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Paliçada",
+                            "description": "Uma cerca feita de estacas pontiagudas fincadas no chão. Fornece +2 em Fortificação."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Pátio de Treinamento",
+                            "description": "Um espaço para guardas praticarem seus golpes. Um regente que possua um pátio de treinamento acaba observando os exercícios, ficando mais apto. Você recebe uma proficiência a sua escolha ou +1 em testes de ataque."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Pedra de Maldições",
+                            "description": "Uma pedra com símbolos pintados em sangue — ou um altar de ossos, um livro feito de pele humana... Uma vez por aventura, uma criatura em alcance curto sofre –5 em seu próximo teste de resistência, se for realizado até o fim de seu próximo turno. Pré-requisito: salão dos mistérios."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Pista de Arquearia",
+                            "description": "Um campo para a prática de tiro ao alvo, onde camponeses acostumados a caçar pequenos animais podem treinar para caçar presas maiores. Permite recrutar arqueiros."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Pista de Justa",
+                            "description": "Uma faixa de terra onde torneios de cavalaria são disputados. Permite recrutar cavaleiros."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Poço de Adivinhação",
+                            "description": "Permite que o regente observe lugares — ou mesmo épocas — distantes, garantindo que fique preparado para qualquer tipo de situação. Uma vez por aventura, quando faz um teste, você pode rolar dois dados e usar o melhor resultado."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Poço de Piche",
+                            "description": "Um buraco no chão onde substâncias valiosas emergem da terra. As matérias- -primas extraídas do poço fornecem +2 na CD de seus preparados e venenos. Pré-requisito: terreno pântano."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Porto",
+                            "description": "Um porto marítimo, se o domínio ficar na costa, ou fluvial, se ficar no interior do continente, permite que barcos e navios atraquem, trazendo pesca e comércio — e aumentando a arrecadação de impostos. Fornece 1d6 LO por turno de domínio."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Posto de Pedágio",
+                            "description": "Se o regente mantém as estradas em boas condições e espanta monstros, nada mais justo que cobre um pouco de cada viajante. Os impostos que ele já cobra do povo? Ah, esses são para outros gastos! Quando você cobra impostos altos, recebe +1 LO por nível do domínio — postos de pedágio não são nem um pouco populares e não são usados em impostos baixos ou médios. Pré-requisito: estradas."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Povoado Afastado",
+                            "description": "Esta pequena comunidade fica afastada do centro do domínio — longe o bastante para estar perto de outro tipo de terreno. Permite que você erga uma construção com pré-requisito de terreno diferente do seu."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Quarto Luxuoso",
+                            "description": "Você é um rei (ou algo parecido), então faz sentido que durma como um! Seu quarto tem uma cama enorme, com colchão de plumas de ganso, dossel, penteadeira e espelho. Por estar sempre descansado e bem-disposto, você recebe +5 pontos de vida."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Relicário",
+                            "description": "Uma caixa, cofre ou armário onde um objeto sagrado é guardado. A relíquia protege o regente — ou talvez o que o proteja seja a fé das pessoas que visitam o relicário para rezar. Uma vez por aventura, você recebe +5 num teste de resistência. Pré-requisito: capela."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Sala de Mapas",
+                            "description": "Além de mapas dos reinos, esta sala armazena reconstituições de batalhas e relatos de estrategistas. Um regente que estude na sala de mapas aprende a se posicionar no campo de batalha. Você recebe uma ação de movimento adicional no primeiro turno de combate."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Sala de Meditação",
+                            "description": "Uma sala silenciosa, onde você pode se conectar com suas energias místicas. Você recebe +3 pontos de mana, mas apenas se for um conjurador arcano (como um arcanista ou bardo)."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Sala do Trono",
+                            "description": "Uma sala ostentando flâmulas com o brasão do regente e um assento elevado, de onde ele pode receber seus súditos, emissários e outros nobres... E olhá-los de cima. Fornece +2 em Diplomacia. Pré-requisito: forte."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Salão de Guerreiros",
+                            "description": "Um salão de madeira comprido, com mesas longas e braseiros no fundo, onde soldados podem se reunir e trocar histórias de batalha. O custo de Ataque Especial diminui em –1 PM."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Salão dos Mistérios",
+                            "description": "Um ambiente repleto de objetos do oculto, como livros, pergaminhos, cristais, ervas, runas, ossos... além de ser o lar de corvos, gatos pretos, diabretes e outros bichinhos conectados ao lado arcano do mundo. Fornece +2 em Misticismo."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Santuário",
+                            "description": "Um lugar isolado, como uma gruta ou clareira escondida, ideal para venerar espíritos da natureza. Você recebe um poder de druida."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Sede de Guilda",
+                            "description": "Esta associação reúne mestres de diversos ofícios, que podem fornecer o melhor equipamento possível ao regente. No início de cada aventura, um item a sua escolha recebe uma melhoria (exceto material especial), até um máximo de quatro. Pré-requisito: oficina."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Taverna",
+                            "description": "Este lugar de confraternização, música e bebida é o ambiente perfeito para que as pessoas soltem a língua. Uma vez por aventura, você pode interrogar (Tormenta20, p. 120) como uma ação livre e sem gastar dinheiro, representando algo que ouviu numa noite na taverna."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Templo",
+                            "description": "Um centro de devoção. Quando constrói um templo, você recebe um poder de clérigo."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Torre de Estudos",
+                            "description": "Esta torre isolada permite que você se dedique ao aprendizado místico. Quando você constrói uma torre de estudos, recebe um poder de arcanista cujos pré-requisitos cumpra."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Torre de Guarnição",
+                            "description": "Esta torre serve de dormitório, área de convivência e depósito de equipamento para os homens e mulheres que defendem o domínio. Permite recrutar guardas."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Torre de Vigia",
+                            "description": "Uma torre na fronteira, perfeita para avistar bandidos, monstros e outros invasores. Trabalhar como sentinela faz você ficar alerta e preparado para a ação. Fornece +2 em Percepção."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Trupe de Malabaristas",
+                            "description": "Estes acrobatas, mágicos e outros artistas podem divertir o regente e toda a sua corte, além de ensinar alguns truques úteis. Fornece +1 em Reflexos."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Universidade",
+                            "description": "Uma instituição de ensino e pesquisa, onde conhecimento é gerado e distribuído. Quando constrói uma universidade, você recebe um poder geral."
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "Domínios e o Grupo",
+                    "description": "Por padrão, apenas o regente pode realizar ações de domínio e se beneficiar das construções. Porém, de acordo com o mestre, outros personagens podem gastar seu tempo entre aventuras para ajudar nas ações do regente ou mesmo fazer suas próprias ações de domínio.\nDe forma similar, o mestre pode permitir que outros aventureiros se beneficiem das construções — nesse caso, cada construção fornece seu benefício para apenas um personagem. Com essa opção, é possível considerar que o domínio pertence a todos os personagens, em vez de apenas a um, e que o grupo o governa como um conselho."
+                },
+                {
+                    "type": "item",
+                    "name": "Unidades Militares",
+                    "description": "Unidades militares são tropas sob comando de um regente."
+                },
+                {
+                    "type": "item",
+                    "name": "Adquirindo Unidades",
+                    "description": "Unidades são adquiridas através da ação de domínio recrutar tropas. Cada vez que faz essa ação, você pode recrutar um número máximo de tropas igual ao nível do domínio. Nenhum teste é necessário, mas você precisa possuir determinadas construções e gastar lingotes de ouro. As construções e o custo variam de acordo com a unidade (veja a tabela)."
+                },
+                {
+                    "type": "item",
+                    "name": "Usando Unidades",
+                    "description": "Unidades podem ser usadas para defender um domínio e para ajudar o regente em aventuras.\n\nDefendendo um Domínio. Quando um domínio é atacado, seja pelo resultado de um evento aleatório, seja como parte de uma aventura, as unidades entram em ação (veja as regras de batalha simplificadas, na p. 327). O Poder da unidade — uma medida geral da eficácia da tropa no campo de batalha — é sua principal estatística nessas regras. Se você possuir o livro Jornada Heroica: Guerra Artoniana, também pode resolver confrontos envolvendo domínios como batalhas em massa. Note que essa opção é mais demorada e via de regra é melhor deixá-la apenas para batalhas importantes dentro da campanha.\n\nAjudando em Aventuras. Ao partir para uma aventura, um regente pode levar parte de suas unidades consigo. Nesse caso, elas funcionam como capangas (veja a p. 241), cada uma com 10 membros e as estatísticas da tabela abaixo. Unidades militares não contam em seu limite de parceiros. Em vez disso, o máximo de unidades que você pode levar é igual ao nível do seu domínio. Assim, o regente de um domínio de nível 3 pode levar até três unidades em uma aventura. Você pode usar cada unidade em apenas uma cena. Após isso, a unidade retorna a suas terras, tendo cumprido seu dever para com o regente, e só poderá ser usada novamente a partir da próxima aventura."
+                },
+                {
+                    "type": "item",
+                    "name": "Lista de Unidades Militares",
+                    "description": "A seguir (Tabela 4-11) está uma lista resumida de tropas. O mestre pode criar novas unidades militares para sua campanha, desde tropas comuns, como fundeiros e lanceiros, até unidades especiais, como arqueiros élficos e legionários táuricos. Lembre-se de inventar também as construções para recrutá-las."
+                },
+                {
+                    "type": "item",
+                    "name": "Turnos de Domínio",
+                    "description": "Domínios não são estáticos. Com o passar do tempo, reinos fazem alianças e entram em guerra, prosperam e decaem. Esses eventos grandiosos ocorrem nos turnos de domínio.\nUm turno de domínio acontece no fim de cada aventura, desde que haja pelo menos um regente no grupo. De acordo com o mestre, um turno de domínio pode ocorrer no meio de uma aventura, desde que tempo suficiente transcorra na história — geralmente, uma estação (três meses). Quando um turno de domínio acontece, o regente deve resolver as seguintes etapas."
+                },
+                {
+                    "type": "item",
+                    "name": "Etapa Um: Eventos",
+                    "description": "Se o seu domínio for de nível 3 ou maior, role 1d% e consulte a Tabela 4-13, na página 326 (domínios de nível 1 ou 2 são muito pequenos e pacatos para serem afetados por eventos aleatórios). Caso role um evento, ele afetará o seu domínio neste turno."
+                },
+                {
+                    "type": "item",
+                    "name": "Etapa Dois: Impostos",
+                    "description": "Decida se vai cobrar impostos baixos, médios ou altos. Então role na tabela a seguir seus ganhos, de acordo com o nível do domínio e os impostos cobrados. Role também os ganhos de quaisquer construções que você possua que forneçam um rendimento.\nApós fazer isso, pague os custos de manutenção de sua corte e de suas unidades militares. Se você não pagar a manutenção de sua corte, ela baixa uma categoria e o caos temporário no governo impõe –5 em todas as ações de domínio nesse turno. Se não pagar a manutenção de uma unidade militar, você a perde.\nPor fim, se cobrou impostos baixos, aumente sua popularidade em uma categoria. Se cobrou impostos altos, diminua-a em uma categoria."
+                },
+                {
+                    "type": "folder",
+                    "name": "Etapa Três: Ações",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Etapa Três: Ações",
+                            "description": "Você pode fazer duas ações de domínio por turno. Isso conta como sua ação de tempo entre aventuras (veja Tormenta20, p. 276). Algumas ações exigem um teste de perícia e/ou o gasto de uma quantidade de lingotes de ouro (indicados na descrição da ação). No caso de ações que exigem um teste e um gasto, o valor deve ser pago mesmo que a ação falhe."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Aumentar Corte",
+                            "description": "Você contrata servos e cortesãos, aumentando sua corte em uma categoria. Esta ação também pode ser usada para trocar um conselheiro ou diminuir sua corte em uma categoria (essas opções gastam uma ação e exigem o teste de perícia, mas não gastam LO). Teste: Nobreza (CD 20). Custo: 1 LO (ou 0 LO)."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Construir",
+                            "description": "Você ergue uma construção — de novas fazendas para aumentar sua colheita a uma muralha para proteger suas terras. Teste: definido pela construção (CD 20 + nível do domínio). Custo: definido pela construção."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Convocar Camponeses",
+                            "description": "Você faz o povo pegar em armas para defender suas terras. Esta ação gera 1d6 unidades de camponeses, mas diminui sua popularidade em uma categoria. As tropas ficam disponíveis até o fim do turno. Teste: nenhum. Custo: 1 LO."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Extorquir",
+                            "description": "Você cobra impostos abusivos. Isso fornece 1d6 LO + nível do domínio, mas diminui sua popularidade em uma categoria. Teste: Intimidação (CD 20 + nível do domínio). Custo: 0 LO."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Festival",
+                            "description": "Você organiza uma festa ou cerimônia para alegrar o povo. Sua popularidade aumenta em uma categoria. Teste: Atuação (CD 20 + nível do domínio). Custo: 1 LO."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Finanças",
+                            "description": "Você converte seu dinheiro pessoal em lingotes de ouro para usar em seu domínio — ou o contrário. A conversão ocorre à taxa de T$ 1.000 para 1 LO. Teste: Nobreza (CD 20). Custo: —."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Governar",
+                            "description": "Você atende a demandas de seus súditos, fazendo suas terras prosperarem. Seu domínio sobe um nível. Teste: Nobreza (CD 20 + duas vezes o próximo nível do domínio). Custo: 5 LO x o próximo nível do domínio (por exemplo, para subir um domínio de nível 2 para 3, você precisa fazer um teste de Nobreza contra CD 26 e gastar 15 LO). Você só pode fazer esta ação uma vez por turno de domínio."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Recrutar Tropas",
+                            "description": "Você recruta uma ou mais unidades militares (até um máximo igual ao nível do domínio por ação), cuja construção correspondente você possua. Teste: nenhum. Custo: definido pela unidade militar."
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "Domínios Místicos",
+                    "description": "Um domínio comum representa aldeias, cidades e castelos, mas esse não é o único tipo de domínio existente em Arton. Torres de magos, templos de clérigos e locais similares também podem ser domínios. Chamados de domínios místicos, tais lugares são centros de energias arcanas e divinas. Eles podem assumir diversas formas — uma torre de cristal, uma mansão de ossos, um palácio de folhas… — e são capazes de influenciar as terras ao redor.\nAo criar um domínio, se possuir níveis em uma classe com a habilidade Magias, você pode escolher que ele seja um domínio místico em vez de um domínio normal. Domínios místicos não possuem população (pelo menos, não em quantidade significativa), mas fornecem poderes a seus regentes. Em termos de regras, funcionam como domínios normais, com as seguintes exceções.\n\nMenos Dinheiro. Domínios místicos não possuem colheitas, comércio ou indústria — consequentemente, não geram impostos. Eles ainda rendem dinheiro, proveniente de poções fabricadas pelo regente, gemas preciosas expelidas pela própria terra ou qualquer outra coisa que o jogador invente e o mestre aprove. Entretanto, o valor é menor que o de um domínio normal. Em termos de regras, domínios místicos rendem 1 LO por nível por turno.\n\nSem Popularidade. Como domínios místicos possuem poucos habitantes (ou mesmo nenhum), não possuem a característica popularidade. Não há pessoas suficientes lá para que sua reação seja relevante.\n\nConstruções Restritas. Domínios místicos só podem ter construções que exijam testes de Misticismo ou Religião para serem construídas.\n\nPoderes Mágicos. O regente de um domínio místico recebe um número de pontos de mana extras igual ao nível do domínio elevado ao quadrado. Assim, um domínio de nível 1 fornece 1 PM, um domínio de nível 2 fornece 4 PM, um domínio de nível 3 fornece 9 PM e assim por diante. Canalizar o poder da terra aumenta em muito a capacidade mágica de um conjurador! Os pontos de mana são recebidos mesmo que o regente esteja fora do domínio.\n\nPotencial Mágico. O nível máximo de um domínio místico é determinado pelo terreno onde ele se encontra. Veja “Terrenos”, na página 315.\n\nMisturando Domínios. É possível ter um domínio normal e um domínio místico na mesma terra. Conduza cada domínio de forma separada — cada um possui seu próprio nível e outras características. Eles podem ser governados por regentes diferentes ou pelo mesmo regente. Se você for regente do domínio normal e do domínio místico, recebe os benefícios de ambos. Entretanto, continua tendo apenas duas ações por turno de domínio, que precisará dividir entre eles. Ser um rei mago não é fácil!\nAlém disso, a presença da civilização afeta a força mágica da terra. Se um domínio místico coexiste com um domínio normal, o nível máximo do domínio místico é igual ao potencial mágico do terreno menos o nível do domínio normal. Por exemplo, se uma colina (potencial mágico 5) tiver um domínio normal de nível 3, poderá ter um domínio místico de no máximo nível 2. Isso explica por que muitos arcanistas se isolam da civilização e erguem suas torres nos ermos. Domínios de raças que, a critério do mestre, sejam muito ligadas à magia (como elfos, eiradaan, qareen, sílfides…) não diminuem o potencial mágico da terra."
+                },
+                {
+                    "type": "folder",
+                    "name": "Eventos Aleatórios",
+                    "items": [
+                        {
+                            "type": "item",
+                            "name": "Ataque de Dragão",
+                            "description": "Um dragão surge e despeja fúria flamejante sobre a terra. Fujam por suas vidas! O domínio perde um nível, uma construção aleatória e 1d6 unidades. O dragão então parte, deixando um rastro de destruição. De acordo com o mestre, pode ser possível enfrentá-lo em uma aventura para impedir os efeitos deste evento. Porém, de acordo com o nível dos personagens, pode ser mais prudente fugir com os plebeus..."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Bandidos",
+                            "description": "Bandoleiros ou piratas roubam o povo. No final de cada turno de domínio, a popularidade diminui em uma categoria até eles serem derrotados. Isso exige gastar uma ação de domínio para atacá-los com tropas (veja “Batalhas Simplificadas”, a seguir) e vencer o teste oposto. Os bandidos têm Poder igual a 2d4 + o nível do domínio e seu líder tem Guerra igual a 2d4+5."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Corrupção",
+                            "description": "Sua corte é tomada por desonestidade e falcatruas. Os ganhos do domínio diminuem em 1d6 LO por turno até a corrupção ser desbaratada. Isso exige gastar uma ação de domínio e passar em um teste de Intuição ou Investigação. Se você passar no teste, a corrupção acaba, mas a corte diminui em uma categoria devido às demissões — ou execuções — necessárias."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Fenômeno Mágico",
+                            "description": "Um evento bizarro e sobrenatural. Role 1d6: 1) Mortos vagam pela terra! Você não pode fazer ações de domínio nesse turno. 2-3) Uma comitiva feérica visita e traz o caos (troca bebês por duendes, faz as vacas ficarem inteligentes e atacarem os fazendeiros...). Você sofre –5 nas ações de domínio nesse turno. 4-6) Um bruxo amaldiçoa a terra. Você sofre –2 nas ações de domínio nesse turno (e o leite azeda)."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Fenômeno Natural",
+                            "description": "Um evento climático. Role 1d6: 1) Desastre, como um tornado ou terremoto. O domínio perde 1 nível. 2-3) Problema maior, como uma inundação ou um incêndio. O domínio perde uma construção aleatória. 4-6) Problema menor, como uma nevasca, uma tempestade, um desmoronamento ou uma seca. Os ganhos do domínio diminuem em 1d6 LO nesse turno."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Intriga",
+                            "description": "A corte é envolvida em uma intriga. Um conselheiro está sendo chantageado, documentos importantes foram roubados... Acabar com a intriga exige gastar uma ação de domínio e passar em um teste de Enganação. Se você falhar, ou se não fizer nada, a corte e a popularidade diminuem em uma categoria."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Invasores",
+                            "description": "Uma força considerável (companhia mercenária, exército inimigo, horda humanoide) ataca o domínio. Veja “Batalhas Simplificadas”, a seguir. Os invasores possuem Poder igual a 1d12 por nível do domínio (domínios mais ricos atraem mais cobiça) e seu líder tem Guerra igual a 2d6+10."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Levante",
+                            "description": "A população se enfurece! A razão fica a cargo do mestre: o povo pode estar sendo manipulado por um aristocrata invejoso, enfeitiçado por um bruxo... A popularidade diminui em duas categorias (o que pode causar uma revolta, veja a seguir)."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Monstro",
+                            "description": "Um monstro ataca o domínio. Caçá-lo e matá-lo exige gastar uma ação de domínio e passar em um teste de Sobrevivência. Se você falhar, ou se não fizer nada, a popularidade diminui em uma categoria e o domínio perde uma construção aleatória, quando então o monstro vai embora, de bucho cheio."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Peste",
+                            "description": "Uma doença natural ou mágica assola o domínio. A popularidade baixa em uma categoria e você perde 1d3+1 unidades."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Questão Comercial",
+                            "description": "Um problema econômico, como uma disputa entre guildas ou o surgimento de contrabandistas. Resolvê-lo exige gastar uma ação de domínio e passar em um teste de Diplomacia. Se você falhar (ou se não fizer nada), os ganhos do domínio diminuem em 2d6 LO nesse turno."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Questão de Justiça",
+                            "description": "Uma questão legal precisa ser resolvida, desde um fazendeiro colocando sua cerca nas terras do vizinho até o assassinato de um plebeu pelas mãos de um nobre que acredita poder sair incólume por ter sangue azul. Julgar a questão exige gastar uma ação de domínio e passar em um teste de Intuição ou Investigação. Se você falhar, ou se não fizer nada, a popularidade diminui em duas categorias."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Questão Diplomática",
+                            "description": "Um emissário de outro reino exige algo do domínio. O mestre decide o quê — um tributo no valor de 2d6 LO, o empréstimo de 1d4 tropas por dois turnos, o uso de uma construção nesse turno... Você pode aceitar a exigência, ignorá-la ou tentar convencer o emissário de que a exigência é descabida (exige gastar uma ação de domínio e fazer um teste de Diplomacia; se você passar, pode recusar a demanda sem consequências). Ignorar a exigência (ou falhar no teste de Diplomacia) pode acarretar ações hostis do outro reino — talvez até mesmo um ataque no próximo turno (veja o evento invasores)."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Regalia",
+                            "description": "Um evento favorável! Role 1d6: 1-2) Clima bom melhora a colheita, o suserano o presenteia… (+1d6 LO nesse turno). 3-4) Um conselheiro tem uma boa ideia, os plebeus se unem para ajudar o domínio… (+2 nos testes de ação de domínio nesse turno). 5-6) Um festival ocorre, um arco-íris mágico surge e deixa todos felizes… (popularidade aumenta em uma categoria)."
+                        },
+                        {
+                            "type": "item",
+                            "name": "Saqueadores",
+                            "description": "Este evento funciona como invasores (veja acima), mas representa uma força menor. Os saqueadores têm Poder igual a 1d8 por nível do domínio e seu líder tem Guerra igual a 2d4+10."
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "Resolvendo Eventos",
+                    "description": "Há duas maneiras de resolver eventos aleatórios. A mais simples, aconselhada para campanhas em que domínios são mais pano de fundo do que palco principal, é com um teste de perícia. Quando isso for possível, estará indicado no evento. Conselheiros com perícias que o regente não possua são muito úteis nesses casos. A CD do teste é 25 + 2 x o nível do domínio (27 para um domínio de nível 1, 29 para um domínio de nível 2 e assim por diante). Note que nem todos os eventos podem ser resolvidos com testes. Nesses casos, o efeito do evento ocorre automaticamente, sem que o regente possa impedi-lo.\nA outra maneira, mais detalhada, envolve transformar os eventos em cenas — ou mesmo aventuras completas — que devem ser jogadas como parte da sessão. Nesse caso, os personagens podem tentar resolver qualquer tipo de evento, mesmo aqueles que não podem ser resolvidos pela regra simplificada."
+                },
+                {
+                    "type": "item",
+                    "name": "Batalhas Simplificadas",
+                    "description": "Batalhas envolvendo domínios são resolvidas com um teste oposto de Guerra entre o regente e o líder inimigo. O teste possui os modificadores a seguir.\n\nPoder. Some o Poder das unidades de cada exército. Outros personagens (que sejam não o comandante do exército) podem ajudar na batalha, fornecendo Poder de acordo com seu patamar: 1 para iniciante; 2 para veterano, 5 para campeão e 10 para lenda. O comandante do exército com maior Poder recebe um bônus em seu teste de Guerra igual à diferença entre os valores de Poder.\n\nFortificação. O regente soma a Fortificação do domínio em seu teste de Guerra.\nExemplo: um domínio com duas unidades de milícia (Poder total 2) e uma paliçada (Fortificação 2) é atacado por saqueadores com Poder 5. Como o Poder dos atacantes é 3 pontos maior que o Poder do defensor, os atacantes recebem +3 no teste de Guerra. Porém, o defensor recebe +2 em seu teste pela Fortificação do domínio.\nApós calcular os modificadores, faça o teste oposto e veja abaixo a consequência para o domínio.\n\n• Regente vence por 10+. Vitória total! Invasores são repelidos e você ganha espólios de 1d6 LO.\n• Regente vence por 5+. Vitória! Invasores são repelidos.\n• Regente vence. Invasores são repelidos, mas ao custo de vidas. O domínio perde 1d3 unidades.\n• Regente perde. Invasores saqueiam a terra. O domínio perde 1d3+1 unidades e 2d6 LO.\n• Regente perde por 5+. Invasores queimam propriedades. O domínio perde 1d4+1 unidades, 3d6 LO e uma construção aleatória.\n• Regente perde por 10+. Invasores massacram o povo. O domínio perde 2d4+1 unidades, 4d6 LO, uma construção aleatória e um nível."
+                },
+                {
+                    "type": "item",
+                    "name": "Revoltas",
+                    "description": "Se a qualquer momento a popularidade do regente baixar para menos do que odiado, ela permanece nessa categoria e uma revolta se inicia. Enquanto a revolta durar, os impostos do domínio são reduzidos a 0 LO e uma construção aleatória é destruída no fim de cada turno de domínio. A revolta termina se a popularidade aumentar para impopular ou maior."
+                }
+            ]
+        }
+    ]
+}
