@@ -50,7 +50,7 @@
       "proficiency": "Armaduras Leves"
     },
     {
-      "name": "Armadura de engenhoqueiro goblin ",
+      "name": "Armadura de engenhoqueiro goblin",
       "price": "T$ 85",
       "defenseBonus": "+3",
       "armorPenalty": "–2 a –10",
@@ -142,6 +142,14 @@
       "price": "T$ 350",
       "defenseBonus": "+7",
       "armorPenalty": "–3",
+      "spaces": "5",
+      "proficiency": "Armaduras Pesadas"
+    },
+    {
+      "name": "Escafandro Kliren",
+      "price": "T$ 1.200",
+      "defenseBonus": "+8",
+      "armorPenalty": "–6",
       "spaces": "5",
       "proficiency": "Armaduras Pesadas"
     },

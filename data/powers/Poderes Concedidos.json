@@ -74,6 +74,10 @@
       "description": "Você pode gastar uma ação de movimento e 2 PM para receber +2 na Defesa e em Intimidação, e redução de corte, frio e trevas 5 até o fim da cena."
     },
     {
+      "name": "Arma de Morte Ragnar",
+      "description": "Você pode gastar 1 PM para imbuir uma arma que estiver empunhando com energia sombria até o fim da cena. A arma causa +2 pontos de dano de trevas. Sempre que você reduzir um inimigo a 0 PV ou menos com a arma, esse bônus aumenta em +1 (aumento máximo limitado por sua Força)."
+    },
+    {
       "name": "Armas da ambição Valkaria",
       "description": "Você recebe +1 em testes de ataque e na margem de ameaça com armas nas quais é proficiente."
     },
@@ -88,6 +92,10 @@
     {
       "name": "Armas e Espólios Dunsark",
       "description": "Você recebe uma proficiência a sua escolha entre armaduras pesadas, armas de fogo, armas marciais ou escudos. Se já tiver proficiência com armas marciais, pode escolher armas exóticas. Além disso, quando rolar um tesouro, como na tabela de Tesouro por Nível de Desafio (Tormenta20, p. 328), você pode rolar duas vezes para cada coluna apropriada e escolher entre os dois resultados."
+    },
+    {
+      "name": "Arquearia de Outrora Glórienn",
+      "description": "Você recebe proficiência em arco longo. Além disso, você considera todos os arcos como armas preferidas de Glórienn e, se tiver a habilidade Golpe Divino, pode usá-la em ataques à distância com arcos."
     },
     {
       "name": "Arsenal das Profundezas Oceano",
@@ -108,6 +116,10 @@
     {
       "name": "Ataque Piedoso Lena, Thyatis",
       "description": "Você pode usar armas corpo a corpo para causar dano não letal sem sofrer a penalidade de –5 no teste de ataque."
+    },
+    {
+      "name": "Aura Bélica Keenn",
+      "description": "Você pode gastar 2 PM para gerar uma aura belicosa com 9m de raio e que dura até o fim da cena. Cada criatura que entrar na aura ou começar seu próprio turno dentro dela deve fazer um teste de Vontade (CD Car; criaturas com algum código de não violência, como devotos de Lena e Marah, recebem +5). Se falhar, deve fazer ao menos uma ação hostil, se puder, contra a criatura com quem tiver a categoria de atitude mais baixa (em caso de empate, a mais próxima entre elas). Uma criatura que passe no teste de Vontade percebe o que aconteceu e fica imune a este poder por um dia."
     },
     {
       "name": "Aura de Medo Kally",
@@ -132,6 +144,10 @@
     {
       "name": "Barreira de Coral Oceano",
       "description": "Você pode gastar uma ação de movimento e 3 PM para cobrir seu corpo de coral. Até o fim da cena, você recebe +5 na Defesa e, sempre que sofrer um ataque corpo a corpo, o atacante sofre dano de perfuração igual a 1d6 + sua Constituição. Para cada patamar acima de iniciante, esse dano aumenta em +1d6."
+    },
+    {
+      "name": "Beleza Protetora Glórienn",
+      "description": "Quando faz um teste de resistência ou de perícia para resistir a uma manobra de combate, você pode gastar 1 PM para somar o seu Carisma nesse teste."
     },
     {
       "name": "Belo Presente Wynna",
@@ -226,6 +242,10 @@
       "description": "Você pode gastar 2 PM para cobrir uma arma, um escudo ou um esotérico que esteja empunhando com carapaça quitinosa. Até o fim da cena, o item recebe os benefícios de matéria vermelha (Tormenta20, p. 167), cumulativo com outros materiais especiais. Se usar este poder em uma arma produzida com Armamento Aberrante, seu custo é reduzido em –1 PM."
     },
     {
+      "name": "Cura Desafiadora Keenn",
+      "description": "Em seu apreço por violência pura, Keenn despreza poderes de cura. Devotos que usam tais magias o fazem desafiando abertamente a vontade de seu deus. Quando lança uma magia de cura, você pode gastar +2 PM para que isso não viole suas Obrigações & Restrições."
+    },
+    {
       "name": "Cura Gentil Lena",
       "description": "Você soma seu Carisma aos PV restaurados por seus efeitos mágicos de cura."
     },
@@ -248,6 +268,10 @@
     {
       "name": "Despertar do Gigante Teldiskan",
       "description": "Você pode gastar uma ação de movimento e 3 PM para se tornar fisicamente mais imponente. Até o fim da cena você recebe +1 em Força e é considerado uma categoria de tamanho maior para modificadores de manobra de combate."
+    },
+    {
+      "name": "Desprezar Cura Keenn",
+      "description": "Você recebe +2 em testes de ataque e rolagens de dano com armas e redução de dano 2. Esses valores aumentam em +1 para cada patamar além de iniciante. Entretanto, você não recupera pontos de vida por nenhum efeito, exceto descanso."
     },
     {
       "name": "Discurso Conciliador Marah",
@@ -312,6 +336,10 @@
     {
       "name": "Escudo Mágico Wynna",
       "description": "Quando lança uma magia, você recebe um bônus na Defesa igual ao círculo da magia lançada até o início do seu próximo turno."
+    },
+    {
+      "name": "Esgrima do Povo Ancestral Glórienn",
+      "description": "Você pode usar sua Destreza em vez de Força nos testes de ataque e rolagens de dano com espadas curtas, espadas longas e floretes. Se tiver Acuidade com Arma, em vez disso você recebe +1 em testes de ataque e rolagens de dano com estas armas."
     },
     {
       "name": "Espada Justiceira Khalmyr",
@@ -474,6 +502,10 @@
       "description": "Uma vez por rodada, quando faz um ataque corpo a corpo, você pode pagar 3 PM. Se acertar o ataque, causa dano máximo, sem necessidade de rolar dados."
     },
     {
+      "name": "Legião Tapistana Tauron",
+      "description": "Você pode gastar uma ação completa e 2 PM para invocar 1d4+1 legionários em espaços desocupados em alcance curto. Você pode gastar uma ação de movimento para fazer os legionários andarem (deslocamento 6m). Cada legionário fornece um bônus cumulativo de +2 na Defesa de um aliado adjacente. Cada vez que um ataque contra uma criatura defendida por um legionário erra, um dos legionários defendendo essa criatura desaparece. Os legionários têm For 3, Des 0, Defesa 19, 1 PV e falham automaticamente em qualquer teste de resistência ou oposto. Eles desaparecem quando morrem ou no fim da cena. Os legionários não agem sem receber uma ordem. Usos criativos para capangas fora de combate ficam a critério do mestre."
+    },
+    {
       "name": "Liberdade das Montanhas Altair",
       "description": "Quando faz um teste de Atletismo para escalar, você rola dois dados e usa o melhor resultado. Além disso, se você estiver em terreno elevado, recebe +2 em testes de perícia contra criaturas em terreno inferior."
     },
@@ -548,6 +580,10 @@
     {
       "name": "Mordida de Víbora Sszzaas",
       "description": "Você recebe uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Suas presas são retráteis e podem armazenar até 2 doses de veneno de contato. Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida. Se acertar, pode inocular uma das doses de veneno no alvo."
+    },
+    {
+      "name": "Músculos Divinos Tauron",
+      "description": "Você pode gastar 1 PM para receber +2 em Força por uma rodada."
     },
     {
       "name": "Na Ponta da Língua Garanaam",
@@ -662,6 +698,10 @@
       "description": "Suas magias que causam dano de fogo e que têm um teste de resistência recebem o seguinte aprimoramento: +1 PM: criaturas que falhem na resistência ficam em chamas e lentas até apagarem as chamas."
     },
     {
+      "name": "Proteger os Fracos Tauron",
+      "description": "Você pode gastar 2 PM para fornecer +2 na Defesa e em testes de resistência de um aliado em alcance curto até o fim da cena, ou até você usar esta habilidade novamente em outro aliado, o que acontecer primeiro."
+    },
+    {
       "name": "Pureza Corporal Caerdellach",
       "description": "Você pode gastar uma ação de movimento e 1 PM para cobrir sua mão com luz e tocar uma criatura em alcance corpo a corpo. A criatura recupera 2d6+2 PV. Além disso, aprende e pode lançar a magia Purificação. Se aprender essa magia novamente, o custo dela diminui em –1 PM."
     },
@@ -708,6 +748,10 @@
     {
       "name": "Saque Celestial Lin-Wu",
       "description": "Você pode gastar 1 PM para sacar ou guardar uma arma como uma ação livre. Se sacar sua arma e fizer um ataque corpo a corpo no mesmo turno, você recebe +2 nesse teste de ataque e seu dano aumenta em dois passos (apenas uma vez contra cada criatura por cena)."
+    },
+    {
+      "name": "Sede de Batalha Keenn",
+      "description": "Se estiver em combate, você ganha 1 PM temporário no início de cada um de seus turnos. A cada cena, você pode ganhar um número máximo de pontos de mana com este poder igual ao seu nível. Para este poder, um “combate” é qualquer situação de violência real. Atacar um aliado em uma luta controlada não é um “combate”. Massacrar plebeus indefesos, sim."
     },
     {
       "name": "Selo Impedidor Dahriol",
@@ -760,6 +804,10 @@
     {
       "name": "Teurgista Místico Wynna",
       "description": "Até uma magia de cada círculo que você aprender poderá ser escolhida entre magias divinas (se você for um conjurador arcano) ou entre magias arcanas (se for um conjurador divino). Pré-requisito: habilidade de classe Magias."
+    },
+    {
+      "name": "Toque da Ruína Ragnar",
+      "description": "Você pode gastar 1 PM e uma ação padrão para causar 2d12 pontos de dano de trevas em uma criatura ou objeto em alcance de toque (Fort CD Sab reduz à metade). Um alvo reduzido a 0 PV ou menos vira pó e você recebe PV temporários em valor igual ao dano causado. Você pode aprender Desintegrar como uma magia divina. Se fizer isso, o custo dela diminui em –1 PM."
     },
     {
       "name": "Toque de Esmeralda Esmeralda",
@@ -816,6 +864,10 @@
     {
       "name": "Véu de Toris Toris",
       "description": "Você recebe +5 em Furtividade e não sofre penalidade de armadura em testes dessa perícia. Além disso, você sempre sabe em que direção está Jallar, sendo capaz de encontrar o pequeno reino mesmo com a magia de proteção contra detecção invocada pela deusa."
+    },
+    {
+      "name": "Vingança Élfica Glórienn",
+      "description": "Você recebe +1d6 em rolagens de dano contra goblinoides (goblins, hobgoblins e bugbears) e duyshidakk."
     },
     {
       "name": "Visão nas Trevas Tenebra",

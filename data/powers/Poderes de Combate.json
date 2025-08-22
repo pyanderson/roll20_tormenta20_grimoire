@@ -58,6 +58,10 @@
       "description": "Você sabe chutar áreas sensíveis dos inimigos e usar outros truques sujos. Uma vez por rodada, quando faz uma finta, você pode gastar 1 PM. Se fizer isso e vencer o teste oposto da finta, além dos efeitos de fintar, você pode fazer um ataque desarmado contra o alvo como uma ação livre. Se acertar esse ataque, causa +2d6 pontos de dano. Pré-requisito: Briga ou Estilo Desarmado."
     },
     {
+      "name": "Caminho da Mão Vazia",
+      "description": "Você pode gastar uma ação de movimento e 2 PM para fazer uma coreografia que parece uma dança, mas esconde técnicas que o preparam para a luta. Até o fim da cena, sempre que faz um teste de ataque desarmado, você rola dois dados e usa o melhor resultado. Pré-requisitos: habilidade Briga ou Estilo Desarmado, Sab 1, ser treinado por Kasumi."
+    },
+    {
       "name": "Carga de Cavalaria",
       "description": "Quando faz uma investida montada, você causa +2d8 pontos de dano. Além disso, pode continuar se movendo depois do ataque. Você deve se mover em linha reta e seu movimento máximo ainda é o dobro do seu deslocamento. Pré-requisito: Ginete."
     },
