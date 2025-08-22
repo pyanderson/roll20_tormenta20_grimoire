@@ -514,6 +514,17 @@
               ]
             },
             {
+              "type": "folder",
+              "name": "Guerra Artoniana",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Arco Élfico",
+                  "description": "A principal arma de Alyssa é um arco élfico, um tipo de arco construído com técnicas de antigos mestres de Lenórienn. Um arco élfico possui runas místicas que possibilitam que você sintonize sua mente com cada disparo, permitindo que você aplique sua Inteligência às rolagens de dano (se já faz isso por outra habilidade, em vez disso você recebe +2 nas rolagens de dano). Além disso, também pode ser usado para fazer ataques corpo a corpo como uma arma dupla de duas mãos ágil (dano 1d6/1d6, crítico x2, impacto)."
+                }
+              ]
+            },
+            {
               "type": "item",
               "name": "Armas Improvisadas",
               "description": "Atacar com um objeto que não tenha sido feito para lutar (cadeiras, garrafas quebradas..) provoca penalidade de –2 no teste de ataque. Via de regra, armas improvisadas causam 1d6 pontos de dano, com crítico x2, mas esses valores podem mudar de acordo com o mestre. O tipo de dano é determinado pelo mestre (impacto para cadeira, corte para garrafa quebrada...)."
@@ -942,6 +953,17 @@
                   "type": "item",
                   "name": "Sagna",
                   "description": "Desenvolvido por devotos de Oceano e muito comum em regiões praianas, este grande escudo de madeira também pode ser usado para deslizar pelas ondas. Enquanto você o usa dessa forma, a penalidade de armadura deste escudo e de sua armadura para natação não são aplicadas. Além disso, quando passa em um teste para natação, você avança seu deslocamento normal (em vez de metade); se você já tiver deslocamento de natação, em vez disso ele aumenta em +3m. Um sagna pode ser usado para atacar como um escudo pesado."
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Guerra Artoniana",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Escafandro Kliren",
+                  "description": "O escafandro kliren é uma armadura própria para a sobrevivência no éter divino. A armadura cobre todo o corpo do usuário, protegendo-o do frio e da descompressão, além de armazenar uma reserva de ar respirável. Um escafandro fornece redução de frio 5 e permite respirar por até 1 hora em ambientes inóspitos como debaixo d'água, no vácuo e em nuvens de gás ou fumaça. Após este período, você deve passar pelo menos 10 minutos em um ambiente com ar respirável para recarregar a reserva de ar da armadura."
                 }
               ]
             },

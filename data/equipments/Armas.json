@@ -638,7 +638,7 @@
       "grip": "Duas Mãos"
     },
     {
-      "name": "Tan-korak ",
+      "name": "Tan-korak",
       "price": "T$ 40",
       "damage": "1d8",
       "critical": "x2",
@@ -1073,6 +1073,18 @@
       "name": "Arco de guerra",
       "price": "T$ 200",
       "damage": "1d12",
+      "critical": "x3",
+      "range": "Médio",
+      "damageType": "Perfuração",
+      "spaces": "2",
+      "proficiency": "Armas Exóticas",
+      "purpose": "Ataque à Distância",
+      "grip": "Duas Mãos"
+    },
+    {
+      "name": "Arco Élfico",
+      "price": "T$ 500",
+      "damage": "1d8",
       "critical": "x3",
       "range": "Médio",
       "damageType": "Perfuração",
