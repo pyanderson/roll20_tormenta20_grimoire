@@ -1,0 +1,2082 @@
+{
+  "type": "folder",
+  "name": "Itens Mágicos",
+  "items": [
+    {
+      "type": "item",
+      "name": "Itens Mágicos",
+      "description": "A magia é uma força poderosa e muito presente em Arton. No entanto, itens mágicos são raros. Os heróis artonianos confiam mais nas próprias capacidades do que em objetos para garantir sua vitória.\nPor outro lado, itens mágicos são especiais. Uma espada mágica não será apenas uma ferramenta, usada e descartada assim que surgir algo melhor. Um guerreiro precisará lutar muito por sua arma encantada — e, quando encontrá-la, descobrirá que é única, especial e poderosa.\nItens mágicos são uma forma marcante de recompensa. Tente pensar em pelo menos um item para cada personagem no grupo, um objeto único ligado a sua personalidade, estilo e táticas, e conceda-os apenas em momentos singulares, após bastante esforço.\nItens mágicos são divididos em uso único (poções e pergaminhos) e permanentes (armas, armaduras/ escudos e acessórios). Itens mágicos permanentes ainda são divididos em itens menores, médios e maiores."
+    },
+    {
+      "type": "item",
+      "name": "Usando Itens Mágicos",
+      "description": "Itens mundanos e mágicos seguem as mesmas regras para acúmulo de bônus e limites de uso e carga.\nAssim, se um item mundano e um item mágico fornecem um bônus na mesma característica, eles não se acumulam — use apenas o melhor. Da mesma forma, um personagem vestindo dois itens mundanos e dois itens mágicos não receberá os benefícios de um quinto item vestido.\n\nLimites de Carga. Itens mágicos ocupam espaço como itens mundanos. Uma espada longa flamejante, por exemplo, ocupa 1 espaço — o mesmo que uma espada longa mundana. Acessórios ocupam 1 espaço, a menos que sua descrição indique o contrário. Poções e pergaminhos ocupam meio espaço.\n\nAtivação e Testes. Para itens mágicos com habilidades ativadas, você precisa primeiro identificá- -los (veja a seguir). A menos que sua descrição diga o contrário, ativar um item mágico é uma ação padrão. Para itens com efeitos que exigem teste de resistência, o atributo usado para definir a CD é indicado na descrição do item (para poções e pergaminhos, é Inteligência, Sabedoria ou Carisma, a escolha do usuário).\n• Itens que lançam magias. Lançar magias a partir de itens não exige pronunciar palavras mágicas, gesticular ou se concentrar, e magias arcanas lançadas por meio de itens não sofrem limitação pelo uso de armadura. Você pode usar aprimoramentos, mas precisa pagar por eles.\n\nIdentificando Itens mágicos. Alguns itens mágicos parecem comuns, sem nada de especial. Outros são visivelmente encantados: brilham, zunem ou são cobertos de runas ou gemas faiscantes. Alguns itens trazem inscrições indicando o que podem fazer; essas podem ser mágicas, mudando para um idioma que você saiba ler, ou exigir fluência em línguas exóticas (veja a perícia Conhecimento). Outros podem não trazer qualquer pista sobre seu funcionamento. Nesse caso, os poderes só ficam claros se você identificar o item. Para isso, use a perícia Misticismo — ou a velha tentativa e erro. Você pode subir naquela vassoura velha e saltar da janela. Se for uma vassoura voadora, você sairá voando. Se não for..."
+    },
+    {
+      "type": "folder",
+      "name": "Fabricando Itens Mágicos",
+      "items": [
+        {
+          "type": "item",
+          "name": "Fabricando Itens Mágicos",
+          "description": "Itens mágicos podem ser fabricados por conjuradores e inventores com os poderes apropriados."
+        },
+        {
+          "type": "item",
+          "name": "Itens de Uso Único",
+          "description": "Para fabricar uma poção ou pergaminho, escolha uma magia ou fórmula que você conheça. Essa será a magia que o item irá conter (poções podem conter apenas magias que tenham como alvo uma criatura ou objeto, ou que tenham efeito em área). O preço do item é T$ 30 x o custo em PM da magia ao quadrado (mínimo 1), e a CD para fabricá-lo é 20 + o custo em PM da magia. A seguir, alguns exemplos.\n\n    Magia de 1º círculo (1 PM): preço = T$ 30 x (1^2) = T$ 30; CD para fabricar = 20 + 1 = CD 21.\n    Magia de 3º círculo (6 PM): preço = T$ 30 x (6^2) = T$ 1.080; CD para fabricar = 20 + 6 = CD 26.\n\nQuando fabrica uma poção, você pode aplicar aprimoramentos nela, até seu limite de gasto de PM, como se estivesse lançando a magia. O custo e a CD do teste de Ofício são ajustados de acordo. Quando fabrica um pergaminho, você não pode aplicar aprimoramentos. Porém, pode fazer isso ao ativá-lo."
+        },
+        {
+          "type": "item",
+          "name": "Itens Permanentes",
+          "description": "Armas e armaduras mágicas podem ser encantadas ou específicas. Acessórios são sempre específicos.\n\nItens Encantados. Funcionam como itens superiores (veja a página 164) — mas, em vez de melhorias, possuem encantos. Um item mágico menor possui um encanto, um médio possui dois e um item mágico maior possui três encantos. O preço e a CD do teste de Ofício aumentam de acordo com o número de encantos (veja a tabela ao lado). Bônus por encantos não se acumulam.\nUm mesmo item pode ser superior e encantado. Some os modificadores de preço e CD no teste de Ofício, e os bônus fornecidos por melhorias e encantos para determinar o bônus do item.\nAssim, uma espada longa com um encanto tem preço de T$ 18.015. Fabricá-la exige um gasto de T$ 6.005 e um teste de Ofício contra CD 30. Já uma espada longa com quatro melhorias e três encantos (o máximo possível) tem preço de T$ 90.015 (T$ 15 da espada + T$ 18.000 das quatro melhorias, mais T$ 72.000 dos três encantos). Fabricá- -la exige um gasto de T$ 30.005 e um teste de Ofício contra CD 60. Apenas os maiores armeiros são capazes de forjar uma arma dessas!\n\nItens Específicos. Usam as regras de fabricação de itens de Ofício. O preço de cada item aparece nas tabelas a seguir. A CD do teste de Ofício é dada pela categoria do item: CD 30 para itens menores, CD 40 para médios e CD 50 para itens maiores. Por fim, a perícia usada é determinada pelo tipo de item: Ofício (armeiro) para armas e armaduras e Ofício (artesão) para acessórios. De acordo com o mestre, outros Ofícios podem ser usados para itens específicos — como Ofício (joalheiro) para um anel. Itens específicos não podem receber encantos. Todas as armas e armaduras específicas deste livro são itens maiores.\n\nCusto em Pontos de Mana. Para fabricar um item mágico permanente, o personagem deve sacrificar certa quantidade de pontos de mana: 1 PM para itens menores, 2 PM para médios e 3 PM para itens maiores. É essa essência que irá energizar o item. Os pontos de mana são perdidos para sempre. Contudo, caso o personagem destrua um item mágico permanente que criou, recupera os PM sacrificados naquele item. De acordo com o mestre, outras coisas podem ser sacrificadas no lugar de pontos de mana, como ingredientes raros. Porém, encontrar um ingrediente desses é sempre uma tarefa difícil — talvez o objetivo de uma aventura!"
+        }
+      ]
+    },
+    {
+      "type": "item",
+      "name": "Destruindo Itens Mágicos",
+      "description": "Para determinar as características de um item mágico, veja a seção “Quebrando Objetos”, do Capítulo 5, para as características de um item normal do mesmo tipo. Itens mágicos permanentes recebem um bônus em PV e RD conforme sua categoria: +10 para itens menores, +20 para médios e +40 para maiores. Por exemplo, uma espada longa (normalmente PV 5 e RD 10) de categoria maior tem PV 45 e RD 50.\nUm item mágico que não esteja sendo usado faz seus próprios testes de resistência. O valor depende da categoria: +5 para itens menores, +10 para médios e +20 para maiores. Se estiver sendo usado, pode escolher entre seu valor ou o do portador."
+    },
+    {
+      "type": "folder",
+      "name": "Armas",
+      "items": [
+        {
+          "type": "item",
+          "name": "Armas",
+          "description": "Para gerar uma arma mágica aleatoriamente, role na Tabela 8-4 para definir o tipo de arma. Então role na tabela a seguir para determinar seus encantos. Role uma vez para itens menores, duas para médios e três vezes para itens maiores. Se rolar “arma específica”, role na Tabela 8-9 (nesse caso, o item perderá quaisquer encantos rolados)."
+        },
+        {
+          "type": "folder",
+          "name": "Encantos",
+          "items": [
+            {
+              "type": "item",
+              "name": "Ameaçadora",
+              "description": "A margem de ameaça da arma duplica. Por exemplo, uma espada longa ameaçadora tem margem de ameaça 17. Efeitos que duplicam a margem de ameaça são aplicados antes de quaisquer efeitos que a aumentem."
+            },
+            {
+              "type": "item",
+              "name": "Anticriatura",
+              "description": "A arma é letal contra um tipo de criatura (ou uma raça de humanoides). Uma vez por rodada, quando ataca uma criatura desse tipo, você pode gastar 2 PM. Se fizer isso e acertar o ataque, causa +4d8 de dano. Para determinar o tipo de criatura aleatoriamente, role 1d6: 1) animal; 2) construto; 3) espírito; 4) monstro; 5) morto-vivo; 6) uma raça de humanoides."
+            },
+            {
+              "type": "item",
+              "name": "Arremesso",
+              "description": "A arma pode ser arremessada em alcance curto. Caso já pudesse ser arremessada, seu alcance aumenta em uma categoria. Após o ataque, se estiver livre, a arma volta voando para você. Pegá-la é uma reação."
+            },
+            {
+              "type": "item",
+              "name": "Assassina",
+              "description": "A arma aumenta os dados de dano extra de um ataque furtivo para d8. Além disso, quando faz um Ataque Furtivo, você pode gastar 2 PM. Se fizer isso, pode rolar novamente quaisquer resultados 1 nesses dados de dano extra."
+            },
+            {
+              "type": "item",
+              "name": "Caçadora",
+              "description": "A arma persegue o alvo, anulando penalidades por camuflagem leve e total e por cobertura leve. Caso a arma seja de ataque à distância, seu alcance também aumenta em uma categoria."
+            },
+            {
+              "type": "item",
+              "name": "Congelante",
+              "description": "A arma causa +1d6 de dano de frio. Uma vez por rodada, quando ataca, você pode gastar 2 PM. Se fizer isso e acertar o ataque, a vítima fica enredada por uma rodada. Uma arma congelante é coberta por uma camada de gelo e névoa."
+            },
+            {
+              "type": "item",
+              "name": "Conjuradora",
+              "description": "Um conjurador pode lançar na arma uma magia que tenha como alvo uma criatura ou que afete uma área. A magia não gera efeito na hora; em vez disso, fica guardada no item. Quando acerta um ataque com a arma, você pode descarregar a magia guardada como uma ação livre e sem pagar seu custo. Ela tem como alvo (ou como ponto de origem de sua área) a criatura ou ponto atingido pelo ataque. Uma vez que a magia seja descarregada, outra pode ser armazenada."
+            },
+            {
+              "type": "item",
+              "name": "Corrosiva",
+              "description": "A arma causa +1d6 de dano de ácido. Uma vez por rodada, quando ataca, você pode gastar 2 PM. Se fizer isso e acertar o ataque, a vítima sofre 4d4 pontos de dano de ácido na próxima rodada. Uma arma corrosiva exala vapores e goteja líquido tóxico."
+            },
+            {
+              "type": "item",
+              "name": "Dançarina",
+              "description": "Você pode gastar uma ação de movimento e 1 PM para fazer a arma flutuar e atacar uma criatura em alcance curto a sua escolha, com as mesmas estatísticas que teria se você a estivesse empunhando. Este efeito tem duração sustentada; se parar de sustentá-lo, a arma cai no chão."
+            },
+            {
+              "type": "item",
+              "name": "Defensora",
+              "description": "A arma se movimenta para aparar ataques contra você. Você recebe +2 na Defesa."
+            },
+            {
+              "type": "item",
+              "name": "Destruidora",
+              "description": "Se usada contra construtos e objetos (com a manobra quebrar), a arma fornece +2 no teste de ataque e causa +2d8 de dano."
+            },
+            {
+              "type": "item",
+              "name": "Dilacerante",
+              "description": "A arma inflige ferimentos profundos. Quando faz um acerto crítico com a arma, você causa +10 pontos de dano."
+            },
+            {
+              "type": "item",
+              "name": "Drenante",
+              "description": "Quando você faz um acerto crítico em uma criatura viva, a criatura fica fraca e você ganha 2d10 pontos de vida temporários. Uma arma drenante emite um brilho púrpura."
+            },
+            {
+              "type": "item",
+              "name": "Elétrica",
+              "description": "A arma causa +1d6 de dano de eletricidade. Uma vez por rodada, quando ataca, você pode gastar 2 PM. Se fizer isso e acertar o ataque, um raio atinge outra criatura em alcance curto, causando 3d8 pontos de dano de eletricidade. Uma arma elétrica emite faíscas e é coberta de arcos voltaicos."
+            },
+            {
+              "type": "item",
+              "name": "Energética",
+              "description": "A arma tem sua parte perigosa (a lâmina de uma espada, a ponta de uma lança...) transformada em magia pura. Ela fornece +4 em testes de ataque, ignora 20 pontos de redução de dano, converte todo o dano causado para essência e emana luz como uma tocha. Pré-requisito: formidável."
+            },
+            {
+              "type": "item",
+              "name": "Excruciante",
+              "description": "A arma inflige dor terrível. Uma criatura viva atingida fica fraca. Se já estiver fraca, mesmo por este efeito, fica debilitada (a condição máxima que esta arma pode causar)."
+            },
+            {
+              "type": "item",
+              "name": "Flamejante",
+              "description": "A arma causa +1d6 de dano de fogo. Uma vez por rodada, quando ataca, você pode gastar 2 PM. Se fizer isso, em vez do ataque normal você dispara uma bola de fogo contra um alvo em alcance médio. O alvo sofre 6d6 pontos de dano. Um teste de Reflexos (CD For ou Des, à sua escolha) reduz à metade. Uma arma flamejante emana chamas como uma tocha."
+            },
+            {
+              "type": "item",
+              "name": "Formidável",
+              "description": "A arma é encantada para desferir golpes precisos. Ela fornece +2 em testes de ataque e rolagens de dano."
+            },
+            {
+              "type": "item",
+              "name": "Lancinante",
+              "description": "A arma inflige ferimentos mortais. Quando faz um acerto crítico com a arma, você causa +10 pontos de dano ou, além de multiplicar os dados de dano, multiplica também quaisquer bônus numéricos, a sua escolha. Este efeito substitui o efeito de dilacerante. Pré-requisito: dilacerante."
+            },
+            {
+              "type": "item",
+              "name": "Magnífica",
+              "description": "A arma é encantada para desferir golpes perfeitos. Ela fornece +4 em testes de ataque e rolagens de dano. Pré-requisito: formidável."
+            },
+            {
+              "type": "item",
+              "name": "Piedosa",
+              "description": "A arma causa +1d8 de dano, mas todo o dano causado é não letal. Você pode gastar 1 PM para desativar e ativar este encanto."
+            },
+            {
+              "type": "item",
+              "name": "Profana",
+              "description": "A arma causa +2d8 de dano contra devotos de deuses que canalizam apenas energia positiva e criaturas bondosas (a critério do mestre). Uma arma profana emite luz rubra pulsante."
+            },
+            {
+              "type": "item",
+              "name": "Sagrada",
+              "description": "A arma causa +2d8 de dano contra devotos de deuses que canalizam apenas energia negativa e criaturas malignas (a critério do mestre). Uma arma sagrada emite uma sutil luz pura."
+            },
+            {
+              "type": "item",
+              "name": "Sanguinária",
+              "description": "Uma criatura viva atingida fica sangrando. A perda de PV por sangramento causada pela arma é cumulativa — uma criatura atingida duas vezes perde 2d6 PV por sangramento por rodada."
+            },
+            {
+              "type": "item",
+              "name": "Trovejante",
+              "description": "A arma emite um trovão ribombante a cada golpe. Quando você faz um acerto crítico, a vítima fica atordoada por uma rodada (apenas uma vez por cena; Fort CD For ou Des, a sua escolha, evita)."
+            },
+            {
+              "type": "item",
+              "name": "Tumular",
+              "description": "A arma causa +1d8 de dano de trevas. Uma vez por rodada, quando ataca, você pode gastar 2 PM. Se fizer isso, o bônus de dano aumenta para +2d8, mas você perde 1d8 pontos de vida. Uma arma tumular drena o calor ao redor."
+            },
+            {
+              "type": "item",
+              "name": "Veloz",
+              "description": "Você recebe a habilidade Ataque Extra, do guerreiro, mas só pode usá-la com esta arma. Se já a possui, em vez disso, o custo para usá-la com esta arma diminui em –1 PM."
+            },
+            {
+              "type": "item",
+              "name": "Venenosa",
+              "description": "Uma vez por rodada, quando ataca, você pode gastar 2 PM. Se fizer isso e acertar o ataque, a vítima fica envenenada, perdendo 1d12 pontos de vida por rodada durante 3 rodadas. Uma arma venenosa verte um líquido verde e viscoso."
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Armas Específicas",
+          "items": [
+            {
+              "type": "item",
+              "name": "Arco do Poder",
+              "description": "O arco do poder conta como um arco longo formidável, mas parece apenas o corpo de um arco — não tem corda e não aceita flechas. Contudo, quando você o empunha e faz o gesto de puxar a corda inexistente, o arco cria uma corda e uma flecha de energia dourada. O arco do poder é capaz de ler suas intenções, produzindo diferentes tipos de flechas energéticas a sua escolha.\n• Flecha Normal. 3d8 pontos de dano de essência.\n• Flecha Piedosa. 4d8 pontos de dano de essência não letal.\n• Flecha Explosiva. 3d6 pontos de dano de fogo no alvo e em todas as criaturas adjacentes a ele. Essas têm direito a um teste de Reflexos (CD Des) para reduzir o dano à metade.\n• Flecha-Rede. Não causa dano, mas deixa a vítima agarrada por uma rede de energia. A criatura pode se soltar passando em um teste de Força ou Acrobacia (CD 25). A rede se dissipa quando a criatura se solta ou no fim da cena."
+            },
+            {
+              "type": "item",
+              "name": "Avalanche",
+              "description": "Este machado de guerra de gelo eterno congelante formidável fornece redução de fogo 10. Você pode gastar uma ação padrão e 6 PM para brandi-lo acima de sua cabeça e invocar uma tempestade de gelo que afeta alcance curto ao seu redor. Criaturas na área recebem camuflagem leve e sofrem 3d6 pontos de dano de impacto e 3d6 pontos de frio por rodada. Você não sofre os efeitos nocivos da tempestade (o dano e a chance de falha pela camuflagem) e pode gastar 1 PM no início de cada um de seus turnos para mantê-la."
+            },
+            {
+              "type": "item",
+              "name": "Azagaia dos Relâmpagos",
+              "description": "Quando arremessada, esta azagaia se transforma em um Relâmpago (8d6 de dano de eletricidade numa linha com alcance médio; CD For ou Des a sua escolha). Quando atinge o fim do alcance ela volta a ser uma azagaia e volta para você no fim do turno."
+            },
+            {
+              "type": "item",
+              "name": "Besta Explosiva",
+              "description": "Esta besta pesada formidável é feita de madeira escurecida, similar a carvão. Quando usa uma besta explosiva, você pode gastar 3 PM para transformar o virote disparado por ela em uma Bola de Fogo. Você pode mirar esta Bola de Fogo em uma criatura ou em um ponto em alcance médio.\nNo primeiro caso, faça um ataque contra o alvo. Se acertar, ele sofre o dano do disparo mais 6d6 de fogo. Além disso, todas as criaturas a até 6m do alvo sofrem 6d6 pontos de dano de fogo (Ref CD Des reduz à metade). Porém, se o ataque errar, o virote se desfaz em uma nuvem de cinzas inofensivas.\nNo segundo caso, ela funciona como a magia de mesmo nome. Nenhum teste de ataque é necessário e todas as criaturas a 6m do ponto escolhido sofrem 6d6 pontos de dano de fogo (Ref reduz à metade)."
+            },
+            {
+              "type": "item",
+              "name": "Cajado da Destruição",
+              "description": "Este bordão formidável escuro e reforçado com ponteiras de metal é procurado por conjuradores de batalha. Conta como um cajado arcano. Além dos benefícios desse esotérico, quando você lança uma magia de dano, ela causa +1 ponto de dano por dado."
+            },
+            {
+              "type": "item",
+              "name": "Cajado da Vida",
+              "description": "Este bordão formidável branco com runas prateadas é valorizado por curandeiros. Conta como um cajado arcano, mas afeta magias divinas. Além disso, quando você lança uma magia de cura, ela cura +2 pontos de vida por dado."
+            },
+            {
+              "type": "item",
+              "name": "Cajado do Poder",
+              "description": "Este bordão defensor magnífico tem cabo reto e liso, com uma joia cintilante na ponta. Conta como um cajado arcano. Além dos benefícios desse esotérico, o custo de suas magias arcanas diminui em –1 PM (cumulativo com Mestre em Escola) e a CD para resistir a elas aumenta em +2 (para um aumento total de +3)."
+            },
+            {
+              "type": "item",
+              "name": "Espada Baronial",
+              "description": "Esta espada longa de guarda reta fornece +1 em testes de ataque e rolagens de dano. Este bônus aumenta em +1 se você possuir um código de conduta (de honra, do herói...), for devoto de Khalmyr ou for treinado em Nobreza. Os bônus são cumulativos — um personagem com um código de conduta, devoto de Khalmyr e treinado em Nobreza recebe +4 em ataque e dano."
+            },
+            {
+              "type": "item",
+              "name": "Espada Sortuda",
+              "description": "Esta espada curta formidável é cravejada de brilhantes. Você recebe +2 nos testes de resistência e, quando faz um teste, pode gastar 3 PM para rolá-lo novamente. Se possuir o poder Sortudo, em vez disso seu custo diminui em –1 PM."
+            },
+            {
+              "type": "item",
+              "name": "Florete Fugaz",
+              "description": "Este florete formidável tem o cabo e a guarda trabalhados com prata e pedrarias. Quando usa a ação agredir, você pode gastar 1 PM. Se fizer isso e acertar um crítico no turno, pode fazer um ataque adicional contra a mesma criatura."
+            },
+            {
+              "type": "item",
+              "name": "Lâmina da Luz",
+              "description": "De lâmina prateada e reluzente, esta espada bastarda formidável é concedida a cavaleiros da Luz de honra e virtude comprovadas. Você pode gastar uma ação de movimento e 2 PM para erguer a lâmina da luz acima de sua cabeça. Se fizer isso, ela irradia luz brilhante em alcance médio até o fim da cena. Todos os inimigos dentro da luz ficam ofuscados."
+            },
+            {
+              "type": "item",
+              "name": "Lança Animalesca",
+              "description": "Espinhos e folhas vivas brotam desta lança formidável. Se você usar a habilidade Forma Selvagem, aplica o bônus de +2 em ataque e dano da lança animalesca em suas armas naturais."
+            },
+            {
+              "type": "item",
+              "name": "Língua do Deserto",
+              "description": "Esta cimitarra formidável é originária do Deserto da Perdição. Você pode gastar uma ação de movimento e 1 PM para transformar a lâmina dela em chamas até o fim da cena. Nessa condição, o dano da arma aumenta em um passo e passa a ser do tipo fogo. Você pode gastar uma ação de movimento e 2 PM para fazer as chamas brilharem com muita força. Isso deixa os inimigos em alcance curto desprevenidos por uma rodada."
+            },
+            {
+              "type": "item",
+              "name": "Maça do Terror",
+              "description": "Esta maça formidável é feita com um osso e um crânio e permite que você lance a magia Amedrontar (CD For ou Car a sua escolha). Caso já conheça a magia, o custo para lançá-la diminui em –1 PM."
+            },
+            {
+              "type": "item",
+              "name": "Machado Silvestre",
+              "description": "O cabo e a lâmina deste machado de batalha formidável são cobertos de gravuras representando plantas e animais selvagens. Quando você usa o machado silvestre em um ambiente ermo e ao ar livre, causa +1d8 de dano e recebe o poder Trespassar. Caso já possua este poder, pode utilizá-lo sem pagar pontos de mana."
+            },
+            {
+              "type": "item",
+              "name": "Martelo de Doherimm",
+              "description": "Este martelo de guerra formidável é feito de pedra e aço. Quando empunhado por um anão, adquire o encanto arremesso e aumenta seu dano em +1d8 (ou +2d8 se usado contra criaturas Grandes ou maiores)."
+            },
+            {
+              "type": "item",
+              "name": "Punhal Sszzaazita",
+              "description": "Esta adaga assassina formidável venenosa tem lâmina negra e ondulada. Você pode gastar uma ação padrão e 2 PM para transformar o punhal sszzaazita em um objeto inofensivo de tamanho similar, como uma colher ou pena. Nenhuma magia é capaz de detectar essa transformação. Transformar o punhal em arma é uma ação livre."
+            },
+            {
+              "type": "item",
+              "name": "Vingadora Sagrada",
+              "description": "Esta espada longa formidável revela todo o seu poder apenas quando empunhada por um paladino. Se você for um paladino, recebe +5 em testes de ataque e rolagens de dano, o custo de seu Golpe Divino é reduzido em –1 PM e você e seus aliados em alcance curto recebem resistência a magia +5."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "Armaduras & Escudos",
+      "items": [
+        {
+          "type": "item",
+          "name": "Armaduras & Escudos",
+          "description": "Para gerar uma armadura ou escudo mágico aleatoriamente, role na Tabela 8-4 para definir o tipo de armadura ou escudo. Então role na tabela a seguir para determinar seus encantos. Role uma vez para itens menores, duas para médios e três vezes para itens maiores. Se rolar “item específico”, role na Tabela 8-11 (nesse caso, o item perderá quaisquer encantos rolados)."
+        },
+        {
+          "type": "folder",
+          "name": "Encantos de Armaduras e Escudos",
+          "items": [
+            {
+              "type": "item",
+              "name": "Abascanto",
+              "description": "Você recebe resistência a magia +5."
+            },
+            {
+              "type": "item",
+              "name": "Abençoado",
+              "description": "Você recebe redução de trevas 10 e +5 em testes de resistência contra efeitos de necromancia. Um item abençoado é decorado com gravuras de símbolos sagrados de deuses do Bem."
+            },
+            {
+              "type": "item",
+              "name": "Acrobático",
+              "description": "Você recebe +5 em Acrobacia e ignora a penalidade de armadura do item para testes dessa perícia."
+            },
+            {
+              "type": "item",
+              "name": "Alado",
+              "description": "Você pode gastar 2 PM para fazer asas emergirem de suas costas e receber deslocamento de voo 12m com duração sustentada."
+            },
+            {
+              "type": "item",
+              "name": "Animado",
+              "description": "Você pode gastar uma ação de movimento e 1 PM para fazer o escudo flutuar ao seu redor até o fim da cena. Você recebe o mesmo bônus na Defesa que receberia se estivesse empunhando o escudo, mas fica com as duas mãos livres. Você só pode ser protegido por um escudo ao mesmo tempo."
+            },
+            {
+              "type": "item",
+              "name": "Assustador",
+              "description": "Você pode gastar uma ação de movimento e 2 PM para gerar uma onda de medo. Inimigos em alcance curto devem passar num teste de Vontade (CD Car) ou ficarão abalados até o fim da cena. Um item assustador possui manchas de sangue, ossos pendurados e outras decorações horripilantes."
+            },
+            {
+              "type": "item",
+              "name": "Cáustica",
+              "description": "Você recebe redução de ácido 10 e pode gastar uma ação de movimento e 2 PM para fazer o item gotejar ácido. Se fizer isso, seus ataques causam +1d4 de dano de ácido até o fim da cena."
+            },
+            {
+              "type": "item",
+              "name": "Defensor",
+              "description": "O item é encantado para desviar golpes. O bônus na Defesa do item aumenta em +2."
+            },
+            {
+              "type": "item",
+              "name": "Escorregadio",
+              "description": "Você recebe +10 em testes de Acrobacia para escapar e em testes de manobra contra agarrar. Um item escorregadio parece estar sempre coberto de óleo levemente gorduroso."
+            },
+            {
+              "type": "item",
+              "name": "Esmagador",
+              "description": "Este escudo fornece +2 em ataques e dano e tem seu dano aumentado em um passo."
+            },
+            {
+              "type": "item",
+              "name": "Fantasmagórico",
+              "description": "Você pode lançar a magia Manto de Sombras. Um item fantasmagórico é cinzento e esfumaçado."
+            },
+            {
+              "type": "item",
+              "name": "Fortificado",
+              "description": "Você recebe 25% de chance (para escudos) e 50% de chance (para armaduras) de ignorar o dano extra de acertos críticos e ataques furtivos."
+            },
+            {
+              "type": "item",
+              "name": "Gélido",
+              "description": "Você recebe redução de frio 10 e pode gastar uma ação de movimento e 2 PM para se cobrir de gelo até o fim da cena. Se fizer isso, recebe 10 PV temporários. Um item gélido é azulado e frio ao toque."
+            },
+            {
+              "type": "item",
+              "name": "Guardião",
+              "description": "O item emite um campo de força que desvia ataques. O bônus na Defesa do item aumenta em +4. Pré-requisito: defensor."
+            },
+            {
+              "type": "item",
+              "name": "Hipnótico",
+              "description": "Você pode gastar uma ação padrão e 3 PM para emitir luzes coloridas. Inimigos em alcance curto devem passar num teste de Vontade (CD Car) ou ficarão fascinados por 1d6 rodadas. O efeito termina se qualquer criatura afetada for atacada. Um item hipnótico é espalhafatoso e colorido."
+            },
+            {
+              "type": "item",
+              "name": "Ilusório",
+              "description": "Você pode gastar uma ação de movimento e 1 PM para fazer o item adquirir a aparência de uma roupa comum, mas mantendo suas propriedades (bônus na Defesa, penalidade de armadura...). A magia Visão da Verdade revela o item disfarçado."
+            },
+            {
+              "type": "item",
+              "name": "Incandescente",
+              "description": "Você recebe redução de fogo 10 e pode gastar uma ação de movimento e 2 PM para fazer o item emitir labaredas até o fim da cena. Se fizer isso, no início de cada um de seus turnos você causa 1d6 pontos de dano de fogo em todas as criaturas adjacentes. Um item incandescente é avermelhado e quente ao toque."
+            },
+            {
+              "type": "item",
+              "name": "Invulnerável",
+              "description": "Você recebe redução de dano 2 (para escudos) ou 5 (para armaduras)."
+            },
+            {
+              "type": "item",
+              "name": "Opaco",
+              "description": "Você recebe redução de ácido, eletricidade, fogo e frio 10. Um item opaco parece sem cor, totalmente comum e desinteressante."
+            },
+            {
+              "type": "item",
+              "name": "Protetor",
+              "description": "Você recebe +2 em testes de resistência."
+            },
+            {
+              "type": "item",
+              "name": "Refletor",
+              "description": "Uma vez por rodada, quando você é alvo de uma magia, pode gastar PM igual ao custo dela para refleti-la de volta ao conjurador. As características da magia (efeitos, CD...) se mantêm, mas você toma qualquer decisão exigida por ela. Um item refletor parece espelhado."
+            },
+            {
+              "type": "item",
+              "name": "Relampejante",
+              "description": "Você recebe redução de eletricidade 10 e pode gastar uma ação de movimento e 2 PM para gerar arcos voltaicos até o fim da cena. Se fizer isso, qualquer criatura que o ataque em corpo a corpo sofre 2d6 pontos de dano de eletricidade. Um item relampejante é decorado com ouro, prata e cobre."
+            },
+            {
+              "type": "item",
+              "name": "Reluzente",
+              "description": "Você pode gastar uma ação de movimento e 2 PM para emitir um clarão de luz. Todos os inimigos em alcance curto devem passar num teste de Reflexos (CD Car) ou ficarão cegos por uma rodada. Um item reluzente é polido e brilhante."
+            },
+            {
+              "type": "item",
+              "name": "Sombrio",
+              "description": "Você recebe +5 em Furtividade e ignora a penalidade de armadura do item para testes dessa perícia. Um item sombrio é escuro, fosco e bem lubrificado, para não fazer barulho."
+            },
+            {
+              "type": "item",
+              "name": "Zeloso",
+              "description": "Uma vez por rodada, se um aliado adjacente for alvo de um ataque, você pode gastar 1 PM para se tornar o alvo do ataque, que então é resolvido normalmente."
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Armaduras Específicas",
+          "items": [
+            {
+              "type": "item",
+              "name": "Armadura da Luz",
+              "description": "Esta armadura completa banhada a ouro reforçada guardiã zelosa possui o símbolo de Khalmyr gravado no peitoral. Se você possuir um código de conduta (de honra, do herói...) ou for devoto de uma divindade que canaliza apenas energia positiva, recebe redução de dano igual ao seu Carisma."
+            },
+            {
+              "type": "item",
+              "name": "Baluarte Anão",
+              "description": "Esta armadura completa reforçada defensora de adamante fornece proteção sem igual. Se você não se deslocar em seu turno, a RD que ela fornece aumenta para 10 até seu próximo turno."
+            },
+            {
+              "type": "item",
+              "name": "Carapaça Demoníaca",
+              "description": "Esta armadura completa macabra reforçada guardiã é forjada para fazer com que o usuário pareça um demônio — o elmo tem o formato de uma cabeça demoníaca com chifres e o usuário enxerga através da boca aberta e repleta de dentes. Se você for devoto de uma divindade que canaliza apenas energia negativa, os seus ataques corpo a corpo causam +1d8 de dano de trevas."
+            },
+            {
+              "type": "item",
+              "name": "Cota Élfica",
+              "description": "Composta de anéis finíssimos, esta cota de malha defensora de mitral parece ser feita de seda. Ela permite que você aplique sua Destreza na Defesa como se fosse uma armadura leve."
+            },
+            {
+              "type": "item",
+              "name": "Couraça do Comando",
+              "description": "Esta couraça banhada a ouro sob medida defensora irradia uma aura de autoridade. Você recebe +1 em Carisma. Se usar o poder Comandar, o bônus fornecido aumenta para +2."
+            },
+            {
+              "type": "item",
+              "name": "Couro de Monstro",
+              "description": "Usado por chefes bárbaros das Montanhas Sanguinárias, este gibão de peles defensor é feito do couro de monstros, como basiliscos e serpes. Se você usar o poder Ataque Poderoso ou fizer uma investida, recebe um bônus de +2d6 nas rolagens de dano."
+            },
+            {
+              "type": "item",
+              "name": "Loriga do Centurião",
+              "description": "Esta loriga segmentada defensora é dourada com detalhes em vermelho e possui o símbolo de Tauron, antigo Deus da Força, gravado no peitoral. Se estiver liderando uma ou mais criaturas (em termos de jogo, se estiver usando o poder Comandar ou similar), seus ataques corpo a corpo causam +2d6 de fogo."
+            },
+            {
+              "type": "item",
+              "name": "Manto da Noite",
+              "description": "Este couro batido ajustado defensor sombrio é negro com partes metálicas foscas. Quando usa esta armadura, você não sofre penalidade em testes de Furtividade por se mover em seu deslocamento normal e a penalidade que você sofre em testes de Furtividade por atacar diminui para –10."
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Escudos Específicos",
+          "items": [
+            {
+              "type": "item",
+              "name": "Escudo de Azgher",
+              "description": "Este escudo pesado guardião é forjado na forma de um sol estilizado. Você pode gastar uma ação padrão e 10 PM para fazê-lo emitir uma luz brilhante e quente num cone com alcance curto. A luz gera os efeitos da magia Visão da Verdade e causa 6d6 pontos de dano de fogo em todos os seus inimigos (mortos-vivos e criaturas vulneráveis a luz solar sofrem 6d8 pontos de dano). Você pode gastar 1 PM no início de cada um de seus turnos para manter a luz."
+            },
+            {
+              "type": "item",
+              "name": "Escudo do Conjurador",
+              "description": "Este escudo leve defensor tem uma pequena tira de couro na parte interna, sobre a qual um conjurador pode lançar uma magia. A magia não surte efeito na hora; em vez disso, fica inscrita na tira. A tira pode então ser lida como um pergaminho, descarregando a magia em seus alvos/área. Uma vez que a magia seja descarregada, outra pode ser armazenada."
+            },
+            {
+              "type": "item",
+              "name": "Escudo do Eclipse",
+              "description": "Este escudo pesado defensor é completamente negro e parece absorver a luz. Ele fornece redução de trevas 10 e causa +1d8 de dano de trevas num ataque. Além disso, você pode gastar uma ação de movimento e 2 PM para lançar Escuridão."
+            },
+            {
+              "type": "item",
+              "name": "Escudo Espinhoso",
+              "description": "Este escudo pesado defensor é coberto de espinhos. Você pode gastar uma ação de movimento e 2 PM para disparar um espinho em um alvo em alcance curto. O espinho acerta automaticamente e causa 1d10+2 pontos de dano de perfuração."
+            },
+            {
+              "type": "item",
+              "name": "Escudo do Leão",
+              "description": "Este escudo pesado defensor é forjado como uma cabeça de leão rugindo. Uma vez por rodada, você pode gastar 2 PM para fazer a cabeça criar vida e morder uma criatura adjacente. A mordida acerta automaticamente e causa 2d6+2 pontos de dano de perfuração."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "Poções & Pergaminhos",
+      "items": [
+        {
+          "type": "item",
+          "name": "Poções & Pergaminhos",
+          "description": "Poções e pergaminhos contêm o efeito de uma magia. Quando são ativados, geram o efeito dessa magia e então desaparecem. Para gerar uma poção aleatoriamente, role na tabela ao lado.\nPoções e pergaminhos são classificados conforme o círculo da magia que contêm: 1º ou 2º (item mágico menor), 3º ou 4º (médio) e 5º (maior)."
+        },
+        {
+          "type": "item",
+          "name": "Poções",
+          "description": "Uma poção é um líquido mágico armazenado em um frasco de vidro ou cerâmica. Poções que afetam objetos também são chamadas de óleos e poções que geram efeito em área também são chamadas de granadas.\n\nAtivação. Para ativar uma poção você deve bebê-la (a poção afeta quem ingeri-la). Isso exige uma ação padrão. Também é possível dar uma poção a uma criatura inconsciente como uma ação completa ou forçar uma criatura a beber uma poção fazendo a manobra agarrar e então vencendo mais um teste de manobra.\nAtivar um óleo exige uma ação padrão para aplicá-lo no objeto que será afetado. Ativar uma granada exige uma ação padrão para arremessá-la em qualquer ponto em alcance curto (o centro do efeito da magia é o ponto onde a granada foi arremessada)."
+        },
+        {
+          "type": "item",
+          "name": "Pergaminhos",
+          "description": "Um pergaminho mágico é uma folha grossa feita de papel, papiro, couro ou outros materiais. Pergaminhos podem conter qualquer magia. Quando as palavras escritas nele são pronunciadas, a magia é ativada e o pergaminho se desfaz em cinzas.\n\nAtivação. Para ativar um pergaminho você deve lê-lo em voz alta. Isso exige uma ação padrão ou a ação necessária para lançar a magia, o que for maior. Para ler um pergaminho, você deve conhecer a magia escrita nele ou passar em um teste de Misticismo (CD 20 + custo em PM da magia).\nQuando ativa um pergaminho, você toma quaisquer decisões exigidas pela magia, como se a tivesse lançado, e aplica efeitos que se aplicariam às suas próprias magias. Caso conheça a magia, pode aplicar aprimoramentos nela, pagando o custo em pontos de mana deles (você paga apenas o custo dos aprimoramentos, não o custo básico da magia)."
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "Acessórios",
+      "items": [
+        {
+          "type": "item",
+          "name": "Acessórios",
+          "description": "Amuletos de proteção, anéis de invisibilidade, bolas de cristal, tapetes voadores... Todos os itens mágicos que não são armas, armaduras, escudos, poções ou pergaminhos são acessórios.\nPara gerar um acessório aleatoriamente, role nas tabelas a seguir, conforme a categoria do item (menor, médio ou maior)."
+        },
+        {
+          "type": "folder",
+          "name": "Descrição dos Acessórios",
+          "items": [
+            {
+              "type": "item",
+              "name": "Amuleto da Robustez",
+              "description": "Este disco com corrente de ouro é usado como um colar. Você recebe +2 em Constituição (somente após um dia de uso)."
+            },
+            {
+              "type": "item",
+              "name": "Anel da Energia",
+              "description": "Você recebe +5 PM (somente após um dia de uso)."
+            },
+            {
+              "type": "item",
+              "name": "Anel da Liberdade",
+              "description": "Forjado em ouro, este anel é uma relíquia da Igreja de Valkaria. Você fica permanentemente sob efeito de Libertação."
+            },
+            {
+              "type": "item",
+              "name": "Anel da Proteção",
+              "description": "Este anel desvia ataques contra seu usuário. Você recebe +2 de Defesa."
+            },
+            {
+              "type": "item",
+              "name": "Anel da Regeneração",
+              "description": "Você recebe Cura Acelerada 5 (somente após um dia de uso)."
+            },
+            {
+              "type": "item",
+              "name": "Anel da Vitalidade",
+              "description": "Você recebe +10 PV (somente após um dia de uso)."
+            },
+            {
+              "type": "item",
+              "name": "Anel de Invisibilidade",
+              "description": "Ao colocar este anel de prata, você fica sob efeito de Invisibilidade. O efeito termina se você fizer um ataque ou lançar uma magia ofensiva, mas você pode tirar e recolocar o anel (uma ação padrão) para que ele volte a funcionar."
+            },
+            {
+              "type": "item",
+              "name": "Anel de Telecinesia",
+              "description": "Você pode lançar Telecinesia (CD Int). Caso já conheça a magia, o custo para lançá-la diminui em –1 PM."
+            },
+            {
+              "type": "item",
+              "name": "Anel do Escudo Mental",
+              "description": "Você recebe imunidade a magias de adivinhação."
+            },
+            {
+              "type": "item",
+              "name": "Anel do Sustento",
+              "description": "Você não precisa comer ou beber e precisa dormir apenas duas horas por noite para descansar. Os efeitos do anel só se ativam após uma semana de uso."
+            },
+            {
+              "type": "item",
+              "name": "Anel Refletor",
+              "description": "Este aro de platina é poderoso contra conjuradores. Uma vez por rodada, quando você é alvo de uma magia, pode gastar PM igual ao custo dela para refleti-la de volta ao seu conjurador. As características da magia (efeitos, CD...) se mantêm, mas você toma qualquer decisão exigida por ela."
+            },
+            {
+              "type": "item",
+              "name": "Bainha Mágica",
+              "description": "Esta bainha de couro curtido e prata muda de tamanho para acomodar qualquer arma corpo a corpo. Você pode lançar Arma Mágica em qualquer arma na bainha sem pagar seu custo em PM."
+            },
+            {
+              "type": "item",
+              "name": "Bola de Cristal",
+              "description": "Esta pequena esfera revela pessoas e lugares distantes. Olhar através dela é uma ação completa e gera a magia Vidência (CD Sab)."
+            },
+            {
+              "type": "item",
+              "name": "Botas Aladas",
+              "description": "Você pode gastar 2 PM para fazer asas brotarem dos calcanhares destas botas e receber deslocamento de voo 12m por uma rodada. Você pode gastar 1 PM no início de cada um de seus turnos para manter esse efeito."
+            },
+            {
+              "type": "item",
+              "name": "Botas Velozes",
+              "description": "Você recebe +3m em seu deslocamento e pode lançar Velocidade (apenas sobre você mesmo)."
+            },
+            {
+              "type": "item",
+              "name": "Braçadeiras do Arqueiro",
+              "description": "Você recebe +2 em rolagens de dano com armas de ataque à distância (cumulativo com outros itens)."
+            },
+            {
+              "type": "item",
+              "name": "Braceletes de Bronze",
+              "description": "Estes braceletes geram um campo de força invisível, porém tangível. Você recebe +4 na Defesa, cumulativo com outros itens mágicos, mas não com armaduras."
+            },
+            {
+              "type": "item",
+              "name": "Braceletes de Ouro",
+              "description": "Como braceletes de bronze, mas fornece +8 na Defesa , não cumulativo com braceletes de bronze."
+            },
+            {
+              "type": "item",
+              "name": "Brincos da Sagacidade",
+              "description": "Este par de brincos de safira aguça o raciocínio. Você recebe +1 em Inteligência (somente após um dia de uso)."
+            },
+            {
+              "type": "item",
+              "name": "Brincos de Marah",
+              "description": "Este par de brincos brancos é abençoado pela Deusa da Paz. A primeira criatura que o atacar em uma cena deve fazer um teste de Vontade (CD Car). Se falhar, perderá a ação. Se você atacar uma criatura, o efeito dos brincos é cancelado por um dia. Se você possuir Aparência Inofensiva (ou um poder similar) os efeitos acumulam, afetando as duas primeiras criaturas que o atacarem em uma cena."
+            },
+            {
+              "type": "item",
+              "name": "Caveira Maldita",
+              "description": "Esta pedra esculpida em formato de crânio gera o efeito da magia Profanar, com o crânio como ponto de origem. Mortos-vivos e devotos de deuses que canalizam apenas energia negativa na área de efeito recebem +2 em testes e Defesa."
+            },
+            {
+              "type": "item",
+              "name": "Chapéu do Disfarce",
+              "description": "Você pode lançar Disfarce Ilusório (CD Car), com o aprimoramento que inclui odores e sensações e muda o bônus em Enganação para disfarces para +20, sem pagar seu custo em PM. Você não pode usar outros aprimoramentos. Como parte do disfarce, o chapéu pode mudar para um elmo, faixa, tiara, gorro, touca e assim por diante."
+            },
+            {
+              "type": "item",
+              "name": "Cinto da Força do Gigante",
+              "description": "Este cinto largo é feito de couro com rebites de ferro. Você recebe +2 em Força (somente após um dia de uso)."
+            },
+            {
+              "type": "item",
+              "name": "Cinto do Campeão",
+              "description": "Este cinturão de ouro é cravejado de joias e possui gravuras de gladiadores e pugilistas minotauros. Você recebe +1 em Força e a habilidade Briga (veja a página 76; somente após um dia de uso). Caso já a possua, seu dano desarmado será calculado como se você possuísse quatro níveis de lutador a mais (máximo 2d12). Por fim, caso possua o poder Torcida, o bônus que você recebe por ele aumenta para +3. Estes cintos eram dados aos vencedores dos jogos gladiatoriais do Império de Tauron. A cada ano, diversos combatentes de Arton viajavam a Tiberus para competir e ter uma chance de ganhar um destes itens."
+            },
+            {
+              "type": "item",
+              "name": "Colar Guardião",
+              "description": "Este diamante lapidado preso em uma corrente de platina deflete ataques contra seu usuário. Você recebe +5 na Defesa."
+            },
+            {
+              "type": "item",
+              "name": "Corda da Escalada",
+              "description": "Esta corda de 15m é bastante fina, mas forte o suficiente para suportar até seis criaturas Médias (ou 120 espaços). Com um comando (uma ação de movimento), a corda se move em qualquer direção (incluindo para cima) a 3m por rodada, fixando-se firmemente onde você quiser. Ela pode se desamarrar e voltar da mesma forma."
+            },
+            {
+              "type": "item",
+              "name": "Coroa Majestosa",
+              "description": "Esta coroa de ouro possui dezenas de pedras preciosas. Você recebe +2 em Carisma (somente após um dia de uso)."
+            },
+            {
+              "type": "item",
+              "name": "Elmo do Teletransporte",
+              "description": "Você pode lançar Salto Dimensional e Teletransporte, mas apenas em você mesmo. Caso já conheça as magias, o custo para lançá-las diminui em –1 PM."
+            },
+            {
+              "type": "item",
+              "name": "Espelho da Oposição",
+              "description": "Este item lembra um espelho normal com cerca de 1m de comprimento e 1,5m de altura. Pode ser fixado em qualquer superfície e ativado (ou desativado) com um comando. Quando uma criatura observa seu reflexo, o espelho cria uma cópia sua, com as mesmas habilidades e equipamento. A duplicata ataca a criatura original; quando um dos dois é derrotado, a duplicata e seus itens desaparecem."
+            },
+            {
+              "type": "item",
+              "name": "Espelho do Aprisionamento",
+              "description": "Este item de cristal, com 1,5m de altura e moldura de metal, pode ser fixado em qualquer superfície e ativado (ou desativado) com um comando. Qualquer criatura que se aproxime a alcance curto do espelho do aprisionamento e enxergue seu próprio reflexo deve passar em um teste de Reflexos (CD Int) ou será transportada magicamente para um espaço extradimensional dentro do espelho, ficando presa ali. O tamanho da criatura não importa — mas construtos, mortos-vivos e objetos não podem ser transportados. Com um comando, é possível conversar com uma criatura presa no espelho ou libertá-la. Se o espelho for quebrado, todas as criaturas dentro dele são libertadas."
+            },
+            {
+              "type": "item",
+              "name": "Estatueta Animista",
+              "description": "Esta estatueta de pedra é esculpida na forma de um animal. Quando é atirada no chão e a palavra de comando é proferida, transforma-se no animal correspondente. O animal fornece os benefícios de um parceiro veterano até o fim da cena, quando então volta à sua forma de estatueta. O tipo de parceiro é definido pelo animal: raposa (ajudante; perícias definidas na fabricação do item), onça (assassino), águia (atirador), lobo (combatente), leão (fortão) ou urso (guardião)."
+            },
+            {
+              "type": "item",
+              "name": "Estola da Serenidade",
+              "description": "Esta faixa de pano com inscrições mágicas é usada sobre a nuca, com as duas extremidades caindo na frente do corpo. Você recebe +2 em Sabedoria (somente após um dia de uso)."
+            },
+            {
+              "type": "item",
+              "name": "Faixas do Pugilista",
+              "description": "Estas faixas surradas são amarradas nos punhos, nos braços ou na testa. Você recebe +2 em testes de ataque e rolagens de dano com ataques desarmados (cumulativo com outros itens)."
+            },
+            {
+              "type": "item",
+              "name": "Ferraduras da Velocidade",
+              "description": "Este conjunto de ferraduras pode ser fixado nos cascos de um cavalo (ou outro parceiro montaria, a critério do mestre) para aumentar seu deslocamento em +3m."
+            },
+            {
+              "type": "item",
+              "name": "Flauta Fantasma",
+              "description": "Se for treinado em Atuação, você pode lançar Esculpir Sons (CD Car) sem pagar seu custo em PM."
+            },
+            {
+              "type": "item",
+              "name": "Garrafa da Fumaça Eterna",
+              "description": "Você pode abrir a tampa desta ânfora de metal para lançar a magia Névoa sem pagar seu custo em PM. A fumaça persiste até a garrafa ser tampada. Após isso, dissipa-se no fim da cena (ou após 4 rodadas, sob vento forte, ou 1 rodada, sob um vendaval)."
+            },
+            {
+              "type": "item",
+              "name": "Gema da Luminosidade",
+              "description": "Este cristal tem a aparência de um longo prisma. Com um comando, emite luz equivalente a uma tocha ou então um raio brilhante, que deixa uma criatura em alcance curto cega por 1d4 rodadas (Fort CD Car evita)."
+            },
+            {
+              "type": "item",
+              "name": "Gema da Telepatia",
+              "description": "Você pode lançar Compreensão e Enfeitiçar (CD Car) sem pagar seu custo em PM."
+            },
+            {
+              "type": "item",
+              "name": "Gema Elemental",
+              "description": "Você pode lançar Conjurar Elemental sem pagar seu custo em PM."
+            },
+            {
+              "type": "item",
+              "name": "Lanterna da Revelação",
+              "description": "Este item funciona como um lampião normal, mas sua luz revela todas as criaturas e objetos invisíveis no alcance."
+            },
+            {
+              "type": "item",
+              "name": "Luvas da Delicadeza",
+              "description": "Estas luvas de tecido fino permitem manipulação delicada. Você recebe +1 em Destreza (somente após um dia de uso)."
+            },
+            {
+              "type": "item",
+              "name": "Manoplas da Força do Ogro",
+              "description": "Este par de luvas é feito de couro grosso com rebites de ferro. Você recebe +1 em Força (somente após um dia de uso)."
+            },
+            {
+              "type": "item",
+              "name": "Manto da Aranha",
+              "description": "Este manto é feito de seda negra com fios de prata bordados. Você recebe deslocamento de escalada igual ao seu deslocamento terrestre, +5 em testes de resistência contra venenos e imunidade a teias mundanas ou mágicas. Além disso, pode lançar Teia (CD Des). Caso já conheça a magia, o custo para lançá-la diminui em –1 PM."
+            },
+            {
+              "type": "item",
+              "name": "Manto da Resistência",
+              "description": "Este manto de tecido grosso e pesado protege seu usuário. Você recebe +2 em testes de resistência."
+            },
+            {
+              "type": "item",
+              "name": "Manto do Fascínio",
+              "description": "Este manto de veludo possui bordados de ouro. Você recebe +1 em Carisma (somente após um dia de uso)."
+            },
+            {
+              "type": "item",
+              "name": "Manto do Morcego",
+              "description": "Este manto marrom escuro ou negro fornece +5 em Furtividade e permite que você fique pendurado de ponta-cabeça no teto, como um morcego. Além disso, você pode gastar uma ação padrão para segurar as pontas do manto e se transformar em um morcego. Seu tamanho muda para Minúsculo e você recebe deslocamento de voo 12m e uma arma natural de mordida (dano 1d4, perfuração). Em outros aspectos, isso funciona como a Forma Selvagem do druida. Você só pode se transformar em morcego à noite ou em ambientes escuros."
+            },
+            {
+              "type": "item",
+              "name": "Manto Élfico",
+              "description": "Indistinguível de um manto cinza comum. Entretanto, quando usado com o capuz cobrindo o rosto, fornece +5 em Furtividade."
+            },
+            {
+              "type": "item",
+              "name": "Manual do Bom Exercício",
+              "description": "Este tomo volumoso contém exercícios de musculação, mas escondido entre as palavras há um poderoso efeito mágico. Ler o livro leva uma semana e aumenta seu valor de Força em +1 permanentemente (o atributo só pode ser aumentado uma vez com um Manual). Assim que o livro é lido, a magia desaparece de suas páginas e ele se torna um item mundano."
+            },
+            {
+              "type": "item",
+              "name": "Manual dos Movimentos Precisos",
+              "description": "Este tomo volumoso descreve exercícios de coordenação e equilíbrio, mas mesclado às palavras há um poderoso efeito mágico. Funciona como um Manual do Bom Exercício, mas fornece +1 de Destreza."
+            },
+            {
+              "type": "item",
+              "name": "Manual da Saúde Corporal",
+              "description": "Este tomo volumoso contém exercícios de resistência e dietas saudáveis, mas suas palavras trazem um poderoso efeito mágico. Funciona como um Manual do Bom Exercício, mas fornece +1 de Constituição."
+            },
+            {
+              "type": "item",
+              "name": "Medalhão de Lena",
+              "description": "Quando você é reduzido a 0 ou menos PV, esta joia emite uma explosão de energia positiva que cura 100 PV (antes que você caia). Este poder só se ativa uma vez por dia."
+            },
+            {
+              "type": "item",
+              "name": "Mochila de Carga",
+              "description": "Este item, que parece uma simples mochila de pano, está na verdade ligado a um espaço interdimensional — fazendo com que seja maior por dentro do que por fora. A mochila de carga aumenta sua capacidade de carga em 10 espaços (ela própria não gasta um espaço). Se a mochila for rasgada, os objetos em seu interior são destruídos. Criaturas vivas colocadas no interior da mochila podem sobreviver até 10 minutos, mas depois disso ficarão sem ar."
+            },
+            {
+              "type": "item",
+              "name": "Orbe das Tempestades",
+              "description": "Esta esfera de vidro com 20cm de diâmetro contém fumaça e raios em seu interior. Você pode lançar Controlar o Clima e Fúria do Panteão (CD Sab). Caso já conheça as magias, o custo para lançá-las diminui em –1 PM. Além disso, você e todos os seus aliados adjacentes ficam sob efeito de Suporte Ambiental."
+            },
+            {
+              "type": "item",
+              "name": "Pingente da Saúde",
+              "description": "O usuário desta joia verde em um cordão de prata recebe imunidade a doenças e venenos. Os efeitos só se ativam após uma semana de uso."
+            },
+            {
+              "type": "item",
+              "name": "Pingente da Sensatez",
+              "description": "Esta pequena pérola com uma corrente leve é usada como um colar. Você recebe +1 em Sabedoria (somente após um dia de uso)."
+            },
+            {
+              "type": "item",
+              "name": "Pulseiras da Celeridade",
+              "description": "Esta pulseira de platina aguça todos os seus movimentos. Você recebe +2 em Destreza (somente após um dia de uso)."
+            },
+            {
+              "type": "item",
+              "name": "Robe do Arquimago",
+              "description": "Este traje pesado alinha-se com as energias arcanas emitidas por seu usuário para gerar um campo protetor. Se você for um conjurador arcano, recebe um bônus na Defesa igual a 5 + o círculo de magia mais alto que puder lançar e um bônus em testes de resistência igual à metade do bônus na Defesa. Assim, um arcanista de 9º nível (capaz de lançar magias de 3º círculo) recebe +8 na Defesa e +4 em testes de resistência."
+            },
+            {
+              "type": "item",
+              "name": "Símbolo Abençoado",
+              "description": "Conta como um símbolo sagrado. Se você for devoto do deus, o custo de suas magias divinas diminui em –1 PM (cumulativo com o poder Símbolo Sagrado Energizado). Apenas devotos desse deus podem fabricar um símbolo abençoado."
+            },
+            {
+              "type": "item",
+              "name": "Tapete Voador",
+              "description": "Com um comando, este tapete flutua, fornecendo deslocamento de voo 12m. O tapete tem 3m x 3m e pode carregar seis criaturas Médias (ou 120 espaços). Se você estiver em alcance longo do tapete, pode comandar o voo dele."
+            },
+            {
+              "type": "item",
+              "name": "Tiara da Sapiência",
+              "description": "Esta tiara delicada possui uma gema que descansa sobre a testa. Você recebe +2 em Inteligência (somente após um dia de uso)."
+            },
+            {
+              "type": "item",
+              "name": "Tomo da Compreensão",
+              "description": "Este livro volumoso contém ensinamentos para tornar o leitor mais centrado e aguçar sua percepção, mas também possui um poderoso efeito mágico. Funciona como um Manual do Bom Exercício, mas fornece +1 de Sabedoria."
+            },
+            {
+              "type": "item",
+              "name": "Tomo da Liderança e Influência",
+              "description": "Este livro de encadernação luxuosa contém instruções detalhadas para convencer e inspirar os demais, mas as páginas escondem um poderoso efeito mágico. Funciona como um Manual do Bom Exercício, mas fornece +1 de Carisma."
+            },
+            {
+              "type": "item",
+              "name": "Tomo dos Grandes Pensamentos",
+              "description": "Este livro pesado contém exercícios para aprimorar o raciocínio e a memória, mas mesclado às palavras há um poderoso efeito mágico. Funciona como um Manual do Bom Exercício, mas fornece +1 de Inteligência."
+            },
+            {
+              "type": "item",
+              "name": "Torque do Vigor",
+              "description": "O acabamento deste colar ou bracelete remete a um animal poderoso, como um urso ou lobo. Você recebe +1 em Constituição (somente após um dia de uso)."
+            },
+            {
+              "type": "item",
+              "name": "Vassoura Voadora",
+              "description": "Como um tapete voador, mas pode carregar duas pessoas (ou 40 espaços)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "Ameaças de Arton",
+      "items": [
+        {
+          "type": "folder",
+          "name": "Armas",
+          "items": [
+            {
+              "type": "item",
+              "name": "Pistola Demoníaca",
+              "description": "Esta pistola ameaçadora formidável e profana não pode ser fabricada por nenhum meio conhecido por mortais e só pode ser obtida através de um pacto com um demônio da pólvora (veja p. 255). Uma pistola demoníaca está sempre carregada e não precisa de munição. Uma vez por dia, em um momento escolhido pelo mestre (ou na primeira ocasião em que houver outras pessoas próximas), o portador da arma é atingido pelo impulso homicida de disparar contra uma criatura inteligente aleatória à vista (incluindo aliados). O portador pode resistir a esse impulso por este dia passando em um teste de Vontade (CD 25). Qualquer medida para evitar acidentes (manter a pistola guardada, descarregada ou mesmo trancada e fora de alcance) fracassa automaticamente; quando o portador cede ao impulso assassino, a arma surge magicamente em suas mãos. Caso o portador da pistola seja morto, a arma desaparece. Arma específica média, preço T$ 72.250."
+            },
+            {
+              "type": "item",
+              "name": "Uyzrrak Da’ukthra",
+              "description": "Este machado de guerra magnífico aumentado atroz de adamante é marcado com escrita goblinoide em sua lâmina e aparenta já ter visto inúmeras batalhas. Quando empunhado por um duyshidakk, causa +2d8 pontos de dano contra qualquer criatura não duyshidakk e recebe um encanto adicional, conforme o elemento do círculo intermediário do Akzath mais próximo do portador: Luz, Sagrado; Nós, Piedoso; Dentro, Defensor; Estagnação, Excruciante; Trevas, Profano; Fora, Arremesso; Eles, Dilacerante; Movimento, Energético. A critério do mestre, se o portador do machado se tornar mais próximo de outro elemento, o encanto muda de acordo. Arma específica média, preço T$ 78.050."
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Armaduras",
+          "items": [
+            {
+              "type": "item",
+              "name": "Grilhão de Descrença",
+              "description": "Esta armadura completa reforçada e selada contém uma forte maldição divina: uma vez vestida, não pode ser retirada. Qualquer criatura que chegue a 0 PV vestindo esta armadura não pode ser ressuscitada e se torna um guerreiro perpétuo (veja p. 139). Se de alguma forma a maldição for removida (como por dissipar o item ou quebrar a maldição), ela se transforma numa armadura completa reforçada e selada com um encanto aleatório (veja Tormenta20, p. 338). Uma armadura grilhão de descrença não pode ser fabricada e é encontrada apenas em guerreiros perpétuos. Armadura específica menor, preço T$ 24.000."
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Acessórios",
+          "items": [
+            {
+              "type": "item",
+              "name": "Chifre de Unicórnio",
+              "description": "Um chifre de unicórnio é um poderoso item mágico de cura. Se estiver empunhando o chifre, você pode lançar Curar Ferimentos e Purificação; caso já conheça essas magias, seu custo diminui em –1 PM, cumulativo com outras reduções. Ele também pode ser usado para lançar a magia Segunda Chance, mas perde todos os poderes após isso. Por fim, ele pode ser empunhado como uma espada curta formidável.\nMesmo sem seus poderes, o chifre pode ser transformado em 12 doses de pó de chifre, um poderoso ingrediente para preparados e poções. Misturar uma dose desse pó aos ingredientes de um preparado ou poção aumenta cada dado de cura do efeito do item em dois passos (até um máximo de d12).\nAinda que o simples ato de portar um chifre de unicórnio não seja necessariamente maligno, muitos devotos, sobretudo de Allihanna e Marah, poderão questionar a origem do chifre. Chifres de unicórnio não podem ser fabricados, e são obtidos apenas de um unicórnio morto. Acessório maior, preço T$ 120.000."
+            },
+            {
+              "type": "item",
+              "name": "Fragmento de Filactério",
+              "description": "Mesmo após a destruição do filactério de um lich, uma parte do poder mágico da criatura pode permanecer, geralmente em seu maior fragmento. Um fragmento de filactério conta como uma costela de lich poderosa que fornece +20 PM (somente após um dia de uso). Um fragmento só pode ser obtido de um filactério estilhaçado e não pode ser fabricado. Acessório maior, preço T$ 90.000."
+            },
+            {
+              "type": "item",
+              "name": "Pilão Conspurcado",
+              "description": "Este pequeno pilão de madeira de aparência sinistra é decorado com símbolos místicos entalhados e fragmentos de ossos encravados. Conta como uma costela de lich. Além dos benefícios desse esotérico, o custo de suas magias de encantamento e necromancia lançadas pela varinha diminui em –1 PM e a CD para resistir a elas aumenta em +2. Acessório médio, preço T$ 21.000."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "Deuses de Arton",
+      "items": [
+        {
+          "type": "item",
+          "name": "Armadura dos Neladriel",
+          "description": "Composta de placas impossivelmente leves, essa meia armadura reforçada guardiã de mitral existe apenas na posse dos muhir ou de valorosos heróis presenteados pelos celestiais. Ela conta como uma armadura leve para fins de aplicar sua Destreza na Defesa e para uso de habilidades que normalmente não podem ser usadas com armadura pesada (como Escaramuça e Evasão). Armadura específica maior, preço T$ 65.000."
+        },
+        {
+          "type": "folder",
+          "name": "Itens Litúrgicos",
+          "items": [
+            {
+              "type": "item",
+              "name": "Itens Litúrgicos",
+              "description": "Itens litúrgicos são itens mágicos imbuídos de poder divino. Mais do que meros objetos encantados, são símbolos de fé. Cada item litúrgico é associado a um deus e possui afinidade com seus devotos — alguns funcionam apenas com estes devotos, enquanto outros se tornam mais fortes nas mãos destes. De forma similar, um item litúrgico só pode ser fabricado por devotos da divindade em questão.\nItens litúrgicos não podem ser identificados com Misticismo, apenas com Religião. Se você for devoto do deus associado ao item, recebe +5 em testes para identificá-lo."
+            },
+            {
+              "type": "item",
+              "name": "Cilício Vivo Aharadak",
+              "description": "Esta cinta de couro possui anzóis enferrujados e afiados. Para usar o cilício vivo, você deve amarrá-lo em sua coxa ou braço (ele conta como um item vestido), de forma a cravar os anzóis em sua carne. O cilício então bebe de seu sangue, adquirindo uma consistência úmida e pulsante. Isso reduz seus PV máximos em 1 por nível. Porém, a dor constante o mantém vigilante, fornecendo um bônus de +1 em todos os seus testes (cumulativo com outros bônus de itens). Se você for um devoto de Aharadak, o bônus aumenta para +2. Se for um devoto de Aharadak de patamar campeão ou superior, o cilício vivo também aumenta seus PM máximos em +1 por nível. Acessório maior, preço T$ 37.000."
+            },
+            {
+              "type": "item",
+              "name": "Coração Corrompido Aharadak",
+              "description": "Este pequeno baú de madeira esconde um coração cinzento e ressequido. Se um devoto de Aharadak matar uma criatura inteligente e derramar um pouco do sangue dela no coração, ele volta à “vida”, ficando vermelho e pulsante. Enquanto o coração corrompido estiver vivo, qualquer dano ou condição causado ao devoto será absorvido pelo item. O coração pode absorver até 100 pontos de dano e três condições. Quando isso acontecer, volta ao seu estado “morto”... até um novo sacrifício ser feito. O devoto não precisa estar em posse do coração para o efeito funcionar, apenas saber onde ele está. Isso significa que o devoto pode deixar o item escondido, mas, claro, quanto mais longe ele estiver, mais difícil será “revivê-lo” se necessário. Acessório maior, T$ 45.000."
+            },
+            {
+              "type": "item",
+              "name": "Coroa de Flores Allihanna",
+              "description": "Este adereço é feito com ramos verdejantes e flores brancas, rosas, amarelas e lilases e, abençoado pela magia da natureza, permanece sempre vistoso. Se você for um devoto de Allihanna e vestir a coroa de flores, recebe +1 em Sabedoria (apenas após 1 dia de uso) e suas magias com efeitos numéricos variáveis recebem um bônus de +1 por dado (por exemplo, Curar Ferimentos lançada para curar 4d8+4 PV irá curar 4d8+8 PV). Acessório menor, preço T$ 9.000."
+            },
+            {
+              "type": "item",
+              "name": "Cajado das Matas Allihanna",
+              "description": "Este bordão é feito com galhos retorcidos e trançados com couro. Se você for devoto de Allihanna, ele se torna um bordão formidável e, enquanto você estiver ao ar livre e pisando sobre terra, fornece +2 na Defesa (cumulativo com outros bônus de itens). Se for um devoto de patamar campeão ou superior, a arma se torna um bordão magnífico. Arma específica menor, preço T$ 27.000."
+            },
+            {
+              "type": "item",
+              "name": "Tapeçaria da Guerra Arsenal",
+              "description": "Esta tapeçaria velha e manchada de sangue mostra um campo de batalha, com imagens representando terreno, tropas e objetivos. Analisar a tapeçaria aguça a sua percepção estratégica — ela funciona como uma ferramenta aprimorada, fornecendo +2 em Guerra. Se você for um devoto de Arsenal, estiver em combate e gastar uma ação completa para analisar a tapeçaria, a magia do item se revela, com as imagens se movendo para representar a batalha na qual você está. Como parte da ação completa, você faz um teste de Guerra (CD 20). Se você passar, o bônus em Guerra se estende para todos os testes de perícia, seus e de seus aliados em alcance curto, até o fim da cena. Se passar por 20 ou mais (ou seja, se somar 40 ou mais no teste de Guerra), você e seus aliados em alcance curto recebem uma ação padrão adicional, cada um em seu próximo turno (apenas uma vez por cena). Analisar a tapeçaria requer as duas mãos. Acessório maior, preço T$ 35.000."
+            },
+            {
+              "type": "item",
+              "name": "Machado da Bravura Arsenal",
+              "description": "Este machado de batalha certeiro e cruel tem cabo de madeira marrom escura com um reforço de metal nas laterais e lâmina única, feita de aço com muitos entalhes representando batalhas e monstros. Se você for um devoto de Arsenal, ele se torna um machado de batalha certeiro cruel formidável. Sempre que você fizer uma investida, recebe 1 PM temporário cumulativo. Você pode ganhar um número máximo de PM temporários por dia igual a sua Sabedoria. Arma específica menor, preço T$ 25.000."
+            },
+            {
+              "type": "item",
+              "name": "Alfange Dourado Azgher",
+              "description": "A lâmina deste alfange maciço é feita de ouro alquimicamente tratado para ser duro como aço. Isso o torna muito pesado (–2 em testes de ataque), mas muda seu dano base para 2d6. Se você for um devoto de Azgher, pode gastar uma ação completa para entoar palavras sagradas e encostar ouro (itens ou tibares) na lâmina do alfange dourado. Se fizer isso, o ouro derrete e a arma brilha com energia mágica. Até o fim do dia, o alfange dourado perde sua penalidade em testes de ataque e recebe um bônus em testes de ataque e rolagens de dano de acordo com o sacrifício: bônus de +2 para T$ 10, +3 para T$ 100, +4 para T$ 500 e +5 para T$ 1.000. Arma específica média, preço T$ 36.000."
+            },
+            {
+              "type": "item",
+              "name": "Cimitarra Solar Azgher",
+              "description": "Esta cimitarra pungente tem cabo de marfim e lâmina de aço reluzente. Quando reflete a luz do sol, o aço tem um brilho dourado. Se você for um devoto de Azgher, a arma se torna uma cimitarra pungente flamejante formidável. Sob a luz do sol, a cimitarra reluz mais forte, com um brilho dourado, e aumenta o dano da bola de fogo que dispara (pelo encanto flamejante) para 12d6. Se você for de patamar campeão ou superior, a arma se torna uma cimitarra precisa flamejante magnífica. Arma específica média, preço T$ 54.000."
+            },
+            {
+              "type": "item",
+              "name": "Adaga Sorrateira Hyninn",
+              "description": "Esta adaga é feita do que parece ser metal enferrujado. Se você for um devoto de Hyninn, ela se torna uma adaga formidável. Além disso, na primeira vez em que você passar em um teste de Enganação ou Furtividade em cada cena, você recebe +5 em um teste ou rolagem a sua escolha até o fim da cena (cumulativo com outros bônus de itens). Se você for de patamar campeão ou superior, a arma se torna uma adaga magnífica. Arma específica menor, preço T$ 22.500."
+            },
+            {
+              "type": "item",
+              "name": "Cubo Armadilha Hyninn",
+              "description": "Este pequeno cubo de metal possui diversos botões em sua superfície, mas se você apertá-los nada acontece… Exceto se você for um devoto de Hyninn. Um devoto da Trapaça pode gastar uma ação padrão para apertar os botões e escolher um espaço desocupado em alcance curto. O cubo então flutua até esse espaço e desaparece, ficando invisível e intangível. O primeiro inimigo que entrar nesse espaço é atingido por diversas serras e lâminas que surgem do nada, sofrendo 10d8 pontos de dano de corte (Ref CD Int reduz à metade). Para cada dado de dano que rolar um resultado mínimo ou máximo (ou seja, “1” ou “8”), role 1d8 extra, repetindo o processo a cada resultado mínimo ou máximo. O cubo então reaparece e flutua para seu dono (se ele estiver até alcance longo) ou fica parado no chão (se ele estiver mais longe do que isso).\nUma criatura que veja o cubo armadilha sendo ativado pode simplesmente evitar o espaço para onde ele foi, de modo que este item funciona melhor quando usado com preparação. Além disso, uma criatura que procure por armadilhas tem direito a um teste de Investigação (CD 30 + Int do usuário). Se passar, percebe a forma etérea do cubo e pode passar por ele sem ativá-lo (embora não consiga desarmá-lo ou pegá-lo). Se passar e for devota de Hyninn, o cubo reaparece e flutua para ela, adotando-a como nova dona! Acessório médio, preço T$ 25.000."
+            },
+            {
+              "type": "item",
+              "name": "Lança da Dominação Kallyadranoch",
+              "description": "Esta lança maciça é feita de uma única haste de metal cinza escuro, e tem um tênue brilho alaranjado. Se você for um devoto de Kallyadranoch, torna-se uma lança maciça que fornece +1 em testes de ataque e rolagens de dano e, a cada acerto, causa +1d10 pontos de dano de ácido, eletricidade, fogo ou frio (a escolha do usuário a cada golpe). Cada vez que você sobe de nível enquanto estiver com a lança, os bônus que ela fornece em ataque e dano aumentam em +1 (até um máximo de +6). Entretanto, a cada mês que você passar separado da lança da dominação, os bônus dela diminuem em –1 (até um mínimo de +1). Arma específica média, preço T$ 45.000."
+            },
+            {
+              "type": "item",
+              "name": "Ossos Dracônicos Kallyadranoch",
+              "description": "Este item possui a forma de um acessório — como um colar, máscara, colete ou par de brincos — feito de ossos especialmente densos e duros. Qualquer um que toque nos ossos dracônicos sente que eles emanam uma tênue energia — calor, frio, estática ou outra, conforme a natureza do dragão a partir do qual foram feitos. A energia é desconfortável, mas não a ponto de causar dano ou impor qualquer penalidade. Se forem vestidos, os ossos dracônicos fornecem +4 em Intimidação e –2 em Diplomacia. Se forem vestidos por um devoto de Kallyadranoch, emprestam o poder armazenado neles, fornecendo também +2 em Força, +2 em Carisma e +2 na CD de todas as habilidades do devoto. Acessório maior, preço T$ 90.000."
+            },
+            {
+              "type": "item",
+              "name": "Espada Monástica Khalmyr",
+              "description": "Esta espada longa certeira possui lâmina de aço reluzente e cabo de ouro com orações ao Deus da Justiça inscritas. Se você for um devoto de Khalmyr e estiver empunhando a espada monástica, pode gastar uma ação de movimento para ler um dos versículos inscritos nela e fazer um teste de Religião (CD 20). Se passar, a arma se torna formidável. Se passar por 10 ou mais, ela gera o efeito básico de Oração. Se passar por 20 ou mais, a arma se torna magnífica. Estes efeitos duram até o fim da cena. Arma específica média, preço T$ 54.000."
+            },
+            {
+              "type": "item",
+              "name": "Armadura do Julgamento Khalmyr",
+              "description": "Esta armadura completa polida reforçada é feita de aço reluzente quase tão reflexivo quanto um espelho. Se você for um devoto de Khalmyr, ela se torna uma armadura completa polida reforçada defensora. Sempre que uma criatura atacá-lo, você pode gastar 2 PM para fazê- -la ver seus pecados refletidos na armadura. A criatura fica pasma por 1 rodada (apenas uma vez por cena) e frustrada (Von CD Sab reduz para apenas frustrada). Note que a penalidade em testes mentais imposta pela frustração pode tornar mais fácil convencer a criatura a abandonar a luta através de Diplomacia ou outros efeitos que exijam testes de Vontade — um caminho digno para devotos do Deus da Justiça que queiram julgar seus inimigos em vez de apenas executá-los sumariamente! Se você for um devoto de patamar campeão ou superior, a armadura se torna uma armadura completa polida reforçada guardiã. Armadura específica média, preço T$ 54.000."
+            },
+            {
+              "type": "item",
+              "name": "Caldeirão da Vida Lena",
+              "description": "Esta grande panela de ferro é abençoada com o poder de Lena, e permite preparar refeições únicas. Para isso, você precisa gastar 1 hora, T$ 5 e fazer um teste de Ofício (cozinheiro) contra CD 15. Se você passar, faz comida suficiente para até 5 criaturas Médias ou Pequenas (uma criatura Minúscula come o equivalente à metade de uma criatura Média, uma criatura Grande ou Enorme come o dobro e uma criatura Colossal come o quádruplo). Todos que se alimentarem dela recebem +2 nos testes de resistência por um dia e, se forem devotos de Lena, recebem também 10 PV temporários. Também é possível preparar um prato especial no caldeirão. Nesse caso, faça um único teste de Ofício (cozinheiro) com a CD do prato especial +5 e some o custo da comida do caldeirão ao do prato especial. Se você passar, os benefícios do prato se acumulam com os da comida do caldeirão. Acessório médio, preço T$ 25.000."
+            },
+            {
+              "type": "item",
+              "name": "Alabarda da Coragem Lin-Wu",
+              "description": "Esta alabarda certeira precisa possui fitas decorativas que dançam como a cauda de um dragão quando ela é usada em batalha. Se você for um devoto de Lin-Wu, ela se torna uma alabarda certeira precisa formidável que fornece +5 em Iniciativa. Sempre que você for o primeiro a agir em um combate, recebe 2 PM temporários por nível, que duram até o fim da cena. Arma específica média, preço T$ 36.000."
+            },
+            {
+              "type": "item",
+              "name": "Katana da Determinação Lin-Wu",
+              "description": "Esta katana precisa e pungente é feita de aço tamuraniano e tem cabo coberto de tiras de couro trançadas. A lâmina tem coloração avermelhada, sinal de Lin-Wu para que seus devotos nunca se esqueçam da tragédia que se abateu sobre seu povo. Se você for um devoto de Lin-Wu, a arma se torna uma katana precisa pungente formidável que ignora a imunidade a acertos críticos de lefeu. Sempre que você derrotar um lefeu com a katana, cura 2d8+2 PV e recebe +2 nas rolagens de dano (cumulativo com esse efeito e de outros itens) até o fim da cena. Se você for um devoto de patamar campeão ou superior, ela se torna uma katana precisa pungente magnífica. Arma específica média, preço T$ 54.000."
+            },
+            {
+              "type": "item",
+              "name": "Instrumento da Alegria Marah",
+              "description": "Um instrumento musical comum, como um bandolim, flauta ou tambor, aprimorado (+1 em Atuação). Se você for treinado em Atuação e estiver empunhando o instrumento da alegria, pode gastar uma ação padrão e 1 PM para tocar uma música envolvente, que fornece +2 em testes de perícia para você e seus aliados em alcance médio até o fim da cena (cumulativo com outros bônus de itens). Se você for devoto de Marah e usar um poder de Música, pode ativar o efeito do item com uma ação livre. Acessório médio, preço T$ 10.500."
+            },
+            {
+              "type": "item",
+              "name": "Véu Diáfano Marah",
+              "description": "Esta roupa leve e semitransparente conta como uma veste de seda aprimorada. Se você for um devoto de Marah, o véu diáfano torna sua aparência misteriosa e sedutora, fornecendo +1 em Carisma (apenas após 1 dia de uso) e +2 na Defesa (cumulativo com outros bônus de itens). Acessório médio, preço T$ 13.500."
+            },
+            {
+              "type": "item",
+              "name": "Colar de Presas Megalokk",
+              "description": "Este adereço é feito com dentes e garras de monstros unidos por tendões. Se for vestido, fornece +2 em Intimidação, mas impõe –2 em Diplomacia. Mais do que isso, carrega em seu âmago o instinto brutal das feras e, se você for um devoto de Megalokk, fornece também +2 em testes de ataque e rolagens de dano com armas naturais. Acessório médio, preço T$ 21.000."
+            },
+            {
+              "type": "item",
+              "name": "Maça Monstruosa Megalokk",
+              "description": "Esta maça atroz é feita de rocha vulcânica pontiaguda e afiada. Se você for um devoto de Megalokk, ela se torna uma arma formidável e seu dano aumenta em dois passos. Se você for de patamar campeão ou superior, seu dano aumenta em mais dois passos (para um total de quatro). Arma específica menor, preço T$ 27.000."
+            },
+            {
+              "type": "item",
+              "name": "Alguma Coisa de Nimb...",
+              "description": "Uma frigideira. Um salame. Uma pluma de avestruz prateada. Todos esses objetos, e quaisquer outros, podem ser itens litúrgicos de Nimb. Esse itens só aparecem para devotos do Caos e sempre em momentos inesperados. O devoto sabe instintivamente que a adaga na bota do guarda, a espiga de milho caída no campo ou a panela do cozinheiro goblin é um item sagrado de seu deus. Nas mãos de um devoto de Nimb, o item funciona como uma arma corpo a corpo simples de uma mão formidável veloz. Independente da forma do item, causa 3d8 pontos de dano (se necessário, role 1d3 para cada ataque, sendo 1 = corte, 2 = impacto e 3 = perfuração), com crítico x2. Quando faz um ataque com o item litúrgico, você pode gastar 1 PM. Se fizer isso e acertar, para cada resultado ímpar que rolar em um dado de dano, rola um dado extra de dano do mesmo tipo, repetindo o processo a cada resultado ímpar. Arma específica média, preço T$ 54.000."
+            },
+            {
+              "type": "item",
+              "name": "Jarro das Profundezas Oceano",
+              "description": "Este vaso de madrepérola é coberto de imagens de animais marítimos. Se você for um devoto do Oceano e estiver empunhando o jarro das profundezas, pode gastar uma ação padrão e PM para gerar alguns efeitos. Por 1 PM, cria 2 litros de água salgada. Essa água não pode ser bebida pela maioria dos seres, mas serve para cumprir suas Obrigações & Restrições de se manter em contato com o mar. Também por 1 PM, dispara uma onda de água que se derrama em um cone de 6m à sua frente e derruba quaisquer criaturas na área (Ref CD Sab evita). Por fim, por 2 PM você invoca um elemental da água que atua como um parceiro destruidor (dano de frio) ou guardião veterano até o fim da cena. Acessório menor, preço T$ 9.000."
+            },
+            {
+              "type": "item",
+              "name": "Tridente Aquoso Oceano",
+              "description": "Este tridente pungente é feito de coral azulado, e suas três pontas emanam uma tênue névoa gelada. Se você for um devoto do Oceano, ele se torna um tridente pungente congelante formidável. Se o tridente aquoso for mergulhado em água (exige uma ação de movimento e um reservatório de água grande o suficiente, como uma tina, cocho, banheira, rio…), torna-se magnífico até o fim da cena. Arma específica média, preço T$ 54.000."
+            },
+            {
+              "type": "item",
+              "name": "Adaga Ofídica Sszzaas",
+              "description": "Esta adaga cruel é feita da presa de uma serpente gigantesca. Possui um compartimento oco no cabo com veneno (peçonha concentrada) que é magicamente reposto a cada golpe. Se você for um devoto de Sszzaas, ela se torna uma adaga cruel formidável que ignora qualquer resistência ou imunidade a veneno de uma criatura atingida. Se você for de patamar campeão ou superior, o veneno vira peçonha potente. Arma específica média, preço T$ 36.000."
+            },
+            {
+              "type": "item",
+              "name": "Bordão Sabichão Tanna-Toh",
+              "description": "Este bordão maciço é feito de metal e cravejado de gemas, todas da mesma cor (cada cajado individual tem sua cor). Se você for um devoto de Tanna-Toh, ele se torna um bordão maciço formidável piedoso. Além disso, sempre que você faz um teste de perícia, pode gastar 2 PM. Nesse caso, o item sussurra um conselho ou lembrete, permitindo que você some sua Sabedoria ao teste. Arma específica maior, preço T$ 72.000."
+            },
+            {
+              "type": "item",
+              "name": "Escrivaninha Consagrada Tanna-Toh",
+              "description": "Esta caixa de madeira repleta de dobradiças possui o símbolo de Tanna-Toh pintado na tampa. Ela pode ser aberta e desdobrada para virar uma escrivaninha portátil, útil para aventureiros que querem ter um espaço para ler e escrever mesmo nos ermos. Se você for um devoto da Deusa do Conhecimento e usar a escrivaninha consagrada para estudar por 1 hora, dobra seu bônus de treinamento em uma perícia baseada em Int ou Sab a sua escolha por 1 dia. Além disso, caso possa fabricar pergaminhos, uma vez por aventura recebe 1d3 pergaminhos que poderia ter criado. Considere que você escreveu esses pergaminhos durante seu tempo livre. A escrivaninha consagrada ocupa 2 espaços. Acessório menor, preço T$ 9.000."
+            },
+            {
+              "type": "item",
+              "name": "Vestido Noturno Tenebra",
+              "description": "Este vestido negro possui pequenos diamantes costurados em seu tecido, que cintilam como as estrelas do céu noturno. Conta como uma veste de seda aprimorada cravejada de gemas, fornecendo +2 em Enganação e Reflexos. Se você for um devoto de Tenebra e vestir este item, pode gastar uma ação padrão e 5 PM para ficar invisível até o fim da cena (recebe camuflagem total e +10 em testes de Furtividade contra ouvir, e criaturas que não possam vê-lo ficam desprevenidas contra seus ataques). Esse efeito termina se você fizer uma ação hostil direta contra uma criatura (para mais detalhes, veja a magia Invisibilidade). Acessório médio, preço T$ 21.000."
+            },
+            {
+              "type": "item",
+              "name": "Machado Lamnoriano Thwor",
+              "description": "Este machado de guerra atroz possui cabo feito da madeira de árvores milenares, que nascem apenas no continente sul, e lâmina de aço regado pelo sangue dos incontáveis massacres que já ocorreram nessa terra bestial. Se você for um devoto de Thwor, ele se torna um machado de guerra atroz formidável. Sempre que você entrar em fúria, o machado lamnoriano se retorce e cresce, energizado pela sua raiva, e seu dano aumenta em um passo. Se você for de patamar campeão ou superior, o dano aumenta em mais um passo (dois passos ao todo). Arma específica menor, preço T$ 22.500."
+            },
+            {
+              "type": "item",
+              "name": "Espada Imaculada Thyatis",
+              "description": "Esta espada longa precisa tem cabo de aço tingido de vermelho vivo, com asas de pássaro servindo de guarda-mão. Se você for um devoto de Thyatis, ela se torna uma espada longa precisa formidável e você pode gastar 2 PM para fazer a lâmina dela se tornar plasma vermelho até o fim da cena. Nesse estado, o bônus de ataque da espada muda para +4 e seu dano aumenta em dois passos, muda para fogo não letal e ignora 20 pontos de redução de dano. Arma específica média, preço T$ 45.000."
+            },
+            {
+              "type": "item",
+              "name": "Pira Póstera Thyatis",
+              "description": "Esta pequena bacia de cerâmica negra possui linhas rajadas vermelhas. Se você for um devoto de Thyatis e estiver em posse da pira póstera, recebe +1 em Sabedoria (apenas após 1 dia de posse). Além disso, uma vez por dia pode enchê-la de água e olhar dentro dela para ter visões de possíveis perigos futuros. Uma vez até o fim do dia, quando faz um teste de Iniciativa, Percepção ou de resistência, você pode rolar novamente esse teste. Acessório médio, preço T$ 15.000."
+            },
+            {
+              "type": "item",
+              "name": "Botas Inquietas Valkaria",
+              "description": "Esse par de botas reforçadas é bastante surrado, com marcas dos diversos terrenos pelos quais já passou: carrapichos de florestas, manchas das águas escuras de pântanos, pequenos rasgos das pedras afiadas de montanhas… Se você for um devoto de Valkaria e vestir as botas inquietas, sente um grande desejo de viajar e desbravar o mundo — e a disposição para tal empreitada! Você recebe +1 em Constituição (apenas após 1 dia de uso) e +5 em testes de Fortitude para marcha forçada. Além disso, sempre que realizar uma investida durante um combate, recebe 1 PM temporário cumulativo (até um máximo de 3 PM por patamar por dia). Acessório médio, preço T$ 15.000."
+            },
+            {
+              "type": "item",
+              "name": "Mangual Aventureiro Valkaria",
+              "description": "Este mangual certeiro e cruel tem o cabo e a cabeça feitos de aço, interligados por uma corrente folheada a ouro. Se você for um devoto de Valkaria, ele se torna um mangual dançarino formidável. Se você estiver lutando em um lugar no qual nunca esteve antes, o dano do mangual aventureiro aumenta em dois passos. Arma específica média, preço T$ 40.000."
+            },
+            {
+              "type": "item",
+              "name": "Argolas Místicas Wynna",
+              "description": "Esta peculiar peça de vestuário consiste de tiras de couro cru conectadas por pequenas argolas metálicas. O conjunto é costurado, tratado com óleos alquímicos e abençoado por louvores a Wynna. Teria sido criada por arcanistas élficos da antiga Lenórienn inspirados por visões da própria Deusa da Magia, que usaria uma indumentária parecida. Seja qual for sua origem, as argolas místicas geram um efeito espantoso. Quando um devoto de Wynna lança uma magia, a energia flui pelas tiras (que funcionam como canais) em direção às argolas (que funcionam como um tipo de ímã místico), acumulando-se nelas. Normalmente, quando um arcanista conjura um feitiço, quantidades residuais da mana canalizada se dissipam na natureza. As argolas impedem isso, potencializando o esforço do conjurador.\nEm termos de regras, se você estiver vestindo as argolas místicas, for um devoto de Wynna e lançar uma magia, recebe +2 PM para gastar em aprimoramentos. Esses PM podem ultrapassar o limite de gasto de mana do devoto. As argolas podem ser usadas sobre outras roupas (respeitando-se o limite de quatro itens vestidos), mas sabe-se de pelo menos uma famosa arquimaga élfica que vestia apenas elas. Na época, ninguém acreditava quando a elfa explicava a função da peça, mas talvez ela estivesse falando a verdade o tempo inteiro. Acessório médio, preço T$ 25.500."
+            },
+            {
+              "type": "item",
+              "name": "Varinha da Generosidade Wynna",
+              "description": "Esta varinha arcana poderosa de madeira Tollon tem várias runas que emanam um brilho púrpura quando encontram a luz da lua. Se você for um devoto de Wynna, a varinha gera um campo de força que fornece redução de dano 5. Além disso, sempre que você lança uma magia, a mana usada na conjuração flui através da varinha para um aliado em alcance curto a sua escolha. Esse aliado recebe 1 PM temporário por círculo da magia lançada (limitado pelo total de PM gastos na magia). Cada aliado só pode receber mana de uma varinha da generosidade uma vez por dia. Acessório médio, preço T$ 30.000."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "Heróis de Arton",
+      "items": [
+        {
+          "type": "folder",
+          "name": "Armas",
+          "items": [
+            {
+              "type": "folder",
+              "name": "Encantos para Armas",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Alvorada",
+                  "description": "A arma brilha como o sol matinal. Ela causa +1d8 de dano de luz contra mortos-vivos e criaturas com sensibilidade a luz. Uma vez por rodada, quando ataca, você pode gastar 2 PM para cegar uma criatura em alcance curto por 1 rodada (apenas uma vez por cena por criatura, Fort CD For ou Des evita)."
+                },
+                {
+                  "type": "item",
+                  "name": "Anátema",
+                  "description": "A arma enfraquece a magia do adversário. Quando uma criatura é atingida, a CD para resistir às habilidades mágicas dela diminui em –2 por 1 rodada."
+                },
+                {
+                  "type": "item",
+                  "name": "Brumosa",
+                  "description": "A arma é envolta em névoa mágica que desorienta os oponentes. Toda vez que você acerta um ataque com a arma, recebe camuflagem leve por 1 rodada."
+                },
+                {
+                  "type": "item",
+                  "name": "Cantante",
+                  "description": "A arma canta, ou entoa música. Você recebe +2 em Atuação enquanto a empunha. Você pode gastar 1 PM para que você e seus aliados em alcance curto recebam +1 em testes de ataque por 1 rodada (cumulativo com outros bônus de itens)."
+                },
+                {
+                  "type": "item",
+                  "name": "Ciclônica",
+                  "description": "A arma cria fortes correntes de ar ao redor do portador. Você recebe +2 em testes contra manobras. Além disso, uma vez por rodada, pode gastar 1 PM para criar uma rajada de vento em um cone de 9m que empurra todas as criaturas 3m na direção oposta (Fort CD For ou Des evita)."
+                },
+                {
+                  "type": "item",
+                  "name": "Crescente",
+                  "description": "Você pode gastar 2 PM para fazer a arma aumentar de tamanho até o fim de seu turno. O dano dela aumenta em um passo e o alcance aumenta em +1,5m. Este encanto só pode ser aplicado a armas de combate corpo a corpo."
+                },
+                {
+                  "type": "item",
+                  "name": "Cristalina",
+                  "description": "A arma é feita de cristal, brilhando com cores prismáticas. Causa +1d6 de dano de luz. Uma vez por rodada, quando ataca, você pode gastar 1 PM. Se fizer isso e acertar o ataque, a criatura atingida fica ofuscada por 1 rodada."
+                },
+                {
+                  "type": "item",
+                  "name": "Cronal",
+                  "description": "Quando ataca, você pode gastar 3 PM para prever o futuro. Se fizer isso, você rola dois dados e usa o melhor resultado, e no próximo ataque que você sofrer até seu próximo turno, o atacante rola dois dados e usa o pior resultado. Pré-requisito: formidável."
+                },
+                {
+                  "type": "item",
+                  "name": "Cuidadora",
+                  "description": "Esta arma acumula a energia de ataques falhos para protegê-lo. Quando você erra um ataque, recebe +2 na Defesa por 1 rodada. Uma vez por rodada, quando sofre dano, você pode gastar 2 PM para receber RD 10 contra esse dano."
+                },
+                {
+                  "type": "item",
+                  "name": "Espreitadora",
+                  "description": "A arma pode assumir uma estrutura translúcida, quase invisível. Quando ataca, você pode gastar 2 PM para deixar o oponente desprevenido (apenas uma vez por cena por criatura; Von CD For ou Des evita)."
+                },
+                {
+                  "type": "item",
+                  "name": "Frenética",
+                  "description": "A arma se alimenta de seu espírito de luta. Sempre que acerta um ataque em um inimigo, você pode gastar 1 PM para receber +1 em testes de ataque e dano com ela até o fim da cena. Esse efeito é cumulativo até um máximo de +5."
+                },
+                {
+                  "type": "item",
+                  "name": "Gárgula",
+                  "description": "A arma é ornamentada com figuras de gárgulas que ganham vida temporariamente. Você pode gastar 2 PM para convocar uma pequena gárgula que atua como um parceiro combatente iniciante até o fim da cena."
+                },
+                {
+                  "type": "item",
+                  "name": "Horrenda",
+                  "description": "A arma exala uma aura de medo. Você recebe +2 em Intimidação e o custo de suas habilidades de medo diminui em –1 PM."
+                },
+                {
+                  "type": "item",
+                  "name": "Infestada",
+                  "description": "A arma é habitada por insetos mágicos. Sempre que você acerta um ataque em um inimigo, pode gastar 2 PM para liberar um enxame sobre ele — o alvo perde 2d6 pontos de vida por veneno e fica enjoado por 1d4 rodadas (Fort CD For ou Des evita a condição)."
+                },
+                {
+                  "type": "item",
+                  "name": "Manáfaga",
+                  "description": "A arma suga energia mágica do alvo. Quando você acerta um ataque com a arma em um inimigo, ele deve fazer um teste de Vontade (CD For ou Des). Se ele falhar, você recebe 1 PM temporário e ele perde 1d4 PM. Pré-requisito: formidável."
+                },
+                {
+                  "type": "item",
+                  "name": "Indignada",
+                  "description": "Sempre que você erra um ataque, a arma emite um grunhido irritado que o incomoda e concede um bônus de +2 no próximo teste de ataque que você fizer até o fim da cena (cumulativo com outros bônus de itens)."
+                },
+                {
+                  "type": "item",
+                  "name": "Rebote",
+                  "description": "Sempre que você erra um ataque em um inimigo, a arma ganha uma carga de energia (até um máximo de 3 cargas). Quando você acerta um ataque, a arma gasta todas as cargas de energia — para cada carga gasta, ela causa +1d6 pontos de dano."
+                },
+                {
+                  "type": "item",
+                  "name": "Reflexiva",
+                  "description": "A arma tem uma superfície brilhante. Uma vez por rodada, quando é alvo de uma magia, você pode gastar uma quantidade de PM igual ao círculo da magia para refleti-la de volta ao conjurador. As características da magia (efeitos, CD...) se mantêm, mas você toma qualquer decisão exigida por ela. Pré-requisito: cristalina."
+                },
+                {
+                  "type": "item",
+                  "name": "Ressonante",
+                  "description": "A arma vibra com uma frequência harmônica. Quando você acerta um ataque, pode gastar 2 PM para emitir uma onda de choque em outra criatura em alcance curto. Compare o resultado desse ataque com a Defesa da criatura. Se for suficiente para acertar a criatura, ela sofre uma quantidade de dano psíquico igual à metade do dano causado pelo ataque."
+                },
+                {
+                  "type": "item",
+                  "name": "Sepulcral",
+                  "description": "A arma emana energia negativa. Quando gasta PM para ativar o efeito de tumular, se você acertar o ataque, a criatura não pode recuperar pontos de vida por 1d4 rodadas. Pré-requisito: tumular."
+                },
+                {
+                  "type": "item",
+                  "name": "Sombria",
+                  "description": "A arma é envolta em trevas que obscurecem sua presença. Você recebe +2 em testes de Furtividade enquanto empunha esta arma (cumulativo com outros bônus de itens) e pode lançar a magia Escuridão (se já puder lançar essa magia, seu custo diminui em –1 PM)."
+                },
+                {
+                  "type": "item",
+                  "name": "Vampírica",
+                  "description": "Quando ataca com esta arma, você pode gastar 1 PM. Se fizer isso, ela causa +2d6 pontos de dano de trevas e você recupera vida igual ao dano de trevas que esse efeito causar."
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Armas Específicas",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Adaga da Bruma",
+                  "description": "Esta lâmina fina, que parece estar sempre envolta em névoa suave, é uma adaga formidável. Se acertar um ataque com esta arma, você pode gastar 2 PM para se tornar invisível por 1 rodada."
+                },
+                {
+                  "type": "item",
+                  "name": "Arco das Sombras",
+                  "description": "Feito de madeira negra e fosca, que dizem provir do Reino de Tenebra, este arco curto sombrio parece absorver a luz ao redor. Quando ataca com esta arma, você pode gastar 2 PM. Se fizer isso e acertar o ataque, o alvo fica cego por 1 rodada (Fort CD Des evita)."
+                },
+                {
+                  "type": "item",
+                  "name": "Arco do Crepúsculo",
+                  "description": "Um arco longo formidável que muda de cor conforme o sol se põe. Quando ataca com esta arma, você pode gastar 1 PM. Se fizer isso e acertar o ataque, o alvo fica ofuscado por 1d4 rodadas."
+                },
+                {
+                  "type": "item",
+                  "name": "Azagaia Fantasma",
+                  "description": "Esta azagaia caçadora é feita de um material transparente como cristal. Quando a arremessa, você pode gastar 1 PM para que ela ignore a RD do alvo. Ela volta para você no fim do turno."
+                },
+                {
+                  "type": "item",
+                  "name": "Besta Estelar",
+                  "description": "Incrustada com gemas que brilham como estrelas, esta é uma besta leve cravejada de gemas formidável. Você pode gastar 3 PM para disparar um projétil mágico que não causa dano, mas emite luzes coloridas, deixando inimigos em um raio de 9m do ponto de impacto fascinados por 1d4 rodadas (Von CD Des evita)."
+                },
+                {
+                  "type": "item",
+                  "name": "Clava de Lava",
+                  "description": "Esta clava de madeira escura apresenta fendas que emitem calor e luz alaranjada. É uma clava maciça flamejante formidável; quando acerta um ataque com ela, você pode gastar 1 PM para aumentar o dano de fogo para +3d6."
+                },
+                {
+                  "type": "item",
+                  "name": "Espada da Tempestade",
+                  "description": "Esta espada longa precisa formidável trovejante possui uma lâmina azulada, gravada com runas que brilham raivosas durante tempestades. Quando faz um acerto crítico, você pode gastar 2 PM para estender o efeito de atordoamento do encanto trovejante a todas as criaturas a sua escolha em alcance curto."
+                },
+                {
+                  "type": "item",
+                  "name": "Espada do Guardião",
+                  "description": "Uma espada longa defensora formidável com um cabo robusto e inscrições rúnicas protetoras. Uma vez por rodada, você pode gastar 3 PM para criar uma barreira que fornece RD 10 a você e todos os aliados em um raio de 6m por 1 rodada."
+                },
+                {
+                  "type": "item",
+                  "name": "Espada Solar",
+                  "description": "Esta espada bastarda magnífica emite uma luz dourada que aquece o entorno. Você pode gastar 3 PM para fazer a espada emitir um clarão que cega todos os inimigos em alcance curto por 1 rodada (Ref CD For ou Des evita)."
+                },
+                {
+                  "type": "item",
+                  "name": "Florete do Vendaval",
+                  "description": "Um florete leve formidável de mitral, ornamentado com penas e linhas suaves. Você pode gastar 3 PM para ganhar deslocamento de voo 12m por 2 rodadas. Durante esse tempo, você recebe +5 na Defesa contra ataques à distância."
+                },
+                {
+                  "type": "item",
+                  "name": "Lança da Fênix",
+                  "description": "Esta lança flamejante magnífica tem a ponta forjada no formato de uma chama. Sempre que reduz um inimigo a 0 PV, você recupera 10 PV. Além disso, uma vez por cena, caso você seja reduzido a 0 PV, pode gastar 5 PM para renascer como uma fênix. Se fizer isso, você é reerguido com metade de seus PV totais e gera uma explosão que causa 10d6 pontos de dano de fogo em todas as demais criaturas em um raio de 9m."
+                },
+                {
+                  "type": "item",
+                  "name": "Machado da Natureza",
+                  "description": "Este machado de batalha preciso formidável tem aparência rústica, coberto por musgos e vinhas. Sempre que você faz um acerto crítico com ele, recupera 1d12+1 PV."
+                },
+                {
+                  "type": "item",
+                  "name": "Machado do Abismo",
+                  "description": "Este machado de lâmina dupla é feito de metal negro e emite um leve brilho púrpura. É um machado de batalha macabro formidável. Você pode gastar uma ação de movimento e 3 PM para invocar uma onda de energia abissal. Quando faz isso, criaturas a sua escolha em um raio de 9m sofrem 4d8 pontos de dano de essência e ficam abaladas por 1 rodada (Vontade CD For ou Des reduz o dano à metade e evita a condição)."
+                },
+                {
+                  "type": "item",
+                  "name": "Machado do Vulcão",
+                  "description": "Este machado de guerra maciço flamejante formidável tem textura vítrea, com magma rodopiando em seu interior. Você pode gastar uma ação de movimento e 3 PM para causar uma detonação vulcânica em um quadrado de 3m em alcance médio. Criaturas nessa área sofrem 3d10 pontos de dano de fogo e ficam em chamas (Ref CD For ou Des reduz à metade e evita a condição)."
+                },
+                {
+                  "type": "item",
+                  "name": "Martelo da Terra",
+                  "description": "Este martelo de guerra cravejado de gemas formidável de adamante é adornado com cristais brilhantes e gravuras de montanhas. Você pode gastar uma ação de movimento e 3 PM para invocar uma rachadura no solo, que percorre uma linha de 18m. Criaturas nessa área são tragadas pela rachadura de 1,5m de profundidade (Ref CD For ou Des evita). Uma criatura tragada fica caída e vulnerável até sair da rachadura, o que requer uma ação completa."
+                },
+                {
+                  "type": "item",
+                  "name": "Martelo do Titã",
+                  "description": "Este martelo de guerra formidável, feito de rochas negras e pesadas, tem aparência robusta. Sempre que você faz um acerto crítico com ele, pode gastar 2 PM para empurrar o alvo 6m para trás."
+                },
+                {
+                  "type": "item",
+                  "name": "Punhal das Profundezas",
+                  "description": "Uma adaga formidável curva feita de um material escuro e úmido, com cheiro de sal. Quando ataca com este punhal, você pode gastar 1 PM para causar +3d6 pontos de dano de ácido."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Armaduras & Escudos",
+          "items": [
+            {
+              "type": "folder",
+              "name": "Encantos para Armaduras & Escudos",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Abissal",
+                  "description": "O item possui gravuras de demônios e tentáculos. Você recebe redução de ácido e fogo 10 e, uma vez por rodada, pode gastar 1 PM para causar 2d6 pontos de dano de ácido ou fogo a uma criatura adjacente."
+                },
+                {
+                  "type": "item",
+                  "name": "Ancorada",
+                  "description": "Esta armadura permite que você se fixe em superfícies. Você recebe +5 em testes de Atletismo para escalar e pode gastar 1 PM para receber deslocamento de escalada 12m com duração sustentada."
+                },
+                {
+                  "type": "item",
+                  "name": "Anulador",
+                  "description": "Uma vez por rodada, quando é alvo de uma magia, você pode gastar 3 PM por círculo da magia para anulá-la. Pré-requisito: abascanto."
+                },
+                {
+                  "type": "item",
+                  "name": "Arbóreo",
+                  "description": "Você recebe resistência a magia divina +5. Além disso, pode lançar a magia Controlar Plantas (CD Sab). Caso já conheça essa magia, o custo para lançá-la diminui em –1 PM."
+                },
+                {
+                  "type": "item",
+                  "name": "Astuto",
+                  "description": "Você recebe +5 em Intuição e Percepção. Uma vez por rodada, pode gastar 3 PM para detectar automaticamente a presença e a localização de todas as criaturas escondidas ou invisíveis em alcance curto."
+                },
+                {
+                  "type": "item",
+                  "name": "Densa",
+                  "description": "A armadura gera uma aura de peso e lentidão. Isso reduz o deslocamento de inimigos em alcance curto em –3m. Uma vez por rodada, você pode gastar uma ação de movimento e 2 PM para deixar todos os inimigos em alcance curto abalados e lentos por 1d4 rodadas (CD For ou Des evita)."
+                },
+                {
+                  "type": "item",
+                  "name": "Égide",
+                  "description": "O bônus na Defesa do item contra ataques à distância aumenta em +5. Além disso, uma vez por cena, quando sofre dano de um ataque à distância, você pode gastar 3 PM para ignorar esse dano."
+                },
+                {
+                  "type": "item",
+                  "name": "Enraizada",
+                  "description": "A armadura estende filamentos nododos que o mantêm firme no chão. Você recebe +5 em testes para resistir às manobras derrubar e empurrar. Quando faz um teste de resistência contra outro tipo de efeito de movimento, você pode gastar 2 PM para receber +5 no teste."
+                },
+                {
+                  "type": "item",
+                  "name": "Esmérico",
+                  "description": "O item é decorado com esmeraldas encantadas. Você recebe redução de ácido 10 e resistência a veneno +5. Além disso, você pode gastar 1 PM para criar um campo de energia esverdeada com duração sustentada que estende essa proteção para todos os aliados em alcance curto."
+                },
+                {
+                  "type": "item",
+                  "name": "Estígio",
+                  "description": "Uma vez por cena, se for reduzido a 0 PV ou menos, você pode gastar 5 PM para, em vez disso, ser reduzido a 1 PV. Pré-requisito: abençoado."
+                },
+                {
+                  "type": "item",
+                  "name": "Etéreo",
+                  "description": "Uma vez por cena você pode gastar 3 PM para se tornar incorpóreo por 1 rodada. Nessa forma, você ignora ataques e efeitos não mágicos e pode atravessar paredes e objetos sólidos, mas não manipulá-los (você tem Força nula). Se terminar sua rodada dentro de um objeto sólido, você é expelido para o espaço vazio mais próximo e perde 1d12 PV para cada 1,5m pelo qual for expelido."
+                },
+                {
+                  "type": "item",
+                  "name": "Geomântico",
+                  "description": "Você recebe redução de dano 10/ impacto e fortificação 25%. Além disso, você pode lançar a magia Controlar Terra (CD Car). Caso já conheça essa magia, o custo para lançá-la diminui em –1 PM."
+                },
+                {
+                  "type": "item",
+                  "name": "Ligeira",
+                  "description": "A armadura pode ser vestida ou removida com uma ação livre (acompanhada ou não de coreografia e música tema)."
+                },
+                {
+                  "type": "item",
+                  "name": "Luminescente",
+                  "description": "Você pode lançar Luz e usar seus aprimoramentos como se tivesse acesso aos mesmos círculos de magia que um clérigo de seu nível (CD Car). Caso já conheça essa magia, o custo para lançá-la diminui em –1 PM. Além disso, quando você lança essa magia, além de seus efeitos normais, criaturas com sensibilidade a luz devem passar em um teste de Vontade ou ficam cegas por 1 rodada (apenas uma vez por cena)."
+                },
+                {
+                  "type": "item",
+                  "name": "Prístino",
+                  "description": "Você recebe resistência a necromancia e veneno +5. Além disso, pode gastar 2 PM para remover uma condição entre doente, enjoado ou envenenado de uma criatura adjacente."
+                },
+                {
+                  "type": "item",
+                  "name": "Purificador",
+                  "description": "Você recebe resistência a medo e mental +5 e pode gastar 2 PM para permitir que um aliado em alcance curto repita um teste de resistência contra um desses efeitos que o esteja afetando. Se ele passar, cancela o efeito. Você só pode usar essa habilidade uma vez por efeito."
+                },
+                {
+                  "type": "item",
+                  "name": "Reanimador",
+                  "description": "O item possui um brilho pulsante que emana calor reconfortante. Você pode lançar Curar Ferimentos (CD Sab). Caso já conheça essa magia, o custo para lançá-la diminui em –1 PM."
+                },
+                {
+                  "type": "item",
+                  "name": "Replicante",
+                  "description": "O item possui pontas afiadas. Quando é atingido por um ataque corpo a corpo, você pode gastar 1 PM para causar 2d6 pontos de dano do mesmo tipo sofrido ao atacante e reduzir essa mesma quantidade do dano sofrido."
+                },
+                {
+                  "type": "item",
+                  "name": "Resiliente",
+                  "description": "Você recebe resistência a atordoamento, paralisia e petrificação +5. Além disso, pode gastar 1 PM para repetir um teste de resistência contra uma dessas condições que o esteja afetando. Se você passar, cancela o efeito. Você só pode usar essa habilidade uma vez por efeito."
+                },
+                {
+                  "type": "item",
+                  "name": "Vórtice",
+                  "description": "Você pode gastar 1 PM para criar um redemoinho que puxa uma criatura em alcance curto até um ponto adjacente a você (Fort CD For evita)."
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Armaduras Específicas",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Armadura das Sombras Profundas",
+                  "description": "Esta cota de malha sob medida defensora sombria negra e translúcida parece feita de pura escuridão. Você recebe redução de luz 10 e pode lançar Invisibilidade. Caso já conheça essa magia, o custo para lançá-la diminui em –1 PM."
+                },
+                {
+                  "type": "item",
+                  "name": "Armadura do Dragão Ancião",
+                  "description": "Esta armadura completa guardiã invulnerável feita de escamas douradas iridescentes é incrivelmente resistente. Você recebe redução de eletricidade, fogo e frio 10. Além disso, enquanto estiver com menos da metade dos seus pontos de vida, você pode emitir um rugido dracônico idêntico ao efeito de um item assustador (Tormenta20, p. 338)."
+                },
+                {
+                  "type": "item",
+                  "name": "Armadura do Inverno Perene",
+                  "description": "Esta couraça defensora gélida de gelo eterno é coberta por névoa gelada. Quando você usa a habilidade ativada do encanto gélido, recebe 20 PV (em vez de 10). Além disso, pode lançar Área Escorregadia (CD Sab) como uma ação de movimento — o efeito assume a forma de uma fina camada de gelo escorregadio. Caso já conheça essa magia, o custo para lançá-la diminui em –1 PM."
+                },
+                {
+                  "type": "item",
+                  "name": "Cota da Serpente Marinha",
+                  "description": "Esta cota de malha ajustada guardiã azul-esverdeada é feita com escamas de monstros marinhos. Você recebe deslocamento de natação 12m e pode lançar Sopro das Uivantes (CD Sab). Caso já conheça essa magia, o custo para lançá-la diminui em –1 PM."
+                },
+                {
+                  "type": "item",
+                  "name": "Couraça do Guardião Celeste",
+                  "description": "Esta couraça banhada a ouro defensora protetora é adornada com asas douradas no peitoral e nas ombreiras. Você recebe +1 em Carisma (somente após um dia de uso) e seus efeitos de cura de luz curam +1 PV por dado de cura."
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Escudos Específicos",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Escudo da Luz Estelar",
+                  "description": "Este escudo leve defensor parece feito de cristal e brilha com a luz das estrelas. Você recebe +5 em Percepção. Além disso, pode lançar Luz e usar seus aprimoramentos como se tivesse acesso aos mesmos círculos de magia que um arcanista de seu nível (CD Int). Caso já conheça essa magia, o custo para lançá-la diminui em –1 PM."
+                },
+                {
+                  "type": "item",
+                  "name": "Escudo da Ira Vulcânica",
+                  "description": "Feito de rocha vulcânica e gravado com runas de magma, este escudo pesado guardião fornece redução de fogo 10 e permite que você lance Explosão de Chamas como uma ação de movimento (Ref CD Car; se já puder lançar essa magia, sua área é dobrada)."
+                },
+                {
+                  "type": "item",
+                  "name": "Escudo da Natureza Viva",
+                  "description": "Este escudo leve defensor de madeira Tollon é feito de madeira viva e constantemente floresce com plantas. Você recebe +2 em Fortitude e pode lançar Curar Ferimentos (CD Sab). Caso já conheça essa magia, o custo para lançá-la diminui em –1 PM."
+                },
+                {
+                  "type": "item",
+                  "name": "Escudo do Grifo",
+                  "description": "Este escudo pesado defensor é forjado no formato de uma asa gigante. Você recebe redução de dano 10 contra ataques à distância e pode lançar Sopro das Uivantes (CD Sab). Caso já conheça essa magia, o custo para lançá-la diminui em –1 PM."
+                },
+                {
+                  "type": "item",
+                  "name": "Escudo do Trovão",
+                  "description": "Este escudo pesado guardião de mitral é decorado com raios em alto-relevo. Sempre que você sofre dano de um ataque corpo a corpo, pode gastar 2 PM para liberar um estrondo sônico que empurra inimigos adjacentes 3m para trás (Fort CD Car evita)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Esotéricos",
+          "items": [
+            {
+              "type": "item",
+              "name": "Esotéricos",
+              "description": "Esotéricos mágicos funcionam de forma similar a armas mágicas, podendo ser tanto encantados quanto específicos (Tormenta20, p. 334)."
+            },
+            {
+              "type": "folder",
+              "name": "Encantos para Esotéricos",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Abafador",
+                  "description": "O esotérico ergue uma barreira permeável ao redor do alvo da magia, diminuindo as capacidades dele. Se uma criatura falhar num teste de resistência contra uma magia sua, a CD das habilidades dela diminui em –2 por uma rodada."
+                },
+                {
+                  "type": "item",
+                  "name": "Bélico",
+                  "description": "O esotérico se parece com uma arma. Por exemplo, se for uma varinha, pode ser comprido e pontiagudo como uma espada curta. Quando lança uma magia de dano, você causa +1d10 pontos de dano de essência."
+                },
+                {
+                  "type": "item",
+                  "name": "Caridoso",
+                  "description": "O esotérico emana uma sensação de conforto e união. Quando você lança uma magia em um aliado e gasta pelo menos 1 PM, recebe 1 PM temporário para gastar em aprimoramentos na próxima magia que lançar nessa cena. Esse PM não conta no limite de gasto de pontos de mana."
+                },
+                {
+                  "type": "item",
+                  "name": "Chocante",
+                  "description": "O esotérico é adornado com topázios e emite o som de estalos elétricos. Suas magias que causam dano de eletricidade causam um dado extra de dano do mesmo tipo e deixam o alvo ofuscado por 1 rodada."
+                },
+                {
+                  "type": "item",
+                  "name": "Clemente",
+                  "description": "O esotérico vibra com energia positiva, como se estivesse ansioso para salvar vidas. Suas magias de cura curam um dado extra do mesmo tipo."
+                },
+                {
+                  "type": "item",
+                  "name": "Contido",
+                  "description": "O esotérico suaviza efeitos destrutivos. Por exemplo, uma labareda infernal pode virar uma lufada de ar abafado que, em vez de carbonizar seu alvo, irá apenas fazê-lo desmaiar. Quando lança uma magia de dano, você pode gastar +1 PM para que ela cause dano não letal."
+                },
+                {
+                  "type": "item",
+                  "name": "Embusteiro",
+                  "description": "O esotérico tem a aparência de um item mundano de tamanho equivalente — um cajado arcano pode parecer uma vassoura, enquanto uma varinha pode parecer um cachimbo. Ele permite que você use o poder Magia Discreta (Tormenta20, p. 131). Se você já o possui, em vez disso o custo para usá-lo diminui em –1 PM e você pode somar seu Carisma na CD do teste de Misticismo para perceber que você lançou uma magia."
+                },
+                {
+                  "type": "item",
+                  "name": "Emergencial",
+                  "description": "O esotérico está sempre vibrando, ansioso para agir. Se estiver empunhando este esotérico, uma vez por rodada, quando você ou um aliado em alcance curto sofre dano, você pode gastar 4 PM para lançar uma magia de cura na vítima desse dano como uma reação. Apenas magias com execução de ação de movimento, padrão ou completa podem ser lançadas dessa forma."
+                },
+                {
+                  "type": "item",
+                  "name": "Encadeado",
+                  "description": "O esotérico impulsiona a energia mágica de seus feitiços, fazendo-a saltar para outros alvos. Uma vez por cena, quando você reduz os PV de um inimigo a 0 ou menos com uma magia, você pode causar metade do dano da magia a outro inimigo dentro do alcance original dela. O inimigo tem direito ao mesmo teste de resistência original e não sofre qualquer outro efeito da magia, apenas o dano."
+                },
+                {
+                  "type": "item",
+                  "name": "Escultor",
+                  "description": "O esotérico está sempre vertendo um pouco de argila. Quando você lança uma magia com efeito de cone ou linha, pode gastar 1 PM para mudar a área dessa magia de cone para linha ou vice-versa. O comprimento de um cone que se torna linha dobra e o de uma linha que se torna cone é reduzido a um terço (arredonde para baixo, como o normal; por exemplo, 9m se era 30m)."
+                },
+                {
+                  "type": "item",
+                  "name": "Frugal",
+                  "description": "O esotérico pode inibir seu poder, enfraquecendo suas magias, mas poupando suas energias no processo. Quando você lança uma magia que exige um teste de resistência e afeta um ou mais inimigos, pode diminuir a CD da magia em –2. Se fizer isso, o custo da magia também é diminuído em –2 PM."
+                },
+                {
+                  "type": "item",
+                  "name": "Glacial",
+                  "description": "O esotérico é adornado com safiras e frio ao toque. Suas magias que causam dano de frio causam um dado extra de dano do mesmo tipo e deixam os alvos vulneráveis por 1 rodada."
+                },
+                {
+                  "type": "item",
+                  "name": "Imperioso",
+                  "description": "O esotérico impõe sua vontade sobre suas criações. Quando você lança uma magia que exige que você gaste ações para comandar o efeito dela, como Conjurar Monstro ou Mão Poderosa de Talude, a ação que você gasta para emitir esse comando diminui em uma categoria (de ação completa para padrão, de padrão para movimento, de movimento para livre). Se a ação for reduzida para livre, você pode emitir apenas um comando como ação livre por rodada; os demais gastam ações de movimento."
+                },
+                {
+                  "type": "item",
+                  "name": "Implacável",
+                  "description": "Quando você lança uma magia, pode gastar +2 PM para afetar um alvo contra o qual você não tenha linha de efeito. Você deve estar vendo o alvo ou tê-lo visto em seu último turno, e ele ainda precisa estar no alcance. Pré-requisito: outro encanto."
+                },
+                {
+                  "type": "item",
+                  "name": "Incriminador",
+                  "description": "O esotérico é imbuído com energias enganadoras. Uma vez por cena, quando você lança uma magia, pode gastar 3 PM para criar uma ilusão que mostra a magia sendo lançada por outra criatura a sua escolha em alcance médio. Criaturas que identificarem a magia (veja Misticismo, em Tormenta20, p. 121) têm direito a um teste de Vontade (CD da magia) para desacreditar."
+                },
+                {
+                  "type": "item",
+                  "name": "Inflamável",
+                  "description": "O esotérico é adornado com rubis e quente ao toque. Suas magias que causam dano de fogo causam um dado extra de dano do mesmo tipo e deixam o alvo em chamas (se já fizerem isso, o dano causado por essa condição aumenta em +1d6)."
+                },
+                {
+                  "type": "item",
+                  "name": "Inquisidor",
+                  "description": "O esotérico é marcado com o símbolo sagrado de um deus maior. Quando você lança uma magia divina contra uma criatura que não seja devota dessa divindade, a CD da magia aumenta em +1. Se possuir a habilidade de classe Devoto Fiel dessa divindade, em vez disso a CD aumenta em +2."
+                },
+                {
+                  "type": "item",
+                  "name": "Insistente",
+                  "description": "O esotérico emite um pulsar constante e ritmado. Quando você lança uma magia que causa dano por mais de uma rodada (como Flecha Ácida), os efeitos que normalmente só se aplicariam quando a magia é lançada (como Arcano de Batalha) se aplicam também à segunda rodada."
+                },
+                {
+                  "type": "item",
+                  "name": "Khalmyrita",
+                  "description": "O esotérico está imbuído com a presença estável da Ordem. Quando lança uma magia com efeito variável, em vez de rolar os dados você pode escolher um valor igual à média da rolagem. Um esotérico khalmyrita não pode ser nímbico."
+                },
+                {
+                  "type": "item",
+                  "name": "Majestoso",
+                  "description": "O esotérico possui um ornamento chamativo, como uma grande gema na ponta. A CD para resistir a suas magias arcanas aumenta em +1. Se você tiver a habilidade de classe Magias, em vez disso aumenta em +2. Pré-requisito: outro encanto."
+                },
+                {
+                  "type": "item",
+                  "name": "Nímbico",
+                  "description": "O esotérico está imbuído com o poder delirante do Caos. Quando lança uma magia com efeito variável, você pode rolar novamente qualquer número de dados da rolagem original (limitado pelos seus PM atuais). Contudo, a cada resultado par numa dessas rolagens adicionais, você perde 1 PM. Um esotérico nímbico não pode ser khalmyrita."
+                },
+                {
+                  "type": "item",
+                  "name": "Pulverizante",
+                  "description": "O esotérico foi feito para a destruição, uma ferramenta de morte que não admite segundas chances ou arrependimento. Quando lança uma magia que reduz os PV de uma criatura a 0 ou menos, você pode gastar 2 PM para que a criatura seja desintegrada, restando apenas um fino pó. Qualquer equipamento que a criatura esteja carregando, vestindo ou empunhando também é desintegrado, exceto itens mágicos. Um esotérico pulverizante não pode ser contido. Pré-requisito: outro encanto."
+                },
+                {
+                  "type": "item",
+                  "name": "Retaliador",
+                  "description": "Quando você evitar dano de um inimigo (na forma de RD) com o efeito de uma de suas magias, a CD da sua próxima magia de dano lançada até o fim do seu próximo turno aumenta em +1 para cada 10 pontos de dano evitado."
+                },
+                {
+                  "type": "item",
+                  "name": "Sanguessuga",
+                  "description": "O esotérico possui entalhes de marfim pontiagudos, semelhantes a dentes caninos. Se você lançar uma magia e um ou mais inimigos falharem no teste de resistência contra ela, você recebe 10 PV temporários."
+                },
+                {
+                  "type": "item",
+                  "name": "Traiçoeiro",
+                  "description": "O esotérico emite um sibilar baixo e constante. Se você lançar uma magia hostil e afetar um aliado, todas as criaturas afetadas pela magia (incluindo o aliado!) sofrem –2 em seus testes de resistência. O aliado não pode ter nenhum tipo de resistência ou imunidade contra o efeito da magia, nem se beneficiar dele de nenhuma forma, para este encanto funcionar — por exemplo, uma Bola de Fogo lançada contra um aliado com redução de fogo não ativa este efeito."
+                },
+                {
+                  "type": "item",
+                  "name": "Verdugo",
+                  "description": "O esotérico retira poder da morte de seus inimigos. Na primeira vez em cada cena que você reduz um inimigo a 0 PV ou menos com uma magia lançada com este esotérico, o dano causado por suas magias aumenta em +1 por dado até o fim da cena."
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Esotéricos Específicos",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Cajado das Marés",
+                  "description": "Este cajado arcano glacial é feito de coral azul e conchas. Você recebe deslocamento de natação 9m (se já possui deslocamento de natação, ele aumenta em +3m). Além disso, você pode gastar uma ação de movimento e 2 PM para conjurar um redemoinho que empurra todos os inimigos adjacentes 4,5m para longe de você (Ref CD Int evita)."
+                },
+                {
+                  "type": "item",
+                  "name": "Cálice Sagrado",
+                  "description": "Este cálice pode ser luxuoso ou humilde — de ouro e adornado com gemas, ou de barro e feitio rústico —, conforme a divindade à qual foi consagrado. O custo de suas magias divinas diminui em –2 PM e todos os efeitos variáveis delas aumentam em +1 por dado."
+                },
+                {
+                  "type": "item",
+                  "name": "Relógio do Arcanista",
+                  "description": "Este relógio de bolso com corpo de prata possui símbolos arcanos no lugar de números em seu mostrador, e permite manipular o tempo necessário para lançar magias arcanas. Quando lança uma magia arcana com execução de movimento, padrão ou completa, você pode gastar +4 PM para lançá-la como uma ação livre. Se você possuir o poder Magia Acelerada, em vez disso o custo para usá-lo diminui em –2 PM."
+                },
+                {
+                  "type": "item",
+                  "name": "Varinha Milenar",
+                  "description": "Um esotérico ancestral, que já foi usado por diversos arquimagos ao longo da história artoniana… e absorveu um pouco do poder de cada um deles. A varinha milenar conta como uma varinha arcana, mas aumenta a CD para resistir a suas magias arcanas em +4 e aumenta todos os dados de dano de suas magias arcanas em um passo. É um item poderoso, mas exigente: se um inimigo passar em um teste de resistência contra uma magia sua, você perde 1 PV por PM gasto na magia."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Acessórios",
+          "items": [
+            {
+              "type": "item",
+              "name": "Acessórios",
+              "description": "Acessórios representam versões mágicas de itens gerais e pertencem às mesmas categorias desses itens. Quando a descrição de um acessório não especificar sua categoria, guie-se por sua descrição e pela lógica. Uma flauta fantasma, por exemplo, é um instrumento musical, enquanto um chapéu do disfarce é um vestuário. O mestre tem a palavra final quanto à categoria de cada acessório. Acessórios mágicos funcionam de forma similar a armas mágicas, podendo ser tanto encantados quanto específicos (Tormenta20, p. 334)."
+            },
+            {
+              "type": "folder",
+              "name": "Encantos para Acessórios",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Encantos para Acessórios",
+                  "description": "Encantos para acessórios são aplicados a itens gerais (exceto esotéricos, que possuem sua própria seção; veja acima). A descrição de cada encanto indica para qual tipo de item ele se aplica."
+                },
+                {
+                  "type": "item",
+                  "name": "Aconchegante",
+                  "description": "O vestuário torna o sono mais confortável, melhorando seu descanso em uma categoria."
+                },
+                {
+                  "type": "item",
+                  "name": "Ajudante",
+                  "description": "A ferramenta realiza movimentos por vontade própria, auxiliando-o. O bônus em uma perícia fornecido pela ferramenta aumenta em +2."
+                },
+                {
+                  "type": "item",
+                  "name": "Autoritário",
+                  "description": "O vestuário tem ornamentos volumosos no peitoral e nas ombreiras, tornando sua figura mais imponente. Fornece +2 em Intimidação (cumulativo com outros bônus do item) e aumenta a CD de seus efeitos de medo em +2."
+                },
+                {
+                  "type": "item",
+                  "name": "Compacto",
+                  "description": "Por meio de articulações engenhosas e bolsões planares, o equipamento não ocupa espaços."
+                },
+                {
+                  "type": "item",
+                  "name": "Imaculado",
+                  "description": "O vestuário está sempre limpo e perfumado. Mesmo após emergir de um pântano ou esgoto, toda a imundície desaparece em 1 rodada. Fornece +2 em Diplomacia (cumulativo com outros bônus do item) e aumenta a CD de Aparência Inofensiva, Presença Aristocrática e efeitos similares em +2."
+                },
+                {
+                  "type": "item",
+                  "name": "Insinuante",
+                  "description": "O vestuário realça suas curvas e músculos. Fornece +2 em Enganação (cumulativo com outros bônus do item) e aumenta a CD de seus efeitos mentais em +2."
+                },
+                {
+                  "type": "item",
+                  "name": "Ligeiro",
+                  "description": "O item pode ser vestido ou removido com uma ação livre (acompanhada ou não de pose e olhar fatal)."
+                },
+                {
+                  "type": "item",
+                  "name": "Prontidão",
+                  "description": "O item surge em suas mãos no instante em que precisa ser utilizado. Desde que ele esteja em alcance curto, você pode empunhá-lo ou guardá-lo como uma ação livre. Além disso, se executar uma reação em que poderia usar o item, você pode empunhá-lo como parte dessa ação."
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Acessórios Específicos",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Algibeira Mordedora",
+                  "description": "Possivelmente concebida por algum arcanista cansado de ser furtado por punguistas, esta bolsa transforma sua abertura em uma bocarra de dentes atrozes, travando mandíbulas poderosas na mão do infeliz que tenta acessar seu conteúdo sem permissão. Quando uma criatura faz um teste de Ladinagem para punga contra você, sofre 6d6 pontos de dano de corte e fica agarrada pela algibeira. Para se soltar, a criatura precisa gastar uma ação padrão e passar em um teste de Acrobacia (CD do item) — você pode liberar a criatura proferindo uma palavra de comando (uma ação livre)."
+                },
+                {
+                  "type": "item",
+                  "name": "Algibeira Provedora",
+                  "description": "Esta bolsa de couro parece normal à primeira vista, mas tem uma conexão planar com o Reino de Nimb. Você pode gastar uma ação completa para enfiar sua mão na algibeira e procurar por um item mundano não superior que ocupe até 1 espaço. Role 1d20. Se rolar 6 ou mais, você encontra o item. Ele dura até se afastar a mais de 9m de você ou até você procurar outro item. Se rolar 5 ou menos, você sai de mãos vazias e a algibeira perde seus poderes por 1 dia. Se rolar 1 natural, a algibeira cria dentes, lhe dá uma mordida (causando 4d6 pontos de dano de corte) e desaparece em uma nuvem de purpurina!"
+                },
+                {
+                  "type": "item",
+                  "name": "Ampulheta da Harmonia Temporal",
+                  "description": "Uma ampulheta dourada com areia prateada que parece flutuar em ciclos irregulares. Quando invertida, permite que você manipule levemente o fluxo do tempo ao redor, desacelerando ou acelerando pequenos eventos. Uma vez por dia, você pode realizar uma tarefa que normalmente consome de 1 minuto a 1 hora como uma ação completa."
+                },
+                {
+                  "type": "item",
+                  "name": "Amuleto da Visão Etérea",
+                  "description": "Este amuleto de cristal translúcido é preso a uma corrente de prata e brilha quando exposto à luz. Você recebe resistência a ilusões +5 e pode lançar Visão Mística. Caso já conheça essa magia, pode lançá-la como uma ação livre."
+                },
+                {
+                  "type": "item",
+                  "name": "Amuleto do Amparo",
+                  "description": "Este medalhão forjado em prata traz a figura de uma mão aberta. Quando você faz um teste para ajudar, o bônus que fornece aumenta em +2."
+                },
+                {
+                  "type": "item",
+                  "name": "Anel da Beleza Ilusória",
+                  "description": "Este anel de ouro contém uma gema que reflete a luz de maneira incomum. Enquanto estiver vestindo este anel, você aparenta ser mais belo — não apenas conforme os padrões estéticos de seu povo ou raça, mas também de acordo com as preferências de cada observador. Você recebe +5 em testes de perícias baseadas em Carisma, exceto Intimidação, e pode lançar Enfeitiçar. Se já puder lançar essa magia, seu custo diminui em –1 PM."
+                },
+                {
+                  "type": "item",
+                  "name": "Anel da Chama Dançante",
+                  "description": "Um anel de ouro com uma pequena chama mágica viva que nunca se apaga. A chama mágica — na verdade um pequeno elemental — atua como um parceiro vigilante veterano e permite que você lance Controlar Fogo (se já puder lançar essa magia, seu custo diminui em –1 PM)."
+                },
+                {
+                  "type": "item",
+                  "name": "Anel da Proteção Mental",
+                  "description": "Este anel de platina contém uma pequena pedra lunar que brilha suavemente. Você recebe resistência a efeitos mentais +5."
+                },
+                {
+                  "type": "item",
+                  "name": "Anel do Pacto Oneroso",
+                  "description": "Este anel de platina contém inscrições sobre um acordo com uma entidade poderosa — talvez um espírito ancestral, um Dragão-Real ou mesmo um deus do Panteão. O anel permite lançar uma magia divina de até 4º círculo a sua escolha, sem custo em PM. Contudo, para cada utilização, você deve realizar uma penitência ou busca determinada pelo mestre. Você não pode lançar uma nova magia até que a penitência pela magia anterior tenha sido cumprida."
+                },
+                {
+                  "type": "item",
+                  "name": "Bastão da Grande Harmonia",
+                  "description": "Este bastão de madeira de carvalho é gravado com símbolos antigos e irregulares que irradiam uma energia suave. Você pode gastar uma ação padrão e 3 PM para gerar um pulso de energia tranquilizante em um raio de 9m. Outras criaturas nessa área devem fazer um teste de Vontade (CD Sab); aquelas que falharem largam quaisquer armas que estejam empunhando e ficam pasmas por 1 rodada (apenas uma vez por cena). Além disso, você pode lançar Guardião Divino. Se já puder lançar essa magia, seu custo diminui em –1 PM."
+                },
+                {
+                  "type": "item",
+                  "name": "Bastão do Sonhador",
+                  "description": "Este bastão longo e esquelético possui uma gema cintilante na ponta e permite que você entre nos sonhos de uma pessoa adormecida. Em termos de jogo, você pode lançar Sonho. Se já puder lançar essa magia, uma vez por mês pode entregar um item para a pessoa ou roubar um item de posse dela. No primeiro caso, quando a pessoa acordar, estará com o item na vida real. No segundo, você precisa fazer um teste de Vontade oposto contra a pessoa. Se você vencer, quando sair do sonho estará com o item dela."
+                },
+                {
+                  "type": "item",
+                  "name": "Berço das Fadas",
+                  "description": "Este saco de dormir mágico é feito de tecido macio e aveludado, em um tom de azul profundo que lembra o céu noturno. Mesmo ao relento e sem um acampamento, oferece condição de descanso confortável. Além disso, enquanto está no saco de dormir, você é considerado sob efeito da magia Suporte Ambiental."
+                },
+                {
+                  "type": "item",
+                  "name": "Botas do Andarilho das Sombras",
+                  "description": "Estas botas de couro escuro são incrivelmente silenciosas, permitindo ao usuário se mover sem emitir sons. Você recebe +5 em testes de Furtividade realizados em ambientes urbanos ou escuros. Além disso, uma vez por dia, você pode lançar Salto Dimensional — mas apenas se existir no destino uma sombra de tamanho suficiente para sua passagem."
+                },
+                {
+                  "type": "item",
+                  "name": "Braçadeiras da Força do Colosso",
+                  "description": "Estas braçadeiras de ferro negro são incrivelmente pesadas, mas fornecem um aumento massivo na força física do portador. Você recebe +4 em Força (somente após um dia de uso). Além disso, uma vez por cena, pode gastar 5 PM para aumentar esse bônus para +8 por 1 rodada."
+                },
+                {
+                  "type": "item",
+                  "name": "Bracelete do Coração Vivaz",
+                  "description": "Este bracelete de ouro adornado com um coração fornece +10 PV (somente após um dia de uso). Além disso, quando você é reduzido a 0 PV ou menos, pode gastar 2 PM para curar 2d8+2 PV por luz."
+                },
+                {
+                  "type": "item",
+                  "name": "Braceletes da Amizade Intensa",
+                  "description": "Estes dois braceletes de prata são gravados com símbolos antigos de união e lealdade. Quando colocados (cada um numa pessoa diferente), estabelecem uma ligação poderosa entre seus usuários. Em alcance médio, ambos podem se comunicar por telepatia — podendo ver, ouvir e sentir tudo que o outro vê, ouve e sente. Também podem sempre sentir em que direção e distância o outro está. Por fim, quando um usuário recebe cura mágica ou outro efeito mágico benéfico, o outro também é afetado se estiver em alcance curto. O preço do item é pelo par!"
+                },
+                {
+                  "type": "item",
+                  "name": "Caixa dos Ecos Perdidos",
+                  "description": "Esta caixa de madeira pequena e simples não aparenta nada especial, sem adereços ou ornamentos. No entanto, quando é aberta, liberta ecos do passado: seus muitos compartimentos contêm partes de memórias antigas, diálogos e fatos históricos. Você pode gastar 3 PM para receber um bônus de +10 em um teste de perícia baseada em Inteligência que, a critério do mestre, se relacione a um evento passado."
+                },
+                {
+                  "type": "item",
+                  "name": "Cálice das Marés",
+                  "description": "Este cálice de prata oferece ao portador o poder de comandar as águas. Você pode lançar Controlar Água (se já puder lançar essa magia, seu custo diminui em –1 PM)."
+                },
+                {
+                  "type": "item",
+                  "name": "Capa Nebulosa",
+                  "description": "Feita com finos fios de névoa mágica, esta capa permite ao usuário desaparecer em nevoeiros ou escuridão, como se fizesse parte da névoa ou das trevas. Sempre que você estiver sob camuflagem leve por escuridão ou neblina, essa camuflagem se torna total."
+                },
+                {
+                  "type": "item",
+                  "name": "Chapéu dos Truques Infinitos",
+                  "description": "Esta cartola ornamentada com estrelas e luas permite conjurar uma variedade de efeitos mágicos menores. Você pode lançar livremente qualquer versão truque de qualquer magia de 1º círculo que ofereça esse aprimoramento, mesmo que não a conheça."
+                },
+                {
+                  "type": "item",
+                  "name": "Chapéu Pensador",
+                  "description": "Este estranhíssimo “chapéu” na verdade tem o formato triangular de um telhado, com uma chaminé no topo, onde está alojado um ninho de pássaros ruidosos — que dizem ser raros animais planares sagrados de Tanna-Toh. Você recebe a habilidade Engenhosidade (Tormenta20, p. 68); caso já possua essa habilidade, o bônus fornecido por ela aumenta em +2."
+                },
+                {
+                  "type": "item",
+                  "name": "Chave dos Planos",
+                  "description": "Esta pequena chave de metal parece comum à primeira vista, mas é capaz de abrir portas para lugares distantes. Inserida na fechadura de uma porta comum, permite que você lance Teletransporte ou Viagem Planar, sem necessidade de componente material, desde que também exista uma porta de qualquer tipo no local de chegada."
+                },
+                {
+                  "type": "item",
+                  "name": "Cinto da Desmaterialização",
+                  "description": "Este cinto feito de couro e metal possui um fecho especial que permite ao usuário desmaterializar seu corpo por um curto período. Você pode lançar Forma Etérea, mas apenas em você mesmo."
+                },
+                {
+                  "type": "item",
+                  "name": "Cinto da Flecha Veloz",
+                  "description": "Este cinto de couro ajustável permite ao usuário acelerar seus movimentos com arcos e bestas. Você recebe a habilidade Ataque Extra (Tormenta20, p. 66), mas só pode usá-la com armas de disparo. Se já a possui, em vez disso o custo para usá-la com armas de disparo diminui em –1 PM."
+                },
+                {
+                  "type": "item",
+                  "name": "Cinto da Leveza Graciosa",
+                  "description": "Este cinto mágico reduz o peso do usuário, tornando-o mais ágil e permitindo saltos mais altos e movimentos mais suaves. Você recebe +5 em Acrobacia e está sempre sob o efeito básico de Queda Suave."
+                },
+                {
+                  "type": "item",
+                  "name": "Cinto dos Caminhos Cruzados",
+                  "description": "Este cinto de couro possui fivelas de metal intrincadas que brilham com energia mágica. Uma vez por cena, você pode gastar uma ação de movimento e 3 PM para trocar de lugar com um aliado em alcance curto — vocês dois se teletransportam para onde o outro está."
+                },
+                {
+                  "type": "item",
+                  "name": "Cinturão do Trobo",
+                  "description": "Este cinto de couro resistente aumenta a força do usuário para erguer peso. Você recebe +5 em testes de Atletismo para erguer peso e sua capacidade de carga aumenta em 5 espaços."
+                },
+                {
+                  "type": "item",
+                  "name": "Colar da Fúria Monstruosa",
+                  "description": "Este colar rústico, feito com ossos e presas de monstros variados, invoca a fúria primeva de Megalokk. Você adquire a habilidade Fúria do bárbaro; caso já possua essa habilidade, seus bônus em testes de ataque e rolagens de dano aumentam em +1."
+                },
+                {
+                  "type": "item",
+                  "name": "Colar da Perseverança",
+                  "description": "Este colar de âmbar proporciona ao usuário um aumento considerável em sua determinação. Você recebe +5 em Vontade e +2 em todos os testes estendidos."
+                },
+                {
+                  "type": "item",
+                  "name": "Colar do Tirano",
+                  "description": "Este item cruel é fabricado por abissais e usado por escravagistas. Cada colar tem conexão planar com uma ou mais coleiras (tipicamente 1d8) destinadas a prisioneiros escravizados. Uma vez por rodada, o usuário do colar do tirano pode causar 2d8+2 pontos de dano de eletricidade a um escravo encoleirado. Tentativas mundanas de remover a coleira causam o mesmo dano — apenas efeitos como Dissipar Magia permitem destrancá-las. Além disso, qualquer dano ou efeito nocivo causado ao usuário do colar também afeta todos os escravos encoleirados."
+                },
+                {
+                  "type": "item",
+                  "name": "Colar das Bolas de Fogo",
+                  "description": "Este colar de ouro possui cinco pequenos rubis incrustados (ou 1d4+1 rubis, se for encontrado num tesouro). Você recebe redução de fogo 10 e pode lançar Bola de Fogo (CD Int ou Car; se já puder lançar essa magia, você recebe 2 PM para gastar em aprimoramentos dela). Quando lança Bola de Fogo, você pode gastar uma ação de movimento para arrancar e quebrar um dos rubis. Se fizer isso, aumenta a CD para resistir a magia em +2 e todos os dados de dano dela em um passo (ambos os efeitos são cumulativos com bônus de outros itens). Se quebrar todos os rubis, o colar perde seus poderes."
+                },
+                {
+                  "type": "item",
+                  "name": "Coração do Inverno",
+                  "description": "Este cristal azul claro é muito frio ao toque, parecendo emitir uma aura gélida. Se estiver empunhando o cristal, você pode lançar Raio Polar (CD Int ou Car; se já puder lançar essa magia, seus dados de dano aumentam em um passo). Deixado em um aposento fechado e pequeno (equivalente a no máximo uma área de 9m de raio), faz com que seu interior se torne muito frio (abaixo de –10ºC)."
+                },
+                {
+                  "type": "item",
+                  "name": "Corda da Resignação",
+                  "description": "Esta corda feita de fibras mágicas possui um feitiço de aprisionamento. Quando é usada para amarrar alguém, a CD do teste de Acrobacia para escapar aumenta em +20. Além disso, uma vítima amarrada tem sua força de vontade drenada, e fica alquebrada e esmorecida."
+                },
+                {
+                  "type": "item",
+                  "name": "Coroa da Floresta Sussurrante",
+                  "description": "Esta tiara feita de galhos e folhas sempre verdes tem pequenas flores que se abrem ao toque. Ao vesti-la, você é considerado sob efeito da magia Voz Divina e pode lançar Acalmar Animal e Controlar Plantas (CD Sab; se já puder lançar uma dessas magias, pode lançá-la como uma ação de movimento)."
+                },
+                {
+                  "type": "item",
+                  "name": "Coroa da Majestade Distorcida",
+                  "description": "Esta coroa de prata escura é adornada com pedras de obsidiana. Usada por alguns monarcas, permite exercer uma aura de autoridade inquestionável. Você recebe +1 de Carisma (somente após um dia de uso) e pode lançar Comando (CD Car) como uma ação de movimento e com um bônus de +2 na CD. Contudo, aqueles que passam em seu teste de resistência uma única vez não podem mais ser afetados — talvez explicando algumas prisões ou banimentos sem motivo aparente..."
+                },
+                {
+                  "type": "item",
+                  "name": "Cristal da Voz Silenciosa",
+                  "description": "Usado como pingente junto à garganta, este cristal permite ao usuário falar com uma voz mágica, audível apenas para as pessoas que ele selecionar, em alcance curto. Além de muito útil para comunicações secretas, o cristal também permite lançar magias sem necessidade de falar."
+                },
+                {
+                  "type": "item",
+                  "name": "Cristal do Tempo Célere",
+                  "description": "Este cristal azulado contém em seu interior uma pequena porção de gás mágico que afeta a passagem do tempo. Quando o cristal é quebrado, pode acelerar o tempo dentro de um aposento. Em termos de jogo, gastar o cristal permite um intervalo entre aventuras no tempo de 1 dia."
+                },
+                {
+                  "type": "item",
+                  "name": "Elixir da Eternidade",
+                  "description": "Este elixir dourado, guardado em uma ampola de vidro de alta qualidade, é capaz de preservar a vitalidade de uma criatura viva por um longo período. Quando ingerido, evita que o usuário envelheça. Até o fim da aventura, você recebe resistencia a trevas +5, torna-se imune a efeitos mágicos de envelhecimento e, se estiver usando a regra opcional de idades variadas (p. 288), ignora todas as suas complicações de idade."
+                },
+                {
+                  "type": "item",
+                  "name": "Elixir da Mente Dividida",
+                  "description": "Este elixir de cor verde esmeralda permite ao usuário dividir sua consciência em duas partes. Quando ingerido, permite executar uma ação de movimento e uma ação padrão adicionais por rodada (esse efeito não se acumula com outros efeitos mágicos que concedem ações adicionais) até o fim da cena. Contudo, enquanto sua mente está dividida, você perde a capacidade de se focar plenamente em qualquer tarefa: sofre uma penalidade de –5 em testes de perícia (exceto testes feitos como reação) e é considerado em condição ruim para lançar magias (Tormenta20, p. 170). Além disso, quando o efeito acaba, você fica fatigado por 1 dia."
+                },
+                {
+                  "type": "item",
+                  "name": "Espelho da Verdade",
+                  "description": "Este grande espelho é emoldurado em ferro e adornado com figuras de celestiais combatendo abissais. A imagem de qualquer criatura ou objeto refletida no espelho revela sua forma verdadeira, como a magia Visão da Verdade — sendo assim um item muitas vezes encontrado em locais de alta segurança. O espelho também pode ser utilizado por um conjurador como a superfície reflexiva para lançar Vidência, aumentando a CD dessa magia em +5 e estendendo seu efeito de Visão da Verdade ao alvo observado."
+                },
+                {
+                  "type": "item",
+                  "name": "Espelho do Outro Lado",
+                  "description": "Este pequeno espelho de bronze polido reflete não apenas a imagem física, mas a alma do indivíduo que o encara. Uma vez por aventura, você pode encarar o espelho para conversar por alguns minutos com sua contraparte espiritual. O resultado da interação é imprevisível, pois o reflexo pode se manifestar como um aliado solícito que oferece conselhos ou como um crítico severo que diminui sua autoconfiança. Em termos de regras, role 1d10–3. Se você rolar um número positivo, recebe esse número em d6 de auxílio — até o fim da aventura, quando faz um teste de perícia, pode gastar até 2d6 e adicionar o resultado como bônus no teste (cumulativo com bônus de outros itens). Se você rolar um número negativo, o mestre recebe esse número em d6. Até o fim da aventura, quando você faz um teste de perícia, o mestre pode gastar qualquer quantidade desses dados e impor o resultado como uma penalidade no teste, representando inseguranças incutidas em você por sua própria alma!"
+                },
+                {
+                  "type": "item",
+                  "name": "Frigideira do Chef Anão",
+                  "description": "Esta enorme frigideira de adamante, gravada com runas dos anões, é amplamente utilizada pelos maiores chefs de Doherimm. É um instrumento de Ofício (cozinheiro) que fornece +5 nessa perícia. Também pode ser usada como uma maça maciça formidável de adamante ou, em situações de emergência, como um escudo pesado defensor de adamante que, por não ter suportes próprios, exige as duas mãos."
+                },
+                {
+                  "type": "item",
+                  "name": "Gaiola dos Arcanos",
+                  "description": "Este item é uma gaiola de prata pequena e robusta, com um pequeno cristal pulsante em seu interior. Quando uma criatura usa uma habilidade mágica em um raio de 9m da gaiola, o cristal suga 1 PM por círculo da magia lançada, ou 2 PM no caso de outras habilidades mágicas, dessa criatura. Os efeitos de várias gaiolas no mesmo aposento são cumulativos."
+                },
+                {
+                  "type": "item",
+                  "name": "Gema da Profanação",
+                  "description": "Esta gema preciosa foi abençoada por uma ou mais divindades malignas do Panteão, tipicamente Aharadak, Arsenal, Kallyadranoch e outras que canalizam energia negativa. O custo de suas habilidades mágicas que causam dano de trevas diminui em –2 PM."
+                },
+                {
+                  "type": "item",
+                  "name": "Gema da Purificação",
+                  "description": "Esta gema preciosa foi abençoada por Lena, Marah, Thyatis ou outra divindade piedosa. Você pode lançar a magia Purificação. Caso seja devoto de uma divindade que canaliza energia positiva e/ou já conheça essa magia, seu custo diminui em –1 PM (essas reduções são cumulativas entre si)."
+                },
+                {
+                  "type": "item",
+                  "name": "Gema da Santificação",
+                  "description": "Esta gema preciosa foi abençoada por uma ou mais divindades benignas do Panteão, tipicamente Azgher, Khalmyr, Lena e outras que canalizam energia positiva. Toda a área em alcance curto da gema é considerada sob efeito da magia Consagrar. Se for devoto de uma dessas divindades, você pode também pagar PM para ativar seus aprimoramentos por uma cena."
+                },
+                {
+                  "type": "item",
+                  "name": "Instrumentos da Celeridade",
+                  "description": "Existe uma versão destas ferramentas mágicas para cada perícia de Ofício. Conta como instrumentos do Ofício em questão aprimorado e permite fabricar um item adicional da mesma categoria e que tenha o mesmo tempo de fabricação ao mesmo tempo. Você precisa pagar o custo e fazer o teste de cada item."
+                },
+                {
+                  "type": "item",
+                  "name": "Lâmpada da Ilusão Impecável",
+                  "description": "Esta lâmpada de cristal contém uma chama dourada que nunca apaga. Quando sua cobertura é removida, ela projeta ilusões perfeitamente detalhadas de qualquer coisa que o usuário deseje — você pode lançar a magia Criar Ilusão, mas apenas para efeitos visuais (CD Int; se já puder lançar essa magia, recebe 2 PM para gastar em aprimoramentos dela). Contudo, a perfeição absoluta das imagens aumenta a CD para resistir à magia em +5."
+                },
+                {
+                  "type": "item",
+                  "name": "Máscara da Raposa",
+                  "description": "Esta máscara de marfim ornada com linhas em vermelho vivo é muitas vezes vista em representações recentes de Hyninn. Usando-a, você parece estar em vários lugares, e em nenhum. Você pode lançar Imagem Espelhada (se já puder lançar essa magia, pode lançá-la como uma ação de movimento e seu custo diminui em –1 PM)."
+                },
+                {
+                  "type": "item",
+                  "name": "Máscara do Predador",
+                  "description": "Esta máscara metálica rústica amplifica os sentidos do caçador, facilitando o rastreio de sua presa. Você recebe +5 em testes de Investigação para procurar e em testes de Sobrevivência para rastrear. Você também recebe a habilidade Marca da Presa do caçador. Se já a possui, o custo para usá- -la diminui em –1 PM (essa redução não conta para suas habilidades baseadas no total de PM gastos em Marca da Presa)."
+                },
+                {
+                  "type": "item",
+                  "name": "Monóculo da Franqueza",
+                  "description": "Esta lente emoldurada em prata revela intenções e pensamentos ocultos. Observando alguém em alcance curto através do monóculo, o usuário recebe uma leitura superficial de sua mente, discernindo mentiras ou intenções escusas. Você recebe +10 em testes de Intuição para perceber mentiras."
+                },
+                {
+                  "type": "item",
+                  "name": "Ocarina da Melodia Distante",
+                  "description": "Este instrumento musical feito de porcelana fornece +2 em Atuação. Contudo, seu verdadeiro potencial só é revelado quando é tocado por um bardo — o bônus em Atuação aumenta para +5 e o alcance de suas Músicas de bardo aumenta em um passo (de curto para médio e de médio para longo)."
+                },
+                {
+                  "type": "item",
+                  "name": "Óculos da Revelação",
+                  "description": "Quando invoca o poder destas lentes, você pode lançar a magia Lendas e Histórias."
+                },
+                {
+                  "type": "item",
+                  "name": "Olhos do Corvo",
+                  "description": "Esta tira de tecido deve ser amarrada sobre os olhos como uma venda, cobrindo-os com desenhos que imitam olhos de ave. Enquanto usa o item, você fica cego em ambientes iluminados, mas em ambientes escuros (escuridão leve ou total, mundana ou mágica) enxerga normalmente e fica imune às condições cego e ofuscado."
+                },
+                {
+                  "type": "item",
+                  "name": "Papiro das Estrelas",
+                  "description": "Um pergaminho preto que parece conter constelações em sua superfície. Desenrolado, projeta um mapa celeste mágico que revela localizações ocultas, caminhos seguros ou perigos iminentes. Fornece +5 em testes de Sobrevivência para orientar-se e rastrear, e em testes de Percepção para evitar ser surpreendido por inimigos nos ermos."
+                },
+                {
+                  "type": "item",
+                  "name": "Pedra da Passagem",
+                  "description": "Uma pequena pedra dourada que emite uma leve pulsação de luz. Você pode gastar uma ação padrão e 3 PM para segurá-la contra uma superfície sólida e produzir uma abertura de tamanho Médio. Afeta apenas superfícies não mágicas com RD 8 ou menos. Não abre buracos em seres vivos. Não abre buracos em golens ou osteon. Não abre buracos em armadilhas ou evita perigos complexos, mesmo que você ache as palavras “porta” ou “parede” em algum lugar da descrição. Não abre buracos em nada exceto portas e paredes. Francamente...!"
+                },
+                {
+                  "type": "item",
+                  "name": "Pena da Criação",
+                  "description": "Esta pena, que brilha em tom roxo escuro, pertencia a um malafex — tipo de corvo mágico sagrado de Nimb. Conta como instrumentos de Ofício (escriba) aprimorado. Uma vez por cena, você pode gastar uma ação completa para desenhar um monstro em um pergaminho ou outra superfície que aceite tinta. Faça um teste de Ofício (escriba) com CD 10. Se passar, você lança o efeito básico de Conjurar Monstro sem gastar PM. Para cada 5 pontos pelos quais o resultado do teste exceder a CD, você recebe +1 PM para gastar em aprimoramentos. Você pode usar esse efeito mesmo sem ser treinado no Ofício apropriado (mas talvez o monstro invocado seja um pouco… esquisito)."
+                },
+                {
+                  "type": "item",
+                  "name": "Pergaminho da Verdade Cósmica",
+                  "description": "Este perigoso pergaminho contém uma revelação divina tão poderosa e terrível que pode destruir a mente do leitor (avisos a esse respeito estão gravados no estojo externo). Abrir e olhar o pergaminho exige fazer um teste de Vontade (CD 40). Nenhum tipo de habilidade ou efeito que conceda sucessos automáticos ou permita escolher 10 funciona para esse teste. Em caso de falha, sua mente se despedaça — você sofre o efeito debilidade de Rogar Maldição, em sua versão permanente. Contudo, em caso de sucesso, você pode imediatamente lançar Intervenção Divina, para qualquer divindade que deseje, sem precisar gastar ou sacrificar PM, independente do efeito que peça. Uma vez utilizado, o pergaminho se desfaz em cinzas; o mesmo acontece com a verdade revelada, sendo impossível uma mente mortal contê-la."
+                },
+                {
+                  "type": "item",
+                  "name": "Pérola da Nulificação Mágica",
+                  "description": "Quando é ativada (uma ação de movimento), esta pequena pérola multicolorida produz o efeito básico da magia Campo Antimagia ao redor de seu portador, com duração de cena (em vez de sustentada). Contudo, o item tem apenas uma utilização; quando o efeito termina, a pérola adquire tom acinzentado, perdendo seu poder."
+                },
+                {
+                  "type": "item",
+                  "name": "Pingente da Dor Partilhada",
+                  "description": "Esta joia delicada, feita de prata escurecida, é ornamentada com um pequeno rubi em formato de lágrima, pulsando suavemente no ritmo do coração de seu portador. Quando um aliado em alcance curto se fere, você pode gastar 2 PM. Se fizer isso, o aliado não sofre o dano, mas você perde PV em quantidade igual ao dano que ele teria sofrido (após quaisquer efeitos que reduzam dano que seu aliado possua ou use, como RD ou Durão)."
+                },
+                {
+                  "type": "item",
+                  "name": "Saco dos Ventos Silenciosos",
+                  "description": "Este saco de algodão cru parece conter uma brisa constante. Quando aberto, libera um vento silencioso que pode ser usado para purificar ambientes, suavizar quedas ou aliviar calor extremo. Você pode lançar Criar Elementos (apenas ar), Queda Suave e Suporte Ambiental (apenas contra calor). Se já puder lançar qualquer dessas magias, seu custo diminui em –1 PM."
+                },
+                {
+                  "type": "item",
+                  "name": "Sandálias de Valkaria",
+                  "description": "Estas sandálias leves permitem andar sobre qualquer superfície, incluindo água e neve. Você ignora terrenos difíceis, pode caminhar sobre líquidos (como o aprimoramento da magia Libertação) e recebe +5 em testes de Acrobacia para atrevessar terreno escorregadio e em testes Atletismo para escalar."
+                },
+                {
+                  "type": "item",
+                  "name": "Tomo da Técnica Definitiva",
+                  "description": "Destinado a guerreiros que desenvolveram seu próprio Golpe Pessoal, este manual permite aprimorar ainda mais sua técnica. Estudar o tomo exige uma ação entre aventuras. Uma vez que você tenha feito isso, seu Golpe Pessoal recebe novos efeitos num total de até 2 PM, que não contam no limite para construí-lo e que não aumentam seu custo em PM. Quando sobe de nível e reconstrói seu golpe, você pode alterá-los. Se você possuir mais de um Golpe Pessoal, esse efeito se aplica apenas a um deles."
+                },
+                {
+                  "type": "item",
+                  "name": "Tomo dos Companheiros",
+                  "description": "Diz-se que este livro volumoso veio da própria Biblioteca de Tanna-Toh, em seu reino divino. De tão poderosas suas histórias, os personagens às vezes escapam para a vida real. Você pode gastar uma ação completa e 3 PM para ler um trecho do livro e convocar um parceiro veterano de um tipo a sua escolha, que surge em um espaço desocupado adjacente. O parceiro dura até o fim do dia ou até você conjurar outro parceiro com o tomo."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
