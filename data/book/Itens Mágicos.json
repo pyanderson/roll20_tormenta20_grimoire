@@ -1126,6 +1126,81 @@
     },
     {
       "type": "folder",
+      "name": "Guerra Artoniana",
+      "items": [
+        {
+          "type": "item",
+          "name": "Manto do Viajante",
+          "description": "Este manto velho e surrado tem marcas de muitas viagens. Fornece +5 em Sobrevivência e +3m em deslocamento, mas apenas em ambientes ermos (não urbanos). Além disso, você pode lançar a magia Primor Atlético (apenas em você mesmo). Acessório médio. 1 espaço. Preço T$ 25.500."
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "Guia de NPCs",
+      "items": [
+        {
+          "type": "folder",
+          "name": "Armas Específicas",
+          "items": [
+            {
+              "type": "item",
+              "name": "Avir",
+              "description": "Este montante aumentado macabro maciço formidável tumular foi fabricado a partir do fêmur da irmã de Narsogg. Uma arma única, conta como um cajado arcano. Além dos benefícios desse esotérico, as magias do usuário que causam dano de trevas causam +1 ponto de dano por dado. Arma específica maior, preço T$ 96.000."
+            },
+            {
+              "type": "item",
+              "name": "Báculo da Fé",
+              "description": "Este bordão banhado a ouro formidável é dedicado a uma divindade específica, que pode ser identificada pelos símbolos em sua empunhadura e extremidades. Quando empunhado por um devoto dessa divindade, causa +1d6 pontos de dano de fogo (para divindades que canalizam energia positiva) ou +1d6 pontos de dano de frio (para divindades que canalizam energia negativa). Arma mágica específica maior, T$ 45.000."
+            },
+            {
+              "type": "item",
+              "name": "Presuntador",
+              "description": "Feito de mana solidificado e dado a Klunc como recompensa por um ato especialmente heroico, o Presuntador é um machado de guerra aumentado energético magnífico. Se Klunc ficar inconsciente, o Presuntador continua lutando sozinho, com as mesmas estatísticas que teria se estivesse sendo empunhado. Quando ataca dessa forma, o Presuntador tem Defesa 35, RD 50 e 50 PV. Arma mágica específica maior, T$ 120.000."
+            },
+            {
+              "type": "item",
+              "name": "Punhal Escarlate",
+              "description": "Criada por Hemera, esta adaga formidável causa +1d6 pontos de dano de essência. Além disso, conta como um orbe cristalino. Arma específica média, preço T$ 41.000."
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Armaduras Específicas",
+          "items": [
+            {
+              "type": "item",
+              "name": "Armadura de Khalmyr",
+              "description": "Esta armadura completa sob medida defensora fica armazenada magicamente em uma gargantilha com o símbolo do Deus da Justiça. Enquanto está armazenada dessa forma, a armadura não ocupa nenhum espaço (embora ainda conte como um item vestido) e não impõe nenhuma penalidade ao usuário (como se ele não estivesse de armadura). Ao pronunciar o nome de Khalmyr, o usuário evoca a armadura, que é vestida automaticamente. Devolver a armadura à gargantilha também é uma ação livre. Armadura específica média, T$ 42.000."
+            },
+            {
+              "type": "item",
+              "name": "Batina Consagrada",
+              "description": "Esta armadura acolchoada guardiã refletora é dedicada a uma divindade específica, que pode ser identificada pelos símbolos bordados em seu peito e mangas. Conta como um manto eclesiástico aprimorado e, se vestida por um devoto da divindade à qual é dedicada, fornece redução de dano 5. Armadura específica maior, T$ 80.000."
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Acessórios",
+          "items": [
+            {
+              "type": "item",
+              "name": "Braceletes das Escamas",
+              "description": "Criados por Acteia, estes braceletes de aço escurecido são entalhados de forma a parecer escamas de dragão. Fornecem redução de dano 5 e contam como uma luva de ferro. Acessório médio, preço T$ 21.000."
+            },
+            {
+              "type": "item",
+              "name": "Face Dracônica",
+              "description": "Esta máscara dourada, semelhante ao rosto estilizado de um dragão, fortalece o poder arcano do usuário. Fruto do poder de Ilítia, fornece +2 na CD para resistir a suas habilidades mágicas (incluindo magias) e conta como um medalhão de prata. Acessório médio, preço T$ 25.000."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "folder",
       "name": "Heróis de Arton",
       "items": [
         {
