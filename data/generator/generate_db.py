@@ -78,6 +78,7 @@ book_folders_order = [
     "Testes",
     "Habilidades",
     "Combate",
+    "Itens Mágicos",
     "Tabelas",
     "Regras Opcionais (Heróis de Arton)"
 ]

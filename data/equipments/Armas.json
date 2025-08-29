@@ -806,6 +806,18 @@
       "grip": "Uma Mão"
     },
     {
+      "name": "Espada-Calibre",
+      "price": "T$ 1.000",
+      "damage": "*",
+      "critical": "*",
+      "range": "*",
+      "damageType": "*",
+      "spaces": "1",
+      "proficiency": "Armas Exóticas",
+      "purpose": "Corpo a Corpo",
+      "grip": "Uma Mão"
+    },
+    {
       "name": "Espada canora",
       "price": "T$ 50",
       "damage": "1d6",
@@ -927,7 +939,7 @@
     },
     {
       "name": "Presa de Serpente",
-      "price": "T$ 1000",
+      "price": "T$ 1.000",
       "damage": "1d8",
       "critical": "17",
       "range": "—",
@@ -963,7 +975,7 @@
     },
     {
       "name": "Lança de fogo",
-      "price": "T$ 1000",
+      "price": "T$ 1.000",
       "damage": "**",
       "critical": "**",
       "range": "**",

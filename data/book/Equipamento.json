@@ -314,6 +314,17 @@
             },
             {
               "type": "folder",
+              "name": "Deuses de Arton",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Espada-Calibre",
+                  "description": "Uma blasfêmia para alguns, esta arma é uma espada de lâmina pesada acoplada a uma pistola. A espada-calibre é uma arma híbrida que pode ser usada em dois modos: como uma arma corpo a corpo adaptável (dano 1d8, crítico 19, corte) ou como uma arma de fogo (dano 2d6, crítico 19/x3, perfuração, alcance curto). Quando faz um ataque com a espada-calibre em modo corpo a corpo, você pode acionar seu mecanismo para disparar a bala; se acertar, causa +2d6 pontos de dano de perfuração. Para atacar com ela em modo arma de fogo, você deve também ter proficiência com armas de fogo, ou é considerado não proficiente com ela. Recarregar a espadacalibre é uma ação padrão."
+                }
+              ]
+            },
+            {
+              "type": "folder",
               "name": "Heróis de Arton",
               "items": [
                 {
@@ -2145,6 +2156,11 @@
                       "type": "item",
                       "name": "Lucidílico",
                       "description": "Este líquido, uma criação atribuída a devotos de Nimb, parece ser formado por cores e texturas variadas, frequentemente em movimento. Bebê-lo é uma ação padrão; ao fazer isso, e no início de cada um dos seus turnos, role um dado. Em um resultado ímpar, você perde 1 PM. Em um resultado par, você pode executar uma ação de movimento adicional nesse turno. A cada três resultados pares em sequência, a ação adicional pode ser padrão. O efeito do lucidílico dura até o fim da cena ou até você ficar sem PM."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Saliva Ácida",
+                      "description": "Este líquido viscoso e esverdeado só pode ser obtido do cadáver de um jhumariel, e não pode ser fabricado normalmente. Uma dose é suficiente para cobrir uma arma corpo a corpo ou 20 munições; aplicá-la é uma ação padrão e faz a arma (ou a munição) causar +1d8 pontos de dano de ácido até o fim da cena. Preparado alquímico, T$ 150, 0,5 espaço."
                     },
                     {
                       "type": "item",

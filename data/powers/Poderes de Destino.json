@@ -50,6 +50,10 @@
       "description": "Você pode gastar uma ação de movimento e 1 PM para gritar ordens para seus aliados em alcance médio. Eles recebem +1 em testes de perícia até o fim da cena. Pré-requisito: Car 1."
     },
     {
+      "name": "Coração de Dragão",
+      "description": "Você recebe +2 PV e +2 PM. Além disso, para você, um dragão jovem conta como um único parceiro para seu limite de parceiros. Pré-requisitos: Car 2, 3º nível de personagem."
+    },
+    {
       "name": "Costas Largas",
       "description": "Seu limite de carga aumenta em 5 espaços e você pode se beneficiar de um item vestido adicional. Pré-requisito: Con 1, For 1."
     },

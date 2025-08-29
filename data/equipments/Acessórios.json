@@ -1,0 +1,911 @@
+{
+    "name": "Acessórios",
+    "items": [
+    {
+      "name": "Algibeira mordedora",
+      "price": "T$ 1.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Algibeira provedora",
+      "price": "T$ 6.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Ampulheta da harmonia temporal",
+      "price": "T$ 10.500",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Amuleto da robustez",
+      "price": "T$ 25.500",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Amuleto da visão etérea",
+      "price": "T$ 3.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Amuleto do amparo",
+      "price": "T$ 10.500",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Anel da beleza ilusória",
+      "price": "T$ 21.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Anel da chama dançante",
+      "price": "T$ 30.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Anel da energia",
+      "price": "T$ 21.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Anel da liberdade",
+      "price": "T$ 60.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Anel da proteção",
+      "price": "T$ 9.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Anel da proteção mental",
+      "price": "T$ 9.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Anel da regeneração",
+      "price": "T$ 150.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Anel da vitalidade",
+      "price": "T$ 21.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Anel de invisibilidade",
+      "price": "T$ 21.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Anel de telecinesia",
+      "price": "T$ 10.500",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Anel do escudo mental",
+      "price": "T$ 9.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Anel do pacto oneroso",
+      "price": "T$ 15.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Anel do sustento",
+      "price": "T$ 3.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Anel refletor",
+      "price": "T$ 51.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Argolas místicas",
+      "price": "T$ 25.500",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Bainha mágica",
+      "price": "T$ 3.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Bastão da grande harmonia",
+      "price": "T$ 25.500",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Bastão do sonhador",
+      "price": "T$ 21.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Berço das fadas",
+      "price": "T$ 9.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Bola de cristal",
+      "price": "T$ 10.500",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Botas aladas",
+      "price": "T$ 15.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Botas do andarilho das sombras",
+      "price": "T$ 15.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Botas inquietas",
+      "price": "T$ 15.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Botas velozes",
+      "price": "T$ 25.500",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Braçadeiras da força do colosso",
+      "price": "T$ 120.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Braçadeiras do arqueiro",
+      "price": "T$ 21.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Bracelete do coração vivaz",
+      "price": "T$ 27.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Braceletes da amizade intensa",
+      "price": "T$ 36.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Braceletes das escamas",
+      "price": "T$ 21.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Braceletes de bronze",
+      "price": "T$ 16.500",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Braceletes de ouro",
+      "price": "T$ 64.500",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Brincos da sagacidade",
+      "price": "T$ 4.500",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Brincos de Marah",
+      "price": "T$ 21.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Caixa dos ecos perdidos",
+      "price": "T$ 10.500",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Caldeirão da vida",
+      "price": "T$ 25.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Cálice das marés",
+      "price": "T$ 15.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Capa nebulosa",
+      "price": "T$ 16.500",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Caveira maldita",
+      "price": "T$ 10.500",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Chapéu do disfarce",
+      "price": "T$ 6.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Chapéu dos truques infinitos",
+      "price": "T$ 9.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Chapéu pensador",
+      "price": "T$ 30.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Chave dos planos",
+      "price": "T$ 60.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Chifre de unicórnio",
+      "price": "T$ 120.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Cilício vivo",
+      "price": "T$ 37.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Cinto da desmaterialização",
+      "price": "T$ 60.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Cinto da flecha veloz",
+      "price": "T$ 30.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Cinto da força do gigante",
+      "price": "T$ 25.500",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Cinto da leveza graciosa",
+      "price": "T$ 9.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Cinto do campeão",
+      "price": "T$ 51.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Cinto dos cminhos cruzados",
+      "price": "T$ 15.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Cinturão do trobo",
+      "price": "T$ 3.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Colar da fúria monstruosa",
+      "price": "T$ 21.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Colar da perseverança",
+      "price": "T$ 10.500",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Colar das bolas de fogo",
+      "price": "T$ 12.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Colar do tirano",
+      "price": "T$ 10.500",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Colar guardião",
+      "price": "T$ 51.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Coração corrompido",
+      "price": "T$ 45.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Coração do inverno",
+      "price": "T$ 45.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Corda da escalada",
+      "price": "T$ 3.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Corda da resignação",
+      "price": "T$ 7.500",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Coroa da floresta sussurrante",
+      "price": "T$ 21.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Coroa da majestade distorcida",
+      "price": "T$ 25.500",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Coroa de flores",
+      "price": "T$ 9.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Coroa majestosa",
+      "price": "T$ 25.500",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Cristal da voz silenciosa",
+      "price": "T$ 9.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Cristal do tempo célere",
+      "price": "T$ 9.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Cubo armadilha",
+      "price": "T$ 25.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Elixir da eternidade",
+      "price": "T$ 3.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Elixir da mente dividida",
+      "price": "T$ 1.500",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Elmo do teletransporte",
+      "price": "T$ 30.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Escrivaninha consagrada",
+      "price": "T$ 9.000",
+      "spaces": "2",
+      "category": "Menor"
+    },
+    {
+      "name": "Espelho da oposição",
+      "price": "T$ 75.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Espelho da verdade",
+      "price": "T$ 21.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Espelho do aprisionamento",
+      "price": "T$ 150.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Espelho do outro lado",
+      "price": "T$ 18.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Estatueta animista",
+      "price": "T$ 51.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Estola da serenidade",
+      "price": "T$ 25.500",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Face dracônica",
+      "price": "T$ 25.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Faixas do pugilista",
+      "price": "T$ 21.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Ferraduras da velocidade",
+      "price": "T$ 3.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Flauta fantasma",
+      "price": "T$ 6.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Fragmento de filactério",
+      "price": "T$ 90.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Frigideira do chef anão",
+      "price": "T$ 24.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Gaiola dos arcanos",
+      "price": "T$ 6.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Garrafa da fumaça eterna",
+      "price": "T$ 3.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Gema da luminosidade",
+      "price": "T$ 3.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Gema da profanação",
+      "price": "T$ 30.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Gema da purificação",
+      "price": "T$ 18.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Gema da santificação",
+      "price": "T$ 24.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Gema da telepatia",
+      "price": "T$ 30.000",
+      "spaces": "1",
+      "category": "Maor"
+    },
+    {
+      "name": "Gema elemental",
+      "price": "T$ 30.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Instrumento da alegria",
+      "price": "T$ 10.500",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Instrumentos da celeridade",
+      "price": "T$ 22.500",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Jarro das profundezas",
+      "price": "T$ 9.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Lâmpada da ilusão impecável",
+      "price": "T$ 6.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Lanterna da revelação",
+      "price": "T$ 6.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Luvas da delicadeza",
+      "price": "T$ 4.500",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Manoplas da Força do Ogro",
+      "price": "T$ 4.500",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Manto da Aranha",
+      "price": "T$ 21.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Manto da Resistência",
+      "price": "T$ 4.500",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Manto do Fascínio",
+      "price": "T$ 4.500",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Manto do Morcego",
+      "price": "T$ 25.500",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Manto do Viajante",
+      "price": "T$ 25.500",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Manto Élfico",
+      "price": "T$ 3.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Manual do bom exercício",
+      "price": "T$ 30.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Manual dos movimentos precisos",
+      "price": "T$ 30.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Manual da saúde corporal",
+      "price": "T$ 30.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Máscara da raposa",
+      "price": "T$ 18.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Máscara do predador",
+      "price": "T$ 22.500",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Medalhão de Lena",
+      "price": "T$ 30.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Mochila de carga",
+      "price": "T$ 3.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Monóculo da franqueza",
+      "price": "T$ 4.500",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Ocarina da melodia distante",
+      "price": "T$ 9.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Óculos da revelação",
+      "price": "T$ 10.500",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Olhos do corvo",
+      "price": "T$ 9.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Orbe das tempestades",
+      "price": "T$ 97.500",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Ossos dracônicos",
+      "price": "T$ 90.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Papiro das estrelas",
+      "price": "T$ 1.500",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Pedra da passagem",
+      "price": "T$ 15.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Pena da criação",
+      "price": "T$ 6.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Pergaminho da verdade cósmica",
+      "price": "T$ 9.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Pérola da nulificação",
+      "price": "T$ 3.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Pilão conspurcado",
+      "price": "T$ 21.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Pingente da dor partilhada",
+      "price": "T$ 15.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Pingente da saúde",
+      "price": "T$ 9.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Pingente da sensatez",
+      "price": "T$ 4.500",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Pira póstera",
+      "price": "T$ 15.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Pulseiras da celeridade",
+      "price": "T$ 25.500",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Robe do Arquimago",
+      "price": "T$ 90.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Saco dos ventos silenciosos",
+      "price": "T$ 3.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Sandálias de Valkaria",
+      "price": "T$ 12.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Símbolo Abençoado",
+      "price": "T$ 21.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Tapeçaria da guerra",
+      "price": "T$ 35.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Tapete voador",
+      "price": "T$ 60.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Tiara da sapiência",
+      "price": "T$ 25.500",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Tomo da compreensão",
+      "price": "T$ 30.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Tomo da liderança e influência",
+      "price": "T$ 30.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Tomo da técnica definitiva",
+      "price": "T$ 30.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Tomo dos Grandes Pensamentos",
+      "price": "T$ 30.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Tomo dos companheiros",
+      "price": "T$ 45.000",
+      "spaces": "1",
+      "category": "Maior"
+    },
+    {
+      "name": "Torque do vigor",
+      "price": "T$ 4.500",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Varinha da generosidade",
+      "price": "T$ 30.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Vassoura voadora",
+      "price": "T$ 21.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Vestido noturno",
+      "price": "T$ 21.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Véu diáfano",
+      "price": "T$ 13.500",
+      "spaces": "1",
+      "category": "Médio"
+    }
+  ]
+}

@@ -220,6 +220,10 @@
       "description": "No 20º nível, seu domínio das artes arcanas é total. O custo em PM de suas magias arcanas é reduzido à metade (após aplicar aprimoramentos e quaisquer outros efeitos que reduzam custo)."
     },
     {
+      "name": "Serpentes Dracônicas (Guia de NPCs)",
+      "description": "Quando lança uma magia que causa dano do tipo de sua linhagem dracônica, você pode gastar +1 PM para aumentar o dano dessa magia em +1d12. Pré-requisitos: medusa, feiticeiro (linhagem dracônica)."
+    },
+    {
       "name": "Caminho do Necromante (Necromante)",
       "description": "Você lança magias por meio de uma conexão com a morte. Você pode aprender magias de necromancia divinas como se fossem arcanas, mas não pode aprender magias de encantamento e pelo menos metade das magias que aprender devem ser de necromancia. Além disso, para lançar suas magias você precisa primeiro acessar sua conexão com a morte. Para isso, você deve gastar uma quantidade de PV igual ao círculo máximo de magias que deseja usar (limitado pelo círculo máximo a que tem acesso). Uma vez ativada, a conexão se mantém até o fim da cena. Seu atributo-chave para magias é Inteligência."
     },
