@@ -70,6 +70,10 @@
         "description": "Você e seu grupo treinaram em uma das táticas mais consagradas e eficientes da história militar artoniana, sendo capazes de proteger uns aos outros e formar uma muralha intransponível contra os inimigos. Se você estiver usando um escudo, pode gastar uma ação de movimento para formar uma parede de escudos com um ou mais aliados adjacentes com este poder que também estejam usando escudos. Enquanto permanecerem adjacentes, os participantes da parede recebem +5 na Defesa e RD 5."
       },
       {
+        "name": "Posicionamento Ofensivo",
+        "description": "Você e seu grupo sabem se movimentar no campo de batalha para responder rapidamente aos ataques inimigos. Quando você é alvo de um ataque que erra, você abre a guarda do atacante, deixando-o vulnerável por 1 rodada. Um aliado com este poder em alcance curto pode gastar 2 PM como reação para ocupar o seu lugar, empurrando-o para um espaço imediatamente atrás dele, e fazer um único ataque contra o atacante vulnerável. Você só pode usar este poder uma vez por inimigo por cena."
+      },
+      {
         "name": "Presença Luminosa",
         "description": "Todo grupo de aventureiros pode ter um druida que não toma banho, um ladino que não sabe a hora de calar a boca, um paladino rígido demais... Mas os heróis carismáticos compensam por esses chatos. Todos os personagens com este poder podem gastar 2 PM. Se fizerem isso, até o fim da cena, cada personagem pode usar o maior valor de cada perícia baseada em Carisma de cada personagem com este poder em suas rolagens."
       },

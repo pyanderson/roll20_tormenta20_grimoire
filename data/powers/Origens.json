@@ -268,6 +268,11 @@
     },
     {
       "source": "",
+      "name": "Cria das Estradas",
+      "description": "Treinado em Fortitude e Sobrevivência, e uma vez por cena pode ignorar todas as penalidades numéricas por condições e habilidades por uma rodada (como a penalidade na Defesa e Reflexos por estar desprevenido ou a penalidade em perícias e dano pela magia Oração.)"
+    },
+    {
+      "source": "",
       "name": "Criado pelas Voracis (Galrasia)",
       "description": "Você recebe +2 na Defesa e Sobrevivência e +3m em seu deslocamento."
     },
@@ -660,6 +665,11 @@
       "source": "",
       "name": "Criação dos Deuses",
       "description": "Escolha um deus maior (ou veja o quadro da p. 190). Você se torna um espírito, mas retém as características de seu tipo original (veja Tormenta20, p. 284) e recebe redução de dano 5 conforme o tipo de energia canalizada pelo deus: trevas para energia positiva, luz para energia negativa, ou à sua escolha entre estas se o deus canaliza ambas. Por fim, você recebe o poder Escolhido dos Deuses para a divindade escolhida."
+    },
+    {
+      "source": "",
+      "name": "Herdeiro da Libertação (Candeh'ssa)",
+      "description": "Você é treinado em uma perícia à sua escolha e pode gastar uma ação de movimento e 1 PM para se mover até o dobro do seu deslocamento. Esse movimento ignora terreno difícil e espaços apertados ou ocupados por inimigos. Além disso, uma vez a cada tempo entre aventuras, você pode visitar Candeh'ssa como pelo efeito da magia Viagem Planar."
     }
   ]
 }

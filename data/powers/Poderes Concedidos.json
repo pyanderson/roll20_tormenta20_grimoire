@@ -78,6 +78,10 @@
       "description": "Você pode gastar 1 PM para imbuir uma arma que estiver empunhando com energia sombria até o fim da cena. A arma causa +2 pontos de dano de trevas. Sempre que você reduzir um inimigo a 0 PV ou menos com a arma, esse bônus aumenta em +1 (aumento máximo limitado por sua Força)."
     },
     {
+      "name": "Arma do Panteão",
+      "description": "Escolha uma arma com a qual você seja proficiente e cujo dano seja apenas de impacto. Para você, esta arma passa a ser considerada uma arma preferida do Panteão, podendo ser usada com outras habilidades, como o poder Abençoar Arma. enquanto empunhar essa arma, você recebe +2 na Defesa. Pré-requisito: sacerdote do Panteão."
+    },
+    {
       "name": "Armas da ambição Valkaria",
       "description": "Você recebe +1 em testes de ataque e na margem de ameaça com armas nas quais é proficiente."
     },
