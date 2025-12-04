@@ -80,7 +80,8 @@ book_folders_order = [
     "Combate",
     "Itens Mágicos",
     "Tabelas",
-    "Regras Opcionais (Heróis de Arton)"
+    "Regras Opcionais (Heróis de Arton)",
+    "Negócios"
 ]
 
 book = sorted(book, key=lambda item: book_folders_order.index(item["name"]))
