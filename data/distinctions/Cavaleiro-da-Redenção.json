@@ -1,0 +1,30 @@
+{
+    "name": "Cavaleiro da Redenção",
+    "admission": "Um Cavaleiro da Redenção é alguém que já cometeu erros graves e chegou ao fundo do poço. O candidato deve ter cometido um crime, ter sido responsável pela morte de alguém próximo, renunciado ao próprio dever por razões mesquinhas, voltado as costas para um amigo ou cometido alguma outra falta igualmente séria. O verdadeiro juiz do quão fundo é esse poço é o próprio candidato: o que é inaceitável para um paladino altivo pode ser rotineiro para um ladino malandro. O principal é o sentimento de culpa do candidato — e, mais que isso, sua vontade de mudar.\nContudo, a vontade não basta. Um candidato a Cavaleiro da Redenção deve encontrar um Cavaleiro da Redenção já existente e pedir ajuda. Alguns candidatos são encontrados por seus futuros mentores, o que é considerado uma grande bênção de Thyatis. Mesmo assim, um candidato não pode simplesmente esperar que alguém o “ache” e lhe ofereça a segunda chance de que ele tanto precisa. Em geral é preciso procurá-la. Uma vez que o mentor seja achado, o candidato deve contar a ele seus erros e a razão de seu desejo por mudança. Então deve se esforçar para corrigi-los, segundo uma tarefa imposta pelo próprio mentor. Isso pode significar desde reconstruir uma aldeia destruída em um combate intempestivo até apresentar-se às autoridades para pagar por um crime. No geral, o candidato deve restaurar as vidas das pessoas que prejudicou ao que eram antes, tanto quanto possível.\nEmbora qualquer pessoa possa ser iniciada na Ordem da Cavalaria da Redenção apenas por vontade de ingressar ou por ser convidada por um membro, um verdadeiro Cavaleiro da Redenção é mais do que um “redimido”: é um “redentor”. Assim, após corrigir seus próprios erros, o candidato deve procurar uma pessoa que precise de uma segunda chance e ajudá-la a mudar, assim como ele mesmo foi ajudado. Em essência, o candidato deve fazer tudo que pode para compensar as vítimas dos erros desse desgarrado, permitindo que ele possa começar de novo, com uma segunda chance e a consciência limpa. Como o candidato ainda não é um Cavaleiro da Redenção, o desgarrado não se torna um Cavaleiro. Na verdade, ele pode nem mesmo entender tudo que o candidato está fazendo por ele.\nApenas quando essa segunda chance é oferecida e aceita, quando os erros do candidato e da pessoa que decidiu ajudar estão corrigidos, o personagem está pronto para ingressar na Ordem. Com uma rápida cerimônia e a designação de um dever a ser cumprido de agora em diante (uma decisão do mentor), é sagrado um novo Cavaleiro da Redenção.",
+    "abilities": [
+        {
+            "name": "Presença Protetora",
+            "description": "O efeito de sua Égide Sagrada se estende para aliados em alcance curto (e não apenas adjacentes)."
+        },
+        {
+            "name": "Escudo Redentor",
+            "description": "Quando um aliado dentro do efeito de sua Égide Sagrada se torna alvo de um ataque ou efeito hostil, você pode gastar 2 PM para proteger esse aliado usando seu próprio escudo. Apenas contra este ataque ou efeito, o aliado aplica quaisquer bônus que seu escudo forneça na Defesa, em testes de resistência e em redução de dano (isso conta como um benefício do poder, não de equipamento). Além disso, se o aliado sofrer dano desse ataque ou efeito, você sofre metade do dano no lugar dele. Pré-requisitos: treinado em Diplomacia, Luta e Vontade, Égide Sagrada, devoto de Thyatis."
+        },
+        {
+            "name": "Conceder Segunda Chance",
+            "description": "Uma vez por rodada, quando um aliado em alcance curto falha em um teste, você pode gastar 2 PM para que esse aliado role novamente esse teste. Para cada dois outros poderes de Cavaleiro da Redenção, você pode usar este poder uma vez adicional por rodada (mas não no mesmo teste). Pré-requisito: Escudo Redentor."
+        },
+        {
+            "name": "Palavras Redentoras",
+            "description": "Você aprende e pode lançar Escudo da Fé e Tranquilidade (atributo-chave Carisma). Pré-requisito: Escudo Redentor."
+        },
+        {
+            "name": "Provocação Flamejante",
+            "description": "Quando um inimigo passa no teste de Vontade contra sua Provocação Petulante, você pode gastar 1 PM para causar 2d6 pontos de dano de fogo nele. Para cada outro poder de Cavaleiro da Redenção que possui, você pode gastar +1 PM para aumentar esse dano em +2d6. Pré-requisitos: Escudo Redentor, Provocação Petulante."
+        },
+        {
+            "name": "Revoada da Fênix",
+            "description": "Uma vez por rodada, você pode gastar 2 PM para receber uma ação de movimento adicional, que só pode ser usada para se deslocar em direção a um aliado. Pré-requisito: Escudo Redentor."
+        }
+    ]
+}
