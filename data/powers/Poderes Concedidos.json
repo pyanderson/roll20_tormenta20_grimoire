@@ -638,6 +638,10 @@
       "description": "Você aprende e pode lançar Enfeitiçar. Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
     },
     {
+      "name": "Palavra de Drelene Drelene",
+      "description": "Você recebe +2 em testes de perícia para convencer alguém a adorar Drelene."
+    },
+    {
       "name": "Palavra de Poder Tanna-Toh",
       "description": "Você aprende e pode lançar Comando. Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
     },
@@ -696,6 +700,10 @@
     {
       "name": "Presas venenosas Sszzaas",
       "description": "Você pode gastar uma ação de movimento e 1 PM para envenenar uma arma corpo a corpo que esteja empunhando. Em caso de acerto, a arma causa perda de 1d12 pontos de vida. A arma permanece envenenada até atingir uma criatura ou até o fim da cena, o que acontecer primeiro."
+    },
+    {
+      "name": "Procrastinação Criativa Tilliann",
+      "description": "Se você terminar uma aventura com pontos de mana sobrando, pode adicionar essa quantidade como PM totais extras no início da aventura seguinte (até um máximo de pontos de mana totais igual ao dobro dos seus PM normais)."
     },
     {
       "name": "Proeminência Solar Azgher",
