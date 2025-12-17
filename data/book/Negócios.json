@@ -1,0 +1,262 @@
+{
+  "type": "folder",
+  "name": "Negócios",
+  "items": [
+    {
+      "type": "item",
+      "name": "Negócios",
+      "description": "Cedo ou tarde, algum jogador pode desejar fazer parte de Valkaria permanentemente, possuindo uma casa, uma família... E um negócio.\nPersonagens que ficam o tempo todo em suas tavernas, oficinas ou lojas não são bons aventureiros. Contudo, um herói pode ter um negócio qualquer, que é administrado no dia a dia por empregados ou familiares, e que ele apenas supervisiona quando não está metido em alguma masmorra. Esses negócios podem ser de qualquer tipo — desde estalagens até laboratórios alquímicos ou escolas de esgrima. O que importa é que sejam permanentes, lucrativos e que funcionem como fonte de satisfação, complicações e aventuras para os personagens e os jogadores.\nFaça com que o jogador crie um nome para o estabelecimento e ajude-o a decidir onde ele se localiza. Lembre-se de que áreas mais nobres são quase exclusivas de famílias tradicionais e um espaço perto da estátua de Valkaria é muito valioso e caro, mesmo para uma simples tenda que vende pães doces. Peça para o jogador criar alguns empregados. Enfim, estabeleça o negócio como parte integral da campanha. Desta forma, mesmo que não seja o foco do jogo, o Empório de Armamentos pode ser um elemento querido dos jogadores — mais ou menos como um NPC aliado, um item mágico, um companheiro animal ou um navio de posse do grupo.\nUse as regras a seguir para os negócios dos heróis."
+    },
+    {
+      "type": "item",
+      "name": "Criando um Negócio",
+      "description": "Para criar um negócio, você deve gastar um mês de trabalho, T$ 1.000 e fazer um teste de Ofício ou Nobreza (CD 20). Isso envolve procurar um lugar, agendar uma audiência com um Lorde Urbano ou órgão público para conseguir todos os alvarás, contratar empregados, comprar mercadorias etc. Se você passar no teste, cria um negócio de nível 1. Se falhar, não consegue criar o negócio. Você pode tentar novamente, gastando mais um mês de trabalho e T$ 1.000."
+    },
+    {
+      "type": "item",
+      "name": "Níveis de Negócio",
+      "description": "Negócios são medidos em níveis, que vão de 1 a 7 e representam seu tamanho, influência e prosperidade. Negócios de níveis 1 e 2 possuem poucos empregados e lidam com mercadorias baratas, como uma pequena oficina ou uma tenda de comidas. Negócios de níveis 3 a 5 possuem vários empregados ou lidam com mercadorias valiosas, como uma taverna, um estábulo ou um bazar. Por fim, negócios de níveis 6 e 7 são proeminentes, com muitos empregados e mercadorias caras. Exemplos incluem empórios abastecidos por caravanas inteiras e laboratórios alquímicos com poções de alto poder.\nUm negócio recém-criado é de nível 1. Você pode aumentar o nível de seu negócio fazendo um teste de Ofício ou Nobreza (CD 20 + 2x o próximo nível). Esse teste exige um mês de trabalho e o gasto de T$ 1.000 x o próximo nível. Por exemplo, subir um negócio do nível 3 para o nível 4 exige um teste de Ofício ou Nobreza contra CD 28, o gasto de T$ 4.000 e um mês de trabalho."
+    },
+    {
+      "type": "folder",
+      "name": "Ativos",
+      "items": [
+        {
+          "type": "item",
+          "name": "Ativos",
+          "description": "Negócios possuem um ativo por nível. Assim, um negócio recém-criado, de nível 1, possui um ativo. Cada vez que o negócio sobe de nível, recebe outro ativo — ou seja, um negócio de nível 5 possui um total de cinco ativos.\nAtivos representam os empregados, mercadorias e instalações do negócio. Em termos de descrição, indicam exatamente que tipo de negócio o personagem tem — uma forja, uma taverna, uma alfaiataria etc. Em termos de regras, cada ativo fornece um benefício para o dono do negócio e o resto do grupo (os outros personagens jogadores). Esses benefícios se aplicam enquanto eles tiverem acesso ao negócio e por até um mês depois. Por exemplo, um personagem com acesso ao ativo Botica recebe +1 em Fortitude. Se viajar para longe do negócio, perderá o bônus após 30 dias ou, a critério do mestre, após se ausentar por uma aventura inteira. Considere que estar “longe do negócio” é estar longe o suficiente para não poder frequentá-lo pelo menos uma vez por semana. O bônus será recebido novamente quando o personagem voltar a ter acesso ao negócio. Além disso, o único “custo” para o grupo é que, em termos de interpretação, qualquer personagem que se beneficie do bônus do ativo estará frequentando o negócio. Por exemplo, um clérigo de Azgher pode se beneficiar do ativo Altar de seu colega devoto de Tenebra. Contudo, estará constantemente frequentando um local de adoração da Deusa das Trevas, o que pode lhe valer a inimizade de outros devotos do Deus-Sol e talvez até mesmo de seu patrono!\nBenefícios fornecidos por ativos são benefícios de estruturas; eles se acumulam com outras fontes (habilidades, perícias, itens, magias, parceiros e o ambiente), mas não com benefícios de outras estruturas (como dádivas, domínios e bases).\nO personagem escolhe os ativos de seu negócio da lista a seguir."
+        },
+        {
+          "type": "item",
+          "name": "Academia",
+          "description": "Seu negócio é tão vasto e famoso que atrai pessoas extraordinárias de todo o mundo para aprender com você e com seus companheiros. Não interessa o que era no início — agora é uma verdadeira escola de aventureiros, o ponto de partida dos próximos grandes heróis de Arton. Você recebe um parceiro veterano humanoide de um tipo a sua escolha (exceto montaria). Se o parceiro for morto, é substituído na próxima vez que você passar na Academia. Pré-requisito: negócio de nível 7."
+        },
+        {
+          "type": "item",
+          "name": "Alfaiataria",
+          "description": "O negócio possui costureiros atentos à moda da nobreza e realeza do Reinado e além, contando com tecidos e joias de alta qualidade para a confecção de roupas elegantes. Você pode se beneficiar de um item vestido adicional. Pré-requisito: Oficina."
+        },
+        {
+          "type": "item",
+          "name": "Alojamentos",
+          "description": "Alojamentos incluem camas, bacias com água para higiene pessoal e outras coisas que garantem um descanso merecido após a última aventura — e necessário para a próxima. Transforma as condições de descanso no negócio em confortáveis."
+        },
+        {
+          "type": "item",
+          "name": "Altar",
+          "description": "Um local de oração, com símbolos religiosos de uma ou mais divindades. Você recebe +2 pontos de mana, mas apenas se for um conjurador divino."
+        },
+        {
+          "type": "item",
+          "name": "Arena",
+          "description": "Um espaço para lutas de todos os tipos. Aqueles que frequentam uma arena aprendem a usar armas variadas. Você recebe proficiência em uma arma marcial a sua escolha. Se já for proficiente com armas marciais, em vez disso pode escolher uma arma exótica."
+        },
+        {
+          "type": "item",
+          "name": "Bazar",
+          "description": "Este ativo representa contatos com fornecedores de mercadorias, como guildas de artesãos, caravaneiros e capitães de navios mercantes, além da estrutura necessária para vender essas mercadorias. Quando compra ou vende itens mundanos (não superiores e não mágicos), você muda o preço em 10% a seu favor."
+        },
+        {
+          "type": "item",
+          "name": "Botica",
+          "description": "Uma botica possui remédios, bálsamos e ervas medicinais, e ter acesso a uma delas garante boa saúde. Você recebe +1 em Fortitude."
+        },
+        {
+          "type": "item",
+          "name": "Cassino",
+          "description": "Um local para jogos de azar e apostas em geral. Alguns dizem que é abençoado por Nimb. Outros, que é amaldiçoado… Você recebe +1 em Jogatina. Uma vez por aventura (ou mês), você pode rolar um dado. Com um resultado par, recebe TO 10 x o nível do negócio elevado ao quadrado (ou seja, TO 10 para um negócio de nível 1, TO 40 para um negócio de nível 2, TO 90 para um negócio de nível 3 e assim por diante). Com um resultado ímpar, perde metade dessa quantia (se não tiver fundos para pagar, fica “devendo” para a próxima vez que usar este ativo)."
+        },
+        {
+          "type": "item",
+          "name": "Centro de Pesquisa",
+          "description": "Um local protegido, onde se pode fazer experimentos longe dos olhos alheios (e onde esses experimentos não podem explodir em rostos alheios). A quantidade de engenhocas que você pode manter aumenta em +1. Pré-requisito: Oficina."
+        },
+        {
+          "type": "item",
+          "name": "Círculo de Poder",
+          "description": "Objetos encantados e padrões de pinturas no chão, como pentagramas e runas, podem atrair as energias místicas naturais para um local específico. Você recebe +2 pontos de mana, mas apenas se for um conjurador arcano."
+        },
+        {
+          "type": "item",
+          "name": "Clínica",
+          "description": "Inclui macas, bandagens, ervas medicinais e todo o material necessário para curar ferimentos e doenças. Você recebe +3 PV."
+        },
+        {
+          "type": "item",
+          "name": "Cocheira",
+          "description": "Um espaço para animais descansarem confortavelmente, isolados do barulho da cidade grande. Inclui alimentação e tratadores treinados. Você pode ter até um parceiro montaria que não conta em seu limite de parceiros."
+        },
+        {
+          "type": "item",
+          "name": "Conservatório",
+          "description": "Não basta se apresentar para plebeus bêbados — um verdadeiro músico aprende todas as minúcias de seu instrumento em uma escola especializada. Você pode usar Atuação no lugar de Diplomacia."
+        },
+        {
+          "type": "item",
+          "name": "Cozinha",
+          "description": "Tavernas e estalagens podem até servir algum grude, mas comida de qualidade exige fornos, vários tipos de panelas, utensílios limpos e um bom estoque de ingredientes. Os bônus em perícias fornecidos pelos alimentos que você cozinha aumentam em +1."
+        },
+        {
+          "type": "item",
+          "name": "Creche",
+          "description": "Às vezes, aventureiros precisam deixar filhos e protegidos em algum lugar antes de se enfiar na próxima masmorra. Saber que seus pequenos estão em segurança o deixa mais disposto a se arriscar. Uma vez por aventura (ou mês), você pode sofrer um efeito nocivo no lugar de um aliado adjacente."
+        },
+        {
+          "type": "item",
+          "name": "Dojo",
+          "description": "O dojo é um local de treinamento das artes marciais tamuranianas. Inclui um chão de tablado, ideal para cair sem se machucar, instrumentos de treino, como bonecos estofados, e um pequeno altar a Lin-Wu. Você recebe +1 em testes de ataque com ataques desarmados ou armas naturais."
+        },
+        {
+          "type": "item",
+          "name": "Empório",
+          "description": "Se algo existe em Arton, está à venda em seu negócio. O negócio passa a render 100 TO x seu nível por mês (ou o resultado do teste de Ofício ou Nobreza x 10 x o nível do negócio). Pré-requisito: Bazar."
+        },
+        {
+          "type": "item",
+          "name": "Escritório",
+          "description": "Um espaço cheio de ábacos, pergaminhos e funcionários estressados que fazem a contabilidade e cuidam da administração de seu negócio. O custo em tibares para aumentar o nível do negócio é metade do normal."
+        },
+        {
+          "type": "item",
+          "name": "Espionagem Industrial",
+          "description": "Seu negócio possui agentes atentos às tendências e segredos de outros negócios. Escolha um ativo que o negócio não tenha, mas cujos pré-requisitos cumpra. O negócio fornece os benefícios desse ativo. Uma vez por aventura (ou por mês), você pode trocar o ativo escolhido por outro. Pré-requisito: negócio de nível 3."
+        },
+        {
+          "type": "item",
+          "name": "Estagiários",
+          "description": "Seu negócio emprega vários jovens aprendizes que trabalham muito e recebem pouco (ou nada). Muitas vezes você nem mesmo se preocupa em aprender os nomes deles, mas garante a todos que esta experiência no mercado de trabalho vai ser vital para sua carreira futura. Quando você fabrica um item não consumível, pode sofrer –5 no teste para fabricar dois itens da mesma categoria (mas não necessariamente o mesmo item) pagando o custo de ambos. Pré-requisito: Oficina."
+        },
+        {
+          "type": "item",
+          "name": "Estúdio",
+          "description": "Seu negócio tem um espaço reservado para os gênios, inovadores, loucos e tipos criativos que você emprega. Eles parecem dar muito trabalho e pouco lucro... Até que sua próxima grande ideia revolucione o mercado. A CD do teste de Ofício ou Nobreza para aumentar o nível do negócio diminui em –5."
+        },
+        {
+          "type": "item",
+          "name": "Fachada",
+          "description": "Mesmo que transações e atividades ilegais sejam realizadas no negócio, as autoridades não vêm bater em sua porta, pois aparentemente é um estabelecimento respeitável. Você recebe +1 em Furtividade e pode conduzir atividades ilegais (culto a deuses proibidos, fabricação ou venda de armas de fogo, receptação de mercadoria roubada...) em seu negócio. Isso não impede que haja tramas em que seu negócio esteja ameaçado pela lei ou por inimigos, apenas permite que você opere normalmente na maior parte do tempo. Segundo a decisão do mestre, este ativo também pode anular quaisquer interações negativas ou “má fama” de um membro do grupo por frequentar o negócio."
+        },
+        {
+          "type": "item",
+          "name": "Forjaria",
+          "description": "Uma oficina com todo o equipamento necessário para a criação de itens de grande qualidade. Inclui fornalha, bigorna, fole e malho. Você recebe 20% de desconto para comprar ou fabricar itens superiores. Pré-requisito: Oficina."
+        },
+        {
+          "type": "item",
+          "name": "Fortificação",
+          "description": "Um negócio com este ativo é fortificado contra invasões, com muralhas de pedra, portões de ferro e janelas gradeadas. Caso o negócio seja atacado, seus defensores recebem +2 na Defesa e em testes de resistência."
+        },
+        {
+          "type": "item",
+          "name": "Galeria de Arte",
+          "description": "As obras expostas aqui são as mais inovadoras do Reinado, o que faz com que muitos não as entendam. Mas será que há algo para entender? Você pode substituir testes de Atuação por testes de Enganação."
+        },
+        {
+          "type": "item",
+          "name": "Ginásio",
+          "description": "Esta invenção dos minotauros está se tornando mais comum no Reinado. A maioria dos artonianos ainda não vê sentido em ficar fazendo força em máquinas que mais parecem instrumentos de tortura… Você recebe +1 em rolagens de dano com ataques desarmados e armas naturais."
+        },
+        {
+          "type": "item",
+          "name": "Guilda de Aventureiros",
+          "description": "Um salão onde heróis andarilhos podem se encontrar e trocar histórias de aventuras. Toda XP que você recebe aumenta em +10%. Se o grupo estiver usando a regra de avanço por marcos (Tormenta20, p. 326) em vez disso você recebe +2 PV e +2 PM a cada novo patamar que alcança. Pré-requisito: Salão Comunal."
+        },
+        {
+          "type": "item",
+          "name": "Integração",
+          "description": "Seu negócio possui um programa de treinamento para novos contratados, com você mesmo ou os funcionários mais antigos ensinando tudo aos novatos quando eles ingressam. Você recebe +2 em testes de treinamento (veja Tormenta20, p. 277). Pré-requisito: negócio de nível 3."
+        },
+        {
+          "type": "item",
+          "name": "Jardim",
+          "description": "Um espaço coberto de flores e árvores. Não é o mesmo que uma área selvagem, mas o contato com a natureza, mesmo que tênue, fortalece a ligação com os poderes selvagens. O custo da habilidade Forma Selvagem diminui em –1 PM."
+        },
+        {
+          "type": "item",
+          "name": "Laboratório Alquímico",
+          "description": "Uma sala fechada com ampulhetas, balanças e outros instrumentos de precisão, além de frascos com todo tipo de ingrediente alquímico. Os efeitos de seus preparados alquímicos aumentam em um dado (por exemplo, fogo alquímico causa 2d6 pontos de dano, em vez de 1d6). Pré-requisito: Oficina."
+        },
+        {
+          "type": "item",
+          "name": "Laboratório Secreto",
+          "description": "Seu negócio esconde um covil onde são realizados experimentos ilegais, perigosos, profanos ou até mesmo antinaturais. Você recebe um poder da Tormenta (que provoca perda de Carisma como normal). Pré-requisitos: Fachada, negócio de nível 5."
+        },
+        {
+          "type": "item",
+          "name": "Livraria",
+          "description": "Possui prateleiras repletas de livros, tomos e pergaminhos, que cobrem assuntos variados. Você recebe +1 em Conhecimento."
+        },
+        {
+          "type": "item",
+          "name": "Logística",
+          "description": "Seu negócio conta com especialistas em armazenamento, transporte e manuseio de produtos e carga de todos os tipos. Seu limite de carga aumenta em 5 espaços."
+        },
+        {
+          "type": "item",
+          "name": "Mercado Multinivelado",
+          "description": "Em vez de fazer seu negócio crescer apenas com seu próprio investimento e contratar funcionários, você teve a ideia genial de fazer com que as pessoas paguem para trabalhar para você! Como isso pode ser vantajoso para elas, você pergunta? Ora, basta que elas também consigam outros que paguem para trabalhar para elas, e assim por diante, até que toda a população de Arton e dos reinos dos deuses seja um revendedor dos seus produtos. Esse sistema de “funil invertido” garante que cada “associado” pague uma parte de seus lucros para a pessoa que o recrutou — com você no topo, recebendo uma parcela de tudo que todos ganham. Existem pequenos detalhes nesse processo, como obrigar cada associado a vender uma certa quantia por mês ou pagar uma multa, o que os incentiva (ou obriga) a coagir seus familiares a comprar o produto, ou comprar eles mesmos, afundando-se em dívidas... Mas não vamos falar sobre isso. É hora de ser seu próprio chefe e realizar seus sonhos! A cada aventura (ou mês) em que você conseguir recrutar um NPC com nome (ou seja, não um figurante aleatório, mas alguém que efetivamente faça parte da campanha, tendo um histórico e personalidade), você recebe uma quantia em tibares igual ao nível do seu negócio x 100. Essa quantia aumenta a cada aventura (ou mês) em que você conseguir fazer isso — nível x 200 com dois NPCs recrutados, nível x 300 com três NPCs recrutados etc. (limitado a um multiplicador máximo igual ao nível do negócio). O mestre decide o que é necessário para recrutar um NPC específico, mas como regra geral você precisará de bastante interpretação, bons testes de perícias sociais e de uma vítima, digo, futuro associado que tenha alguma propensão para embarcar nessa. Pré-requisito: negócio de nível 3."
+        },
+        {
+          "type": "item",
+          "name": "Oficina",
+          "description": "Possui bancadas de trabalho, ferramentas e auxiliares, que permitem que o personagem exerça seu ofício com perfeição. Você recebe +1 em Ofício."
+        },
+        {
+          "type": "item",
+          "name": "Ourivesaria",
+          "description": "Sejam joias genuínas ou apenas bijuterias e penduricalhos baratos, seu negócio oferece acessórios de todos os tipos, para todos os gostos, bolsos e situações. No início de cada aventura (ou mês), você pode escolher um de seus itens para receber os benefícios das melhorias banhado a ouro ou cravejado de gemas. Esse efeito não conta no limite de melhorias do item."
+        },
+        {
+          "type": "item",
+          "name": "Palco",
+          "description": "Este espaço reúne todo tipo de artista — músicos, malabaristas, atores, mímicos... Apresentar-se em um palco regularmente deixa qualquer bardo mais preparado. Você pode usar poderes de Música gastando uma ação de movimento (em vez de ação padrão)."
+        },
+        {
+          "type": "item",
+          "name": "Pátio de Treinamento",
+          "description": "Possui depósitos de armas variadas, alvos de madeira e, o mais importante, espaço para golpear à vontade sem risco de machucar alguém. Escolha uma arma. Você recebe +1 em testes de ataque com a arma escolhida."
+        },
+        {
+          "type": "item",
+          "name": "Plano de Carreira",
+          "description": "Seu negócio busca auxiliar os funcionários em seus próprios objetivos, contribuindo com seu crescimento profissional e pessoal. Você recebe +2 em testes de buscas (veja Tormenta20, p. 278). Pré-requisito: negócio de nível 3."
+        },
+        {
+          "type": "item",
+          "name": "Propaganda",
+          "description": "Arautos anunciam seu negócio antes das lutas em grandes arenas. Cartazes colados nas paredes divulgam seus produtos. Aventureiros famosos têm seu brasão bordado na roupa. Você recebe +1 em Diplomacia ou Enganação. Pré-requisito: negócio de nível 2 (ou seja, algo a ser anunciado)."
+        },
+        {
+          "type": "item",
+          "name": "Salão Comunal",
+          "description": "Um grande salão, com mesas e cadeiras para beber e comemorar. Reúne todo tipo de gente e o burburinho das pessoas camufla as conversas que devem ser feitas em sussurros. Você pode usar o poder Mestre dos Sussurros (Tormenta20, p. 45). Se já possui esse poder, em vez disso você soma o nível do negócio nos testes de perícia usando o poder."
+        },
+        {
+          "type": "item",
+          "name": "Salão de Baile",
+          "description": "Nobres e figurões alugam este espaço para grandes festas ou reuniões exclusivas. Você recebe +1 em Nobreza."
+        },
+        {
+          "type": "item",
+          "name": "Salão de Marah",
+          "description": "Marah é a Deusa do Amor — e é justamente isso que os lugares que levam seu nome oferecem (ou pelo menos o simulacro que pode ser comprado). Uma visita a um desses salões deixa qualquer aventureiro mais disposto para aventuras. Seu total de PM aumenta em +1 por patamar."
+        },
+        {
+          "type": "item",
+          "name": "Santuário",
+          "description": "Este lugar sagrado permite que um devoto entre em comunhão com sua divindade, aumentando seu vínculo com ela. Se for devoto da divindade à qual o santuário é dedicado, você aprende uma magia divina adicional de qualquer círculo que possa lançar. Pré-requisito: Altar."
+        },
+        {
+          "type": "item",
+          "name": "Torre Arcana",
+          "description": "Um espaço para arcanistas e outros estudarem e testarem magias em paz — e sem desintegrar nenhum inocente. Você aprende uma magia arcana adicional de qualquer círculo que possa lançar. Pré-requisito: Círculo de Poder."
+        }
+      ]
+    },
+    {
+      "type": "item",
+      "name": "Rendimentos",
+      "description": "Independente de quais ativos possui, cada negócio rende tibares para seu proprietário. O valor básico é igual a T$ 100 x o nível do negócio por aventura (ou mês). Assim, um negócio de nível 5 rende T$ 500 por mês a seu proprietário. Um personagem que dedique um mês inteiro ao negócio pode fazer um teste de Ofício ou Nobreza para aumentar seus ganhos. Nesse caso, o rendimento do negócio no mês será igual ao resultado do teste x 10 x o nível do negócio."
+    }
+  ]
+}
