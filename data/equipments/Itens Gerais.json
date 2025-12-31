@@ -1844,8 +1844,50 @@
       "category": "Alimentação — Bebidas"
     },
     {
+      "name": "Cerveja água-de-sangue",
+      "price": "T$ 20",
+      "spaces": "0,5",
+      "category": "Alimentação — Bebidas"
+    },
+    {
+      "name": "Cerveja barbas de Heredrimm",
+      "price": "T$ 45",
+      "spaces": "0,5",
+      "category": "Alimentação — Bebidas"
+    },
+    {
+      "name": "Cerveja Beluhga no caneco",
+      "price": "T$ 36",
+      "spaces": "0,5",
+      "category": "Alimentação — Bebidas"
+    },
+    {
       "name": "Cerveja deheoni",
       "price": "T$ 15",
+      "spaces": "0,5",
+      "category": "Alimentação — Bebidas"
+    },
+    {
+      "name": "Cerveja do escavador",
+      "price": "T$ 60",
+      "spaces": "0,5",
+      "category": "Alimentação — Bebidas"
+    },
+    {
+      "name": "Cerveja rangedente",
+      "price": "T$ 20",
+      "spaces": "0,5",
+      "category": "Alimentação — Bebidas"
+    },
+    {
+      "name": "Destilado limpa-ventas",
+      "price": "T$ 36",
+      "spaces": "0,5",
+      "category": "Alimentação — Bebidas"
+    },
+    {
+      "name": "Destilado tuku’tu",
+      "price": "T$ 20",
       "spaces": "0,5",
       "category": "Alimentação — Bebidas"
     },
@@ -1870,6 +1912,12 @@
     {
       "name": "Hidromel uivante",
       "price": "T$ 21",
+      "spaces": "0,5",
+      "category": "Alimentação — Bebidas"
+    },
+    {
+      "name": "Licor bafo de elfa",
+      "price": "T$ 20",
       "spaces": "0,5",
       "category": "Alimentação — Bebidas"
     },
