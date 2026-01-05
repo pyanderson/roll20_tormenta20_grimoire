@@ -2875,59 +2875,116 @@
                   "description": "Fabricar uma bebida exige um teste de Ofício (cozinheiro) com CD 20 e segue as regras normais de fabricação de itens consumíveis (com 1 dia você faz uma bebida, ou duas se aceitar uma penalidade de –5 no teste).\nConsumir uma bebida leva alguns minutos — embora seja possível tomar alguns goles rapidamente, para receber os benefícios dela você precisa ingeri-la com calma! Benefícios de bebida duram 1 dia e se acumulam com outros benefícios de alimentação (incluindo de bebidas diferentes).\nQuando você ingere uma bebida alcoólica, deve fazer um teste de Fortitude (CD indicada no item; cada dose adicional no mesmo dia aumenta a CD em +5). Se falhar, fica embriagado (–2 em testes baseados em Destreza e Carisma). Se já estava embriagado, fica bebum (desprevenido, –5 em testes baseados em Destreza e Carisma). Por fim, se já estava bebum, cai inconsciente. Todas as condições duram até o fim do dia.\nEfeitos que evitem penalidades impostas por bebidas também anulam seus benefícios, pois eles andam lado a lado. Afinal, um personagem só recebe redução de dano ou bônus em perícias sociais ao beber por estar levemente embriagado! Um personagem com imunidade a efeitos prejudiciais de itens ingeríveis (como pelo poder Vida Rústica) pode abrir mão dessa imunidade ao beber para receber os benefícios da bebida. Nesse caso, ele recebe +5 em seu teste de Fortitude.\nUse estas regras apenas se todos os membros do grupo forem maiores de idade. E, por mais que tavernas e bebidas alcoólicas sejam comuns em obras de fantasia, não custa lembrar: na vida real, consuma com moderação!"
                 },
                 {
-                  "type": "item",
-                  "name": "Baba de Troll",
-                  "description": "Uma bebida sem álcool, à base de leite, castanhas, nozes e mel. Fornece +1d4 em um teste a sua escolha até o fim do dia. Não é alcoólica e não exige teste de Fortitude."
+                  "type": "folder",
+                  "name": "Heróis de Arton",
+                  "items": [
+                    {
+                      "type": "item",
+                      "name": "Baba de Troll",
+                      "description": "Uma bebida sem álcool, à base de leite, castanhas, nozes e mel. Fornece +1d4 em um teste a sua escolha até o fim do dia. Não é alcoólica e não exige teste de Fortitude."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Barba Queimada",
+                      "description": "Forte e amarga, esta cerveja anã fortalece o corpo e o espírito. Fornece redução de dano 2. CD 20."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Cerveja Deheoni",
+                      "description": "A bebida mais comum nas tavernas do Reinado. Fornece +1 em testes de resistência. CD 15."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Dilínio",
+                      "description": "Destilado de Mortenstenn, antigo reino de Lamnor, feito com um cereal que só cresce no continente sul. A receita se perdeu após as invasões duyshidakk e poucos barris chegaram ao Reinado, o que explica seu altíssimo preço. Seu limite de gasto de PM aumenta em +1. CD 20. Não é possível fabricar este item."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Grogue Negro",
+                      "description": "Rum misturado com especiarias. Seu nome não vem de sua coloração (a bebida tem um tom dourado claro), mas de sua origem — a receita foi criada por piratas do Conclave, que atuam no Mar Negro. Quando você usa Audácia, o bônus fornecido pelo poder aumenta em +1. CD 15."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Grogue Rubro",
+                      "description": "Uma variação do grogue negro, com especiarias picantes que fazem a bebida adquirir uma coloração avermelhada — e quem a bebe, certa inclinação para a violência. Você pode usar Audácia para testes de ataque. CD 20."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Hidromel Uivante",
+                      "description": "Fabricada nas montanhas geladas, esta bebida aquece e incita. Fornece +2 em rolagens de dano corpo a corpo. CD 20."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Licor Feérico",
+                      "description": "De aparência enevoada, esta bebida tem gosto adocicado, difícil de descrever. Dizem que é feito na Pondsmânia e trazido para o resto do Reinado com muita dificuldade. Alguns duvidam; dizem que isso é invenção dos taverneiros para cobrar mais caro! Mas, depois de experimentar uma dose, não duvidam mais. Escolha uma habilidade. O custo para ativar essa habilidade diminui em –1 PM. CD 25."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Sidra Ahleniense",
+                      "description": "Esta bebida doce deixa qualquer um mais falante, fornecendo +2 em testes de perícias originalmente baseadas em Carisma. CD 15."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Vinho Pruss",
+                      "description": "Batizado em homenagem ao antigo Rei-Imperador Thormy — dizem que era o favorito do monarca. Fornece 3 PM temporários. CD 15."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Vinho Élfico",
+                      "description": "De sabor complexo, aguça a mente, fornecendo +1 na CD para resistir a suas habilidades. CD 20."
+                    }
+                  ]
                 },
                 {
-                  "type": "item",
-                  "name": "Barba Queimada",
-                  "description": "Forte e amarga, esta cerveja anã fortalece o corpo e o espírito. Fornece redução de dano 2. CD 20."
-                },
-                {
-                  "type": "item",
-                  "name": "Cerveja Deheoni",
-                  "description": "A bebida mais comum nas tavernas do Reinado. Fornece +1 em testes de resistência. CD 15."
-                },
-                {
-                  "type": "item",
-                  "name": "Dilínio",
-                  "description": "Destilado de Mortenstenn, antigo reino de Lamnor, feito com um cereal que só cresce no continente sul. A receita se perdeu após as invasões duyshidakk e poucos barris chegaram ao Reinado, o que explica seu altíssimo preço. Seu limite de gasto de PM aumenta em +1. CD 20. Não é possível fabricar este item."
-                },
-                {
-                  "type": "item",
-                  "name": "Grogue Negro",
-                  "description": "Rum misturado com especiarias. Seu nome não vem de sua coloração (a bebida tem um tom dourado claro), mas de sua origem — a receita foi criada por piratas do Conclave, que atuam no Mar Negro. Quando você usa Audácia, o bônus fornecido pelo poder aumenta em +1. CD 15."
-                },
-                {
-                  "type": "item",
-                  "name": "Grogue Rubro",
-                  "description": "Uma variação do grogue negro, com especiarias picantes que fazem a bebida adquirir uma coloração avermelhada — e quem a bebe, certa inclinação para a violência. Você pode usar Audácia para testes de ataque. CD 20."
-                },
-                {
-                  "type": "item",
-                  "name": "Hidromel Uivante",
-                  "description": "Fabricada nas montanhas geladas, esta bebida aquece e incita. Fornece +2 em rolagens de dano corpo a corpo. CD 20."
-                },
-                {
-                  "type": "item",
-                  "name": "Licor Feérico",
-                  "description": "De aparência enevoada, esta bebida tem gosto adocicado, difícil de descrever. Dizem que é feito na Pondsmânia e trazido para o resto do Reinado com muita dificuldade. Alguns duvidam; dizem que isso é invenção dos taverneiros para cobrar mais caro! Mas, depois de experimentar uma dose, não duvidam mais. Escolha uma habilidade. O custo para ativar essa habilidade diminui em –1 PM. CD 25."
-                },
-                {
-                  "type": "item",
-                  "name": "Sidra Ahleniense",
-                  "description": "Esta bebida doce deixa qualquer um mais falante, fornecendo +2 em testes de perícias originalmente baseadas em Carisma. CD 15."
-                },
-                {
-                  "type": "item",
-                  "name": "Vinho Pruss",
-                  "description": "Batizado em homenagem ao antigo Rei-Imperador Thormy — dizem que era o favorito do monarca. Fornece 3 PM temporários. CD 15."
-                },
-                {
-                  "type": "item",
-                  "name": "Vinho Élfico",
-                  "description": "De sabor complexo, aguça a mente, fornecendo +1 na CD para resistir a suas habilidades. CD 20."
+                  "type": "folder",
+                  "name": "Fim dos Tempos - Arco 2: Valkaria",
+                  "items": [
+                    {
+                      "type": "item",
+                      "name": "Tabela de Bebidas Anãs",
+                      "description": "Embora muitas tavernas em Arton afirmem servir “cerveja anã”, a Terceira Opção é uma das poucas que tem um acordo formal com a Guilda dos Cervejeiros de Doherimm, servindo aos valkarianos as mesmas bebidas que os doheritas consomem. Cada bebida anã tem nome, preço, descrição e efeito diferentes.\nAs cervejas (e outras bebidas) anãs descritas aqui são “bebidas”, uma categoria de itens de alimentação apresentada originalmente em Heróis de Arton (p. 236). Consumir uma bebida leva alguns minutos — embora seja possível tomar alguns goles rapidamente, para receber os benefícios dela você precisa ingeri-la com calma! Benefícios de bebida duram 1 dia e se acumulam com outros benefícios de alimentação (incluindo de bebidas diferentes).\nQuando você ingere uma bebida alcoólica, deve fazer um teste de Fortitude (CD indicada no item; cada dose adicional no mesmo dia aumenta a CD em +5). Se falhar, fica embriagado (–2 em testes baseados em Destreza e Carisma). Se já estava embriagado, fica bebum (desprevenido, –5 em testes baseados em Destreza e Carisma). Por fim, se já estava bebum, cai inconsciente. Todas as condições duram até o fim do dia.\nEfeitos que evitem penalidades impostas por bebidas também anulam seus benefícios, pois eles andam lado a lado. Afinal, um personagem só recebe redução de dano ou bônus em perícias sociais ao beber por estar levemente embriagado! Um personagem com imunidade a efeitos prejudiciais de itens ingeríveis (como pelo poder Vida Rústica) pode abrir mão dessa imunidade ao beber para receber os benefícios da bebida. Nesse caso, ele recebe +5 em seu teste de Fortitude."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Cerveja água-de-sangue",
+                      "description": "De sabor amargo e aparência avermelhada, esta cerveja aumenta a concentração e determinação. Fornece +2 em Vontade. CD 15."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Cerveja barbas de Heredrimm",
+                      "description": "Uma bebida forte de espuma amarela e sabor adstringente, esta cerveja tradicional fornece +1d6 em um teste a sua escolha até o fim do dia. CD 20."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Cerveja Beluhga no caneco",
+                      "description": "Esta bebida opaca e esbranquiçada produz uma espuma azul e carrega um leve sabor mentolado. Fornece redução de fogo 5. CD 20."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Cerveja do escavador",
+                      "description": "Apesar do nome simples, esta é uma bebida muito prestigiosa em Doherimm, e raramente é encontrada na superfície. Fornece +1 em Força, mas reduz o deslocamento em –3m. CD 20."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Cerveja rangedente",
+                      "description": "Viscosa e de textura gosmenta, esta cerveja prepara as tripas para sofrimentos ainda maiores. Fornece +2 em Fortitude. CD 15."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Destilado limpa-ventas",
+                      "description": "Uma bebida amarela e opaca, com um inesperado sabor picante. Fornece redução de frio 5. CD 20."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Destilado tuku’tu",
+                      "description": "Quente e amargo, este destilado inflama as veias e acelera o coração. Fornece +2 em Reflexos. CD 15."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Licor bafo de elfa",
+                      "description": "Leve, suave e adocicado, este licor parece nem ser alcoólico, até que algumas doses “inofensivas” sejam consumidas. Fornece +2 em Misticismo. CD 15."
+                    }
+                  ]
                 }
               ]
             }
