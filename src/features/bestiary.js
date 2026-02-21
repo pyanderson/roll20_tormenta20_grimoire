@@ -1,5 +1,13 @@
 'use strict';
 
+// ---------------------------------------------------------------------------
+// TODO - Implementar Futuramente
+// ---------------------------------------------------------------------------
+// [ ] ataquealcance para ataques à distância (depende da arma do monstro)
+// [ ] somar no dano e ataque melhorias e encantamentos
+// ---------------------------------------------------------------------------
+
+
 import { openDialog } from '../common/dialog-manager';
 import { createElement } from '../common/helpers';
 import { ImportExportSheet } from './import-export';
@@ -39,6 +47,30 @@ const SKILL_NAME_TO_FIELD = {
   Vontade: 'vontade',
 };
 
+// Atributo base de cada perícia (para preservar o atributo correto no import)
+const SKILL_ATTR_MAP = {
+  acrobacia:    'des', adestramento: 'car', atletismo:    'for',
+  atuacao:      'car', cavalgar:     'des', conhecimento: 'int',
+  cura:         'sab', diplomacia:   'car', enganacao:    'car',
+  fortitude:    'con', furtividade:  'des', guerra:       'int',
+  iniciativa:   'des', intimidacao:  'car', intuicao:     'sab',
+  investigacao: 'int', jogatina:     'car', ladinagem:    'des',
+  luta:         'for', misticismo:   'int', nobreza:      'int',
+  percepcao:    'sab', pilotagem:    'des', pontaria:     'des',
+  reflexos:     'des', religiao:     'sab', sobrevivencia:'sab',
+  vontade:      'sab',
+};
+
+// Fórmulas de atributo JDA por atributo
+const SKILL_ATTR_FORMULA = {
+  for: '@{for_mod} + @{condicaoperfisico} + @{condicaocego}',
+  des: '@{des_mod} + @{condicaoperfisico} + @{condicaocego}',
+  con: '@{con_mod} + @{condicaoperfisico}',
+  int: '@{int_mod} + @{condicaopermental}',
+  sab: '@{sab_mod} + @{condicaopermental}',
+  car: '@{car_mod} + @{condicaopermental}',
+};
+
 const SIZE_MAP = {
   'Minúsculo': -4,
   Pequeno: -2,
@@ -52,6 +84,87 @@ const ATTACK_SKILL_MELEE =
   '@{lutatotal}+@{condicaomodataquecc}+@{condicaomodataque}';
 const ATTACK_SKILL_RANGED =
   '@{pontariatotal}+@{condicaomodataquedis}+@{condicaomodataque}';
+
+// ---------------------------------------------------------------------------
+// Helpers de cálculo de ataque
+// ---------------------------------------------------------------------------
+
+/**
+ * Converte ND para nível equivalente.
+ * NDs fracionários (1/4, 1/2) resultam em 1. S/S+ resultam em 20.
+ */
+function ndToLevel(nd) {
+  const s = String(nd);
+  if (s === 'S' || s === 'S+') return 20;
+  if (s.includes('/')) {
+    const [a, b] = s.split('/');
+    return Math.max(1, Math.round(parseInt(a) / parseInt(b)));
+  }
+  return Math.max(1, parseInt(s) || 1);
+}
+
+/**
+ * Retorna o bônus de treino de perícia para um dado nível.
+ * Nível  1-6  → +2
+ * Nível  7-14 → +4
+ * Nível 15+   → +6
+ */
+function treinoBonus(level) {
+  if (level >= 15) return 6;
+  if (level >= 7) return 4;
+  return 2;
+}
+
+/**
+ * Calcula o bônus outros de uma perícia para chegar no total informado.
+ * A ficha JDA aplica automaticamente: atributo_mod + treino + floor(level/2) + outros
+ * Portanto: outros = total - atributo_mod - treino - floor(level/2)
+ */
+function calcSkillOutros({ bonusTotal, attrMod, level, trained }) {
+  const treino = trained ? treinoBonus(level) : 0;
+  const nivelBonus = Math.floor(level / 2);
+  return bonusTotal - attrMod - treino - nivelBonus;
+}
+
+/**
+ * Decompõe a string de dano nos campos da ficha.
+ * Ex: "2d8+18 mais 2d6 fogo, x3" → { dano: "2d8+18", dadoExtra: "2d6", critMult: "3", critRange: "20" }
+ * Ex: "2d6+8 mais veneno"        → { dano: "2d6+8",  dadoExtra: "",    critMult: "2", critRange: "20" }
+ * Texto puro após "mais" (veneno, doença) é ignorado — já aparece nas habilidades.
+ */
+function parseDamage(damageStr) {
+  let s = (damageStr || '').trim();
+
+  // Multiplicador crítico: ", x3"
+  let critMult = '2';
+  const critMultMatch = s.match(/,\s*[xX](\d+)/);
+  if (critMultMatch) {
+    critMult = critMultMatch[1];
+    s = s.slice(0, critMultMatch.index).trim();
+  }
+
+  // Margem crítica: ", 18" ou ", 19" (2 dígitos soltos no final)
+  let critRange = '20';
+  const critRangeMatch = s.match(/,\s*(\d{2})\s*$/);
+  if (critRangeMatch) {
+    critRange = critRangeMatch[1];
+    s = s.slice(0, critRangeMatch.index).trim();
+  }
+
+  // Dano extra: " mais <dado>" — só registra se for expressão de dado válida
+  let dadoExtra = '';
+  const maisMatch = s.match(/\s+mais\s+(.+)$/i);
+  if (maisMatch) {
+    const extraStr = maisMatch[1].trim();
+    s = s.slice(0, maisMatch.index).trim();
+    const dadoMatch = extraStr.match(/^(\d*d\d+(?:[+\-]\d+)?)/);
+    if (dadoMatch) {
+      dadoExtra = dadoMatch[1]; // ex: "2d6" (sem texto de tipo de dano)
+    }
+  }
+
+  return { dano: s, dadoExtra, critMult, critRange };
+}
 
 // ---------------------------------------------------------------------------
 // Conversão monstro → dados de importação
@@ -70,7 +183,7 @@ export function monsterToSheetData(monster) {
     trace: monster.type || '',
     torigin: '',
     tlevel: '',
-    charnivel: '1',
+    charnivel: monster.nd ? String(ndToLevel(monster.nd)) : '',
   };
 
   // Atributos
@@ -86,9 +199,9 @@ export function monsterToSheetData(monster) {
   data.int = attrVal('int');
   data.sab = attrVal('wis');
   data.car = attrVal('cha');
+  data.menace_name = monster.name;
 
   // PV e PM
-  data.menace_name = monster.name || 'SEM NOME';
   data.vidatotal = String(monster.hp || 0);
   data.vida = String(monster.hp || 0);
   data.vidatemp = '0';
@@ -96,9 +209,7 @@ export function monsterToSheetData(monster) {
   data.mana = String(monster.pm || 0);
   data.manatemp = '0';
 
-  // Defesa: defesaatributo=0, defesaoutros = valor base
-  data.defesaatributo = '0';
-  data.defesaoutros = String(parseInt(monster.defense || '0') || 0);
+  // Defesa calculada após desMod (ver abaixo)
 
   // Deslocamento (primeiro valor em metros)
   const movMatch = (monster.movement || '').match(/(\d+)m/);
@@ -147,35 +258,93 @@ export function monsterToSheetData(monster) {
   data.cdoutros = '0';
   data.extraslot = '0';
 
-  // Perícias: zera todas, depois marca as que o monstro possui
-  Object.values(SKILL_NAME_TO_FIELD).forEach((field) => {
+  // Nível equivalente e bônus de treino baseados na ND
+  const monsterLevel = ndToLevel(monster.nd);
+  const forMod = parseInt(attrVal('str')) || 0;
+  const desMod = parseInt(attrVal('dex')) || 0;
+
+  // Defesa: 10 + DES + outros  →  outros = total - 10 - DES
+  const defenseTotal = parseInt(monster.defense || '0') || 0;
+  data.defesaatributo = '1'; // usa modificador de DES
+  data.defesaoutros = String(defenseTotal - 10 - desMod);
+  const hasRangedAttack = (monster.attacks || []).some(
+    (a) => a.type === 'à distância',
+  );
+  const hasMeleeAttack = (monster.attacks || []).some(
+    (a) => a.type !== 'à distância',
+  );
+
+  // Perícias: inicializa todas com atributo correto, treinada=0 e outros=0
+  Object.entries(SKILL_NAME_TO_FIELD).forEach(([, field]) => {
     data[`${field}_treinada`] = '0';
+    data[`${field}atributo2`] = SKILL_ATTR_FORMULA[SKILL_ATTR_MAP[field]];
     data[`${field}outros`] = '0';
   });
-  Object.entries(monster.skills || {}).forEach(([skillName, bonus]) => {
+
+  // Mapa de modificadores de atributo para reuso nas perícias
+  const attrModMap = {
+    for: forMod, des: desMod,
+    con: parseInt(attrVal('con')) || 0,
+    int: parseInt(attrVal('int')) || 0,
+    sab: parseInt(attrVal('wis')) || 0,
+    car: parseInt(attrVal('cha')) || 0,
+  };
+
+  // Luta: treinada se tiver ataques corpo a corpo
+  if (hasMeleeAttack) {
+    data['luta_treinada'] = '1';
+    const meleeAttack = (monster.attacks || []).find(
+      (a) => a.type !== 'à distância',
+    );
+    const bonusTotal = parseInt(meleeAttack?.bonus || '0') || 0;
+    data['lutaoutros'] = String(
+      calcSkillOutros({ bonusTotal, attrMod: forMod, level: monsterLevel, trained: true }),
+    );
+  }
+
+  // Pontaria: treinada se tiver ataques à distância
+  if (hasRangedAttack) {
+    data['pontaria_treinada'] = '1';
+    const rangedAttack = (monster.attacks || []).find(
+      (a) => a.type === 'à distância',
+    );
+    const bonusTotal = parseInt(rangedAttack?.bonus || '0') || 0;
+    data['pontariaoutros'] = String(
+      calcSkillOutros({ bonusTotal, attrMod: desMod, level: monsterLevel, trained: true }),
+    );
+  }
+
+  // Demais perícias do monstro: total = atributo_mod + treino + floor(level/2) + outros
+  Object.entries(monster.skills || {}).forEach(([skillName, bonusStr]) => {
     const field = SKILL_NAME_TO_FIELD[skillName];
-    if (field) {
-      data[`${field}_treinada`] = '1';
-      data[`${field}outros`] = bonus; // bônus como modificador extra
-    }
+    if (!field || field === 'luta' || field === 'pontaria') return;
+    const attrMod = attrModMap[SKILL_ATTR_MAP[field]] || 0;
+    const bonusTotal = parseInt(bonusStr) || 0;
+    data[`${field}_treinada`] = '1';
+    data[`${field}outros`] = String(
+      calcSkillOutros({ bonusTotal, attrMod, level: monsterLevel, trained: true }),
+    );
   });
 
-  // Ataques
+  // Ataques: bonusataque = 0 (a ficha calcula via lutatotal/pontariatotal)
   data.attacks = (monster.attacks || []).map((attack) => {
     const isRanged = attack.type === 'à distância';
+    const { dano, dadoExtra, critMult, critRange } = parseDamage(
+      attack.damage || '',
+    );
     return {
       nomeataque: attack.name || '',
-      bonusataque: attack.bonus || '0',
-      danoataque: attack.damage || '0',
+      bonusataque: '0',
+      danoataque: dano,
       danoextraataque: '0',
-      dadoextraataque: '0',
-      margemcriticoataque: '20',
-      multiplicadorcriticoataque: '2',
-      ataquedescricao: attack.type || '',
+      dadoextraataque: dadoExtra,
+      margemcriticoataque: critRange,
+      multiplicadorcriticoataque: critMult,
+      ataquedescricao: '',
       ataquepericia: isRanged ? ATTACK_SKILL_RANGED : ATTACK_SKILL_MELEE,
       ataquetipodedano: '',
-      ataquealcance: isRanged ? 'médio' : 'corpo a corpo',
-      modatributodano: '@{for_mod}',
+      ataquealcance: isRanged ? '' : '1,5m',
+      modatributodano: '',
       tipocritico: '',
     };
   });

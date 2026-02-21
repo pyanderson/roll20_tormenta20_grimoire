@@ -40,6 +40,7 @@ const JDA_ATTRS = {
   modatributodefesa: 'des_mod',
   tamanho: '0',
   deslocamento: '9',
+  menace_name: '',
   cdatributo: '@{int_mod} + @{condicaopermental}',
   cdequips: '0',
   cdpoderes: '0',
@@ -732,6 +733,10 @@ export class ImportExportSheet {
             success: () => {
               this.deleteOldData();
               this.importNewData(sheetData);
+
+              this.character.save({ name: monster.name });
+              this.character.view?.model?.set('name', monster.name);
+
               importBtn.textContent = 'Importar';
               importBtn.disabled = false;
               successMessage.textContent = `"${monster.name}" importado com sucesso!`;

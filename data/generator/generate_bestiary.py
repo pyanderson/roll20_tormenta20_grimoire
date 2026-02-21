@@ -21,7 +21,7 @@ ROLE_MAP = {'solo': 'Solo', 'lacaio': 'Lacaio', 'especial': 'Especial'}
 FIXED_FIELD_PREFIXES = [
     'INICIATIVA', 'DEFESA', 'PONTOS DE VIDA', 'DESLOCAMENTO',
     'PONTOS DE MANA', 'CORPO A CORPO', 'À DISTÂNCIA', 'ATAQUE ESPECIAL',
-    'MAGIA', 'PERÍCIAS', 'TESOURO',
+    'MAGIA', 'PERÍCIAS', 'EQUIPAMENTO', 'TESOURO',  # EQUIPAMENTO adicionado
 ]
 
 
@@ -131,6 +131,11 @@ def parse_skills(text):
     return skills
 
 
+def parse_equipment(text):
+    text = re.sub(r'^EQUIPAMENTO\s*', '', text, flags=re.IGNORECASE).strip().rstrip('.')
+    return [item.strip() for item in text.split(',') if item.strip()]
+
+
 def parse_attacks(line):
     attack_type = 'à distância' if line.upper().startswith('À DISTÂNCIA') else 'corpo a corpo'
     text = re.sub(r'^(CORPO A CORPO|À DISTÂNCIA|ATAQUE ESPECIAL)\s*', '', line, flags=re.IGNORECASE).strip().rstrip('.')
@@ -191,7 +196,7 @@ def parse_monster_block(block):
         'hp': 0, 'movement': '', 'pm': 0,
         'attacks': [], 'spell_description': '', 'spells': [],
         'abilities': [], 'attributes': {}, 'skills': {},
-        'treasure': '', 'description': '',
+        'equipment': [], 'treasure': '', 'description': '',
     }
 
     monster['name'], monster['nd'] = parse_name_and_nd(lines[0])
@@ -239,6 +244,8 @@ def parse_monster_block(block):
             monster['spells'].append(parse_spell_bullet(line))
         elif upper.startswith('PERÍCIAS'):
             monster['skills'] = parse_skills(line)
+        elif upper.startswith('EQUIPAMENTO'):
+            monster['equipment'] = parse_equipment(line)
         elif upper.startswith('TESOURO'):
             monster['treasure'] = re.sub(r'^TESOURO\s*', '', line, flags=re.IGNORECASE).strip()
         elif is_ability_line(line):
@@ -307,6 +314,7 @@ def build_description(m):
         parts.append('Atributos: ' + ' | '.join(f'{am[k]} {v if v is not None else "--"}' for k, v in m['attributes'].items()))
 
     if m['skills']: parts.append(f'Perícias: {", ".join(f"{k} {v}" for k, v in m["skills"].items())}')
+    if m['equipment']: parts.append(f'Equipamento: {", ".join(m["equipment"])}')
     if m['treasure']: parts.append(f'Tesouro: {m["treasure"]}')
     if m['description']: parts.append(m['description'])
 
