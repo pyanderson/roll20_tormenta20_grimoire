@@ -15,13 +15,6 @@ const BOOK_BUTTON_ID = 'tormenta20-book-button';
 const BOOK_DIALOG_ID = 'tormenta20-dialog-book';
 const BOOK_LIST_ID = 'tormenta20-book-list';
 
-/**
- * Create a table element from a string in the TSV format.
- *
- * @param {object} props
- * @param {string} props.content - Table content.
- * @returns {HTMLDivElement|null}
- */
 function createTableFromTSV({ content }) {
   const lines = content.split('\n');
   if (lines.length <= 1) return null;
@@ -59,9 +52,7 @@ function createTableFromTSV({ content }) {
           }),
           createElement('tbody', {
             append: rows.map((row) =>
-              createElement('tr', {
-                append: createRow(row),
-              }),
+              createElement('tr', { append: createRow(row) }),
             ),
           }),
         ],
@@ -70,14 +61,6 @@ function createTableFromTSV({ content }) {
   });
 }
 
-/**
- * Render the book folder as a <li> element;
- *
- * @param {object} props
- * @param {string} props.path - The path to access the book item.
- * @param {BookItem} props.bookItem - The book item.
- * @returns {HTMLLIElement}
- */
 function renderBookFolder({ path, bookItem }) {
   const folder = createElement('li', { classes: 'dd-item dd-folder' });
   const title = createElement('span', {
@@ -89,15 +72,10 @@ function renderBookFolder({ path, bookItem }) {
   });
   items.append(
     ...bookItem.items.map((innerBookItem) =>
-      renderBookItem({
-        path: `${path}-${bookItem.name}`,
-        bookItem: innerBookItem,
-      }),
+      renderBookItem({ path: `${path}-${bookItem.name}`, bookItem: innerBookItem }),
     ),
   );
-
   folder.append(title, items);
-  // active tree view
   title.onclick = () => {
     folder
       .querySelector('.tormenta20-book-nested-folder')
@@ -107,14 +85,6 @@ function renderBookFolder({ path, bookItem }) {
   return folder;
 }
 
-/**
- * Render the book item as a <li> element.
- *
- * @param {object} props
- * @param {string} props.path - The path to access the book item.
- * @param {BookItem} props.bookItem - The book item.
- * @returns {HTMLLIElement}
- */
 export function openBookItemDialog({ dialogId, bookItem }) {
   const extraOptions =
     bookItem.type === 'item'
@@ -137,21 +107,9 @@ export function openBookItemDialog({ dialogId, bookItem }) {
           width: 600,
           height: 400,
         };
-  openDialog({
-    id: dialogId,
-    title: bookItem.name,
-    ...extraOptions,
-  });
+  openDialog({ id: dialogId, title: bookItem.name, ...extraOptions });
 }
 
-/**
- * Render the book item as a <li> element.
- *
- * @param {object} props
- * @param {string} props.path - The path to access the book item.
- * @param {BookItem} props.bookItem - The book item.
- * @returns {HTMLLIElement}
- */
 function renderBookItem({ path, bookItem }) {
   if (bookItem.type === 'folder') return renderBookFolder({ path, bookItem });
   const dialogId = slugify(`${path}-${bookItem.name}`);
@@ -159,13 +117,7 @@ function renderBookItem({ path, bookItem }) {
     classes: 'tormenta20-book-row journalitem dd-item',
   });
   const target = dialogId.split('-')[1];
-  const draggableFolders = [
-    'raas',
-    'classes',
-    'poderes',
-    'magias',
-    'equipamento',
-  ];
+  const draggableFolders = ['raas', 'classes', 'poderes', 'magias', 'equipamento'];
   const isDraggable = draggableFolders.indexOf(target) !== -1;
   const icon = createElement('div', {
     name: 'tormenta20-chat-info-button',
@@ -202,26 +154,13 @@ function renderBookItem({ path, bookItem }) {
   return item;
 }
 
-/**
- * Generate the book dialog content.
- *
- * @param {object} props
- * @param {BookItem[]} props.bookItems - The book items list.
- * @returns {HTMLUListElement}
- */
 function createBookDialogContent({ bookItems }) {
   const search = (data, searchTerm) => {
-    const deepCopy = (obj) => {
-      return JSON.parse(JSON.stringify(obj));
-    };
+    const deepCopy = (obj) => JSON.parse(JSON.stringify(obj));
     const searchRecursive = (node) => {
-      if (normalize(node.name).includes(searchTerm)) {
-        return deepCopy(node);
-      }
+      if (normalize(node.name).includes(searchTerm)) return deepCopy(node);
       if (node.type === 'folder') {
-        const foundItems = node.items
-          .map(searchRecursive)
-          .filter((item) => item !== null);
+        const foundItems = node.items.map(searchRecursive).filter((item) => item !== null);
         if (foundItems.length > 0) {
           const folderCopy = deepCopy(node);
           folderCopy.items = foundItems.map(deepCopy);
@@ -256,38 +195,23 @@ function createBookDialogContent({ bookItems }) {
         clearChildren({ el: list });
         if (searchResult) {
           list.append(
-            ...searchResult.items.map((bookItem) =>
-              renderBookItem({ path: '', bookItem }),
-            ),
+            ...searchResult.items.map((bookItem) => renderBookItem({ path: '', bookItem })),
           );
         }
       } else {
         clearChildren({ el: list });
-        list.append(
-          ...bookItems.map((bookItem) =>
-            renderBookItem({ path: '', bookItem }),
-          ),
-        );
+        list.append(...bookItems.map((bookItem) => renderBookItem({ path: '', bookItem })));
       }
     },
   });
   return [input, list];
 }
 
-/**
- * Create the book buuton.
- *
- * @param {object} props
- * @param {string} props.cssText - The button css as string.
- * @param {BookItem[]} props.bookItems - The book items list.
- * @returns {HTMLUListElement}
- */
 function createBookButton({ cssText, bookItems }) {
   const button = createElement('button', {
     id: BOOK_BUTTON_ID,
     classes: 'tormenta20-book-button',
-    innerHTML:
-      '<span class="tormenta20-book-button-tooltip">Clique para abrir o Grimório</span>',
+    innerHTML: '<span class="tormenta20-book-button-tooltip">Clique para abrir o Grimório</span>',
   });
   button.style.cssText = cssText;
   button.onclick = () => {
@@ -304,30 +228,17 @@ function createBookButton({ cssText, bookItems }) {
   return button;
 }
 
-/**
- * Load the book feature.
- * Add the book button and the book functionalities.
- *
- * @param props
- * @param {BookItem[]} props.bookItems - The book items list.
- * @param {string} props.buttonIconURL - The URL to the icon in the extension files.
- * @param {number} props.retry - Number of retries.
- */
 export function loadBook({ bookItems, buttonIconURL, retry = 5 }) {
   const zoomDiv = document.getElementById(ZOOM_DIV_ID);
-  // Wait until the zoom button is available
   if (!zoomDiv)
-    // wait one second and try again
     return setTimeout(() => {
       loadBook({ bookItems, buttonIconURL, retry: retry - 1 });
     }, 1000);
-  // Remove the old button and old dialog if it exists, this is useful during development where you need to reload the extension several times
   document.getElementById(BOOK_DIALOG_ID)?.parentNode?.remove();
   document.getElementById(BOOK_BUTTON_ID)?.remove();
 
   const calcPosValue = (valueInPx, extra = 0) =>
     `${parseInt(valueInPx.slice(0, -2)) + extra}px`;
-  // Get the initial style
   const zoomDivStyle = window.getComputedStyle(zoomDiv);
   const buttonCSSText = `
     position: absolute;
@@ -336,19 +247,13 @@ export function loadBook({ bookItems, buttonIconURL, retry = 5 }) {
     z-index: ${zoomDivStyle.getPropertyValue('z-index')};
     background-image: url(${buttonIconURL});
   `;
-  // Create the button and add it to the page
   const button = createBookButton({ cssText: buttonCSSText, bookItems });
-
   zoomDiv.after(button);
 
-  // Start observing the zoom div change so the button can follow it
   const observer = new MutationObserver((mutations) => {
     mutations.forEach((mutationRecord) => {
       button.style.right = calcPosValue(mutationRecord.target.style.right, 6);
     });
   });
-  observer.observe(zoomDiv, {
-    attributes: true,
-    attributeFilter: ['style'],
-  });
+  observer.observe(zoomDiv, { attributes: true, attributeFilter: ['style'] });
 }

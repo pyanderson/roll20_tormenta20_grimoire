@@ -1,0 +1,273 @@
+[
+  {
+    "name": "Goblin",
+    "type": "Humanoide (Goblin)",
+    "size": "Pequeno",
+    "level": 1,
+    "xp": 200,
+    "nd": "1/4",
+    "alignment": "Caótico e Mau",
+    "attributes": {
+      "str": 8,
+      "dex": 14,
+      "con": 10,
+      "int": 10,
+      "wis": 8,
+      "cha": 8
+    },
+    "hp": 6,
+    "defense": 14,
+    "initiative": "+2",
+    "movement": "9m",
+    "attacks": [
+      {
+        "name": "Cimitarra",
+        "bonus": "+3",
+        "damage": "1d6-1",
+        "type": "cortante"
+      },
+      {
+        "name": "Arco Curto",
+        "bonus": "+4",
+        "damage": "1d6",
+        "type": "perfurante",
+        "range": "30m"
+      }
+    ],
+    "skills": {
+      "Furtividade": "+6",
+      "Iniciativa": "+6",
+      "Percepção": "+3"
+    },
+    "abilities": [
+      {
+        "name": "Visão no Escuro",
+        "description": "O goblin enxerga no escuro até 18m."
+      },
+      {
+        "name": "Fuga Covarde",
+        "description": "Quando o goblin faz uma ação de recuar, pode se mover até o dobro do seu deslocamento."
+      }
+    ],
+    "equipment": ["Cimitarra", "Arco Curto", "20 flechas", "Couro"],
+    "description": "Goblins são criaturas pequenas e malignas que habitam cavernas e florestas sombrias. Eles são conhecidos por sua covardia e crueldade, preferindo atacar em grupos e fugir quando a situação fica difícil."
+  },
+  {
+    "name": "Orc",
+    "type": "Humanoide (Orc)",
+    "size": "Médio",
+    "level": 2,
+    "xp": 450,
+    "nd": "1/2",
+    "alignment": "Caótico e Mau",
+    "attributes": {
+      "str": 16,
+      "dex": 12,
+      "con": 14,
+      "int": 8,
+      "wis": 8,
+      "cha": 6
+    },
+    "hp": 15,
+    "defense": 13,
+    "initiative": "+1",
+    "movement": "9m",
+    "attacks": [
+      {
+        "name": "Machado Grande",
+        "bonus": "+5",
+        "damage": "1d12+3",
+        "type": "cortante"
+      },
+      {
+        "name": "Lança (arremesso)",
+        "bonus": "+3",
+        "damage": "1d6+3",
+        "type": "perfurante",
+        "range": "6m"
+      }
+    ],
+    "skills": {
+      "Intimidação": "+2"
+    },
+    "abilities": [
+      {
+        "name": "Agressivo",
+        "description": "Como ação bônus, o orc pode se mover até seu deslocamento em direção a um inimigo que possa ver ou ouvir."
+      },
+      {
+        "name": "Resistência Brutal",
+        "description": "Uma vez por dia, quando o orc sofre dano que o reduziria a 0 PV, ele cai para 1 PV em vez disso."
+      }
+    ],
+    "equipment": ["Machado Grande", "Lança", "Cota de Malha"],
+    "description": "Orcs são guerreiros brutais que vivem para a batalha. Suas sociedades são organizadas em clãs, onde o mais forte lidera. São frequentemente recrutados como mercenários ou servem a líderes mais poderosos."
+  },
+  {
+    "name": "Esqueleto",
+    "type": "Morto-Vivo",
+    "size": "Médio",
+    "level": 1,
+    "xp": 200,
+    "nd": "1/4",
+    "alignment": "Neutro e Mau",
+    "attributes": {
+      "str": 10,
+      "dex": 14,
+      "con": 0,
+      "int": 0,
+      "wis": 8,
+      "cha": 5
+    },
+    "hp": 13,
+    "defense": 13,
+    "initiative": "+2",
+    "movement": "9m",
+    "attacks": [
+      {
+        "name": "Garra",
+        "bonus": "+4",
+        "damage": "1d6+2",
+        "type": "cortante"
+      },
+      {
+        "name": "Arco Curto",
+        "bonus": "+4",
+        "damage": "1d6+2",
+        "type": "perfurante",
+        "range": "30m"
+      }
+    ],
+    "skills": {},
+    "abilities": [
+      {
+        "name": "Imunidade a Veneno",
+        "description": "O esqueleto é imune a veneno e condições envenenadas."
+      },
+      {
+        "name": "Vulnerabilidade a Dano Contundente",
+        "description": "O esqueleto sofre dano dobrado de ataques contundentes."
+      },
+      {
+        "name": "Visão no Escuro",
+        "description": "O esqueleto enxerga no escuro até 18m."
+      }
+    ],
+    "equipment": ["Arco Curto", "20 flechas"],
+    "description": "Esqueletos são mortos-vivos criados por necromantes para servir como servos eternos. Embora não tenham inteligência própria, seguem ordens com precisão implacável."
+  },
+  {
+    "name": "Lobo",
+    "type": "Besta",
+    "size": "Médio",
+    "level": 1,
+    "xp": 200,
+    "nd": "1/4",
+    "alignment": "Neutro",
+    "attributes": {
+      "str": 12,
+      "dex": 15,
+      "con": 12,
+      "int": 3,
+      "wis": 12,
+      "cha": 6
+    },
+    "hp": 11,
+    "defense": 13,
+    "initiative": "+2",
+    "movement": "12m",
+    "attacks": [
+      {
+        "name": "Mordida",
+        "bonus": "+4",
+        "damage": "2d6+2",
+        "type": "perfurante"
+      }
+    ],
+    "skills": {
+      "Percepção": "+3",
+      "Furtividade": "+4"
+    },
+    "abilities": [
+      {
+        "name": "Olfato Aguçado",
+        "description": "O lobo tem vantagem em testes de Percepção baseados em olfato."
+      },
+      {
+        "name": "Táticas de Matilha",
+        "description": "O lobo tem vantagem no ataque contra uma criatura se ao menos um aliado do lobo estiver adjacente ao alvo e não estiver incapacitado."
+      },
+      {
+        "name": "Derrubar",
+        "description": "Se o lobo acertar uma criatura com um ataque de mordida, o alvo deve ser bem-sucedido em um teste de Fortitude (CD 11) ou ficará caído."
+      }
+    ],
+    "equipment": [],
+    "description": "Lobos são predadores ágeis que caçam em matilha. São criaturas inteligentes para bestas e desenvolveram táticas de caça sofisticadas ao longo de gerações."
+  },
+  {
+    "name": "Vampiro",
+    "type": "Morto-Vivo",
+    "size": "Médio",
+    "level": 13,
+    "xp": 10000,
+    "nd": "13",
+    "alignment": "Leal e Mau",
+    "attributes": {
+      "str": 18,
+      "dex": 18,
+      "con": 0,
+      "int": 17,
+      "wis": 15,
+      "cha": 18
+    },
+    "hp": 144,
+    "defense": 16,
+    "initiative": "+4",
+    "movement": "9m (escalar 9m)",
+    "attacks": [
+      {
+        "name": "Garras",
+        "bonus": "+9",
+        "damage": "2d8+4",
+        "type": "cortante"
+      },
+      {
+        "name": "Mordida",
+        "bonus": "+9",
+        "damage": "1d6+4",
+        "type": "perfurante"
+      }
+    ],
+    "skills": {
+      "Percepção": "+7",
+      "Furtividade": "+9",
+      "Enganação": "+9",
+      "Persuasão": "+9"
+    },
+    "abilities": [
+      {
+        "name": "Resistência Lendária (3/dia)",
+        "description": "Se o vampiro falhar em um teste de resistência, pode escolher ter sucesso em vez disso."
+      },
+      {
+        "name": "Regeneração",
+        "description": "O vampiro recupera 20 PV no início de cada um de seus turnos se tiver pelo menos 1 PV e não estiver sob luz solar ou água corrente."
+      },
+      {
+        "name": "Mordida Drenante",
+        "description": "A mordida do vampiro drena a força vital: o alvo deve fazer um teste de Constituição (CD 17) ou ter seu máximo de PV reduzido em uma quantidade igual ao dano sofrido."
+      },
+      {
+        "name": "Forma de Névoa",
+        "description": "Se o vampiro não estiver sob luz solar ou água corrente, pode usar sua ação para se transformar em névoa ou retornar à sua forma normal."
+      },
+      {
+        "name": "Charme",
+        "description": "O vampiro mira um humanoide que possa ver em alcance curto. O alvo deve ter sucesso em um teste de Vontade (CD 17) ou ficar enfeitiçado pelo vampiro."
+      }
+    ],
+    "equipment": [],
+    "description": "Vampiros são mortos-vivos predadores que se alimentam do sangue dos vivos. São criaturas de grande inteligência e carisma, frequentemente liderando cultos ou dominando cidades das sombras."
+  }
+]

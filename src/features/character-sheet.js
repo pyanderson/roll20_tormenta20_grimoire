@@ -150,6 +150,7 @@ export class CharacterSheet {
       iframe: this.iframe,
       character: this.character,
     });
+    this.importExportSheet.load({ bookItems: this.db.book });
     /**
      * @type {EnhancedHTMLElement|null}
      * @private
@@ -245,7 +246,7 @@ export class CharacterSheet {
         this.powerSheet.load();
         this.equipmentSheet.load();
         this.raceSheet.load();
-        this.importExportSheet.load();
+        this.importExportSheet.load({ bookItems: this.db.book });
         // Observers
         this.observe(this.spellsContainer, () => this.spellSheet.load());
         this.observe(this.powersContainer, () => this.powerSheet.load());

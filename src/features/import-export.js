@@ -5,6 +5,7 @@ import {
   enhanceElement,
   reverseObj,
 } from '../common/helpers';
+import { monsterToSheetData } from './bestiary';
 
 const ATTRS = {
   playername: '',
@@ -634,6 +635,142 @@ export class ImportExportSheet {
     span.insertBefore(importButton, span.childNodes[2]);
   }
 
+  addMonsterImportButton({ bookItems }) {
+    // Extrai todos os monstros do bestiário
+    const monsters = [];
+    const extractMonsters = (items) => {
+      items.forEach((item) => {
+        if (item.type === 'folder') extractMonsters(item.items);
+        else if (item._monster) monsters.push(item._monster);
+      });
+    };
+    const bestiary = bookItems.find((item) => item.name === 'Bestiário');
+    if (bestiary) extractMonsters(bestiary.items);
+
+    // Só adiciona o botão se houver monstros disponíveis
+    if (!monsters.length) return;
+
+    const span = this.dialogHeader.getElement('span.ui-dialog-title');
+    const monsterButton = createElement('button', {
+      id: 't20-monster-import-button',
+      classes: 'btn tormenta20-import-export-button',
+      innerHTML: '🐲 Importar Monstro',
+    });
+
+    monsterButton.addEventObserver('click', () => {
+      const successMessage = createElement('p', {
+        classes: 'tormenta20-success-message',
+      });
+      const errorMessage = createElement('p', {
+        classes: 'tormenta20-error-message',
+      });
+
+      // Select de monstros agrupados por ND
+      const select = createElement('select', {
+        classes: 'ui-autocomplete-input',
+        style: 'width: 100%; margin-bottom: 8px;',
+      });
+
+      // Agrupa por ND
+      const byND = monsters.reduce((acc, m) => {
+        const key = `ND ${m.nd}`;
+        if (!acc[key]) acc[key] = [];
+        acc[key].push(m);
+        return acc;
+      }, {});
+
+      // Ordena NDs
+      const ndSortKey = (nd) => {
+        const n = nd.replace('ND ', '');
+        if (n.includes('/')) {
+          const [a, b] = n.split('/');
+          return parseInt(a) / parseInt(b);
+        }
+        return parseFloat(n) || 999;
+      };
+      const sortedNDs = Object.keys(byND).sort((a, b) => ndSortKey(a) - ndSortKey(b));
+
+      sortedNDs.forEach((nd) => {
+        const group = createElement('optgroup', { label: nd });
+        byND[nd]
+          .sort((a, b) => a.name.localeCompare(b.name))
+          .forEach((m) => {
+            const option = createElement('option', {
+              value: m.name,
+              innerHTML: m.name,
+            });
+            option._monsterData = m;
+            group.append(option);
+          });
+        select.append(group);
+      });
+
+      const importBtn = createElement('button', {
+        classes: 'btn',
+        innerHTML: 'Importar',
+      });
+
+      importBtn.addEventObserver('click', () => {
+        try {
+          errorMessage.textContent = '';
+          successMessage.textContent = '';
+          importBtn.disabled = true;
+          importBtn.textContent = 'Importando...';
+
+          // Encontra o monstro selecionado
+          const selectedName = select.value;
+          const monster = monsters.find((m) => m.name === selectedName);
+          if (!monster) {
+            errorMessage.textContent = 'Monstro não encontrado.';
+            importBtn.disabled = false;
+            importBtn.textContent = 'Importar';
+            return;
+          }
+
+          const sheetData = monsterToSheetData(monster);
+          this.character.attribs.fetch({
+            success: () => {
+              this.deleteOldData();
+              this.importNewData(sheetData);
+              importBtn.textContent = 'Importar';
+              importBtn.disabled = false;
+              successMessage.textContent = `"${monster.name}" importado com sucesso!`;
+            },
+          });
+        } catch (e) {
+          errorMessage.textContent = 'Falha ao importar o monstro.';
+          importBtn.textContent = 'Importar';
+          importBtn.disabled = false;
+          console.error({ e });
+        }
+      });
+
+      openDialog({
+        id: `t20-monster-import-dialog-${this.character.get('id')}`,
+        title: `Importar Monstro para ${this.character.get('name')}`,
+        content: [
+          createElement('div', {
+            classes: 'tormenta20-import-content',
+            append: [
+              createElement('p', {
+                innerHTML:
+                  '<b>Atenção</b>: Não é possível desfazer essa operação, todos os dados existentes serão substituídos.',
+              }),
+              createElement('p', { innerHTML: 'Selecione o monstro:' }),
+              select,
+              successMessage,
+              errorMessage,
+              importBtn,
+            ],
+          }),
+        ],
+      });
+    });
+
+    // Insere antes do botão Importar (índice 2 no span)
+    span.insertBefore(monsterButton, span.childNodes[2]);
+  }
+
   /**
    * Returns a list with all items of a group.
    *
@@ -744,10 +881,11 @@ export class ImportExportSheet {
   }
 
   /** Load the sheet import/export capabilities. */
-  load() {
+  load({ bookItems = [] } = {}) {
     if (!document.querySelector('#t20-import-button')) {
       this.addImportButton();
       this.addExportButton();
+      this.addMonsterImportButton({ bookItems });
     }
   }
 }

@@ -38,10 +38,19 @@ ready(() => {
     window.removeEventListener('message', listener, false);
   });
   window.listeners = [];
-  const resources = { db: {}, characterSheetCssURL: '', buttonIconURL: '' };
+
+  // importExportSheet é adicionado a resources quando uma ficha é aberta
+  const resources = {
+    db: {},
+    characterSheetCssURL: '',
+    buttonIconURL: '',
+    importExportSheet: null,
+  };
+
   const t20EventListener = ({ data }) => {
     if (data?.type && data.type === 't20-data') {
       const { db, buttonIconURL, characterSheetCssURL } = data;
+      // Na primeira carga não há ficha aberta ainda, importExportSheet é null
       loadBook({ bookItems: db.book, buttonIconURL });
       loadChatEnhancement({ bookItems: db.book });
       Object.assign(resources, { db, buttonIconURL, characterSheetCssURL });
@@ -54,6 +63,17 @@ ready(() => {
           characterSheetCssURL: resources.characterSheetCssURL,
         });
         characterSheet.load();
+
+        // Após carregar a ficha, recarregar o Grimório passando o importExportSheet
+        // para que o botão de importar monstro funcione
+        if (characterSheet.importExportSheet) {
+          resources.importExportSheet = characterSheet.importExportSheet;
+          loadBook({
+            bookItems: resources.db.book,
+            buttonIconURL: resources.buttonIconURL,
+            importExportSheet: resources.importExportSheet,
+          });
+        }
       });
     }
   };
