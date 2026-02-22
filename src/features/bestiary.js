@@ -217,6 +217,21 @@ export function monsterToSheetData(monster) {
   data.car = attrVal('cha');
   data.menace_name = monster.name;
 
+  // Campo de tipo/tamanho/papel da ficha de ameaça
+  const roleStr = monster.role ? ` [${monster.role}]` : '';
+  const subtypeStr = monster.subtype ? ` (${monster.subtype})` : '';
+  data.menace_type_size = `${monster.type}${subtypeStr} ${monster.size}${roleStr}`.trim();
+
+  // Outras percepções do monstro
+  data.menace_perception = (monster.other_perception || []).join(', ');
+
+  // Resistência do monstro (imunidades, redução de dano, vulnerabilidades)
+  data.menace_resist = (monster.immunities.length > 0 ? `Imunidades: ${monster.immunities.join(', ')}` : '')
+    + (monster.damage_reduction && monster.immunities.length > 0 ? ' | ' : '')
+    + (monster.damage_reduction ? `RD: ${Object.entries(monster.damage_reduction).map(([k, v]) => (k === 'normal' ? `${v}` : `${v} a ${k}`)).join(', ')}` : '')
+    + (monster.vulnerabilities.length > 0 && monster.damage_reduction ? ' | ' : '')
+    + (monster.vulnerabilities.length > 0 ? `Vulnerabilidades: ${monster.vulnerabilities.join(', ')}` : '');
+
   // PV e PM
   data.vidatotal = String(monster.hp || 0);
   data.vida = String(monster.hp || 0);
@@ -225,18 +240,14 @@ export function monsterToSheetData(monster) {
   data.mana = String(monster.pm || 0);
   data.manatemp = '0';
 
-  // Defesa calculada após desMod (ver abaixo)
-
-  // Deslocamento (primeiro valor em metros)
-  const movMatch = (monster.movement || '').match(/(\d+)m/);
-  data.deslocamento = movMatch ? movMatch[1] : '9';
+  // Deslocamento
+  data.deslocamento = monster.movement;
+  data.menace_desloc = data.deslocamento;
 
   // Tamanho
   data.tamanho = String(SIZE_MAP[monster.size] ?? 0);
 
   // Notas com dados do monstro
-  const roleStr = monster.role ? ` [${monster.role}]` : '';
-  const subtypeStr = monster.subtype ? ` (${monster.subtype})` : '';
   const noteLines = [
     `${monster.type}${subtypeStr} ${monster.size}${roleStr}`,
     `ND: ${monster.nd}`,
@@ -260,6 +271,9 @@ export function monsterToSheetData(monster) {
   if (monster.treasure) noteLines.push(`\nTesouro: ${monster.treasure}`);
   data.charnotes = noteLines.join('\n');
 
+  // Tesouro
+  data.menace_treasures = monster.treasure || '';
+
   // Campos obrigatórios restantes
   data.proficiencias = '';
   data.ts = '0';
@@ -274,15 +288,16 @@ export function monsterToSheetData(monster) {
   data.cdoutros = '0';
   data.extraslot = '0';
 
-  // Nível equivalente e bônus de treino baseados na ND
+  // Nível equivalente baseado na ND
   const monsterLevel = ndToLevel(monster.nd);
   const forMod = parseInt(attrVal('str')) || 0;
   const desMod = parseInt(attrVal('dex')) || 0;
 
   // Defesa: 10 + DES + outros  →  outros = total - 10 - DES
   const defenseTotal = parseInt(monster.defense || '0') || 0;
-  data.defesaatributo = '1'; // usa modificador de DES
+  data.defesaatributo = '1';
   data.defesaoutros = String(defenseTotal - 10 - desMod);
+
   const hasRangedAttack = (monster.attacks || []).some(
     (a) => a.type === 'à distância',
   );
@@ -342,11 +357,13 @@ export function monsterToSheetData(monster) {
     );
   });
 
-  // Fortitude, Reflexos, Vontade: campos diretos do monstro (sempre treinados)
+  // Fortitude, Reflexos, Vontade, Iniciativa, Percepção: campos diretos do monstro
   const saveMap = [
-    { field: 'fortitude', monsterVal: monster.fort, attrKey: 'con' },
-    { field: 'reflexos',  monsterVal: monster.ref,  attrKey: 'des' },
-    { field: 'vontade',   monsterVal: monster.von,  attrKey: 'sab' },
+    { field: 'fortitude', monsterVal: monster.fort,       attrKey: 'con' },
+    { field: 'reflexos',  monsterVal: monster.ref,        attrKey: 'des' },
+    { field: 'vontade',   monsterVal: monster.von,        attrKey: 'sab' },
+    { field: 'iniciativa', monsterVal: monster.initiative, attrKey: 'des' },
+    { field: 'percepcao', monsterVal: monster.perception,  attrKey: 'sab' },
   ];
   saveMap.forEach(({ field, monsterVal, attrKey }) => {
     if (!monsterVal) return;
