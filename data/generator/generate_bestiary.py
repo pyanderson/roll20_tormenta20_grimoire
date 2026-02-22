@@ -1,7 +1,3 @@
-"""
-generate_bestiary.py - Tormenta20 Bestiary Generator
-"""
-
 import re
 import json
 import sys
