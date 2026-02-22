@@ -4,7 +4,6 @@
 // TODO - Implementar Futuramente
 // ---------------------------------------------------------------------------
 // [ ] ataquealcance para ataques à distância (depende da arma do monstro)
-// [ ] somar no dano e ataque melhorias e encantamentos
 // ---------------------------------------------------------------------------
 
 
@@ -128,27 +127,40 @@ function calcSkillOutros({ bonusTotal, attrMod, level, trained }) {
 
 /**
  * Decompõe a string de dano nos campos da ficha.
- * Ex: "2d8+18 mais 2d6 fogo, x3" → { dano: "2d8+18", dadoExtra: "2d6", critMult: "3", critRange: "20" }
- * Ex: "2d6+8 mais veneno"        → { dano: "2d6+8",  dadoExtra: "",    critMult: "2", critRange: "20" }
- * Texto puro após "mais" (veneno, doença) é ignorado — já aparece nas habilidades.
+ * Ex: "2d6+8, 18/x3"            → { dano: "2d6+8", critMult: "3", critRange: "18" }
+ * Ex: "2d6+10 impacto"          → { dano: "2d6+10", descricao: "2d6+10 impacto" }
+ * Ex: "1d8+4 alcance 4,5m"      → { dano: "1d8+4", alcance: "4,5m", descricao: "1d8+4 alcance 4,5m" }
+ * Ex: "2d8+18 mais 2d6 fogo"    → { dano: "2d8+18", dadoExtra: "2d6" }
+ * Texto de tipo de dano e alcance são removidos do campo dano mas preservados na descricao.
  */
 function parseDamage(damageStr) {
   let s = (damageStr || '').trim();
+  const descricao = s; // texto completo original para ataquedescricao
 
-  // Multiplicador crítico: ", x3"
+  // Margem + multiplicador crítico: "18/x3" ou "19/x2"
   let critMult = '2';
-  const critMultMatch = s.match(/,\s*[xX](\d+)/);
-  if (critMultMatch) {
-    critMult = critMultMatch[1];
-    s = s.slice(0, critMultMatch.index).trim();
+  let critRange = '20';
+  const critFullMatch = s.match(/,?\s*(\d{2})\/[xX](\d+)/);
+  if (critFullMatch) {
+    critRange = critFullMatch[1];
+    critMult = critFullMatch[2];
+    s = (s.slice(0, critFullMatch.index) + s.slice(critFullMatch.index + critFullMatch[0].length))
+      .trim().replace(/^,/, '').trim();
+  } else {
+    // Só multiplicador: ", x3"
+    const critMultMatch = s.match(/,\s*[xX](\d+)/);
+    if (critMultMatch) {
+      critMult = critMultMatch[1];
+      s = s.slice(0, critMultMatch.index).trim();
+    }
   }
 
-  // Margem crítica: ", 18" ou ", 19" (2 dígitos soltos no final)
-  let critRange = '20';
-  const critRangeMatch = s.match(/,\s*(\d{2})\s*$/);
-  if (critRangeMatch) {
-    critRange = critRangeMatch[1];
-    s = s.slice(0, critRangeMatch.index).trim();
+  // Alcance: "alcance 4,5m" ou "alcance 9m"
+  let alcance = '1,5m';
+  const alcanceMatch = s.match(/alcance\s+([\d,.]+m)/i);
+  if (alcanceMatch) {
+    alcance = alcanceMatch[1];
+    s = s.slice(0, alcanceMatch.index).trim().replace(/,$/, '').trim();
   }
 
   // Dano extra: " mais <dado>" — só registra se for expressão de dado válida
@@ -159,11 +171,15 @@ function parseDamage(damageStr) {
     s = s.slice(0, maisMatch.index).trim();
     const dadoMatch = extraStr.match(/^(\d*d\d+(?:[+\-]\d+)?)/);
     if (dadoMatch) {
-      dadoExtra = dadoMatch[1]; // ex: "2d6" (sem texto de tipo de dano)
+      dadoExtra = dadoMatch[1];
     }
   }
 
-  return { dano: s, dadoExtra, critMult, critRange };
+  // Remove texto de tipo de dano após o dado principal: "2d6+10 impacto" → "2d6+10"
+  const danoClean = s.replace(/^(\d*d\d+(?:[+\-]\d+)?)\s+\w.*$/, '$1');
+  const dano = /^\d*d\d+/.test(danoClean) ? danoClean : s;
+
+  return { dano, dadoExtra, critMult, critRange, alcance, descricao };
 }
 
 // ---------------------------------------------------------------------------
@@ -326,10 +342,26 @@ export function monsterToSheetData(monster) {
     );
   });
 
+  // Fortitude, Reflexos, Vontade: campos diretos do monstro (sempre treinados)
+  const saveMap = [
+    { field: 'fortitude', monsterVal: monster.fort, attrKey: 'con' },
+    { field: 'reflexos',  monsterVal: monster.ref,  attrKey: 'des' },
+    { field: 'vontade',   monsterVal: monster.von,  attrKey: 'sab' },
+  ];
+  saveMap.forEach(({ field, monsterVal, attrKey }) => {
+    if (!monsterVal) return;
+    const bonusTotal = parseInt(monsterVal) || 0;
+    const attrMod = attrModMap[attrKey] || 0;
+    data[`${field}_treinada`] = '1';
+    data[`${field}outros`] = String(
+      calcSkillOutros({ bonusTotal, attrMod, level: monsterLevel, trained: true }),
+    );
+  });
+
   // Ataques: bonusataque = 0 (a ficha calcula via lutatotal/pontariatotal)
   data.attacks = (monster.attacks || []).map((attack) => {
     const isRanged = attack.type === 'à distância';
-    const { dano, dadoExtra, critMult, critRange } = parseDamage(
+    const { dano, dadoExtra, critMult, critRange, alcance, descricao } = parseDamage(
       attack.damage || '',
     );
     return {
@@ -340,10 +372,10 @@ export function monsterToSheetData(monster) {
       dadoextraataque: dadoExtra,
       margemcriticoataque: critRange,
       multiplicadorcriticoataque: critMult,
-      ataquedescricao: '',
+      ataquedescricao: descricao,
       ataquepericia: isRanged ? ATTACK_SKILL_RANGED : ATTACK_SKILL_MELEE,
       ataquetipodedano: '',
-      ataquealcance: isRanged ? '' : '1,5m',
+      ataquealcance: isRanged ? '' : alcance,
       modatributodano: '',
       tipocritico: '',
     };

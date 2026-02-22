@@ -139,14 +139,23 @@ def parse_equipment(text):
 def parse_attacks(line):
     attack_type = 'à distância' if line.upper().startswith('À DISTÂNCIA') else 'corpo a corpo'
     text = re.sub(r'^(CORPO A CORPO|À DISTÂNCIA|ATAQUE ESPECIAL)\s*', '', line, flags=re.IGNORECASE).strip().rstrip('.')
+    # Separa por ') e ', ') ou ' ou '),' — delimitadores que ficam FORA dos parênteses de dano
+    parts = re.split(r'\)\s*(?:,\s*|\s+e\s+|\s+ou\s+)(?=\S)', text)
     attacks = []
-    for part in re.split(r'\s+e\s+(?=[A-ZÁÉÍÓÚÂÊÎÔÛÃÕÀÇ])', text):
+    for part in parts:
         part = part.strip()
+        if not part.endswith(')'):
+            part += ')'
         m = re.match(r'^(.+?)\s+([-+]\d+(?:/[-+]\d+)?)\s+\(([^)]+)\)', part)
         if m:
-            attacks.append({'name': m.group(1).strip().capitalize(), 'bonus': m.group(2), 'damage': m.group(3), 'type': attack_type})
-        elif part:
-            attacks.append({'name': part.capitalize(), 'bonus': '', 'damage': '', 'type': attack_type})
+            attacks.append({
+                'name': m.group(1).strip().capitalize(),
+                'bonus': m.group(2),
+                'damage': m.group(3),
+                'type': attack_type,
+            })
+        elif part.rstrip(')').strip():
+            attacks.append({'name': part.rstrip(')').strip().capitalize(), 'bonus': '', 'damage': '', 'type': attack_type})
     return attacks
 
 
