@@ -375,12 +375,41 @@ export function monsterToSheetData(monster) {
     );
   });
 
+  // Ofício: campo especial com nome em oficionome e bônus baseado em INT
+  const oficioSkills = Object.entries(monster.skills || {}).filter(
+    ([name]) => name.toLowerCase().startsWith('ofício') || name.toLowerCase().startsWith('oficio'),
+  );
+  if (oficioSkills.length > 0) {
+    const [[, bonusStr1], [, bonusStr2] = []] = oficioSkills;
+    const intMod = attrModMap['int'] || 0;
+    const offNames = oficioSkills.map(([name]) =>
+      name.replace(/^ofício\s*/i, '').replace(/^oficio\s*/i, '').trim().replace(/^\(|\)$/g, '').trim(),
+    );
+    if (offNames[0]) {
+      data['oficionome'] = offNames[0];
+      data['oficio_treinada'] = '1';
+      data['oficiooutros'] = String(calcSkillOutros({ bonusTotal: parseInt(bonusStr1) || 0, attrMod: intMod, level: monsterLevel, trained: true }));
+    }
+    if (offNames[1]) {
+      data['oficio2nome'] = offNames[1];
+      data['oficio2_treinada'] = '1';
+      data['oficio2outros'] = String(calcSkillOutros({ bonusTotal: parseInt(bonusStr2) || 0, attrMod: intMod, level: monsterLevel, trained: true }));
+    }
+  }
+
   // Ataques: bonusataque = 0 (a ficha calcula via lutatotal/pontariatotal)
-  data.attacks = (monster.attacks || []).map((attack) => {
+  // separator: '' = único/primeiro, 'e' = simultâneo, 'ou' = alternativo
+  const attacks = monster.attacks || [];
+  data.attacks = attacks.map((attack, idx) => {
     const isRanged = attack.type === 'à distância';
     const { dano, dadoExtra, critMult, critRange, alcance, descricao } = parseDamage(
       attack.damage || '',
     );
+
+    // meleedescription = separator do PRÓXIMO ataque (exibido após este na ficha)
+    // Único ou último do grupo → '' (sem conector)
+    const nextSep = idx + 1 < attacks.length ? (attacks[idx + 1].separator || '') : '';
+
     return {
       nomeataque: attack.name || '',
       bonusataque: '0',
@@ -390,6 +419,7 @@ export function monsterToSheetData(monster) {
       margemcriticoataque: critRange,
       multiplicadorcriticoataque: critMult,
       ataquedescricao: descricao,
+      meleedescription: nextSep,
       ataquepericia: isRanged ? ATTACK_SKILL_RANGED : ATTACK_SKILL_MELEE,
       ataquetipodedano: '',
       ataquealcance: isRanged ? '' : alcance,
@@ -408,19 +438,35 @@ export function monsterToSheetData(monster) {
     };
   });
 
-  // Magias do monstro → habilidade extra
-  if (monster.spell_description || (monster.spells || []).length > 0) {
-    const spellLines = [];
-    if (monster.spell_description) spellLines.push(monster.spell_description);
-    (monster.spells || []).forEach((s) => {
-      const cost = s.cost ? ` (${s.cost})` : '';
-      spellLines.push(`${s.name}${cost}: ${s.description}`);
-    });
+  // Magias do monstro → spells1 (todas no círculo 1 por padrão)
+  // spell_description (ex: "conjurador arcano de 20º nível") vai como habilidade de contexto
+  if (monster.spell_description) {
     data.abilities.push({
       nameability: 'Magia',
-      abilitydescription: spellLines.join('\n'),
+      abilitydescription: monster.spell_description,
     });
   }
+  data.spells1 = (monster.spells || []).map((s) => {
+    // Montar nome completo: "Nome (Execução, X PM, Duração)"
+    const parts = [];
+    if (s.execucao) parts.push(s.execucao.charAt(0).toUpperCase() + s.execucao.slice(1));
+    if (s.pm) parts.push(`${s.pm} PM`);
+    if (s.duracao) parts.push(s.duracao.charAt(0).toUpperCase() + s.duracao.slice(1));
+    const namespell = parts.length > 0
+      ? `${s.name} (${parts.join(', ')})`
+      : s.name || '';
+    return {
+      namespell,
+      spelltipo: '',
+      spellexecucao: s.execucao || '',
+      spellalcance: '',
+      spellduracao: s.duracao || '',
+      spellalvoarea: '',
+      spellresistencia: '',
+      spelldescription: s.description || '',
+      spellcd: '0',
+    };
+  });
 
   // Equipamentos
   data.equipments = (monster.equipment || []).map((item) => ({
@@ -432,7 +478,7 @@ export function monsterToSheetData(monster) {
   }));
 
   data.powers = [];
-  data.spells1 = [];
+  // spells1 já foi populado com as magias do monstro acima
   data.spells2 = [];
   data.spells3 = [];
   data.spells4 = [];

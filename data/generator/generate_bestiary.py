@@ -135,13 +135,21 @@ def parse_equipment(text):
 def parse_attacks(line):
     attack_type = 'à distância' if line.upper().startswith('À DISTÂNCIA') else 'corpo a corpo'
     text = re.sub(r'^(CORPO A CORPO|À DISTÂNCIA|ATAQUE ESPECIAL)\s*', '', line, flags=re.IGNORECASE).strip().rstrip('.')
-    # Separa por ') e ', ') ou ' ou '),' — delimitadores que ficam FORA dos parênteses de dano
-    parts = re.split(r'\)\s*(?:,\s*|\s+e\s+|\s+ou\s+)(?=\S)', text)
+    # Divide preservando o separador entre ataques (fora dos parênteses de dano)
+    # re.split com grupo capturante retorna: [parte0, sep1, parte1, sep2, parte2, ...]
+    tokens = re.split(r'\)\s*(,\s*|\s+e\s+|\s+ou\s+)(?=\S)', text)
+    groups = []  # [(separator, texto), ...]
+    for i, tok in enumerate(tokens):
+        if i == 0:
+            groups.append(('', tok + ')'))
+        elif i % 2 == 1:
+            raw_sep = tok.strip().rstrip(',').strip()
+            sep = raw_sep if raw_sep == 'ou' else 'e'  # vírgula e 'e' → 'e'
+        else:
+            groups.append((sep, tok + ')'))
     attacks = []
-    for part in parts:
+    for sep, part in groups:
         part = part.strip()
-        if not part.endswith(')'):
-            part += ')'
         m = re.match(r'^(.+?)\s+([-+]\d+(?:/[-+]\d+)?)\s+\(([^)]+)\)', part)
         if m:
             attacks.append({
@@ -149,9 +157,10 @@ def parse_attacks(line):
                 'bonus': m.group(2),
                 'damage': m.group(3),
                 'type': attack_type,
+                'separator': sep,  # '' = primeiro/único, 'e' = simultâneo, 'ou' = alternativo
             })
         elif part.rstrip(')').strip():
-            attacks.append({'name': part.rstrip(')').strip().capitalize(), 'bonus': '', 'damage': '', 'type': attack_type})
+            attacks.append({'name': part.rstrip(')').strip().capitalize(), 'bonus': '', 'damage': '', 'type': attack_type, 'separator': sep})
     return attacks
 
 
@@ -171,21 +180,40 @@ def is_ability_line(line):
 def parse_ability(line):
     is_magical = bool(re.search(r'\[magico\]', line, re.IGNORECASE))
     line_clean = re.sub(r'\s+', ' ', re.sub(r'\[magico\]', '', line, flags=re.IGNORECASE)).strip()
-    m = re.match(r'^((?:[A-ZÁÉÍÓÚÂÊÎÔÛÃÕÀÇ\-]+(?:\s+|$))+)\(([^)]+)\)\s+(.+)$', line_clean, re.DOTALL)
+    # Prioridade 1: formato com ':' — 'NOME: desc' ou 'NOME (ação): desc'
+    m = re.match(r'^([A-ZÁÉÍÓÚÂÊÎÔÛÃÕÀÇ][A-ZÁÉÍÓÚÂÊÎÔÛÃÕÀÇ\s\-]*?)(?:\s*\(([^)]+)\))?\s*:\s*(.+)$', line_clean, re.DOTALL)
     if m:
-        return {'name': m.group(1).strip().title(), 'action': m.group(2).strip(), 'is_magical': is_magical, 'description': m.group(3).strip()}
-    m2 = re.match(r'^((?:[A-ZÁÉÍÓÚÂÊÎÔÛÃÕÀÇ\-]+(?:\s+|$))+)([A-Za-záéíóúâêîôûãõàç].+)$', line_clean, re.DOTALL)
+        return {'name': m.group(1).strip().title(), 'action': (m.group(2) or '').strip(), 'is_magical': is_magical, 'description': m.group(3).strip()}
+    # Fallback: 'NOME (ação) descrição'
+    m2 = re.match(r'^((?:[A-ZÁÉÍÓÚÂÊÎÔÛÃÕÀÇ\-]+(?:\s+|$))+)\(([^)]+)\)\s*(.+)$', line_clean, re.DOTALL)
     if m2:
-        return {'name': m2.group(1).strip().title(), 'action': '', 'is_magical': is_magical, 'description': m2.group(2).strip()}
+        return {'name': m2.group(1).strip().title(), 'action': m2.group(2).strip(), 'is_magical': is_magical, 'description': m2.group(3).strip()}
+    # Fallback: 'NOME descrição'
+    m3 = re.match(r'^((?:[A-ZÁÉÍÓÚÂÊÎÔÛÃÕÀÇ\-]+(?:\s+|$))+)([A-Za-záéíóúâêîôûãõàç].+)$', line_clean, re.DOTALL)
+    if m3:
+        return {'name': m3.group(1).strip().title(), 'action': '', 'is_magical': is_magical, 'description': m3.group(2).strip()}
     return {'name': line_clean.title(), 'action': '', 'is_magical': is_magical, 'description': ''}
 
 
 def parse_spell_bullet(line):
     line = line.lstrip('•').strip()
-    m = re.match(r'^(.+?)\s+\(([^)]+)\)\s+(.+)$', line, re.DOTALL)
+    # Formato novo: NOME (EXECUÇÃO, X PM[, DURAÇÃO]): descrição
+    m = re.match(r'^(.+?)\s+\(([^)]+)\)\s*:\s*(.+)$', line, re.DOTALL)
+    if not m:
+        # Fallback sem ':'
+        m = re.match(r'^(.+?)\s+\(([^)]+)\)\s+(.+)$', line, re.DOTALL)
     if m:
-        return {'name': m.group(1).strip(), 'cost': m.group(2).strip(), 'description': m.group(3).strip()}
-    return {'name': line, 'cost': '', 'description': ''}
+        name = m.group(1).strip().title()
+        cost_str = m.group(2).strip()
+        description = m.group(3).strip()
+        parts = [p.strip() for p in cost_str.split(',')]
+        execucao = parts[0].lower() if parts else ''
+        pm_match = re.search(r'(\d+)\s*PM', cost_str, re.IGNORECASE)
+        pm = pm_match.group(1) if pm_match else ''
+        # Duração: última parte se tiver 3+ partes e não for número de PM
+        duracao = parts[-1].strip().lower() if len(parts) >= 3 and not re.match(r'\d+\s*pm', parts[-1], re.IGNORECASE) else ''
+        return {'name': name, 'cost': cost_str, 'execucao': execucao, 'pm': pm, 'duracao': duracao, 'description': description}
+    return {'name': line, 'cost': '', 'execucao': '', 'pm': '', 'duracao': '', 'description': ''}
 
 
 def parse_monster_block(block):
@@ -244,7 +272,7 @@ def parse_monster_block(block):
         elif upper.startswith('CORPO A CORPO') or upper.startswith('À DISTÂNCIA'):
             monster['attacks'].extend(parse_attacks(line))
         elif upper.startswith('MAGIA'):
-            monster['spell_description'] = re.sub(r'^MAGIA\s*', '', line, flags=re.IGNORECASE).strip()
+            monster['spell_description'] = re.sub(r'^MAGIA\s*:?\s*', '', line, flags=re.IGNORECASE).strip()
         elif line.startswith('•'):
             monster['spells'].append(parse_spell_bullet(line))
         elif upper.startswith('PERÍCIAS'):
@@ -296,15 +324,37 @@ def build_description(m):
     if m['pm']: parts.append(f'PM: {m["pm"]}')
 
     if m['attacks']:
-        parts.append('Ataques:\n' + '\n'.join(f'  {a["name"]}: {a["bonus"]} ({a["damage"]} — {a["type"]})' for a in m['attacks']))
+        # Agrupar por tipo e reconstruir no formato do livro:
+        # Corpo a Corpo: Espada +15 (1d8+15) e Garra +15 (1d8+10).
+        # À Distância: Arco +11 (1d8+6, x3).
+        melee = [a for a in m['attacks'] if a['type'] != 'à distância']
+        ranged = [a for a in m['attacks'] if a['type'] == 'à distância']
+        attack_lines = []
+        for label, group in [('Corpo a Corpo', melee), ('À Distância', ranged)]:
+            if not group:
+                continue
+            tokens = []
+            for i, a in enumerate(group):
+                dmg = f', {a["damage"]}' if a['damage'] else ''
+                token = f'{a["name"]} {a["bonus"]} (1d{dmg})' if not a['damage'] else f'{a["name"]} {a["bonus"]} ({a["damage"]})'
+                sep = a.get('separator', '')
+                if i == 0:
+                    tokens.append(token)
+                else:
+                    tokens.append(f'{sep} {token}' if sep else token)
+            attack_lines.append(f'{label}: {" ".join(tokens)}.')
+        parts.append('\n\n'.join(attack_lines))
 
     if m['spell_description'] or m['spells']:
-        sl = []
-        if m['spell_description']: sl.append(m['spell_description'])
+        spell_parts = []
+        if m['spell_description']:
+            spell_parts.append(m['spell_description'])
         for s in m['spells']:
-            cost = f' ({s["cost"]})' if s['cost'] else ''
-            sl.append(f'• {s["name"]}{cost}: {s["description"]}')
-        parts.append('Magia:\n' + '\n'.join(sl))
+            pm = f', {s["pm"]} PM' if s.get('pm') else ''
+            dur = f', {s["duracao"].capitalize()}' if s.get('duracao') else ''
+            cost = f' ({s["execucao"].capitalize()}{pm}{dur})' if s.get('execucao') or s.get('pm') else (f' ({s["cost"]})' if s.get('cost') else '')
+            spell_parts.append(f'• {s["name"]}{cost}: {s["description"]}')
+        parts.append('Magia:\n\n' + '\n\n'.join(spell_parts))
 
     if m['abilities']:
         ab_lines = []
