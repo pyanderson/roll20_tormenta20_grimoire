@@ -226,11 +226,13 @@ export function monsterToSheetData(monster) {
   data.menace_perception = (monster.other_perception || []).join(', ');
 
   // Resistência do monstro (imunidades, redução de dano, vulnerabilidades)
-  data.menace_resist = (monster.immunities.length > 0 ? `Imunidades: ${monster.immunities.join(', ')}` : '')
-    + (monster.damage_reduction && monster.immunities.length > 0 ? ' | ' : '')
-    + (monster.damage_reduction ? `RD: ${Object.entries(monster.damage_reduction).map(([k, v]) => (k === 'normal' ? `${v}` : `${v} a ${k}`)).join(', ')}` : '')
-    + (monster.vulnerabilities.length > 0 && monster.damage_reduction ? ' | ' : '')
-    + (monster.vulnerabilities.length > 0 ? `Vulnerabilidades: ${monster.vulnerabilities.join(', ')}` : '');
+  data.menace_resist = [
+    (monster.immunities || []).length > 0 ? `Imunidades: ${monster.immunities.join(', ')}` : '',
+    Object.keys(monster.damage_reduction || {}).length > 0
+      ? `RD: ${Object.entries(monster.damage_reduction).map(([k, v]) => (k === 'normal' ? `${v}` : `${v} a ${k}`)).join(', ')}`
+      : '',
+    (monster.vulnerabilities || []).length > 0 ? `Vulnerabilidades: ${monster.vulnerabilities.join(', ')}` : '',
+  ].filter(Boolean).join(' | ');
 
   // PV e PM
   data.vidatotal = String(monster.hp || 0);
@@ -247,29 +249,7 @@ export function monsterToSheetData(monster) {
   // Tamanho
   data.tamanho = String(SIZE_MAP[monster.size] ?? 0);
 
-  // Notas com dados do monstro
-  const noteLines = [
-    `${monster.type}${subtypeStr} ${monster.size}${roleStr}`,
-    `ND: ${monster.nd}`,
-  ];
-  if (monster.initiative) noteLines.push(`Iniciativa: ${monster.initiative}`);
-  if (monster.perception) noteLines.push(`Percepção: ${monster.perception}`);
-  if ((monster.other_perception || []).length)
-    noteLines.push(monster.other_perception.join(', '));
-  if (monster.fort)
-    noteLines.push(`Fort: ${monster.fort} | Ref: ${monster.ref} | Von: ${monster.von}`);
-  if ((monster.immunities || []).length)
-    noteLines.push(`Imunidades: ${monster.immunities.join(', ')}`);
-  if (Object.keys(monster.damage_reduction || {}).length) {
-    const rdStr = Object.entries(monster.damage_reduction)
-      .map(([k, v]) => (k === 'normal' ? `${v}` : `${v}/${k}`))
-      .join(', ');
-    noteLines.push(`RD: ${rdStr}`);
-  }
-  if ((monster.vulnerabilities || []).length)
-    noteLines.push(`Vulnerabilidades: ${monster.vulnerabilities.join(', ')}`);
-  if (monster.treasure) noteLines.push(`\nTesouro: ${monster.treasure}`);
-  data.charnotes = noteLines.join('\n');
+  data.charnotes = '';
 
   // Tesouro
   data.menace_treasures = monster.treasure || '';
@@ -292,6 +272,15 @@ export function monsterToSheetData(monster) {
   const monsterLevel = ndToLevel(monster.nd);
   const forMod = parseInt(attrVal('str')) || 0;
   const desMod = parseInt(attrVal('dex')) || 0;
+
+  // CD das magias: extraída do spell_description (ex: "CD 50")
+  // cdoutros = CD - 10 - INT_mod - floor(level/2)
+  const cdMatch = (monster.spell_description || '').match(/\bCD\s+(\d+)/i);
+  if (cdMatch) {
+    const cdTotal = parseInt(cdMatch[1]) || 0;
+    const intMod = parseInt(attrVal('int')) || 0;
+    data.cdoutros = String(cdTotal - 10 - intMod - Math.floor(monsterLevel / 2));
+  }
 
   // Defesa: 10 + DES + outros  →  outros = total - 10 - DES
   const defenseTotal = parseInt(monster.defense || '0') || 0;
