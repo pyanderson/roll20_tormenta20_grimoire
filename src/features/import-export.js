@@ -660,7 +660,7 @@ export class ImportExportSheet {
     const monsterButton = createElement('button', {
       id: 't20-monster-import-button',
       classes: 'btn tormenta20-import-export-button',
-      innerHTML: '🐲 Importar Monstro',
+      innerHTML: '🐲 Escolher Monstro',
     });
 
     monsterButton.addEventObserver('click', () => {

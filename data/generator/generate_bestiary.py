@@ -1,6 +1,35 @@
 import re
 import json
+import os
 import sys
+
+# Mapeamento de alcance T20 → metros
+RANGE_MAP = {
+    'Curto':    '9m',
+    'Médio':    '18m',
+    'Longo':    '36m',
+    'Personal': '1,5m',
+}
+
+
+def load_ranged_weapons(armas_path):
+    """Carrega Armas.json e retorna dict {nome_normalizado: alcance_metros}."""
+    if not armas_path or not os.path.exists(armas_path):
+        return {}
+    with open(armas_path, encoding='utf-8') as f:
+        data = json.load(f)
+    # Suporte a { "items": [...] } e a lista direta [...]
+    armas = data['items'] if isinstance(data, dict) else data
+    result = {}
+    for arma in armas:
+        if arma.get('purpose', '').lower() != 'ataque à distância':
+            continue
+        name = arma.get('name', '').lower().strip()
+        range_label = arma.get('range', '')
+        range_m = RANGE_MAP.get(range_label, '')
+        if name and range_m:
+            result[name] = range_m
+    return result
 from collections import defaultdict
 
 ATTRS_LINE_RE = re.compile(
@@ -132,7 +161,7 @@ def parse_equipment(text):
     return [item.strip() for item in text.split(',') if item.strip()]
 
 
-def parse_attacks(line):
+def parse_attacks(line, ranged_weapons=None):
     attack_type = 'à distância' if line.upper().startswith('À DISTÂNCIA') else 'corpo a corpo'
     text = re.sub(r'^(CORPO A CORPO|À DISTÂNCIA|ATAQUE ESPECIAL)\s*', '', line, flags=re.IGNORECASE).strip().rstrip('.')
     # Divide preservando o separador entre ataques (fora dos parênteses de dano)
@@ -152,13 +181,19 @@ def parse_attacks(line):
         part = part.strip()
         m = re.match(r'^(.+?)\s+([-+]\d+(?:/[-+]\d+)?)\s+\(([^)]+)\)', part)
         if m:
-            attacks.append({
-                'name': m.group(1).strip().capitalize(),
+            atk_name = m.group(1).strip().capitalize()
+            atk = {
+                'name': atk_name,
                 'bonus': m.group(2),
                 'damage': m.group(3),
                 'type': attack_type,
-                'separator': sep,  # '' = primeiro/único, 'e' = simultâneo, 'ou' = alternativo
-            })
+                'separator': sep,
+            }
+            # Para ataques à distância, buscar o alcance no dicionário de armas
+            if attack_type == 'à distância' and ranged_weapons:
+                name_norm = atk_name.lower().strip()
+                atk['range'] = ranged_weapons.get(name_norm, '')
+            attacks.append(atk)
         elif part.rstrip(')').strip():
             attacks.append({'name': part.rstrip(')').strip().capitalize(), 'bonus': '', 'damage': '', 'type': attack_type, 'separator': sep})
     return attacks
@@ -216,7 +251,8 @@ def parse_spell_bullet(line):
     return {'name': line, 'cost': '', 'execucao': '', 'pm': '', 'duracao': '', 'description': ''}
 
 
-def parse_monster_block(block):
+def parse_monster_block(block, ranged_weapons=None):
+    _ranged_weapons = ranged_weapons or {}
     lines = [l for l in block.strip().splitlines() if l.strip()]
     if not lines:
         return None
@@ -270,7 +306,7 @@ def parse_monster_block(block):
             m = re.search(r'(\d+)', line)
             if m: monster['pm'] = int(m.group(1))
         elif upper.startswith('CORPO A CORPO') or upper.startswith('À DISTÂNCIA'):
-            monster['attacks'].extend(parse_attacks(line))
+            monster['attacks'].extend(parse_attacks(line, ranged_weapons=_ranged_weapons))
         elif upper.startswith('MAGIA'):
             monster['spell_description'] = re.sub(r'^MAGIA\s*:?\s*', '', line, flags=re.IGNORECASE).strip()
         elif line.startswith('•'):
@@ -369,9 +405,11 @@ def build_description(m):
         parts.append('Atributos: ' + ' | '.join(f'{am[k]} {v if v is not None else "--"}' for k, v in m['attributes'].items()))
 
     if m['skills']: parts.append(f'Perícias: {", ".join(f"{k} {v}" for k, v in m["skills"].items())}')
-    if m['equipment']: parts.append(f'Equipamento: {", ".join(m["equipment"])}')
+    if m['equipment']:
+        equip_names = [e['name'] if isinstance(e, dict) else e for e in m['equipment']]
+        parts.append(f'Equipamento: {", ".join(equip_names)}')
     if m['treasure']: parts.append(f'Tesouro: {m["treasure"]}')
-    if m['description']: parts.append(m['description'])
+    if m.get('description'): parts.append(m['description'])
 
     return '\n\n'.join(parts)
 
@@ -398,29 +436,50 @@ def monsters_to_book_folder(monsters):
         'items': [
             {
                 'type': 'folder',
-                'name': f'ND {nd}',
+                'name': 'Tormenta JdA',
                 'items': [
-                    {'type': 'item', 'name': m['name'], 'description': build_description(m), '_monster': m}
-                    for m in sorted(groups[nd], key=lambda x: x['name'])
+                    {
+                        'type': 'folder',
+                        'name': f'ND {nd}',
+                        'items': [
+                            {
+                                'type': 'item',
+                                'name': m['name'],
+                                'description': build_description(m),
+                                'spellType': None,
+                                '_monster': m,
+                            }
+                            for m in sorted(groups[nd], key=lambda x: x['name'])
+                        ],
+                    }
+                    for nd in sorted_nds
                 ],
-            }
-            for nd in sorted_nds
+            },
+            {
+                'type': 'folder',
+                'name': 'Ameaças de Arton',
+                'items': [],
+            },
         ],
     }
 
 
 def main():
     if len(sys.argv) < 3:
-        print('Uso: python generate_bestiary.py entrada.txt saida.json')
+        print('Uso: python generate_bestiary.py entrada.txt saida.json [armas.json]')
         sys.exit(1)
     with open(sys.argv[1], 'r', encoding='utf-8') as f:
         text = f.read()
+    armas_path = sys.argv[3] if len(sys.argv) > 3 else None
+    ranged_weapons = load_ranged_weapons(armas_path)
+    if ranged_weapons:
+        print(f'{len(ranged_weapons)} armas à distância carregadas de {armas_path}')
     blocks = split_blocks(text)
     print(f'{len(blocks)} blocos encontrados.')
     monsters, errors = [], 0
     for i, block in enumerate(blocks):
         try:
-            monster = parse_monster_block(block)
+            monster = parse_monster_block(block, ranged_weapons=ranged_weapons)
             if monster and monster['name']:
                 monsters.append(monster)
             else:
@@ -433,8 +492,12 @@ def main():
     with open(sys.argv[2], 'w', encoding='utf-8') as f:
         json.dump(result, f, ensure_ascii=False, indent=2)
     print(f'\nJSON salvo em: {sys.argv[2]}')
-    for folder in result['items']:
-        print(f'  {folder["name"]}: {len(folder["items"])} monstro(s)')
+    for folder in result.get('items', []):
+        if folder['name'] == 'Tormenta JdA':
+            count = sum(len(nd.get('items', [])) for nd in folder.get('items', []))
+            print(f'  Tormenta JdA: {count} monstro(s) em {len(folder["items"])} NDs')
+        else:
+            print(f'  {folder["name"]}: {len(folder.get("items", []))} item(s)')
 
 
 if __name__ == '__main__':

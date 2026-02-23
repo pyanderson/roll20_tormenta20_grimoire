@@ -411,7 +411,7 @@ export function monsterToSheetData(monster) {
       meleedescription: nextSep,
       ataquepericia: isRanged ? ATTACK_SKILL_RANGED : ATTACK_SKILL_MELEE,
       ataquetipodedano: '',
-      ataquealcance: isRanged ? '' : alcance,
+      ataquealcance: isRanged ? (attack.range || '') : alcance,
       modatributodano: '',
       tipocritico: '',
     };
