@@ -4,6 +4,7 @@
 *.pem
 data/generator/*.json
 data/generator/*.txt
+settings.json
 # editors
 *.swp
 *.sublime-project

@@ -20,7 +20,7 @@ break_line_regex = re.compile(r"\n{3,}")
 
 def read_book_pages(book_path, first_page, last_page):
     return subprocess.check_output(
-        f"pdftotext -f {first_page} -l {last_page} -nopgbrk {book_path} -",
+        f'pdftotext -f {first_page} -l {last_page} -nopgbrk "{book_path}" -',
         shell=True,
         text=True,
     )
