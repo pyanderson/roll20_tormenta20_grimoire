@@ -593,7 +593,7 @@
     {
       "type": "item",
       "name": "Frutos do Trabalho",
-      "description": "No início de cada aventura, você recebe até 5 itens gerais que possa fabricar num valor total de até T$ 50. Esse valor aumenta para T$ 100 no patamar aventureiro, T$ 300 no heroico e T$ 500 no lenda."
+      "description": "No início de cada aventura, você recebe até 5 itens gerais que possa fabricar num valor total de até T$ 50. Esse valor aumenta para T$ 100 no patamar veterano, T$ 300 no campeão e T$ 500 no lenda."
     },
     {
       "type": "item",
@@ -623,7 +623,7 @@
     {
       "type": "item",
       "name": "À Prova de Tudo",
-      "description": "Você não sofre penalidade em deslocamento e Sobrevivência por clima ruim e por terreno difícil natural. A origem de um herói pode ser sua força ou sua fraqueza"
+      "description": "Você não sofre penalidade em deslocamento e Sobrevivência por clima ruim e por terreno difícil natural."
     },
     {
       "type": "item",
@@ -633,7 +633,7 @@
     {
       "type": "item",
       "name": "Confissão",
-      "description": "Você pode usar Intimidação para interrogar sem custo e em uma hora (veja Investigação)."
+      "description": "Você pode usar Intimidação para interrogar sem custo e em um minuto (veja Investigação)."
     },
     {
       "type": "item",
@@ -703,7 +703,7 @@
     {
       "type": "item",
       "name": "Palpite Fundamentado",
-      "description": "Você pode gastar 2 PM para substituir um teste de qualquer perícia originalmente baseada em Inteligência ou Sabedoria por um teste de Conhecimento."
+      "description": "Quando vai fazer um teste de perícia originalmente baseada em Inteligência ou Sabedoria, você pode gastar 2 PM para substituí-la por Conhecimento."
     },
     {
       "type": "item",
@@ -713,7 +713,7 @@
     {
       "type": "item",
       "name": "Água no Feijão",
-      "description": "Você não sofre a penalidade de –5 e não gasta matéria prima adicional para fabricar pratos para cinco pessoas."
+      "description": "Você não sofre a penalidade de –5 e não gasta matéria-prima adicional para fabricar pratos para cinco pessoas."
     },
     {
       "type": "item",
@@ -723,7 +723,7 @@
     {
       "type": "item",
       "name": "Cultura Exótica",
-      "description": "Por sua diferente visão de mundo, você encontra soluções inesperadas. Você pode gastar 1 PM para fazer um teste de perícia somente treinada, mesmo sem ser treinado na perícia."
+      "description": "Por sua diferente visão de mundo, você encontra soluções inesperadas. Quando vai fazer um teste de perícia que requer treinamento, você pode gastar 1 PM para ignorar esse requerimento para esse teste."
     },
     {
       "type": "item",
@@ -788,7 +788,12 @@
     {
       "type": "item",
       "name": "Membro de Guilda",
-      "description": "Você foi, ou ainda é, membro atuante em uma grande guilda — uma associação de artesãos, mercadores, magos, criminosos ou mesmo aventureiros. A guilda forneceu o treinamento e equipamento necessários para suas atividades, esperando que você seja útil em troca. Você se manteve fiel a seus patronos, cumprindo missões e colhendo os benefícios de pertencer a uma vasta organização? Ou deixou essa vida para trás, sendo agora desprezado ou até caçado por seus antigos mestres?\n\nItens. Gazua ou instrumentos de ofício.\n\nBenefícios. Diplomacia, Enganação, Misticismo, Ofício (perícias); Foco em Perícia, Rede de Contatos (poderes).\n\nRede de Contatos Graças à influência de sua guilda, você pode usar Diplomacia para interrogar sem custo e em uma hora (veja Investigação)."
+      "description": "Você foi, ou ainda é, membro atuante em uma grande guilda — uma associação de artesãos, mercadores, magos, criminosos ou mesmo aventureiros. A guilda forneceu o treinamento e equipamento necessários para suas atividades, esperando que você seja útil em troca. Você se manteve fiel a seus patronos, cumprindo missões e colhendo os benefícios de pertencer a uma vasta organização? Ou deixou essa vida para trás, sendo agora desprezado ou até caçado por seus antigos mestres?\n\nItens. Gazua ou instrumentos de ofício.\n\nBenefícios. Diplomacia, Enganação, Misticismo, Ofício (perícias); Foco em Perícia, Rede de Contatos (poderes)."
+    },
+    {
+      "type": "item",
+      "name": "Rede de Contatos",
+      "description": "Graças à influência de sua guilda, você pode usar Diplomacia para interrogar sem custo e em um minuto (veja Investigação)."
     },
     {
       "type": "item",
@@ -878,7 +883,7 @@
     {
       "type": "item",
       "name": "Gororoba",
-      "description": "Você não sofre a penalidade de –5 para fabricar um prato especial adiconal."
+      "description": "Você não sofre a penalidade de –5 para fabricar um prato especial adicional."
     },
     {
       "type": "item",
@@ -888,7 +893,7 @@
     {
       "type": "item",
       "name": "Esforçado",
-      "description": "Você não teme trabalho duro, nem prazos apertados. Você recebe um bônus de +2 em todos os testes de perícias estendidos (incluindo perigos complexos).\n\n"
+      "description": "Você não teme trabalho duro, nem prazos apertados. Você recebe um bônus de +2 em todos os testes de perícias estendidos (incluindo perigos complexos)."
     }
   ]
 }
