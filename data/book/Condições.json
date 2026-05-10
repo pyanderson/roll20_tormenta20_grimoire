@@ -50,22 +50,47 @@
     {
       "type": "item",
       "name": "Desprevenido",
-      "description": "O personagem sofre –5 na Defesa e em Reflexos. Você fica desprevenido contra inimigos que não possa perceber. Doente. Sob efeito de uma doença. Metabolismo."
+      "description": "O personagem sofre –5 na Defesa e em Reflexos. Você fica desprevenido contra inimigos que não possa perceber."
+    },
+    {
+      "type": "item",
+      "name": "Doente",
+      "description": "Sob efeito de uma doença. Metabolismo."
     },
     {
       "type": "item",
       "name": "Em Chamas",
-      "description": "O personagem está pegando fogo. No início de seus turnos, sofre 1d6 pontos de dano de fogo. O personagem pode gastar uma ação padrão para apagar o fogo com as mãos. Imersão em água também apaga as chamas. Enfeitiçado. O personagem se torna prestativo em relação à fonte da condição. Ele não fica sob controle da fonte, mas percebe suas palavras e ações da maneira mais favorável possível. A fonte da condição recebe +10 em testes de Diplomacia com o personagem. Mental."
+      "description": "O personagem está pegando fogo. No início de seus turnos, sofre 1d6 pontos de dano de fogo. O personagem pode gastar uma ação padrão para apagar o fogo com as mãos. Imersão em água também apaga as chamas."
+    },
+    {
+      "type": "item",
+      "name": "Enfeitiçado",
+      "description": "O personagem se torna prestativo em relação à fonte da condição. Ele não fica sob controle da fonte, mas percebe suas palavras e ações da maneira mais favorável possível. A fonte da condição recebe +10 em testes de Diplomacia com o personagem. Mental."
     },
     {
       "type": "item",
       "name": "Enjoado",
-      "description": "O personagem só pode realizar uma ação padrão ou de movimento (não ambas) por rodada. Ele pode gastar uma ação padrão para fazer uma investida, mas pode avançar no máximo seu deslocamento (e não o dobro). Metabolismo. Enredado. O personagem fica lento, vulnerável e sofre –2 em testes de ataque. Movimento."
+      "description": "O personagem só pode realizar uma ação padrão ou de movimento (não ambas) por rodada. Ele pode gastar uma ação padrão para fazer uma investida, mas pode avançar no máximo seu deslocamento (e não o dobro). Metabolismo."
+    },
+    {
+      "type": "item",
+      "name": "Enredado",
+      "description": "O personagem fica lento, vulnerável e sofre –2 em testes de ataque. Movimento."
     },
     {
       "type": "item",
       "name": "Envenenado",
-      "description": "O efeito desta condição varia de acordo com o veneno. Pode ser perda de vida recorrente ou outra condição (como fraco ou enjoado). Perda de vida recorrente por venenos é cumulativa. Veneno. Esmorecido. O personagem sofre –5 em testes de Inteligência, Sabedoria e Carisma e de perícias baseadas nesses atributos. Mental. Exausto. O personagem fica debilitado, lento e vulnerável. Se ficar exausto novamente, em vez disso fica inconsciente. Cansaço."
+      "description": "O efeito desta condição varia de acordo com o veneno. Pode ser perda de vida recorrente ou outra condição (como fraco ou enjoado). Perda de vida recorrente por venenos é cumulativa. Veneno."
+    },
+    {
+      "type": "item",
+      "name": "Esmorecido",
+      "description": "O personagem sofre –5 em testes de Inteligência, Sabedoria e Carisma e de perícias baseadas nesses atributos. Mental."
+    },
+    {
+      "type": "item",
+      "name": "Exausto",
+      "description": "O personagem fica debilitado, lento e vulnerável. Se ficar exausto novamente, em vez disso fica inconsciente. Cansaço."
     },
     {
       "type": "item",
@@ -85,7 +110,12 @@
     {
       "type": "item",
       "name": "Frustrado",
-      "description": "O personagem sofre –2 em testes de Inteligência, Sabedoria e Carisma e de perícias baseadas nesses atributos. Se ficar frustrado novamente, em vez disso fica esmorecido. Mental. Imóvel. Todas as formas de deslocamento do personagem são reduzidas a 0m. Movimento."
+      "description": "O personagem sofre –2 em testes de Inteligência, Sabedoria e Carisma e de perícias baseadas nesses atributos. Se ficar frustrado novamente, em vez disso fica esmorecido. Mental."
+    },
+    {
+      "type": "item",
+      "name": "Imóvel",
+      "description": "Todas as formas de deslocamento do personagem são reduzidas a 0m. Movimento."
     },
     {
       "type": "item",
@@ -95,7 +125,12 @@
     {
       "type": "item",
       "name": "Indefeso",
-      "description": "O personagem fica desprevenido, mas sofre –10 na Defesa, falha automaticamente em testes de Reflexos e pode sofrer golpes de misericórdia. Lento. Todas as formas de deslocamento do personagem são reduzidas à metade (arredonde para baixo para o primeiro incremento de 1,5m) e ele não pode correr ou fazer investidas. Movimento."
+      "description": "O personagem fica desprevenido, mas sofre –10 na Defesa, falha automaticamente em testes de Reflexos e pode sofrer golpes de misericórdia."
+    },
+    {
+      "type": "item",
+      "name": "Lento",
+      "description": "Todas as formas de deslocamento do personagem são reduzidas à metade (arredonde para baixo para o primeiro incremento de 1,5m) e ele não pode correr ou fazer investidas. Movimento."
     },
     {
       "type": "item",
@@ -120,12 +155,22 @@
     {
       "type": "item",
       "name": "Sangrando",
-      "description": "No início de seu turno, o personagem deve fazer um teste de Constituição (CD 15). Se falhar, perde 1d6 pontos de vida e continua sangrando. Se passar, remove essa condição. Metabolismo. Sobrecarregado. O personagem sofre penalidade de armadura –5 e seu deslocamento é reduzido –3m. Movimento."
+      "description": "No início de seu turno, o personagem deve fazer um teste de Constituição (CD 15). Se falhar, perde 1d6 pontos de vida e continua sangrando. Se passar, remove essa condição. Metabolismo."
+    },
+    {
+      "type": "item",
+      "name": "Sobrecarregado",
+      "description": "O personagem sofre penalidade de armadura –5 e seu deslocamento é reduzido –3m. Movimento."
     },
     {
       "type": "item",
       "name": "Surdo",
-      "description": "O personagem não pode fazer testes de Percepção para ouvir e sofre –5 em testes de Iniciativa. Além disso, é considerado em condição ruim para lançar magias. Sentidos. Surpreendido. O personagem fica desprevenido e não pode fazer ações."
+      "description": "O personagem não pode fazer testes de Percepção para ouvir e sofre –5 em testes de Iniciativa. Além disso, é considerado em condição ruim para lançar magias. Sentidos."
+    },
+    {
+      "type": "item",
+      "name": "Surpreendido",
+      "description": "O personagem fica desprevenido e não pode fazer ações."
     },
     {
       "type": "item",
