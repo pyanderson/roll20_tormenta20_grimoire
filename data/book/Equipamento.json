@@ -2698,6 +2698,27 @@
                 },
                 {
                   "type": "folder",
+                  "name": "Atlas de Arton",
+                  "items": [
+                    {
+                      "type": "item",
+                      "name": "Assado Deheoni",
+                      "description": "Até o fim do dia, você pode rolar novamente um único teste recém realizado (exceto testes de ataque), mas deve ficar com o segundo resultado."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Buquê de Thantalla",
+                      "description": "Efeitos que recuperem seus pontos de mana recuperam 1 PM a mais."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Macarrão de Caravana",
+                      "description": "Recebe +2 em testes de Fortitude contra marcha forçada e em testes contra o perigo complexo jornada pelos ermos."
+                    }
+                  ]
+                },
+                {
+                  "type": "folder",
                   "name": "Deuses de Arton",
                   "items": [
                     {

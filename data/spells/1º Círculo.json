@@ -2704,7 +2704,7 @@
       "name": "Área Escorregadia",
       "range": "curto",
       "resistance": "Reflexos (veja texto)",
-      "target": "ou",
+      "target": "Quadrado de 3m ou 1 objeto",
       "type": "Arcana 1 (Convocação)"
     }
   ]
