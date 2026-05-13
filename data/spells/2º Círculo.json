@@ -293,7 +293,7 @@
         },
         {
           "cost": "+4 PM",
-          "description": "(Apenas Armadilheiross Mestres): em vez do normal, você pode conjurar uma das suas armadilhas de armadilheiro mestre."
+          "description": "(Apenas Armadilheiros Mestres): em vez do normal, você pode conjurar uma das suas armadilhas de armadilheiro mestre."
         }
       ],
       "name": "Conjurar Armadilha",

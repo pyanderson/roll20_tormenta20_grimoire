@@ -117,8 +117,8 @@
       "description": "Quando usa Golpe Divino, todos os inimigos em alcance curto ficam ofuscados até o início do seu próximo turno."
     },
     {
-      "name": "Guardião Celestial",
-      "description": "Você pode gastar uma ação padrão e 10 PM para convocar um espírito para lutar ao seu lado. O guardião celestial flutua ao seu redor, é incorpóreo e imune a dano e possui 100 pontos de luz. Uma vez por rodada, quando você sofre dano, pode fazer o espírito absorver esse dano. Ele perde pontos de luz igual ao dano que você sofreria, e desaparece se seus pontos de luz forem reduzidos a 0. Além disso, uma vez por rodada, você pode gastar 2 PM para fazer o espírito atacar uma criatura em alcance curto (ataque igual a sua Religião com um bônus adicional de +10, dano 4d8 mais seu Carisma de luz, crítico 18/x3). Pré-requisito: 17º nível de paladino."
+      "name": "Hoste Celestial",
+      "description": "Você pode gastar uma ação padrão e 10 PM para convocar guerreiros espirituais para lutar ao seu lado. Eles flutuam ao seu redor, são incorpóreos e imunes a dano e possuem 100 pontos de luz. Uma vez por rodada, quando você sofre dano, pode fazer os espí- ritos absorverem esse dano; nesse caso, eles perdem pontos de luz igual ao dano que você sofreria. Além disso, uma vez por rodada, você pode gastar 2 PM para fazê-los atacar uma criatura em alcance curto (ataque igual a sua Religião com um bônus de +10, dano de luz igual a 4d8 + seu Carisma, crítico 18/x3). Os espíritos desaparecem se os pontos de luz deles forem reduzidos a 0 ou no fim da cena. Pré-requisitos: treinado em Religião, Orar, 17º nível de paladino."
     },
     {
       "name": "Investida Sagrada",

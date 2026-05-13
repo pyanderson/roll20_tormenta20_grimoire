@@ -86,6 +86,10 @@
       "description": "Você pode usar a perícia Ofício (alquimista) para fabricar poções com magias que conheça de 1º e 2º círculos. Veja a página 121 para a regra de fabricar itens e as páginas 333 e 341 para as regras de poções. Pré-requisitos: habilidade de classe Magias, treinado em Ofício (alquimista)."
     },
     {
+      "name": "Presente de Wynlla",
+      "description": "Escolha uma magia arcana de 1º círculo que você saiba lançar. Quando lança esta magia, o custo total de seus aprimoramentos é reduzido em –1 PM. Quanto está em Wynlla, em vez disso o custo em PM total dos aprimoramentos de suas magias arcanas é reduzido em um valor igual ao seu atributo-chave para magias arcanas. Estes efeitos são cumulativos com reduções no custo básico da magia. Pré-requisito: lançar magia arcana."
+    },
+    {
       "name": "Prisão Gélida Aprimoramento",
       "description": "A magia cobre os alvos com cristais de gelo. Um alvo que falhe no teste de resistência fica enredado por 1 rodada. Este aprimoramento só pode ser aplicado em magias que causam dano de frio e permitem testes de resistência. Custo: +1 PM."
     },

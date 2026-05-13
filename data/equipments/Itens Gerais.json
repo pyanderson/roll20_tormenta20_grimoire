@@ -1628,6 +1628,12 @@
       "category": "Alimentação — Pratos Especiais"
     },
     {
+      "name": "Assado Deheoni",
+      "price": "T$ 10",
+      "spaces": "—",
+      "category": "Alimentação — Pratos Especiais"
+    },
+    {
       "name": "Baga celeste cozida",
       "price": "T$ 15",
       "spaces": "—",
@@ -1660,6 +1666,12 @@
     {
       "name": "Bombas de saber",
       "price": "T$ 4",
+      "spaces": "—",
+      "category": "Alimentação — Pratos Especiais"
+    },
+    {
+      "name": "Buquê de Thantalla",
+      "price": "T$ 150",
       "spaces": "—",
       "category": "Alimentação — Pratos Especiais"
     },
@@ -1732,6 +1744,12 @@
     {
       "name": "Justos virtuosos",
       "price": "T$ 6",
+      "spaces": "—",
+      "category": "Alimentação — Pratos Especiais"
+    },
+    {
+      "name": "Macarrão de Caravana",
+      "price": "T$ 5",
       "spaces": "—",
       "category": "Alimentação — Pratos Especiais"
     },
