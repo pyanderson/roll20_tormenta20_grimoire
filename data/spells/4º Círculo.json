@@ -20,7 +20,7 @@
       ],
       "name": "Alterar Memória",
       "range": "toque",
-      "resistance": "Vontade anula",
+      "resistance": "Vontade evita",
       "target": "1 criatura",
       "type": "Arcana 4 (Encantamento)"
     },
@@ -53,7 +53,7 @@
       "implements": [],
       "name": "Assassino Fantasmagórico",
       "range": "longo",
-      "resistance": "Vontade Anula, Fortitude Parcial",
+      "resistance": "Vontade evita, Fortitude parcial",
       "target": "1 criatura",
       "type": "Arcana 4 (Necromancia)"
     },
@@ -211,7 +211,7 @@
       ],
       "name": "Cúpula de Repulsão",
       "range": "pessoal",
-      "resistance": "Vontade Anula",
+      "resistance": "Vontade evita",
       "target": "Você",
       "type": "Divina 4 (Abjuração)"
     },
@@ -350,7 +350,7 @@
       ],
       "name": "Ligação Sombria",
       "range": "longo",
-      "resistance": "Fortitude anula",
+      "resistance": "Fortitude evita",
       "target": "1 criatura",
       "type": "Divina 4 (Necromancia)"
     },
@@ -378,7 +378,7 @@
       "implements": [],
       "name": "Marionete",
       "range": "médio",
-      "resistance": "Fortitude anula",
+      "resistance": "Fortitude evita",
       "target": "1 criatura",
       "type": "Arcana 4 (Encantamento)"
     },
@@ -408,7 +408,7 @@
     {
       "area": "",
       "circle": "4",
-      "description": "Esta magia cria uma mão flutuante de tamanho Grande que sempre se posiciona entre você e um oponente a sua escolha. A mão fornece cobertura leve (+5 na Defesa) contra esse oponente. Nada é capaz de enganar a mão — coisas como escuridão, invisibilidade, metamorfose e disfarces mundanos não a impedem de protegê-lo. A mão tem Defesa 20 e PV e resistências iguais aos seus. Com uma ação de movimento, você pode comandar a mão para que o proteja de outro oponente ou para que realize uma das ações a seguir.\nAgarrar: a mão usa uma manobra agarrar contra o oponente, usando o seu Misticismo com um bônus adicional de +10. A mão mantém o oponente agarrado, mas não causa dano.\nEsmagar: a mão esmaga um oponente agarrado, causando 2d6+10 pontos de dano de impacto.\nEmpurrar: a mão afasta o oponente (manobra empurrar usando o seu Misticismo com um bônus adicional de +10). A mão acompanha o oponente para empurrá-lo o máximo que conseguir, dentro do alcance da magia.",
+      "description": "Esta magia cria uma mão flutuante de tamanho Grande que sempre se posiciona entre você e um oponente a sua escolha. A mão fornece cobertura leve (+5 na Defesa) contra esse oponente. Nada é capaz de enganar a mão — coisas como escuridão, invisibilidade, metamorfose e disfarces mundanos não a impedem de protegê-lo. A mão tem Defesa 20 e PV e resistências iguais aos seus. Com uma ação de movimento, você pode comandar a mão para que o proteja de outro oponente ou para que realize uma das ações a seguir.\nAgarrar: a mão usa uma manobra agarrar contra o oponente no alcance da magia, usando o seu Misticismo com um bônus adicional de +10. A mão mantém o oponente agarrado, mas não causa dano.\nEsmagar: a mão esmaga um oponente agarrado, causando 2d6+10 pontos de dano de impacto.\nEmpurrar: a mão afasta o oponente (manobra empurrar usando o seu Misticismo com um bônus adicional de +10). A mão acompanha o oponente para empurrá-lo o máximo que conseguir, dentro do alcance da magia.",
       "duration": "sustentada",
       "effect": "mão gigante de energia",
       "execution": "padrão",

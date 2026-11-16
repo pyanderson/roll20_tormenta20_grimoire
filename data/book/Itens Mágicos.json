@@ -2152,6 +2152,28 @@
           ]
         }
       ]
+    },
+    {
+      "type": "folder",
+      "name": "Uma Visita a Vectora",
+      "items": [
+        {
+          "type": "folder",
+          "name": "Acessórios",
+          "items": [
+            {
+              "type": "item",
+              "name": "Figurino Teatral",
+              "description": "Esta roupa encantada muda de aparência conforme o que você está tentando fazer. Se você for treinado em Atuação e Enganação, uma vez por cena ela fornece +5 em um teste de perícia qualquer. Acessório mágico menor, T$ 3.600."
+            },
+            {
+              "type": "item",
+              "name": "Máscara do Drama e da Comédia",
+              "description": "Fornece +5 em Enganação, aumenta a CD de seus efeitos mentais em +2 e permite que você use o poder Impostor (se já possuí-lo, poderá usá-lo duas vezes por cena)."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

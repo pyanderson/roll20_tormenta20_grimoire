@@ -225,7 +225,7 @@
     },
     {
       "name": "Força da Natureza",
-      "description": "No 20º nível, você diminui o custo de todas as suas magias em –2 PM e aumenta a CD delas em +2. Os bônus dobram (–4 PM e +4 na CD) se você estiver em terrenos naturais."
+      "description": "No 20º nível, você diminui o custo de todas as suas magias em –2 PM e aumenta a CD delas em +2. Os efeitos dobram (–4 PM e +4 na CD) se você estiver em terrenos naturais."
     },
     {
       "name": "Empatia Selvagem (Ermitão)",
@@ -253,7 +253,7 @@
     },
     {
       "name": "Forma Selvagem",
-      "description": "Você pode gastar uma ação completa e 3 PM para adquirir a forma de uma criatura selvagem. Em termos de jogo, quando usa esta habilidade você adquire os modificadores de uma das formas abaixo. Se ganhar uma arma natural, escolha seu tipo de dano entre corte, impacto e perfuração. Características não mencionadas não mudam. Na forma selvagem você não pode falar, empunhar itens ou lançar magias. Seu equipamento desaparece (mas você mantém os benefícios de quaisquer itens vestidos), ressurgindo quando você volta ao normal. Outras criaturas podem fazer um teste de Percepção oposto pelo seu teste de Enganação para perceber que você não é um animal comum (você recebe +10 neste teste). Cada transformação dura pelo tempo que você quiser, mas você reverte à forma normal se ficar inconsciente ou morrer."
+      "description": "Você pode gastar uma ação completa e 3 PM para adquirir a forma de uma criatura selvagem. Em termos de jogo, quando usa esta habilidade você adquire as características de uma das formas abaixo. Se ganhar uma arma natural, escolha seu tipo de dano entre corte, impacto e perfuração. Características não mencionadas não mudam.\nNa forma selvagem você não pode falar, empunhar itens ou lançar magias. Seu equipamento desaparece (mas você mantém os efeitos de quaisquer itens vestidos), ressurgindo quando você volta ao normal. Outras criaturas podem fazer um teste de Percepção oposto pelo seu teste de Enganação para perceber que você não é um animal comum (você recebe +10 neste teste). Cada transformação dura pelo tempo que você quiser, mas você reverte à forma normal se ficar inconsciente ou morrer."
     },
     {
       "name": "Forma Ágil",

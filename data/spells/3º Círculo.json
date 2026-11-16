@@ -447,7 +447,7 @@
       ],
       "name": "Ilusão Lacerante",
       "range": "médio",
-      "resistance": "Vontade anula",
+      "resistance": "Vontade evita",
       "target": "",
       "type": "Arcana 3 (Ilusão)"
     },
@@ -540,6 +540,37 @@
       "type": "Universal 3 (Ilusão)"
     },
     {
+      "area": "",
+      "circle": "3",
+      "description": "Esta magia afeta apenas criaturas irracionais (Int –5 ou –4). Ela aumenta o tamanho do alvo em uma categoria e fornece Força +4 e redução de dano 5. Se o alvo for um parceiro, ele passa a fornecer +2 na Defesa e, uma vez por rodada, +1d12 em uma rolagem de dano corpo a corpo. Estes benefícios se acumulam com quaisquer outros fornecidos pelo parceiro.",
+      "duration": "cena",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+2 PM",
+          "description": "muda o bônus de dano fornecido pelo parceiro para +2d8."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "muda o bônus na Defesa fornecido pelo parceiro para +5."
+        },
+        {
+          "cost": "+4 PM",
+          "description": "além do normal, o parceiro fornece redução de dano 5."
+        },
+        {
+          "cost": "+4 PM",
+          "description": "muda o aumento de tamanho para duas categorias e o bônus em Força para +6. Requer 4º círculo."
+        }
+      ],
+      "name": "Megalon",
+      "range": "toque",
+      "resistance": "Vontade evita",
+      "target": "1 animal ou monstro",
+      "type": "Universal 3 (Transmutação)"
+    },
+    {
       "area": "cubo de até 90m de lado",
       "circle": "3",
       "description": "Você faz um terreno parecer outro, incluindo sons e cheiros. Uma planície pode parecer um pântano, uma floresta pode parecer uma montanha etc. Esta magia pode ser usada para criar armadilhas: areia movediça pode parecer terra firme ou um precipício pode parecer um lago. Você pode alterar, incluir e esconder estruturas dentro da área, mas não criaturas (embora elas possam se esconder nas estruturas ilusórias).",
@@ -581,7 +612,7 @@
       ],
       "name": "Missão Divina",
       "range": "curto",
-      "resistance": "Vontade anula (veja texto)",
+      "resistance": "Vontade evita (veja texto)",
       "target": "1 criatura",
       "type": "Divina 3 (Encantamento)"
     },
@@ -634,7 +665,7 @@
         },
         {
           "cost": "+4 PM",
-          "description": "muda o alcance para toque, o alvo para 1 criatura, a duração para 1d4 rodadas e adiciona Resistência: Fortitude anula. Em vez do efeito normal, a magia transforma o alvo e seu equipamento em uma estátua inerte e sem consciência. A estátua possui os mesmos PV da criatura e resistência a dano 8; se for quebrada, a criatura morrerá. Requer 4º círculo."
+          "description": "muda o alcance para toque, o alvo para 1 criatura, a duração para 1d4 rodadas e adiciona Resistência: Fortitude evita. Em vez do efeito normal, a magia transforma o alvo e seu equipamento em uma estátua inerte e sem consciência. A estátua possui os mesmos PV da criatura e resistência a dano 8; se for quebrada, a criatura morrerá. Requer 4º círculo."
         },
         {
           "cost": "+9 PM",
@@ -937,7 +968,7 @@
       "implements": [],
       "name": "Vidência",
       "range": "ilimitado (veja texto)",
-      "resistance": "Vontade anula",
+      "resistance": "Vontade evita",
       "target": "1 criatura",
       "type": "Universal 3 (Adivinhação)"
     },

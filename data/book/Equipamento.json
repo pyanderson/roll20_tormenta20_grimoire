@@ -1289,6 +1289,87 @@
               ]
             },
             {
+              "type": "folder",
+              "name": "Uma Visita a Vectora",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Areia de Halak-Tûr",
+                  "description": "Um frasco com areia carregada da energia dos portais do Deserto da Perdição. Você pode gastar uma ação padrão para quebrar o vidro e despejar a areia dele sob os pés de uma criatura em alcance curto. O alvo então se teletransporta para qualquer ponto desocupado e que você possa ver em alcance longo; alvos involuntários têm direito a um teste de Reflexos (CD Des)."
+                },
+                {
+                  "type": "item",
+                  "name": "Armadilha Comum",
+                  "description": "Permite que o personagem use um poder de Armadilha do caçador, escolhido quando o item é comprado (veja Tormenta20, p. 50)."
+                },
+                {
+                  "type": "item",
+                  "name": "Armadilha Rara",
+                  "description": "Permite que o personagem use uma das armadilhas do armadilheiro, escolhido quando o item é comprado (veja Heróis de Arton, p. 117)."
+                },
+                {
+                  "type": "item",
+                  "name": "Bússola do Desejo",
+                  "description": "Ao comprar esta pequena bússola de bronze, escolha uma pessoa ou objeto que você já tenha visto pessoalmente. O item irá apontar o caminho até o alvo escolhido. O efeito dele dura por uma aventura (ou por um mês), quando então se esvai para sempre."
+                },
+                {
+                  "type": "item",
+                  "name": "Chave Dimensional",
+                  "description": "Esta pequena chave de bronze pode ser girada no ar com uma ação padrão para criar uma porta de madeira em pleno ar. A porta dura uma rodada, durante a qual qualquer criatura pode cruzá-la para entrar em um bolsão dimensional similar a uma gruta vazia e escura. Quando a rodada termina, a porta desaparece e ninguém mais pode entrar ou sair do bolsão. O bolsão dura algumas horas (suficiente para uma noite de sono em condições normais), quando então se desfaz, devolvendo todas as pessoas dentro dele para o espaço onde a porta foi conjurada. É possível empurrar alguém pela porta à força; isso exige um vencer um teste de manobra (empurrar), mas a criatura ainda tem direito a um teste de Reflexos (CD For) para se segurar no batente da porta."
+                },
+                {
+                  "type": "item",
+                  "name": "Espelho do Futuro",
+                  "description": "Empunhar este espelho de mão permite que você veja o futuro próximo e reaja de acordo. Você pode rolar novamente um teste recém-realizado que não tenha sido uma falha crítica. Fazer isso quebra o espelho. Apenas um espelho do futuro pode ser usado por cena."
+                },
+                {
+                  "type": "item",
+                  "name": "Essência de Medo",
+                  "description": "Um frasco com uma névoa escura e espiralante. Você pode gastar uma ação padrão para atirar o frasco em qualquer ponto em alcance curto. Criaturas a até 3m do ponto escolhido ficam apavoradas por 1d4+1 rodadas e então abaladas pela cena (Von CD Des diminui para abaladas pela cena)."
+                },
+                {
+                  "type": "item",
+                  "name": "Instante Engarrafado",
+                  "description": "Um frasco com uma névoa espiralante que pulsa com todas as cores da criação — é um pouco de tempo. Usar o instante engarrafado é uma ação padrão. Você recebe uma ação padrão adicional na rodada em que o usa e na rodada seguinte."
+                },
+                {
+                  "type": "item",
+                  "name": "Maldição Física Engarrafada",
+                  "description": "Uma garrafa metálica enferrujada. Abri-la com uma ação padrão libera uma maldição, na forma de um uivo agonizante, sobre uma criatura à sua escolha em alcance curto. A criatura fica debilitada por 1 semana (Von CD Car reduz para fraca por 1d4 rodadas)."
+                },
+                {
+                  "type": "item",
+                  "name": "Maldição Mental Engarrafada",
+                  "description": "Como a maldição física, mas a criatura fica esmorecida por 1 semana (Fort CD Car reduz para frustrada por 1d4 rodadas)."
+                },
+                {
+                  "type": "item",
+                  "name": "Mapa da Cidade (de Vectora)",
+                  "description": "+2 em testes de Investigação e Sobrevivência em Vectora."
+                },
+                {
+                  "type": "item",
+                  "name": "Orbe da Visão Remota",
+                  "description": "Uma esfera de cristal do tamanho de uma maçã. Você pode gastar uma ação completa para olhar para dentro da esfera e escolher um ponto qualquer em alcance longo — mesmo que não tenha linha de visão para ele. Por uma rodada, você consegue enxergar como se estivesse nesse ponto. O orbe é útil para enxergar pontos que normalmente estariam fora do alcance, como dentro de salas fechadas ou além de esquinas."
+                },
+                {
+                  "type": "item",
+                  "name": "Peça Letal",
+                  "description": "Pode ser usada como parte da preparação de uma armadilha para aumentar a CD dela em +2 e o dano dela em +1 por dado."
+                },
+                {
+                  "type": "item",
+                  "name": "Reagente Instável",
+                  "description": "Quando ativa uma engenhoca, como parte da ativação dela, você pode usar o reagente instável. Ele aumenta qualquer efeito numérico variável da engenhoca em +1 por dado ou a CD para resistir a seus efeitos em +2, à sua escolha. Porém, também aumenta a CD para ativá-la em +5."
+                },
+                {
+                  "type": "item",
+                  "name": "Relógio da Memória",
+                  "description": "Este pequeno relógio de bolso enferrujado consegue gravar o que você fez. Se você fizer uma ação igual a outra que já tenha feito na mesma cena (atacar com a mesma arma, lançar a mesma magia…) e que exija rolagens, pode gastar o relógio da memória para repetir uma rolagem realizada na ação anterior (por exemplo, um teste de ataque, o dano da magia…)."
+                }
+              ]
+            },
+            {
               "type": "item",
               "name": "Água Benta",
               "description": "Produzida com a magia Abençoar Alimentos, esta água sagrada é um poderoso recurso na luta contra o mal. Para usar a água benta, você gasta uma ação padrão e escolhe um morto-vivo ou abissal em alcance curto (a água benta é inofensiva contra outras criaturas). O alvo sofre 2d10 pontos de dano de luz (Reflexos CD Sab reduz à metade)."
@@ -1804,6 +1885,17 @@
               ]
             },
             {
+              "type": "folder",
+              "name": "Uma Visita a Vectora",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Pijama Hynne",
+                  "description": "Este conjunto de calça e camisa fofas e aconchegantes torna o sono ainda mais revigorante. Dormir com um pijama hynne e nenhum outro item vestido fornece +1 PM temporário por patamar no dia seguinte."
+                }
+              ]
+            },
+            {
               "type": "item",
               "name": "Andrajos de Aldeão",
               "description": "Roupas típicas de camponês. Consiste de camisa larga e calças soltas ou blusa e saia e não inclui botas — os mais pobres andam descalços. Fornece +2 em testes de Investigação para interrogar (ninguém se importa com o que um aldeão escuta) e, se você possuir o poder Aparência Inofensiva, a CD para resistir a ele aumenta em +2. Porém, impõe –2 em perícias baseadas em Carisma contra pessoas que se importam com classe social."
@@ -2243,7 +2335,7 @@
                 {
                   "type": "item",
                   "name": "Elixir do Amor",
-                  "description": "Um humanoide que beba este líquido adocicado fica apaixonado pela primeira criatura que enxergar (condição enfeitiçado; Vontade CD Car anula). O efeito dura 1d3 dias."
+                  "description": "Um humanoide que beba este líquido adocicado fica apaixonado pela primeira criatura que enxergar (condição enfeitiçado; Vontade CD Car evita). O efeito dura 1d3 dias."
                 },
                 {
                   "type": "item",
@@ -2371,6 +2463,42 @@
                       "type": "item",
                       "name": "Presa de Hyninn",
                       "description": "Extraída dos temíveis tigres-de-Hyninn, esta presa concede uma parte da capacidade ilusória dessas criaturas. Você recebe 25% de chance de ignorar ataques e efeitos (incluindo de área) por 1 rodada."
+                    }
+                  ]
+                },
+                {
+                  "type": "folder",
+                  "name": "Uma Visita a Vectora",
+                  "items": [
+                    {
+                      "type": "item",
+                      "name": "Cabelo de Fada",
+                      "description": "Diminui o custo da magia em –1d4 PM e permite usar aprimoramentos para os quais você não cumpre os pré-requisitos."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Cinzas de Pergaminho Ancestral",
+                      "description": "Guarda ecos de magias esquecidas. Permite lançar uma segunda magia como uma ação livre."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Fragmento de Mana Condensada",
+                      "description": "Brilha como um pequeno sol. Fornece 5 pontos de mana para usar em aprimoramentos; esses PM podem ultrapassar o seu limite."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Mapa Planar",
+                      "description": "Este pedaço de pergaminho rasgado mostra caminhos entre Arton e outros planos de existência. Olhar para essas rotas enquanto lança uma magia de convocação aumenta a CD para resistir a ela em +2 e todos os seus efeitos numéricos variáveis em +1 por dado."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Nuvem Engarrafada",
+                      "description": "Fornece deslocamento de voo de 12m por 1d4 rodadas."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Pó de Estrela Cadente",
+                      "description": "Extremamente raro e caro, traz o poder do éter para suas magias. Fornece +2 na CD da magia, além de aumentar todos os dados dela em um passo e todos os efeitos numéricos variáveis em +1 por dado."
                     }
                   ]
                 },
@@ -3332,6 +3460,77 @@
                   ]
                 },
                 {
+                  "type": "folder",
+                  "name": "Uma Visita a Vectora",
+                  "items": [
+                    {
+                      "type": "item",
+                      "name": "Autoforja",
+                      "description": "Você pode alugar a autoforja para reduzir o tempo de fabricação de um item para poucas horas (em termos de regras, a ação de exploração que você já gastou para visitar a Oficina). Você ainda deve passar no teste de perícia e gastar a matéria-prima — o único benefício da autoforja é reduzir o tempo de fabricação. A autoforja só pode ser usada uma vez por visita à Vectora — ela quebra após o uso e demora para ser consertada."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Cirurgia de Aprimoramento",
+                      "description": "Golens (e outros construtos) podem ser aprimorados por Lyasis. Você recebe +2 em uma perícia à sua escolha, mas perde 2 PV permanentemente. Você pode fazer mais de uma cirurgia de aprimoramento, mas apenas para perícias diferentes."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Clarividência",
+                      "description": "Por alguns tibares, Vessara pode ver seu futuro. Role 1d10–3. Se o resultado for positivo, seu futuro é otimista. Escolha uma cena até o fim da aventura (ou do mês). Nessa cena, você recebe o número rolado em d6 de auxílio e, sempre que fizer um teste de perícia, pode gastar até 2d6 desses dados e adicionar o resultado deles como bônus no teste. Quando definir a cena, você deve descrever a previsão que Vessara fez e usar os dados de auxílio para tentar torná-la realidade. Se o resultado for negativo, seu futuro é pessimista; o mestre define qual cena será e poderá usar os dados como penalidade em seus testes. Por fim, se o resultado for 0, Vessara não conseguiu ver seu futuro — a adivinhação é uma arte misteriosa, que nem sempre funciona."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Consulta na Biblioteca das Respostas",
+                      "description": "Você pode fazer um teste de Investigação com bônus de +5 para receber uma informação sobre um assunto qualquer à sua escolha. A CD varia conforme a complexidade do assunto (veja a perícia Conhecimento, em Tormenta20, p. 117). A informação recebida é escolhida pelo mestre."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Festa na Dança de Marah",
+                      "description": "Festejar nessa taverna deixa você extremamente amável. Uma vez até o fim desta aventura (ou por um mês), você pode gastar uma ação padrão para melhorar em um passo a categoria de atitude de um NPC com o qual esteja interagindo."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Festival de Música",
+                      "description": "Até o fim desta aventura (ou por um mês), você recebe um poder de Música para o qual cumpra os pré-requisitos ou aumenta em +2 a CD para resistir a todos os seus poderes de Música, à sua escolha."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Hospedagem Divina",
+                      "description": "Você se hospeda na Reinos dos Deuses. As acomodações incluem quartos imensos, mobília suntuosa, banquetes exuberantes e um batalhão de servos pertencentes a raças variadas. A noite divina conta como descanso luxuoso e, mais do que isso, lhe dá motivação para grandes façanhas — você recebe +10% de XP por uma aventura ou por um mês (se a campanha não utilizar XP, em vez disso você recebe um benefício do próximo nível por uma aventura ou por um mês)."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Noite de Prazeres",
+                      "description": "Na Véu Escarlate, o “amor” está à venda. Algumas horas de carícias lascivas fornecem 2d6 PM temporários."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Noite no Teatro",
+                      "description": "Além de um ótimo entretenimento, assistir a uma peça é uma aula de como modelar expressões, falas e trejeitos. Role 1d4; você recebe o resultado dessa rolagem em d4 de auxílio. Até o fim da aventura, quando faz um teste de perícia baseada em Carisma, você pode gastar 1d4 e adicionar o resultado como bônus no teste (cumulativo com bônus de outros itens)."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Noite no Vapor & Café",
+                      "description": "Você passa a noite conversando com outros inventores e tomando bebidas energéticas. No dia seguinte, acorda com uma ideia genial na cabeça, mas um pouco menos saudável do que era antes… Você pode fabricar uma engenhoca (e apenas uma) que, quando ativada, além de seu efeito normal, gera o efeito de uma magia de 1º círculo. Porém, perde permanentemente 1 PV e 1 PM."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Passeio de Balão (em Vectora)",
+                      "description": "Você descobre todos os pontos de interesse de um setor à sua escolha."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Rito da Troca Vital",
+                      "description": "A dahllan oferece um ritual no qual o praticante oferece parte de seu vigor ao solo e este lhe devolve energia espiritual. Há duas modalidades: menor e maior. Na primeira, o personagem perde 2d4 PV e ganha 1d4+2 PM permanentemente. Na segunda, perde 2d8 PV e ganha 2d4+4 PM."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Viagem Rápida",
+                      "description": "Por uma taxa, Harrun Vol prepara uma das portas de sua loja para levar os personagens a qualquer lugar em Arton ou em um reino divino que não esteja protegido por magia."
+                    }
+                  ]
+                },
+                {
                   "type": "item",
                   "name": "Condução",
                   "description": "Inclui viagens terrestres (em carroças), marítimas (em navios) ou aéreas (balões goblins). Viajar em balões goblins é arriscado: a cada 100 km há 1 chance em 20 de queda (não fatal)."
@@ -3485,6 +3684,37 @@
                   "type": "item",
                   "name": "Usado",
                   "description": "O item não foi comprado assim que foi fabricado — já está gasto e mostra marcas de uso, tendo passado pelas mãos de vários aventureiros, plebeus, nobres, bandidos... Em compensação, está “amaciado”, ajustando-se melhor do que qualquer peça recém-feita e ainda não testada. Uma vez por dia, você pode rolar novamente um resultado 1 natural em um teste de perícia com o item. Esta melhoria não pode ser aplicada por um artesão, apenas adquirida quando o item é comprado de segunda mão."
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Uma Visita a Vectora",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Bênção da Guerra (arma)",
+                  "description": "A arma fornece +2 em testes de ataque e rolagens de dano, mas impõe uma penalidade de –2 em Vontade. Pré-requisito: cruel."
+                },
+                {
+                  "type": "item",
+                  "name": "Bolsos Internos (vestuário)",
+                  "description": "O item aumenta sua capacidade de carga em 2 espaços (ele continua ocupando seu espaço)."
+                },
+                {
+                  "type": "item",
+                  "name": "Eletrificada (arma)",
+                  "description": "A arma causa +1d6 de dano de eletricidade, mas o torna vulnerável a esse mesmo elemento. Pré-requisitos: certeira e precisa."
+                },
+                {
+                  "type": "item",
+                  "name": "Reforjado (armadura ou escudo)",
+                  "description": "O item já viu inúmeros embates e provou ser capaz de resistir a todo tipo de golpe. Uma vez por cena, você pode forçar um inimigo a rolar novamente um teste de ataque recém-feito contra você. Pré-requisito: uma melhoria qualquer."
+                },
+                {
+                  "type": "item",
+                  "name": "Tarimbado (equipamento de aventura, ferramenta ou vestuário)",
+                  "description": "O item já foi usado, “amaciado” e aprovado. Ele fornece +1 em uma perícia (determinada quando o item é comprado). Esse bônus só é aplicado se o item estiver sendo empunhado ou vestido, mas é cumulativo com quaisquer bônus fornecidos pelo item. Por exemplo, é possível comprar uma mochila de aventureiro tarimbada que forneça +1 em Iniciativa, ou uma capa pesada aprimorada e tarimbada que forneça +3 em Fortitude."
                 }
               ]
             },

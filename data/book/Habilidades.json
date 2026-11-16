@@ -24,14 +24,14 @@
         {
           "type": "item",
           "name": "Custos Especiais",
-          "description": "Alguns habilidades possuem custos além de PM.\n\nComponente Material. A habilidade exige ingredientes para ser usada. Esses ingredientes devem estar na mão do personagem e são consumidos com o uso (mesmo que a habilidade falhe).\n\nPenalidade de PM. A habilidade reduz seus PM máximos enquanto estiver ativa (você não recupera esses PM até a duração da habilidade acabar).\n\nSacrifício de PM. Certas habilidades poderosíssimas têm um custo ainda mais alto: você deve sacrificar permanentemente certa quantidade de PM para usá-las."
+          "description": "Algumas habilidades possuem custos além de PM.\n\nComponente Material. A habilidade exige ingredientes para ser usada. Esses ingredientes devem estar na mão do personagem e são consumidos com o uso (mesmo que a habilidade falhe).\n\nPenalidade de PM. A habilidade reduz seus PM máximos enquanto estiver ativa (você não recupera esses PM até a duração da habilidade acabar).\n\nSacrifício de PM. Certas habilidades poderosíssimas têm um custo ainda mais alto: você deve sacrificar permanentemente certa quantidade de PM para usá-las."
         }
       ]
     },
     {
       "type": "item",
       "name": "Alcance",
-      "description": "Muitas habilidades possuem um alcance, isto é, a distância máxima a partir do personagem da qual o efeito pode se originar. Caso alguma parte da área da habilidade esteja além do alcance, a área é afetada normalmente.\n\nPessoal. A habilidade afeta somente o personagem e/ou objetos que ele esteja carregando. Também pode ser uma habilidade de área que se inicia a partir do personagem e só o afeta se mencionar.\n\nToque. O personagem precisa tocar o alvo em seu alcance natural para afetá-lo, mas não precisa gastar uma ação ou fazer testes para isso (tocar o alvo faz parte da ação da habilidade).\n\nCurto. A habilidade alcança alvos a até 9m (6 quadrados em um mapa).\n\nMédio. A habilidade alcança alvos a até 30m (20 quadrados em um mapa).\n\nLongo. A habilidade alcança alvos a até 90m (60 quadrados em um mapa).\n\nIlimitado. A habilidade alcança qualquer lugar no mesmo mundo. A maioria das habilidade com este alcance exige que você conheça e/ou já tenha estado no ponto de origem da habilidade."
+      "description": "Muitas habilidades possuem um alcance, isto é, a distância máxima a partir do personagem da qual o efeito pode se originar. Caso alguma parte da área da habilidade esteja além do alcance, a área é afetada normalmente.\n\nPessoal. A habilidade afeta somente o personagem e/ou objetos que ele esteja carregando. Também pode ser uma habilidade de área que se inicia a partir do personagem e só o afeta se mencionar.\n\nToque. O personagem precisa tocar o alvo em seu alcance natural para afetá-lo, mas não precisa gastar uma ação ou fazer testes para isso (tocar o alvo faz parte da ação da habilidade).\n\nCurto. A habilidade alcança alvos a até 9m (6 quadrados em um mapa).\n\nMédio. A habilidade alcança alvos a até 30m (20 quadrados em um mapa).\n\nLongo. A habilidade alcança alvos a até 90m (60 quadrados em um mapa).\n\nIlimitado. A habilidade alcança qualquer lugar no mesmo mundo. A maioria das habilidades com este alcance exige que você conheça e/ou já tenha estado no ponto de origem da habilidade."
     },
     {
       "type": "folder",
@@ -64,12 +64,12 @@
             {
               "type": "item",
               "name": "Criação",
-              "description": "Caso a habilidade crie ou invoque alguma coisa, a coisa aparece em um local a sua escolha dentro do alcance e para o qual você tenha linha de efeito. Após surgir, a coisa pode se mover ou ser movida para fora da linha de efeito. Por exemplo, você não pode conjurar um monstro dentro de uma sala fechada. Mas, uma vez conjurar, o monstro pode entrar na sala, mesmo que você ainda não tenha linha de efeito para o interior dela."
+              "description": "Caso a habilidade crie ou invoque alguma coisa, a coisa aparece em um local a sua escolha dentro do alcance e para o qual você tenha linha de efeito e que possa perceber (se não puder, o mestre pode permitir um teste como em “Área”). Após surgir, a coisa pode se mover ou ser movida para fora da linha de efeito. Por exemplo, você não pode conjurar um monstro dentro de uma sala fechada. Mas, uma vez conjurado, o monstro pode entrar na sala, mesmo que você ainda não tenha linha de efeito para o interior dela."
             },
             {
               "type": "item",
               "name": "Redirecionando Efeitos",
-              "description": "Algumas habilidades permitem redi­ re­ cionar seu efeito para novos alvos ou áreas após serem usadas. Quando isso for possível, redirecionar a habilidade é uma ação padrão."
+              "description": "Algumas habilidades permitem redirecionar seu efeito para novos alvos ou áreas após serem usadas. Quando isso for possível, redirecionar a habilidade é uma ação padrão."
             }
           ]
         },
@@ -107,7 +107,7 @@
         {
           "type": "item",
           "name": "Efeitos que Afetam Testes",
-          "description": "Efeitos que fornecem um bônus a um teste ou modificam sua dificuldade devem ser usados antes de rolar o dado. Efeitos que permitem que você role novamente o dado devem ser usados antes de o mestre declarar se você passou ou não no teste (e você deve ficar com o segundo valor rolado, mesmo que seja pior que o primeiro).\n\nA habilidade Orgulho, do nobre, que fornece um bônus para um teste, deve ser usada antes de rolar o teste. A habilidade Mestre em Arma, do guerreiro, que permite que você role novamente um ataque recém realizado, deve ser usada antes de o mestre declarar se o ataque acertou ou não."
+          "description": "Efeitos que fornecem um bônus a um teste ou modificam sua dificuldade devem ser usados antes de rolar o dado. Efeitos que permitem que você role novamente o dado devem ser usados antes de o mestre declarar se você passou ou não no teste (e você deve ficar com o segundo valor rolado, mesmo que seja pior que o primeiro).\n\nA habilidade Orgulho, do nobre, que fornece um bônus para um teste, deve ser usada antes de rolar o teste. A habilidade Mestre em Arma, do guerreiro, que permite que você role novamente um ataque recém-realizado, deve ser usada antes de o mestre declarar se o ataque acertou ou não."
         },
         {
           "type": "item",
@@ -204,7 +204,7 @@
         },
         {
           "type": "item",
-          "name": "Anula",
+          "name": "Evita",
           "description": "A habilidade não tem efeito sobre um alvo que passe em seu teste de resistência."
         },
         {
@@ -276,7 +276,7 @@
         {
           "type": "item",
           "name": "Dano",
-          "description": "Reduz os PV do alvo. Efeitos deste tipo são subdivividos em tipos de dano (veja a página 230)."
+          "description": "Reduz os PV do alvo. Efeitos deste tipo são subdivididos em tipos de dano (veja a página 230)."
         },
         {
           "type": "item",
@@ -382,7 +382,7 @@
         {
           "type": "item",
           "name": "Faro",
-          "description": "A criatura tem olfato apurado. Contra inimigos em alcance curto que não possa ver, ela não fica desprevenida e camuflagem total lhe causa apenas 20% de chance de falha."
+          "description": "A criatura tem olfato apurado. Contra inimigos em alcance curto que não possa perceber, ela não fica desprevenida e camuflagem total lhe causa apenas 20% de chance de falha."
         },
         {
           "type": "item",
