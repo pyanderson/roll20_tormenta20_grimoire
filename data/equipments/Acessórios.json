@@ -518,6 +518,12 @@
       "category": "Menor"
     },
     {
+      "name": "Figurino teatral",
+      "price": "T$ 3.600",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
       "name": "Flauta fantasma",
       "price": "T$ 6.000",
       "spaces": "1",
@@ -682,6 +688,12 @@
     {
       "name": "Máscara da raposa",
       "price": "T$ 18.000",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
+      "name": "Máscara do drama e da comédia",
+      "price": "",
       "spaces": "1",
       "category": "Médio"
     },
