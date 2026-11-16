@@ -452,6 +452,12 @@
       "category": "Ferramentas — Instrumentos Musicais"
     },
     {
+      "name": "Cítola da paz [DB]",
+      "price": "T$ 175",
+      "spaces": "1",
+      "category": "Ferramentas — Instrumentos Musicais"
+    },
+    {
       "name": "Clarim deheoni",
       "price": "T$ 150",
       "spaces": "1",
@@ -998,6 +1004,12 @@
       "category": "Esotéricos"
     },
     {
+      "name": "Alma de dragão [DB]",
+      "price": "T$ 250",
+      "spaces": "1",
+      "category": "Esotéricos"
+    },
+    {
       "name": "Ankh solar",
       "price": "T$ 450",
       "spaces": "1",
@@ -1112,6 +1124,12 @@
       "category": "Esotéricos"
     },
     {
+      "name": "Rosário da vida [DB]",
+      "price": "T$ 750",
+      "spaces": "1",
+      "category": "Esotéricos"
+    },
+    {
       "name": "Tomo de Guerra",
       "price": "T$ 300",
       "spaces": "1",
@@ -1186,6 +1204,12 @@
     {
       "name": "Bomba de fumaça",
       "price": "T$ 15",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados"
+    },
+    {
+      "name": "Bomba de tinta [DB]",
+      "price": "T$ 35",
       "spaces": "0,5",
       "category": "Alquímicos - Preparados"
     },

@@ -46,6 +46,10 @@
       "description": "Você sabe como aliviar as dores e tristezas de uma pessoa. Você pode gastar 1 minuto e 2 PM para recuperar 2d4 PM de uma criatura adjacente. Uma mesma criatura só pode receber os benefícios deste poder uma vez por dia. Pré-requisitos: Car 2, Sedução Lasciva."
     },
     {
+      "name": "Certificado de Conclusão [DB]",
+      "description": "Especial: após passar um mês estudando na Caravana das Três Chamas, você recebe este poder. Essa é a única forma de adquiri-lo.\nVocê recebe +1 PM e pode lançar uma das magias a seguir (atributo-chave Inteligência) à sua escolha: Alarme, Aviso, Criar Elementos e Luz; mas não pode aplicar aprimoramentos. Caso aprenda novamente uma dessas magias, seu custo diminui em –1 PM e você passa a conseguir aplicar aprimoramentos normalmente."
+    },
+    {
       "name": "Comandar",
       "description": "Você pode gastar uma ação de movimento e 1 PM para gritar ordens para seus aliados em alcance médio. Eles recebem +1 em testes de perícia até o fim da cena. Pré-requisito: Car 1."
     },
@@ -212,6 +216,10 @@
     {
       "name": "Pose Assustadora",
       "description": "Você recebe +2 em Intimidação e pode gastar 1 PM para assustar como uma ação de movimento. Pré-requisitos: Car 1, treinado em Intimidação."
+    },
+    {
+      "name": "Previdência da Vigília [DB]",
+      "description": "Após contribuir com a Vigília das Segundas Chances ou realizar um juramento para Thyatis (o que exige seguir suas Obrigações & Restrições), você recebe o poder Dom da Imortalidade (Tormenta20, p. 133), mas só pode usá-lo na primeira vez que morrer na campanha."
     },
     {
       "name": "Sedução Lasciva",

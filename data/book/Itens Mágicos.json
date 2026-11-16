@@ -1126,6 +1126,70 @@
     },
     {
       "type": "folder",
+      "name": "Dragão Brasil",
+      "items": [
+        {
+          "type": "folder",
+          "name": "Armas Específicas",
+          "items": [
+            {
+              "type": "item",
+              "name": "Arco dos Arautos",
+              "description": "Arma favorita dos Arautos do Destruidor, este arco longo cruel preciso caçador pode ser encontrado por qualquer aventureiro que vasculhe os equipamentos de um membro desta organização. Você recebe a habilidade Marca da Presa do caçador, mas só pode usá-la com esta arma. Se já possui essa habilidade, em vez disso, o custo para usá-la com esta arma diminui em –1 PM. Arma específica média, preço T$ 39.100."
+            },
+            {
+              "type": "item",
+              "name": "Arma Silente",
+              "description": "Uma arma silente é o espólio obtido por aqueles que derrotam um membro da Lança Silente. Este item é uma arma (escolha entre alabarda, azagaia, lança, lança de falange, lança montada, machado de haste ou pique) certeira equilibrada formidável de adamante que fornece +5 em testes de Conhecimento, Guerra e Nobreza cujo objetivo seja perpetuar a guerra. Arma específica menor, preço T$ 31.000."
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Acessórios Específicos",
+          "items": [
+            {
+              "type": "item",
+              "name": "Âncora Naufragista",
+              "description": "Um colar com pingente em forma de âncora, tanto a corrente quanto o pingente são feitos de ferro oxidado, é usado como símbolo sagrado por piratas naufragistas. Enquanto seguir as Obrigações & Restrições de Oceano, sempre que oferecer como tributo para a água do mar um item valioso (com valor mínimo de T$ 100), você recebe um benefício a seguir (à sua escolha) durante 1 dia: deslocamento de natação igual ao seu deslocamento terrestre, +5 em Pilotagem, ou resistência a frio e eletricidade 10. Se você recuperar esse tributo, este item perde todos os seus efeitos e evapora como água do mar. Acessório menor, preço T$ 3.000."
+            },
+            {
+              "type": "item",
+              "name": "Bússola das Lágrimas",
+              "description": "Desenvolvido por inventores Peregrinos, este item mágico foi um protótipo que acabou se tornando mais famoso do que o planejado: seu objetivo inicial era rastrear as Lágrimas de Valkaria, mas as primeiras versões acabaram alertando seu usuário para a presença de qualquer magia. Hoje em dia, ainda que usem uma versão mais avançada e precisa para buscar pelas Lágrimas, os Peregrinos continuam comercializando este item — afinal, todo mundo precisa pagar as contas, certo? Ao empunhar a Bússola das Lágrimas com uma das mãos, você tem sucesso automático em testes de Misticismo para detectar magia e pode fazê-los mesmo que não seja treinado nesta perícia. Acessório menor, preço T$ 3.500."
+            },
+            {
+              "type": "item",
+              "name": "Chave Mestra",
+              "description": "Uma chave carregada pelos membros do Claviculário como um símbolo sagrado, este item mágico também é capaz de destrancar qualquer coisa, concedendo sucesso automático em testes de Ladinagem para abrir fechaduras. Contudo, se não for usada por um dos membros do Claviculário ou por um devoto de Sszzaas, um efeito mágico sobre seu material é ativado, reduzindo a Chave Mestra a pó após o primeiro uso. Acessório médio, preço T$ 25.500."
+            },
+            {
+              "type": "item",
+              "name": "Corso Sombrio",
+              "description": "De alguma forma, todo integrante do Rastro da Pólvora tem uma dessas cartas de corso entre seus pertences. Enquanto seguir as Obrigações & Restrições de Tenebra, este item funciona como uma carta de corso comum: concede a você permissão para usar armas de fogo em território do Reinado. Se tais obrigações forem violadas, a carta imediatamente se transforma em um corvo mágico que voa até a autoridade do Reinado mais próxima e denuncia você pelo porte e uso de itens proibidos pelo Vintílogo (veja Atlas de Arton, p. 466). Acessório menor, preço T$ 2.500."
+            },
+            {
+              "type": "item",
+              "name": "Máscara do Sol Dourado",
+              "description": "Uma máscara amarela com o desenho de um sorriso e dois tibares de ouro no lugar dos olhos, adornados com raios solares em laranja. Enquanto seguir as Obrigações & Restrições de Azgher, as moedas mágicas que substituem os olhos da máscara fornecem +10 em Ladinagem. Contudo, por ser chamativo demais, uma pessoa vestindo este item recebe –2 em Furtividade. Acessório menor, preço T$ 9.000."
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Itens Mágicos Únicos",
+          "items": [
+            {
+              "type": "item",
+              "name": "Bilhete de Valluk Delsori",
+              "description": "Este item mágico é concedido apenas àqueles que conseguirem descobrir onde a companhia irá se apresentar e consigam assistir a cinco de suas apresentações seguidas. Rasgar o bilhete (como se faz ao entrar para assistir a um espetáculo) permite que o usuário se transforme em uma das grandes figuras de Arton — como o herói Orion Drake ou a própria Rainha-Imperatriz Shivara I —, mas com uma característica diferente da verdadeira pessoa. Você poderia, por exemplo, se transformar em sir Alenn Toren, mas seu tapa-olho estaria no olho esquerdo, em vez do direito. Este efeito funciona como a magia Disfarce Ilusório, com direito ao aprimoramento que aumenta o bônus de Enganação para +20 e duração de 1 dia. Item mágico de uso único, preço T$ 300."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "folder",
       "name": "Guerra Artoniana",
       "items": [
         {

@@ -933,6 +933,25 @@
     {
       "area": "",
       "circle": "2",
+      "description": "Esta magia permite que você grave todos os detalhes relacionados a uma cena na sua mente. Enquanto tiver uma memória gravada, você recebe +5 em testes relacionados a informações da cena memorizada (o mestre tem a palavra final sobre esse bônus ser ou não aplicável em um teste). O limite máximo de memórias que você pode gravar é igual a 1 por patamar de personagem (1 enquanto for iniciante, 2 enquanto for veterano e assim por diante) + seu atributo-chave de magias. Se alcançar o limite de memórias, você precisa esquecer uma delas (descarregando o efeito desta magia e perdendo seu bônus) antes de gravar memórias novas.",
+      "duration": "permanente até ser descarregada",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+3 PM",
+          "description": "muda o bônus em testes para +10. Requer 4º círculo."
+        }
+      ],
+      "name": "Memorizar Conhecimento [DB]",
+      "range": "pessoal",
+      "resistance": "",
+      "target": "você",
+      "type": "Universal 2 (Adivinhação)"
+    },
+    {
+      "area": "",
+      "circle": "2",
       "description": "Você fortalece a mente do alvo. Ele recebe +2 em Inteligência, Sabedoria ou Carisma, a sua escolha. Esse aumento não oferece PV, PM ou perícias adicionais.",
       "duration": "cena",
       "effect": "",

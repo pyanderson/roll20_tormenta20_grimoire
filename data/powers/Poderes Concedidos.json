@@ -662,6 +662,10 @@
       "description": "Você recebe +5 em Intuição e se torna imune a efeitos de ilusão."
     },
     {
+      "name": "Percepção de Masmorra Hyninn [DB]",
+      "description": "Uma vez por cena, você tem sucesso automático em testes de Investigação para encontrar armadilhas realizados no subterrâneo ou dentro de uma masmorra."
+    },
+    {
       "name": "Percepção Temporal Aharadak",
       "description": "Você pode gastar 3 PM para somar sua Sabedoria (limitado por seu nível e não cumulativo com efeitos que somam este atributo) a seus ataques, Defesa e testes de Reflexos até o fim da cena."
     },

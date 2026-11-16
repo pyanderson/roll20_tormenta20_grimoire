@@ -1574,6 +1574,17 @@
                 },
                 {
                   "type": "folder",
+                  "name": "Dragão Brasil",
+                  "items": [
+                    {
+                      "type": "item",
+                      "name": "Cítola da Paz",
+                      "description": "Feita de madeira de qualidade, com cordas douradas e encantada por um devoto de Marah, esta cítola é entregue por seus tutores como um símbolo de independência para Mestres de Cerimônia. Enquanto seguir as Obrigações & Restrições de Marah, sua Inspiração e suas músicas de bardo custam –1 PM e você recebe um bônus de +5 em testes de perícia para mudar atitude. Conta como um instrumento musical."
+                    }
+                  ]
+                },
+                {
+                  "type": "folder",
                   "name": "Heróis de Arton",
                   "items": [
                     {
@@ -2085,6 +2096,22 @@
             },
             {
               "type": "folder",
+              "name": "Dragão Brasil",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Alma de Dragão",
+                  "description": "Uma pedra translúcida, no formato de uma escama de dragão e do tamanho de um punho fechado, que faz parte das posses de todos os Herdeiros da Escama. Quando sofrer dano de um dos tipos a seguir, você pode reduzir o dano sofrido em um dado como uma reação. Então este item deixa de ser translúcido e armazena a energia do dano, tomando a aparência de uma pedra preciosa: diamante (luz), esmeralda (ácido), ônix (trevas), rubi (fogo), safira (frio) ou topázio (eletricidade). Quando lança uma magia que causa dano do tipo da pedra preciosa enquanto tiver uma energia armazenada, você pode descarregar essa energia como uma ação livre para aumentar o dano em um dado do mesmo tipo. Após descarregar a energia, a pedra volta a ser translúcida e precisa armazenar energia outra vez antes de ser usada novamente."
+                },
+                {
+                  "type": "item",
+                  "name": "Rosário da Vida",
+                  "description": "Este item costuma ser usado por Parteiras das Mandíbulas para aumentar o efeito das suas magias de cura e, assim, diminuir a dor sentida pelas criaturas durante o parto. Quando empunhado por alguém que siga as Obrigações & Restrições de Lena, este rosário aumenta o número de PV recuperados por efeitos de cura mágica de luz em um dado do mesmo tipo por patamar de personagem (1 dado do mesmo tipo no 1º patamar, 2 dados no 2º e assim por diante)."
+                }
+              ]
+            },
+            {
+              "type": "folder",
               "name": "Heróis de Arton",
               "items": [
                 {
@@ -2258,6 +2285,17 @@
                       "type": "item",
                       "name": "Santa Granada de Mão",
                       "description": "Unindo fé e ciência, este controverso equipamento é a melhor escolha contra hordas de mortos-vivos e abissais. Para usar a granada, você precisa empunhá-la, gastar uma ação de movimento para acender seu pavio e uma ação padrão para arremessá-la em um ponto em alcance curto. Mortos–vivos e abissais a até 3m desse ponto sofrem 6d12 pontos de dano de luz (Reflexos CD Sab reduz à metade). Este item só pode ser fabricado por devotos de deuses que canalizam energia positiva."
+                    }
+                  ]
+                },
+                {
+                  "type": "folder",
+                  "name": "Dragão Brasil",
+                  "items": [
+                    {
+                      "type": "item",
+                      "name": "Bomba de Tinta",
+                      "description": "Favorito entre os Zoyrak, este item segue as mesmas regras da bomba (Tormenta20, p. 180), mas, em vez de causar dano, afeta uma esfera com 6m de raio que fica sob efeito simulado da magia Área Escorregadia até o fim da cena. Criaturas dentro dessa área durante a explosão da bomba também ficam lentas (Reflexos CD Des evita); elas podem gastar uma ação de movimento para fazer um teste de Força (CD Des) para se recuperar da condição."
                     }
                   ]
                 },
