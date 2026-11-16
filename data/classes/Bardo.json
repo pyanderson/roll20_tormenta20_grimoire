@@ -141,7 +141,7 @@
     },
     {
       "name": "Manipular",
-      "description": "Você pode gastar 1 PM para fazer uma criatura fascinada por você ficar enfeitiçada até o fim da cena (Von CD Car anula). Se a criatura passar, fica imune a este efeito por um dia. Usar esta habilidade não conta como ameaça à criatura fascinada. Pré-requisito: Música: Balada Fascinante."
+      "description": "Você pode gastar 1 PM para fazer uma criatura fascinada por você ficar enfeitiçada até o fim da cena (Von CD Car evita). Se a criatura passar, fica imune a este efeito por um dia. Usar esta habilidade não conta como ameaça à criatura fascinada. Pré-requisito: Música: Balada Fascinante."
     },
     {
       "name": "Manipular em Massa",
@@ -189,7 +189,7 @@
     },
     {
       "name": "Prestidigitação",
-      "description": "Quando faz uma ação padrão, você pode aproveitar seus gestos para lançar uma magia com execução de ação completa ou menor. Faça um teste de Atuação (CD 15 + custo em PM da magia). Se passar, você lança a magia como uma ação livre. Se falhar, a magia não funciona, mas você gasta os PM mesmo assim. Outros personagens só percebem que você lançou uma magia com um teste de Misticismo (CD 20). Pré-requisito: 6º nível de bardo."
+      "description": "Quando faz uma ação padrão, você pode aproveitar seus gestos para lançar uma magia com execução de de movimento, padrão ou completa. Faça um teste de Atuação (CD 15 + custo em PM da magia). Se passar, você lança a magia como uma ação livre. Se falhar, a magia não funciona, mas você gasta os PM mesmo assim. Outros personagens só percebem que você lançou uma magia com um teste de Misticismo (CD 20). Pré-requisito: 6º nível de bardo."
     },
     {
       "name": "Ressoar",

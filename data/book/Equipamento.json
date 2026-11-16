@@ -2243,7 +2243,7 @@
                 {
                   "type": "item",
                   "name": "Elixir do Amor",
-                  "description": "Um humanoide que beba este líquido adocicado fica apaixonado pela primeira criatura que enxergar (condição enfeitiçado; Vontade CD Car anula). O efeito dura 1d3 dias."
+                  "description": "Um humanoide que beba este líquido adocicado fica apaixonado pela primeira criatura que enxergar (condição enfeitiçado; Vontade CD Car evita). O efeito dura 1d3 dias."
                 },
                 {
                   "type": "item",

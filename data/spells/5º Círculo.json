@@ -25,7 +25,7 @@
       "implements": [],
       "name": "Aprisionamento",
       "range": "curto",
-      "resistance": "Vontade anula",
+      "resistance": "Vontade evita",
       "target": "1 criatura",
       "type": "Arcana 5 (Abjuração)"
     },
@@ -351,7 +351,7 @@
       ],
       "name": "Possessão",
       "range": "longo",
-      "resistance": "Vontade anual",
+      "resistance": "Vontade evita",
       "target": "1 criatura",
       "type": "Arcana 5 (Encantamento)"
     },
@@ -421,7 +421,7 @@
       "implements": [],
       "name": "Réquiem",
       "range": "curto",
-      "resistance": "Vontade anula",
+      "resistance": "Vontade evita",
       "target": "criaturas escolhidas",
       "type": "Arcana 5 (Ilusão)"
     },

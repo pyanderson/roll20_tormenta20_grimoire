@@ -447,7 +447,7 @@
       ],
       "name": "Ilusão Lacerante",
       "range": "médio",
-      "resistance": "Vontade anula",
+      "resistance": "Vontade evita",
       "target": "",
       "type": "Arcana 3 (Ilusão)"
     },
@@ -581,7 +581,7 @@
       ],
       "name": "Missão Divina",
       "range": "curto",
-      "resistance": "Vontade anula (veja texto)",
+      "resistance": "Vontade evita (veja texto)",
       "target": "1 criatura",
       "type": "Divina 3 (Encantamento)"
     },
@@ -634,7 +634,7 @@
         },
         {
           "cost": "+4 PM",
-          "description": "muda o alcance para toque, o alvo para 1 criatura, a duração para 1d4 rodadas e adiciona Resistência: Fortitude anula. Em vez do efeito normal, a magia transforma o alvo e seu equipamento em uma estátua inerte e sem consciência. A estátua possui os mesmos PV da criatura e resistência a dano 8; se for quebrada, a criatura morrerá. Requer 4º círculo."
+          "description": "muda o alcance para toque, o alvo para 1 criatura, a duração para 1d4 rodadas e adiciona Resistência: Fortitude evita. Em vez do efeito normal, a magia transforma o alvo e seu equipamento em uma estátua inerte e sem consciência. A estátua possui os mesmos PV da criatura e resistência a dano 8; se for quebrada, a criatura morrerá. Requer 4º círculo."
         },
         {
           "cost": "+9 PM",
@@ -937,7 +937,7 @@
       "implements": [],
       "name": "Vidência",
       "range": "ilimitado (veja texto)",
-      "resistance": "Vontade anula",
+      "resistance": "Vontade evita",
       "target": "1 criatura",
       "type": "Universal 3 (Adivinhação)"
     },
