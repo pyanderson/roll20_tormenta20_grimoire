@@ -6,6 +6,10 @@
             "description": "Quando você passa em um teste para ajudar, o bônus fornecido aumenta em +1. Além disso, se você estiver flanqueando um inimigo, o bônus que seus aliados recebem em testes de ataque contra esse inimigo por flanquear aumenta em +1 (para um total de +3)."
         },
         {
+            "name": "Alma da Fornalha (Salamandra)",
+            "description": "Sua redução de fogo se torna imunidade a fogo e, quando usa Calor Natural, você pode pagar +2 PM para aumentar o dano de fogo dos ataques para +2d6. Pré-requisito: 7° nível de personagem."
+        },
+        {
             "name": "Amo (Qareen)",
             "description": "Escolha um personagem (jogador ou NPC). Você adotou esse personagem como seu amo. Quando usa a habilidade Desejos a pedido do seu amo, o custo da magia diminui em –2 PM (em vez de apenas –1). Contudo, sempre que seu amo estiver presente em uma situação de perigo (como um combate) ou sob efeito de uma condição, você sofre –2 em testes de perícias. Se o amo morrer, essa penalidade permanece até o fim da aventura (quando então você pode escolher um novo amo)."
         },
