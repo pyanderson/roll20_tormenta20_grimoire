@@ -1,0 +1,30 @@
+{
+    "name": "Andarilho do Ocaso [DB]",
+    "admission": "Um andarilho do ocaso deve ser um licantropo e provar sua devoção à Deusa das Trevas acima de qualquer suspeita, dentro de seus rigorosos ditames. Isso significa se submeter a um ritual, criado pela clériga Agnes Lemain, que só é realizado no Templo de Tenebra em Kriegger, uma cidade no extremo sul de Ahlen.\nO candidato deve se entregar à selvageria de sua transformação por uma noite, permitindo que a escuridão de Tenebra o consuma. Depois disso, precisa se manter em um lugar intocado por qualquer forma de luz, incluindo a da lua, do fogo ou das estrelas, por cinco noites — uma para cada ponta da estrela da Mãe Noite. Ao completar esse ritual e emergir de seu esconderijo para o luar, o candidato será abordado por um licantropo enviado pela Deusa das Trevas para testar sua convicção. Na maior parte dos casos, o licantropo ataca o candidato. Qualquer que seja a resolução, caso sobreviva ao encontro, o candidato será visitado por Tenebra em sonho e se tornará um andarilho do ocaso.",
+    "abilities": [
+        {
+            "name": "Transformação Indolor",
+            "description": "O custo para assumir sua forma híbrida ou de fera diminui em –1 PM."
+        },
+        {
+            "name": "Licantropo Verdadeiro",
+            "description": "Em sua forma híbrida ou de fera, você recebe +1 em testes de ataque, Percepção e Sobrevivência e na Defesa. Estes bônus aumentam em +1 para cada outros dois poderes da distinção que você possui. Pré-requisitos: Controlar Licantropia, treinado em Percepção e Sobrevivência."
+        },
+        {
+            "name": "Caçador Noturno",
+            "description": "Você recebe o poder Marca da Presa (Tormenta20, p. 50) como um caçador de nível igual ao seu total de poderes da distinção x4. Se já tiver esse poder, seu custo diminui em –1 PM (essa diminuição não afeta suas habilidades baseadas no total de PM gastos em Marca da Presa). Pré-requisito: Licantropo Verdadeiro."
+        },
+        {
+            "name": "Noite Imortal",
+            "description": "Quando assume sua forma híbrida ou de fera, você pode gastar 2 PM para receber uma quantidade de pontos de vida temporários igual ao seu total de poderes da distinção x10. Pré-requisitos: Licantropo Verdadeiro, outro poder da distinção."
+        },
+        {
+            "name": "Presas de Sombras",
+            "description": "Quando assume sua forma híbrida ou de fera, você pode escolher cobrir qualquer quantidade de suas armas naturais com sombras mágicas. Isso custa 1 PM por arma e faz com que ela cause +1d6 pontos de dano de trevas até o fim da cena. Esse dado de dano de trevas aumenta em um passo para cada dois outros poderes da distinção que você possui. Pré-requisito: Caçador Noturno."
+        },
+        {
+            "name": "Sentidos do Predador",
+            "description": "Quando assume sua forma híbrida ou de fera, você pode gastar 2 PM para receber Percepção às Cegas (alcance médio) até o final da cena. Pré-requisitos: dois outros poderes da distinção."
+        }
+    ]
+}

@@ -54,6 +54,10 @@
       "description": "Você pode gastar uma ação de movimento e 1 PM para gritar ordens para seus aliados em alcance médio. Eles recebem +1 em testes de perícia até o fim da cena. Pré-requisito: Car 1."
     },
     {
+      "name": "Controlar Licantropia [DB]",
+      "description": "Você aprendeu uma forma de controlar sua licantropia. Você ainda é afetado quando presencia algum tipo de violência, mas, quando faz um teste de Vontade para impedir a transformação, rola dois dados e usa o melhor resultado. Se não estiver transformado pela maldição, você pode gastar uma ação completa e 3 PM para assumir sua forma híbrida ou de fera, mantendo o controle sobre suas ações. Cada transformação dura pelo tempo que você quiser, mas você reverte à forma normal se ficar inconsciente ou morrer. Por fim, habilidades e efeitos que afetam a Forma Selvagem de um druida se aplicam às suas formas de licantropo. Pré-requisito: saber que contraiu licantropia."
+    },
+    {
       "name": "Coração de Dragão",
       "description": "Você recebe +2 PV e +2 PM. Além disso, para você, um dragão jovem conta como um único parceiro para seu limite de parceiros. Pré-requisitos: Car 2, 3º nível de personagem."
     },
