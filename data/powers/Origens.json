@@ -513,6 +513,21 @@
     },
     {
       "source": "",
+      "name": "Criança do Crepúsculo (Halak-Tûr) [DB]",
+      "description": "Escolha duas de suas habilidades com um custo em PM, uma para dia, outra para noite. Quando usa a habilidade escolhida para dia enquanto sob luz solar ou equivalente, o custo dela diminui em –1 PM e o custo da outra habilidade aumenta em +1 PM. Quando usa a habilidade escolhida para noite sob efeito de escuridão, esses modificadores nos custos se invertem. Por fim, durante o crepúsculo, o custo de ambas as habilidades diminui em –1 PM. Uma vez por patamar acima de iniciante, você pode trocar as habilidades escolhidas. Este poder não pode ser escolhido por construtos ou mortos-vivos."
+    },
+    {
+      "source": "",
+      "name": "Nascido nas Estepes (Halak-Tûr) [DB]",
+      "description": "Você recebe +2 em Cavalgar e Vontade e nas rolagens de dano com arcos curtos e katanas."
+    },
+    {
+      "source": "",
+      "name": "Nômade Ferani (Halak-Tûr) [DB]",
+      "description": "Você recebe +2 em Fortitude e Furtividade e nas rolagens de dano contra criaturas desprevenidas. Além disso, pode atravessar terrenos difíceis sem sofrer redução em seu deslocamento — se já puder fazer isso por outra habilidade, em vez disso seu deslocamento aumenta em +3m."
+    },
+    {
+      "source": "",
       "name": "Bacharel",
       "description": "Você é treinado em Conhecimento, Diplomacia e Nobreza. Além disso, uma vez por cena pode usar Diplomacia para mudar atitude como uma ação livre."
     },

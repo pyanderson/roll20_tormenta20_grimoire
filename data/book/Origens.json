@@ -19,6 +19,27 @@
     },
     {
       "type": "folder",
+      "name": "Dragão Brasil",
+      "items": [
+        {
+          "type": "item",
+          "name": "Criança do Crepúsculo",
+          "description": "Você nasceu no Vale do Crepúsculo (veja Atlas de Arton, p. 380) e, por algum motivo, abandonou a segurança de sua terra natal em busca dos perigos e da aventura que o restante de Arton tem a oferecer.\n\nItens. Uma poção mágica contendo uma magia de 1º círculo (1 PM).\n\nBenefício. Escolha duas de suas habilidades com um custo em PM, uma para dia, outra para noite. Quando usa a habilidade escolhida para dia enquanto sob luz solar ou equivalente, o custo dela diminui em –1 PM e o custo da outra habilidade aumenta em +1 PM. Quando usa a habilidade escolhida para noite sob efeito de escuridão, esses modificadores nos custos se invertem. Por fim, durante o crepúsculo, o custo de ambas as habilidades diminui em –1 PM. Uma vez por patamar acima de iniciante, você pode trocar as habilidades escolhidas. Este poder não pode ser escolhido por construtos ou mortos-vivos."
+        },
+        {
+          "type": "item",
+          "name": "Nascido nas Estepes",
+          "description": "Você cresceu entre os dai-kerat e foi criado na tênue linha entre os rigores do deserto e a sofisticação da herança tamuraniana.\n\nItens. Arco curto, cavalo de guerra, flecha x20, veste de seda.\n\nBenefício. Você recebe +2 em Cavalgar e Vontade e nas rolagens de dano com arcos curtos e katanas."
+        },
+        {
+          "type": "item",
+          "name": "Nômade Ferani",
+          "description": "Trog ou não, você passou sua infância entre os ferani, aprendendo como percorrer os ermos de forma rápida e discreta.\n\nItens. Lança, manto camuflado (deserto), ração de viagem x10.\n\nBenefício. Você recebe +2 em Fortitude e Furtividade e nas rolagens de dano contra criaturas desprevenidas. Além disso, pode atravessar terrenos difíceis sem sofrer redução em seu deslocamento — se já puder fazer isso por outra habilidade, em vez disso seu deslocamento aumenta em +3m."
+        }
+      ]
+    },
+    {
+      "type": "folder",
       "name": "Origens Especiais (Heróis de Arton)",
       "items": [
         {
