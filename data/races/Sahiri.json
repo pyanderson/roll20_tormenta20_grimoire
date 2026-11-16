@@ -1,0 +1,33 @@
+{
+  "name": "Sahiri",
+  "displacement": 9,
+  "size": "Médio",
+  "attributes": [
+    {
+      "attr": "sab",
+      "mod": 2
+    },
+    {
+      "attr": "des",
+      "mod": 1
+    },
+    {
+      "attr": "int",
+      "mod": -1
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Animar Rochas",
+      "description": "Você pode usar magia para transformar rochas em criaturas sob seu controle. Isso funciona como a magia Conjurar Monstro, exceto que você precisa ter acesso a uma porção de terra ou rocha equivalente a uma criatura Pequena. Caso aprenda essa magia, seu custo diminui em –1 PM."
+    },
+    {
+      "name": "Proteção da Terra",
+      "description": "Quando sofre dano enquanto está em contato com terra ou pedra, você pode gastar 1 PM para reduzir esse dano em 5."
+    },
+    {
+      "name": "Empatia Selvagem",
+      "description": "Você pode se comunicar com animais por meio de linguagem corporal e vocalizações. Você pode usar Adestramento para mudar atitude e persuasão com animais (veja Diplomacia, na página 118). Caso receba esta habilidade novamente, recebe +2 em Adestramento."
+    }
+  ]
+}
