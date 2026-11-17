@@ -290,6 +290,10 @@
       "description": "Você pode gastar uma ação de movimento e 2 PM para fazer um teste de Percepção (CD 15 + ND da criatura) contra uma criatura em alcance médio. Se passar no teste e acertar um ataque com arco contra o alvo na mesma rodada, esse ataque é um acerto crítico automático. Se for o paladino de Cette, você pode usar Golpe Divino com ataques com arco à distância."
     },
     {
+      "name": "Dívida Sagrada Eucharion [RT20]",
+      "description": "Uma vez por rodada, quando recebe um efeito benéfico, você pode pagar 2 PM para conceder o mesmo efeito a um aliado em alcance curto."
+    },
+    {
       "name": "Dom da Esperança Marah",
       "description": "Você soma sua Sabedoria em seus PV em vez de Constituição, e se torna imune às condições alquebrado, esmorecido e frustrado."
     },
