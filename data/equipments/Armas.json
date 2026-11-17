@@ -746,6 +746,18 @@
       "grip": "Duas Mãos"
     },
     {
+      "name": "Katar [RT20]",
+      "price": "T$ 50",
+      "damage": "1d6",
+      "critical": "x4",
+      "range": "—",
+      "damageType": "Perfuração",
+      "spaces": "1",
+      "proficiency": "Armas Exóticas",
+      "purpose": "Corpo a Corpo",
+      "grip": "Leve"
+    },
+    {
       "name": "Kimbata",
       "price": "T$ 12",
       "damage": "1d4",
@@ -824,6 +836,18 @@
       "critical": "19",
       "range": "—",
       "damageType": "Perfuração",
+      "spaces": "1",
+      "proficiency": "Armas Exóticas",
+      "purpose": "Corpo a Corpo",
+      "grip": "Uma Mão"
+    },
+    {
+      "name": "Espada enigma [RT20]",
+      "price": "T$ 750",
+      "damage": "1d6",
+      "critical": "19",
+      "range": "—",
+      "damageType": "Corte",
       "spaces": "1",
       "proficiency": "Armas Exóticas",
       "purpose": "Corpo a Corpo",

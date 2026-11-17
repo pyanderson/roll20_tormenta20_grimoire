@@ -278,6 +278,12 @@
       "category": "Médio"
     },
     {
+      "name": "Cetro do poder usurpado [RT20]",
+      "price": "T$ 9.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
       "name": "Chapéu do disfarce",
       "price": "T$ 6.000",
       "spaces": "1",
@@ -426,6 +432,12 @@
       "price": "T$ 25.500",
       "spaces": "1",
       "category": "Médio"
+    },
+    {
+      "name": "Coroa das serpes [RT20]",
+      "price": "T$ 9.000",
+      "spaces": "1",
+      "category": "Menor"
     },
     {
       "name": "Coroa de flores",

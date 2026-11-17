@@ -2219,6 +2219,39 @@
     },
     {
       "type": "folder",
+      "name": "Revista Tormenta20",
+      "items": [
+        {
+          "type": "folder",
+          "name": "Armas Específicas",
+          "items": [
+            {
+              "type": "item",
+              "name": "Lança do Guerreiro Dragão",
+              "description": "A lança do guerreiro dragão é uma arma concedida por Kallyadranoch como recompensa para dracomantes de inclinação marcial. Se estiver empunhando esta lança formidável quando lança uma magia, ela recebe +2 nas rolagens de dano e sua CD aumenta em +2. Arma mágica específica, preço T$ 24.000."
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Acessórios",
+          "items": [
+            {
+              "type": "item",
+              "name": "Cetro do Poder Usurpado",
+              "description": "Esse cetro se parece com a pata de um dragão segurando um orbe em sua extremidade. Quando o empunha, você pode usar o poder Raio Arcano (CD seu atributo-chave de magias ou Car); se já o possuir, em vez disso cada dado de dano aumenta em um passo.\nO cetro concede habilidades adicionais conforme sua ligação com dragões. Se você for um devoto de Kallyadranoch, pode usar também o poder Raio Elemental; se já o possuir, em vez disso seu custo é reduzido a 0 PM. Se for um kallyanach, o dano do seu Raio Arcano aumenta em 1 passo adicional e, se você for um feiticeiro de linhagem dracônica, a CD para resistir ao seu Raio aumenta em +2. Acessório menor, T$ 9.000."
+            },
+            {
+              "type": "item",
+              "name": "Coroa das Serpes",
+              "description": "Este item foi criado por artesãos sckharjagar para garantir que os filhos de Sckhar conseguiriam controlar as dracoferas do fogo. Enquanto veste uma dessas coroas, você se torna treinado em Adestramento e Cavalgar e recebe +5 em testes dessas perícias com serpes do fogo. Além disso, pode se comunicar com serpes do fogo por meio de linguagem corporal e vocalizações, usando Adestramento para mudar atitude e persuasão, de forma similar a Empatia Selvagem. Acessório menor, preço T$ 9.000, 1 espaço."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "folder",
       "name": "Uma Visita a Vectora",
       "items": [
         {

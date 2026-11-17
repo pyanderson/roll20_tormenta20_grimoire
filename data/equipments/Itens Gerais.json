@@ -698,6 +698,12 @@
       "category": "Vestuário"
     },
     {
+      "name": "Casaco braseiro [RT20]",
+      "price": "T$ 40",
+      "spaces": "—",
+      "category": "Vestuário"
+    },
+    {
       "name": "Casaco longo",
       "price": "T$ 20",
       "spaces": "1",
@@ -1640,6 +1646,12 @@
       "category": "Alquímicos — Venenos"
     },
     {
+      "name": "Peçonha flamejante [RT20]",
+      "price": "",
+      "spaces": "0,5",
+      "category": "Alquímicos — Venenos"
+    },
+    {
       "name": "Peçonha irritante",
       "price": "T$ 10",
       "spaces": "0,5",
@@ -1820,6 +1832,12 @@
       "category": "Alimentação — Pratos Especiais"
     },
     {
+      "name": "Bolo de linhaça [RT20]",
+      "price": "T$ 5",
+      "spaces": "—",
+      "category": "Alimentação — Pratos Especiais"
+    },
+    {
       "name": "Bombas de saber",
       "price": "T$ 4",
       "spaces": "—",
@@ -1900,6 +1918,12 @@
     {
       "name": "Justos virtuosos",
       "price": "T$ 6",
+      "spaces": "—",
+      "category": "Alimentação — Pratos Especiais"
+    },
+    {
+      "name": "Licor de lágrimas [RT20]",
+      "price": "T$ 8",
       "spaces": "—",
       "category": "Alimentação — Pratos Especiais"
     },
@@ -2002,6 +2026,12 @@
     {
       "name": "Tesouro de Valkaria",
       "price": "T$ 2",
+      "spaces": "—",
+      "category": "Alimentação — Pratos Especiais"
+    },
+    {
+      "name": "Treckodimm [RT20]",
+      "price": "T$ 10",
       "spaces": "—",
       "category": "Alimentação — Pratos Especiais"
     },

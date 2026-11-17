@@ -536,6 +536,22 @@
               ]
             },
             {
+              "type": "folder",
+              "name": "Revista Tormenta20",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Espada Enigma",
+                  "description": "Essa espada segmentada é capaz de assumir várias formas dependendo de como é empunhada. A arma é um verdadeiro quebra-cabeças marcial e exige uma mente tão afiada quanto a lâmina.\nA espada enigma é uma arma híbrida, mas mudar de uma forma para a outra é mais complexo: uma ação padrão em vez de uma ação de movimento. A mudança pode ser feita como uma ação de movimento com sucesso em um teste de Conhecimento (CD 20). Se tiver Saque Rápido, você pode mudar as formas com uma ação de movimento ou uma ação livre com o teste de Conhecimento. Todas as formas são ágeis e desbalanceadas.\n\nSerpente. A forma básica da espada enigma é uma arma ágil e alongada.\n\nEscudo. A lâmina se enrola em formato de círculo, funcionando como um escudo leve. Você perde o bônus na Defesa do escudo por uma rodada se atacar com a espada enigma. Mesmo nesta forma, a arma não pode receber melhorias e encantos específicos para escudos.\n\nLua. A lâmina fica na forma de uma letra C. Nesta forma, pode ser arremessada em alcance curto. Se fizer um acerto crítico, ela ricocheteia e volta para a sua mão.\n\nPilar. Todos os segmentos ficam travados na forma de uma haste pontiaguda; é uma arma adaptável e alongada."
+                },
+                {
+                  "type": "item",
+                  "name": "Katar",
+                  "description": "Uma das armas preferidas dos rebeldes de Sckharshantallas, o katar é uma arma discreta (fornece +5 em testes de Ladinagem para ocultá-la) e de golpes poderosos. O katar é preferido por artistas marciais pela facilidade de integração com técnicas desarmadas; para personagens com a habilidade Briga ou o poder Estilo Desarmado, o katar é uma arma simples."
+                }
+              ]
+            },
+            {
               "type": "item",
               "name": "Armas Improvisadas",
               "description": "Atacar com um objeto que não tenha sido feito para lutar (cadeiras, garrafas quebradas..) provoca penalidade de –2 no teste de ataque. Via de regra, armas improvisadas causam 1d6 pontos de dano, com crítico x2, mas esses valores podem mudar de acordo com o mestre. O tipo de dano é determinado pelo mestre (impacto para cadeira, corte para garrafa quebrada...)."
@@ -1897,6 +1913,17 @@
             },
             {
               "type": "folder",
+              "name": "Revista Tormenta20",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Casaco Braseiro",
+                  "description": "Considerando o frio tão presente, seria prudente adquirir casacos longos. Se procurarem o suficiente, porém, os heróis encontram à venda uma invenção recente, mais eficiente mas consideravelmente perigosa por seu caráter experimental: o casaco braseiro.\nEsta é uma variante do casaco pesado, que possui um espaço entre suas camadas para ser preenchido por carvão em brasa. Fornece +5 em testes de Fortitude para resistir a efeitos de frio e concede redução de frio 1, mas impõe penalidade de armadura de –2. Caso fique caído ou falhe em um teste de Reflexos enquanto veste um casaco braseiro, o personagem sofre 1 ponto de dano de fogo."
+                }
+              ]
+            },
+            {
+              "type": "folder",
               "name": "Uma Visita a Vectora",
               "items": [
                 {
@@ -2669,6 +2696,17 @@
                   ]
                 },
                 {
+                  "type": "folder",
+                  "name": "Revista Tormenta20",
+                  "items": [
+                    {
+                      "type": "item",
+                      "name": "Peçonha Flamejante",
+                      "description": "Veneno mortal extraído das serpes de fogo criadas por Sckhar. Contato, perde 1d12 pontos de vida e fica em chamas durante 3 rodadas (perde 1d12 pontos de vida)."
+                    }
+                  ]
+                },
+                {
                   "type": "item",
                   "name": "Beladona",
                   "description": "Planta extremamente tóxica que afeta o sistema nervoso da vítima. Ingestão, vítima fica paralisada (lenta) por 3 rodadas. A CD para fabricar e para resistir a este veneno aumenta em +5."
@@ -3012,6 +3050,27 @@
                       "type": "item",
                       "name": "Manjar de Sombras",
                       "description": "A origem da receita original deste prato se perdeu, mas sua essência se manteve inalterada. Consiste em um manjar com ingredientes cultivados em terras próximas de cemitérios, que protege o corpo contra energias sombrias. Você ignora os próximos 10 pontos de dano de trevas que sofrer."
+                    }
+                  ]
+                },
+                {
+                  "type": "folder",
+                  "name": "Revista Tormenta20",
+                  "items": [
+                    {
+                      "type": "item",
+                      "name": "Bolo de Linhaça",
+                      "description": "O acolhedor e reconfortante bolo dos pequenos é feito com farinha de linhaça e decorado com frutas cristalizadas. Sua massa é leve e muito calórica, concedendo +2 em Atletismo e Iniciativa."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Licor de Lágrimas",
+                      "description": "Essa bebida alcóolica de gosto forte é feita a partir de suco de treckod fermentado. Principalmente em Thenarallan, é vista como uma forma eficiente, mas perigosa, de afogar as lágrimas. Não é raro derramar meio copo no chão durante um enterro, bebendo o resto em homenagem ao falecido. Fornece +5 em Vontade, mas se falhar em algum teste de Vontade pela duração do prato, fica esmorecido até o efeito do prato acabar."
+                    },
+                    {
+                      "type": "item",
+                      "name": "Treckodimm",
+                      "description": "Esse doce tradicional é feito com uma mistura de mel, farinha de grão-de-bico e polpa de treckod. É servido usando a casca da fruta como prato. Revigorante, fornece resistência a cansaço +2."
                     }
                   ]
                 },
@@ -3960,6 +4019,17 @@
                   "type": "item",
                   "name": "Quitina Razza",
                   "description": "Cobiçada por caçadores de monstros, que a consideram um grande troféu, esta quitina raramente é encontrada à venda; a única forma de obter este material é abater um razza’kham. Arma (exige uma peça). Sempre que rolar o resultado máximo em um dado do dano básico da arma, role um dado extra, repetindo o processo a cada resultado máximo. Armadura e Escudo. Armadura leve e escudo (exigem uma peça): concede +2 em Percepção e seu bônus na Defesa aumenta em 1. Armadura pesada (exigem três peças): concede +5 em Percepção e seu bônus na Defesa aumenta em 2. Esotérico (exige uma peça). Sempre que rolar o resultado máximo em um dado do dano básico da magia (sem contar aprimoramentos e outros efeitos), role um dado extra, repetindo o processo a cada resultado máximo."
+                }
+              ]
+            },
+            {
+              "type": "folder",
+              "name": "Revista Tormenta20",
+              "items": [
+                {
+                  "type": "item",
+                  "name": "Vidro Selentino",
+                  "description": "As peças de vidro selentino são muito caras e dificilmente seus custos caberão nos bolsos de aventureiros iniciantes. Porém, caso tenham sucesso nas negociações com Orendir e consigam reunir seus recursos, talvez consigam adquirir um deles.\nEsse material especial pode ser usado para armas corpo a corpo, escudos e itens esotéricos. É um vidro tão resistente quanto o aço, mas transparente e muito bonito. O custo adicional por um item de vidro selentino é +T$ 600.\n\nArma. Engana o inimigo com sua transparência, fornecendo +5 em testes de Enganação para fintar com armas corpo a corpo.\n\nEscudo. Permite estudar o inimigo, fornecendo +1 na margem de ameaça contra um inimigo que tenha realizado um ataque corpo a corpo contra o usuário nessa rodada ou na rodada anterior.\n\nEsotérico. Serve como lente, concedendo +5 em testes de Misticismo para detectar magia."
                 }
               ]
             },
