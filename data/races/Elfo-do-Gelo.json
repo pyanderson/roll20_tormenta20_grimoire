@@ -1,0 +1,34 @@
+{
+    "name": "Elfo-do-Gelo",
+    "displacement": 12,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "sab",
+        "mod": 2
+      },
+      {
+        "attr": "des",
+        "mod": 1
+      },
+      {
+        "attr": "con",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Graça de Beluhga",
+        "description": "Seu deslocamento é 12m (em vez de 9m) e não é reduzido por terreno difícil natural."
+      },
+      {
+        "name": "Herança Gélida",
+        "description": "Você recebe redução de frio 10 e, quando causa dano, causa +1d4 pontos de dano de frio."
+      },
+      {
+        "name": "Sentidos Glaciais",
+        "description": "Você recebe visão na penumbra e +2 em Percepção e Sobrevivência."
+      }
+    ]
+  }
+  

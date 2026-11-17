@@ -55,7 +55,7 @@
     },
     {
       "name": "Magia Acelerada Aprimoramento",
-      "description": "Muda a execução da magia para ação livre. Você só pode aplicar este aprimoramento em magias com execução de movimento, padrão ou completa e só pode lançar uma magia como ação livre por rodada. Custo: +4 PM. Pré-requisito: lançar magias de 2º círculo."
+      "description": "Muda a execução da magia para ação livre. Você só pode aplicar este aprimoramento em magias com execução de movimento, padrão ou completa e só pode usar este poder uma vez por rodada. Custo: +4 PM. Pré-requisito: lançar magias de 2º círculo."
     },
     {
       "name": "Magia Ampliada Aprimoramento",

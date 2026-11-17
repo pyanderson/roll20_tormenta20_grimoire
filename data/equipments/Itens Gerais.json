@@ -56,9 +56,27 @@
       "category": "Equipamento de Aventura"
     },
     {
+      "name": "Areia de Halak-Tûr",
+      "price": "T$ 600",
+      "spaces": "0,5",
+      "category": "Equipamento de Aventura"
+    },
+    {
       "name": "Armação para mochila",
       "price": "T$ 50",
       "spaces": "—",
+      "category": "Equipamento de Aventura"
+    },
+    {
+      "name": "Armadilha comum",
+      "price": "T$ 150",
+      "spaces": "1",
+      "category": "Equipamento de Aventura"
+    },
+    {
+      "name": "Armadilha rara",
+      "price": "T$ 300",
+      "spaces": "1",
       "category": "Equipamento de Aventura"
     },
     {
@@ -110,6 +128,12 @@
       "category": "Equipamento de Aventura"
     },
     {
+      "name": "Bússola do desejo",
+      "price": "T$ 600",
+      "spaces": "1",
+      "category": "Equipamento de Aventura"
+    },
+    {
       "name": "Caixa de voz",
       "price": "T$ 50",
       "spaces": "1",
@@ -125,6 +149,12 @@
       "name": "Cálice consagrado",
       "price": "T$ 300",
       "spaces": "1",
+      "category": "Equipamento de Aventura"
+    },
+    {
+      "name": "Chave dimensional",
+      "price": "T$ 1.000",
+      "spaces": "0,5",
       "category": "Equipamento de Aventura"
     },
     {
@@ -194,6 +224,12 @@
       "category": "Equipamento de Aventura"
     },
     {
+      "name": "Essência de medo",
+      "price": "T$ 300",
+      "spaces": "0,5",
+      "category": "Equipamento de Aventura"
+    },
+    {
       "name": "Estetoscópio",
       "price": "T$ 60",
       "spaces": "1",
@@ -214,6 +250,12 @@
     {
       "name": "Férula",
       "price": "T$ 100",
+      "spaces": "1",
+      "category": "Equipamento de Aventura"
+    },
+    {
+      "name": "Instante engarrafado",
+      "price": "T$ 1.200",
       "spaces": "1",
       "category": "Equipamento de Aventura"
     },
@@ -248,7 +290,25 @@
       "category": "Equipamento de Aventura"
     },
     {
+      "name": "Maldição física engarrafada",
+      "price": "T$ 360",
+      "spaces": "0,5",
+      "category": "Equipamento de Aventura"
+    },
+    {
+      "name": "Maldição mental engarrafada",
+      "price": "T$ 360",
+      "spaces": "0,5",
+      "category": "Equipamento de Aventura"
+    },
+    {
       "name": "Mapa",
+      "price": "T$ 30",
+      "spaces": "1",
+      "category": "Equipamento de Aventura"
+    },
+    {
+      "name": "Mapa da cidade (de Vectora)",
       "price": "T$ 30",
       "spaces": "1",
       "category": "Equipamento de Aventura"
@@ -308,8 +368,26 @@
       "category": "Equipamento de Aventura"
     },
     {
+      "name": "Peça letal",
+      "price": "T$ 90",
+      "spaces": "0,5",
+      "category": "Equipamento de Aventura"
+    },
+    {
       "name": "Prancheta",
       "price": "T$ 5",
+      "spaces": "1",
+      "category": "Equipamento de Aventura"
+    },
+    {
+      "name": "Reagente instável",
+      "price": "T$ 120",
+      "spaces": "0,5",
+      "category": "Equipamento de Aventura"
+    },
+    {
+      "name": "Relógio da memória",
+      "price": "T$ 900",
       "spaces": "1",
       "category": "Equipamento de Aventura"
     },
@@ -374,6 +452,12 @@
       "category": "Ferramentas — Instrumentos Musicais"
     },
     {
+      "name": "Cítola da paz [DB]",
+      "price": "T$ 175",
+      "spaces": "1",
+      "category": "Ferramentas — Instrumentos Musicais"
+    },
+    {
       "name": "Clarim deheoni",
       "price": "T$ 150",
       "spaces": "1",
@@ -394,6 +478,12 @@
     {
       "name": "Espelho cirúrgico",
       "price": "T$ 12",
+      "spaces": "1",
+      "category": "Ferramentas — Gerais"
+    },
+    {
+      "name": "Espelho do futuro",
+      "price": "T$ 350",
       "spaces": "1",
       "category": "Ferramentas — Gerais"
     },
@@ -484,6 +574,12 @@
     {
       "name": "Molde pré-fabricado",
       "price": "T$ 500",
+      "spaces": "1",
+      "category": "Ferramentas — Gerais"
+    },
+    {
+      "name": "Orbe da visão remota",
+      "price": "T$ 150",
       "spaces": "1",
       "category": "Ferramentas — Gerais"
     },
@@ -598,6 +694,12 @@
     {
       "name": "Casaca de apetrechos",
       "price": "T$ 75",
+      "spaces": "—",
+      "category": "Vestuário"
+    },
+    {
+      "name": "Casaco braseiro [RT20]",
+      "price": "T$ 40",
       "spaces": "—",
       "category": "Vestuário"
     },
@@ -794,6 +896,12 @@
       "category": "Vestuário"
     },
     {
+      "name": "Pijama Hynne",
+      "price": "T$ 300",
+      "spaces": "1",
+      "category": "Vestuário"
+    },
+    {
       "name": "Robe místico",
       "price": "T$ 50",
       "spaces": "1",
@@ -898,6 +1006,12 @@
     {
       "name": "Afiador solar",
       "price": "T$ 100",
+      "spaces": "1",
+      "category": "Esotéricos"
+    },
+    {
+      "name": "Alma de dragão [DB]",
+      "price": "T$ 250",
       "spaces": "1",
       "category": "Esotéricos"
     },
@@ -1016,6 +1130,12 @@
       "category": "Esotéricos"
     },
     {
+      "name": "Rosário da vida [DB]",
+      "price": "T$ 750",
+      "spaces": "1",
+      "category": "Esotéricos"
+    },
+    {
       "name": "Tomo de Guerra",
       "price": "T$ 300",
       "spaces": "1",
@@ -1090,6 +1210,12 @@
     {
       "name": "Bomba de fumaça",
       "price": "T$ 15",
+      "spaces": "0,5",
+      "category": "Alquímicos - Preparados"
+    },
+    {
+      "name": "Bomba de tinta [DB]",
+      "price": "T$ 35",
       "spaces": "0,5",
       "category": "Alquímicos - Preparados"
     },
@@ -1250,6 +1376,18 @@
       "category": "Alquímicos — Catalisadores"
     },
     {
+      "name": "Cabelo de fada",
+      "price": "T$ 600",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores"
+    },
+    {
+      "name": "Cinzas de pergaminho ancestral",
+      "price": "T$ 600",
+      "spaces": "0,5",
+      "category": "Alquímicos - Catalisadores"
+    },
+    {
       "name": "Corrosivo Mineral",
       "price": "T$ 150",
       "spaces": "0,5",
@@ -1298,6 +1436,12 @@
       "category": "Alquímicos — Catalisadores"
     },
     {
+      "name": "Fragmento de mana condensada",
+      "price": "T$ 900",
+      "spaces": "0,5",
+      "category": "Alquímicos — Catalisadores"
+    },
+    {
       "name": "Frasco de luz",
       "price": "T$ 30",
       "spaces": "0,5",
@@ -1322,6 +1466,12 @@
       "category": "Alquímicos — Catalisadores"
     },
     {
+      "name": "Mapa planar",
+      "price": "T$ 300",
+      "spaces": "0,5",
+      "category": "Alquímicos — Catalisadores"
+    },
+    {
       "name": "Musgo púrpura",
       "price": "T$ 45",
       "spaces": "0,5",
@@ -1330,6 +1480,12 @@
     {
       "name": "Noz saltadora",
       "price": "T$ 90",
+      "spaces": "0,5",
+      "category": "Alquímicos — Catalisadores"
+    },
+    {
+      "name": "Nuvem engarrafada",
+      "price": "T$ 300",
       "spaces": "0,5",
       "category": "Alquímicos — Catalisadores"
     },
@@ -1360,6 +1516,12 @@
     {
       "name": "Pó de cristal",
       "price": "T$ 30",
+      "spaces": "0,5",
+      "category": "Alquímicos — Catalisadores"
+    },
+    {
+      "name": "Pó de estrela cadente",
+      "price": "T$ 1.200",
       "spaces": "0,5",
       "category": "Alquímicos — Catalisadores"
     },
@@ -1480,6 +1642,12 @@
     {
       "name": "Peçonha concentrada",
       "price": "T$ 90",
+      "spaces": "0,5",
+      "category": "Alquímicos — Venenos"
+    },
+    {
+      "name": "Peçonha flamejante [RT20]",
+      "price": "",
       "spaces": "0,5",
       "category": "Alquímicos — Venenos"
     },
@@ -1664,6 +1832,12 @@
       "category": "Alimentação — Pratos Especiais"
     },
     {
+      "name": "Bolo de linhaça [RT20]",
+      "price": "T$ 5",
+      "spaces": "—",
+      "category": "Alimentação — Pratos Especiais"
+    },
+    {
       "name": "Bombas de saber",
       "price": "T$ 4",
       "spaces": "—",
@@ -1744,6 +1918,12 @@
     {
       "name": "Justos virtuosos",
       "price": "T$ 6",
+      "spaces": "—",
+      "category": "Alimentação — Pratos Especiais"
+    },
+    {
+      "name": "Licor de lágrimas [RT20]",
+      "price": "T$ 8",
       "spaces": "—",
       "category": "Alimentação — Pratos Especiais"
     },
@@ -1846,6 +2026,12 @@
     {
       "name": "Tesouro de Valkaria",
       "price": "T$ 2",
+      "spaces": "—",
+      "category": "Alimentação — Pratos Especiais"
+    },
+    {
+      "name": "Treckodimm [RT20]",
+      "price": "T$ 10",
       "spaces": "—",
       "category": "Alimentação — Pratos Especiais"
     },
@@ -2156,6 +2342,12 @@
       "category": "Veículos"
     },
     {
+      "name": "Autoforja",
+      "price": "T$ 1/10 do preço do item",
+      "spaces": "—",
+      "category": "Serviços"
+    },
+    {
       "name": "Banho quente",
       "price": "T$ 10",
       "spaces": "—",
@@ -2180,6 +2372,12 @@
       "category": "Serviços"
     },
     {
+      "name": "Cirurgia de aprimoramento",
+      "price": "T$ 1.000",
+      "spaces": "—",
+      "category": "Serviços"
+    },
+    {
       "name": "Estadia (por noite) comum",
       "price": "T$ 0,5",
       "spaces": "—",
@@ -2194,6 +2392,12 @@
     {
       "name": "Estadia (por noite) luxuosa",
       "price": "T$ 20",
+      "spaces": "—",
+      "category": "Serviços"
+    },
+    {
+      "name": "Clarividência",
+      "price": "T$ 150",
       "spaces": "—",
       "category": "Serviços"
     },
@@ -2216,8 +2420,32 @@
       "category": "Serviços"
     },
     {
+      "name": "Consulta na biblioteca das respostas",
+      "price": "T$ 250",
+      "spaces": "—",
+      "category": "Serviços"
+    },
+    {
       "name": "Curandeiro",
       "price": "T$ 5",
+      "spaces": "—",
+      "category": "Serviços"
+    },
+    {
+      "name": "Festa na dança de Marah",
+      "price": "T$ 600",
+      "spaces": "—",
+      "category": "Serviços"
+    },
+    {
+      "name": "Festival de música",
+      "price": "T$ 200",
+      "spaces": "—",
+      "category": "Serviços"
+    },
+    {
+      "name": "Hospedagem divina",
+      "price": "T$ 2.000",
       "spaces": "—",
       "category": "Serviços"
     },
@@ -2282,8 +2510,38 @@
       "category": "Serviços"
     },
     {
+      "name": "Noite de prazeres",
+      "price": "T$ 150",
+      "spaces": "—",
+      "category": "Serviços"
+    },
+    {
+      "name": "Noite no teatro",
+      "price": "T$ 300",
+      "spaces": "—",
+      "category": "Serviços"
+    },
+    {
+      "name": "Noite no Vapor & Café",
+      "price": "T$ 200",
+      "spaces": "—",
+      "category": "Serviços"
+    },
+    {
       "name": "Ópera",
       "price": "T$ 200",
+      "spaces": "—",
+      "category": "Serviços"
+    },
+    {
+      "name": "Passeio de balão (em Vectora)",
+      "price": "T$ 150",
+      "spaces": "—",
+      "category": "Serviços"
+    },
+    {
+      "name": "Rito da troca vital",
+      "price": "T$ 600 (menor), T$ 1.500 (maior)",
       "spaces": "—",
       "category": "Serviços"
     },
@@ -2296,6 +2554,12 @@
     {
       "name": "Sarau informativo",
       "price": "T$ 150",
+      "spaces": "—",
+      "category": "Serviços"
+    },
+    {
+      "name": "Viagem rápida",
+      "price": "T$ 800",
       "spaces": "—",
       "category": "Serviços"
     }

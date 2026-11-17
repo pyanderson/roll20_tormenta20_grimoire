@@ -55,7 +55,7 @@
       ],
       "name": "Acalmar Animal",
       "range": "curto",
-      "resistance": "Vontade anula",
+      "resistance": "Vontade evita",
       "target": "1 animal",
       "type": "Divina 1 (Encantamento)"
     },
@@ -131,7 +131,7 @@
         },
         {
           "cost": "+9 PM",
-          "description": "muda a duração para 1 dia ou até ser descarregada e a resistência para Vontade anula. Quando um intruso entra na área, você pode descarregar a magia. Se o intruso falhar na resistência, ficará paralisado por 1d4 rodadas. Além disso, pelas próximas 24 horas você e as criaturas escolhidas ganham +10 em testes de Sobrevivência para rastrear o intruso."
+          "description": "muda a duração para 1 dia ou até ser descarregada e a resistência para Vontade evita. Quando um intruso entra na área, você pode descarregar a magia. Se o intruso falhar na resistência, ficará paralisado por 1d4 rodadas. Além disso, pelas próximas 24 horas você e as criaturas escolhidas ganham +10 em testes de Sobrevivência para rastrear o intruso."
         }
       ],
       "name": "Alarme",
@@ -212,7 +212,7 @@
         },
         {
           "cost": "+2 PM",
-          "description": "muda a duração para sustentada. Além do normal, uma vez por rodada, você pode gastar uma ação livre para fazer a arma acertar automaticamente um alvo adjacente. Se a arma atacar, não poderá contra-atacar até seu próximo turno. Requer 2o círculo."
+          "description": "muda a duração para sustentada. Além do normal, uma vez por rodada, você pode gastar uma ação livre para fazer a arma causar o dano a um alvo adjacente. Se fizer isso, não poderá causar dano como reação até seu próximo turno. Requer 2º círculo."
         },
         {
           "cost": "+2 PM",
@@ -220,7 +220,7 @@
         },
         {
           "cost": "+5 PM",
-          "description": "invoca duas armas, permitindo que você contra-ataque (ou ataque, se usar o aprimoramento acima) duas vezes por rodada. Requer 3o círculo."
+          "description": "invoca duas armas, permitindo que você use a reação (ou a ação livre, se usar o aprimoramento acima) duas vezes por rodada. Requer 3º círculo."
         },
         {
           "cost": "+2 PM",
@@ -389,7 +389,7 @@
     {
       "area": "",
       "circle": "1",
-      "description": "Envia um aviso telepático para uma criatura, mesmo que não possa vê-la nem tenha linha de efeito.\nEscolha um:\nAlerta: o alvo recebe +5 em seu próximo teste de Iniciativa e de Percepção até o fim da próxima cena.\nMensagem: o alvo recebe uma mensagem sua de até 25 palavras. Vocês devem ter um idioma em comum para o alvo poder entendê-lo.\nLocalização: o alvo sabe onde você está naquele momento. Se você mudar de posição, ele não saberá.",
+      "description": "Envia um aviso telepático para uma criatura, mesmo que não possa percebê-la nem tenha linha de efeito.\nEscolha um:\nAlerta: o alvo recebe +5 em seu próximo teste de Iniciativa e de Percepção até o fim da próxima cena.\nMensagem: o alvo recebe uma mensagem sua de até 25 palavras. Vocês devem ter um idioma em comum para o alvo poder entendê-lo.\nLocalização: o alvo sabe onde você está naquele momento. Se você mudar de posição, ele não saberá.",
       "duration": "instantânea",
       "effect": "",
       "execution": "movimento",
@@ -521,7 +521,7 @@
       ],
       "name": "Comando",
       "range": "curto",
-      "resistance": "Vontade anula",
+      "resistance": "Vontade evita",
       "target": "1 humanóide",
       "type": "Divina 1 (Encantamento)"
     },
@@ -552,7 +552,7 @@
       ],
       "name": "Compreensão",
       "range": "toque",
-      "resistance": "Vontade anula (veja descrição)",
+      "resistance": "Vontade evita (veja descrição)",
       "target": "1 criatura ou texto",
       "type": "Universal 1 (Adivinhação)"
     },
@@ -590,7 +590,7 @@
     {
       "area": "",
       "circle": "1",
-      "description": "\nVocê conjura um monstro Pequeno que ataca seus inimigos. Você escolhe a aparência do monstro e o tipo de dano que ele pode causar, entre corte, impacto e perfuração. No entanto, ele não é uma criatura real, e sim uma criatura feita de energia. Se for destruído, ou quando a magia acaba, desaparece com um brilho, sem deixar nada para trás. Você só pode ter um monstro conjurado por esta magia por vez.\n\nO monstro surge em um espaço desocupado a sua escolha dentro do alcance e age no início de cada um de seus turnos, a partir da próxima rodada. O monstro tem deslocamento 9m e pode fazer uma ação de movimento por rodada. Você pode gastar uma ação padrão para dar uma das seguintes ordens a ele.\n\nMover: o monstro se movimenta o dobro do deslocamento nessa rodada.\n\nAtacar: o monstro causa 2d4+2 pontos de dano de corte, impacto ou perfuração a uma criatura adjacente.\n\nLançar Magia: o monstro pode servir como ponto de origem para uma magia lançada por você com execução de uma ação padrão ou menor. Ele pode descarregar um Toque Chocante em um inimigo distante, ou mesmo “cuspir” uma Bola de Fogo! Você gasta PM normalmente para lançar a magia.\n\nOutros usos criativos para monstros conjurados ficam a critério do mestre. O monstro não age sem receber uma ordem.\n\nPara efeitos de jogo, o monstro conjurado tem For 2, Des 3 e todos os outros atributos nulos. Ele tem Defesa igual a sua, 20 pontos de vid e usa o seu bônus para teste de Reflexos. Ele é imune a efeitos que pedem um teste de Fortitude ou Vontade.\n",
+      "description": "\nVocê conjura um monstro Pequeno que ataca seus inimigos. Você escolhe a aparência do monstro e o tipo de dano que ele pode causar, entre corte, impacto e perfuração. No entanto, ele não é uma criatura real, e sim uma criatura feita de energia. Se for destruído, ou quando a magia acaba, desaparece com um brilho, sem deixar nada para trás. Você só pode ter um monstro conjurado por esta magia por vez.\n\nO monstro surge em um espaço desocupado a sua escolha dentro do alcance e age no início de cada um de seus turnos, a partir da próxima rodada. O monstro tem deslocamento 9m e pode fazer uma ação de movimento por rodada. Você pode gastar uma ação padrão para dar uma das seguintes ordens a ele.\n\nMover: o monstro se movimenta o dobro do deslocamento nessa rodada.\n\nAtacar: o monstro causa 2d4+2 pontos de dano de corte, impacto ou perfuração a uma criatura adjacente.\n\nLançar Magia: o monstro pode servir como ponto de origem para uma magia lançada por você com execução de uma ação padrão, de movimento ou livre. Ele pode descarregar um Toque Chocante em um inimigo distante, ou mesmo “cuspir” uma Bola de Fogo! Você gasta PM normalmente para lançar a magia.\n\nOutros usos criativos para monstros conjurados ficam a critério do mestre. O monstro não age sem receber uma ordem.\n\nPara efeitos de jogo, o monstro conjurado tem For 2, Des 3 e todos os outros atributos nulos. Ele tem Defesa igual a sua, 20 pontos de vid e usa o seu bônus para teste de Reflexos. Ele é imune a efeitos que pedem um teste de Fortitude ou Vontade.\n",
       "duration": "sustentada",
       "effect": "1 criatura conjurada",
       "execution": "completa",
@@ -712,7 +712,7 @@
       ],
       "name": "Controlar Plantas",
       "range": "curto",
-      "resistance": "Reflexos anula",
+      "resistance": "Reflexos evita",
       "target": "",
       "type": "Divina 1 (Transmutação)"
     },
@@ -1126,7 +1126,7 @@
     {
       "area": "",
       "circle": "1",
-      "description": "O alvo emana sombras em uma área com 6m de raio. Criaturas dentro da área recebem camuflagem leve por escuridão leve. As sombras não podem ser iluminadas por nenhuma fonte de luz natural. O objeto pode ser guardado (em um bolso, por exemplo) para interromper a escuridão, que voltará a funcionar caso o objeto seja revelado. Se lançar a magia num objeto de uma criatura involuntária, ela tem direito a um teste de Vontade para anulá-la. Escuridão anula Luz.",
+      "description": "O alvo emana sombras em uma área com 6m de raio. Criaturas dentro da área recebem camuflagem leve por escuridão leve. As sombras não podem ser iluminadas por nenhuma fonte de luz natural. O objeto pode ser guardado (em um bolso, por exemplo) para interromper a escuridão, que voltará a funcionar caso o objeto seja revelado. Se lançar a magia num objeto de uma criatura involuntária, ela tem direito a um teste de Vontade para evitá-la. Escuridão anula Luz.",
       "duration": "cena",
       "effect": "",
       "execution": "padrão",
@@ -1154,7 +1154,7 @@
       ],
       "name": "Escuridão",
       "range": "curto",
-      "resistance": "Vontade anula (veja texto)",
+      "resistance": "Vontade evita (veja texto)",
       "target": "1 objeto",
       "type": "Universal 1 (Necromancia)"
     },
@@ -1257,7 +1257,7 @@
       "implements": [
         {
           "cost": "Truque",
-          "description": "muda o alcance para curto, a área para alvo de 1 objeto e a resistência para Reflexos anula. Você gera uma pequena explosão que não causa dano mas pode acender uma vela, tocha ou fogueira. Também pode fazer um objeto inflamável com RD 0 (como uma corda ou pergaminho) ficar em chamas. Uma criatura em posse de um objeto pode evitar esse efeito se passar no teste de resistência."
+          "description": "muda o alcance para curto, a área para alvo de 1 objeto e a resistência para Reflexos evita. Você gera uma pequena explosão que não causa dano mas pode acender uma vela, tocha ou fogueira. Também pode fazer um objeto inflamável com RD 0 (como uma corda ou pergaminho) ficar em chamas. Uma criatura em posse de um objeto pode evitar esse efeito se passar no teste de resistência."
         },
         {
           "cost": "+1 PM",
@@ -1460,7 +1460,7 @@
       ],
       "name": "Hipnotismo",
       "range": "curto",
-      "resistance": "Vontade anula",
+      "resistance": "Vontade evita",
       "target": "1 animal ou humanoide",
       "type": "Arcana 1 (Encantamento)"
     },
@@ -1602,7 +1602,7 @@
     {
       "area": "cone de 4,5m",
       "circle": "1",
-      "description": "Um cone de luzes brilhantes surge das suas mãos, deixando os animais e humanoides na área atordoados por 1 rodada (apenas uma vez por cena, Vontade anula) e ofuscados pela cena.",
+      "description": "Um cone de luzes brilhantes surge das suas mãos, deixando os animais e humanoides na área atordoados por 1 rodada (apenas uma vez por cena, Vontade evita) e ofuscados pela cena.",
       "duration": "instantânea",
       "effect": "",
       "execution": "padrão",
@@ -1629,7 +1629,7 @@
     {
       "area": "",
       "circle": "1",
-      "description": "O alvo emite luz (mas não produz calor) em uma área com 6m de raio. O objeto pode ser guardado (em um bolso, por exemplo) para interromper a luz, que voltará a funcionar caso o objeto seja revelado. Se lançar a magia num objeto de uma criatura involuntária, ela tem direito a um teste de Vontade para anulá-la. Luz anula Escuridão.",
+      "description": "O alvo emite luz (mas não produz calor) em uma área com 6m de raio. O objeto pode ser guardado (em um bolso, por exemplo) para interromper a luz, que voltará a funcionar caso o objeto seja revelado. Se lançar a magia num objeto de uma criatura involuntária, ela tem direito a um teste de Vontade para evitá-la. Luz anula Escuridão.",
       "duration": "cena",
       "effect": "",
       "execution": "padrão",
@@ -1665,7 +1665,7 @@
       ],
       "name": "Luz",
       "range": "curto",
-      "resistance": "Vontade anula (veja texto)",
+      "resistance": "Vontade evita (veja texto)",
       "target": "1 objeto",
       "type": "Universal 1 (Evocação)"
     },
@@ -2166,7 +2166,7 @@
       ],
       "name": "Raio do Enfraquecimento",
       "range": "curto",
-      "resistance": "Fortitude parcial",
+      "resistance": "Fortitude evita",
       "target": "1 criatura",
       "type": "Arcana 1 (Necromancia)"
     },
@@ -2224,7 +2224,7 @@
       ],
       "name": "Santuário",
       "range": "toque",
-      "resistance": "Vontade anula",
+      "resistance": "Vontade evita",
       "target": "1 criatura",
       "type": "Divina 1 (Abjuração)"
     },
@@ -2417,7 +2417,7 @@
       ],
       "name": "Teia",
       "range": "curto",
-      "resistance": "Reflexos anula",
+      "resistance": "Reflexos evita",
       "target": "",
       "type": "Arcana 1 (Convocação)"
     },
