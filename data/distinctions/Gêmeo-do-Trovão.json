@@ -1,0 +1,30 @@
+{
+    "name": "Gêmeo do Trovão [DB]",
+    "admission": "Apesar dos esforços de professores de etiqueta elemental, esse nível de comunhão ainda não foi realizado com nenhum outro espírito. Atualmente existem duas hipóteses sobre isso. A primeira postula que outros espíritos foram inspirados pelo sacrifício do alikunhá de Gilvir, permitindo se aproximar mais de mortais. A segunda teoriza que os sentimentos do caçador depois do sacrifício foram tão intensos que estabeleceram uma ponte com os mundos dos deuses, atraindo elementais dispostos a assumir a função de seu alikunhã perdido. Qualquer novo gêmeo do trovão, portanto, estaria emulando essa sensação e gerando um eco emocional, que atrai espíritos dispostos.\nDe uma maneira ou de outra, se o candidato acreditar que é fácil se tornar um gêmeo do trovão pela ênfase que a sociedade dá a cooperação e unidade, se frustrará rapidamente. Cooperação com elementais pode ser comum entre os ubaneri, mas uma verdadeira comunhão exige um elo muito forte entre o candidato e seu elemental. Não precisa ser necessariamente um alikunhá, mas a criatura deve estar presente constantemente, como um familiar, guia elemental ou melhor amigo. Além disso, o elo precisa transcender o comum. Não é apenas uma parceria, não é uma mera irmandade. É uma conexão que transcende os limites do emocional e do espiritual. Faltam palavras no valkar para expressar o quão íntimo é o elo de um gêmeo com seu espírito. Isso pode ser demarcado com um sacrifício em prol do outro, como aconteceu com Gilvir, mas nem sempre é necessário. O candidato ainda precisa, porém, demonstrar de alguma forma seus sentimentos sinceros e intensos pelo elemental.",
+    "abilities": [
+        {
+            "name": "Comunhão Elétrica",
+            "description": "Você tem redução de eletricidade 10, aumentando em 5 para cada poder da distinção obtido. Também recebe vulnerabilidade a ácido. Além disso, você pode alterar a CD dos poderes da distinção para o seu atributo-chave de magias, em vez de Con, caso deseje."
+        },
+        {
+            "name": "Dínamo Vivo",
+            "description": "Você pode gastar uma ação de movimento e PM para gerar eletricidade. Cada PM gasto concede uma carga elétrica, que dura até o final da cena. Você não pode ter mais cargas que o seu número de poderes da distinção + sua Constituição.\nEnquanto tiver cargas elétricas, seus ataques corpo a corpo com armas naturais ou armas de metal causam +1 ponto de dano extra de eletricidade para cada carga.\nVocê pode gastar cargas como uma ação padrão para disparar raios. Um raio atinge todos os alvos em uma linha de 30m. Cada criatura na área sofre 1d6 pontos de dano de eletricidade por carga gasta e fica ofuscada por 1d4 rodadas (Ref CD Con reduz à metade e evita a condição). Requisitos: treinado em Reflexos e Vontade."
+        },
+        {
+            "name": "Atração e Repulsão",
+            "description": "Enquanto tiver uma carga elétrica, você pode usar uma ação de movimento e 1 PM para escolher um alvo no alcance curto. O alvo deve ser um objeto metálico ou uma criatura que esteja empunhando armas de metal, vestindo armaduras de metal ou que tenha metal na composição do corpo. Objetos soltos podem ser deslocados para qualquer lugar dentro do alcance curto, como se manipulados com Força igual à sua Constituição + número de poderes da distinção que você possui. Para outros alvos, faça uma manobra de combate, recebendo um bônus no teste de manobra igual a sua Constituição (ou seu atributo-chave de magias). No caso de manobras como desarmar ou empurrar, você decide se alvos são movidos na sua direção ou na direção contrária. Você pode gastar +1 PM para afetar humanoides e outras criaturas com ferro no sangue, independente de estarem portando itens metálicos.\nSe usar uma ação padrão e gastar pelo menos uma carga elétrica, você pode emitir uma onda eletromagnética. Todas as criaturas e objetos em alcance curto sofrem dano de eletricidade e são empurradas para trás. Cada carga elétrica causa 1d6 pontos de dano de eletricidade e empurra 1,5m (Ref CD Con reduz o dano à metade e impede o empurrão). Requisitos: Dínamo Vivo."
+        },
+        {
+            "name": "Escudo Cintilante",
+            "description": "Quando usa Dínamo Vivo, você pode gastar +1 PM para se envolver em um campo de força defensivo. Você soma +1 na Defesa por cada carga que tiver. Além disso, quando um inimigo acerta você, fica ofuscado por 1d4 rodadas (Fortitude CD Con evita a condição) e você recebe uma carga elétrica. Finalmente, no seu turno, como uma ação livre, você pode gastar cargas para fortalecer seu campo de força. Cada carga gasta concede 5 PV temporários. Requisitos: Dínamo Vivo."
+        },
+        {
+            "name": "Salto Trovejante",
+            "description": "Seu deslocamento aumenta em 1,5m por carga elétrica que você tiver. Além disso, você pode gastar 1 PM para voar 9m como uma ação livre. Este movimento deve terminar em uma superfície que possa suportar seu peso. Você pode gastar uma carga na decolagem ou na aterrissagem para causar um trovão e atordoar todas as criaturas a 1,5m de você (Fortitude CD Con evita a condição; uma criatura só pode ser atordoada por esse efeito uma vez por cena). Requisitos: Atração e Repulsão."
+        },
+        {
+            "name": "Super Choque",
+            "description": "Quando usa Dínamo Vivo para disparar raios, você causa 1d12 pontos de dano de eletricidade por carga gasta e pode gastar +1 PM para ignorar a redução de eletricidade do alvo. Além disso, enquanto tiver cargas de eletricidade, seus acertos críticos corpo a corpo com armas naturais e armas metálicas deixam o alvo atordoado por uma rodada (apenas uma vez por cena; Fortitude CD Con evita). Finalmente, você pode usar Dínamo Vivo para gerar cargas de eletricidade como uma ação livre, uma vez por rodada. Requisitos: Escudo Cintilante, Salto Trovejante."
+        }
+    ]
+}

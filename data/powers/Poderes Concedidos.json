@@ -178,6 +178,10 @@
       "description": "Você pode gastar uma ação padrão e 2 PM para entoar uma canção de superação e paz. Criaturas escolhidas (limitadas por seu Carisma) em alcance curto recebem +2 em testes (exceto testes de ataque) e +3m de deslocamento até o fim da cena. Se uma criatura afetada for executar uma ação hostil, perde esses bônus."
     },
     {
+      "name": "Canção da Pedra Allihanna, Megalokk [DB]",
+      "description": "Você pode usar Religião em vez de Ofício para testes relacionados a grandes estruturas de pedra, como veículos e construções, e no lugar de Pilotagem para conduzir veículos de pedra. Além disso, aprende e pode lançar Transmutar Objetos (apenas em objetos de pedra) e, se puder lançar magias divinas de 3º círculo, aprende e pode lançar Controlar Terra. Caso aprenda novamente essas magias, seu custo diminui em –1 PM. Apenas druidas podem escolher este poder."
+    },
+    {
       "name": "Canção Divina Canora",
       "description": "Você pode usar Sabedoria para Atuação (em vez de Carisma) e como atributo-chave de suas magias de bardo (se as tiver). Além disso, aprende e pode lançar a magia Despedaçar. Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
     },
@@ -284,6 +288,10 @@
     {
       "name": "Disparo Sublime Cette",
       "description": "Você pode gastar uma ação de movimento e 2 PM para fazer um teste de Percepção (CD 15 + ND da criatura) contra uma criatura em alcance médio. Se passar no teste e acertar um ataque com arco contra o alvo na mesma rodada, esse ataque é um acerto crítico automático. Se for o paladino de Cette, você pode usar Golpe Divino com ataques com arco à distância."
+    },
+    {
+      "name": "Dívida Sagrada Eucharion [RT20]",
+      "description": "Uma vez por rodada, quando recebe um efeito benéfico, você pode pagar 2 PM para conceder o mesmo efeito a um aliado em alcance curto."
     },
     {
       "name": "Dom da Esperança Marah",
@@ -660,6 +668,10 @@
     {
       "name": "Perceber Farsas Tanna-Toh",
       "description": "Você recebe +5 em Intuição e se torna imune a efeitos de ilusão."
+    },
+    {
+      "name": "Percepção de Masmorra Hyninn [DB]",
+      "description": "Uma vez por cena, você tem sucesso automático em testes de Investigação para encontrar armadilhas realizados no subterrâneo ou dentro de uma masmorra."
     },
     {
       "name": "Percepção Temporal Aharadak",

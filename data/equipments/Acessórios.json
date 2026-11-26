@@ -38,6 +38,12 @@
       "category": "Médio"
     },
     {
+      "name": "Âncora naufragista [DB]",
+      "price": "T$ 3.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
       "name": "Anel da beleza ilusória",
       "price": "T$ 21.000",
       "spaces": "1",
@@ -236,6 +242,12 @@
       "category": "Médio"
     },
     {
+      "name": "Bússola das lágrimas [DB]",
+      "price": "T$ 3.500",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
       "name": "Caixa dos ecos perdidos",
       "price": "T$ 10.500",
       "spaces": "1",
@@ -266,6 +278,12 @@
       "category": "Médio"
     },
     {
+      "name": "Cetro do poder usurpado [RT20]",
+      "price": "T$ 9.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
       "name": "Chapéu do disfarce",
       "price": "T$ 6.000",
       "spaces": "1",
@@ -288,6 +306,12 @@
       "price": "T$ 60.000",
       "spaces": "1",
       "category": "Maior"
+    },
+    {
+      "name": "Chave mestra [DB]",
+      "price": "T$ 25.500",
+      "spaces": "1",
+      "category": "Médio"
     },
     {
       "name": "Chifre de unicórnio",
@@ -410,6 +434,12 @@
       "category": "Médio"
     },
     {
+      "name": "Coroa das serpes [RT20]",
+      "price": "T$ 9.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
       "name": "Coroa de flores",
       "price": "T$ 9.000",
       "spaces": "1",
@@ -420,6 +450,12 @@
       "price": "T$ 25.500",
       "spaces": "1",
       "category": "Médio"
+    },
+    {
+      "name": "Corso sombrio [DB]",
+      "price": "T$ 2.500",
+      "spaces": "1",
+      "category": "Menor"
     },
     {
       "name": "Cristal da voz silenciosa",
@@ -514,6 +550,12 @@
     {
       "name": "Ferraduras da velocidade",
       "price": "T$ 3.000",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Figurino teatral",
+      "price": "T$ 3.600",
       "spaces": "1",
       "category": "Menor"
     },
@@ -686,10 +728,22 @@
       "category": "Médio"
     },
     {
+      "name": "Máscara do drama e da comédia",
+      "price": "",
+      "spaces": "1",
+      "category": "Médio"
+    },
+    {
       "name": "Máscara do predador",
       "price": "T$ 22.500",
       "spaces": "1",
       "category": "Médio"
+    },
+    {
+      "name": "Máscara do sol dourado [DB]",
+      "price": "T$ 9.000",
+      "spaces": "1",
+      "category": "Menor"
     },
     {
       "name": "Medalhão de Lena",
@@ -790,6 +844,12 @@
     {
       "name": "Pingente da sensatez",
       "price": "T$ 4.500",
+      "spaces": "1",
+      "category": "Menor"
+    },
+    {
+      "name": "Pingente rubro [DB]",
+      "price": "T$ 3.000",
       "spaces": "1",
       "category": "Menor"
     },

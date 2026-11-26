@@ -126,6 +126,10 @@
       "description": "Se estiver usando uma armadura pesada, você recebe +2 na Defesa. Esse bônus aumenta em +2 para cada outro poder que você possua que tenha Encouraçado como pré-requisito. Pré-requisito: proficiência com armaduras pesadas."
     },
     {
+      "name": "Enigma da Espada [RT20]",
+      "description": "Quando faz um teste de Conhecimento para trocar o modo da sua espada enigma, você pode usar o resultado como um teste para ajudar (Tormenta20, p. 221) seu próximo teste de ataque com a arma nesse turno. Esse bônus também se aplica à rolagem de dano do ataque. Além disso, uma vez por rodada, se fizer uma ação agredir e acertar pelo menos um ataque com a espada enigma, você pode gastar PM para ferir um dos alvos atingidos, à sua escolha. Cada PM gasto (limitado pela quantidade de modos da espada enigma usados na ação agredir) causa a perda de 1d10 PV. Pré-requisitos: proficiência com espada enigma, treinado em Conhecimento e Luta."
+    },
+    {
       "name": "Escudo Heroico",
       "description": "Você pode empunhar e soltar seu escudo como ação livre e, quando ataca com ele, pode tratá-lo como uma arma de arremesso com alcance curto. Sempre que arremessa o escudo, você pode gastar 1 PM. Se fizer isso e acertar o ataque, você pode fazer com que ele retorne à sua mão (pegá-lo é uma reação) ou ricocheteie contra outro alvo; nesse caso, você faz um novo ataque à distância com uma penalidade cumulativa de –5. Você pode continuar atacando novos alvos até recuperar o escudo ou errar um ataque. Pré-requisito: Ataque com Escudo.Você pode empunhar e soltar seu escudo como ação livre e, quando ataca com ele, pode tratá-lo como uma arma de arremesso com alcance curto. Sempre que arremessa o escudo, você pode gastar 1 PM. Se fizer isso e acertar o ataque, você pode fazer com que ele retorne à sua mão (pegá-lo é uma reação) ou ricocheteie contra outro alvo; nesse caso, você faz um novo ataque à distância com uma penalidade cumulativa de –5. Você pode continuar atacando novos alvos até recuperar o escudo ou errar um ataque. Pré-requisito: Ataque com Escudo."
     },
@@ -200,6 +204,10 @@
     {
       "name": "Matador de Monstros",
       "description": "Você recebe +1d10 nas rolagens de dano contra criaturas de tamanho Grande ou maior, e essas criaturas não recebem bônus por tamanho em testes de manobras de combate contra você. Pré-requisito: 5º nível de personagem."
+    },
+    {
+      "name": "Método Zaratt [RT20]",
+      "description": "Você pode usar habilidades exclusivas para ataques desarmados (como Golpe Relâmpago) com um katar. Além disso, se tiver um bônus em ataque ou dano para ataque desarmado ou katar (como Foco em Arma), pode aplicá-lo a ambos. Isso não permite acumular bônus vindos do mesmo poder. Finalmente, se acertar o mesmo alvo com um ataque com katar e um ataque desarmado no mesmo turno, você pode gastar 2 PM para fazer um ataque adicional com katar. Some o dano fixo (dano normal, exceto os dados de dano) do seu ataque desarmado ao dano desse ataque. Pré-requisitos: proficiente com katar, Briga ou Estilo Desarmado, Esquiva, Foco em Arma (ataque desarmado ou katar)."
     },
     {
       "name": "Mira Apurada",

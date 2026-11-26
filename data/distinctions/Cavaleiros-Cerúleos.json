@@ -1,0 +1,30 @@
+{
+    "name": "Cavaleiros Cerúleos [RT20]",
+    "admission": "O candidato deve ser aceito em Monteclaro, seja por meio de fama adquirida por um grande ato heroico ou por recomendação de outro cavaleiro cerúleo. Durante sua estadia no castelo, ele será observado por Sir Aegoron e outros cavaleiros mais experientes, que submeterão o candidato a um treinamento incluindo pelo menos uma missão para a ordem (uma pequena aventura criada pelo mestre) para demonstrar suas habilidades e honra. Se um “coração livre” — expressão da Ordem para pessoas de coração bondoso, livre da maldade — for identificado durante essa observação, o cavaleiro e sua montaria serão convidados a participar do difícil Teste das Duas Asas.\nNo teste, o aspirante e sua montaria são colocados em lados opostos de um labirinto na masmorra de Monteclaro. Eles devem se encontrar no centro do local, onde há uma abertura no chão que mostra a encosta da montanha. É uma queda sem fim. Aquele que possuir a coragem para saltar e conseguir convencer sua montaria a fazer o mesmo é salvo da morte certa pelos demais cavaleiros e prontamente sagrado como diligente cavaleiro cerúleo.",
+    "abilities": [
+        {
+            "name": "Voar é Viver",
+            "description": "Se estiver montado, você pode gastar 1 PM para que sua montaria ganhe asas mágicas até o fim da cena. Uma montaria com essas asas fornece deslocamento de voo 12m (além de seus demais benefícios). Caso ela já forneça esse tipo de deslocamento, em vez disso seu deslocamento de voo aumenta em +6m.\nAlém disso, se já não seguia o Código de Honra (Tormenta20, p. 53), passa a segui-lo."
+        },
+        {
+            "name": "Investida Cerúlea",
+            "description": "Quando faz uma investida montada usando uma montaria voadora, você pode gastar 1 PM. Caso faça isso, seu movimento de subida não custa o dobro, você não precisa se mover em linha reta e não sofre a penalidade na Defesa pela investida. Além disso, recebe +1d8 na rolagem de dano com seu primeiro ataque nessa ação. Para cada dois outros poderes de cavaleiro cerúleo que você possuir, esse dado adicional de dano aumenta em um passo. Pré-requisitos: Carga de Cavalaria, um parceiro montaria."
+        },
+        {
+            "name": "Acrobacia Aérea",
+            "description": "Enquanto estiver em uma montaria voadora, você ignora a penalidade de armadura em Acrobacia e, se estiver de armadura pesada, recebe +1 na Defesa. Para cada outro poder de cavaleiro cerúleo que possuir, este bônus aumenta em +1. Você não pode usar esse poder se estiver sob efeito de uma condição de movimento. Pré-requisitos: treinado em Acrobacia, Investida Cerúlea."
+        },
+        {
+            "name": "Criar o Firmamento",
+            "description": "Quando faz um ataque corpo a corpo, você pode fazer um teste de Acrobacia (CD igual à Defesa do alvo, +5 para cada outra vez que tiver usado este poder neste turno); você recebe +2 neste teste se estiver em uma montaria voadora. Se passar, seu ataque conta como uma investida para todos os efeitos (mas você não precisa percorrer uma distância mínima). Se falhar, você perde 1 PM devido ao esforço. Pré-requisito: Acrobacia Aérea."
+        },
+        {
+            "name": "Nuvem de Aço",
+            "description": "Enquanto estiver sobre uma montaria voadora, sempre que sofrer dano, você pode gastar 2 PM para fazer uma pirueta defensiva. Você faz um teste de Acrobacia, com uma penalidade –5 para cada outra vez que tiver usado este poder nesta rodada, e reduz o dano sofrido em um valor igual ao resultado deste teste. Além disso, se a regra de parceiros vulneráveis se aplicar a sua montaria (Tormenta20, p. 262), o dado rolado para determinar se ela é ferida ou morta aumenta em um passo. Pré-requisito: Investida Cerúlea."
+        },
+        {
+            "name": "Proteger Sempre",
+            "description": "Quando você encerra seu turno adjacente a um ou mais aliados, esses aliados recebem +2 na Defesa e em Reflexos. Se um desses aliados for alvo de um efeito, você pode gastar 2 PM para trocar de lugar com ele e se tornar o alvo. Se fizer isso, você recebe RD 5 e +2 nos testes de resistência contra o efeito. A RD aumenta em +5 e o bônus em resistência aumenta em +1 para cada dois outros poderes de cavaleiro cerúleo que você possuir. Você não pode usar esse poder se estiver sob efeito de uma condição de movimento. Pré-requisitos: treinado em Reflexos, Investida Cerúlea."
+        }
+    ]
+}

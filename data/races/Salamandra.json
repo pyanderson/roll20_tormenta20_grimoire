@@ -1,0 +1,37 @@
+{
+    "name": "Salamandra",
+    "displacement": 9,
+    "size": "Médio",
+    "attributes": [
+      {
+        "attr": "con",
+        "mod": 2
+      },
+      {
+        "attr": "des",
+        "mod": 1
+      },
+      {
+        "attr": "car",
+        "mod": -1
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Calor Natural",
+        "description": "Você recebe +2 em Ofício (ferreiro) e pode gastar 2 PM para causar +1d6 pontos de dano de fogo com seus ataques até o fim da cena."
+      },
+      {
+        "name": "Cauda",
+        "description": "Você possui uma arma natural de cauda (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a cauda."
+      },
+      {
+        "name": "Cria das Chamas",
+        "description": "Você é uma criatura do tipo espírito e recebe redução de fogo 10 e visão no escuro."
+      },
+      {
+        "name": "Fraqueza Glacial",
+        "description": "Você sofre –5 em testes contra efeitos de frio e sofre 1 ponto de dano adicional por dado de dano de frio."
+      }
+    ]
+  }

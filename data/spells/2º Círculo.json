@@ -31,7 +31,7 @@
     {
       "area": "",
       "circle": "2",
-      "description": "Esta magia aumenta ou diminui o tamanho de um item mundano em até três categorias (um objeto Enorme vira Pequeno, por exemplo). Você também pode mudar a consistência do item, deixando-o rígido como pedra ou flexível como seda (isso não altera sua RD ou PV, apenas suas propriedades físicas). Se lançar a magia num objeto de uma criatura involuntária, ela pode fazer um teste de Vontade para anulá-la.",
+      "description": "Esta magia aumenta ou diminui o tamanho de um item mundano em até três categorias (um objeto Enorme vira Pequeno, por exemplo). Você também pode mudar a consistência do item, deixando-o rígido como pedra ou flexível como seda (isso não altera sua RD ou PV, apenas suas propriedades físicas). Se lançar a magia num objeto de uma criatura involuntária, ela pode fazer um teste de Vontade para evitá-la.",
       "duration": "1 dia",
       "effect": "",
       "execution": "padrão",
@@ -50,7 +50,7 @@
         },
         {
           "cost": "+7 PM",
-          "description": "muda o alcance para toque, o alvo para 1 criatura, a duração para permanente e a resistência para Fortitude anula. Em vez do normal, se falhar na resistência o alvo e seu equipamento têm seu tamanho mudado para Minúsculo. O alvo também tem seu valor de Força reduzido a 1 e suas formas de deslocamento reduzidas a 3m. Requer 4o círculo."
+          "description": "muda o alcance para toque, o alvo para 1 criatura, a duração para permanente e a resistência para Fortitude evita. Em vez do normal, se falhar na resistência o alvo e seu equipamento têm seu tamanho mudado para Minúsculo. O alvo também tem seu valor de Força reduzido a 1 e suas formas de deslocamento reduzidas a 3m. Requer 4o círculo."
         }
       ],
       "name": "Alterar Tamanho",
@@ -82,7 +82,7 @@
       ],
       "name": "Amarras Etéreas",
       "range": "médio",
-      "resistance": "Reflexos anula",
+      "resistance": "Reflexos evita",
       "target": "1 criatura",
       "type": "Arcana 2 (Convocação)"
     },
@@ -348,6 +348,48 @@
     {
       "area": "",
       "circle": "2",
+      "description": "Você conjura quatro noggs capangas de tamanho Médio em espaços desocupados dentro do alcance. Você pode gastar uma ação de movimento para fazer os noggs andarem (eles têm deslocamento 9m) ou uma ação padrão para fazê-los causar dano a criaturas adjacentes (2d6 pontos de dano de corte cada). Os noggs são construtos com For 3, Des 1, Def 15 e todos os outros atributos nulos; eles têm 11 PV e falham automaticamente em qualquer teste de resistência ou oposto, mas são imunes a ácido e têm redução de corte e perfuração 5. Eles desaparecem quando são reduzidos a 0 PV ou no fim da cena. Os noggs não agem sem receber uma ordem. Usos criativos para capangas fora de combate ficam a critério do mestre.",
+      "duration": "sustentada",
+      "effect": "4 noggs conjurados",
+      "execution": "completa",
+      "implements": [
+        {
+          "cost": "+2 PM",
+          "description": "aumenta o número de noggs conjurados em +1."
+        },
+        {
+          "cost": "+2 PM",
+          "description": "os noggs ganham a capacidade de atacar em equipe. Quando mais de um nogg ataca a mesma criatura no mesmo turno, seu dano total é somado e aplicado ao alvo como se fosse uma única fonte de dano. Requer 3º círculo."
+        }
+      ],
+      "name": "Conjurar Noggs",
+      "range": "curto",
+      "resistance": "",
+      "target": "",
+      "type": "Arcana 2 (Convocação)"
+    },
+    {
+      "area": "veja texto",
+      "circle": "2",
+      "description": "Você pode controlar os movimentos e comportamentos de massas de ar. Ao lançar a magia, escolha um dos efeitos abaixo.\nAscender: cria uma corrente de ar ascendente capaz de erguer do chão uma criatura ou objeto Médio, fazendo o alvo flutuar para cima e para baixo conforme sua vontade. Você pode gastar uma ação de movimento para subir ou descer o alvo até 6m por rodada, até um máximo de 30m de altura. Você não pode mover o alvo horizontalmente — mas o alvo pode, por exemplo, escalar uma colina ou se apoiar no teto para mover-se lateralmente (com metade de seu deslocamento normal). Uma criatura levitando fica vulnerável e sofre –2 em testes de ataque. Alvos involuntários têm direito a um teste de Fortitude no início de seu turno para evitar o efeito. Derrubar um alvo flutuando (simplesmente parando a corrente de ar) causa o dano normal de queda, mas um alvo que passe no teste pode “nadar” para o chão contra a corrente. Você pode usar essa opção para fazer uma manobra derrubar contra uma criatura voadora dentro do alcance, usando seu atributo-chave de magias no lugar de Força.\nSopro: cria uma lufada de vento a partir de suas mãos, que empurra qualquer criatura Média ou menor em um cone de 4,5m — faça uma manobra empurrar usando seu atributo-chave ao invés de força, usando o mesmo resultado de sua rolagem para todos os alvos. A lufada de vento também faz qualquer coisa que um vento forte e súbito faria, como levantar pó, dispersar vapores, apagar chamas, espalhar papéis ou mover uma embarcação. Manter o sopro ativo exige uma ação padrão.\nVento: cria uma área de vento forte (Tormenta20 Jogo do Ano, página 267) dentro do alcance da magia. Se lançada numa área que já esteja com algum efeito de vento, aumenta esse efeito em um passo. Manter o vento ativo requer uma ação de movimento. Você também pode usar essa opção para reduzir os efeitos de vento em uma área.",
+      "duration": "cena",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+2 PM",
+          "description": "aumenta o limite de tamanho de criaturas e objetos afetados em um passo."
+        }
+      ],
+      "name": "Controlar Ar [DB]",
+      "range": "médio",
+      "resistance": "veja texto",
+      "target": "",
+      "type": "Divina 2 (Transmutação)"
+    },
+    {
+      "area": "",
+      "circle": "2",
       "description": "Você pode criar, moldar, mover ou extinguir chamas e emanações de calor. Ao lançar a magia, escolha um dos efeitos.\nChamejar: o alvo é armas escolhidas. Elas causam +1d6 de dano de fogo. Também afeta armas naturais e ataques desarmados.\nEsquentar: o alvo é 1 objeto, que começa a esquentar. Ele sofre 1d6 pontos de dano de fogo por rodada e causa o mesmo dano a qualquer criatura que o esteja segurando ou vestindo. A critério do mestre, o objeto ou a criatura vestindo-o também podem fica em chamas. Uma criatura pode gastar uma ação completa para resfriar o objeto (jogando areia ou se jogando numa fonte de água próxima, por exemplo) e cancelar o efeito da magia.\nExtinguir: o alvo é 1 chama de tamanho Grande ou menor, que é apagada. Isso cria uma nuvem de fumaça que ocupa uma esfera de 3m de raio centrada onde estava a chama. Dentro da fumaça, criaturas têm camuflagem leve.\nModelar: o alvo é 1 chama de tamanho Grande ou menor. A cada rodada, você pode gastar uma ação livre para movimentá-la 9m em qualquer direção. Se atravessar o espaço ocupado por uma criatura, causa 2d6 pontos de dano de fogo. Uma criatura só pode receber dano dessa maneira uma vez por rodada.",
       "duration": "cena",
       "effect": "",
@@ -375,7 +417,7 @@
     {
       "area": "",
       "circle": "2",
-      "description": "Você molda, retorce, altera ou repele madeira. Se lançar esta magia num objeto de uma criatura involuntária, ela tem direito a um teste de Vontade para anulá-la. Ao lançar a magia, escolha.\nFortalecer: deixa o alvo mais resistente. Armas têm seu dano aumentado em um passo. Escudos têm seu bônus de Defesa aumentado em +2 (isso é uma melhoria no item, portanto é cumulativa com outras magias). Esses e outros itens de madeira recebem +5 na RD e dobram seus PV.\nModelar: muda a forma do alvo. Pode transformar um galho em espada, criar uma porta onde antes havia apenas uma parede, transformar um tronco em uma caixa... Mas não pode criar mecanismos complexos (como uma besta) ou itens consumíveis.\nRepelir: o alvo é repelido por você. Se for uma arma, ataques feitos com ela contra você falham automaticamente. Se for uma porta ou outro objeto que possa ser aberto, ele vai se abrir quando você se aproximar, mesmo que esteja trancado. Um objeto que vá atingi-lo, como uma carroça, tronco ou barril, vai desviar ou parar adjacente a você, sem lhe causar dano. Os efeitos de regras em outros objetos de madeira ficam a cargo do mestre.\nRetorcer: estraga o alvo. Uma porta retorcida emperra (exigindo um teste de Força contra CD 25 para ser aberta). Armas e itens retorcidos impõem –5 em testes de perícia. Escudos retorcidos deixam de oferecer bônus (mas ainda impõem penalidades). Um barco retorcido começa a afundar e naufraga ao final da cena. Os efeitos de regras em outros objetos de madeira ficam a cargo do mestre.",
+      "description": "Você molda, retorce, altera ou repele madeira. Se lançar esta magia num objeto de uma criatura involuntária, ela tem direito a um teste de Vontade para evitá-la. Ao lançar a magia, escolha.\nFortalecer: deixa o alvo mais resistente. Armas têm seu dano aumentado em um passo. Escudos têm seu bônus de Defesa aumentado em +2 (isso é uma melhoria no item, portanto é cumulativa com outras magias). Esses e outros itens de madeira recebem +5 na RD e dobram seus PV.\nModelar: muda a forma do alvo. Pode transformar um galho em espada, criar uma porta onde antes havia apenas uma parede, transformar um tronco em uma caixa... Mas não pode criar mecanismos complexos (como uma besta) ou itens consumíveis.\nRepelir: o alvo é repelido por você. Se for uma arma, ataques feitos com ela contra você falham automaticamente. Se for uma porta ou outro objeto que possa ser aberto, ele vai se abrir quando você se aproximar, mesmo que esteja trancado. Um objeto que vá atingi-lo, como uma carroça, tronco ou barril, vai desviar ou parar adjacente a você, sem lhe causar dano. Os efeitos de regras em outros objetos de madeira ficam a cargo do mestre.\nRetorcer: estraga o alvo. Uma porta retorcida emperra (exigindo um teste de Força contra CD 25 para ser aberta). Armas e itens retorcidos impõem –5 em testes de perícia. Escudos retorcidos deixam de oferecer bônus (mas ainda impõem penalidades). Um barco retorcido começa a afundar e naufraga ao final da cena. Os efeitos de regras em outros objetos de madeira ficam a cargo do mestre.",
       "duration": "cena",
       "effect": "",
       "execution": "padrão",
@@ -400,7 +442,7 @@
       "name": "Controlar Madeira",
       "range": "médio",
       "resistance": "",
-      "target": "1objeto de madeira grande ou menor",
+      "target": "1 objeto de madeira grande ou menor",
       "type": "Divina 2 (Transmutação)"
     },
     {
@@ -564,7 +606,7 @@
     {
       "area": "ou esfera com 3m de raio",
       "circle": "2",
-      "description": "Você dissipa outras magias que estejam ativas, como se sua duração tivesse acabado. Note que efeitos de magias instantâneas não podem ser dissipados (não se pode dissipar uma Bola de Fogo ou Relâmpago depois que já causaram dano...). Se lançar essa magia em uma criatura ou área, faça um teste de Misticismo; você dissipa as magias com CD igual ou menor que o resultado do teste. Se lançada contra um item mágico, o transforma em um item mundano por 1d6 rodadas (Vontade anula).",
+      "description": "Você dissipa outras magias que estejam ativas, como se sua duração tivesse acabado. Note que efeitos de magias instantâneas não podem ser dissipados (não se pode dissipar uma Bola de Fogo ou Relâmpago depois que já causaram dano...). Se lançar essa magia em uma criatura ou área, faça um teste de Misticismo; você dissipa as magias com CD igual ou menor que o resultado do teste. Se lançada contra um item mágico, o transforma em um item mundano por 1d6 rodadas (Vontade evita).",
       "duration": "instantânea",
       "effect": "",
       "execution": "padrão",
@@ -645,7 +687,7 @@
       ],
       "name": "Esculpir Sons",
       "range": "médio",
-      "resistance": "Vontade anula",
+      "resistance": "Vontade evita",
       "target": "1 criatura ou objeto",
       "type": "Arcana 2 (Ilusão)"
     },
@@ -903,9 +945,28 @@
       ],
       "name": "Marca da Obediência",
       "range": "toque",
-      "resistance": "Vontade anula",
+      "resistance": "Vontade evita",
       "target": "1 criatura",
       "type": "Universal 2 (Encantamento)"
+    },
+    {
+      "area": "",
+      "circle": "2",
+      "description": "Esta magia permite que você grave todos os detalhes relacionados a uma cena na sua mente. Enquanto tiver uma memória gravada, você recebe +5 em testes relacionados a informações da cena memorizada (o mestre tem a palavra final sobre esse bônus ser ou não aplicável em um teste). O limite máximo de memórias que você pode gravar é igual a 1 por patamar de personagem (1 enquanto for iniciante, 2 enquanto for veterano e assim por diante) + seu atributo-chave de magias. Se alcançar o limite de memórias, você precisa esquecer uma delas (descarregando o efeito desta magia e perdendo seu bônus) antes de gravar memórias novas.",
+      "duration": "permanente até ser descarregada",
+      "effect": "",
+      "execution": "padrão",
+      "implements": [
+        {
+          "cost": "+3 PM",
+          "description": "muda o bônus em testes para +10. Requer 4º círculo."
+        }
+      ],
+      "name": "Memorizar Conhecimento [DB]",
+      "range": "pessoal",
+      "resistance": "",
+      "target": "você",
+      "type": "Universal 2 (Adivinhação)"
     },
     {
       "area": "",
@@ -956,11 +1017,11 @@
         },
         {
           "cost": "+3 PM",
-          "description": "muda o alcance para toque, o alvo para 1 criatura e adiciona resistência (Vontade anula)."
+          "description": "muda o alcance para toque, o alvo para 1 criatura e adiciona resistência (Vontade evita)."
         },
         {
           "cost": "+3 PM",
-          "description": "muda o alcance para médio, o alvo para 1 criatura e a resistência para Vontade anula. Em vez do normal, transforma o alvo em uma criatura ou objeto inofensivo (ovelha, sapo, galinha, pudim de ameixa etc.). A criatura não pode atacar, falar e lançar magias; seu deslocamento vira 3m e sua Defesa vira 10. Suas outras características não mudam. No início de seus turnos, o alvo pode fazer um teste de Vontade; se passar, retorna à sua forma normal e a magia termina. Requer 3º círculo."
+          "description": "muda o alcance para médio, o alvo para 1 criatura e a resistência para Vontade evita. Em vez do normal, transforma o alvo em uma criatura ou objeto inofensivo (ovelha, sapo, galinha, pudim de ameixa etc.). A criatura não pode atacar, falar e lançar magias; seu deslocamento vira 3m e sua Defesa vira 10. Suas outras características não mudam. No início de seus turnos, o alvo pode fazer um teste de Vontade; se passar, retorna à sua forma normal e a magia termina. Requer 3º círculo."
         },
         {
           "cost": "+5 PM",
@@ -991,7 +1052,7 @@
       "implements": [
         {
           "cost": "Truque",
-          "description": "muda o alcance para toque, a área para alvo (1 criatura com 0 PV ou menos), a duração para instantânea e a resistência para Fortitude anula. e adiciona componente material (pó de ônix no valor de T$ 10). Em vez do normal, você canaliza o Miasma contra uma vítima. Se falhar na resistência, ela morre e você recebe +2 na CD de suas magias por 1 dia. Se passar, fica imune a este truque por um dia."
+          "description": "muda o alcance para toque, a área para alvo (1 criatura com 0 PV ou menos), a duração para instantânea e a resistência para Fortitude evita. e adiciona componente material (pó de ônix no valor de T$ 10). Em vez do normal, você canaliza o Miasma contra uma vítima. Se falhar na resistência, ela morre e você recebe +2 na CD de suas magias por 1 dia. Se passar, fica imune a este truque por um dia."
         },
         {
           "cost": "+2 PM",
@@ -1305,7 +1366,7 @@
       ],
       "name": "Rogar Maldição",
       "range": "curto",
-      "resistance": "Fortitude anula",
+      "resistance": "Fortitude evita",
       "target": "1 criatura",
       "type": "Divina 2 (Necromancia)"
     },
@@ -1323,7 +1384,7 @@
         },
         {
           "cost": "+1 PM",
-          "description": "muda o alvo para “você” e o alcance para “pessoal”. Ao invés do normal, escolha uma magia de 1º círculo que você conhece e pode lançar, com tempo de execução de uma ação padrão ou menor. Você escreve a runa em seu corpo e especifica uma condição de ativação como, por exemplo, “quando eu for alvo de um ataque” ou “quando for alvo de uma magia”. Quando a condição for cumprida, você pode ativar a runa e lançar a magia escolhida como uma reação. Você só pode escrever uma runa em seu corpo ao mesmo tempo."
+          "description": "muda o alvo para “você” e o alcance para “pessoal”. Ao invés do normal, escolha uma magia de 1º círculo que você conhece e pode lançar, com tempo de execução de uma ação padrão, de movimento ou livre. Você escreve a runa em seu corpo e especifica uma condição de ativação como, por exemplo, “quando eu for alvo de um ataque” ou “quando for alvo de uma magia”. Quando a condição for cumprida, você pode ativar a runa e lançar a magia escolhida como uma reação. Você só pode escrever uma runa em seu corpo ao mesmo tempo."
         },
         {
           "cost": "+3 PM",
@@ -1400,7 +1461,7 @@
       "implements": [
         {
           "cost": "+1 PM",
-          "description": "muda a área para alvo de 1 objeto. Em vez do normal, o alvo emana uma área de silêncio com 3m de raio. Se lançar a magia num objeto de uma criatura involuntária, ela tem direito a um teste de Vontade para anulá-la."
+          "description": "muda a área para alvo de 1 objeto. Em vez do normal, o alvo emana uma área de silêncio com 3m de raio. Se lançar a magia num objeto de uma criatura involuntária, ela tem direito a um teste de Vontade para evitá-la."
         },
         {
           "cost": "+2 PM",
@@ -1490,7 +1551,7 @@
       ],
       "name": "Sussurros Insanos",
       "range": "curto",
-      "resistance": "Vontade anula",
+      "resistance": "Vontade evita",
       "target": "1 humanoide",
       "type": "Arcana 2 (Encantamento)"
     },

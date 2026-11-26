@@ -69,6 +69,10 @@
       "description": "Se estiver usando uma arma de ataque à distância, você soma sua Sabedoria nas rolagens de dano (limitado pelo seu nível). Pré-requisito: Sab 1."
     },
     {
+      "name": "Arsenal do Deserto [DB]",
+      "description": "Você recebe +2 nas rolagens de dano com azagaias, cimitarras e lanças e considera essas armas como leves."
+    },
+    {
       "name": "Aumento de Atributo",
       "description": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo."
     },
@@ -110,7 +114,7 @@
     },
     {
       "name": "Emboscar",
-      "description": "Você pode gastar 2 PM para realizar uma ação padrão adicional em seu turno. Você só pode usar este poder na primeira rodada de um combate. Pré-requisito: treinado em Furtividade."
+      "description": "Uma vez na primeira rodada de cada combate, você pode gastar 2 PM para executar uma ação padrão adicional em seu turno. Pré-requisito: treinado em Furtividade."
     },
     {
       "name": "Empatia Selvagem",
@@ -119,6 +123,10 @@
     {
       "name": "Escaramuça",
       "description": "Quando se move 6m ou mais, você recebe +2 na Defesa e Reflexos e +1d8 nas rolagens de dano de ataques corpo a corpo e à distância em alcance curto até o início de seu próximo turno. Você não pode usar esta habilidade se estiver vestindo armadura pesada. Pré-requisito: Des 2, 6º nível de caçador."
+    },
+    {
+      "name": "Escaramuça Distante [DB]",
+      "description": "Você pode usar Escaramuça e Dança da Areia contra alvos em alcance médio."
     },
     {
       "name": "Escaramuça Superior",
@@ -173,6 +181,14 @@
       "description": "Você pode usar a habilidade Marca da Presa em criaturas em alcance longo."
     },
     {
+      "name": "Passo Duplo [DB]",
+      "description": "Uma vez por rodada, se estiver usando Escaramuça ou Dança da Areia e usar a ação agredir para fazer um ataque corpo a corpo com uma arma leve, você pode gastar 2 PM para fazer um ataque adicional. Pré-requisito: Dança da Areia ou Escaramuça, 5º nível de caçador."
+    },
+    {
+      "name": "Passos Precisos [DB]",
+      "description": "Enquanto estiver usando Escaramuça ou Dança da Areia, você recebe +2 na margem de ameaça de seus ataques."
+    },
+    {
       "name": "Pega!",
       "description": "Você pode gastar uma ação de movimento e 1 PM para fazer a manobra agarrar contra uma criatura em alcance curto usando Adestramento em vez de Luta, usando seu companheiro animal para isso. Se o alvo estiver sob efeito de sua Marca da Presa, você soma os dados dessa habilidade como um bônus no teste. A criatura permanece agarrada até vencer um teste de manobra contra seu companheiro animal (como acima) ou até você mandar seu animal soltá-la (uma ação livre). Pré-requisito: Companheiro Animal."
     },
@@ -195,6 +211,10 @@
     {
       "name": "Sombra dos Ermos",
       "description": "Você pode gastar uma ação de movimento e 1 PM para receber camuflagem leve com duração sustentada. Pré-requisito: Camuflagem."
+    },
+    {
+      "name": "Tesouros da Natureza [DB]",
+      "description": "Sempre que for bem-sucedido em montar um acampamento em terreno natural, você encontra frutos, insetos ou outros recursos naturais que ajudam a recuperar as energias. Cada personagem acampado recupera 1 PM por patamar em que você está."
     },
     {
       "name": "Tiro de Abate",
@@ -251,6 +271,22 @@
     {
       "name": "Mestre do Disparo (Seteiro)",
       "description": "No 20° nível, você pode usar sua Marca da Presa como uma ação livre. Além disso, uma vez por rodada, quando faz um ataque com um arco ou besta contra um alvo de sua Marca da Presa, você pode fazer um ataque adicional contra ele."
+    },
+    {
+      "name": "Dança da Areia (Miragem) [DB]",
+      "description": "Você pode gastar 1 PM para iniciar uma dança da areia. Enquanto executa essa dança, você recebe um bônus de +1d4 em suas rolagens de dano com armas contra alvos em alcance curto. A cada quatro níveis, você pode gastar +1 PM para aumentar o dado de bônus de dano em um passo (veja a tabela da classe). A dança termina ao final da cena ou se você passar uma rodada sem percorrer pelo menos 6m sem passar pelo mesmo espaço duas vezes. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel."
+    },
+    {
+      "name": "Cortina de Poeira (Miragem) [DB]",
+      "description": "No 7º nível, você usa sua velocidade para criar uma nuvem de terra ou outros detritos para obscurecer a visão de seus inimigos. Quando usa Dança da Areia, você pode gastar +3 PM para receber camuflagem leve enquanto sua dança estiver ativa."
+    },
+    {
+      "name": "Passo do Deserto (Miragem) [DB]",
+      "description": "A partir do 9º nível, uma vez por rodada você pode gastar 3 PM para entrar no solo e sair em outro espaço desocupado no solo em alcance curto. Tanto o ponto de entrada quanto de saída devem estar em solo macio (como areia, terra ou equivalente) e devem estar conectados pelo mesmo tipo de terreno."
+    },
+    {
+      "name": "Mestre do Deserto (Miragem) [DB]",
+      "description": "No 20º nível, enquanto estiver usando Dança da Areia, quando sofre dano você pode gastar 2 PM para receber RD 20 contra esse dano. Além disso, quando usa a ação agredir durante a Dança da Areia, você pode gastar 2 PM para fazer um ataque adicional."
     },
     {
       "name": "Armadilhas",

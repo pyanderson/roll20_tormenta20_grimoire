@@ -1,0 +1,37 @@
+{
+  "name": "Lâmia",
+  "displacement": 12,
+  "size": "Grande",
+  "attributes": [
+    {
+      "attr": "car",
+      "mod": 2
+    },
+    {
+      "attr": "sab",
+      "mod": 1
+    },
+    {
+      "attr": "con",
+      "mod": -1
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Corpo Felino",
+      "description": "Seu tamanho é Grande e seu deslocamento é 12m. Entretanto, devido ao porte de sua metade humanoide, você conta como Média para fins das armas que usa."
+    },
+    {
+      "name": "Magia das Lâmias",
+      "description": "Você pode lançar duas das magias a seguir (atributo-chave Carisma): Criar Ilusão, Compreensão, Disfarce Ilusório ou Visão Mística. Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
+    },
+    {
+      "name": "Natureza Predadora",
+      "description": "Você é uma criatura do tipo monstro e recebe visão no escuro e +2 em Enganação e Furtividade."
+    },
+    {
+      "name": "Toque Psíquico",
+      "description": "Você possui uma arma natural de toque psíquico (dano 1d6, crítico x2, psíquico). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com o toque psíquico, desde que tenha uma mão livre e ela não tenha sido usada para atacar neste turno."
+    }
+  ]
+}
