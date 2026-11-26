@@ -23,6 +23,21 @@
       "items": [
         {
           "type": "item",
+          "name": "Ajudante Nato",
+          "description": "Você abraçou perfeitamente os ideais comunitários de Ubani. Todos são capazes por conta própria, mas você consegue fazer todos cooperarem ainda mais para ter resultados melhores.\n\nItens. Essência de mana x2, pergaminho com magia de 1º círculo, lança.\n\nBenefício. Você recebe +10 em testes de perícia para ajudar, e pode fazer testes para ajudar mesmo quando não é treinado na perícia. Além disso, você se torna treina- do em uma perícia à sua escolha e recebe um alikunhá (ver Atlas de Arton, p. 471)."
+        },
+        {
+          "type": "item",
+          "name": "Bori Enredado",
+          "description": "Você nasceu com grande potencial arcano, mas sob um mau agouro. As coisas costumam dar errado com você.\n\nItens. Essência de mana, um esotérico a sua escolha (até T$ 500) ou uma zipana.\n\nBenefício. Você recebe +3 pontos de mana e +2 em Misticismo e a CD para resistir a suas magias aumenta em +1. Porém, quando faz um teste e o resultado do d20 é 2 ou 3, você falha automaticamen- te (como se tivesse tirado 1 natural)."
+        },
+        {
+          "type": "item",
+          "name": "Celebrante da Vida",
+          "description": "Alguns habitantes de Ojumajele celebravam a vida. Eram oradores invejáveis, convidados para relembrar os falecidos nos aniversários de suas mortes. A visão de seus trajes pretos elaborados, cobertos de joias, trazia conforto aos corações dos que permaneciam. Ojumajele pode ter sido destruída, mas você ainda segue as tradições, glorifica a memória e convida para o amanhã.\n\nItens. Pergaminho de Bênção, poção de Santuário, símbolo sagrado (Allihanna, Kallyadranoch, Megalokk ou Wynna), traje da corte.\n\nBenefício. Você se torna treinado em Diplomacia e Religião. Enquanto usa um traje da corte, recebe +5 em testes de Diplomacia para mudar atitude de ubaneris."
+        },
+        {
+          "type": "item",
           "name": "Criança do Crepúsculo",
           "description": "Você nasceu no Vale do Crepúsculo (veja Atlas de Arton, p. 380) e, por algum motivo, abandonou a segurança de sua terra natal em busca dos perigos e da aventura que o restante de Arton tem a oferecer.\n\nItens. Uma poção mágica contendo uma magia de 1º círculo (1 PM).\n\nBenefício. Escolha duas de suas habilidades com um custo em PM, uma para dia, outra para noite. Quando usa a habilidade escolhida para dia enquanto sob luz solar ou equivalente, o custo dela diminui em –1 PM e o custo da outra habilidade aumenta em +1 PM. Quando usa a habilidade escolhida para noite sob efeito de escuridão, esses modificadores nos custos se invertem. Por fim, durante o crepúsculo, o custo de ambas as habilidades diminui em –1 PM. Uma vez por patamar acima de iniciante, você pode trocar as habilidades escolhidas. Este poder não pode ser escolhido por construtos ou mortos-vivos."
         },
@@ -35,6 +50,11 @@
           "type": "item",
           "name": "Nômade Ferani",
           "description": "Trog ou não, você passou sua infância entre os ferani, aprendendo como percorrer os ermos de forma rápida e discreta.\n\nItens. Lança, manto camuflado (deserto), ração de viagem x10.\n\nBenefício. Você recebe +2 em Fortitude e Furtividade e nas rolagens de dano contra criaturas desprevenidas. Além disso, pode atravessar terrenos difíceis sem sofrer redução em seu deslocamento — se já puder fazer isso por outra habilidade, em vez disso seu deslocamento aumenta em +3m."
+        },
+        {
+          "type": "item",
+          "name": "Verdugo da Morte",
+          "description": "Alguns habitantes de Ojumajele tratavam dos recém-mortos e dos desmortos descontrolados. A imagem de homens trajados de branco, usando colares de contas pretas e empunhando armas cortantes se tornou uma das mais agourentas da savana. Ojumajele não existe mais, mas você mantém viva a tradição dos verdugos, eliminando mortos-vivos e realizando ritos fúnebres.\n\nItens. Água benta x2, cimitarra ou espada longa, símbolo sagrado (Allihanna, Kallyadranoch, Megalokk ou Wynna), T$50 (pagamento por ritos fúnebres realizados).\n\nBenefício. Você se torna treinado em Religião e recebe proficiência com cimitarra e espada longa. Além disso, uma vez por rodada, quando acerta um alvo sangrando ou um morto-vivo com uma arma de corte, você pode gastar 1 PM para causar um dado de dano extra do mesmo tipo."
         }
       ]
     },

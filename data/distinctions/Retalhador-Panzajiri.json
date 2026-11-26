@@ -1,0 +1,30 @@
+{
+    "name": "Retalhador Panzajiri [DB]",
+    "admission": "O candidato deve ser treinado por um retalhador experiente. Como há certo estigma na prática de panzaji em Ubani, encontrar um mestre pode ser difícil: especialmente considerando que a maior parte deles morreu junto com a cidade de Ojumajele.\nExiste um mestre conhecido: Gizachini Ojumajele, o Tio Giz, diretor da Escola de Etiqueta Elemental em Mirandege. Porém, por mais dedicado que esteja a formar uma nova geração de ubaneri, ele é um homem que abandonou a violência. Convencê-lo a reviver as memórias de sua cidade natal perdida para ensinar suas técnicas de morte seria, no mínimo, difícil.\nMesmo depois de ser treinado alguns meses por um mestre, o candidato deve realizar um ritual. Medita com incensos especiais acesos, induzindo um estado de transe hipnótico. Nesse transe, o candidato contempla a própria mortalidade e a severidade do ato de matar. Alguns desistem logo depois de se tornarem aptos. Aqueles que mantêm a perseverança se tornam retalhadores.",
+    "abilities": [
+        {
+            "name": "Instinto Assassino",
+            "description": "Você recebe +2 em Furtividade e no dano de armas de corte corpo a corpo. Esses bônus aumentam em um para cada dois poderes da distinção que você possuir."
+        },
+        {
+            "name": "Talho Tenebroso",
+            "description": "Quando faz um ataque com uma arma de corte corpo a corpo, você pode gastar 1 PM para causar +1d8 pontos de dano extra de trevas. Esse dado de dano é multiplicado em acertos críticos e aumenta em um passo para cada dois poderes da distinção que você possuir. Além disso, vítimas do seu Talho Tenebroso não podem curar PV por 1 rodada. Pré-requisitos: proficiente com uma arma de corte corpo a corpo marcial, treinado em Furtividade e Luta."
+        },
+        {
+            "name": "Ardil da Lâmina",
+            "description": "Quando faz um um ataque com uma arma de corte corpo a corpo, se fizer um acerto crítico ou acertar um alvo desprevenido, você recebe camuflagem leve por escuridão contra o alvo. Esse efeito dura até o início do seu próximo turno ou até você fazer um ataque contra outro alvo. Pré-requisitos: Talho Tenebroso."
+        },
+        {
+            "name": "Cortar Almas",
+            "description": "Quando usa Talho Tenebroso, você ignora redução de dano e imunidade contra corte e trevas, exceto caso o alvo seja imune tanto a corte quanto a trevas. Além disso, quando usa Talho Tenebroso e faz um acerto crítico ou reduz o alvo a 0 PV, você recebe 1 PM temporário para cada poder da distinção. Pré-requisitos: Talho Tenebroso."
+        },
+        {
+            "name": "Mortalha Afiada",
+            "description": "Quando for alvo de um ataque, você pode gastar 1 PM para receber camuflagem leve por escuridão. Se já tinha camuflagem leve, recebe camuflagem total. Se o ataque errar, seu inimigo sofre dano de trevas igual ao seu dano extra de Talho Tenebroso. Pré-requisitos: Talho Tenebroso."
+        },
+        {
+            "name": "Passo Instantâneo",
+            "description": "Você recebe +3m de deslocamento e +2 em Acrobacia. Além disso, quando se move mais de seis metros, você pode gastar 1 PM para escolher um inimigo dentro de uma área com 9m de raio. Você pode fintar contra esse inimigo como uma ação livre, usando Furtividade em vez de Enganação. Pré-requisitos: treinado em Acrobacia, Ardil da Lâmina."
+        }
+    ]
+}

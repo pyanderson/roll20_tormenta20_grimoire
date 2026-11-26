@@ -326,6 +326,18 @@
       "grip": "Leve"
     },
     {
+      "name": "Zipana [DB]",
+      "price": "T$ 500",
+      "damage": "1d4",
+      "critical": "19",
+      "range": "—",
+      "damageType": "Corte",
+      "spaces": "1",
+      "proficiency": "Armas Marciais",
+      "purpose": "Corpo a Corpo",
+      "grip": "Leve"
+    },
+    {
       "name": "Cimitarra",
       "price": "T$ 15",
       "damage": "1d6",

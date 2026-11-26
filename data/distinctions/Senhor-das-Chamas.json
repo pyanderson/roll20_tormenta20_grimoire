@@ -1,0 +1,30 @@
+{
+    "name": "Senhor das Chamas [DB]",
+    "admission": "Tornar-se um senhor das chamas exige longos períodos de treinamento em lugares de clima quente, verdadeiros infernos onde uma pessoa normal não sobreviveria mais que poucos dias. As areias escaldantes de Halak-Tûr são muito próximas de Ubani e costumam ser o local escolhido pelos senhores das chamas ubaneri. Existem, porém, candidatos entre os Escamas Vivas ou mesmo sckharjagar; motivados pelo culto a Sckhar, estes optam pelas regiões vulcânicas do próprio reino e das Montanhas Sanguinárias. A última etapa do treinamento, porém, não pode ser realizada em Arton. As provações levam os candidatos a Pyra, mundo de Thyatis. Lá, o calor faz uma tarde no deserto parecer fresca. Aqueles que sobrevivem à jornada voltam para casa como membros da distinção.",
+    "abilities": [
+        {
+            "name": "Abraço da Chama",
+            "description": "Você tem redução de fogo 10, aumentando em 5 para cada poder da distinção obtido. Também recebe vulnerabilidade a frio. Além disso, você pode alterar a CD dos poderes da distinção para o seu atributo-chave de magias, em vez de Con, caso deseje."
+        },
+        {
+            "name": "Labaredas",
+            "description": "Você pode gastar 1 PM para conceder o encanto flamejante às suas armas empunhadas e ataques desarmados até o final da cena. O dado de dano de fogo extra (d6) e cada dado de dano da bola de fogo (ou da magia homônima, se a tiver aprendido) aumentam em um passo para cada dois outros poderes da distinção: esse é o seu dado de labareda. Quando usa a bola de fogo do encanto flamejante ou a magia homônima, você pode optar por trocar o atributo da CD do teste de resistência para Con. Além disso, ao fazer a ação agredir, você também pode gastar 1 PM para disparar rajadas de fogo. Elas funcionam como uma arma à distância de disparo com alcance curto, causando dano igual a dois dados de labareda. Finalmente, enquanto tiver uma arma flamejante, você pode gastar uma ação de movimento para cauterizar ferimentos e remover a condição sangrando de você ou de outra criatura. Requisitos: treinado em Fortitude e Sobrevivência."
+        },
+        {
+            "name": "Contos nas Cinzas",
+            "description": "Você aprende e pode lançar Augúrio como uma magia simulada, usando cinzas para a adivinhação. Se tiver cinco poderes da distinção, você pode tocar as cinzas de uma criatura ou objeto para lançar Lendas e Histórias como uma magia simulada para obter informações sobre a criatura ou objeto queimados. Caso já tenha aprendido essas magias, seus custos diminuem em –1 PM (cumulativo com outros redutores de custo). Requisito: Labaredas."
+        },
+        {
+            "name": "Em Chamas",
+            "description": "Você pode gastar 2 PM e uma ação de movimento para imolar o próprio corpo. Você fica envolto em chamas, emitindo luz como uma tocha, até o fim da cena. Durante esse período, você recebe deslocamento de voo igual ao seu deslocamento padrão e pode rolar novamente seu dado de labareda se obtiver um resultado 1 ou 2. Além disso, qualquer criatura que comece seu turno a 1,5m de você sofre dano de fogo igual ao seu dado de labareda e fica em chamas (Reflexos CD Con evita o dano e a condição). Requisito: Labaredas."
+        },
+        {
+            "name": "Moldar Fogo",
+            "description": "Você pode lançar Explosão de Chamas e Bola de Fogo como magias simuladas. Se tiver cinco poderes da distinção, também pode lançar Muralha Elemental (somente fogo) como uma magia simulada. Caso já tenha aprendido essas magias, seus custos diminuem em –1 PM (cumulativo com outros redutores de custo). Requisito: Labaredas."
+        },
+        {
+            "name": "Obliterar",
+            "description": "Quando causa dano de fogo, você pode gastar PM para aumentar esse dano. Cada PM gasto aumenta o dano em um dado extra do mesmo tipo, limitado pela quantidade de poderes da distinção que possui. Você também pode gastar +1 PM para ignorar redução de fogo e +3 PM para ignorar imunidade a fogo. Requisito: Labaredas."
+        }
+    ]
+}

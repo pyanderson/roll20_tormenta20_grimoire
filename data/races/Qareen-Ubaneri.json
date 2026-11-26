@@ -1,0 +1,33 @@
+{
+  "name": "Qareen Ubaneri [DB]",
+  "displacement": 9,
+  "size": "Médio",
+  "attributes": [
+    {
+      "attr": "sab",
+      "mod": 1
+    },
+    {
+      "attr": "any",
+      "mod": 1
+    },
+    {
+      "attr": "any",
+      "mod": 1
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Linhagem Kipane",
+      "description": "Você herdou um talento da sua ancestral que derrotou uma dracofera primordial.\n• Água. Como sua ancestral que driblou o kraken Kivulisi, você tem movimentos fluidos e ágeis. Recebe +2 em Acrobacia e, uma vez por rodada, pode gastar 1 PM para se mover 6m como uma ação livre.\n• Ar. Como sua ancestral que perseguiu o roca Mirandege, você tem sentidos aguçados e paciência considerável. Recebe +2 em Percepção, +2 em testes em que escolhe 10 e +5 em testes para manter a concentração em magias.\n• Fogo. Como sua ancestral que fez a salamandra Ejotó rir, você tem senso de humor afiado. Recebe +2 em Diplomacia e causa 1 ponto de dano adicional para cada dado de dano psíquico.\n• Luz. Como sua ancestral que fez companhia ao unicórnio Darandaran, você trabalha bem em equipe. Recebe +2 em Cavalgar e aumenta o bônus de parceiro em 1. Se seu parceiro concede mais de um bônus, escolha um deles para aumentar (se fornece bônus em perícia, aumente em +1; se fornece bônus em rolagens de dano, aumente em +1; se fornece bônus na Defesa, aumente em +1; etc.).\n• Terra. Como sua ancestral que superou o bulette Ardile em força bruta, você tem um físico robusto. Recebe +2 em Atletismo e manobras de combate.\n• Trevas. Como sua ancestral que emboscou o basilisco Ojumajele, você é esquivo. Recebe +2 em Furtividade e testes de resistência contra venenos."
+    },
+    {
+      "name": "Resistência Elemental",
+      "description": "Conforme sua ascendência, você recebe redução 10 a um tipo de dano. Escolha uma: frio (qareen da água), eletricidade (do ar), fogo (do fogo), ácido (da terra), luz (da luz) ou trevas (qareen das trevas)."
+    },
+    {
+      "name": "Tatuagem Mística",
+      "description": "Você pode lançar uma magia de 1º círculo a sua escolha (atributo-chave Carisma). Caso aprenda novamente essa magia, seu custo diminui em –1 PM."
+    }
+  ]
+}
